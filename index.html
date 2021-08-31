@@ -5,7 +5,7 @@
         <title>Comité Santé Liberté Vendée</title>
 <style>
 body {
-  margin: 20px;
+  margin: 0 20px;
   font-family: "Trebuchet MS", arial, helvetica, sans-serif;
   line-height: 1.5;
   font-size: 1.2em;
@@ -53,70 +53,13 @@ div#preview {
   grid-template-rows: auto;
   grid-template-areas:     
      "grid-bandeau grid-bandeau grid-bandeau"
+     "grid-menu grid-menu grid-menu"
      "grid-contact grid-presentation logo-comite"
      "grid-objectifs grid-charte grid-creation"
      "grid-moyens logo-terre grid-valeurs"
      "grid-flyer grid-flyer grid-flyer";
   column-gap: 20px;
   row-gap: 25px;
-}
-@media only screen and (max-width: 900px) {
-  div#preview {
-    display: grid;    
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "grid-bandeau grid-bandeau"
-      "logo-comite grid-presentation"
-      "grid-objectifs grid-contact"
-      "grid-creation grid-charte"
-      "grid-moyens logo-terre"
-      "grid-valeurs grid-valeurs"
-      "grid-flyer grid-flyer";
-    column-gap: 20px;
-    row-gap: 25px;
-  }
-  div#valeurs {
-    padding: 20px;
-  }    
-}
-@media only screen and (max-width: 600px) {
-  div#preview {
-    display: grid;    
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "grid-bandeau"
-      "logo-comite"
-      "grid-presentation"
-      "grid-contact"
-      "grid-objectifs"
-      "grid-charte"
-      "grid-creation"
-      "grid-moyens"
-      "logo-terre"
-      "grid-valeurs"
-      "grid-flyer";
-    padding: 20px;
-  }  
-}
-@media print {
-  div#preview {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "logo-comite"
-      "grid-presentation"
-      "grid-contact"
-      "grid-objectifs"
-      "grid-charte"
-      "grid-creation"
-      "grid-moyens"
-      "logo-terre"
-      "grid-valeurs";
-    padding: 20px;
-  }  
 }
 div#bandeau {
   grid-area: grid-bandeau;
@@ -139,6 +82,39 @@ div.communique span {
 span.important {
   color: #ff0000 !important;
   font-variant: normal !important;  
+}
+div#menu {
+  grid-area: grid-menu;
+  display: grid;  
+  grid-template-columns: 1fr;
+}
+div#buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+div#buttons div.rubrique {
+  border-radius:8px;  
+  padding: 0 20px;
+  color: #444;
+  border: solid 2px #1c3d5e;
+  background-color: #1c3d5e;
+  color: white;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 1.2em;
+  margin: 10px;
+}
+div.rubrique p {
+  margin: 0;
+  padding: 4px 2px;
+}
+div.rubrique a {
+  color: #EEE;
+}
+div.rubrique.on {
+  background-color: white ! important;
+  color: #1c3d5e ! important;
 }
 div#flyer {
   grid-area: grid-flyer;
@@ -213,6 +189,70 @@ p.copyright {
   color: gray;
   font-size: 8px;
 }
+@media only screen and (max-width: 900px) {
+  div#preview {
+    display: grid;    
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "grid-bandeau grid-bandeau"
+      "grid-menu grid-menu"      
+      "logo-comite grid-presentation"
+      "grid-objectifs grid-contact"
+      "grid-creation grid-charte"
+      "grid-moyens logo-terre"
+      "grid-valeurs grid-valeurs"
+      "grid-flyer grid-flyer";
+    column-gap: 20px;
+    row-gap: 25px;
+  }
+  div#valeurs {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  div#buttons {
+    flex-flow: column wrap;
+    width: 100%;
+  }  
+  div#preview {
+    display: grid;    
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "grid-bandeau"
+      "grid-menu"
+      "logo-comite"
+      "grid-presentation"
+      "grid-contact"
+      "grid-objectifs"
+      "grid-charte"
+      "grid-creation"
+      "grid-moyens"
+      "logo-terre"
+      "grid-valeurs"
+      "grid-flyer";
+    padding: 20px;
+  }
+}
+@media print {
+  div#preview {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "logo-comite"
+      "grid-presentation"
+      "grid-contact"
+      "grid-objectifs"
+      "grid-charte"
+      "grid-creation"
+      "grid-moyens"
+      "logo-terre"
+      "grid-valeurs";
+    padding: 20px;
+  }
+}
 </style>
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {
@@ -226,20 +266,36 @@ p.copyright {
     // }
     n = document.getElementById('mail1');
     n.href = mto + m1;
-    n.textContent = m1;
-    n = document.getElementById('mail2');
-    n.href = mto + m2;
-    n.textContent = m2;
+    n.textContent = m1;    
   });
 </script>
     </head>
     <body>
       <div id="preview">
-        <!-- <div id="bandeau">
-          <div class="communique">
+        <div id="bandeau">
+          <!-- <div class="communique">
+                      <p><span>Communiqué</span> Rejoignez-nous ce vendredi 13 août 2021 à partir de 18H30 aux Herbiers, pour un Happy apéro / pique-nique, contactez-nous à l'adresse ci-dessous pour les détails</p>
+                    </div> -->
+          <!--     <div class="communique">
             <p><span>Communiqué</span> Rejoignez-nous ce vendredi 23 juillet 2021 à partir de 18H30 à Challans, pour un Happy apéro / pique-nique, nous contacter à l'adresse ci-dessous pour les détails</p>
           </div>
-        </div> -->
+        -->
+          <!-- <div class="communique">
+            <p><span>Communiqué</span> Rejoignez-nous vendredi 27 août 2021, pour un Happy apéro / pique-nique :</p>
+            <ul>
+              <li>à partir de 18h à la Roche Sur Yon, Parc des Oudairies, à côté du château</li>
+              <li>à partir de 18h30 aux Herbiers, parc du Landreau</li>
+            </ul>
+            <p>Nous contacter à l'adresse ci-dessous pour les détails.</p>
+          </div> -->
+        </div>
+        
+        <div id="menu">
+          <div id="buttons">
+            <div class="rubrique on"><p>Manifeste</p></div>
+            <div class="rubrique"><p><a href="annuaire.html">Annuaire</a></p></div>
+          </div>
+        </div>
         
         <div id="logo">
           <p class="image"><img src="img/logo.gif"/></p>
@@ -251,10 +307,10 @@ p.copyright {
         <!-- ==== presentation -->
         <div id="presentation" class="border">
           <h2>Comité Santé Liberté Vendée</h2>
-          <h3>Traitements et prévention COVID</h3>
-          <p>La <a href="https://stopcovid19.today">Coordination Santé Libre</a> donne des clefs pour les <a href="https://stopcovid19.today/coordination-sante-libre/">traitements précoces</a> contre le COVID ainsi que sa prévention.
-          <h3>Réinformation santé et liberté</h3>
-            <p>Le comité santé liberté vendée s’appuie sur des réseaux nationaux : <a href="https://bonsens.info">Bon Sens</a>, <a href="https://reinfocovid.fr"/>RéinfoCovid</a> et <a href="https://manifestes-libertes.org">Le manifeste "La quatrième voie"</a> (30 000 médecins), <a href="https://enfance-libertes.fr">Enfance &amp; Liberté</a>, <a href="https://reaction19.fr/">Reaction19</a>.</p>
+          <!-- <h3>Traitements et prévention COVID</h3>
+          <p>La <a href="https://stopcovid19.today">Coordination Santé Libre</a> donne des clefs pour les <a href="https://stopcovid19.today/coordination-sante-libre/">traitements précoces</a> contre le COVID ainsi que sa prévention (<i>le site semble inaccessible</i>).</p>
+          <h3>Réinformation santé et liberté</h3> -->
+            <p>Le comité santé liberté vendée s’appuie sur des réseaux nationaux: <a href="https://bonsens.info">Bon Sens</a>, <a href="https://covid.fr"/>RéinfoCovid</a> et <a href="https://manifestes-libertes.org">Le manifeste "La quatrième voie"</a> (30 000 médecins), <a href="https://enfance-libertes.fr">Enfance &amp; Liberté</a>, <a href="https://reaction19.fr/">Reaction19</a>.</p>
           <p>Il dispose d’articles et de témoignages scientifiques dénués de tout conflit d’intérêt, afin de sortir d’une vérité unique, s’appuyer sur notre bon sens et ainsi retrouver nos propres repères pour traverser cette période sereinement.</p>        
           <p>Ensemble, dans un esprit démocratique, se retrouver est une force pour développer notre libre-arbitre et favoriser notre santé.</p>
           <ul>
@@ -269,11 +325,7 @@ p.copyright {
           <div id="contact">
             <p>Pour nous rejoindre, il suffit d’adhérer gratuitement à notre charte en adressant un message avec vos coordonnées à :</p>
             <p class="media">
-              <a id="mail1">contact@comitesantelibertevendee.fr</a>
-            </p>
-            <p style="text-align:center; font-size: 0.7em">ou bien</p>
-            <p class="media">
-              <a id="mail2">comitesantelibertevendee@gmail.com</a>
+              <a id="mail1">mail1</a>
             </p>
             <p>Suivez nous également sur :</p>
             <p class="media"><img src="img/telegram.png" width="24px"/>demandez une invitation lors de votre adhésion</p>
@@ -347,7 +399,7 @@ p.copyright {
       
       <!-- ==== valeurs -->
       <div id="flyer">
-        <p><a href="docs/Flyer-CSLV-juillet-2021-rv.pdf">version imprimable pour diffusion</href> (bien mettre l'échelle à 100% avant d'imprimer)</p>
+        <p><a href="docs/Flyer-CSLV-aout-2021-rv.pdf">version imprimable pour diffusion</href> (bien mettre l'échelle à 100% avant d'imprimer)</p>
       </div>      
     </body>
 </html>

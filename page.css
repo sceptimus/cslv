@@ -1,0 +1,143 @@
+body {
+  margin: 0 20px;
+  font-family: "Trebuchet MS", arial, helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 1.2em;
+}  
+a {
+  text-decoration: none;
+  color: #ff0000;
+}
+a#mail, a#telegram {
+  color: black;
+}
+h2, h3 {
+  text-align: center;
+  color: #ff0000;
+}
+div#logo {
+  text-align: center;
+}
+p.image {
+  text-align: center;
+} 
+li {
+ display : list-item;
+ list-style-image : url(img/puce.gif);
+ margin-bottom: 8px;
+} 
+p.media {
+  font-size: 80%;
+  text-align: center;
+  line-height: 1;
+}
+p.media a {
+  color: black;
+}
+p.media img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+div#preview {
+  display: grid;    
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "grid-bandeau"
+    "grid-menu"
+    "grid-content"
+    "grid-logo";
+  padding: 20px;      
+}
+div#bandeau {
+  grid-area: grid-bandeau;
+}
+div.communique {
+  font-size: 1em;
+  background-color: #ccffff;
+  box-shadow: 10px 10px 8px #CCC;
+  border-radius:8px;  
+  padding: 0 20px;
+  color: #444;
+  border: solid 1px blu;
+}
+div.communique span {
+  color: black;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+span.important {
+  color: #ff0000 !important;
+  font-variant: normal !important;  
+}
+div#menu {
+/*  grid-area: grid-menu;
+  display: grid;
+  grid-template-columns: 1fr;
+*/}
+div#buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+div#buttons div.rubrique {
+  border-radius:8px;  
+  padding: 0 20px;
+  color: #444;
+  border: solid 2px #1c3d5e;
+  background-color: #1c3d5e;
+  color: white;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 1.2em;
+  margin: 10px;
+}
+div.rubrique p {
+  margin: 0;
+  padding: 4px 2px;
+}
+div.rubrique a {
+  color: #EEE;
+}
+div.rubrique.on {
+  background-color: white ! important;
+  color: #1c3d5e ! important;
+}
+div#content {
+  grid-area: grid-content;
+}
+div#logo {
+  grid-area: grid-logo;
+}
+div#logo img {
+  max-width: 100px;
+}
+div#border {
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px;
+}
+p.copyright {
+  position: relative;
+  top: -10%;
+  left: 10%;
+  color: gray;
+  font-size: 8px;
+}
+@media only screen and (max-width: 900px) {
+}
+@media only screen and (max-width: 600px) {
+  div#buttons {
+    flex-flow: column wrap;
+  }  
+}
+@media print {
+  div#preview {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "grid-content"
+  }  
+}
