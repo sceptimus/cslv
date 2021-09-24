@@ -2,7 +2,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée" />
-        <title>Comité Santé Liberté Vendée</title>
+        <title>Comité Santé Liberté Vendée Accueil</title>
 <style>
 body {
   margin: 0 20px;
@@ -78,6 +78,26 @@ div.communique span {
   font-variant: small-caps;
   font-size: 1.5em;
   margin-right: 20px;
+}
+div.cri {
+  font-size: 1em;
+  background-color: #eee;
+  box-shadow: 10px 10px 8px #CCC;
+  border-radius:8px;  
+  padding: 0 20px;
+  color: #444;
+  border: solid 1px blu;
+  line-height: 1.1;
+  font-size: 0.9em;
+}
+div.cri span {
+  color: black;
+  font-variant: small-caps;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+div.cri p {
+  margin: 0 0 8px 0;
 }
 span.important {
   color: #ff0000 !important;
@@ -259,20 +279,67 @@ p.copyright {
     var s = window.location.href.toString(),
         n, mto = 'mailto:', base = '@',
         m1 = "contact" + base + "comitesantelibertevendee.fr",
-        m2 = "comitesantelibertevendee" + base + "gmail.com";
+        m2 = "telegram" + base + "comitesantelibertevendee.fr",
     // if (s.endsWith('preview')) {
     //   document.getElementById('splash').style.display = "none";
     //   document.getElementById('preview').style.display = "grid";
     // }
     n = document.getElementById('mail1');
     n.href = mto + m1;
-    n.textContent = m1;    
+    n.textContent = m1;
+    n = document.getElementById('mail2');
+    n.href = mto + m2 + '?subject=Inscription%20telegram%20CSLV';
+    n.textContent = m2;        
   });
 </script>
     </head>
     <body>
       <div id="preview">
+        
         <div id="bandeau">
+          <div class="cri">
+            <p><span>Cri du coeur</span> texte publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a></p>
+            <blockquote>
+              <p>Ce matin la France se réveille comme hier… et pourtant…</p>
+              <p>La France qui, il y a un an, applaudissait généreusement ses soignants aux fenêtres les a lâchement abandonnés hier.
+  Qui en parle ? Qui s’émeut ?</p>
+              <p>On a lâché des amis, des frères, des voisins …, médecins, dentistes, ostéopathes, sage-femmes, aides-soignantes, pompiers… et tant… et souvent les meilleurs.</p>
+              <p>Pardon à vous tous…</p>
+              <p>Nous pourrons acheter nos légumes au marché et serrer la main de notre fleuriste mais plus celle de notre médecin traitant…</p>
+              <p>Nous pourrons nous entasser dans le métro mais pas voir notre amie sage-femme libérale…</p>
+              <p>Mais la France vit, danse, va au resto, tout va bien, tout va bien…</p>
+              <p>Vaccinés ??  Ce vaccin est censé nous protéger alors quel aveu plus grand d’inefficacité que de prétendre que ce vaccin ne nous protègerait plus une fois passée la porte de notre dentiste ? A moins qu’il ne nous protège pas du tout en fait ? 
+              Et s’il ne protège pas vraiment, alors rendons-le obligatoire!</p>
+              <p>Tout va bien, tout va bien…</p>
+              <p>Ils n’ont pas voulu de cette piqûre, ils sont devenus les indésirables, les dangereux, les « suspendus ».</p>
+              <p>Suspendu, oui, ce pays est suspendu à un fil, le fil ténu de la liberté…</p>
+              <p>Où êtes-vous les jeunes épris de liberté ?</p>
+              <p>Où êtes-vous les syndicats défenseurs des droits ?</p>
+              <p>Où êtes-vous les associations vent debout contre toutes les discriminations ?</p>
+              <p>Où êtes-vous les partis politiques au service de vos concitoyens ?</p>
+              <p>Où êtes-vous enfin les Eglises au chevet de vos fidèles ?</p>
+              <p>Mais la France vit, danse, va au resto, tout va bien, tout va bien…</p>
+              <p>La France devient-elle une maison de passe… ?</p>
+              <p>Un virus de facilité, de lâcheté, de passivité bien plus grave se répand. </p>
+              <p>Mais la France vit, danse, va au resto, boit des coronas…</p>
+              <p>Tout va bien, tout va bien…</p>
+              <p>Amis soignants, pardon.</p>
+            </blockquote>
+          </div>
+          <!-- <div class="communique">
+            <p><span>Communiqué</span> Invitation aux parents et aux adultes concernés par la vie de nos enfants et des enseignants dans les différents établissements scolaires à se rencontrer <span style="font-weight:strong">Vendredi 9 septembre à 18h30</span> à la Vallée Verte à la Roche Sur Yon (à côté de la Maison de quartier, aux espaces BBQ).</p>
+            <p>Déroulement</p>
+            <ul>
+              <li>Partage des informations et proposition d’actions coordonnées</li>
+              <li>Pique-nique partagé pour nous réjouir et soutenir mutuellement</li>
+              <li>Mise en pratique par petits groupes pour ceux qui le souhaitent</li>
+              <li>Calendrier pour les semaines à venir</li>
+            </ul>
+          </div> -->
+          <!-- <div class="communique">
+                      <p><span>Communiqué</span> Rejoignez-nous ce vendredi 3 septembre 2021 à partir de 18H à la Roche Sur Yon, près du CHD, rendez-vous sur le parking de Super U, contactez-nous à l'adresse de contact ci-dessous pour les détails</p>
+          </div> -->
+          
           <!-- <div class="communique">
                       <p><span>Communiqué</span> Rejoignez-nous ce vendredi 13 août 2021 à partir de 18H30 aux Herbiers, pour un Happy apéro / pique-nique, contactez-nous à l'adresse ci-dessous pour les détails</p>
                     </div> -->
@@ -294,6 +361,10 @@ p.copyright {
           <div id="buttons">
             <div class="rubrique on"><p>Manifeste</p></div>
             <div class="rubrique"><p><a href="annuaire.html">Annuaire</a></p></div>
+            <div class="rubrique"><p><a href="evenements.html">Ateliers</a></p></div>
+            <div class="rubrique"><p><a href="videos.html">Videos</a></p></div>
+            <div class="rubrique"><p><a href="outils.html">Boite à outils</a></p></div>
+            <div class="rubrique"><p><a href="nocomment.html">No Comment</a></p></div>
           </div>
         </div>
         
@@ -323,12 +394,12 @@ p.copyright {
         <div id="chapo" class="border">
           <p class="image"><img src="img/branches.gif"/></p>
           <div id="contact">
-            <p>Pour nous rejoindre, il suffit d’adhérer gratuitement à notre charte en adressant un message avec vos coordonnées à :</p>
+            <p>Pour nous rejoindre et recevoir nos annonces par courrier électronique, adhérez gratuitement à notre charte en adressant un message avec vos coordonnées à:</p>
             <p class="media">
               <a id="mail1">mail1</a>
             </p>
-            <p>Suivez nous également sur :</p>
-            <p class="media"><img src="img/telegram.png" width="24px"/>demandez une invitation lors de votre adhésion</p>
+            <p>Pour participer à nos échanges sur telegram envoyez un message avec vos coordonnées et téléphone à:</p>
+            <p class="media"><img src="img/telegram.png" width="24px"/> <a id="mail2">mail2</a></p>
             <p class="media" style="font-size:0.66em"> <img src="img/facebook.png" width="24px"/><a href="https://www.facebook.com/comite.santelibertevendee">comite.santelibertevendee</a></p>
           </div>
         </div>

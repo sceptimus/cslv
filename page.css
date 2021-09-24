@@ -4,6 +4,20 @@ body {
   line-height: 1.5;
   font-size: 1.2em;
 }  
+p.nocomment {
+  text-align: center;
+  margin: 30px 0;
+}
+p.nocomment img {
+  max-width: 100%;
+}
+a.source {
+ color: black; 
+ margin: 0;
+ padding: 0;
+ font-size: 75%;
+ font-family: "Palatino", arial, helvetica, sans-serif;
+}
 a {
   text-decoration: none;
   color: #ff0000;
@@ -11,9 +25,15 @@ a {
 a#mail, a#telegram {
   color: black;
 }
-h2, h3 {
+h1 {
   text-align: center;
+}
+h1, h2, h3 {
   color: #ff0000;
+  line-height: 1.1;
+}
+h3 {
+  text-decoration: underline;
 }
 div#logo {
   text-align: center;
@@ -140,4 +160,35 @@ p.copyright {
     grid-template-areas:
       "grid-content"
   }  
+}
+blockquote {
+  margin-left: 2 em;
+  padding-left: 1em;
+  border-left: solid 5px #CCC;
+  font-style: italic;
+  font-size: 0.9em;
+}
+span.outil {
+  display: inline-block;
+  margin: 2px 8px 2px 0px;
+  font-size: 0.8em;
+  background: #65439b;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+div.border {
+    padding: 10px 50px 30px 20px;
+    display: block;
+    font-size: 1em;
+    line-height: 140%;
+    position: relative;
+    color: #333;
+    text-align: justify;
+    border-radius: 6px;
+    margin-top: 20px;    
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px #00000036;
+    overflow: hidden;
 }
