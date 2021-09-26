@@ -1,0 +1,312 @@
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée" />
+        <title>Comité Santé Liberté Vendée Accueil</title>
+<style>
+body {
+  margin: 0 20px;
+  font-family: "Trebuchet MS", arial, helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 1.2em;
+}  
+a {
+  text-decoration: none;
+  color: #ff0000;
+}
+a#mail, a#telegram {
+  color: black;
+}
+h2, h3 {
+  text-align: center;
+  color: #ff0000;
+}
+div#logo h2 {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 20% 10%;
+  color: #ff3333;
+}
+p.image {
+  text-align: center;
+} 
+li {
+ display : list-item;
+ list-style-image : url(img/puce.gif);
+ margin-bottom: 8px;
+} 
+p.media {
+  font-size: 80%;
+  text-align: center;
+  line-height: 1;
+}
+p.media a {
+  color: black;
+}
+p.media img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+div#preview {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:     
+     "grid-bandeau grid-bandeau grid-bandeau"
+     "grid-menu grid-menu grid-menu"
+     "grid-contact grid-presentation logo-comite"
+     "grid-objectifs grid-charte grid-creation"
+     "grid-moyens logo-terre grid-valeurs"
+     "grid-flyer grid-flyer grid-flyer";
+  column-gap: 20px;
+  row-gap: 25px;
+}
+div#bandeau {
+  grid-area: grid-bandeau;
+}
+div.communique {
+  font-size: 1em;
+  background-color: #ccffff;
+  box-shadow: 10px 10px 8px #CCC;
+  border-radius:8px;  
+  padding: 0 20px;
+  color: #444;
+  border: solid 1px blu;
+}
+div.communique span {
+  color: black;
+  font-variant: small-caps;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+div.cri {
+  font-size: 1em;
+  background-color: #eee;
+  box-shadow: 10px 10px 8px #CCC;
+  border-radius:8px;  
+  padding: 0 20px;
+  color: #444;
+  border: solid 1px blu;
+  line-height: 1.1;
+  font-size: 0.9em;
+}
+div.cri span {
+  color: black;
+  font-variant: small-caps;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+div.cri p {
+  margin: 0 0 8px 0;
+}
+span.important {
+  color: #ff0000 !important;
+  font-variant: normal !important;  
+}
+div#menu {
+  grid-area: grid-menu;
+  display: grid;  
+  grid-template-columns: 1fr;
+}
+div#buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+div#buttons div.rubrique {
+  border-radius:8px;  
+  padding: 0 20px;
+  color: #444;
+  border: solid 2px #1c3d5e;
+  background-color: #1c3d5e;
+  color: white;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 1.2em;
+  margin: 10px;
+}
+div.rubrique p {
+  margin: 0;
+  padding: 4px 2px;
+}
+div.rubrique a {
+  color: #EEE;
+}
+div.rubrique.on {
+  background-color: white ! important;
+  color: #1c3d5e ! important;
+}
+div#flyer {
+  grid-area: grid-flyer;
+}
+div#flyer p {
+  text-align: center;
+  font-size: 0.75em;
+}
+div#flyer a {
+  font-size: 1em;
+  color: black;
+}
+div#logo {
+  grid-area: logo-comite;  
+}
+div#terre {
+  grid-area: logo-terre;  
+}
+div#chapo img {
+  max-width: 50%;  
+}
+div#logo img {
+  margin-top: 40px;
+  max-width: 60%;
+}
+div#creation img {
+  max-width: 80%;
+}
+div#terre img {
+  max-width: 100%;
+}
+div#chapo {
+  grid-area: grid-contact;
+  padding: 20px;
+}
+div#contact {
+  font-size: 1em;
+  padding: 10px;
+  background-color: #f0d3dc;
+  box-shadow: 10px 10px 8px #CCC;
+  border-radius:8px;
+}
+div#presentation {
+  grid-area: grid-presentation;
+}
+div#objectifs {
+  grid-area: grid-objectifs;  
+}
+div#moyens {
+  grid-area: grid-moyens;
+}
+div#charte {
+  grid-area: grid-charte;    
+}
+div#creation {
+  grid-area: grid-creation;
+  text-align: center;
+  margin: 10%;
+}
+div#valeurs {
+  grid-area: grid-valeurs;
+}  
+div#border {
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px;
+}
+p.copyright {
+  position: relative;
+  top: -10%;
+  left: 10%;
+  color: gray;
+  font-size: 8px;
+}
+@media only screen and (max-width: 900px) {
+  div#preview {
+    display: grid;    
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "grid-bandeau grid-bandeau"
+      "grid-menu grid-menu"      
+      "logo-comite grid-presentation"
+      "grid-objectifs grid-contact"
+      "grid-creation grid-charte"
+      "grid-moyens logo-terre"
+      "grid-valeurs grid-valeurs"
+      "grid-flyer grid-flyer";
+    column-gap: 20px;
+    row-gap: 25px;
+  }
+  div#valeurs {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  div#buttons {
+    flex-flow: column wrap;
+    width: 100%;
+  }  
+  div#preview {
+    display: grid;    
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "grid-bandeau"
+      "grid-menu"
+      "logo-comite"
+      "grid-presentation"
+      "grid-contact"
+      "grid-objectifs"
+      "grid-charte"
+      "grid-creation"
+      "grid-moyens"
+      "logo-terre"
+      "grid-valeurs"
+      "grid-flyer";
+    padding: 20px;
+  }
+}
+@media print {
+  div#preview {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "logo-comite"
+      "grid-presentation"
+      "grid-contact"
+      "grid-objectifs"
+      "grid-charte"
+      "grid-creation"
+      "grid-moyens"
+      "logo-terre"
+      "grid-valeurs";
+    padding: 20px;
+  }
+}
+</style>
+    </head>
+    <body>
+          <div class="cri">
+            <p><span>Cri du coeur</span> texte publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a>
+            <a href="index.html" style="float:right">Retour au site</a>
+            </p>
+            <blockquote>
+              <p>Ce matin la France se réveille comme hier… et pourtant…</p>
+              <p>La France qui, il y a un an, applaudissait généreusement ses soignants aux fenêtres les a lâchement abandonnés hier.
+  Qui en parle ? Qui s’émeut ?</p>
+              <p>On a lâché des amis, des frères, des voisins …, médecins, dentistes, ostéopathes, sage-femmes, aides-soignantes, pompiers… et tant… et souvent les meilleurs.</p>
+              <p>Pardon à vous tous…</p>
+              <p>Nous pourrons acheter nos légumes au marché et serrer la main de notre fleuriste mais plus celle de notre médecin traitant…</p>
+              <p>Nous pourrons nous entasser dans le métro mais pas voir notre amie sage-femme libérale…</p>
+              <p>Mais la France vit, danse, va au resto, tout va bien, tout va bien…</p>
+              <p>Vaccinés ??  Ce vaccin est censé nous protéger alors quel aveu plus grand d’inefficacité que de prétendre que ce vaccin ne nous protègerait plus une fois passée la porte de notre dentiste ? A moins qu’il ne nous protège pas du tout en fait ? 
+              Et s’il ne protège pas vraiment, alors rendons-le obligatoire!</p>
+              <p>Tout va bien, tout va bien…</p>
+              <p>Ils n’ont pas voulu de cette piqûre, ils sont devenus les indésirables, les dangereux, les « suspendus ».</p>
+              <p>Suspendu, oui, ce pays est suspendu à un fil, le fil ténu de la liberté…</p>
+              <p>Où êtes-vous les jeunes épris de liberté ?</p>
+              <p>Où êtes-vous les syndicats défenseurs des droits ?</p>
+              <p>Où êtes-vous les associations vent debout contre toutes les discriminations ?</p>
+              <p>Où êtes-vous les partis politiques au service de vos concitoyens ?</p>
+              <p>Où êtes-vous enfin les Eglises au chevet de vos fidèles ?</p>
+              <p>Mais la France vit, danse, va au resto, tout va bien, tout va bien…</p>
+              <p>La France devient-elle une maison de passe… ?</p>
+              <p>Un virus de facilité, de lâcheté, de passivité bien plus grave se répand. </p>
+              <p>Mais la France vit, danse, va au resto, boit des coronas…</p>
+              <p>Tout va bien, tout va bien…</p>
+              <p>Amis soignants, pardon.</p>
+            </blockquote>
+          </div>
+    </body>
+</html>
+
