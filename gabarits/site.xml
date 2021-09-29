@@ -1,0 +1,9 @@
+<Site>
+  <Page File="index">Manifeste</Page>
+  <Page File="annuaire">Annuaire</Page>
+  <Page File="evenements">Annonces</Page>
+  <Page File="videos">Videos</Page>
+  <Page File="outils">Outils</Page>
+  <Page File="nocomment">Montages</Page>
+  <Page File="biblio">Lecture</Page>
+</Site>

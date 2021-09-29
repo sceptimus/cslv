@@ -1,0 +1,17 @@
+<Bibliotheque>
+    <Rubriques>
+        <Rubrique>
+            <Tag>faq</Tag>
+            <Titre>Questions courantes</Titre>
+        </Rubrique>
+    </Rubriques>
+    <Articles>
+        <Article Afficher="oui">
+            <Tag>faq</Tag>
+            <Ajout>29/9/21</Ajout>
+            <Parution>26/9/21</Parution>            <Lien>https://guyboulianne.com/2021/09/26/les-30-faits-vitaux-covid-que-vous-devez-savoir-pour-vous-aider-a-formuler-et-a-soutenir-vos-arguments-avec-des-amis-ou-des-etrangers/</Lien>
+            <Titre>Les 30 faits vitaux COVID que vous devez savoir pour vous aider à formuler et à soutenir vos arguments avec des amis ou des étrangers</Titre>
+            <Auteur>Guy Boulianne</Auteur>
+        </Article>        
+    </Articles>
+</Bibliotheque>

@@ -1,289 +1,15 @@
 <html lang="fr">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée"/>
         <title>Comité Santé Liberté Vendée Accueil</title>
-<style>
-body {
-  margin: 0 20px;
-  font-family: "Trebuchet MS", arial, helvetica, sans-serif;
-  line-height: 1.5;
-  font-size: 1.2em;
-}  
-a {
-  text-decoration: none;
-  color: #ff0000;
-}
-a#mail, a#telegram {
-  color: black;
-}
-h2, h3 {
-  text-align: center;
-  color: #ff0000;
-}
-div#logo h2 {
-  font-size: 1.2em;
-  text-align: center;
-  margin: 20% 10%;
-  color: #ff3333;
-}
-p.image {
-  text-align: center;
-} 
-li {
- display : list-item;
- list-style-image : url(img/puce.gif);
- margin-bottom: 8px;
-} 
-p.media {
-  font-size: 80%;
-  text-align: center;
-  line-height: 1;
-}
-p.media a {
-  color: black;
-}
-p.media img {
-  vertical-align: middle;
-  margin-right: 5px;
-}
-div#preview {
-  display: grid;
-  grid-template-columns: 2fr 3fr 2fr;
-  grid-template-rows: auto;
-  grid-template-areas:     
-     "grid-bandeau grid-bandeau grid-bandeau"
-     "grid-menu grid-menu grid-menu"
-     "grid-contact grid-presentation logo-comite"
-     "grid-objectifs grid-charte grid-creation"
-     "grid-moyens logo-terre grid-valeurs"
-     "grid-flyer grid-flyer grid-flyer";
-  column-gap: 20px;
-  row-gap: 25px;
-}
-div#bandeau {
-  grid-area: grid-bandeau;
-}
-div.communique {
-  font-size: 1em;
-  background-color: #ccffff;
-  box-shadow: 10px 10px 8px #CCC;
-  border-radius:8px;  
-  padding: 0 20px;
-  color: #444;
-  border: solid 1px blu;
-}
-div.communique span {
-  color: black;
-  font-variant: small-caps;
-  font-size: 1.5em;
-  margin-right: 20px;
-}
-div.cri {
-  font-size: 1em;
-  background-color: #eee;
-  box-shadow: 10px 10px 8px #CCC;
-  border-radius:8px;  
-  padding: 0 20px;
-  color: #444;
-  border: solid 1px blu;
-  line-height: 1.1;
-  font-size: 0.9em;
-}
-div.cri span {
-  color: black;
-  font-variant: small-caps;
-  font-size: 1.2em;
-  margin-right: 10px;
-}
-div.cri p {
-  margin: 0 0 8px 0;
-}
-span.important {
-  color: #ff0000 !important;
-  font-variant: normal !important;  
-}
-div#menu {
-  grid-area: grid-menu;
-  display: grid;  
-  grid-template-columns: 1fr;
-}
-div#buttons {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-div#buttons div.rubrique {
-  border-radius:8px;  
-  padding: 0 20px;
-  color: #444;
-  border: solid 2px #1c3d5e;
-  background-color: #1c3d5e;
-  color: white;
-  text-align: center;
-  font-variant: small-caps;
-  font-size: 1.2em;
-  margin: 10px;
-}
-div.rubrique p {
-  margin: 0;
-  padding: 4px 2px;
-}
-div.rubrique a {
-  color: #EEE;
-}
-div.rubrique.on {
-  background-color: white ! important;
-  color: #1c3d5e ! important;
-}
-div#flyer {
-  grid-area: grid-flyer;
-}
-div#flyer p {
-  text-align: center;
-  font-size: 0.75em;
-}
-div#flyer a {
-  font-size: 1em;
-  color: black;
-}
-div#logo {
-  grid-area: logo-comite;  
-}
-div#terre {
-  grid-area: logo-terre;  
-}
-div#chapo img {
-  max-width: 50%;  
-}
-div#logo img {
-  margin-top: 40px;
-  max-width: 60%;
-}
-div#creation img {
-  max-width: 80%;
-}
-div#terre img {
-  max-width: 100%;
-}
-div#chapo {
-  grid-area: grid-contact;
-  padding: 20px;
-}
-div#contact {
-  font-size: 1em;
-  padding: 10px;
-  background-color: #f0d3dc;
-  box-shadow: 10px 10px 8px #CCC;
-  border-radius:8px;
-}
-div#presentation {
-  grid-area: grid-presentation;
-}
-div#objectifs {
-  grid-area: grid-objectifs;  
-}
-div#moyens {
-  grid-area: grid-moyens;
-}
-div#charte {
-  grid-area: grid-charte;    
-}
-div#creation {
-  grid-area: grid-creation;
-  text-align: center;
-  margin: 10%;
-}
-div#valeurs {
-  grid-area: grid-valeurs;
-}  
-div#border {
-  margin: 20px;
-  padding: 10px;
-  border: solid 1px;
-}
-p.copyright {
-  position: relative;
-  top: -10%;
-  left: 10%;
-  color: gray;
-  font-size: 8px;
-}
-@media only screen and (max-width: 900px) {
-  div#preview {
-    display: grid;    
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "grid-bandeau grid-bandeau"
-      "grid-menu grid-menu"      
-      "logo-comite grid-presentation"
-      "grid-objectifs grid-contact"
-      "grid-creation grid-charte"
-      "grid-moyens logo-terre"
-      "grid-valeurs grid-valeurs"
-      "grid-flyer grid-flyer";
-    column-gap: 20px;
-    row-gap: 25px;
-  }
-  div#valeurs {
-    padding: 20px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  div#buttons {
-    flex-flow: column wrap;
-    width: 100%;
-  }  
-  div#preview {
-    display: grid;    
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "grid-bandeau"
-      "grid-menu"
-      "logo-comite"
-      "grid-presentation"
-      "grid-contact"
-      "grid-objectifs"
-      "grid-charte"
-      "grid-creation"
-      "grid-moyens"
-      "logo-terre"
-      "grid-valeurs"
-      "grid-flyer";
-    padding: 20px;
-  }
-}
-@media print {
-  div#preview {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "logo-comite"
-      "grid-presentation"
-      "grid-contact"
-      "grid-objectifs"
-      "grid-charte"
-      "grid-creation"
-      "grid-moyens"
-      "logo-terre"
-      "grid-valeurs";
-    padding: 20px;
-  }
-}
-</style>
-<script type="text/javascript">
+        <link href="index.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {
     var s = window.location.href.toString(),
         n, mto = 'mailto:', base = '@',
         m1 = "contact" + base + "comitesantelibertevendee.fr",
         m2 = "telegram" + base + "comitesantelibertevendee.fr",
-    // if (s.endsWith('preview')) {
-    //   document.getElementById('splash').style.display = "none";
-    //   document.getElementById('preview').style.display = "grid";
-    // }
     n = document.getElementById('mail1');
     n.href = mto + m1;
     n.textContent = m1;
@@ -294,14 +20,12 @@ p.copyright {
 </script>
     </head>
     <body>
-      <div id="preview">
-        
-        <div id="bandeau">
-          <div class="cri" style="margin-top:20px">
-            <p><span>Cri du coeur</span> revoir notre <a href="cri-du-coeur.html">cri</a> publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a> pour le 15 septembre 2021</p>
-            <p><center>Mise à jour du 26 septembre: consultez la page <a href="evenements.html">Événements</a></center></p>
-          </div>
-          <!-- <div class="communique">
+        <div id="preview">
+            <div id="bandeau">
+                <div class="cri" style="margin-top:20px">
+                    <p>
+                        <span>Cri du coeur</span> revoir notre <a href="cri-du-coeur.html">cri</a> publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a> pour le 15 septembre 2021</p>
+                </div><!-- <div class="communique">
             <p><span>Communiqué</span> Invitation aux parents et aux adultes concernés par la vie de nos enfants et des enseignants dans les différents établissements scolaires à se rencontrer <span style="font-weight:strong">Vendredi 9 septembre à 18h30</span> à la Vallée Verte à la Roche Sur Yon (à côté de la Maison de quartier, aux espaces BBQ).</p>
             <p>Déroulement</p>
             <ul>
@@ -310,19 +34,14 @@ p.copyright {
               <li>Mise en pratique par petits groupes pour ceux qui le souhaitent</li>
               <li>Calendrier pour les semaines à venir</li>
             </ul>
-          </div> -->
-          <!-- <div class="communique">
+          </div> --><!-- <div class="communique">
                       <p><span>Communiqué</span> Rejoignez-nous ce vendredi 3 septembre 2021 à partir de 18H à la Roche Sur Yon, près du CHD, rendez-vous sur le parking de Super U, contactez-nous à l'adresse de contact ci-dessous pour les détails</p>
-          </div> -->
-          
-          <!-- <div class="communique">
+          </div> --><!-- <div class="communique">
                       <p><span>Communiqué</span> Rejoignez-nous ce vendredi 13 août 2021 à partir de 18H30 aux Herbiers, pour un Happy apéro / pique-nique, contactez-nous à l'adresse ci-dessous pour les détails</p>
-                    </div> -->
-          <!--     <div class="communique">
+                    </div> --><!--     <div class="communique">
             <p><span>Communiqué</span> Rejoignez-nous ce vendredi 23 juillet 2021 à partir de 18H30 à Challans, pour un Happy apéro / pique-nique, nous contacter à l'adresse ci-dessous pour les détails</p>
           </div>
-        -->
-          <!-- <div class="communique">
+        --><!-- <div class="communique">
             <p><span>Communiqué</span> Rejoignez-nous vendredi 27 août 2021, pour un Happy apéro / pique-nique :</p>
             <ul>
               <li>à partir de 18h à la Roche Sur Yon, Parc des Oudairies, à côté du château</li>
@@ -330,123 +49,147 @@ p.copyright {
             </ul>
             <p>Nous contacter à l'adresse ci-dessous pour les détails.</p>
           </div> -->
-        </div>
-        
-        <div id="menu">
-          <div id="buttons">
-            <div class="rubrique on"><p>Manifeste</p></div>
-            <div class="rubrique"><p><a href="annuaire.html">Annuaire</a></p></div>
-            <div class="rubrique"><p><a href="evenements.html">Événements</a></p></div>
-            <div class="rubrique"><p><a href="videos.html">Videos</a></p></div>
-            <div class="rubrique"><p><a href="outils.html">Boite à outils</a></p></div>
-            <div class="rubrique"><p><a href="nocomment.html">No Comment</a></p></div>
-          </div>
-        </div>
-        
-        <div id="logo">
-          <p class="image"><img src="img/logo.gif"/></p>
-          <h2>Dans le contexte sanitaire et social actuel, le Comité Santé Liberté Vendée a été créé par des citoyens en mars 2021</h2>        
-        </div>
-
-        <div id="terre"><p classe="image"><img src="img/terre.jpg"/></p><p class="copyright">© AdobeStock</p></div>
-      
-        <!-- ==== presentation -->
-        <div id="presentation" class="border">
-          <h2>Comité Santé Liberté Vendée</h2>
-          <!-- <h3>Traitements et prévention COVID</h3>
+            </div>
+            <div id="menu">
+                <div id="buttons">
+                    <div class="rubrique on">
+                        <p>Manifeste</p>
+                    </div>
+                    <div class="rubrique">
+                        <p>
+                            <a href="annuaire.html">Annuaire</a>
+                        </p>
+                    </div>
+                    <div class="rubrique">
+                        <p>
+                            <a href="evenements.html">Annonces</a>
+                        </p>
+                    </div>
+                    <div class="rubrique">
+                        <p>
+                            <a href="videos.html">Videos</a>
+                        </p>
+                    </div>
+                    <div class="rubrique">
+                        <p>
+                            <a href="outils.html">Outils</a>
+                        </p>
+                    </div>
+                    <div class="rubrique">
+                        <p>
+                            <a href="nocomment.html">Montages</a>
+                        </p>
+                    </div>
+                    <div class="rubrique">
+                        <p>
+                            <a href="biblio.html">Lecture</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="logo">
+                <p class="image">
+                    <img src="img/logo.gif"/>
+                </p>
+                <h2>Dans le contexte sanitaire et social actuel, le Comité Santé Liberté Vendée a été créé par des citoyens en mars 2021</h2>
+            </div>
+            <div id="terre">
+                <p classe="image">
+                    <img src="img/terre.jpg"/>
+                </p>
+                <p class="copyright">© AdobeStock</p>
+            </div><!-- ==== presentation -->
+            <div id="presentation" class="border">
+                <h2>Comité Santé Liberté Vendée</h2><!-- <h3>Traitements et prévention COVID</h3>
           <p>La <a href="https://stopcovid19.today">Coordination Santé Libre</a> donne des clefs pour les <a href="https://stopcovid19.today/coordination-sante-libre/">traitements précoces</a> contre le COVID ainsi que sa prévention (<i>le site semble inaccessible</i>).</p>
           <h3>Réinformation santé et liberté</h3> -->
-            <p>Le comité santé liberté vendée s’appuie sur des réseaux nationaux: <a href="https://bonsens.info">Bon Sens</a>, <a href="https://covid.fr"/>RéinfoCovid</a> et <a href="https://manifestes-libertes.org">Le manifeste "La quatrième voie"</a> (30 000 médecins), <a href="https://enfance-libertes.fr">Enfance &amp; Liberté</a>, <a href="https://reaction19.fr/">Reaction19</a>.</p>
-          <p>Il dispose d’articles et de témoignages scientifiques dénués de tout conflit d’intérêt, afin de sortir d’une vérité unique, s’appuyer sur notre bon sens et ainsi retrouver nos propres repères pour traverser cette période sereinement.</p>        
-          <p>Ensemble, dans un esprit démocratique, se retrouver est une force pour développer notre libre-arbitre et favoriser notre santé.</p>
-          <ul>
-            <li>Espace d’information et d’échanges</li>
-            <li>Espace de liberté pour se relier à soi et aux autres</li>
-          </ul>
+                <p>Le comité santé liberté vendée s’appuie sur des réseaux nationaux: <a href="https://bonsens.info">Bon Sens</a>, <a href="https://covid.fr">RéinfoCovid</a> et <a href="https://manifestes-libertes.org">Le manifeste "La quatrième voie"</a> (30 000 médecins), <a href="https://enfance-libertes.fr">Enfance &amp; Liberté</a>, <a href="https://reaction19.fr/">Reaction19</a>.</p>
+                <p>Il dispose d’articles et de témoignages scientifiques dénués de tout conflit d’intérêt, afin de sortir d’une vérité unique, s’appuyer sur notre bon sens et ainsi retrouver nos propres repères pour traverser cette période sereinement.</p>
+                <p>Ensemble, dans un esprit démocratique, se retrouver est une force pour développer notre libre-arbitre et favoriser notre santé.</p>
+                <ul>
+                    <li>Espace d’information et d’échanges</li>
+                    <li>Espace de liberté pour se relier à soi et aux autres</li>
+                </ul>
+            </div><!-- ==== chapo -->
+            <div id="chapo" class="border">
+                <p class="image">
+                    <img src="img/branches.gif"/>
+                </p>
+                <div id="contact">
+                    <p>Pour nous rejoindre et recevoir nos annonces par courrier électronique, adhérez gratuitement à notre charte en adressant un message avec vos coordonnées à:</p>
+                    <p class="media">
+                        <a id="mail1">mail1</a>
+                    </p>
+                    <p>Pour participer à nos échanges sur telegram envoyez un message avec vos coordonnées et téléphone à:</p>
+                    <p class="media">
+                        <img src="img/telegram.png" width="24px"/>
+                        <a id="mail2">mail2</a>
+                    </p>
+                    <p class="media" style="font-size:0.66em">
+                        <img src="img/facebook.png" width="24px"/>
+                        <a href="https://www.facebook.com/comite.santelibertevendee">comite.santelibertevendee</a>
+                    </p>
+                </div>
+            </div><!-- ==== objectifs -->
+            <div id="objectifs" class="border">
+                <h2>Nos objectifs</h2>
+                <ul>
+                    <li>Toucher et rassembler un maximum de personnes</li>
+                    <li>Promouvoir la joie et la bonne humeur (par diverses actions)</li>
+                    <li>Permettre à chacun de retrouver sa liberté et ses droits</li>
+                    <li>Accueillir et informer les personnes en quête de bon sens et de relation</li>
+                    <li>Diffuser de l’information et relayer celle des autres collectifs</li>
+                    <li>Répondre aux besoins de rencontre et partage pour rompre l’isolement et l’exclusion</li>
+                    <li>Promouvoir la santé naturelle et les approches alternatives notamment concernant la prévention covidique.</li>
+                </ul>
+            </div><!-- ==== moyens -->
+            <div id="moyens" class="border">
+                <h2>Moyens</h2>
+                <ul>
+                    <li>Rendre facile l’accès au Comité Santé Liberté Vendée et transmettre de l’information via un site, FB, Telegram, flyer et téléphone, VK</li>
+                    <li>Identifier un réseau de coordinateurs/trices locaux, des groupes géographiques et en diffuser la liste</li>
+                    <li>Organiser des rassemblements réguliers (LRSY)</li>
+                    <li>Organiser des événements locaux (pique-nique, promenade, jeux, etc.)</li>
+                    <li>Réaliser des vidéos, rédiger des textes courts, organiser des conférences</li>
+                </ul>
+            </div><!-- ==== charte  -->
+            <div id="charte" class="border">
+                <h2>CHARTE DE BONNE CONDUITE</h2>
+                <ul>
+                    <li>Je traite l’autre comme je voudrais être traité(e)</li>
+                    <li>Nous prenons soin les uns des autres, car chacun est digne de considération</li>
+                    <li>Je parle en « JE » (ni TU ni ON) et j’accepte qu’il existe des points de vue différents (respect mutuel)</li>
+                    <li>Nous utilisons le bâton de parole comme outil lors de nos réunions</li>
+                    <li>Nous respectons nos différences et la dignité de chacun en étant complémentaires</li>
+                    <li>Nous offrons un cadre de sécurité (confidentialité)</li>
+                    <li>Les photos et vidéos sont diffusées avec l’accord des personnes concernées</li>
+                </ul>
+            </div><!-- === creation -->
+            <div id="creation" class="border">
+                <p class="image">
+                    <img src="img/branches.gif"/>
+                </p>
+            </div><!-- ==== valeurs -->
+            <div id="valeurs" class="border">
+                <h2>Nos valeurs</h2>
+                <p>(Ré)apprendre à exercer notre sens critique</p>
+                <ul>
+                    <li>Adopter recul et discernement, retrouver le sens de la justesse</li>
+                    <li>Être vigilants quand aux sources d’information</li>
+                </ul>
+                <p>Se reconnecter à SOI ; choisir d’être intègre, courageux et positif ; se recentrer pour ressentir</p>
+                <p>Agir de façon bienveillante et apolitique, dans le respect des croyances de chacun, en concertation, en privilégiant l’écoute</p>
+                <ul>
+                    <li>créer les conditions du dialogue en partant des expériences de chacun</li>
+                    <li>et ainsi lever les blocages</li>
+                </ul>
+                <p>Mener les actions en gestion horizontale (pas de chef, mais des coordinateurs)</p>
+                <p>Valoriser les compétences de chacun</p>
+            </div>
+        </div><!-- ==== valeurs -->
+        <div id="flyer">
+            <p>
+                <a href="docs/Flyer-CSLV-aout-2021-rv.pdf">version imprimable pour diffusion</a> (bien mettre l'échelle à 100% avant d'imprimer)</p>
         </div>
-            
-        <!-- ==== chapo -->
-        <div id="chapo" class="border">
-          <p class="image"><img src="img/branches.gif"/></p>
-          <div id="contact">
-            <p>Pour nous rejoindre et recevoir nos annonces par courrier électronique, adhérez gratuitement à notre charte en adressant un message avec vos coordonnées à:</p>
-            <p class="media">
-              <a id="mail1">mail1</a>
-            </p>
-            <p>Pour participer à nos échanges sur telegram envoyez un message avec vos coordonnées et téléphone à:</p>
-            <p class="media"><img src="img/telegram.png" width="24px"/> <a id="mail2">mail2</a></p>
-            <p class="media" style="font-size:0.66em"> <img src="img/facebook.png" width="24px"/><a href="https://www.facebook.com/comite.santelibertevendee">comite.santelibertevendee</a></p>
-          </div>
-        </div>
-
-        <!-- ==== objectifs --> 
-        <div id="objectifs" class="border">
-          <h2>Nos objectifs</h2>
-          <ul>
-            <li>Toucher et rassembler un maximum de personnes</li>
-            <li>Promouvoir la joie et la bonne humeur (par diverses actions)</li>
-            <li>Permettre à chacun de retrouver sa liberté et ses droits</li>
-            <li>Accueillir et informer les personnes en quête de bon sens et de relation</li>
-            <li>Diffuser de l’information et relayer celle des autres collectifs</li>
-            <li>Répondre aux besoins de rencontre et partage pour rompre l’isolement et l’exclusion</li>
-            <li>Promouvoir la santé naturelle et les approches alternatives notamment concernant la prévention covidique.</li>
-          </ul>
-        </div>
-
-        <!-- ==== moyens -->
-        <div id="moyens" class="border">
-          <h2>Moyens</h2>
-          <ul>
-           <li>Rendre facile l’accès au Comité Santé Liberté Vendée et transmettre de l’information via un site, FB, Telegram, flyer et téléphone, VK</li>
-           <li>Identifier un réseau de coordinateurs/trices locaux, des groupes géographiques et en diffuser la liste</li>
-           <li>Organiser des rassemblements réguliers (LRSY)</li>
-           <li>Organiser des événements locaux (pique-nique, promenade, jeux, etc.)</li>
-           <li>Réaliser des vidéos, rédiger des textes courts, organiser des conférences</li>
-          </ul>
-        </div>
-
-        <!-- ==== charte  -->
-        <div id="charte" class="border">
-          <h2>CHARTE DE BONNE CONDUITE</h2>
-          <ul>
-            <li>Je traite l’autre comme je voudrais être traité(e)</li>
-            <li>Nous prenons soin les uns des autres, car chacun est digne de considération</li>
-            <li>Je parle en « JE » (ni TU ni ON) et j’accepte qu’il existe des points de vue différents (respect mutuel)</li>
-            <li>Nous utilisons le bâton de parole comme outil lors de nos réunions</li>
-            <li>Nous respectons nos différences et la dignité de chacun en étant complémentaires</li>
-            <li>Nous offrons un cadre de sécurité (confidentialité)</li>
-            <li>Les photos et vidéos sont diffusées avec l’accord des personnes concernées</li>
-          </ul>
-        </div>
-
-        <!-- === creation -->
-        <div id="creation" class="border">
-          <p class="image"><img src="img/branches.gif"/></p>
-        </div> 
-
-        <!-- ==== valeurs -->
-        <div id="valeurs" class="border">
-          <h2>Nos valeurs</h2>
-          <p>(Ré)apprendre à exercer notre sens critique</p>
-          <ul>
-            <li>Adopter recul et discernement, retrouver le sens de la justesse</li>
-            <li>Être vigilants quand aux sources d’information</li>
-          </ul>
-          <p>Se reconnecter à SOI ; choisir d’être intègre, courageux et positif ; se recentrer pour ressentir</p>
-          <p>Agir de façon bienveillante et apolitique, dans le respect des croyances de chacun, en concertation, en privilégiant l’écoute</p>
-          <ul>
-            <li>créer les conditions du dialogue en partant des expériences de chacun</li>
-            <li>et ainsi lever les blocages</li>
-          </ul>
-          <p>Mener les actions en gestion horizontale (pas de chef, mais des coordinateurs)</p>
-          <p>Valoriser les compétences de chacun</p>
-        </div>      
-      </div>
-      
-      <!-- ==== valeurs -->
-      <div id="flyer">
-        <p><a href="docs/Flyer-CSLV-aout-2021-rv.pdf">version imprimable pour diffusion</href> (bien mettre l'échelle à 100% avant d'imprimer)</p>
-      </div>      
     </body>
 </html>
-
