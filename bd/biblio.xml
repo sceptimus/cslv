@@ -1,17 +1,62 @@
-<Bibliotheque>
-    <Rubriques>
-        <Rubrique>
-            <Tag>faq</Tag>
-            <Titre>Questions courantes</Titre>
-        </Rubrique>
-    </Rubriques>
+<Ressources>
     <Articles>
         <Article Afficher="oui">
             <Tag>faq</Tag>
-            <Ajout>29/9/21</Ajout>
-            <Parution>26/9/21</Parution>            <Lien>https://guyboulianne.com/2021/09/26/les-30-faits-vitaux-covid-que-vous-devez-savoir-pour-vous-aider-a-formuler-et-a-soutenir-vos-arguments-avec-des-amis-ou-des-etrangers/</Lien>
+            <Ajout>2021-09-29</Ajout>
+            <Parution>2021-09-26</Parution>            <Lien>https://guyboulianne.com/2021/09/26/les-30-faits-vitaux-covid-que-vous-devez-savoir-pour-vous-aider-a-formuler-et-a-soutenir-vos-arguments-avec-des-amis-ou-des-etrangers/</Lien>
             <Titre>Les 30 faits vitaux COVID que vous devez savoir pour vous aider à formuler et à soutenir vos arguments avec des amis ou des étrangers</Titre>
             <Auteur>Guy Boulianne</Auteur>
-        </Article>        
+        </Article>
+        <Article Afficher="oui">
+            <Tag>analyse</Tag>
+            <Ajout>2021-10-01</Ajout>
+            <Parution>2012-03-08</Parution>            <Lien>http://myreader.toile-libre.org/uploads/My_61549b0f4852d.pdf</Lien>
+            <Titre>"Contagion" : Comment les films catastrophe "éduquent" les masses</Titre>
+            <Auteur>Vigilant Citizen</Auteur>
+        </Article>
+        <Article Afficher="oui">
+          <Tag>sport</Tag>
+          <Sport>tennis</Sport>
+          <Parution>2021-09-23</Parution>
+          <Ajout>2021-10-01</Ajout>
+          <Commentaire>Jérémy Chardy est un brillant joueur de tennis (73e mondial)</Commentaire>
+          <Titre>Diminué depuis qu'il est vacciné, Jérémy Chardy suspend sa saison</Titre>
+          <Lien>https://www.lequipe.fr/Tennis/Actualites/Jeremy-chardy-suspend-sa-saison/1287521</Lien>
+          <Auteur>L'équipe</Auteur>
+        </Article>
+        <Article Afficher="oui">
+          <Tag>sport</Tag>
+          <Commentaire>Christophe Lemaitre n'a effectivement pas participé aux JO de Tokyo</Commentaire>
+          <Parution>2021-06-25</Parution>
+          <Ajout>2021-10-01</Ajout>
+          <Titre>Athlétisme: après une mauvaise réaction au vaccin anti-Covid, Christophe Lemaître s'inquiète pour les JO de Tokyo</Titre>           <Lien>https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/savoie/athletisme-apres-une-mauvaise-reaction-au-vaccin-anti-covid-christophe-lemaitre-s-inquiete-pour-les-jo-de-tokyo-2153956.amp</Lien>    
+          <Auteur>France 3 régions</Auteur>
+        </Article>
+        <Article Afficher="oui">
+          <Tag>sport</Tag>
+          <Parution>2021-09-29</Parution>
+          <Commentaire>Repris de la page Facebook de Antoine Méchin, lien vers l'interview pour Sud-Ouest en fin d'article</Commentaire>
+          <Ajout>2021-10-01</Ajout>
+          <Titre>Le triathlète saintais Antoine Méchin met un terme à sa saison et « ne se referait pas vacciner si c’était à refaire »</Titre> <Lien>https://resistance-mondiale.com/le-triathlete-saintais-antoine-mechin-met-un-terme-a-sa-saison-et-ne-se-referait-pas-vacciner-si-cetait-a-refaire</Lien>          <LienAlt>https://www.sudouest.fr/sport/course-pedestre/triathlon/le-triathlete-saintais-antoine-mechin-met-un-terme-a-sa-saison-et-ne-se-referait-pas-vacciner-si-c-etait-a-refaire-6234090.php</LienAlt>
+          <Auteur>Résistance (blog)</Auteur>
+        </Article>
+        <Article Afficher="oui">
+          <Tag>sport</Tag>
+          <Commentaire>Aucune mention de vaccination dans la presse, le doute est permis. N'hésitez pas à nous prévenir si vous avez cette information. Nous lui souhaitons un prompt rétablissement. Après le joueur danois Christian Eriksen encore un footbaleur victime d'un malaise cardiaque.</Commentaire>
+          <Auteur>Ouest-France</Auteur>
+          <Parution>2021-09-17</Parution>
+          <Ajout>2021-10-01</Ajout>
+          <Titre>FC Nantes. National 2 : un jeune plongé dans le coma après un malaise cardiaque</Titre>
+<Lien>https://www.ouest-france.fr/sport/football/fc-nantes/fc-nantes-national-2-un-jeune-plonge-dans-le-coma-apres-un-malaise-cardiaque-2e3cd5f8-178a-11ec-980f-18f5c72f36bc</Lien>
+<LienAlt>https://www.foot-national.com/national-2/nantes-un-joueur-actuellement-hospitalise-679931</LienAlt>
+        </Article>
+        <Article Afficher="oui">
+          <Tag>sport</Tag>
+          <Commentaire>Morte d'une hémorragie cérébrale. Aucun rapprochement avec une vaccination dans la presse; sur twitter certains évoquent sa dernière publication Facebook pro-vaccination la veille de sa mort. N'hésitez pas à nous prévenir si vous avez cette information.</Commentaire>
+          <Auteur>Voici</Auteur>
+          <Parution>2021-07-04</Parution>
+          <Ajout>2021-10-01</Ajout>
+          <Titre>Mort de Lise Vidal : la double championne d’Europe de planche à voile est décédée à l'âge de 43 ans</Titre> <Lien>https://www.voici.fr/news-people/actu-people/mort-de-lise-vidal-la-double-championne-deurope-de-planche-a-voile-est-decedee-a-lage-de-43-ans-707474</Lien> 
+        </Article>
     </Articles>
-</Bibliotheque>
+</Ressources>

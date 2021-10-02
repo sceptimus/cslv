@@ -2,8 +2,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée"/>
-        <title>CSLV Événements</title>
+        <title>Agenda du CSLV 85</title>
         <link href="page.css" rel="stylesheet" type="text/css"/>
+        <script src="site.js" type="text/javascript">//</script>
         <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function () {
   var s = window.location.href.toString(),
@@ -20,46 +21,59 @@ document.addEventListener('DOMContentLoaded', function () {
     </head>
     <body>
         <div id="preview">
-            <div id="menu">
+            <div id="menu" class="noprint">
                 <div id="buttons">
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
                             <a href="index.html">Manifeste</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
                             <a href="annuaire.html">Annuaire</a>
                         </p>
                     </div>
-                    <div class="rubrique on">
-                        <p>Annonces</p>
-                    </div>
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
-                            <a href="videos.html">Videos</a>
+                            <a href="cri-du-coeur.html">Blog</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
                             <a href="outils.html">Outils</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique rsce ouvre top" onclick="javascript:ouvrir('rsce')">
+                        <p>&gt;&gt;</p>
+                    </div>
+                    <div class="rubrique rsce sub">
                         <p>
-                            <a href="nocomment.html">Montages</a>
+                            <a onclick="javascript:fermer('rsce')">&lt;&lt;</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="rubrique on rsce sub">
+                        <p>Agenda</p>
+                    </div>
+                    <div class="rubrique rsce sub">
+                        <p>
+                            <a href="videos.html">Videos</a>
+                        </p>
+                    </div>
+                    <div class="rubrique rsce sub">
                         <p>
                             <a href="biblio.html">Lecture</a>
+                        </p>
+                    </div>
+                    <div class="rubrique rsce sub">
+                        <p>
+                            <a href="nocomment.html">Montages</a>
                         </p>
                     </div>
                 </div>
             </div>
             <div id="content">
                 <div class="block border">
-                    <h1>Événements</h1>
+                    <h1>Agenda</h1>
                     <blockquote>Si vous souhaitez proposer un événement envoyez un courrier électronique à <a id="mail2" href="mail2">contactez nous</a>, ou bien postez le sur le canal telegram (cf. <a href="index.html">Manifeste</a>)</blockquote>
                 </div><!-- <div class="block border">
             <h2>Rassemblement devant l'ICAM</h2>

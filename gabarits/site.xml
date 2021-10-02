@@ -1,9 +1,129 @@
 <Site>
-  <Page File="index">Manifeste</Page>
-  <Page File="annuaire">Annuaire</Page>
-  <Page File="evenements">Annonces</Page>
-  <Page File="videos">Videos</Page>
-  <Page File="outils">Outils</Page>
-  <Page File="nocomment">Montages</Page>
-  <Page File="biblio">Lecture</Page>
+  <Menu>
+    <Page File="index">Manifeste</Page>
+    <Page File="annuaire">Annuaire</Page>
+    <Page File="blog">Blog</Page>
+    <Page File="outils">Outils</Page>
+    <Groupe Tag="rsce">
+      <Nom>&gt;&gt;</Nom>
+      <Page File="evenements">Agenda</Page>
+      <Page File="videos">Videos</Page>
+      <Page File="biblio">Lecture</Page>
+      <Page File="nocomment">Montages</Page>
+    </Groupe>
+  </Menu>
+  <Contenu>
+    <Page>
+      <Id>annuaire</Id>
+      <Rubriques>
+          <Rubrique>
+              <Tag>regional</Tag>
+              <Titre>Collectifs et comités locaux</Titre>
+              <Rubrique>
+                  <Departement>
+                    <Inclus>85</Inclus>
+                  </Departement>
+                  <Titre>En Vendée</Titre>
+              </Rubrique>
+              <Rubrique>            
+                  <Departement>
+                    <Exclu>85</Exclu>
+                  </Departement>
+                  <Titre>Autres départements</Titre>
+              </Rubrique>          
+          </Rubrique>
+          <Rubrique>
+            <Image>
+              <Source>img/pancarte1.jpg</Source>
+              <Largeur>300px</Largeur>
+            </Image>
+          </Rubrique>
+          <Rubrique>
+              <Tag>thematique</Tag>
+              <Titre>Autres collectifs et associations</Titre>
+              <Rubrique>
+                <Tag>enfance</Tag>
+                <Tag>education</Tag>
+                <Titre>Enfance et éducation</Titre>
+              </Rubrique>
+              <Rubrique>
+                <Tag>reinformation</Tag>
+                <Tag>juridique</Tag>
+                <Tag>victime</Tag>
+                <Titre>Réinformation, juridique, victimes</Titre>
+              </Rubrique>
+              <Rubrique>
+                <Tag>santé</Tag>
+                <Titre>Professionnels de la santé</Titre>
+              </Rubrique>
+          </Rubrique>
+          <Rubrique>
+              <Tag>etranger</Tag>
+              <Titre>Etranger</Titre>
+              <Rubrique>
+                <Tag>action</Tag>
+                <Titre>Actions militantes</Titre>
+              </Rubrique>
+          </Rubrique>
+          <Rubrique>
+              <Tag>media</Tag>
+              <Titre>Nouveaux medias</Titre>
+              <Presentation>Qui ne sont pas des thuriféraires de la <a href="https://www.monde-diplomatique.fr/cartes/PPA">pensée unique</a>... Quelques suggestions, n'hésitez pas à compléter.
+              </Presentation>
+          </Rubrique>
+      </Rubriques>
+    </Page>
+    <Page>
+      <Id>biblio</Id>
+      <Rubriques>
+          <Rubrique>
+              <Tag>sport</Tag>
+              <Titre>Dossier sport</Titre>
+              <Presentation>
+                <p>Dès le mois d'août 2021, peu après les annonces de Macron du 12 juillet 2021, les fédérations sportives nationales ont été les premières à afficher sur leurs sites web l'obligation du passe sanitaire, et ceci dès le premier participant pour les activités en club, que ce soit en extérieur ou en intérieur, avec ou sans public ! Ils font donc partie du système de coercition mis en place par le gouvernement pour faire pression sur les enfants, et ceci bien avant la rentrée scolaire.</p>
+              </Presentation>
+          </Rubrique>      
+          <Rubrique>
+              <Tag>faq</Tag>
+              <Titre>Foire aux questions</Titre>
+          </Rubrique>
+          <Rubrique>
+              <Tag>analyse</Tag>
+              <Titre>Analyses</Titre>
+          </Rubrique>        
+      </Rubriques>
+    </Page>
+    <Page>
+      <Id>videos</Id>
+      <Rubriques>
+          <Rubrique>
+              <Tag>opinion</Tag>
+              <Titre>Opinions</Titre>
+              <Presentation>Des individus de toute la société s'expriment en dehors de la pensée unique.</Presentation> 
+          </Rubrique>      
+          <Rubrique>
+              <Tag>local</Tag>
+              <Titre>Videos Locales (85, Vendée)</Titre>
+          </Rubrique>
+          <Rubrique>
+              <Tag>interview</Tag>
+              <Titre>Interviews &amp; Entretiens</Titre>
+          </Rubrique>
+          <Rubrique>
+              <Tag>documentaire</Tag>
+              <Titre>Videos Documentaires</Titre>
+          </Rubrique>
+          <Rubrique>
+              <Tag>histoire</Tag>
+              <Titre>Les précurseurs</Titre>
+              <Presentation>Comment le passé peut-il nous aider à comprendre le présent. Ces videos interrogent sur les critères de décisions qui prévalent actuellement parmi les "décideurs"</Presentation>
+          </Rubrique>
+      </Rubriques>
+    </Page>
+    <Page>
+      <Id>blog</Id>
+      <Billet File="cri-du-coeur.xml"/>
+      <Billet File="28-septembre-2021.xml"/>
+    </Page>
+  </Contenu>
 </Site>

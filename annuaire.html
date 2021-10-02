@@ -2,8 +2,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée"/>
-        <title>CSLV Annuaire</title>
+        <title>Annuaire du CSLV 85</title>
         <link href="page.css" rel="stylesheet" type="text/css"/>
+        <script src="site.js" type="text/javascript">//</script>
         <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function () {
   var s = window.location.href.toString(),
@@ -16,39 +17,52 @@ document.addEventListener('DOMContentLoaded', function () {
     </head>
     <body>
         <div id="preview">
-            <div id="menu">
+            <div id="menu" class="noprint">
                 <div id="buttons">
-                    <div class="rubrique">
+                    <div class="rubrique top">
                         <p>
                             <a href="index.html">Manifeste</a>
                         </p>
                     </div>
-                    <div class="rubrique on">
+                    <div class="rubrique on top">
                         <p>Annuaire</p>
                     </div>
-                    <div class="rubrique">
+                    <div class="rubrique top">
                         <p>
-                            <a href="evenements.html">Annonces</a>
+                            <a href="cri-du-coeur.html">Blog</a>
                         </p>
                     </div>
-                    <div class="rubrique">
-                        <p>
-                            <a href="videos.html">Videos</a>
-                        </p>
-                    </div>
-                    <div class="rubrique">
+                    <div class="rubrique top">
                         <p>
                             <a href="outils.html">Outils</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="rubrique rsce ouvre top" onclick="javascript:ouvrir('rsce')">
+                        <p>&gt;&gt;</p>
+                    </div>
+                    <div class="off rubrique rsce sub">
                         <p>
-                            <a href="nocomment.html">Montages</a>
+                            <a onclick="javascript:fermer('rsce')">&lt;&lt;</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique rsce sub">
+                        <p>
+                            <a href="evenements.html">Agenda</a>
+                        </p>
+                    </div>
+                    <div class="off rubrique rsce sub">
+                        <p>
+                            <a href="videos.html">Videos</a>
+                        </p>
+                    </div>
+                    <div class="off rubrique rsce sub">
                         <p>
                             <a href="biblio.html">Lecture</a>
+                        </p>
+                    </div>
+                    <div class="off rubrique rsce sub">
+                        <p>
+                            <a href="nocomment.html">Montages</a>
                         </p>
                     </div>
                 </div>
@@ -65,29 +79,27 @@ document.addEventListener('DOMContentLoaded', function () {
                     <h3>En Vendée</h3>
                     <ul>
                         <li>
-                            <a href="index.html">Comité Santé Liberté Vendée</a>: présenté dans le Manifeste (groupe telegram, organisation de Happy apero / pique nique)</li>
+                            <a href="http://www.comitesantelibertevendee.fr">Comité Santé Liberté Vendée</a>: présenté dans le Manifeste (groupe telegram, organisation de Happy apero / pique nique)</li>
                         <li>
-                            <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a>: collectif de citoyens (soignants, patients, parents) opposés à l'extension du passe sanitaire et aux injonctions et pressions sur les parents (groupe WhatsApp)</li>
+                            <a href="http://collectifsanteliberte85.fr/">Collectif Santé Liberté 85</a>: collectif de citoyens (soignants, patients, parents) opposés à l'extension du passe sanitaire et aux injonctions et pressions sur les parents (groupe WhatsApp)</li>
+                        <li>
+                            <a href="https://reseausolidarite.wixsite.com/rsafrance/post/la-déclaration-du-réseau-de-solidarité-active-rsa">Groupe RSA La Roche Sur Yon</a>: L'objectif du Réseau de Solidarité Active (RSA) est de renforcer la solidarité entre les gens au niveau local, et de favoriser la mise en place d'actions. Chaque groupe couvre un zone géographique d'un rayon de 25 km. Vous pouvez contacter le Groupe RSA la Roche Sur Yon sur son canal <a href="https://t.me/joinchat/LerguxzMNn2jFgz5K2za8Q">telegram</a>.</li>
                     </ul>
                     <h3>Autres départements</h3>
                     <ul>
                         <li>
-                            <a href="https://www.toutvabien44.org">ToutVaBien44</a> (44): un collectif Nantais de collectifs locaux mobilisés pour se coordonner afin de préserver nos libertés fondamentales</li>
+                            <a href="https://www.toutvabien44.org/">ToutVaBien44</a>: un collectif Nantais de collectifs locaux mobilisés pour se coordonner afin de préserver nos libertés fondamentales</li>
                         <li>
-                            <a href="https://www.collectifsantemauges.fr">Collectif Santé Mauges</a> (49): autour de Cholet</li>
+                            <a href="https://www.collectifsantemauges.fr/">Collectif Santé Mauges</a>: autour de Cholet</li>
                         <li>
-                            <a href="https://oxygene.collectifaquitaine.fr/blog/">Collectif Oxygene Aquitaine</a> (24, 47, 33): un groupe d’adultes, concernés par la santé et le bien-être des enfants (parents, enseignants, soignants, grands-parents, ...)</li>
+                            <a href="https://oxygene.collectifaquitaine.fr/blog/">Collectif Oxygene Aquitaine</a>: un groupe d’adultes, concernés par la santé et le bien-être des enfants (parents, enseignants, soignants, grands-parents, ...)</li>
                         <li>
-                            <a href="https://comitededefensedesdroitsciviques56.wordpress.com">Comité de défense des droits civiques</a> (56): diffusion d'un travail documentaire <i>« Par le bout du nez » L’histoire du covid 19 ~tout n’est que théâtre~ (et souffrance)</i> formant un memento d'environ 200 liens qui dévoile l'opération en cours dixit les auteurs</li>
-                        <li>
-                            <a href="https://www.facebook.com/Collectifreedom-Pompier-74-104141155323355">
-Collectifreedom Pompier 74</a> (74): collectif de pompiers de Haute-Savoie 
-              </li>
+                            <a href="https://comitededefensedesdroitsciviques56.wordpress.com/">Comité de défense des droits civiques</a>: diffusion d'un travail documentaire « Par le bout du nez » L’histoire du covid 19 ~tout n’est que théâtre~ (et souffrance) formant un memento d'environ 200 liens qui dévoile l'opération en cours dixit les auteurs</li>
                     </ul>
                 </div>
                 <div class="block border">
                     <center>
-                        <img src="img/pancarte1.jpg" width="300px"/>
+                        <img src="img/pancarte1.jpg" width=""/>
                     </center>
                 </div>
                 <div class="block border">
@@ -95,9 +107,9 @@ Collectifreedom Pompier 74</a> (74): collectif de pompiers de Haute-Savoie
                     <h3>Enfance et éducation</h3>
                     <ul>
                         <li>
-                            <a href="https://www.educationpourlebiendesenfants.fr">Education pour le bien des enfants</a>: collectif des professionnels de l’éducation</li>
+                            <a href="https://www.educationpourlebiendesenfants.fr/">Education pour le bien des enfants</a>: collectif des professionnels de l’éducation</li>
                         <li>
-                            <a href="https://enfance-libertes.fr">Enfance &amp; Liberté</a>: parents, professionnels de l’Education et professionnels de Santé, modèles de courrier</li>
+                            <a href="https://enfance-libertes.fr/">Enfance &amp; Liberté</a>: parents, professionnels de l’Education et professionnels de Santé, modèles de courrier</li>
                         <li>
                             <a href="https://www.parents21.fr/rentree-scolaire-2021">Parents 21 France</a>: aux côtés d'Enfance &amp; Libertés - Union des Collectifs, lien vers leur page spécial Rentrée Scolaire 2021</li>
                         <li>
@@ -106,15 +118,15 @@ Collectifreedom Pompier 74</a> (74): collectif de pompiers de Haute-Savoie
                     <h3>Réinformation, juridique, victimes</h3>
                     <ul>
                         <li>
-                            <a href="https://reinfocovid.fr">Association Reinfo Covid</a>
+                            <a href="https://reinfocovid.fr/">Association Reinfo Covid</a>
                         </li>
                         <li>
-                            <a href="https://bonsens.org">Association BonSens</a>
+                            <a href="https://bonsens.org/">Association BonSens</a>
                         </li>
                         <li>
-                            <a href="https://reaction19.fr">Reaction19</a>: association mettant en œuvre de moyens juridiques et judiciaires pour des  actions individuelles et collectives, ayant un lien avec les mesures prises pour lutter contre la « pandémie » de la COVID19</li>
+                            <a href="https://reaction19.fr/">Reaction19</a>: association mettant en œuvre de moyens juridiques et judiciaires pour des actions individuelles et collectives, ayant un lien avec les mesures prises pour lutter contre la « pandémie » de la COVID19</li>
                         <li>
-                            <a href="https://association-victimes-coronavirus-france.org">Association victimes coronavirus covid-19 France</a>
+                            <a href="https://association-victimes-coronavirus-france.org/">Association victimes coronavirus covid-19 France</a>
                         </li>
                         <li>
                             <a href="https://www.infovaccin.fr/06-08-2021-guide-juridique.html">Ligue Nationale pour la Liberté des Vaccinations</a>: Guide juridique pour la liberté vaccinale, modèles de courrier pour contrer l'obligation vaccinale</li>
@@ -122,7 +134,7 @@ Collectifreedom Pompier 74</a> (74): collectif de pompiers de Haute-Savoie
                     <h3>Professionnels de la santé</h3>
                     <ul>
                         <li>
-                            <a href="https://www.syndicat-liberte-sante.com">Syndicat Liberté Santé</a>: créé pour la défense de l’ensemble des professionnels de santé et professions connexes contre la défiguration du secret médical, du libre consentement au soin et de l’indépendance professionnelle</li>
+                            <a href="https://www.syndicat-liberte-sante.com/">Syndicat Liberté Santé</a>: créé pour la défense de l’ensemble des professionnels de santé et professions connexes contre la défiguration du secret médical, du libre consentement au soin et de l’indépendance professionnelle</li>
                     </ul>
                 </div>
                 <div class="block border">
@@ -130,15 +142,16 @@ Collectifreedom Pompier 74</a> (74): collectif de pompiers de Haute-Savoie
                     <h3>Actions militantes</h3>
                     <ul>
                         <li>
-                            <a href="https://sifflons.ch/raison/">sifflons.ch</a> initiative Suisse d'organiser une manifestation visuelle permanente autour d'un logo pour faire prendre consience des mesures disproportionnées et abusives du gouvernement. Initiative assez proche de <a href="https://t.me/laroseblancheFR">La Rose Blanche</a> pour la France.</li>
+                            <a href="https://sifflons.ch/raison/">sifflons.ch</a>: initiative Suisse d'organiser une manifestation visuelle permanente autour d'un logo pour faire prendre consience des mesures disproportionnées et abusives du gouvernement. Initiative assez proche de <a href="https://t.me/laroseblancheFR">La Rose Blanche</a> pour la France.</li>
                     </ul>
                 </div>
                 <div class="block border">
                     <h2>Nouveaux medias</h2>
-                    <p>Qui ne sont pas des thuriféraires de la <a href="https://www.monde-diplomatique.fr/cartes/PPA">pensée unique</a>... Quelques suggestions, n'hésitez pas à compléter.</p>
+                    <blockquote>Qui ne sont pas des thuriféraires de la <a href="https://www.monde-diplomatique.fr/cartes/PPA">pensée unique</a>... Quelques suggestions, n'hésitez pas à compléter.
+              </blockquote>
                     <ul>
                         <li>
-                            <a href="https://www.lachainehumaine.com">La chaîne humaine</a> : association qui s'engage à respecter la charte de déontologie de Munich (<i>le premier devoir du journaliste est le respect de la vérité</i>, <i>le journaliste ne doit jamais confondre le métier de journaliste avec celui du publicitaire ou du propagandiste</i>, ...)</li>
+                            <a href="https://www.lachainehumaine.com/">La chaîne humaine</a>: association qui s'engage à respecter la charte de déontologie de Munich (le premier devoir du journaliste est le respect de la vérité, le journaliste ne doit jamais confondre le métier de journaliste avec celui du publicitaire ou du propagandiste, ...)</li>
                     </ul>
                 </div>
             </div>

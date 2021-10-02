@@ -1,0 +1,145 @@
+<Ressources>
+  <Groupes>
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Nom>Comité Santé Liberté Vendée</Nom>
+      <Lien>http://www.comitesantelibertevendee.fr</Lien>
+      <Presentation>présenté dans le Manifeste (groupe telegram, organisation de Happy apero / pique nique)</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Nom>Collectif Santé Liberté 85</Nom>
+      <Lien>http://collectifsanteliberte85.fr/</Lien>
+      <Presentation>collectif de citoyens (soignants, patients, parents) opposés à l'extension du passe sanitaire et aux injonctions et pressions sur les parents (groupe WhatsApp)</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>44</Departement>
+      <Nom>ToutVaBien44</Nom>
+      <Lien>https://www.toutvabien44.org/</Lien>
+      <Presentation>un collectif Nantais de collectifs locaux mobilisés pour se coordonner afin de préserver nos libertés fondamentales</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>49</Departement>      
+      <Nom>Collectif Santé Mauges</Nom>
+      <Lien>https://www.collectifsantemauges.fr/</Lien>
+      <Presentation>autour de Cholet</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>24</Departement>      
+      <Departement>47</Departement>      
+      <Departement>33</Departement>      
+      <Nom>Collectif Oxygene Aquitaine</Nom>
+      <Lien>https://oxygene.collectifaquitaine.fr/blog/</Lien>
+      <Presentation>un groupe d’adultes, concernés par la santé et le bien-être des enfants (parents, enseignants, soignants, grands-parents, ...)</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>56</Departement>      
+      <Nom>Comité de défense des droits civiques</Nom>
+      <Lien>https://comitededefensedesdroitsciviques56.wordpress.com/</Lien>
+      <Presentation>diffusion d'un travail documentaire « Par le bout du nez » L’histoire du covid 19 ~tout n’est que théâtre~ (et souffrance) formant un memento d'environ 200 liens qui dévoile l'opération en cours dixit les auteurs</Presentation>
+    </Groupe>
+    <Groupe Afficher="non">
+      <Tag>regional</Tag>
+      <Departement>74</Departement>      
+      <Nom>Collectifreedom Pompier 74</Nom> 
+      <Lien>https://www.facebook.com/Collectifreedom-Pompier-74-104141155323355</Lien>
+      <Presentation>collectif de pompiers de Haute-Savoie</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>enfance</Tag>
+      <Nom>Education pour le bien des enfants</Nom>
+      <Lien>https://www.educationpourlebiendesenfants.fr/</Lien>
+      <Presentation>collectif des professionnels de l’éducation</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>enfance</Tag>
+      <Nom>Enfance &amp; Liberté</Nom>
+      <Lien>https://enfance-libertes.fr/</Lien>
+      <Presentation>parents, professionnels de l’Education et professionnels de Santé, modèles de courrier</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>enfance</Tag>
+      <Nom>Parents 21 France</Nom>
+      <Lien>https://www.parents21.fr/rentree-scolaire-2021</Lien>
+      <Presentation>aux côtés d'Enfance &amp; Libertés - Union des Collectifs, lien vers leur page spécial Rentrée Scolaire 2021</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>enfance</Tag>
+      <Nom>Childrens Health Defense</Nom>
+      <Lien>https://childrenshealthdefense.eu/?lang=fr</Lien>
+      <Presentation>protection de l'enfance (international)</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>reinformation</Tag>
+      <Nom>Association Reinfo Covid</Nom>
+      <Lien>https://reinfocovid.fr/</Lien>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>reinformation</Tag>
+      <Tag>juridique</Tag>      
+      <Nom>Association BonSens</Nom>
+      <Lien>https://bonsens.org/</Lien>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>juridique</Tag>
+      <Tag>victime</Tag>
+      <Nom>Reaction19</Nom>
+      <Lien>https://reaction19.fr/</Lien>
+      <Presentation>association mettant en œuvre de moyens juridiques et judiciaires pour des actions individuelles et collectives, ayant un lien avec les mesures prises pour lutter contre la « pandémie » de la COVID19</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>victime</Tag>
+      <Nom>Association victimes coronavirus covid-19 France</Nom>
+      <Lien>https://association-victimes-coronavirus-france.org/</Lien>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>juridique</Tag>
+      <Tag>victime</Tag>
+      <Nom>Ligue Nationale pour la Liberté des Vaccinations</Nom>
+      <Lien>https://www.infovaccin.fr/06-08-2021-guide-juridique.html</Lien>
+      <Presentation>Guide juridique pour la liberté vaccinale, modèles de courrier pour contrer l'obligation vaccinale</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>santé</Tag>
+      <Nom>Syndicat Liberté Santé</Nom>
+      <Lien>https://www.syndicat-liberte-sante.com/</Lien>
+      <Presentation>créé pour la défense de l’ensemble des professionnels de santé et professions connexes contre la défiguration du secret médical, du libre consentement au soin et de l’indépendance professionnelle</Presentation>
+    </Groupe>                    
+    <Groupe>
+      <Tag>etranger</Tag>
+      <Tag>action</Tag>
+      <Nom>sifflons.ch</Nom>
+      <Lien>https://sifflons.ch/raison/</Lien>
+      <Presentation>initiative Suisse d'organiser une manifestation visuelle permanente autour d'un logo pour faire prendre consience des mesures disproportionnées et abusives du gouvernement. Initiative assez proche de <a href="https://t.me/laroseblancheFR">La Rose Blanche</a> pour la France.</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>media</Tag>
+      <Nom>La chaîne humaine</Nom>
+      <Lien>https://www.lachainehumaine.com/</Lien>
+      <Presentation>association qui s'engage à respecter la charte de déontologie de Munich (le premier devoir du journaliste est le respect de la vérité, le journaliste ne doit jamais confondre le métier de journaliste avec celui du publicitaire ou du propagandiste, ...)</Presentation>
+    </Groupe>
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Nom>Groupe RSA La Roche Sur Yon</Nom>
+      <Lien>https://reseausolidarite.wixsite.com/rsafrance/post/la-déclaration-du-réseau-de-solidarité-active-rsa</Lien>
+      <Presentation>L'objectif du Réseau de Solidarité Active (RSA) est de renforcer la solidarité entre les gens au niveau local, et de favoriser la mise en place d'actions. Chaque groupe couvre un zone géographique d'un rayon de 25 km. Vous pouvez contacter le Groupe RSA la Roche Sur Yon sur son canal <a href="https://t.me/joinchat/LerguxzMNn2jFgz5K2za8Q">telegram</a>.</Presentation>
+    </Groupe>      
+  </Groupes>
+</Ressources>

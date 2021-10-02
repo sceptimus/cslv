@@ -4,6 +4,7 @@
         <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée" />
         <title>Comité Santé Liberté Vendée Accueil</title>
         <link href="index.css" rel="stylesheet" type="text/css"/>
+        <script src="site.js" type="text/javascript">//</script>
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {{
     var s = window.location.href.toString(),
@@ -22,10 +23,10 @@
     <body>
       <div id="preview">
         
-        <div id="bandeau">
+        <!-- <div id="bandeau">
           <div class="cri" style="margin-top:20px">
-            <p><span>Cri du coeur</span> revoir notre <a href="cri-du-coeur.html">cri</a> publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a> pour le 15 septembre 2021</p>            
-          </div>
+            <p><span>Cri du coeur</span> revoir notre <a href="cri-du-coeur.html">cri</a> publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a> pour le 15 septembre 2021</p>
+          </div> -->
           <!-- <div class="communique">
             <p><span>Communiqué</span> Invitation aux parents et aux adultes concernés par la vie de nos enfants et des enseignants dans les différents établissements scolaires à se rencontrer <span style="font-weight:strong">Vendredi 9 septembre à 18h30</span> à la Vallée Verte à la Roche Sur Yon (à côté de la Maison de quartier, aux espaces BBQ).</p>
             <p>Déroulement</p>
@@ -55,9 +56,15 @@
             </ul>
             <p>Nous contacter à l'adresse ci-dessous pour les détails.</p>
           </div> -->
-        </div>
+        <!-- </div> -->
         
         { local:menu('index') }
+
+        <div id="bandeau">
+          <div class="cri">
+            <p><span>Cri du coeur</span> revoir notre <a href="cri-du-coeur.html">cri</a> publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a> pour le 15 septembre 2021</p>            
+          </div>
+        </div>
         
         <div id="logo">
           <p class="image"><img src="img/logo.gif"/></p>

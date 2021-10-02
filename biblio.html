@@ -2,8 +2,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée"/>
-        <title>CSLV Bibliothèque</title>
+        <title>Bibliothèque du CSLV 85</title>
         <link href="page.css" rel="stylesheet" type="text/css"/>
+        <script src="site.js" type="text/javascript">//</script>
         <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function () {
   var s = window.location.href.toString(),
@@ -16,56 +17,112 @@ document.addEventListener('DOMContentLoaded', function () {
     </head>
     <body>
         <div id="preview">
-            <div id="menu">
+            <div id="menu" class="noprint">
                 <div id="buttons">
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
                             <a href="index.html">Manifeste</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
                             <a href="annuaire.html">Annuaire</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
-                            <a href="evenements.html">Annonces</a>
+                            <a href="cri-du-coeur.html">Blog</a>
                         </p>
                     </div>
-                    <div class="rubrique">
-                        <p>
-                            <a href="videos.html">Videos</a>
-                        </p>
-                    </div>
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
                             <a href="outils.html">Outils</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique rsce ouvre top" onclick="javascript:ouvrir('rsce')">
+                        <p>&gt;&gt;</p>
+                    </div>
+                    <div class="rubrique rsce sub">
+                        <p>
+                            <a onclick="javascript:fermer('rsce')">&lt;&lt;</a>
+                        </p>
+                    </div>
+                    <div class="rubrique rsce sub">
+                        <p>
+                            <a href="evenements.html">Agenda</a>
+                        </p>
+                    </div>
+                    <div class="rubrique rsce sub">
+                        <p>
+                            <a href="videos.html">Videos</a>
+                        </p>
+                    </div>
+                    <div class="rubrique on rsce sub">
+                        <p>Lecture</p>
+                    </div>
+                    <div class="rubrique rsce sub">
                         <p>
                             <a href="nocomment.html">Montages</a>
                         </p>
-                    </div>
-                    <div class="rubrique on">
-                        <p>Lecture</p>
                     </div>
                 </div>
             </div>
             <div id="content">
                 <div class="block border">
-                    <span style="float:right; font-size:75%">Mis à jour le 29/09/2021</span>
+                    <span style="float:right; font-size:75%">Mis à jour le 02/10/2021</span>
                     <h1>Bibliothèque</h1>
                     <blockquote>Liens vers des articles ou des livres postés sur le canal telegram du Comité Santé Liberté Vendée. Les liens sont sélectionnés pour leur pouvoir explicatif sur la situation actuelle. Si vous souhaitez proposer un article ou un livre, envoyez un courrier électronique à <a id="mail2" href="mail2">contactez nous</a>, ou bien postez la sur le canal telegram (cf. <a href="index.html">Manifeste</a>)</blockquote>
                 </div>
                 <div class="block border">
-                    <h2>Questions courantes</h2>
+                    <h2>Dossier sport</h2>
+                    <blockquote>
+                        <p>Dès le mois d'août 2021, peu après les annonces de Macron du 12 juillet 2021, les fédérations sportives nationales ont été les premières à afficher sur leurs sites web l'obligation du passe sanitaire, et ceci dès le premier participant pour les activités en club, que ce soit en extérieur ou en intérieur, avec ou sans public ! Ils font donc partie du système de coercition mis en place par le gouvernement pour faire pression sur les enfants, et ceci bien avant la rentrée scolaire.</p>
+                    </blockquote>
+                    <ul>
+                        <li>
+                            <a href="https://www.lequipe.fr/Tennis/Actualites/Jeremy-chardy-suspend-sa-saison/1287521">Diminué depuis qu'il est vacciné, Jérémy Chardy suspend sa saison</a>
+                            <span> par L'équipe</span>
+                            <p>Jérémy Chardy est un brillant joueur de tennis (73e mondial). Publié le 23/09 (ajouté le 01/10)</p>
+                        </li>
+                        <li>
+                            <a href="https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/savoie/athletisme-apres-une-mauvaise-reaction-au-vaccin-anti-covid-christophe-lemaitre-s-inquiete-pour-les-jo-de-tokyo-2153956.amp">Athlétisme: après une mauvaise réaction au vaccin anti-Covid, Christophe Lemaître s'inquiète pour les JO de Tokyo</a>
+                            <span> par France 3 régions</span>
+                            <p>Christophe Lemaitre n'a effectivement pas participé aux JO de Tokyo. Publié le 25/06 (ajouté le 01/10)</p>
+                        </li>
+                        <li>
+                            <a href="https://resistance-mondiale.com/le-triathlete-saintais-antoine-mechin-met-un-terme-a-sa-saison-et-ne-se-referait-pas-vacciner-si-cetait-a-refaire">Le triathlète saintais Antoine Méchin met un terme à sa saison et « ne se referait pas vacciner si c’était à refaire »</a>
+                            <span> par Résistance (blog)</span>
+                            <p>Repris de la page Facebook de Antoine Méchin, lien vers l'interview pour Sud-Ouest en fin d'article. Publié le 29/09 (ajouté le 01/10)</p>
+                        </li>
+                        <li>
+                            <a href="https://www.ouest-france.fr/sport/football/fc-nantes/fc-nantes-national-2-un-jeune-plonge-dans-le-coma-apres-un-malaise-cardiaque-2e3cd5f8-178a-11ec-980f-18f5c72f36bc">FC Nantes. National 2 : un jeune plongé dans le coma après un malaise cardiaque</a>
+                            <span> par Ouest-France</span>
+                            <p>Aucune mention de vaccination dans la presse, le doute est permis. N'hésitez pas à nous prévenir si vous avez cette information. Nous lui souhaitons un prompt rétablissement. Après le joueur danois Christian Eriksen encore un footbaleur victime d'un malaise cardiaque. Publié le 17/09 (ajouté le 01/10)</p>
+                        </li>
+                        <li>
+                            <a href="https://www.voici.fr/news-people/actu-people/mort-de-lise-vidal-la-double-championne-deurope-de-planche-a-voile-est-decedee-a-lage-de-43-ans-707474">Mort de Lise Vidal : la double championne d’Europe de planche à voile est décédée à l'âge de 43 ans</a>
+                            <span> par Voici</span>
+                            <p>Morte d'une hémorragie cérébrale. Aucun rapprochement avec une vaccination dans la presse; sur twitter certains évoquent sa dernière publication Facebook pro-vaccination la veille de sa mort. N'hésitez pas à nous prévenir si vous avez cette information. Publié le 04/07 (ajouté le 01/10)</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block border">
+                    <h2>Foire aux questions</h2>
                     <ul>
                         <li>
                             <a href="https://guyboulianne.com/2021/09/26/les-30-faits-vitaux-covid-que-vous-devez-savoir-pour-vous-aider-a-formuler-et-a-soutenir-vos-arguments-avec-des-amis-ou-des-etrangers/">Les 30 faits vitaux COVID que vous devez savoir pour vous aider à formuler et à soutenir vos arguments avec des amis ou des étrangers</a>
                             <span> par Guy Boulianne</span>
-                            <p>publié le 26/9/21 (ajouté le 29/9/21)</p>
+                            <p>publié le 26/09 (ajouté le 29/09)</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block border">
+                    <h2>Analyses</h2>
+                    <ul>
+                        <li>
+                            <a href="http://myreader.toile-libre.org/uploads/My_61549b0f4852d.pdf">"Contagion" : Comment les films catastrophe "éduquent" les masses</a>
+                            <span> par Vigilant Citizen</span>
+                            <p>publié le 08/03/2012 (ajouté le 01/10)</p>
                         </li>
                     </ul>
                 </div>

@@ -2,8 +2,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée" />
-        <title>Boite à outils du CSLV</title>
+        <title>Boite à outils du CSLV 85</title>
         <link href="page.css" rel="stylesheet" type="text/css"/>
+        <script src="site.js" type="text/javascript">//</script>
         <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function () {{
   var s = window.location.href.toString(),
@@ -61,22 +62,8 @@ document.addEventListener('DOMContentLoaded', function () {{
             <h3 id="4">Situation n° 4: dialogue avec un adolescent</h3>
             <p>Vous souhaitez discuter et alerter votre enfant adolescent des dangers à long terme des politiques d'état d'urgence, de coercition et d'extorsion du consentement pour les vaccins par les passes sanitaires. Vous ne souhaitez pas qu'il  grandisse avec l'idée qu'il s'agit d'une nouvelle normalité. Vous souhaitez lui donner des outils critiques pour permettre des choix éclairés ?</p>
             <p><span class="outil">Outil</span> Le cinéma ! Plusieurs films très bien réalisés sont disponibles et propices à la prise de conscience et à la discussion  :</p>
-<ul>
-    <li>
-        <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=58911.html">V Pour Vendetta</a>: décrit la mise en place d'un régime totalitaire grâce au procédé du flash-back, allusion incluse à l'utilisation d'une épidémie.</li>
-    <li>
-        <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=17079.html">Bienvenue à Gattaca</a>: dystopie médicale basée sur l'eugénisme et le contrôle de l'accès aux emplois en fonction des gènes. La même chose pourrait s'envisager en remplaçant le contrôle par les gènes à la naissance par le contrôle d'un passe sanitaire basé sur les vaccins à ARNm appliqués depuis la naissance.</li>
-    <li>
-        <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=26865.html">Equilibrium</a>: ceux qui refusent leur dose (leur injection ?) sont considérés comme des parias parce que l'état ne peut pas contrôler leurs émotions.</li>
-    <li>
-        <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=195540.html">The Giver</a>: illustre le contrôle du groupe par le contrôle des émotions.</li>
-    <li>
-        <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=182991.html">Elysium</a>: dystopie binaire d'une société où les élites sont parties profiter des progrès de la médecine tout en profitant de la masse uberisée réduite en esclavage et laissée dans la misère. Assez violent suivant les canons blockbusters US.</li>
-    <li>
-        <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=180314.html">Time Out</a>: dystopie mêlant le thème de la monnaie 100% numérique et de l'espérance de vie totalement contrôlée par la technologie. Chaque individu dispose d'un crédit de temps lui restant à vivre, qu'il utilise comme moyen de paiement. Analogie possible avec l'abonnement vaccinal à vie dans l'optique du remplacement de l'immunité naturelle par l'immunité artificielle procurée par des injections d'ARNm.</li>
-    <li>
-        <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=300.html">Soleil Vert</a>: surpopulation menant le gouvernement à prendre des mesures drastiques et secrètes.</li>
-</ul>
+
+            { local:films('films.xml', 'dystopie') }
 
             <p>Suggestion: pour trouver et se prêter un des ces films en DVD n'hésitez pas à utiliser le canal telegram du CSLV !</p>
           </div>

@@ -1,31 +1,39 @@
-<Videotheque>
-    <Rubriques>
-        <Rubrique>
-            <Tag>local</Tag>
-            <Titre>Videos Locales (85, Vendée)</Titre>
-        </Rubrique>
-        <Rubrique>
-            <Tag>interview</Tag>
-            <Titre>Interviews &amp; Entretiens</Titre>
-        </Rubrique>
-        <Rubrique>
-            <Tag>documentaire</Tag>
-            <Titre>Videos Documentaires</Titre>
-        </Rubrique>
-        <Rubrique>
-            <Tag>histoire</Tag>
-            <Titre>Les précurseurs</Titre>
-            <Presentation>Comment le passé peut-il nous aider à comprendre le présent. Ces videos interrogent sur les critères de décisions qui prévalent actuellement parmi les "décideurs"</Presentation>
-        </Rubrique>
-    </Rubriques>
+<Ressources>
     <Videos>
         <Video Afficher="oui">
+            <Duree>9'10</Duree>            <Lien>https://nba.nbcsports.com/2021/09/28/magic-forward-jonathan-isaac-i-am-not-anti-vax-im-not-anti-medicine-im-not-anti-science/</Lien>
+            <Titre>Magic forward Jonathan Isaac: ‘I am not anti-vax. I’m not anti-medicine. I’m not anti-science’</Titre>
+            <Presentation>le basketteur Magic forward Jonathan Isaac (Orlando, NBA) explique sa position vis à vis de la vaccination</Presentation>
+            <Tag>opinion</Tag>
+            <Ajout>2021-09-30</Ajout>
+            <Langue>anglais</Langue>
+            <SousTitre>activer</SousTitre>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>6'50'</Duree>
+            <Lien>https://crowdbunker.com/v/5Ttn5cKWWR</Lien>
+            <Titre>Liberté vaccinale pour tous en Andorre</Titre>
+            <Presentation>discours de Carine Montaner, membre du conseil général de la santé en Andorre, devant le parlement</Presentation>
+            <Tag>opinion</Tag>
+            <Ajout>2021-09-30</Ajout>
+            <Langue>espagnol</Langue>
+            <SousTitre>français</SousTitre>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>42'59</Duree>
+            <Lien>https://www.youtube.com/watch?v=sm4DJyZ_R7M</Lien>
+            <Titre>Trahison des institutions : la mort de l'Etat ?</Titre>
+            <Presentation>Politique &amp; Eco n°313 avec Valérie Bugault - TVL, Valérie Bugault très affûtée donne un regard économico-politique à la crise sanitaire et une vision possible des prochains mois</Presentation>
+            <Tag>opinion</Tag>
+            <Ajout>2021-09-30</Ajout>
+        </Video>
+        <Video Afficher="oui">
             <Duree>30'56</Duree>
-            <Lien Censure="oui">https://www.youtube.com/watch?v=XREaHE2rznI</Lien>
+            <Lien>https://crowdbunker.com/v/XREaHE2rznI</Lien>
             <Titre>Urgence vitale: appel à l'aide pour les soignants</Titre>
-            <Presentation>entretien entre Jeanne, aide-soignante des Sables, en grève de la faim depuis le 15 septembre devant la préfecture de Vendée à la Roche Sur Yon avec la généticienne Alexandra Henrion Caude</Presentation>
+            <Presentation>entretien entre Jeanne, aide-soignante des Sables, en grève de la faim depuis le 15 septembre devant la préfecture de Vendée à la Roche Sur Yon avec la généticienne Alexandra Henrion Caude (nb: video censurée sur YouTube retrouvée sur crowdbunker)</Presentation>
             <Tag>local</Tag>
-            <Ajout>25/9/21</Ajout>
+            <Ajout>2021-09-25</Ajout>
         </Video>
         <Video Afficher="oui">
             <Duree>17'21</Duree>
@@ -33,7 +41,7 @@
             <Titre>Témoignage d'un habitant des Sables sur la date butoire du 15 septembre</Titre>
             <Presentation>réflexion sur les conséquences des décisions absurdes empêchant les soignants non vaccinés d'exercer et les enfants de faire du sport</Presentation>
             <Tag>local</Tag>
-            <Ajout>16/9/21</Ajout>
+            <Ajout>2021-09-16</Ajout>
         </Video>
         <Video Afficher="oui">
             <Duree>9'11</Duree>
@@ -41,9 +49,9 @@
             <Titre>Le Danger des Vaccins Covid !</Titre>
             <Langue>anglais, allemand</Langue>
             <SousTitre>français</SousTitre>
-            <Presentation>des médecins discutent de la mesure des D-dimères dans le sang après injection des vaccins COVID pour détecter la présence d'un caillot de sang ou thrombus, écoutez leur constations</Presentation>
+            <Presentation>des médecins discutent de la mesure des D-dimères dans le sang après injection des vaccins COVID pour détecter la présence d'un caillot de sang ou thrombus, écoutez leur constatations</Presentation>
             <Tag>interview</Tag>
-            <Ajout>29/9/21</Ajout>
+            <Ajout>2021-09-29</Ajout>
         </Video>        
         <Video Afficher="oui">
             <Duree>10'55</Duree>
@@ -51,7 +59,7 @@
             <Titre>Démission de l’ordre des médecins et de mon statut de praticien hospitalier</Titre>
             <Presentation>lecture de sa lettre de démission par le Dr Denis Agret, résumé de la situation vécue par ce médecin intègre</Presentation>
             <Tag>interview</Tag>
-            <Ajout>28/9/21</Ajout>
+            <Ajout>2021-09-28</Ajout>
         </Video>
         <Video Afficher="oui">
             <Duree>39'16</Duree>
@@ -61,7 +69,7 @@
             <SousTitre>français</SousTitre>
             <Presentation>son récit débute en novembre 2019, il sort clairement du récit officiel, mais est-il crédible, c'est la difficulté de tous ces témoignages issus du terrain</Presentation>
             <Tag>interview</Tag>
-            <Ajout>22/9/21</Ajout>
+            <Ajout>2021-09-22</Ajout>
         </Video>
         <Video Afficher="oui">
             <Duree>15'33</Duree>
@@ -69,7 +77,7 @@
             <Titre>Vaccin contre la COVID-19</Titre>
             <Presentation>video du 14 septembre du Pr Didier Raoult, il parle des réservoirs animaux, des mutations et de l'auto-limitation des épidémies...</Presentation>
             <Tag>interview</Tag>
-            <Ajout>15/9/21</Ajout>
+            <Ajout>2021-09-15</Ajout>
         </Video>
         <Video Afficher="non">
             <Duree>28'20</Duree>
@@ -77,7 +85,7 @@
             <Titre>L' IHU parle toujours !</Titre>
             <Presentation>video du 7 septembre du Pr Didier Raoult qui commence par étriller le ministre de la santé...</Presentation>
             <Tag>interview</Tag>
-            <Ajout>9/9/21</Ajout>
+            <Ajout>2021-09-09</Ajout>
         </Video>
         <Video Afficher="oui">
             <Duree>34'56</Duree>
@@ -85,7 +93,7 @@
             <Titre>Interview de l'Avocat Reiner Fuellmich dans les Débriefings de France Soir</Titre>
             <Presentation>exposé des tenants et aboutissants de la crise du covid-19 vus par le Comité Corona avec lequel il travaille depuis des mois</Presentation>
             <Tag>interview</Tag>
-            <Ajout>5/9/21</Ajout>
+            <Ajout>2021-09-05</Ajout>
         </Video>
         <Video Afficher="oui">
             <Duree>38'06</Duree>
@@ -93,7 +101,7 @@
             <Titre>Interview du Professeur canadien Roger Hodkinson dans les Débriefings de France Soir</Titre>
             <Presentation>alerte sur les vaccins et les manipulations des discours face au Covid-19</Presentation>
             <Tag>interview</Tag>
-            <Ajout>5/9/21</Ajout>
+            <Ajout>2021-09-05</Ajout>
         </Video>
         <Video Afficher="oui">
             <Duree>15'48</Duree>
@@ -101,7 +109,7 @@
             <Titre>Que se passe-t-il dans un corps humain qui reçoit un vaccin contre le covid</Titre>
             <Presentation>video très bien illustrée, claire et sourcée sur les mécanismes délétères du virus et des vaccins à ARNm ou à ADN dans le corps humain, exemplaire publié sur le site de l'association des victimes du coronavirus, source originale inconnue. À voir absoluement avant de donner (ou pas) un consentement vraiment éclairé !</Presentation>
             <Tag>documentaire</Tag>
-            <Ajout>11/9/21</Ajout>
+            <Ajout>2021-09-11</Ajout>
         </Video>
         <Video Afficher="oui">
             <Duree>17'07</Duree>
@@ -109,7 +117,7 @@
             <Titre>Exposé du Docteur Ryan Cole</Titre>
             <Presentation>ce pathologiste américain expose des images de tissus humains lésés par la protéine spike suite aux injections et décrit les dégats dans le corps, il déplore le peu d'autopsies effectuées</Presentation>
             <Tag>documentaire</Tag>
-            <Ajout>5/9/21</Ajout>
+            <Ajout>2021-09-05</Ajout>
         </Video>
         <Video Afficher="oui">
             <Quantite>21</Quantite>
@@ -117,7 +125,7 @@
             <Titre>Conseil Scientifique Indépendant</Titre>
             <Presentation>les réunions publiques du CSI sont de véritables conférences scientifiques rassemblant 2 à 4 intervenants professionnels du sujet à chaque fois</Presentation>
             <Tag>documentaire</Tag>
-            <Ajout>6/9/21</Ajout>
+            <Ajout>2021-09-06</Ajout>
         </Video>
         <Video Afficher="oui">
             <Duree>10'14</Duree>
@@ -128,7 +136,7 @@
             <Langue>anglais</Langue>
             <SousTitre>activer</SousTitre>
             <Tag>histoire</Tag>
-            <Ajout>22/9/21</Ajout>
+            <Ajout>2021-09-22</Ajout>
         </Video>
     </Videos>
-</Videotheque>
+</Ressources>

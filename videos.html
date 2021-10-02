@@ -2,8 +2,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée"/>
-        <title>CSLV Videos</title>
+        <title>Videos du CSLV 85</title>
         <link href="page.css" rel="stylesheet" type="text/css"/>
+        <script src="site.js" type="text/javascript">//</script>
         <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function () {
   var s = window.location.href.toString(),
@@ -16,60 +17,90 @@ document.addEventListener('DOMContentLoaded', function () {
     </head>
     <body>
         <div id="preview">
-            <div id="menu">
+            <div id="menu" class="noprint">
                 <div id="buttons">
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
                             <a href="index.html">Manifeste</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
                             <a href="annuaire.html">Annuaire</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
-                            <a href="evenements.html">Annonces</a>
+                            <a href="cri-du-coeur.html">Blog</a>
                         </p>
                     </div>
-                    <div class="rubrique on">
-                        <p>Videos</p>
-                    </div>
-                    <div class="rubrique">
+                    <div class="off rubrique top">
                         <p>
                             <a href="outils.html">Outils</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="off rubrique rsce ouvre top" onclick="javascript:ouvrir('rsce')">
+                        <p>&gt;&gt;</p>
+                    </div>
+                    <div class="rubrique rsce sub">
                         <p>
-                            <a href="nocomment.html">Montages</a>
+                            <a onclick="javascript:fermer('rsce')">&lt;&lt;</a>
                         </p>
                     </div>
-                    <div class="rubrique">
+                    <div class="rubrique rsce sub">
+                        <p>
+                            <a href="evenements.html">Agenda</a>
+                        </p>
+                    </div>
+                    <div class="rubrique on rsce sub">
+                        <p>Videos</p>
+                    </div>
+                    <div class="rubrique rsce sub">
                         <p>
                             <a href="biblio.html">Lecture</a>
+                        </p>
+                    </div>
+                    <div class="rubrique rsce sub">
+                        <p>
+                            <a href="nocomment.html">Montages</a>
                         </p>
                     </div>
                 </div>
             </div>
             <div id="content">
                 <div class="block border">
-                    <span style="float:right; font-size:75%">Mis à jour le 29/09/2021</span>
+                    <span style="float:right; font-size:75%">Mis à jour le 02/10/2021</span>
                     <h1>Videos</h1>
                     <blockquote>Liens vers des videos postées sur le canal telegram du Comité Santé Liberté Vendée. Les videos sont sélectionnées pour leur pouvoir explicatif sur la situation actuelle. Les videos sont mises à jour régulièrement. Si vous souhaitez proposer une video ou si vous pouvez nous aider à retrouver ailleurs une video censurée (!), envoyez un courrier électronique à <a id="mail2" href="mail2">contactez nous</a>, ou bien postez la sur le canal telegram (cf. <a href="index.html">Manifeste</a>)</blockquote>
+                </div>
+                <div class="block border">
+                    <h2>Opinions</h2>
+                    <blockquote>Des individus de toute la société s'expriment en dehors de la pensée unique.</blockquote>
+                    <ul>
+                        <li>
+                            <a href="https://nba.nbcsports.com/2021/09/28/magic-forward-jonathan-isaac-i-am-not-anti-vax-im-not-anti-medicine-im-not-anti-science/">Magic forward Jonathan Isaac: ‘I am not anti-vax. I’m not anti-medicine. I’m not anti-science’</a>
+                            <sup>(9'10, anglais, sous-titrable, ajouté le 2021-09-30)</sup>: 
+                            le basketteur Magic forward Jonathan Isaac (Orlando, NBA) explique sa position vis à vis de la vaccination</li>
+                        <li>
+                            <a href="https://crowdbunker.com/v/5Ttn5cKWWR">Liberté vaccinale pour tous en Andorre</a>
+                            <sup>(6'50', espagnol, sous-titrée, ajouté le 2021-09-30)</sup>: 
+                            discours de Carine Montaner, membre du conseil général de la santé en Andorre, devant le parlement</li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=sm4DJyZ_R7M">Trahison des institutions : la mort de l'Etat ?</a>
+                            <sup>(42'59, ajouté le 2021-09-30)</sup>: 
+                            Politique &amp; Eco n°313 avec Valérie Bugault - TVL, Valérie Bugault très affûtée donne un regard économico-politique à la crise sanitaire et une vision possible des prochains mois</li>
+                    </ul>
                 </div>
                 <div class="block border">
                     <h2>Videos Locales (85, Vendée)</h2>
                     <ul>
                         <li>
-                            <a href="https://www.youtube.com/watch?v=XREaHE2rznI">
-                                <del>Urgence vitale: appel à l'aide pour les soignants</del> (déjà censurée !)</a>
-                            <sup>(30'56, ajouté le 25/9/21)</sup>: 
-                            entretien entre Jeanne, aide-soignante des Sables, en grève de la faim depuis le 15 septembre devant la préfecture de Vendée à la Roche Sur Yon avec la généticienne Alexandra Henrion Caude</li>
+                            <a href="https://crowdbunker.com/v/XREaHE2rznI">Urgence vitale: appel à l'aide pour les soignants</a>
+                            <sup>(30'56, ajouté le 2021-09-25)</sup>: 
+                            entretien entre Jeanne, aide-soignante des Sables, en grève de la faim depuis le 15 septembre devant la préfecture de Vendée à la Roche Sur Yon avec la généticienne Alexandra Henrion Caude (nb: video censurée sur YouTube retrouvée sur crowdbunker)</li>
                         <li>
                             <a href="https://m.facebook.com/story.php?story_fbid=4583691028331793&amp;id=100000728221300">Témoignage d'un habitant des Sables sur la date butoire du 15 septembre</a>
-                            <sup>(17'21, ajouté le 16/9/21)</sup>: 
+                            <sup>(17'21, ajouté le 2021-09-16)</sup>: 
                             réflexion sur les conséquences des décisions absurdes empêchant les soignants non vaccinés d'exercer et les enfants de faire du sport</li>
                     </ul>
                 </div>
@@ -78,27 +109,27 @@ document.addEventListener('DOMContentLoaded', function () {
                     <ul>
                         <li>
                             <a href="https://odysee.com/@SilvanoTrotta:f/Danger-:a">Le Danger des Vaccins Covid !</a>
-                            <sup>(9'11, anglais, allemand, sous-titrée, ajouté le 29/9/21)</sup>: 
-                            des médecins discutent de la mesure des D-dimères dans le sang après injection des vaccins COVID pour détecter la présence d'un caillot de sang ou thrombus, écoutez leur constations</li>
+                            <sup>(9'11, anglais, allemand, sous-titrée, ajouté le 2021-09-29)</sup>: 
+                            des médecins discutent de la mesure des D-dimères dans le sang après injection des vaccins COVID pour détecter la présence d'un caillot de sang ou thrombus, écoutez leur constatations</li>
                         <li>
                             <a href="https://www.youtube.com/watch?v=Vdg4vVmFy5g">Démission de l’ordre des médecins et de mon statut de praticien hospitalier</a>
-                            <sup>(10'55, ajouté le 28/9/21)</sup>: 
+                            <sup>(10'55, ajouté le 2021-09-28)</sup>: 
                             lecture de sa lettre de démission par le Dr Denis Agret, résumé de la situation vécue par ce médecin intègre</li>
                         <li>
                             <a href="https://odysee.com/@LugNassad:0/-COVID-1984---Un-Directeur-Des-Pompes-Funèbres-Témoigne-!:e">Témoignage d'un directeur d'une petite entreprise de pompes funèbres anglaise</a>
-                            <sup>(39'16, anglais, sous-titrée, ajouté le 22/9/21)</sup>: 
+                            <sup>(39'16, anglais, sous-titrée, ajouté le 2021-09-22)</sup>: 
                             son récit débute en novembre 2019, il sort clairement du récit officiel, mais est-il crédible, c'est la difficulté de tous ces témoignages issus du terrain</li>
                         <li>
                             <a href="https://www.youtube.com/watch?v=-ADM4mSW06w">Vaccin contre la COVID-19</a>
-                            <sup>(15'33, ajouté le 15/9/21)</sup>: 
+                            <sup>(15'33, ajouté le 2021-09-15)</sup>: 
                             video du 14 septembre du Pr Didier Raoult, il parle des réservoirs animaux, des mutations et de l'auto-limitation des épidémies...</li>
                         <li>
                             <a href="https://www.francesoir.fr/videos-les-debriefings/debriefing-reiner-fuellmich-ce-nest-pas-un-accident">Interview de l'Avocat Reiner Fuellmich dans les Débriefings de France Soir</a>
-                            <sup>(34'56, ajouté le 5/9/21)</sup>: 
+                            <sup>(34'56, ajouté le 2021-09-05)</sup>: 
                             exposé des tenants et aboutissants de la crise du covid-19 vus par le Comité Corona avec lequel il travaille depuis des mois</li>
                         <li>
                             <a href="https://www.francesoir.fr/videos-les-debriefings/roger-hodkinson">Interview du Professeur canadien Roger Hodkinson dans les Débriefings de France Soir</a>
-                            <sup>(38'06, ajouté le 5/9/21)</sup>: 
+                            <sup>(38'06, ajouté le 2021-09-05)</sup>: 
                             alerte sur les vaccins et les manipulations des discours face au Covid-19</li>
                     </ul>
                 </div>
@@ -107,15 +138,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     <ul>
                         <li>
                             <a href="https://association-victimes-coronavirus-france.org/voici-ce-quil-se-passe-quand-un-vaccin-arn-therapie-genique-contre-le-covid-19-est-injecte-dans-un-corps-humain/">Que se passe-t-il dans un corps humain qui reçoit un vaccin contre le covid</a>
-                            <sup>(15'48, ajouté le 11/9/21)</sup>: 
+                            <sup>(15'48, ajouté le 2021-09-11)</sup>: 
                             video très bien illustrée, claire et sourcée sur les mécanismes délétères du virus et des vaccins à ARNm ou à ADN dans le corps humain, exemplaire publié sur le site de l'association des victimes du coronavirus, source originale inconnue. À voir absoluement avant de donner (ou pas) un consentement vraiment éclairé !</li>
                         <li>
                             <a href="https://odysee.com/@JeanneTraduction:a/RyanColeAutopsies:f">Exposé du Docteur Ryan Cole</a>
-                            <sup>(17'07, ajouté le 5/9/21)</sup>: 
+                            <sup>(17'07, ajouté le 2021-09-05)</sup>: 
                             ce pathologiste américain expose des images de tissus humains lésés par la protéine spike suite aux injections et décrit les dégats dans le corps, il déplore le peu d'autopsies effectuées</li>
                         <li>
                             <a href="https://crowdbunker.com/@CSI">Conseil Scientifique Indépendant</a>
-                            <sup>(ajouté le 6/9/21)</sup>: 
+                            <sup>(ajouté le 2021-09-06)</sup>: 
                             les réunions publiques du CSI sont de véritables conférences scientifiques rassemblant 2 à 4 intervenants professionnels du sujet à chaque fois</li>
                     </ul>
                 </div>
@@ -125,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <ul>
                         <li>
                             <a href="https://www.youtube.com/watch?v=FU-cqTNQhMM">Tal Zaks, pirater le logiciel de la vie</a>
-                            <sup>(10'14, anglais, sous-titrable, ajouté le 22/9/21)</sup>: 
+                            <sup>(10'14, anglais, sous-titrable, ajouté le 2021-09-22)</sup>: 
                             Tal Zaks, le patron de la recherche médicale de Moderna (chief medical officer), présente ainsi les espoirs misés sur les thérapies géniques à ARNm. Vous noterez qu'il utilise les ficelles classiques de ce type de conférence (les Ted Talk), annecdotes personnelles et appels à l'émotion avec le cas de l'enfant atteint de maladie rare, de quoi justifier une expérimentation sur toute l'humanité ?</li>
                     </ul>
                 </div>
