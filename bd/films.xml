@@ -85,6 +85,18 @@
       <Lien>https://www.allocine.fr/film/fichefilm_gen_cfilm=195031.html</Lien>
       <Titre>À la poursuite de demain</Titre>
       <Annee>2015</Annee>
-    </Film>  
+    </Film>
+    <Film>
+      <Genre>programmation-predictive</Genre>
+      <Lien>https://www.allocine.fr/film/fichefilm_gen_cfilm=60792.html</Lien>
+      <Titre>Les fils de l'homme</Titre>
+      <Annee>2006</Annee>
+    </Film>
+    <Film>
+      <Genre>programmation-predictive</Genre>
+      <Lien>https://www.allocine.fr/film/fichefilm_gen_cfilm=178091.html</Lien>
+      <Titre>Contagion</Titre>
+      <Annee>2011</Annee>
+    </Film>    
   </Films>
 </Ressources>

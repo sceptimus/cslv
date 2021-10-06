@@ -34,8 +34,8 @@
           </Rubrique>
           <Rubrique>
             <Image>
-              <Source>img/pancarte1.jpg</Source>
-              <Largeur>300px</Largeur>
+              <Source>img/qi-pas-qr.png</Source>
+              <Largeur>400px</Largeur>
             </Image>
           </Rubrique>
           <Rubrique>
@@ -118,12 +118,18 @@
               <Titre>Les précurseurs</Titre>
               <Presentation>Comment le passé peut-il nous aider à comprendre le présent. Ces videos interrogent sur les critères de décisions qui prévalent actuellement parmi les "décideurs"</Presentation>
           </Rubrique>
+          <Rubrique>
+              <Tag>satire</Tag>
+              <Titre>Satires</Titre>
+          </Rubrique>
       </Rubriques>
     </Page>
     <Page>
       <Id>blog</Id>
       <Billet File="cri-du-coeur.xml"/>
       <Billet File="28-septembre-2021.xml"/>
+      <Billet File="synthese-argumentaire-anti-passe.xml"/>
+      <Billet File="ernst-wolff.xml"/>
     </Page>
   </Contenu>
 </Site>

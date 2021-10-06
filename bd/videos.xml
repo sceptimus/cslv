@@ -138,5 +138,13 @@
             <Tag>histoire</Tag>
             <Ajout>2021-09-22</Ajout>
         </Video>
+        <Video Afficher="oui">
+            <Duree>11'45</Duree>
+            <Lien>https://www.youtube.com/watch?v=3oGjaQ0Nelw</Lien>
+            <Titre>Bayonne Un collectif de Soignants entre en Scène</Titre>
+            <Presentation>théâtre de rue pour mobiliser</Presentation>
+            <Tag>satire</Tag>
+            <Ajout>2021-10-04</Ajout>
+        </Video>        
     </Videos>
 </Ressources>

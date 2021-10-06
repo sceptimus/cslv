@@ -1,5 +1,7 @@
 xquery version "3.1";
 
+declare option exist:serialize "method=xml media-type=application/xml indent=yes";
+
 declare variable $base := '/Users/stephane/Comptes/perso/virus/sites/comitesantelibertevendee.fr/www';
 
 declare function local:date( $date ) {
@@ -18,7 +20,7 @@ declare function local:date( $date ) {
 declare function local:image ( $image ) {
   <div class="block border">
       <center>
-          <img src="{$image/Source}" width="{$image/Width}"/>
+          <img src="{$image/Source}" width="{$image/Largeur}"/>
       </center>
   </div>  
 };
@@ -44,12 +46,12 @@ declare function local:films ( $name, $genre ) {
 };
   
 (:~
- : Filtrage pour insertion lien blog dans menu vers 1ère entrée du blog
+ : Filtrage pour insertion lien blog dans menu vers dernière entrée du blog
  : 
  :)  
 declare function local:lien-pour-menu ( $page, $sitemap ) {
   if ($page/@File eq 'blog') then
-    replace($sitemap/Contenu/Page[Id eq 'blog']/Billet[1]/@File, '.xml', '.html')
+    replace($sitemap/Contenu/Page[Id eq 'blog']/Billet[last()]/@File, '.xml', '.html')
   else
     $page/@File || '.html'
 };

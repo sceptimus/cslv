@@ -14,6 +14,7 @@
         <div id="content">
           <div class="block border noprint">
             <h1>Blog</h1>
+            <blockquote><i>Astuce:</i> n'hésitez pas à imprimer nos billets de blog pour les emporter partout avec vous et les diffuser.</blockquote>
             { local:blog-index($billet, $gabarit) } 
           </div>
           
