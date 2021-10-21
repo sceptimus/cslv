@@ -1,7 +1,7 @@
 <html lang="fr">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content="Site de présentation du Comité Santé Liberté Vendée" />
+        <meta name="description" content="Comité Santé Liberté Vendée 85" />
         <title>Boite à outils du CSLV 85</title>
         <link href="page.css" rel="stylesheet" type="text/css"/>
         <script src="site.js" type="text/javascript">//</script>
@@ -24,29 +24,32 @@ document.addEventListener('DOMContentLoaded', function () {{
 
           <div class="block border">
             <h1>Boite à outils</h1>
-            <blockquote>Vous trouverez dans la Boite à outil des exemples de démarches entreprises partout en France pour réagir face à la pression mise sur les parents et le citoyens avec des liens vers les resources utilisées (courriers, formulaires pour participer à des recours collectifs, etc.). Cette page rassemble des contributions de membres du comité postées sur le canal telegram ou envoyées sur <a id="mail2" href="mail2">boite à outil</a>.
+            <blockquote>Exemples de démarches entreprises partout en France pour réagir face à la pression mise sur les parents et le citoyens avec des liens vers les resources utilisées (courriers, formulaires pour participer à des recours collectifs, etc.). Cette page rassemble des contributions de membres du comité postées sur le canal telegram ou envoyées sur <a id="mail2" href="mail2">boite à outil</a>.
             </blockquote>
           </div>
 
           <div class="block border">
-            <h3 id="1">Situation n° 1: protocoles sanitaires, pressions et intimidations à l'école</h3>
-            <p>Témoignage de Mark, père d’un collégien en Normandie, septembre 2021: <i>la peur a changé de camp.</i></p>
-            <p>Mark a diffusé un <a href="https://www.dropbox.com/sh/3dn59z25gbtak1e/AABeiBBnZOXIVkZ6Bd0rmdAsa/Audios%20témoignages?dl=0&amp;preview=RDV+direction+30082021.mp3&amp;subfolder_nav_tracking=1">message vocal</a> <span style="font-size:0.7em">(durée 7'27)</span> sur les réseaux sociaux. C’est un ancien professeur de sport devenu chef d’entreprise. Il partage les informations qu’il a utilisées. Voici la <a href="outils/temoignage-mark-sept-2021.pdf">retranscription</a> de son message vocal réalisée par un membre du comité CSLV qui l'a contacté par téléphone.</p>
-            <p><span class="outil">Outil</span> lien vers le <a href="https://wedrop.com/project/p/czwuUKC8U/Courrier+primaire#project/listElements&amp;id=6576">dossier de partage</a> qu'il a créé avec un exemple de courrier et les annexes contenant les informations qu'il a utilisées.</p>
-          </div>
-        
-          <div class="block border">
-            <h3 id="2">Situation n° 2: extorsion du consentement à l'école</h3>
-            <ul>
-              <li>parents séparés avec un conflit sur la vaccination de leur enfant</li>
-              <li>parents avec enfants soumis à pass sanitaire à compter du 30 Septembre</li>
-              <li>parents avec enfants vaccinés ayant conduit à des complications</li>
-              <li>parents avec enfants ayant des contre-indications à la vaccination</li>
-              <li>parents dont l’enfant subit des pressions administratives, de la discrimination ou une mise en danger qui semblent condamnables parents ne souhaitant pas que leur enfant de 16-18 ans reçoive le vaccin covid</li>
-            </ul>
-            <p><span class="outil">Outil</span> se porter requérant sur un des recours déposés par le collectif <a href="https://enfance-libertes.fr/action-juridique-el-inscriptions/">Enfance &amp; Libertés</a></p>
+            <h3 id="6">Situation n° 6: écrire à son sénateur pour l'alerter sur la situation actuelle de notre pays</h3>
+            <p><span class="outil">Outil</span> voici un courrier au format <a href="https://www.cadoc.fr/cslv85/archives/2021/01/mail-senateurs.docx">docx</a> pour éditer (version <a href="https://www.cadoc.fr/cslv85/archives/2021/01/mail-senateurs.pdf">pdf</a> sans le dossier d'information qui provient de <a href="https://bonsens.info/lettre-aux-senatrices-et-senateurs">BonSens.org</a>) qui a été envoyé par plusieurs membres du comité santé liberté vendée 85. À adapter suivant votre sensibilité.</p>
+            <p>Pour rappel les sénateurs de la Vendée sont: <a href="http://www.senat.fr/senateur/billon_annick14030q.html">Mme Annick Billon</a>, <a href="http://www.senat.fr/senateur/retailleau_bruno04033b.html">M. Bruno Retailleau</a> et <a href="http://www.senat.fr/senateur/mandelli_didier14031r.html">M. Didier Mandelli</a>. Leur adresse de courrier électronique figure à gauche sous leur portrait dans leur fiche de présentation.</p>
           </div>
 
+          <div class="block border">
+            <h3 id="5">Situation n° 5: que répondre à un député qui demande quelles sont les solutions alternatives au vaccin</h3>
+            <p>Vous avez réussi à obtenir un rendez-vous avec votre député, à sa permanence. Au cours de l'entrevue, celui-ci vous écoute poliment puis lâche avant de vous quitter: c'est bien beau ce que vous me dîtes mais quelles sont les solutions alternatives au vaccin ?</p>
+            <p><span class="outil">Outil</span> voici un <a href="docs/lettre-depute-alternatives-vaccination.pdf">courrier d'information</a> rédigé par un groupe de citoyens informés et engagés en réponse à une telle question (en Mayenne). Si vous souhaitez obtenir les documents cités dans le courrier (en bleu), contactez-vous à l'adresse dans le chapô de cette rubrique, nous nous ferons un plaisir de vous les envoyer.</p>
+          </div>
+          
+          <div class="block border">
+            <h3 id="4">Situation n° 4: dialogue avec un adolescent</h3>
+            <p>Vous souhaitez discuter et alerter votre enfant adolescent des dangers à long terme des politiques d'état d'urgence, de coercition et d'extorsion du consentement pour les vaccins par les passes sanitaires. Vous ne souhaitez pas qu'il  grandisse avec l'idée qu'il s'agit d'une nouvelle normalité. Vous souhaitez lui donner des outils critiques pour permettre des choix éclairés ?</p>
+            <p><span class="outil">Outil</span> Le cinéma ! Plusieurs films très bien réalisés sont disponibles et propices à la prise de conscience et à la discussion  :</p>
+
+            { local:films('films.xml', 'dystopie') }
+
+            <p>Suggestion: pour trouver et se prêter un des ces films en DVD n'hésitez pas à utiliser le canal telegram du CSLV !</p>
+          </div>
+          
           <div class="block border">
             <h3 id="3">Situation n° 3: changement de politique sanitaire</h3>
             <p>Vous êtes sensibles à la destruction de notre système de santé et au détournement de toute la chaine du soin à des fins politiques.</p>
@@ -59,13 +62,22 @@ document.addEventListener('DOMContentLoaded', function () {{
           </div>
 
           <div class="block border">
-            <h3 id="4">Situation n° 4: dialogue avec un adolescent</h3>
-            <p>Vous souhaitez discuter et alerter votre enfant adolescent des dangers à long terme des politiques d'état d'urgence, de coercition et d'extorsion du consentement pour les vaccins par les passes sanitaires. Vous ne souhaitez pas qu'il  grandisse avec l'idée qu'il s'agit d'une nouvelle normalité. Vous souhaitez lui donner des outils critiques pour permettre des choix éclairés ?</p>
-            <p><span class="outil">Outil</span> Le cinéma ! Plusieurs films très bien réalisés sont disponibles et propices à la prise de conscience et à la discussion  :</p>
-
-            { local:films('films.xml', 'dystopie') }
-
-            <p>Suggestion: pour trouver et se prêter un des ces films en DVD n'hésitez pas à utiliser le canal telegram du CSLV !</p>
+            <h3 id="2">Situation n° 2: extorsion du consentement à l'école</h3>
+            <ul>
+              <li>parents séparés avec un conflit sur la vaccination de leur enfant</li>
+              <li>parents avec enfants soumis à pass sanitaire à compter du 30 Septembre</li>
+              <li>parents avec enfants vaccinés ayant conduit à des complications</li>
+              <li>parents avec enfants ayant des contre-indications à la vaccination</li>
+              <li>parents dont l’enfant subit des pressions administratives, de la discrimination ou une mise en danger qui semblent condamnables parents ne souhaitant pas que leur enfant de 16-18 ans reçoive le vaccin covid</li>
+            </ul>
+            <p><span class="outil">Outil</span> se porter requérant sur un des recours déposés par le collectif <a href="https://enfance-libertes.fr/action-juridique-el-inscriptions/">Enfance &amp; Libertés</a></p>
+          </div>
+          
+          <div class="block border">
+            <h3 id="1">Situation n° 1: protocoles sanitaires, pressions et intimidations à l'école</h3>
+            <p>Témoignage de Mark, père d’un collégien en Normandie, septembre 2021: <i>la peur a changé de camp.</i></p>
+            <p>Mark a diffusé un <a href="https://www.dropbox.com/sh/3dn59z25gbtak1e/AABeiBBnZOXIVkZ6Bd0rmdAsa/Audios%20témoignages?dl=0&amp;preview=RDV+direction+30082021.mp3&amp;subfolder_nav_tracking=1">message vocal</a> <span style="font-size:0.7em">(durée 7'27)</span> sur les réseaux sociaux. C’est un ancien professeur de sport devenu chef d’entreprise. Il partage les informations qu’il a utilisées. Voici la <a href="outils/temoignage-mark-sept-2021.pdf">retranscription</a> de son message vocal réalisée par un membre du comité CSLV qui l'a contacté par téléphone.</p>
+            <p><span class="outil">Outil</span> lien vers le <a href="https://wedrop.com/project/p/czwuUKC8U/Courrier+primaire#project/listElements&amp;id=6576">dossier de partage</a> qu'il a créé avec un exemple de courrier et les annexes contenant les informations qu'il a utilisées.</p>
           </div>
 
           <div id="logo">

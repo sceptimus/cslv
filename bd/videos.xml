@@ -4,7 +4,7 @@
             <Duree>9'10</Duree>            <Lien>https://nba.nbcsports.com/2021/09/28/magic-forward-jonathan-isaac-i-am-not-anti-vax-im-not-anti-medicine-im-not-anti-science/</Lien>
             <Titre>Magic forward Jonathan Isaac: ‘I am not anti-vax. I’m not anti-medicine. I’m not anti-science’</Titre>
             <Presentation>le basketteur Magic forward Jonathan Isaac (Orlando, NBA) explique sa position vis à vis de la vaccination</Presentation>
-            <Tag>opinion</Tag>
+            <Tag>témoignage</Tag>
             <Ajout>2021-09-30</Ajout>
             <Langue>anglais</Langue>
             <SousTitre>activer</SousTitre>
@@ -14,7 +14,7 @@
             <Lien>https://crowdbunker.com/v/5Ttn5cKWWR</Lien>
             <Titre>Liberté vaccinale pour tous en Andorre</Titre>
             <Presentation>discours de Carine Montaner, membre du conseil général de la santé en Andorre, devant le parlement</Presentation>
-            <Tag>opinion</Tag>
+            <Tag>politique</Tag>
             <Ajout>2021-09-30</Ajout>
             <Langue>espagnol</Langue>
             <SousTitre>français</SousTitre>
@@ -24,7 +24,7 @@
             <Lien>https://www.youtube.com/watch?v=sm4DJyZ_R7M</Lien>
             <Titre>Trahison des institutions : la mort de l'Etat ?</Titre>
             <Presentation>Politique &amp; Eco n°313 avec Valérie Bugault - TVL, Valérie Bugault très affûtée donne un regard économico-politique à la crise sanitaire et une vision possible des prochains mois</Presentation>
-            <Tag>opinion</Tag>
+            <Tag>interview</Tag>
             <Ajout>2021-09-30</Ajout>
         </Video>
         <Video Afficher="oui">
@@ -68,7 +68,7 @@
             <Langue>anglais</Langue>
             <SousTitre>français</SousTitre>
             <Presentation>son récit débute en novembre 2019, il sort clairement du récit officiel, mais est-il crédible, c'est la difficulté de tous ces témoignages issus du terrain</Presentation>
-            <Tag>interview</Tag>
+            <Tag>témoignage</Tag>
             <Ajout>2021-09-22</Ajout>
         </Video>
         <Video Afficher="oui">
@@ -145,6 +145,22 @@
             <Presentation>théâtre de rue pour mobiliser</Presentation>
             <Tag>satire</Tag>
             <Ajout>2021-10-04</Ajout>
-        </Video>        
+        </Video>
+        <Video Afficher="oui">
+            <Duree>15'51</Duree>
+            <Lien>https://www.youtube.com/watch?v=WNFE3QKBXHc</Lien>
+            <Titre>Vaccination obligatoire : examen d’un amendement</Titre>
+            <Presentation>débat autour de la proposition de loi « instaurant la vaccination obligatoire contre le SARS-CoV-2 », au Sénat, ce 13 octobre, examen d'un amendement de suppression. À voir pour mesurer l'honnêteté intellectuelle des parlementaires, ils ne répondent pas sur le fond aux arguments des "anti-vax" et récitent leur mantra tels des perroquets : l'injection n'est pas expérimentale car il y a eu 7 milliards de doses (<i>cela n'en fait pas moins une expérience à 7 milliards de doses</i>), regardez ailleurs, aucune allusion aux effets secondaires, aux victimes, à la responsabilité des fabricants, aux traitements efficaces dans le reste du monde, aux échecs vaccinaux, aux effets réels sur la contagiosité, charge virale, à l'immunité naturelle, aux contrôles de qualité (juste une allusion), à l'existence d'autres types de vaccins (ex. Valneva),...</Presentation>
+            <Tag>politique</Tag>
+            <Ajout>2021-10-04</Ajout>
+        </Video>
+        <Video Afficher="oui">
+            <Quantite>21</Quantite>
+            <Lien>https://www.educationpourlebiendesenfants.fr/rentree-2021/</Lien>
+            <Titre>Des enseignantes témoignent de leur rentrée 2021 sous protocole covid</Titre>
+            <Presentation>à consulter en même temps que le <a href="https://www.service-public.fr/particuliers/actualites/A15074">protocole sanitaire applicable dans les écoles, collèges et lycées</a> à 4 niveaux, mais où il n'y a pas de niveau pour le retour à la normale prévu !</Presentation>
+            <Tag>témoignage</Tag>
+            <Ajout>2021-10-19</Ajout>
+        </Video>
     </Videos>
 </Ressources>

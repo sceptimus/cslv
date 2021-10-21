@@ -77,6 +77,20 @@
       <Id>biblio</Id>
       <Rubriques>
           <Rubrique>
+              <Tag>lettre</Tag>
+              <Titre>Lettres Ouvertes</Titre>
+              <Presentation>
+                <p>De plus en plus de voix s'expriment sur la crise, y compris parmi les professionnels de la santé, pour briser l'omerta et faire jaillir la vérité, pour que le bon sens reprenne le contrôle de nos vies</p>
+              </Presentation>
+          </Rubrique>
+          <Rubrique Ancre="inexplique">
+              <Tag>inexpliqué</Tag>
+              <Titre>Inexpliqué</Titre>
+              <Presentation>
+                <p>quand les faits sont têtus</p>
+              </Presentation>
+          </Rubrique>           
+          <Rubrique>
               <Tag>sport</Tag>
               <Titre>Dossier sport</Titre>
               <Presentation>
@@ -84,27 +98,39 @@
               </Presentation>
           </Rubrique>      
           <Rubrique>
-              <Tag>faq</Tag>
-              <Titre>Foire aux questions</Titre>
-          </Rubrique>
+              <Tag>prospective</Tag>
+              <Titre>Prospectives</Titre>
+              <Presentation>
+                <p>Que nous prépare le gouvernement et ceux qui gouvernent le gouvernement pour suivre la crise du COVID ? Cette rubrique a pour but d'exhumer des rapports, notes ou synthèses d'organismes gouvernementaux pouvant nous éclairer.</p>
+              </Presentation>
+          </Rubrique>          
           <Rubrique>
               <Tag>analyse</Tag>
               <Titre>Analyses</Titre>
-          </Rubrique>        
+          </Rubrique>
+          <!-- <Rubrique>
+              <Tag>faq</Tag>
+              <Titre>Foire aux questions</Titre>
+          </Rubrique> -->
       </Rubriques>
     </Page>
     <Page>
       <Id>videos</Id>
       <Rubriques>
           <Rubrique>
-              <Tag>opinion</Tag>
-              <Titre>Opinions</Titre>
+              <Tag>témoignage</Tag>
+              <Titre>Témoignages</Titre>
               <Presentation>Des individus de toute la société s'expriment en dehors de la pensée unique.</Presentation> 
           </Rubrique>      
           <Rubrique>
               <Tag>local</Tag>
               <Titre>Videos Locales (85, Vendée)</Titre>
           </Rubrique>
+          <Rubrique>
+              <Tag>politique</Tag>
+              <Titre>Politiques</Titre>
+              <Presentation>Comment nos représentants élus ou non présentent les faits et s'expriment en notre nom.</Presentation> 
+          </Rubrique>                    
           <Rubrique>
               <Tag>interview</Tag>
               <Titre>Interviews &amp; Entretiens</Titre>

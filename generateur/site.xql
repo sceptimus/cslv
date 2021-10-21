@@ -37,7 +37,7 @@ declare function local:films ( $name, $genre ) {
             <a href="{$f/Lien/text()}">{$f/Titre/text()}</a>
             {
             if ($f/Commentaire)
-              then ': ' ||  $f/Commentaire/text()
+              then ': ' ||  $f/Commentaire/(*|text())
               else ()
             }
           </li>
@@ -123,6 +123,8 @@ declare function local:videos ( $file ) {
                 <ul>    
                     {
                     for $v in $input//Video[@Afficher eq 'oui'][Tag = $r/Tag]
+                    let $ajout := $v/Ajout
+                    order by $ajout descending
                     return
                         <li>
                             <a href="{$v/Lien}">
@@ -149,7 +151,7 @@ declare function local:videos ( $file ) {
                                     , ', ') || ')'
                                 }
                             </sup>: 
-                            { $v/Presentation/text()}
+                            { $v/Presentation/(*|text())}
                         </li>
                     }
                 </ul>
@@ -235,6 +237,7 @@ declare function local:biblio ( $file ) {
         for $r in $rubriques/Rubrique
         return
             <div class="block border">
+                { if ($r/@Ancre) then attribute { 'id' } { string($r/@Ancre) } else () }
                 <h2>{ $r/Titre/text() }</h2>
                 {
                 if ($r/Presentation) then
@@ -249,8 +252,28 @@ declare function local:biblio ( $file ) {
                     return
                         <li>
                             <a href="{$i/Lien}">{ $i/Titre/text() }</a>
-                            <span> par { $i/Auteur/text() }</span>
-                            <p>{if ($i/Commentaire) then (replace($i/Commentaire, '\.$', '') || '. Publié') else 'publié' } le { local:date($i/Parution) } (ajouté le { local:date($i/Ajout) })</p>
+                            {
+                            if ($i/LienPDF) then
+                              <a href="{$i/LienPDF}"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a>
+                            else
+                              ()
+                            }
+                            <span> par { $i/Auteur/text() }</span>                            
+                            <sup>(publié le { local:date($i/Parution) }, ajouté le { local:date($i/Ajout) })</sup>
+                            <p>
+                              {
+                              if ($i/Commentaire) then
+                                let $comment := $i/Commentaire/(*|text())
+                                return (
+                                  $comment,
+                                  if (ends-with(string($i/Commentaire), '.') or ends-with(string($i/Commentaire), '?'))
+                                    then ' '
+                                    else '. '
+                                  )
+                              else
+                                ()
+                              }                              
+                            </p>
                         </li>
                     }
                 </ul>
@@ -309,6 +332,6 @@ let $in := map {
 
 let $pages := ('index', 'annuaire', 'evenements', 'videos', 'biblio', 'outils', 'nocomment', 'blog')
 return 
-  for $i in 1 to 8
+  for $i in (1, 5, 6)
   return
     <page name="{$pages[$i]}">{ local:render($pages[$i], $in) }</page>

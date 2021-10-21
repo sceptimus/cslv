@@ -58,5 +58,82 @@
           <Ajout>2021-10-01</Ajout>
           <Titre>Mort de Lise Vidal : la double championne d’Europe de planche à voile est décédée à l'âge de 43 ans</Titre> <Lien>https://www.voici.fr/news-people/actu-people/mort-de-lise-vidal-la-double-championne-deurope-de-planche-a-voile-est-decedee-a-lage-de-43-ans-707474</Lien> 
         </Article>
+        <Article Afficher="oui">
+            <Tag>lettre</Tag>
+            <Ajout>2021-10-12</Ajout>
+            <Parution>2021-10-11</Parution>
+            <Lien>https://nouveau-monde.ca/lettre-ouverte-aux-presidents-des-conseils-de-lordre-et-a-tous-mes-confreres-cliniciens/</Lien>
+            <LienAlt>https://www.profession-gendarme.com/lettre-ouverte-aux-presidents-des-conseils-de-lordre-et-a-tous-mes-confreres-cliniciens/</LienAlt>
+            <LienPDF>docs/lettre-ouverte-jean-stevens.pdf</LienPDF>
+            <Titre>Lettre ouverte aux présidents des conseils de l’Ordre et à tous mes confrères cliniciens</Titre>
+            <Auteur>Jean Stevens</Auteur>
+            <Commentaire>Lettre d'un médecin vacciné ! Percutant. Faites circuler, à diffuser aux personnel de santé, à tous les médecins. Extrait : <i>depuis lors (seconde injection), je souffre de douleurs musculaires diffuses et de transpirations à l’effort qui me donnent le sentiment d’avoir vieilli de 10 ans. Ces effets secondaires invalidants ainsi que l’émergence évidente, dans mon entourage proche, d’autres effets secondaires nullement bénins et d’une défiance croissante vis-à-vis des contraintes imposées par ces « autorités » m’ont poussé à tenter d’éclairer au mieux ma lanterne. Et si j’écris cette lettre, c’est parce que je sors atterré de ce que j’ai découvert</i>.</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>lettre</Tag>
+            <Ajout>2021-10-11</Ajout>
+            <Parution>2021-10-02</Parution>
+            <Lien>https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/</Lien>
+            <LienPDF>docs/lettre-ouverte-professeur-balique.pdf</LienPDF>
+            <Titre>Lettre ouverte du Professeur Balique aux parlementaires</Titre>
+            <Auteur>Professeur Jean Gabriel BALIQUE</Auteur>
+            <Commentaire>Synthèse claire sur les risques et les échecs de la stratégie toute vaccinale</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>prospective</Tag>
+            <Ajout>2021-10-12</Ajout>
+            <Parution>2017-10-01</Parution>
+            <Lien>https://www.strategie.gouv.fr/publications/resorber-dettes-publiques-zone-euro</Lien>
+            <LienPDF>https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/note_danalyse_ndeg62_-_comment_assurer_la_resorption_des_dettes_publiques_en_zone_euro_-_web.pdf</LienPDF>
+            <Titre>Comment assurer la résorption des dettes publiques en zone euro ?</Titre>
+            <Auteur>Vincent Aussilloux, Christophe Gouardo, Fabrice Lenglart et Marie Cases (Note d'analyse France Stratégie)</Auteur>
+            <Commentaire>Après la crise sanitaire il faudra bien faire face à la crise de la dette causée par celle-ci. Dès 2017 cette note d'analyse donne des pistes. Celle-ci en particuliers : <i>"Concrètement, une façon de procéder consisterait en ce que l’État décrète qu’il devient copropriétaire de tous les terrains construits résidentiels, à hauteur d’une fraction fixée de leur valeur, et que ce nouveau droit de propriété est désormais incessible. En conséquence, l’État deviendrait créditeur d’une somme annuelle, correspondant à une part de la fraction de la rente immobilière associée à la copossession du terrain"</i> (p9, col. de gauche)</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>lettre</Tag>
+            <Ajout>2021-10-12</Ajout>
+            <Parution>2017-10-10</Parution>
+            <Lien>https://bonsens.info/lettre-aux-senatrices-et-senateurs/</Lien>              <LienPDF>https://bonsens.info/wp-content/uploads/2021/10/lettre-aux-senateurs-projet-vaccination-obligatoire.pdf</LienPDF>
+            <Titre>Lettre aux Sénatrices et Sénateurs</Titre>
+            <Auteur>Association Bonsens.org</Auteur>
+            <Commentaire>Encore une lettre richement argumentée contre l'obligation vaccinale</Commentaire>
+        </Article>
+        <Article Afficher="non">
+            <Tag>victime</Tag>
+            <Ajout>2021-10-13</Ajout>
+            <Parution>2021-10-13</Parution>
+            <Lien>https://bonsens.info/lettre-aux-senatrices-et-senateurs/</Lien>              <LienPDF>https://bonsens.info/wp-content/uploads/2021/10/lettre-aux-senateurs-projet-vaccination-obligatoire.pdf</LienPDF>
+            <Titre>Nay : un collégien d’Henri-IV décède à la suite d’un malaise</Titre>
+            <Auteur>Bernard Semerjian (La République des Pyrénées)</Auteur>
+            <Commentaire>Un élève de 4e est décédé ce mercredi après-midi, à l’hôpital de Pau. Plus tôt dans la journée, il avait fait un malaise lors d’un cours de sport, au collège Henri-IV. Il aurait été victime d’un malaise cardiaque.</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>sport</Tag>
+            <Ajout>2021-10-13</Ajout>
+            <Parution>2021-10-13</Parution>
+            <Lien>https://thecovidworld.com/brandon-goodwin-26-year-old-nba-player-suffers-blood-clots-shortly-after-receiving-the-covid-19-vaccine/</Lien>
+            <Titre>Brandon Goodwin: joueur de basket NBA de 26 ans souffrant de caillots sanguins peu après avoir reçu un vaccin COVID-19 pourrait arrêter sa carrière</Titre>
+            <Auteur>The Covid World</Auteur>            
+            <Commentaire>Il a mis fin à sa saison et n'a pas signé avec de nouveau club pour la prochaine : “<i>I was fine until then, I was fine up until I took the vaccine, I was fine. People trying to tell you, ‘No. It’s not the vaccine.’ How do you know?” Goodwin asked. “You don’t know. Yes, the vaccine ended my season. One thousand percent.</i>”</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>prospective</Tag>
+            <Ajout>2021-10-13</Ajout>
+            <Parution>2020-10-28</Parution>
+            <Lien>https://www.gouvernement.fr/et-si-le-covid-durait-le-haut-commissaire-au-plan-lance-le-debat</Lien>
+            <LienPDF>https://www.gouvernement.fr/sites/default/files/contenu/piece-jointe/2020/10/plan_et_si_la_covid_durait_28_octobre_2020.pdf</LienPDF>
+            <Titre>Et si la Covid durait ?</Titre>
+            <Auteur>Haut-Commissariat au Plan - Note d'ouverture</Auteur>
+            <Commentaire>Curieuse note d'accompagnement du <i>great reset</i> ou bien cri d'alerte sur sa légitimité ?</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>inexpliqué</Tag>
+            <Ajout>2021-10-19</Ajout>
+            <Parution>2020-10-18</Parution>              <Lien>https://www.ouest-france.fr/pays-de-la-loire/doix-les-fontaines-85200/covid-19-cluster-a-doix-les-fontaines-un-schema-vaccinal-complet-aa1701ce-3023-11ec-b653-4cec8da29c4d</Lien>
+            <Titre>Covid-19. Cluster à Doix-lès-Fontaines : « un schéma vaccinal complet »</Titre>
+            <Auteur>Magali SCHAAL - Ouest France</Auteur>
+            <Source>ouest-france</Source>
+            <Commentaire>24 cas Covid détectés dont une personne décéde sur 67 résidents ayant reçu une troisième dose « entre le 27 septembre et le 3 octobre » à la maison de retraite Saint-Luc en Vendée, le mystère est total et l'on se demande bien ce qui a pu se passer ? si ni le pass sanitaire ni l'injection n'ont rien pu faire, où allons nous ?</Commentaire>
+        </Article>                
     </Articles>
 </Ressources>
