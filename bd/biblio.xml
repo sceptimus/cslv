@@ -10,7 +10,8 @@
         <Article Afficher="oui">
             <Tag>analyse</Tag>
             <Ajout>2021-10-01</Ajout>
-            <Parution>2012-03-08</Parution>            <Lien>http://myreader.toile-libre.org/uploads/My_61549b0f4852d.pdf</Lien>
+            <Parution>2012-03-08</Parution>
+            <Lien>http://myreader.toile-libre.org/uploads/My_61549b0f4852d.pdf</Lien>
             <Titre>"Contagion" : Comment les films catastrophe "éduquent" les masses</Titre>
             <Auteur>Vigilant Citizen</Auteur>
         </Article>
@@ -134,6 +135,40 @@
             <Auteur>Magali SCHAAL - Ouest France</Auteur>
             <Source>ouest-france</Source>
             <Commentaire>24 cas Covid détectés dont une personne décéde sur 67 résidents ayant reçu une troisième dose « entre le 27 septembre et le 3 octobre » à la maison de retraite Saint-Luc en Vendée, le mystère est total et l'on se demande bien ce qui a pu se passer ? si ni le pass sanitaire ni l'injection n'ont rien pu faire, où allons nous ?</Commentaire>
-        </Article>                
+        </Article>   
+        <Article Afficher="oui">
+            <Tag>inexpliqué</Tag>
+            <Ajout>2021-10-31</Ajout>
+            <Parution>2020-10-31</Parution>              <Lien>https://www.lelibrepenseur.org/lexemple-de-la-vendee-demontre-lechec-de-la-politique-vaccinale/</Lien>
+            <Titre>L’exemple de la Vendée démontre l’échec de la politique vaccinale !</Titre>
+            <Auteur>lelibrepenseur.org</Auteur>
+            <Commentaire>Avec un taux de vaccination de près de 85 %, la Vendée est en train de vivre une augmentation des cas positifs au Covid-19 ainsi que des personnes hospitalisées. Les personnes qui augmentent le plus les chiffres des hospitalisations sont les plus âgées et donc les plus vaccinées.</Commentaire>
+        </Article> 
+        <Article Afficher="oui">
+            <Tag>inexpliqué</Tag>
+            <Ajout>2021-10-31</Ajout>
+            <Parution>2020-06-04</Parution>              <Lien>https://www.rtl.fr/actu/bien-etre/coronavirus-sept-pretres-de-la-meme-communaute-sont-morts-en-vendee-7900040538</Lien>
+            <Titre>Coronavirus : sept prêtres de la même communauté sont morts en Vendée</Titre>
+            <Auteur>Camille Guesdon</Auteur>
+            <Source>RTL</Source>
+            <Commentaire>Décès de 7 Fils de Marie Immaculée sur les 23 que compte la communauté, prêtres en retraite à Chavagnes-en- Paillers en Vendée, dans les 15 jours suivant la première injection au mois de juin 2021.</Commentaire>
+        </Article>                                
+        <Article Afficher="oui">
+            <Tag>analyse</Tag>
+            <Ajout>2021-10-31</Ajout>
+            <Parution>2012-10-22</Parution>            <Lien>https://fr.sott.net/article/38526-L-histoire-de-Moderna-Une-entreprise-en-quete-d-une-intervention-miraculeuse-de-la-Sainte-Vierge</Lien>
+            <Titre>L'histoire de Moderna — Une entreprise en quête d'une « intervention miraculeuse de la Sainte Vierge »</Titre>
+            <Auteur>Whitney Webb</Auteur>
+            <Source>SOTT.net</Source>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>lettre</Tag>
+            <Ajout>2021-11-01</Ajout>
+            <Parution>2021-10-26</Parution>
+            <LienPDF>https://www.cadoc.fr/cslv85/archives/2021/01/Lettre-EDF-26.10.21-Laurent-Aventin.pdf</LienPDF>
+            <Titre>COVID : Lettre ouverte aux évêques de France</Titre>
+            <Auteur>Laurent Aventin, PhD</Auteur>
+            <Commentaire>Une lettre rédigée en réaction, entre autre, à la phrase « la vaccination est la réponse médicale disponible pour faire face à cette épidémie » dans la <a href="https://eglise.catholique.fr/conference-des-eveques-de-france/textes-et-declarations/517467-pass-sanitaire-/">tribune des évêques de France</a>, publiée le 22 juillet 2021. L'auteur est consultant indépendant en santé publique depuis 25 ans, il réagit en tant que professionnel de la santé publique et en tant que catholique.</Commentaire>
+        </Article>
     </Articles>
 </Ressources>

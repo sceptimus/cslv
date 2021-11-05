@@ -162,5 +162,31 @@
             <Tag>témoignage</Tag>
             <Ajout>2021-10-19</Ajout>
         </Video>
+        <Video Afficher="oui">
+            <Lien>https://www.youtube.com/channel/UCiRiQGCHGjDLT9FQXFW0I3A</Lien>
+            <Langue>anglais</Langue>
+            <SousTitre>anglais</SousTitre>
+            <Titre>Academy of Ideas</Titre>
+            <Presentation>Chaine de vidéos courtes de 10' qui présentent les concepts centraux de grands philosophes ou auteurs en les mettant dans une perspective contemporaine (sous-titres en anglais)</Presentation>
+            <Tag>documentaire</Tag>
+            <Ajout>2021-10-31</Ajout>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>19'20</Duree>
+            <Lien>https://odysee.com/@FlowerPower:b/Alexandra-Henrion-Caude-Oxyde-de-Graphène-infertilité:8</Lien>
+            <Titre>Alexandra Henrion Claude parle des injections covid lors d'une manifestation.</Titre>
+            <Presentation>Vaccin ARNm et rappels d'injection 'Malwares &amp; Ransomwares' : Inhibiteur d'immunité, réactivateurs de pathologies préexistantes, cancers fulgurants, Spike effet ADE auto-immune, Oxyde de Graphène, infertilité.</Presentation>
+            <Tag>interview</Tag>
+            <Ajout>2021-10-31</Ajout>
+        </Video>        
+        <Video Afficher="oui">
+            <Duree>1'37</Duree>
+            <Lien>https://www.youtube.com/watch?v=9psTUG1r9Os</Lien>
+            <Titre>Le député Joachim Son-Forget balance sur la collaboration avec la Chine</Titre>
+            <Presentation>si c'est un député qui le dit...</Presentation>
+            <Tag>politique</Tag>
+            <Ajout>2021-11-04</Ajout>
+            <Publication>2021-11-03</Publication>
+        </Video>
     </Videos>
 </Ressources>

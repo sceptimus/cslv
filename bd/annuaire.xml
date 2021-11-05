@@ -3,11 +3,11 @@
     <Groupe>
       <Tag>regional</Tag>
       <Departement>85</Departement>
-      <Nom>Comité Santé Liberté Vendée</Nom>
+      <Nom>Comité Santé Liberté Vendée 85</Nom>
       <Lien>http://www.comitesantelibertevendee.fr</Lien>
       <Presentation>présenté dans le Manifeste (groupe telegram, organisation de Happy apero / pique nique)</Presentation>
     </Groupe>
-    <Groupe>
+    <Groupe Afficher="non">
       <Tag>regional</Tag>
       <Departement>85</Departement>
       <Nom>Collectif Santé Liberté 85</Nom>

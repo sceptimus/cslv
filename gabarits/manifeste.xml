@@ -1,0 +1,134 @@
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Comité Santé Liberté Vendée 85" />
+        <title>Comité Santé Liberté Vendée 85</title>
+        <link href="manifeste.css" rel="stylesheet" type="text/css"/>
+        <script src="site.js" type="text/javascript">//</script>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {{
+    var s = window.location.href.toString(),
+        n, mto = 'mailto:', base = '@',
+        m1 = "contact" + base + "comitesantelibertevendee.fr",
+        m2 = "telegram" + base + "comitesantelibertevendee.fr",
+    n = document.getElementById('mail1');
+    n.href = mto + m1;
+    n.textContent = m1;
+    n = document.getElementById('mail2');
+    n.href = mto + m2 + '?subject=Inscription%20telegram%20CSLV';
+    n.textContent = m2;        
+  }});
+</script>
+    </head>
+    <body>
+      <div id="preview">
+        
+        { local:menu('manifeste') }
+
+        <div id="logo">
+          <p class="image"><img src="img/logo.gif"/></p>
+          <h2>Dans le contexte sanitaire et social actuel, le Comité Santé Liberté Vendée a été créé par des citoyens en mars 2021, il a fusionné avec le Collectif Santé Liberté 85 en octobre 2021 donnant naissance au CSLV 85</h2>
+        </div>
+
+        <div id="terre"><p classe="image"><img src="img/terre.jpg"/></p><p class="copyright">© AdobeStock</p></div>
+      
+        <!-- ==== presentation -->
+        <div id="presentation" class="border">
+          <h2>Comité Santé Liberté Vendée 85</h2>
+          <!-- <h3>Traitements et prévention COVID</h3>
+          <p>La <a href="https://stopcovid19.today">Coordination Santé Libre</a> donne des clefs pour les <a href="https://stopcovid19.today/coordination-sante-libre/">traitements précoces</a> contre le COVID ainsi que sa prévention (<i>le site semble inaccessible</i>).</p>
+          <h3>Réinformation santé et liberté</h3> -->
+          <p>Le comité santé liberté vendée 85 s’appuie sur des réseaux nationaux: <a href="https://bonsens.info">Bon Sens</a>, <a href="https://covid.fr">RéinfoCovid</a> et <a href="https://manifestes-libertes.org">Le manifeste "La quatrième voie"</a> (30 000 médecins), <a href="https://enfance-libertes.fr">Enfance &amp; Liberté</a>, <a href="https://reaction19.fr/">Reaction19</a>.</p>
+          <p>Il dispose d’articles et de témoignages scientifiques dénués de tout conflit d’intérêt, afin de sortir d’une vérité unique, s’appuyer sur notre bon sens et ainsi retrouver nos propres repères pour traverser cette période sereinement.</p>        
+          <p>Ensemble, dans un esprit démocratique, se retrouver est une force pour développer notre libre-arbitre et favoriser notre santé.</p>
+          <ul>
+            <li>Espace d’information et d’échanges</li>
+            <li>Espace de liberté pour se relier à soi et aux autres</li>
+          </ul>
+        </div>
+            
+        <!-- ==== chapo -->
+        <div id="chapo" class="border">
+          <p class="image"><img src="img/branches.gif"/></p>
+          <div id="contact">
+            <p>Pour nous rejoindre et recevoir nos annonces par courrier électronique, adhérez gratuitement à notre charte en adressant un message avec vos coordonnées à:</p>
+            <p class="media">
+              <a id="mail1">mail1</a>
+            </p>
+            <p>Pour participer à nos échanges sur telegram envoyez un message avec vos coordonnées et téléphone à:</p>
+            <p class="media"><img src="img/telegram.png" width="24px"/> <a id="mail2">mail2</a></p>
+            <p class="media" style="font-size:0.66em"> <img src="img/facebook.png" width="24px"/><a href="https://www.facebook.com/comite.santelibertevendee">comite.santelibertevendee</a></p>
+          </div>
+        </div>
+
+        <!-- ==== objectifs --> 
+        <div id="objectifs" class="border">
+          <h2>Nos objectifs</h2>
+          <ul>
+            <li>Toucher et rassembler un maximum de personnes</li>
+            <li>Promouvoir la joie et la bonne humeur (par diverses actions)</li>
+            <li>Permettre à chacun de retrouver sa liberté et ses droits</li>
+            <li>Accueillir et informer les personnes en quête de bon sens et de relation</li>
+            <li>Diffuser de l’information et relayer celle des autres collectifs</li>
+            <li>Répondre aux besoins de rencontre et partage pour rompre l’isolement et l’exclusion</li>
+            <li>Promouvoir la santé naturelle et les approches alternatives notamment concernant la prévention covidique.</li>
+          </ul>
+        </div>
+
+        <!-- ==== moyens -->
+        <div id="moyens" class="border">
+          <h2>Moyens</h2>
+          <ul>
+           <li>Rendre facile l’accès au Comité Santé Liberté Vendée 85 et transmettre de l’information via un site, FB, Telegram, flyer et téléphone, VK</li>
+           <li>Identifier un réseau de coordinateurs/trices locaux, des groupes géographiques et en diffuser la liste</li>
+           <li>Organiser des rassemblements réguliers (LRSY)</li>
+           <li>Organiser des événements locaux (pique-nique, promenade, jeux, etc.)</li>
+           <li>Réaliser des vidéos, rédiger des textes courts, organiser des conférences</li>
+          </ul>
+        </div>
+
+        <!-- ==== charte  -->
+        <div id="charte" class="border">
+          <h2>CHARTE DE BONNE CONDUITE</h2>
+          <ul>
+            <li>Je traite l’autre comme je voudrais être traité(e)</li>
+            <li>Nous prenons soin les uns des autres, car chacun est digne de considération</li>
+            <li>Je parle en « JE » (ni TU ni ON) et j’accepte qu’il existe des points de vue différents (respect mutuel)</li>
+            <li>Nous utilisons le bâton de parole comme outil lors de nos réunions</li>
+            <li>Nous respectons nos différences et la dignité de chacun en étant complémentaires</li>
+            <li>Nous offrons un cadre de sécurité (confidentialité)</li>
+            <li>Les photos et vidéos sont diffusées avec l’accord des personnes concernées</li>
+          </ul>
+        </div>
+
+        <!-- === creation -->
+        <div id="creation" class="border">
+          <p class="image"><img src="img/branches.gif"/></p>
+        </div> 
+
+        <!-- ==== valeurs -->
+        <div id="valeurs" class="border">
+          <h2>Nos valeurs</h2>
+          <p>(Ré)apprendre à exercer notre sens critique</p>
+          <ul>
+            <li>Adopter recul et discernement, retrouver le sens de la justesse</li>
+            <li>Être vigilants quand aux sources d’information</li>
+          </ul>
+          <p>Se reconnecter à SOI ; choisir d’être intègre, courageux et positif ; se recentrer pour ressentir</p>
+          <p>Agir de façon bienveillante et apolitique, dans le respect des croyances de chacun, en concertation, en privilégiant l’écoute</p>
+          <ul>
+            <li>créer les conditions du dialogue en partant des expériences de chacun</li>
+            <li>et ainsi lever les blocages</li>
+          </ul>
+          <p>Mener les actions en gestion horizontale (pas de chef, mais des coordinateurs)</p>
+          <p>Valoriser les compétences de chacun</p>
+        </div>      
+      </div>
+      
+      <!-- ==== valeurs -->
+      <div id="flyer">
+        <p><a href="docs/Flyer-CSLV-aout-2021-rv.pdf">version imprimable pour diffusion</a> (bien mettre l'échelle à 100% avant d'imprimer)</p>
+      </div>      
+    </body>
+</html>
+

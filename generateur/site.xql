@@ -112,7 +112,7 @@ declare function local:videos ( $file ) {
     return
         for $r in $rubriques/Rubrique
         return
-            <div class="block border">
+            <div class="block border" id="{ $r/Tag[1]/text() }">
                 <h2>{ $r/Titre/text() }</h2>
                 {
                 if ($r/Presentation) then
@@ -166,7 +166,7 @@ declare function local:annuaire ( $file ) {
     let $rubriques := util:eval(file:read($base || '/gabarits/' || 'site.xml'))/Contenu/Page[Id eq replace($file, '.xml', '')]/Rubriques
     let $input := util:eval(file:read($base || '/bd/' || $file))
     return
-        for $r in $rubriques/Rubrique
+        for $r in $rubriques/Rubrique[empty(@Afficher) or @Afficher = 'oui']
         return
             if ($r/Image) then (: image intercalaire :)
               local:image($r/Image)
@@ -248,11 +248,17 @@ declare function local:biblio ( $file ) {
                 <ul>    
                     {
                     for $i in $input//Article[@Afficher eq 'oui'][Tag = $r/Tag]
-                    order by $i/Ajout descending
+                    let $date := ($i/Parution, $i/Ajout)[1]
+                    order by $date descending
                     return
                         <li>
-                            <a href="{$i/Lien}">{ $i/Titre/text() }</a>
                             {
+                            if ($i/Lien) then
+                              <a href="{$i/Lien}">{ $i/Titre/text() }</a>
+                            else if ($i/LienPDF) then
+                              <a href="{$i/LienPDF}">{ $i/Titre/text() }</a>
+                            else
+                              <b>{ $i/Titre/text() }</b>,
                             if ($i/LienPDF) then
                               <a href="{$i/LienPDF}"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a>
                             else
@@ -330,8 +336,8 @@ let $in := map {
     'date' : substring($ts, 9,  2) || '/' || substring($ts, 6,  2) || '/' || substring($ts, 1,  4)
 }
 
-let $pages := ('index', 'annuaire', 'evenements', 'videos', 'biblio', 'outils', 'nocomment', 'blog')
+let $pages := ('index', 'manifeste', 'annuaire', 'evenements', 'videos', 'biblio', 'outils', 'nocomment', 'blog')
 return 
-  for $i in (1, 5, 6)
+  for $i in (1, 5)
   return
     <page name="{$pages[$i]}">{ local:render($pages[$i], $in) }</page>

@@ -1,6 +1,7 @@
 <Site>
   <Menu>
-    <Page File="index">Manifeste</Page>
+    <Page File="index">Accueil</Page>
+    <Page File="manifeste">Manifeste</Page>
     <Page File="annuaire">Annuaire</Page>
     <Page File="blog">Blog</Page>
     <Page File="outils">Outils</Page>
@@ -129,7 +130,7 @@
           <Rubrique>
               <Tag>politique</Tag>
               <Titre>Politiques</Titre>
-              <Presentation>Comment nos représentants élus ou non présentent les faits et s'expriment en notre nom.</Presentation> 
+              <Presentation>Comment nos représentants élus ou non présentent les faits et s'expriment en leur nom propre ou en notre nom</Presentation> 
           </Rubrique>                    
           <Rubrique>
               <Tag>interview</Tag>

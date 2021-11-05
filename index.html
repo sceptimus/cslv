@@ -9,49 +9,45 @@
   document.addEventListener('DOMContentLoaded', function () {
     var s = window.location.href.toString(),
         n, mto = 'mailto:', base = '@',
+        mS = "soignantsresistants85.fr",
         m1 = "contact" + base + "comitesantelibertevendee.fr",
         m2 = "telegram" + base + "comitesantelibertevendee.fr",
+        m3 = "redaction" + base + "comitesantelibertevendee.fr",
+        m = ["eveil", "jeunesse", "parents", "convivialite", "actions", "redaction"],
+        suffix =  base + "comitesantelibertevendee.fr",
+        run = true;
+        
     n = document.getElementById('mail1');
     n.href = mto + m1;
     n.textContent = m1;
     n = document.getElementById('mail2');
     n.href = mto + m2 + '?subject=Inscription%20telegram%20CSLV';
     n.textContent = m2;        
+    n = document.getElementById('mail3');
+    n.href = mto + m3;
+    for (var i = 0; run; i++) {
+      n = document.getElementById('mail' + (i + 4));
+      n.href = mto + m[i] + suffix;
+      n.textContent = m[i] + suffix;
+      if (i === 5) { run = false };
+    };
+    n = document.getElementById('mailS');
+    n.href = mto + 'Contact' + base + mS;
+    n.textContent = 'Contact' + base + mS;
   });
 </script>
     </head>
     <body>
-        <div id="preview"><!-- <div id="bandeau">
-          <div class="cri" style="margin-top:20px">
-            <p><span>Cri du coeur</span> revoir notre <a href="cri-du-coeur.html">cri</a> publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a> pour le 15 septembre 2021</p>
-          </div> --><!-- <div class="communique">
-            <p><span>Communiqué</span> Invitation aux parents et aux adultes concernés par la vie de nos enfants et des enseignants dans les différents établissements scolaires à se rencontrer <span style="font-weight:strong">Vendredi 9 septembre à 18h30</span> à la Vallée Verte à la Roche Sur Yon (à côté de la Maison de quartier, aux espaces BBQ).</p>
-            <p>Déroulement</p>
-            <ul>
-              <li>Partage des informations et proposition d’actions coordonnées</li>
-              <li>Pique-nique partagé pour nous réjouir et soutenir mutuellement</li>
-              <li>Mise en pratique par petits groupes pour ceux qui le souhaitent</li>
-              <li>Calendrier pour les semaines à venir</li>
-            </ul>
-          </div> --><!-- <div class="communique">
-                      <p><span>Communiqué</span> Rejoignez-nous ce vendredi 3 septembre 2021 à partir de 18H à la Roche Sur Yon, près du CHD, rendez-vous sur le parking de Super U, contactez-nous à l'adresse de contact ci-dessous pour les détails</p>
-          </div> --><!-- <div class="communique">
-                      <p><span>Communiqué</span> Rejoignez-nous ce vendredi 13 août 2021 à partir de 18H30 aux Herbiers, pour un Happy apéro / pique-nique, contactez-nous à l'adresse ci-dessous pour les détails</p>
-                    </div> --><!--     <div class="communique">
-            <p><span>Communiqué</span> Rejoignez-nous ce vendredi 23 juillet 2021 à partir de 18H30 à Challans, pour un Happy apéro / pique-nique, nous contacter à l'adresse ci-dessous pour les détails</p>
-          </div>
-        --><!-- <div class="communique">
-            <p><span>Communiqué</span> Rejoignez-nous vendredi 27 août 2021, pour un Happy apéro / pique-nique :</p>
-            <ul>
-              <li>à partir de 18h à la Roche Sur Yon, Parc des Oudairies, à côté du château</li>
-              <li>à partir de 18h30 aux Herbiers, parc du Landreau</li>
-            </ul>
-            <p>Nous contacter à l'adresse ci-dessous pour les détails.</p>
-          </div> --><!-- </div> -->
+        <div id="preview">
             <div id="menu" class="noprint">
                 <div id="buttons">
                     <div class="rubrique on top">
-                        <p>Manifeste</p>
+                        <p>Accueil</p>
+                    </div>
+                    <div class="rubrique top">
+                        <p>
+                            <a href="manifeste.html">Manifeste</a>
+                        </p>
                     </div>
                     <div class="rubrique top">
                         <p>
@@ -99,120 +95,158 @@
                 </div>
             </div>
             <div id="bandeau">
-                <div class="cri"><!-- <p><span>Cri du coeur</span> revoir notre <a href="cri-du-coeur.html">cri</a> publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a> pour le 15 septembre 2021</p> -->
-                    <p>
-                        <span>Actualité</span> consultez la <a href="docs/lettre_ouverte_soignants_challans.pdf">lettre ouverte de soignants de Challans</a> ajoutée le 7 octobre 2021</p>
-                    <p>
-                        <span>Actualité</span> si vous ne l'avez pas lue encore ailleurs sur le web ou sur telegram, consultez la <a href="docs/lettre-ouverte-professeur-balique.pdf">lettre ouverte du Professeur Balique aux parlementaires</a> qui présente une synthèse claire sur les risques et les échecs de la stratégie toute vaccinale (republiée en version PDF depuis <a href="https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/">ce blog</a>),  ajoutée le 11 octobre 2021</p>
-                    <p>
-                        <span>Nouvelle Rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 2021</p>
-                    <p>
-                        <span>Nouvel Outil</span> disponible dans notre <a href="outils.html">boite à outils</a> : salarié en arrêt maladie ou suspendu en rapport avec l'obligation vaccinale, ajouté le 22 octobre 2021</p>
+                <div id="cri" class="border">
+                    <h3 class="caps">Nouveautés</h3>
+                    <ul id="nouveau">
+                        <li>nouvelle <a href="videos.html#politique">vidéo</a> du député <b>Joachim Son-Forget</b>, ajouté le 4 novembre 2021</li>
+                        <li>nouvelle lettre <b>aux évêques de France</b> dans la section <i>Lettres Ouvertes</i> de notre <a href="biblio.html">bibliothèque</a>, ajouté le 1er novembre 2021</li>
+                        <li>
+                            <span>Nouvel Outil</span> disponible dans notre <a href="outils.html">boite à outils</a> : salarié en arrêt maladie ou suspendu en rapport avec l'obligation vaccinale, ajouté le 22 octobre 2021</li>
+                        <li>
+                            <span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 2021</li>
+                        <li>
+                            <a href="docs/lettre-ouverte-professeur-balique.pdf">Lettre ouverte du Professeur Balique aux parlementaires</a> qui présente une synthèse claire sur les risques et les échecs de la stratégie toute vaccinale (republiée en version PDF depuis <a href="https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/">ce blog</a>),  ajoutée le 11 octobre 2021</li>
+                        <li>
+                            <a href="docs/lettre_ouverte_soignants_challans.pdf">Lettre ouverte de soignants de Challans</a> ajoutée le 7 octobre 2021</li>
+                    </ul>
                 </div>
-            </div>
-            <div id="logo">
-                <p class="image">
-                    <img src="img/logo.gif"/>
-                </p>
-                <h2>Dans le contexte sanitaire et social actuel, le Comité Santé Liberté Vendée 85 a été créé par des citoyens en mars 2021</h2>
-            </div>
-            <div id="terre">
-                <p classe="image">
-                    <img src="img/terre.jpg"/>
-                </p>
-                <p class="copyright">© AdobeStock</p>
-            </div><!-- ==== presentation -->
-            <div id="presentation" class="border">
-                <h2>Comité Santé Liberté Vendée</h2><!-- <h3>Traitements et prévention COVID</h3>
-          <p>La <a href="https://stopcovid19.today">Coordination Santé Libre</a> donne des clefs pour les <a href="https://stopcovid19.today/coordination-sante-libre/">traitements précoces</a> contre le COVID ainsi que sa prévention (<i>le site semble inaccessible</i>).</p>
-          <h3>Réinformation santé et liberté</h3> -->
-                <p>Le comité santé liberté vendée s’appuie sur des réseaux nationaux: <a href="https://bonsens.info">Bon Sens</a>, <a href="https://covid.fr">RéinfoCovid</a> et <a href="https://manifestes-libertes.org">Le manifeste "La quatrième voie"</a> (30 000 médecins), <a href="https://enfance-libertes.fr">Enfance &amp; Liberté</a>, <a href="https://reaction19.fr/">Reaction19</a>.</p>
-                <p>Il dispose d’articles et de témoignages scientifiques dénués de tout conflit d’intérêt, afin de sortir d’une vérité unique, s’appuyer sur notre bon sens et ainsi retrouver nos propres repères pour traverser cette période sereinement.</p>
-                <p>Ensemble, dans un esprit démocratique, se retrouver est une force pour développer notre libre-arbitre et favoriser notre santé.</p>
-                <ul>
-                    <li>Espace d’information et d’échanges</li>
-                    <li>Espace de liberté pour se relier à soi et aux autres</li>
-                </ul>
-            </div><!-- ==== chapo -->
-            <div id="chapo" class="border">
-                <p class="image">
-                    <img src="img/branches.gif"/>
-                </p>
-                <div id="contact">
-                    <p>Pour nous rejoindre et recevoir nos annonces par courrier électronique, adhérez gratuitement à notre charte en adressant un message avec vos coordonnées à:</p>
+                <div id="contact" class="border">
+                    <h3 class="caps">Adhésion</h3>
+                    <p>Adhérez gratuitement à notre manifeste et recevez nos annonces par courrier électronique en envoyant un message avec vos coordonnées à:</p>
                     <p class="media">
+                        <img src="img/ecrire.gif" alt="contact" style="max-width: 24px"/>
                         <a id="mail1">mail1</a>
                     </p>
-                    <p>Pour participer à nos échanges sur telegram envoyez un message avec vos coordonnées et téléphone à:</p>
+                    <p>Participez à nos échanges sur telegram en envoyant un message avec vos coordonnées et téléphone à:</p>
                     <p class="media">
                         <img src="img/telegram.png" width="24px"/>
                         <a id="mail2">mail2</a>
                     </p>
-                    <p class="media" style="font-size:0.66em">
-                        <img src="img/facebook.png" width="24px"/>
-                        <a href="https://www.facebook.com/comite.santelibertevendee">comite.santelibertevendee</a>
+                </div>
+            </div>
+            <div id="charte" class="border">
+                <h3 class="caps">Comité Santé Liberté Vendée 85</h3>
+                <p>Comité de citoyens opposés à l’extension du pass sanitaire et aux nouvelles restrictions de libertés :</p>
+                <p class="caps">
+                    <b>COMPRENDRE - DÉBATTRE - RÉSISTER</b>
+                </p>
+                <p>Nous demandons la VÉRITÉ. Nous revendiquons notre LIBERTÉ. Nous assumons notre RESPONSABILITÉ</p>
+                <p class="caps">
+                    <b>NOS VALEURS</b>
+                </p>
+                <p>Non-violence (verbale et physique), Esprit de dialogue, Respect de la différence, Solidarité et Collaboration</p>
+                <p class="caps">
+                    <b>NOS OBJECTIFS</b>
+                </p>
+                <ul>
+                    <li>Défendre et restaurer nos libertés</li>
+                    <li>Éveiller les consciences</li>
+                    <li>Reprendre le contrôle de notre santé</li>
+                    <li>Anticiper un monde nouveau</li>
+                    <li>Unir nos forces</li>
+                    <li>Reprendre le contrôle de nos vies</li>
+                    <li>Protéger les plus faibles</li>
+                    <li>Agir pour le bien commun</li>
+                </ul>
+            </div>
+            <div id="collectifs">
+                <h3 class="caps">Nos Collectifs pour ne pas rester inactif et passif</h3>
+                <blockquote>Nous vous invitons à participer directement à un ou plusieurs de nos collectifs thématiques, en joignant son responsable à l'adresse de contact. <a id="mail3">Contactez-nous</a> si vous souhaitez créer et animer votre propre collectif.</blockquote>
+            </div>
+            <div id="gauche">
+                <div class="collectif">
+                    <h4>Collectif soignants</h4>
+                    <p class="moto">Soignants un jour, soignants toujours</p>
+                    <p>
+                        <span class="but">But</span>
+Mettre fin aux discriminations
+― Améliorer la situation des soignants
+― Accroître la coopération entre citoyens et soignants</p>
+                    <p class="media">
+                        <img src="img/ecrire.gif" alt="contact"/>
+                        <a id="mailS">mailS</a>
                     </p>
                 </div>
-            </div><!-- ==== objectifs -->
-            <div id="objectifs" class="border">
-                <h2>Nos objectifs</h2>
-                <ul>
-                    <li>Toucher et rassembler un maximum de personnes</li>
-                    <li>Promouvoir la joie et la bonne humeur (par diverses actions)</li>
-                    <li>Permettre à chacun de retrouver sa liberté et ses droits</li>
-                    <li>Accueillir et informer les personnes en quête de bon sens et de relation</li>
-                    <li>Diffuser de l’information et relayer celle des autres collectifs</li>
-                    <li>Répondre aux besoins de rencontre et partage pour rompre l’isolement et l’exclusion</li>
-                    <li>Promouvoir la santé naturelle et les approches alternatives notamment concernant la prévention covidique.</li>
-                </ul>
-            </div><!-- ==== moyens -->
-            <div id="moyens" class="border">
-                <h2>Moyens</h2>
-                <ul>
-                    <li>Rendre facile l’accès au Comité Santé Liberté Vendée et transmettre de l’information via un site, FB, Telegram, flyer et téléphone, VK</li>
-                    <li>Identifier un réseau de coordinateurs/trices locaux, des groupes géographiques et en diffuser la liste</li>
-                    <li>Organiser des rassemblements réguliers (LRSY)</li>
-                    <li>Organiser des événements locaux (pique-nique, promenade, jeux, etc.)</li>
-                    <li>Réaliser des vidéos, rédiger des textes courts, organiser des conférences</li>
-                </ul>
-            </div><!-- ==== charte  -->
-            <div id="charte" class="border">
-                <h2>CHARTE DE BONNE CONDUITE</h2>
-                <ul>
-                    <li>Je traite l’autre comme je voudrais être traité(e)</li>
-                    <li>Nous prenons soin les uns des autres, car chacun est digne de considération</li>
-                    <li>Je parle en « JE » (ni TU ni ON) et j’accepte qu’il existe des points de vue différents (respect mutuel)</li>
-                    <li>Nous utilisons le bâton de parole comme outil lors de nos réunions</li>
-                    <li>Nous respectons nos différences et la dignité de chacun en étant complémentaires</li>
-                    <li>Nous offrons un cadre de sécurité (confidentialité)</li>
-                    <li>Les photos et vidéos sont diffusées avec l’accord des personnes concernées</li>
-                </ul>
-            </div><!-- === creation -->
-            <div id="creation" class="border">
-                <p class="image">
-                    <img src="img/branches.gif"/>
-                </p>
-            </div><!-- ==== valeurs -->
-            <div id="valeurs" class="border">
-                <h2>Nos valeurs</h2>
-                <p>(Ré)apprendre à exercer notre sens critique</p>
-                <ul>
-                    <li>Adopter recul et discernement, retrouver le sens de la justesse</li>
-                    <li>Être vigilants quand aux sources d’information</li>
-                </ul>
-                <p>Se reconnecter à SOI ; choisir d’être intègre, courageux et positif ; se recentrer pour ressentir</p>
-                <p>Agir de façon bienveillante et apolitique, dans le respect des croyances de chacun, en concertation, en privilégiant l’écoute</p>
-                <ul>
-                    <li>créer les conditions du dialogue en partant des expériences de chacun</li>
-                    <li>et ainsi lever les blocages</li>
-                </ul>
-                <p>Mener les actions en gestion horizontale (pas de chef, mais des coordinateurs)</p>
-                <p>Valoriser les compétences de chacun</p>
+                <div class="collectif">
+                    <h4>Collectif éveiller les consciences</h4>
+                    <p class="moto">Éteignons les télés, rallumons les cerveaux</p>
+                    <p>
+                        <span class="but">But</span>
+Créer les arguments et les outils pour lutter la discrimination, la soumission et la division</p>
+                    <p class="media">
+                        <img src="img/ecrire.gif" alt="contact"/>
+                        <a id="mail4">mail4</a>
+                    </p>
+                </div><!-- <div class="collectif">
+            <h4>Collectif des soignants</h4>
+            <p class="moto">Soigner les soignants</p>
+            <p><span class="but">But</span>Monter des dossiers et des actions juridiques</p>
+            <p>Réfléchir à des actions solidaire – Aider à se reconvertir</p>
+            <p>Contact: <a href="soignants@comitesantelibertevendee.fr">soignants@comitesantelibertevendee.fr</a></p>
+          </div> -->
+                <div class="collectif">
+                    <h4>Collectif jeunesse (famille)</h4>
+                    <p class="moto">Aujourd’hui, l’avenir c’est eux - Jeunesse sans risque, jeunesse sans passe</p>
+                    <p>
+                        <span class="but">But</span>
+Sensibiliser et motiver les jeunes pour l’action
+― Organiser des temps de sport et de convivialité entre jeunes</p>
+                    <p class="media">
+                        <img src="img/ecrire.gif" alt="contact"/>
+                        <a id="mail5">mail5</a>
+                    </p>
+                </div>
+                <div class="collectif">
+                    <h4>Collectif parents (famille)</h4>
+                    <p class="moto">Armer les parents pour défendre les enfants</p>
+                    <p>
+                        <span class="but">But</span>
+S’investir dans les associations de parents d’élèves
+― Donner aux parents des arguments pour rencontrer les enseignants et les chefs d’établissements</p>
+                    <p class="media">
+                        <img src="img/ecrire.gif" alt="contact"/>
+                        <a id="mail6">mail6</a>
+                    </p>
+                </div>
             </div>
-        </div><!-- ==== valeurs -->
-        <div id="flyer">
-            <p>
-                <a href="docs/Flyer-CSLV-aout-2021-rv.pdf">version imprimable pour diffusion</a> (bien mettre l'échelle à 100% avant d'imprimer)</p>
+            <div id="droite">
+                <div class="collectif">
+                    <h4>Collectif convivialité</h4>
+                    <p class="moto">J’ai décidé d’être heureux, c’est bon pour la santé</p>
+                    <p>
+                        <span class="but">But</span>
+Organiser les pique niques et les ateliers pour se retrouver</p>
+                    <p class="media">
+                        <img src="img/ecrire.gif" alt="contact"/>
+                        <a id="mail7">mail7</a>
+                    </p>
+                </div>
+                <div class="collectif">
+                    <h4>Collectif stratégie et action de terrain</h4>
+                    <p class="moto">Renoncer au courage, c’est devenir esclave</p>
+                    <p>
+                        <span class="but">But</span>
+Organiser des actions de sensibilisation et d'information sur le terrain
+― Rencontrer des acteurs de la société (restaurateurs, police, etc.)
+― Imaginer des actions pour soutenir les usagers exclus par le passe sanitaire</p>
+                    <p class="media">
+                        <img src="img/ecrire.gif" alt="contact"/>
+                        <a id="mail8">mail8</a>
+                    </p>
+                </div>
+                <div class="collectif">
+                    <h4>Collectif information</h4>
+                    <p class="moto">Faire circuler l’information positive</p>
+                    <p>
+                        <span class="but">But</span>
+Gérer le site internet
+― Contrer la pensée unique, pour la pensée plurielle</p>
+                    <p class="media">
+                        <img src="img/ecrire.gif" alt="contact"/>
+                        <a id="mail9">mail9</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
