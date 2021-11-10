@@ -51,6 +51,7 @@
             <SousTitre>français</SousTitre>
             <Presentation>des médecins discutent de la mesure des D-dimères dans le sang après injection des vaccins COVID pour détecter la présence d'un caillot de sang ou thrombus, écoutez leur constatations</Presentation>
             <Tag>interview</Tag>
+            <Tag>medecine</Tag>
             <Ajout>2021-09-29</Ajout>
         </Video>        
         <Video Afficher="oui">
@@ -59,6 +60,7 @@
             <Titre>Démission de l’ordre des médecins et de mon statut de praticien hospitalier</Titre>
             <Presentation>lecture de sa lettre de démission par le Dr Denis Agret, résumé de la situation vécue par ce médecin intègre</Presentation>
             <Tag>interview</Tag>
+            <Tag>medecine</Tag>
             <Ajout>2021-09-28</Ajout>
         </Video>
         <Video Afficher="oui">
@@ -77,6 +79,7 @@
             <Titre>Vaccin contre la COVID-19</Titre>
             <Presentation>video du 14 septembre du Pr Didier Raoult, il parle des réservoirs animaux, des mutations et de l'auto-limitation des épidémies...</Presentation>
             <Tag>interview</Tag>
+            <Tag>medecine</Tag>
             <Ajout>2021-09-15</Ajout>
         </Video>
         <Video Afficher="non">
@@ -93,6 +96,7 @@
             <Titre>Interview de l'Avocat Reiner Fuellmich dans les Débriefings de France Soir</Titre>
             <Presentation>exposé des tenants et aboutissants de la crise du covid-19 vus par le Comité Corona avec lequel il travaille depuis des mois</Presentation>
             <Tag>interview</Tag>
+            <Tag>droit</Tag>
             <Ajout>2021-09-05</Ajout>
         </Video>
         <Video Afficher="oui">
@@ -101,6 +105,7 @@
             <Titre>Interview du Professeur canadien Roger Hodkinson dans les Débriefings de France Soir</Titre>
             <Presentation>alerte sur les vaccins et les manipulations des discours face au Covid-19</Presentation>
             <Tag>interview</Tag>
+            <Tag>medecine</Tag>
             <Ajout>2021-09-05</Ajout>
         </Video>
         <Video Afficher="oui">
@@ -109,6 +114,7 @@
             <Titre>Que se passe-t-il dans un corps humain qui reçoit un vaccin contre le covid</Titre>
             <Presentation>video très bien illustrée, claire et sourcée sur les mécanismes délétères du virus et des vaccins à ARNm ou à ADN dans le corps humain, exemplaire publié sur le site de l'association des victimes du coronavirus, source originale inconnue. À voir absoluement avant de donner (ou pas) un consentement vraiment éclairé !</Presentation>
             <Tag>documentaire</Tag>
+            <Tag>psychologie</Tag>
             <Ajout>2021-09-11</Ajout>
         </Video>
         <Video Afficher="oui">
@@ -177,6 +183,7 @@
             <Titre>Alexandra Henrion Claude parle des injections covid lors d'une manifestation.</Titre>
             <Presentation>Vaccin ARNm et rappels d'injection 'Malwares &amp; Ransomwares' : Inhibiteur d'immunité, réactivateurs de pathologies préexistantes, cancers fulgurants, Spike effet ADE auto-immune, Oxyde de Graphène, infertilité.</Presentation>
             <Tag>interview</Tag>
+            <Tag>medecine</Tag>
             <Ajout>2021-10-31</Ajout>
         </Video>        
         <Video Afficher="oui">
@@ -188,5 +195,84 @@
             <Ajout>2021-11-04</Ajout>
             <Publication>2021-11-03</Publication>
         </Video>
+        <Video Afficher="non">
+            <Duree>1h25'31</Duree>
+            <Lien>https://odysee.com/@FrontlineCovid19CriticalCareAlliance:c/FLCCC-WEBINAR-102021_FINAL:8</Lien>
+            <Titre>FLCCC Weekly Update October 20, 2021: Censorship of Science is a Horse Bleep</Titre>
+            <Presentation>Discussion avec Dr. Pierre Kory et d'autres invités sur la censure et la campagne de désinformation contre l'Ivermectine</Presentation>
+            <Tag>à trier</Tag>
+            <Ajout>2021-11-07</Ajout>
+            <Publication>2021-10-21</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>1h09'40</Duree>
+            <Langue>anglais</Langue>
+            <SousTitre>français</SousTitre>
+            <Lien>https://crowdbunker.com/v/aIJpNp94uV</Lien>
+            <Titre>Les mécanismes des régimes totalitaires</Titre>
+            <Presentation>Entretien mené par Reiner Fuellmich et son équipe avec Mattias Desmet qui enseigne la psychologie clinique à l'université de Gand en Belgique et est spécialisé dans la formation de masse qui est typique des régimes totalitaires. Le mécanisme qu'il explique semble étrangement coller à notre époque.</Presentation>
+            <Tag>interview</Tag>
+            <Ajout>2021-11-07</Ajout>
+            <Publication>2021-07-29</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>59'21'</Duree>
+            <Lien>https://rumble.com/vo2zgl-le-samedi-politique-pass-sanitaire-vaccins-3me-dose-fabrice-di-vizio-dit-to.html</Lien>
+            <Titre>Le Samedi Politique - Pass-sanitaire, vaccins, 3ème dose : Fabrice Di Vizio dit tout !</Titre>
+            <Presentation>Di Vizio, suite au vote initial des députés sur la loi dite de "vigilance sanitaire", fait part de son ressenti et de son trouble sur les contradictions et les absurdités des décisions prises et sur l'impossibilité de dialoguer avec les interlocuteurs du pouvoir.</Presentation>
+            <Tag>interview</Tag>
+            <Tag>droit</Tag>
+            <Ajout>2021-11-07</Ajout>
+            <Publication>2021-10-22</Publication>
+        </Video>   
+        <Video Afficher="non">
+            <Duree>58'</Duree>
+            <Lien>https://crowdbunker.com/v/wGVWWSOIV_g</Lien>
+            <Titre>Le camp de concentration du covid</Titre>
+            <Presentation>Walter Baeyens, essayiste, développe une vision historique et systémique de l'épisode covidien, cela sans concession, avec un pessimisme assumé lui faisant comparer les événements à l'établissement d'un camp de concentration planétaire qui verra la disparition de l'Etat de droit, de la classe moyenne, de la monnaie fiduciaire, etc. Pour lui, il s'agit bien un coup d'Etat global, d'une "plandémie" voulue et orchestrée par l'oligarchie financière transnationale. L'information juste est une condition de l'action non suffisante, rappelle Alexandre Penasse, qui l'interviewe. Voyage au bout de l'enfer.</Presentation>
+            <Tag>à trier</Tag>
+            <Ajout>2021-11-07</Ajout>            
+        </Video>
+        <Video Afficher="oui">
+            <Duree>1h03'16</Duree>
+            <Langue>anglais</Langue>
+            <SousTitre>anglais</SousTitre>
+            <Lien>https://www.stopworldcontrol.com/monopoly/</Lien>
+            <Titre>Monopoly (qui possède le monde ?)</Titre>
+            <Presentation>Tim Gielen en partant d'informations disponibles sur le site boursier Yahoo Finance dévoile petit à petit la pyramide du pouvoir. Il revisite alors les événements actuels sur l'utilisation de la pandémie de Covid pour changer nos sociétés au regard d'événements précusrseurs pour montrer que rien n'est dû au hasard. Complète très bien le discours de <a href="ernst-wolff.html">Ernst Wolff</a> transcrit dans la section blog du site. Sous-tires en Anglais seulement.</Presentation>
+            <Tag>documentaire</Tag>
+            <Ajout>2021-11-07</Ajout>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>1h05'35</Duree>
+            <Langue>anglais</Langue>
+            <SousTitre>français</SousTitre> <Lien>https://odysee.com/@ivermectine-covid.ch:5/Le-Dr-Peter-McCullough-sur-la-vaccination,-le-traitement-précoce-et-le-rejet-du-nihilisme-thérapeutique-(AAPS,-octobre-2021)-wm.mp4:9</Lien>
+            <Titre>Le Dr Peter McCullough sur les limites et dangers de la vaccination, l'efficacité du traitement précoce et l'importance de rejeter le nihilisme thérapeutique (AAPS, 2 octobre 2021)</Titre>
+            <Presentation>Discours donné au congrès annuel de l'Association Américaine des Praticiens Hospitaliers et des Chirurgiens (AAPS). Très instructif.</Presentation>
+            <Tag>interview</Tag>
+            <Tag>medecine</Tag>
+            <Ajout>2021-11-08</Ajout>
+            <Publication>2021-10-02</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>29'12</Duree>
+            <Lien>https://odysee.com/@QuadrillageTraduction:1/trim.EA1D6D13-7D0C-46C1-8A0B-2B190002293C:7?&amp;sunset=lbrytv</Lien>
+            <Titre>Conférence de presse de députés européens</Titre>
+            <Presentation>Ce groupe de députés européens de plusieurs pays soutien le respect des droits fondamentaux des citoyens européens et dénonce l'oppression du peuple au nom du bien peuple. Vidéo doublée en Français.</Presentation>
+            <Tag>politique</Tag>
+            <Ajout>2021-11-08</Ajout>
+            <Publication>2021-10-29</Publication>
+            <Langue>angais</Langue>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>29'12</Duree>
+            <Lien>https://www.francesoir.fr/videos-les-debriefings/laurence-muller-bronn</Lien>
+            <Titre>Pass sanitaire : le Sénat, et après ? Laurence Muller-Bronn</Titre>
+            <Presentation>Debriefing sur  FranceSoir de la sénatrice du Bas-Rhin qui a clairement pris position contre le pass sanitaire.</Presentation>
+            <Tag>politique</Tag>
+            <Ajout>2021-11-08</Ajout>
+            <Publication>2021-10-29</Publication>
+            <Langue>angais</Langue>
+        </Video>                
     </Videos>
 </Ressources>

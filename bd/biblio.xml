@@ -170,5 +170,35 @@
             <Auteur>Laurent Aventin, PhD</Auteur>
             <Commentaire>Une lettre rédigée en réaction, entre autre, à la phrase « la vaccination est la réponse médicale disponible pour faire face à cette épidémie » dans la <a href="https://eglise.catholique.fr/conference-des-eveques-de-france/textes-et-declarations/517467-pass-sanitaire-/">tribune des évêques de France</a>, publiée le 22 juillet 2021. L'auteur est consultant indépendant en santé publique depuis 25 ans, il réagit en tant que professionnel de la santé publique et en tant que catholique.</Commentaire>
         </Article>
+        <Article Afficher="oui">
+            <Tag>lettre</Tag>
+            <Tag>citoyen</Tag>
+            <Ajout>2021-11-09</Ajout>
+            <Parution>2021-11-03</Parution>
+            <Lien>https://www.apar.tv/societe/mehdi-belhaj-kacem-signe-la-lettre-ouverte-politique-la-plus-violente-du-21eme-siecle/</Lien>
+            <Titre>Lettre ouverte de Mehdi Belhaj Kacem</Titre>
+            <Auteur>Mehdi Belhaj Kacem</Auteur>
+            <Commentaire>Lettre d'un écrivain philosophe en réponse au "mot du maire" de Turenne (19500, Corrèze)</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>lettre</Tag>
+            <Tag>citoyen</Tag>
+            <Ajout>2021-11-09</Ajout>
+            <Parution>2021-11-08</Parution>
+            <Lien>https://www.francesoir.fr/opinions-tribunes/je-ne-peux-plus-me-taire</Lien>
+            <Titre>"Je ne peux plus me taire" : un journaliste allemand dénonce les mensonges médiatiques liés au Covid</Titre>
+            <Auteur>Ole Skambraks</Auteur>
+            <Commentaire>Lettre ouverte d'un journaliste Allemand dénonçant ce qui se passe depuis un an et demi chez son empoyeur radiodiffuseur du service public.</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>lettre</Tag>
+            <Tag>citoyen</Tag>
+            <Ajout>2021-11-09</Ajout>
+            <Parution>2021-11-01</Parution>                        
+            <LienPDF>https://www.cadoc.fr/cslv85/archives/2021/02/courrier-nos-enfants-sans-masque.pdf</LienPDF>
+            <Titre>Courrier du mois de Novembre du collectif "Nos Enfants Sans Masque"</Titre>
+            <Auteur>Collectif</Auteur>
+            <Commentaire>Point sur la rentrée de novembre et les menaces qui pèsent sur nos enfants. Contient un lien vers une <a href="https://docs.google.com/forms/d/e/1FAIpQLSdksBvYbCqNmzBCm_eZ4DvnKO-YLCIiBaD9vNor0lcVxbcf4g/viewform">action juridique</a> visant la prise en considération de l’impact de la mesure du port du masque pour les enfants en élémentaire.</Commentaire>
+        </Article>
     </Articles>
 </Ressources>

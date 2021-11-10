@@ -34,6 +34,10 @@
     n = document.getElementById('mailS');
     n.href = mto + 'Contact' + base + mS;
     n.textContent = 'Contact' + base + mS;
+    n = document.getElementById('conseil');
+    m1 = "conseil" + base + "comitesantelibertevendee.fr";
+    n.href = mto + m1;
+    n.textContent = m1;
   }});
 </script>
     </head>
@@ -48,11 +52,17 @@
             <h3 class="caps">Nouveautés</h3>
             <ul id="nouveau">
 
+              <li>trois nouvelles <a href="biblio.html#lettres">lettres</a> dans la section Lecture, ajoutées le 9 novembre 2021</li>
+              
+              <li><a href="evenements.html">La marche du réveil</a> venez accueillir les participants ce lundi 8 novembre à la <b>gare de la Roche Sur Yon</b> à partir de 15h, ajouté le 8 novembre 2021</li>
+
+              <li><a href="videos.html#medecine">vidéo</a> très intéressante du <b>Dr Peter McCullough</b> devant l'association américaine des praticiens hospitaliers, ajouté le 8 novembre 2021</li>
+              
+              <li><span>Nouvel Outil</span> disponible dans notre <a href="outils.html#8">boite à outils</a> : déclarer des effets indésirables suite à la vaccination (étude lancée par le CTIAP du Centre Hospitalier de Cholet), ajouté le 6 novembre 2021</li>
+
               <li>nouvelle <a href="videos.html#politique">vidéo</a> du député <b>Joachim Son-Forget</b>, ajouté le 4 novembre 2021</li>
 
               <li>nouvelle lettre <b>aux évêques de France</b> dans la section <i>Lettres Ouvertes</i> de notre <a href="biblio.html">bibliothèque</a>, ajouté le 1er novembre 2021</li>
-              
-              <li><span>Nouvel Outil</span> disponible dans notre <a href="outils.html">boite à outils</a> : salarié en arrêt maladie ou suspendu en rapport avec l'obligation vaccinale, ajouté le 22 octobre 2021</li>
               
               <li><span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 2021</li>
                           
@@ -98,6 +108,16 @@
           </ul>
         </div>
         
+        <div id="avis" class="border">
+          <h3 class="caps">Avis Personnel Suspendu</h3>
+          <p>Suite à la réunion juridique du 4 novembre, il est important d'agir pour faire valoir vos droits.</p>
+          <p>Pour le personnel du <b>service public</b> : Concernant le délai de prescription de deux mois soit au plus tard le 14 novembre date de réception par votre employeur LR + AR pour la contestation de la suspension. Le recommandé doit arriver avant le dernier jour du délai du recours soit le 14 novembre 2021.</p>
+          <p>Et ensuite le recours devant le tribunal administratif accompagné ou pas d'un avocat...</p>
+          <p>Pour le personnel du <b>secteur privé</b> : Concernant le délai de prescription le délai est d'un an. Le mieux est de faire un recours auprès de votre employeur avant de faire celui-ci devant les prud'hommes.</p>
+          <p>Pour plus d'information contactez Yves-Marie à l'adresse : <a id="conseil">conseil</a> ou sur notre canal telegram.</p>
+          <p>Voir aussi la <a href="outils.html#7">Situation n° 7</a> dans notre boite à outils.</p>
+        </div>
+                
         <div id="collectifs">
           <h3 class="caps">Nos Collectifs pour ne pas rester inactif et passif</h3>
           

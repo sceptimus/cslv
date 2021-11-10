@@ -77,7 +77,7 @@
     <Page>
       <Id>biblio</Id>
       <Rubriques>
-          <Rubrique>
+          <Rubrique Ancre="lettres">
               <Tag>lettre</Tag>
               <Titre>Lettres Ouvertes</Titre>
               <Presentation>
@@ -133,8 +133,19 @@
               <Presentation>Comment nos représentants élus ou non présentent les faits et s'expriment en leur nom propre ou en notre nom</Presentation> 
           </Rubrique>                    
           <Rubrique>
+              <Ancre>medecine</Ancre>
               <Tag>interview</Tag>
-              <Titre>Interviews &amp; Entretiens</Titre>
+              <Titre>Interviews, Entretiens &amp; Conférences (médecine)</Titre>
+              <Tag>
+                <Inclus>medecine</Inclus>
+              </Tag>
+          </Rubrique>
+          <Rubrique>
+              <Tag>interview</Tag>
+              <Titre>Interviews &amp; Entretiens (autres sujets)</Titre>
+              <Tag>
+                <Exclus>medecine</Exclus>
+              </Tag>
           </Rubrique>
           <Rubrique>
               <Tag>documentaire</Tag>

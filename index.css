@@ -130,6 +130,7 @@ div#preview {
   grid-template-areas:     
      "grid-menu grid-menu"
      "grid-charte grid-charte"
+     "grid-avis grid-avis"
      "grid-bandeau grid-bandeau"
      "grid-collectifs grid-collectifs"
      "grid-gauche grid-droite";
@@ -161,6 +162,9 @@ div#contact {
 div#charte {
   grid-area: grid-charte;
   text-align: center;
+}
+div#avis {
+  grid-area: grid-avis;
 }
 div#collectifs {
   grid-area: grid-collectifs;
@@ -243,6 +247,7 @@ div.rubrique.off {
     grid-template-areas:     
        "grid-menu grid-menu"
        "grid-charte grid-charte"
+       "grid-avis grid-avis"       
        "grid-bandeau grid-bandeau"
        "grid-collectifs grid-collectifs"
        "grid-gauche grid-droite";
@@ -273,6 +278,7 @@ div.rubrique.off {
     grid-template-areas:     
        "grid-menu"
        "grid-charte"
+       "grid-avis"       
        "grid-bandeau"
        "grid-collectifs"
        "grid-gauche"

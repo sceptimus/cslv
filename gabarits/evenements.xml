@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {{
   m2 = "redaction" + base + "comitesantelibertevendee.fr";
   n = document.getElementById('mail2');
   n.href = mto + m2;
-  n = document.getElementById('mail3');
-  m3 = "dialogue.harmonie" + base + "gmail.com";
-  n.href = mto + m3;
-  n.textContent = m3;
+  //n = document.getElementById('mail3');
+  //m3 = "contact" + base + "comitesantelibertevendee.fr";
+  //n.href = mto + m3;
+  //n.textContent = m3;
 }});
         </script>
     </head>
@@ -38,6 +38,138 @@ document.addEventListener('DOMContentLoaded', function () {{
              <p>Point presse à 12h45, à l'initiative du <a href="http://collectifsanteliberte85.fr">collectif santé liberté 85</a> pour soutenir la liberté de choix vis-à-vis de la vaccination et le droit d’exercice de chaque professionnel de santé, sans discrimination selon le statut vaccinal.</p>
           </div> -->
         </div>
+        
+        <div class="block border" id="marche">
+            <h2>La Marche Du Réveil – L'UNION FAIT LA FORCE 88 !</h2>
+            <blockquote>
+              <a href="https://uflf88.fr/7-2/la-marche-du-reveil/">https://uflf88.fr/7-2/la-marche-du-reveil/</a>
+              <p>Ils marchent vers Paris : Marche du Réveil / UFLF 88 / Studios PM France – <a href="https://www.youtube.com/watch?v=CjN49uXiJus">YouTube</a></p>
+              <h3>À la Roche Sur Yon le 8 et le 9 novembre 2021</h3>
+              <p>La marche arrive lundi 8 novembre à partir de 15h11 !</p>
+              <p>Rejoignez les participants pour une Agora de 16h à 18h</p>
+            </blockquote>
+            
+            <pre>
+              Bonjour,
+
+              Du 30 octobre au 14 novembre, la « marche du réveil » s’organise.
+
+              La Marche Du Réveil – L'UNION FAIT LA FORCE 88 ! (uflf88.fr)
+              https://uflf88.fr/7-2/la-marche-du-reveil/
+
+              Ils marchent vers Paris : Marche du Réveil / UFLF 88 / Studios PM France –
+              YouTube https://www.youtube.com/watch?v=CjN49uXiJus
+
+              Un départ a été effectué d’Epinal le 30 octobre ; un départ de Lille est
+              prévu 5 novembre.
+
+              Et un départ de Périgueux le 6 novembre s’organise !!
+
+              Le projet sous forme d’une caravane passera dans 6 viles-étapes sur une
+              semaine. Le départ aura lieu de la gare de Périgueux après la manifestation le
+              6 novembre avec dans l’équipée Adélaïde en grève de la faim depuis le 28
+              septembre (J40) contre l’obligation vaccinale et ses conséquences sanitaires,
+              sociales, sociétales et politiques.
+
+              Les véhicules présents pourront accueillir les voyageurs pour du
+              co-voiturage et les étapes prévues permettent aux voyageurs ferroviaires de
+              faire partie de l’équipée sans pass sanitaire (TER). La caravane officielle de
+              Nopass24 stationnera chaque soir chez des hébergeurs citoyens, les réseaux
+              locaux pouvant se signaler sur la page nopass24.
+
+              Nous pourrons nous rencontrer, échanger, discuter, construire et œuvrer à
+              ce grand trait d’union vers Le Mont Valérien et vers une société compatible
+              avec nos valeurs tous les jours aux abords des gares des villes-étapes.
+
+              Les étapes sont les suivantes :
+
+              - 6 novembre : Gare Périgueux (13h52) – Gare de Limoges (14h56)
+
+              Agora de 16h à 18h à la gare puis répartition vers les hébergements citoyens
+
+              10h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
+              (1h) dans son histoire et son architecture
+
+              12h : proposition de rencontre avec les élus locaux à la caravanne stationnée
+              près de la gare
+
+              - 7 novembre : Gare de Limoges (14h11) - Gare de Poitiers (16h05),
+
+              Agora de 16h à 18h à la gare puis répartition vers les hébergements citoyens
+
+              9h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
+              (1h) dans son histoire et son architecture
+
+              10h : proposition de rencontre avec les élus locaux à la caravanne stationnée
+              près de la gare
+
+              - 8 novembre : Gare de Poitiers (10h51) - Gare de La Roche sur Yon
+              (15h11),
+
+              Agora de 16h à 18h à la gare puis répartition vers les hébergements citoyens
+
+              11h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
+              (1h) dans son histoire et son architecture
+
+              13h : proposition de rencontre avec les élus locaux à la caravanne stationnée
+              près de la gare
+
+              - 9 novembre : Gare de La Roche sur Yon (16h12) – Gare de Nantes (16h54),
+
+              Agora de 17h à 19h à la gare puis répartition vers les hébergements citoyens
+
+              9h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
+              (1h) dans son histoire et son architecture
+
+              10h : proposition de rencontre avec les élus locaux à la caravanne stationnée
+              près de la gare
+
+              - 11 novembre : Gare de Nantes (10h42) – Gare Le Mans (12h14),
+
+              Agora de 14h à 16h à la gare puis répartition vers les hébergements citoyens
+
+              10h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
+              (1h) dans son histoire et son architecture
+
+              11h : proposition de rencontre avec les élus locaux à la caravanne stationnée
+              près de la gare
+
+              - 12 novembre : Gare Le Mans (13h35) – Gare de Chartres (14h51),
+
+              Agora de 16h à 18h à la gare puis répartition vers les hébergements citoyens
+
+              10h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
+              (1h) dans son histoire et son architecture
+
+              12h : proposition de rencontre avec les élus locaux à la caravanne stationnée
+              près de la gare
+
+              - 13 novembre : Gare de Chartres (16h52) – Gare de Suresnes (20h09)
+
+              20h30 : recherche d'un citoyens solidaires pour une visite motorisée de la ville
+              (1h) dans son histoire et son architecture
+
+              rdv à la gare
+
+              - 14 Novembre : Rassemblements convergeants au Mont Valérien à 7h30
+
+              Les infos relayées sur le site nopass24.fr seront actualisées en temps
+              réel avec des vidéos, des podcasts, des publications, etc,
+
+              Ce sera un espace de mise en relation également pour organiser la
+              solidarité (hébergements, douches, repas, carburant dons, etc.),
+              Signalez-vous, venez à notre rencontre, diffusez sur cette fronde citoyenne.
+
+              Les participants de la "marche du réveil" cherchent des hébergements citoyens.
+              Ne serait-ce qu'un jardin pour pouvoir poser leur caravane et brancher leurs appareils électriques.
+              
+              Les participants seront à la gare de la Roche sur Yon à partir de 15h, aujourd'hui.
+
+              Merci pour eux.
+            </pre>
+
+        </div>        
+        
         
         <div id="logo">
           <p class="image"><center><img src="img/logo.gif"/></center></p>

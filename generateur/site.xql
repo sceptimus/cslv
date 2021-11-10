@@ -111,8 +111,10 @@ declare function local:videos ( $file ) {
     let $input := util:eval(file:read($base || '/bd/' || $file))
     return
         for $r in $rubriques/Rubrique
+        let $inclus := $r/Tag/Inclus
+        let $exclus := $r/Tag/Exclus
         return
-            <div class="block border" id="{ $r/Tag[1]/text() }">
+            <div class="block border" id="{ ($r/Ancre/text(), $r/Tag[1]/text())[1] }">
                 <h2>{ $r/Titre/text() }</h2>
                 {
                 if ($r/Presentation) then
@@ -125,6 +127,8 @@ declare function local:videos ( $file ) {
                     for $v in $input//Video[@Afficher eq 'oui'][Tag = $r/Tag]
                     let $ajout := $v/Ajout
                     order by $ajout descending
+                    where     (empty($inclus) or $v/Tag = $inclus)
+                          and (empty($exclus) or not($v/Tag = $exclus))
                     return
                         <li>
                             <a href="{$v/Lien}">
@@ -338,6 +342,6 @@ let $in := map {
 
 let $pages := ('index', 'manifeste', 'annuaire', 'evenements', 'videos', 'biblio', 'outils', 'nocomment', 'blog')
 return 
-  for $i in (1, 5)
+  for $i in (1,6)
   return
     <page name="{$pages[$i]}">{ local:render($pages[$i], $in) }</page>
