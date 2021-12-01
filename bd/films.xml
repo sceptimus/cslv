@@ -2,6 +2,12 @@
   <Films>
     <Film>
       <Genre>dystopie</Genre>
+      <Lien>https://www.allocine.fr/series/ficheserie_gen_cserie=10855.html</Lien>
+      <Titre>Black Mirror</Titre>
+      <Commentaire>série qui expose l'idéologie Transhumaniste à travers de multiples futurs possibles (5 saisons). Chaque épisode forme un récit indépendant du reste qui explore en moins d'une heure un concept ou une invention particulière et ses implications.</Commentaire>
+    </Film>    
+    <Film>
+      <Genre>dystopie</Genre>
       <Lien>https://www.allocine.fr/film/fichefilm_gen_cfilm=58911.html</Lien>
       <Titre>V Pour Vendetta</Titre>
       <Commentaire>décrit la mise en place d'un régime totalitaire grâce au procédé du flash-back, allusion incluse à l'utilisation d'une épidémie.</Commentaire>

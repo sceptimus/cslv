@@ -1,5 +1,7 @@
 xquery version "3.1";
 
+declare namespace transform = "http://exist-db.org/xquery/transform";
+
 declare option exist:serialize "method=xml media-type=application/xml indent=yes";
 
 declare variable $base := '/Users/stephane/Comptes/perso/virus/sites/comitesantelibertevendee.fr/www';
@@ -269,7 +271,7 @@ declare function local:biblio ( $file ) {
                               ()
                             }
                             <span> par { $i/Auteur/text() }</span>                            
-                            <sup>(publié le { local:date($i/Parution) }, ajouté le { local:date($i/Ajout) })</sup>
+                            <sup>({if ($i/Parution) then ("publié le " || local:date($i/Parution) || ", ") else () }ajouté le { local:date($i/Ajout) })</sup>
                             <p>
                               {
                               if ($i/Commentaire) then
@@ -335,13 +337,25 @@ declare function local:render( $gabarit, $in ) {
           file:serialize(util:eval($page), $base || '/' || $gabarit || '.html', ())
 };
 
+declare function local:victimes( ) {
+  let $victimes := concat('file://', $base, '/bd/', 'victimes.xml') 
+  let $stylesheet := concat('file://', $base, '/transform/', 'victimes.xsl')
+  let $params := <parameters>
+                   <param name="exist:stop-on-warn" value="yes"/>
+                   <param name="exist:stop-on-error" value="yes"/>
+                 </parameters>  
+  return    
+    transform:transform(fn:doc($victimes), $stylesheet, $params)
+};
+
 let $ts := current-dateTime()
 let $in := map { 
     'date' : substring($ts, 9,  2) || '/' || substring($ts, 6,  2) || '/' || substring($ts, 1,  4)
 }
 
 let $pages := ('index', 'manifeste', 'annuaire', 'evenements', 'videos', 'biblio', 'outils', 'nocomment', 'blog')
+(:                1          2           3            4           5         6         7           8          9     :)
 return 
-  for $i in (1,6)
+  for $i in (1)
   return
     <page name="{$pages[$i]}">{ local:render($pages[$i], $in) }</page>

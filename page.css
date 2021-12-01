@@ -259,4 +259,7 @@ ul.blog li {
     font-size: 11pt !important;
     text-align: justify;
   }
+  img.minimp {
+    max-height: 11.5cm;
+  }
 }

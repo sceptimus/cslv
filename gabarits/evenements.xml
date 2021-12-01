@@ -30,13 +30,20 @@ document.addEventListener('DOMContentLoaded', function () {{
             <h1>Agenda</h1>
             <blockquote>Si vous souhaitez proposer un événement envoyez un courrier électronique à <a id="mail2" href="mail2">contactez nous</a>, ou bien postez le sur le canal telegram (cf. <a href="index.html">Manifeste</a>)</blockquote> 
           </div>
-        
           <!-- <div class="block border">
             <h2>Rassemblement devant l'ICAM</h2>
             <p><b>Mardi 28 septembre à partir de 12h15</b>, rassemblement devant l'ICAM à la Roche Sur Yon (boulevard d'Angleterre).</p>
              <p>Venez nombreux, mobilisez vos réseaux et entourages !</p>
              <p>Point presse à 12h45, à l'initiative du <a href="http://collectifsanteliberte85.fr">collectif santé liberté 85</a> pour soutenir la liberté de choix vis-à-vis de la vaccination et le droit d’exercice de chaque professionnel de santé, sans discrimination selon le statut vaccinal.</p>
           </div> -->
+
+        <div class="block border" id="chants">
+            <h2>Chansons positives place Napoléon - La Roche Sur Yon - 27 Novembre</h2>
+            <blockquote>
+              <p>Des membres du comité qui participent à un Cercle du bonheur nous informent qu'ils ont décidé de chanter sur la place Napoléon des chansons positives sur la liberté,  l'amour, la joie, et des mantras, comme action de résistance joyeuse.</p>
+              <p>Joignez-vous à eux Samedi 27 Novembre à 14h30 - place Napoléon - La Roche Sur Yon.</p>
+              <p>Tenues colorées.</p>
+            </blockquote>
         </div>
         
         <div class="block border" id="marche">
@@ -48,6 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {{
               <p>La marche arrive lundi 8 novembre à partir de 15h11 !</p>
               <p>Rejoignez les participants pour une Agora de 16h à 18h</p>
             </blockquote>
+            
+            <p>Evènement Terminé</p>
             
             <pre>
               Bonjour,
@@ -62,8 +71,6 @@ document.addEventListener('DOMContentLoaded', function () {{
 
               Un départ a été effectué d’Epinal le 30 octobre ; un départ de Lille est
               prévu 5 novembre.
-
-              Et un départ de Périgueux le 6 novembre s’organise !!
 
               Le projet sous forme d’une caravane passera dans 6 viles-étapes sur une
               semaine. Le départ aura lieu de la gare de Périgueux après la manifestation le
@@ -83,25 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {{
 
               Les étapes sont les suivantes :
 
-              - 6 novembre : Gare Périgueux (13h52) – Gare de Limoges (14h56)
-
-              Agora de 16h à 18h à la gare puis répartition vers les hébergements citoyens
-
-              10h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
-              (1h) dans son histoire et son architecture
-
-              12h : proposition de rencontre avec les élus locaux à la caravanne stationnée
-              près de la gare
-
-              - 7 novembre : Gare de Limoges (14h11) - Gare de Poitiers (16h05),
-
-              Agora de 16h à 18h à la gare puis répartition vers les hébergements citoyens
-
-              9h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
-              (1h) dans son histoire et son architecture
-
-              10h : proposition de rencontre avec les élus locaux à la caravanne stationnée
-              près de la gare
+              ...
 
               - 8 novembre : Gare de Poitiers (10h51) - Gare de La Roche sur Yon
               (15h11),
@@ -116,40 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {{
 
               - 9 novembre : Gare de La Roche sur Yon (16h12) – Gare de Nantes (16h54),
 
-              Agora de 17h à 19h à la gare puis répartition vers les hébergements citoyens
-
-              9h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
-              (1h) dans son histoire et son architecture
-
-              10h : proposition de rencontre avec les élus locaux à la caravanne stationnée
-              près de la gare
-
-              - 11 novembre : Gare de Nantes (10h42) – Gare Le Mans (12h14),
-
-              Agora de 14h à 16h à la gare puis répartition vers les hébergements citoyens
-
-              10h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
-              (1h) dans son histoire et son architecture
-
-              11h : proposition de rencontre avec les élus locaux à la caravanne stationnée
-              près de la gare
-
-              - 12 novembre : Gare Le Mans (13h35) – Gare de Chartres (14h51),
-
-              Agora de 16h à 18h à la gare puis répartition vers les hébergements citoyens
-
-              10h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
-              (1h) dans son histoire et son architecture
-
-              12h : proposition de rencontre avec les élus locaux à la caravanne stationnée
-              près de la gare
-
-              - 13 novembre : Gare de Chartres (16h52) – Gare de Suresnes (20h09)
-
-              20h30 : recherche d'un citoyens solidaires pour une visite motorisée de la ville
-              (1h) dans son histoire et son architecture
-
-              rdv à la gare
+              ...
 
               - 14 Novembre : Rassemblements convergeants au Mont Valérien à 7h30
 
@@ -159,16 +115,10 @@ document.addEventListener('DOMContentLoaded', function () {{
               Ce sera un espace de mise en relation également pour organiser la
               solidarité (hébergements, douches, repas, carburant dons, etc.),
               Signalez-vous, venez à notre rencontre, diffusez sur cette fronde citoyenne.
-
-              Les participants de la "marche du réveil" cherchent des hébergements citoyens.
-              Ne serait-ce qu'un jardin pour pouvoir poser leur caravane et brancher leurs appareils électriques.
-              
-              Les participants seront à la gare de la Roche sur Yon à partir de 15h, aujourd'hui.
-
-              Merci pour eux.
+              ...
             </pre>
-
-        </div>        
+        </div>    
+      </div>    
         
         
         <div id="logo">

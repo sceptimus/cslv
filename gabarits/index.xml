@@ -40,7 +40,7 @@
     n.textContent = m1;
   }});
 </script>
-    </head>
+    </head> 
     <body>
       <div id="preview">
         
@@ -52,21 +52,35 @@
             <h3 class="caps">Nouveautés</h3>
             <ul id="nouveau">
 
-              <li>trois nouvelles <a href="biblio.html#lettres">lettres</a> dans la section Lecture, ajoutées le 9 novembre 2021</li>
+              <li><span>Nouvel Article</span> dans la section blog :  <a href="sfp-rentree-2021.html">SARS CoV2 est l'un des virus endémiques les moins pathogènes qui touche les enfants</a>, ajouté le 21 novembre 2021</li>
               
-              <li><a href="evenements.html">La marche du réveil</a> venez accueillir les participants ce lundi 8 novembre à la <b>gare de la Roche Sur Yon</b> à partir de 15h, ajouté le 8 novembre 2021</li>
+              <li><span>Nouvel Outil</span> disponible dans notre <a href="outils.html#10">boite à outils</a> : participer à un essai clinique pour valider un traitement précoce contre les complications du Sars Cov 2, ajouté le 19 novembre 2021</li>
+              
+              <li>extrait du <a href="atih-2020.html">rapport de l'ATIH</a> où l'on apprend le nombre d'hospitalisations pour Covid en 2020 par rapport au nombre total d'hospitalisations en France en 2020,  ajouté le 18 novembre 2021</li>
+              
+              <li><span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#securité">Sécurité des vaccins</a>,  ajouté le 17 novembre 2021</li>
+
+              <li><span>Nouvel Outil</span> disponible dans notre <a href="outils.html#9">boite à outils</a> : affichettes d'information pour parents, éducateurs et adolescents, ajouté le 16 novembre 2021</li>
+              
+              <li><a href="videos.html#interview">entretien essentiel</a> entre <b>Idriss Aberkane</b> et <b>Nicolas Vidal</b> dans l'émission Putsch Live, où ils reviennent sur les annonces de la semaine dernière (rapport de l’ATIH, Pfizergate, etc.), ajouté le 16 novembre 2021</li>
+
+              <li><span>Nouvelle section</span> sur les <a href="biblio.html#victimes">effets secondaires</a> dans notre bibliothèque, ajouté le 14 novembre 2021</li>
+
+              <li>trois nouvelles <a href="biblio.html#lettres">lettres</a> dans la section Lecture, ajoutées le 9 novembre 2021</li>
 
               <li><a href="videos.html#medecine">vidéo</a> très intéressante du <b>Dr Peter McCullough</b> devant l'association américaine des praticiens hospitaliers, ajouté le 8 novembre 2021</li>
               
               <li><span>Nouvel Outil</span> disponible dans notre <a href="outils.html#8">boite à outils</a> : déclarer des effets indésirables suite à la vaccination (étude lancée par le CTIAP du Centre Hospitalier de Cholet), ajouté le 6 novembre 2021</li>
 
-              <li>nouvelle <a href="videos.html#politique">vidéo</a> du député <b>Joachim Son-Forget</b>, ajouté le 4 novembre 2021</li>
+              <!-- <li>nouvelle <a href="videos.html#politique">vidéo</a> du député <b>Joachim Son-Forget</b>, ajouté le 4 novembre 2021</li> -->
 
-              <li>nouvelle lettre <b>aux évêques de France</b> dans la section <i>Lettres Ouvertes</i> de notre <a href="biblio.html">bibliothèque</a>, ajouté le 1er novembre 2021</li>
-              
               <li><span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 2021</li>
+
+              <!-- TODO: voir plus -->
+
+              <!-- <li>nouvelle lettre <b>aux évêques de France</b> dans la section <i>Lettres Ouvertes</i> de notre <a href="biblio.html">bibliothèque</a>, ajouté le 1er novembre 2021</li> -->
                           
-              <li><a href="docs/lettre-ouverte-professeur-balique.pdf">Lettre ouverte du Professeur Balique aux parlementaires</a> qui présente une synthèse claire sur les risques et les échecs de la stratégie toute vaccinale (republiée en version PDF depuis <a href="https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/">ce blog</a>),  ajoutée le 11 octobre 2021</li>
+              <!-- <li><a href="docs/lettre-ouverte-professeur-balique.pdf">Lettre ouverte du Professeur Balique aux parlementaires</a> qui présente une synthèse claire sur les risques et les échecs de la stratégie toute vaccinale (republiée en version PDF depuis <a href="https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/">ce blog</a>),  ajoutée le 11 octobre 2021</li> -->
               
               <li><a href="docs/lettre_ouverte_soignants_challans.pdf">Lettre ouverte de soignants de Challans</a> ajoutée le 7 octobre 2021</li>
 
@@ -109,6 +123,29 @@
         </div>
         
         <div id="avis" class="border">
+          <h3 class="caps">Avis Parents Masques Ecoles</h3>
+          <p>Action juridique dans les pays de la loire, vous pouvez vous y joindre à l'aide de ce <a href="https://docs.google.com/forms/d/e/1FAIpQLSdksBvYbCqNmzBCm_eZ4DvnKO-YLCIiBaD9vNor0lcVxbcf4g/viewform">formulaire</a></p>
+        </div>
+        
+        <div id="presse">
+          <div class="border" style="margin-bottom:20px">
+            <h3 class="caps">Vidéo du Moment</h3>
+            <p><center><a href="https://www.youtube.com/watch?v=aLKa-Qvsp5E">Laurent Toubiana répond à nos questions</a></center></p>
+            <p>En 25 minutes l'épidémiologiste qui n'avait pas parlé depuis plusieurs mois revient sur les chiffres de l'épidémie qui ont servi de prétexte à l'état d'urgence sanitaire et à sa prolongation. Vous pouvez aussi lire sa <a href="https://www.francesoir.fr/opinions-tribunes/laurent-toubiana-la-cinquieme-vague-nouvel-episode-dun-feuilleton-qui-na-que-trop">Tribune</a>.</p>
+          </div>
+          
+          <div class="border">
+            <h3 class="caps">Revue de presse</h3>
+            <p>Y a-t-il une augmentation du nombre d'accidents cardio-vasculaires dans notre région ou alentours ? Doit-on risquer de mourir ou s'infliger de graves blessures pour un <i>pass sanitaire</i> ou pour conserver son travail ? C'est une question légitime à la lecture de la presse quotidienne <button id="activerPresse" onclick="javascript:basculerPresse()" style="margin-left:10px">Montrer</button>.</p>
+            <p>NB: voir aussi cette liste limitée aux <a href="https://www.cadoc.fr/cslv85/archives/2021/02/Liste-sportifs-PROS-ET-AMATEURS.pdf">sportifs amateurs et professionnels <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> (version du 29/11, 360 cas) ou bien ce flux twitter <a href="https://twitter.com/debarjac1">sur les crises cardiaques chez les footballeur</a>.</p>
+            <div id="contenuPresse" class="cache">
+              { local:victimes() }
+              <p>N'hésitez pas à envoyer vos liens pour compléter cette liste. Vous pouvez aussi consulter les <a href="https://ansm.sante.fr/actualites/point-de-situation-sur-la-surveillance-des-vaccins-contre-la-covid-19-periode-du-01-10-2021-au-14-10-2021">points de situation</a> de l'ANSM ou le dossier <a href ="biblio.html#victimes">Effet secondaires</a>.</p>
+            </div>
+          </div>          
+        </div>
+        
+        <!-- <div id="avis" class="border">
           <h3 class="caps">Avis Personnel Suspendu</h3>
           <p>Suite à la réunion juridique du 4 novembre, il est important d'agir pour faire valoir vos droits.</p>
           <p>Pour le personnel du <b>service public</b> : Concernant le délai de prescription de deux mois soit au plus tard le 14 novembre date de réception par votre employeur LR + AR pour la contestation de la suspension. Le recommandé doit arriver avant le dernier jour du délai du recours soit le 14 novembre 2021.</p>
@@ -116,7 +153,7 @@
           <p>Pour le personnel du <b>secteur privé</b> : Concernant le délai de prescription le délai est d'un an. Le mieux est de faire un recours auprès de votre employeur avant de faire celui-ci devant les prud'hommes.</p>
           <p>Pour plus d'information contactez Yves-Marie à l'adresse : <a id="conseil">conseil</a> ou sur notre canal telegram.</p>
           <p>Voir aussi la <a href="outils.html#7">Situation n° 7</a> dans notre boite à outils.</p>
-        </div>
+        </div> -->
                 
         <div id="collectifs">
           <h3 class="caps">Nos Collectifs pour ne pas rester inactif et passif</h3>

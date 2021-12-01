@@ -65,6 +65,10 @@
                 <Tag>action</Tag>
                 <Titre>Actions militantes</Titre>
               </Rubrique>
+              <Rubrique>
+                <Tag>reinformation</Tag>
+                <Titre>Réinformation</Titre>
+              </Rubrique>              
           </Rubrique>
           <Rubrique>
               <Tag>media</Tag>
@@ -77,6 +81,61 @@
     <Page>
       <Id>biblio</Id>
       <Rubriques>
+        <!-- A FAIRE
+
+        <Rubrique Ancre="traitements">
+          <Tag>traitements</Tag>
+          <Titre>Suppression des traitements</Titre>
+          <Presentation>L'affaire de l'hyrdoxychloroquine. L'ivermectine dans le monde. L'ANSM fait-elle obstacle au repositionnement de molécules connues (Hexamarina, Clofoctol, HydroCovid) ?</Presentation>
+        </Rubrique> 
+
+        <Rubrique Ancre="echecs">
+          <Tag>echecs</Tag>
+          <Titre>Echecs vaccinaux</Titre>
+          <Presentation>Que nous apprennent les pays multiplement vaccinés ? La vaccination protège-t-elle réellement des formes graves ? De la mort ?</Presentation>
+        </Rubrique> 
+        
+        <Rubrique Ancre="immunite">
+          <Tag>immunité</Tag>
+          <Titre>Immunité</Titre>
+          <Presentation>Fin du mythe de l'immunité vaccinale. Retour de l'immunité naturelle. Les enfants comme barrage naturel.</Presentation>
+        </Rubrique>
+        
+        <Rubrique Ancre="industriel">
+          <Tag>industriel</Tag>
+          <Titre>Resources en Pays de Loire pour luter contre le SARS CoV2 </Titre>
+          <Presentation>Les Pays de Loire possèdent des resources et des industriels qui luttent contre le Covid. Ont-ils reçus le soutient nécessaire. Comment pourrait-on mieux mettre à contribution nos atouts locaux (Hemarina, Xenathera, Valneva, Mosquito XXX)</Presentation>
+        </Rubrique>
+        
+        -->         
+        <Rubrique Ancre="securite">
+            <Tag>securite</Tag>
+            <Titre>Sécurité des vaccins</Titre>
+            <Presentation>
+              <p>Les informations qui remontent sur les essais cliniques et la distribution des vaccins Covid ne rassurent pas. Ces indices laissent penser que la sécurité n'est pas aussi forte qu'annoncée. Difficile pour le moment de comprendre si les essais cliniques qui ont mené aux demandes d'autorisation, les processus de fabrication, le contrôle lors de la libération des lots ou les chaines de distribution sont en cause. Aucun des vaccins n'étant fabriqué en France (voir par ex. le site de Moderna à <a href="https://www.s-ge.com/en/article/news/20204-coronavirus-lonza">Visp</a> en Suisse construit en 8 mois), chacun est en droit de s'interroger sur la capacité de l'ANSM à contrôler et garantir la qualité.</p>
+            </Presentation>
+        </Rubrique>        
+        <Rubrique Ancre="victimes">
+            <Tag>victimes</Tag>
+            <Titre>Effet secondaires</Titre>
+            <Presentation>
+              <p>Les témoignages d'effets secondaires de la vaccination Covid se multiplient sur les réseaux sociaux ou les outils de communication instantanée. Pour ceux qui n'y vont pas, des sites Web se apparaissent pour les diffuser.</p>
+            </Presentation>
+        </Rubrique>
+        <Rubrique Ancre="identite">
+            <Tag>identite</Tag>
+            <Titre>Pass sanitaire, Identité Numérique et après ?</Titre>
+            <Presentation>
+              <p>Et si le pass sanitaire servait à généraliser l'identification numérique à tous les secteurs de la vie sociale ? Qu'adviendrait-il ensuite si l'on croisait cette identité numérique avec une monnaie numérique ? Cet ultime achèvement est également évoqué dans l'exposé de <a href="ernst-wolff.html">Ernst Wolff</a>. Qu'en sera-t-il alors de nos libertés ?</p>
+            </Presentation>
+        </Rubrique>        
+        <Rubrique Ancre="insolite">
+            <Tag>insolite</Tag>
+            <Titre>Insolite</Titre>
+            <Presentation>
+              <p>Nouvelles en vrac et inclassables. Signaux faibles sur l'évolution du monde ?</p>
+            </Presentation>
+        </Rubrique>        
           <Rubrique Ancre="lettres">
               <Tag>lettre</Tag>
               <Titre>Lettres Ouvertes</Titre>
@@ -90,22 +149,22 @@
               <Presentation>
                 <p>quand les faits sont têtus</p>
               </Presentation>
-          </Rubrique>           
-          <Rubrique>
+          </Rubrique>
+          <Rubrique Ancre="sport">
               <Tag>sport</Tag>
               <Titre>Dossier sport</Titre>
               <Presentation>
                 <p>Dès le mois d'août 2021, peu après les annonces de Macron du 12 juillet 2021, les fédérations sportives nationales ont été les premières à afficher sur leurs sites web l'obligation du passe sanitaire, et ceci dès le premier participant pour les activités en club, que ce soit en extérieur ou en intérieur, avec ou sans public ! Ils font donc partie du système de coercition mis en place par le gouvernement pour faire pression sur les enfants, et ceci bien avant la rentrée scolaire.</p>
               </Presentation>
           </Rubrique>      
-          <Rubrique>
+          <Rubrique Ancre="prospective">
               <Tag>prospective</Tag>
               <Titre>Prospectives</Titre>
               <Presentation>
                 <p>Que nous prépare le gouvernement et ceux qui gouvernent le gouvernement pour suivre la crise du COVID ? Cette rubrique a pour but d'exhumer des rapports, notes ou synthèses d'organismes gouvernementaux pouvant nous éclairer.</p>
               </Presentation>
           </Rubrique>          
-          <Rubrique>
+          <Rubrique Ancre="analyse">
               <Tag>analyse</Tag>
               <Titre>Analyses</Titre>
           </Rubrique>
@@ -128,17 +187,24 @@
               <Titre>Videos Locales (85, Vendée)</Titre>
           </Rubrique>
           <Rubrique>
+              <Ancre>politique</Ancre>            
               <Tag>politique</Tag>
-              <Titre>Politiques</Titre>
-              <Presentation>Comment nos représentants élus ou non présentent les faits et s'expriment en leur nom propre ou en notre nom</Presentation> 
-          </Rubrique>                    
+              <Titre>Politique</Titre>
+              <Presentation>Comment nos représentants élus ou non présentent les faits et s'expriment en leur nom propre ou en notre nom. Comment des personnalités nouvelles émergentes de la société civile veulent relancer l'agenda politique ?</Presentation> 
+          </Rubrique>
           <Rubrique>
               <Ancre>medecine</Ancre>
               <Tag>interview</Tag>
-              <Titre>Interviews, Entretiens &amp; Conférences (médecine)</Titre>
+              <Titre>Médecine (Interviews, Entretiens &amp; Conférences)</Titre>
               <Tag>
                 <Inclus>medecine</Inclus>
               </Tag>
+          </Rubrique>
+          <Rubrique>
+              <Ancre>economie</Ancre>
+              <Tag>économie</Tag>
+              <Titre>Economie (Interviews &amp; Entretiens)</Titre>
+              <Presentation>Derrière la crise sanitaire des forces plus ou moins bien identifiées poussent pour un changement de société. À quels bouleversements s'attendre et vers quel type de système économique s'achemine-t-on ?</Presentation>               
           </Rubrique>
           <Rubrique>
               <Tag>interview</Tag>
@@ -147,6 +213,12 @@
                 <Exclus>medecine</Exclus>
               </Tag>
           </Rubrique>
+          <Rubrique>
+              <Ancre>totalitarisme</Ancre>            
+              <Tag>totalitarisme</Tag>
+              <Titre>Totalitarisme</Titre>
+              <Presentation>Est-ce qu'une tyrannie est en train de se mettre en place ? Que nous apprennent les experts, psychologues ou historiens sur le totalitarisme ?</Presentation> 
+          </Rubrique>          
           <Rubrique>
               <Tag>documentaire</Tag>
               <Titre>Videos Documentaires</Titre>
@@ -168,6 +240,8 @@
       <Billet File="28-septembre-2021.xml"/>
       <Billet File="synthese-argumentaire-anti-passe.xml"/>
       <Billet File="ernst-wolff.xml"/>
+      <Billet File="atih-2020.xml"/>
+      <Billet File="sfp-rentree-2021.xml"/>
     </Page>
   </Contenu>
 </Site>

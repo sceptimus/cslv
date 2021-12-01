@@ -200,5 +200,111 @@
             <Auteur>Collectif</Auteur>
             <Commentaire>Point sur la rentrée de novembre et les menaces qui pèsent sur nos enfants. Contient un lien vers une <a href="https://docs.google.com/forms/d/e/1FAIpQLSdksBvYbCqNmzBCm_eZ4DvnKO-YLCIiBaD9vNor0lcVxbcf4g/viewform">action juridique</a> visant la prise en considération de l’impact de la mesure du port du masque pour les enfants en élémentaire.</Commentaire>
         </Article>
+        <Article Afficher="oui">
+            <Tag>victimes</Tag>
+            <Ajout>2021-11-12</Ajout>
+            <Parution>2021-09-21</Parution>                        
+            <Lien>https://basta-covid.fr/vaccins-arn-adn-des-effets-pas-si-secondaires/</Lien>
+            <Titre>Vaccins ARN – ADN : des effets (pas si) secondaires ?</Titre>
+            <Auteur>Basta Covid! (site web)</Auteur>
+            <Commentaire>Liste des effets secondaires potentiels à partir des données de l'ANSM.</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>victimes</Tag>
+            <Ajout>2021-11-12</Ajout>
+            <Lien>https://www.vaxtestimonies.org/en/</Lien>
+            <Titre>The testimonies project</Titre>
+            <Auteur>Site web</Auteur>
+            <Commentaire>Témoignages vidéos de victimes d'effet secondaires de la vaccination (en Israel, sous-titré en anglais).</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>victimes</Tag>
+            <Ajout>2021-11-12</Ajout>
+            <Lien>https://etincelles.be</Lien>
+            <Titre>Etincelles.be</Titre>
+            <Auteur>Site web</Auteur>
+            <Commentaire>Plus de 800 témoignages d'effets secondaires récoltés sur des réseaux sociaux tels que Facebook, Twitter, Instagram, Tik Tok.</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>insolite</Tag>
+            <Ajout>2021-11-14</Ajout>            <Lien>https://www.aubedigitale.com/lelite-mondiale-craint-quune-rebellion-ne-couve-declare-le-pdg-dun-grand-constructeur-de-bunkers-anti-apocalypse/</Lien>
+            <Titre>L’élite mondiale « craint qu’une rébellion ne couve », déclare le PDG d’un grand constructeur de bunkers anti-apocalypse</Titre>
+            <Auteur>Site web</Auteur>
+            <Commentaire>Ron Hubbard, le PDG d’Atlas Survival Shelters, déclare dans une interview que le marché de la construction de bunkers est en train d’exploser car les élites commencent à craindre le réveil des masses...</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+          <Tag>sport</Tag>
+          <Parution>2021-11-16</Parution>
+          <Ajout>2021-11-16</Ajout>
+          <Commentaire>Des dizaines voir des centaines de cas sont à présent recensés d'effondrements d'athlètes, en jouant, en 2021. Dans la plupart des cas la cause de l’effondrement est liée au cœur, la deuxième cause concerne les événements de coagulation.</Commentaire>
+          <Titre>Ces signaux de surmortalité qui devraient alerter... Creutfer Jacob , sportifs</Titre>
+          <Lien>https://pgibertie.com/2021/11/16/ces-signaux-de-surmortalite-qui-devraient-alerter-creutfer-jacob-sportifs</Lien>
+          <Auteur>Patrice Gibertie</Auteur>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>securite</Tag>
+            <Ajout>2021-11-17</Ajout>
+            <Parution>2021-31-10</Parution>
+            <Lien>https://www.covid-factuel.fr/2021/10/31/quand-pfizer-demontre-linefficacite-du-vaccin/</Lien>
+            <Titre>Quand Pfizer démontre l’inefficacité du vaccin</Titre>
+            <Auteur>Zola (Site Web)</Auteur>
+            <Commentaire>Les essais cliniques qui ont mené à l'autorisation conditionnelle pour Pfizer sont-ils aussi probants qu'annoncés par la presse ? Les mythes tombent les uns après les autres. Savez-vous par exemple que la seconde étude Pfizer à 6 mois (jusqu'en Juillet 2021) sur son essai clinique trouve 14 morts dans le groupe placebo et 15 morts dans le groupe des vaccinés... Quel médicament serait autorisé à la vente avec de tels résultats à 6 mois ? Aucun. Les traitements précoces ont été rejetés pour moins que cela.</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>securite</Tag>
+            <Ajout>2021-11-17</Ajout>
+            <Parution>2021-11-03</Parution>
+            <Lien>https://www.francesoir.fr/societe-sante/pfizer-gate-ventavia</Lien>
+            <Titre>"PfizerGate" ? Révélations sur des essais cliniques falsifiés par le triptyque Pfizer - Ventavia - FDA</Titre>
+            <Auteur>France Soir</Auteur>
+            <Commentaire>Fraude de grande ampleur dénoncée chez Ventavia, un des sous-traitants de Pfizer ayant participé à son essai clinique pour l'autorisation conditionnelle de son vaccin. Les pratiques frauduleuses ont été révélées par un employé, publiées dans le <a href="https://www.bmj.com/content/375/bmj.n2635">British Medical Journal</a>, entrainant des <a href="https://association-victimes-coronavirus-france.org/plainte-contre-pfizer-pour-mise-en-danger-deliberee-de-la-vie-dautrui-par-violation-dune-obligation-particuliere-de-prudence-pfizergate/">dépôts de plaintes</a>.</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Tag>securite</Tag>
+            <Ajout>2021-11-17</Ajout>
+            <Parution>2021-08-28</Parution>
+            <Lien>https://www.lefigaro.fr/flash-eco/lots-contamines-de-vaccins-moderna-le-japon-enquete-sur-deux-deces-20210828</Lien>
+            <Titre>Lots contaminés de vaccins Moderna: le Japon enquête sur deux décès</Titre>
+            <Auteur>Le Figaro</Auteur>
+            <Commentaire>1,63 million de doses du vaccin Moderna retirées au Japon. Des <a href="https://www.lefigaro.fr/flash-eco/covid-19-1-63-million-de-vaccins-moderna-suspendus-au-japon-a-cause-d-une-anomalie-20210826">impuretés</a> trouvées dans les fioles du serum. Comment de tels lots ont pu être libérés par la fabriquant ?</Commentaire>
+        </Article>
+        <Article Afficher="oui">
+            <Lien>https://www.francesoir.fr/politique-monde/lue-devoile-un-plan-pour-un-nouveau-portefeuille-didentite-numerique</Lien>
+            <Titre>L’UE dévoile un plan pour un nouveau portefeuille d'identité numérique</Titre>
+            <Commentaire>Nouvel outil proposé par l'Union Européenne, la <a href="https://digital-strategy.ec.europa.eu/en/library/trusted-and-secure-european-e-id-recommendation">recommendation</a> devra être approuvée par les législateurs du Parlement européen et des 27 gouvernements de l'UE. Progrès ou démultiplication des possibilité de contrôle et d'instauration de passes en tout genre dans le futur ?</Commentaire>
+            <Tag>identite</Tag>
+            <Auteur>France Soir</Auteur>
+            <Ajout>2021-11-17</Ajout>
+            <Parution>2021-06-04</Parution>            
+        </Article>        
+        <Article Afficher="oui">
+            <Duree>3'37</Duree>                      <Lien>https://twitter.com/v_joron/status/1455143787882323968?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1455143787882323968%7Ctwgr%5E%7Ctwcon%5Es1_&amp;ref_url=http%3A%2F%2Fwww.parolesdedieu.fr%2Fune-eurodeputee-alerte-on-est-a-deux-doigts-de-la-puce-electronique-sous-la-peau%2F</Lien>
+            <Titre>Identité numérique européenne : progrès ou flicage généralisé ? (vidéo)</Titre>
+            <Commentaire>Virginie Joron, députée européenne pour le Rassemblement National, se pose des questions sur les excès futurs de l'introduction d'un portefeuille d’identité numérique tel que l'a proposé l'Union Européenne en juin 2021.</Commentaire>
+            <Tag>identite</Tag>
+            <Auteur>Virginie Joron</Auteur>
+            <Ajout>2021-11-17</Ajout>
+            <Parution>2021-11-01</Parution>            
+        </Article>
+
+        <Article Afficher="oui">            <Lien>https://fr.sott.net/article/38737-Catherine-Austin-Fitts-balance-tout-Le-seul-choix-qui-nous-reste-c-est-l-esclavage-ou-la-liberte</Lien>
+            <Titre>Catherine Austin-Fitts balance tout : « Le seul choix qui nous reste c'est l'esclavage ou la liberté »</Titre>
+            <Commentaire>Catherine Austin Fitts conseillère financière US relie les points entre pass sanitaire, identité numérique, monnaie numérique de banques centrales et société de contrôle. Elle dénonce le passeport vaccinal comme un rouage essentiel vers la mise en place d'une plate-forme de transaction numérique. Celui-ci sera combiné par la suite avec le contrôle des transactions monétaires par une banque centrale.</Commentaire>
+            <Tag>identite</Tag>
+            <Auteur>Jean Bitterlin (pour la traduction)</Auteur>
+            <Ajout>2021-11-24</Ajout>
+            <Parution>2021-11-13</Parution>            
+            <Source>SOTT.net</Source>
+        </Article>        
+        
+        <Article Afficher="oui">
+            <Tag>victimes</Tag>
+            <Ajout>2021-11-17</Ajout>
+            <Parution>2021-10-29</Parution>                        
+            <Lien>https://www.verity-france.org</Lien>
+            <Titre>Verity France</Titre>
+            <Auteur>Site Web</Auteur>
+            <Commentaire>Site créé par les parents de victimes des injections.</Commentaire>
+        </Article>                
     </Articles>
 </Ressources>

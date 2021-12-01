@@ -31,3 +31,16 @@ function fermer( tag ) {
     }
   }  
 };
+
+function basculerPresse( ) {
+  var n = document.getElementById('contenuPresse');
+  if (n.className === 'cache') {
+    n.className = '';
+    n = document.getElementById('activerPresse');
+    n.textContent = 'Cacher';    
+  } else {
+    n.className = 'cache';
+    n = document.getElementById('activerPresse');
+    n.textContent = 'Montrer';    
+  }
+};

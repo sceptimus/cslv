@@ -37,6 +37,10 @@ span.important {
   font-variant: normal !important;  
 }
 
+.cache {
+  display: none;
+}
+
 /******************/
 /* style spécique */
 /******************/
@@ -131,6 +135,7 @@ div#preview {
      "grid-menu grid-menu"
      "grid-charte grid-charte"
      "grid-avis grid-avis"
+     "grid-presse grid-presse"
      "grid-bandeau grid-bandeau"
      "grid-collectifs grid-collectifs"
      "grid-gauche grid-droite";
@@ -165,6 +170,9 @@ div#charte {
 }
 div#avis {
   grid-area: grid-avis;
+}
+div#presse {
+  grid-area: grid-presse;
 }
 div#collectifs {
   grid-area: grid-collectifs;
@@ -248,6 +256,7 @@ div.rubrique.off {
        "grid-menu grid-menu"
        "grid-charte grid-charte"
        "grid-avis grid-avis"       
+       "grid-presse grid-presse"       
        "grid-bandeau grid-bandeau"
        "grid-collectifs grid-collectifs"
        "grid-gauche grid-droite";
@@ -279,6 +288,7 @@ div.rubrique.off {
        "grid-menu"
        "grid-charte"
        "grid-avis"       
+       "grid-presse"       
        "grid-bandeau"
        "grid-collectifs"
        "grid-gauche"

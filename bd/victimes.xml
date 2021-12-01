@@ -1,0 +1,195 @@
+<?xml-stylesheet type="text/xsl" href="../transform/victimes.xsl"?>
+<Victimes>
+    <!--
+     Schema de données
+   
+     Evolution => 'décès' | 'hospitalisation' | 'abandon'
+     Publication => date de parution de l'article
+     -->
+    <Victime>
+      <Article>
+        <Titre>Son ado de 15 ans hospitalisé, un père en colère : « Fallait-il vacciner mon fils ? »</Titre>
+        <Lien>
+          <Base>https://www.charentelibre.fr</Base>
+          <Chemin>/sante/coronavirus/fallait-il-vacciner-mon-fils-les-questions-d-un-pere-en-colere-6960998.php</Chemin>
+        </Lien>
+        <Publication>2021-11-16</Publication>
+      </Article>
+      <Evolution>hospitalisation</Evolution>
+      <Age>15</Age>
+      <Departement>17</Departement>
+      <Ville>Mouthiers-sur-Boëme</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Près de Bressuire. Un jeune de 22 ans, footballeur au FC Nueil-les-Aubiers, retrouvé mort chez lui</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/nouvelle-aquitaine/nueil-les-aubiers-79250/faits-divers-deces-d-un-jeune-homme-de-22-ans-il-jouait-au-fc-nueil-les-aubiers-122cc602-4af2-11ec-8a6b-582d17cbe42b</Chemin>
+        </Lien>
+        <Publication>2021-11-21</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>22</Age>
+      <Ville>Bressuire</Ville>
+      <Departement>86</Departement>
+    </Victime>
+  
+    <Victime>
+      <Article>
+        <Titre>Hippisme. Disparition tragique du driver Pascal Joly lors d’une course à Nantes</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/loire-atlantique/hippisme-disparition-tragique-du-driver-pascal-joly-lors-d-une-course-a-nantes-d4247e12-4601-11ec-9739-9885b0d67a6a</Chemin>
+        </Lien>
+        <Publication>2021-11-15</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>62</Age>
+      <Ville>Nantes</Ville>
+      <Departement>44</Departement>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>FC Nantes. National 2 : un jeune plongé dans le coma après un malaise cardiaque</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/sport/football/fc-nantes/fc-nantes-national-2-un-jeune-plonge-dans-le-coma-apres-un-malaise-cardiaque-2e3cd5f8-178a-11ec-980f-18f5c72f36bc</Chemin>
+        </Lien>
+        <Publication>2021-09-17</Publication>
+      </Article>
+      <Article>
+        <Titre>FC Nantes : malaise à l'entraînement: le jeune footballeur nantais sorti du coma</Titre>
+        <Lien>
+          <Base>https://france3-regions.francetvinfo.fr</Base>
+          <Chemin>/pays-de-la-loire/loire-atlantique/nantes/fc-nantes-malaise-a-l-entrainement-le-jeune-footballeur-nantais-sorti-du-coma-2257285.html</Chemin>
+        </Lien>
+        <Publication>2021-09-19</Publication>
+      </Article>      
+      <Evolution>hospitalisation</Evolution>
+      <Age>19</Age>
+      <Ville>Nantes</Ville>
+      <Departement>44</Departement>
+    </Victime>
+  
+    <Victime>
+      <Article>
+        <Titre>Le triathlète saintais Antoine Méchin met un terme à sa saison et « ne se referait pas vacciner si c’était à refaire »</Titre>
+        <Lien>
+          <Base>https://www.sudouest.fr</Base>
+          <Chemin>/sport/course-pedestre/triathlon/le-triathlete-saintais-antoine-mechin-met-un-terme-a-sa-saison-et-ne-se-referait-pas-vacciner-si-c-etait-a-refaire-6234090.php</Chemin>
+        </Lien>
+        <Publication>2021-09-27</Publication>
+      </Article>
+      <Evolution>abandon</Evolution>
+      <Age>32</Age>
+      <Ville>Saintes</Ville>
+      <Departement>17</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Sarthe. Victime d’un arrêt cardiaque en match de tennis de table, il est sauvé par ses adversaires</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/parce-sur-sarthe-72300/sarthe-victime-d-un-arret-cardiaque-en-match-de-tennis-de-table-il-est-sauve-par-ses-adversaires-b4ab443c-45f5-11ec-9739-9885b0d67a6a</Chemin>
+        </Lien>
+        <Publication>2021-11-15</Publication>
+      </Article>
+      <Evolution>arrêt cardiaque</Evolution>
+      <Age>50</Age>
+      <Ville>Parcé-sur-Sarthe</Ville>
+      <Departement>72</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Tours : l'ancien journaliste Jean-Daniel Flaysakier retrouvé mort sur une plage de Vendée</Titre>
+        <Lien>
+          <Base>https://www.lanouvellerepublique.fr</Base>
+          <Chemin>/tours/tours-l-ancien-journaliste-de-france-television-retrouve-mort-sur-une-plage-de-vendee</Chemin>
+        </Lien>
+        <Publication>2021-10-11</Publication>
+      </Article>
+      <Article>
+        <Titre>Jean-Daniel Flaysakier, ancien journaliste santé de France 2, est mort</Titre>
+        <Lien>
+          <Base>https://www.lemonde.fr</Base>
+          <Chemin>/disparitions/article/2021/10/11/jean-daniel-flaysakier-ancien-journaliste-sante-de-france-2-est-mort_6097925_3382.html</Chemin>
+        </Lien>
+        <Publication>2021-10-11</Publication>
+      </Article>      
+      <Evolution>décès</Evolution>
+      <Age>70</Age>
+      <Ville>Les Sables</Ville>
+      <Departement>85</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Nay – Le rugby en deuil après le décès de Mathis, âgé de 13 ans</Titre>
+        <Lien>
+          <Base>https://www.lasemainedespyrenees.fr</Base>
+          <Chemin>/2021/10/13/nay-le-rugby-en-deuil-apres-le-deces-de-mathis-age-de-13-ans/</Chemin>
+        </Lien>
+        <Publication>2021-10-13</Publication>
+      </Article>
+      <Article>
+        <Titre>Pyrénées-Atlantiques – Un élève de 4ème du collège de Nay meurt d’une crise cardiaque</Titre>
+        <Lien>
+          <Base>https://www.lasemainedespyrenees.fr</Base>
+          <Chemin>/2021/10/13/pyrenees-atlantiques-un-eleve-de-4eme-du-college-de-nay-meurt-dune-crise-cardiaque/</Chemin>
+        </Lien>
+        <Publication>2021-10-13</Publication>
+      </Article>      
+      <Evolution>décès</Evolution>
+      <Age>13</Age>
+      <Ville>Nay</Ville>
+      <Departement>64</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Victime d’un « grave malaise », l’ex-président du Département placé en soins intensifs</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>          <Chemin>/pays-de-la-loire/vendee/vendee-victime-d-un-grave-malaise-l-ex-president-du-departement-place-en-soins-intensifs-ee0116b8-1179-11ec-b41b-5a71844b338c</Chemin>
+        </Lien>
+        <Publication>2021-09-09</Publication>
+      </Article>
+      <Evolution>hospitalisation</Evolution>
+      <Age>67</Age>
+      <Ville>La Roche Sur Yon</Ville>
+      <Departement>85</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un marin-pêcheur des Sables-d’Olonne décède sur un chalutier à la suite d’un malaise</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base> <Chemin>/pays-de-la-loire/les-sables-dolonne-85100/vendee-un-marin-pecheur-des-sables-d-olonne-decede-sur-un-chalutier-a-la-suite-d-un-malaise-2a7c1b24-2c0a-11ec-ad05-746723b15d1d</Chemin>
+        </Lien>
+        <Publication>2021-10-13</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Ville>Les Sables</Ville>
+      <Departement>85</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Une lycéenne dans un état grave après un malaise cardiaque</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base> <Chemin>/pays-de-la-loire/nort-sur-erdre-44390/nort-sur-erdre-une-lyceenne-dans-un-etat-grave-apres-un-malaise-cardiaque-5e8eb752-5124-11ec-bb7a-6c90235815d6</Chemin>
+        </Lien>
+        <Publication>2021-11-29</Publication>
+      </Article>
+      <Evolution>hospitalisation</Evolution>
+      <Age>15</Age>      
+      <Ville>Nort-sur-Erdre</Ville>
+      <Departement>44</Departement>
+    </Victime>    
+</Victimes> 
+  
+  

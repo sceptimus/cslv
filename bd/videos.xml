@@ -1,7 +1,8 @@
 <Ressources>
     <Videos>
         <Video Afficher="oui">
-            <Duree>9'10</Duree>            <Lien>https://nba.nbcsports.com/2021/09/28/magic-forward-jonathan-isaac-i-am-not-anti-vax-im-not-anti-medicine-im-not-anti-science/</Lien>
+            <Duree>9'10</Duree>
+            <Lien>https://nba.nbcsports.com/2021/09/28/magic-forward-jonathan-isaac-i-am-not-anti-vax-im-not-anti-medicine-im-not-anti-science/</Lien>
             <Titre>Magic forward Jonathan Isaac: ‘I am not anti-vax. I’m not anti-medicine. I’m not anti-science’</Titre>
             <Presentation>le basketteur Magic forward Jonathan Isaac (Orlando, NBA) explique sa position vis à vis de la vaccination</Presentation>
             <Tag>témoignage</Tag>
@@ -10,7 +11,7 @@
             <SousTitre>activer</SousTitre>
         </Video>
         <Video Afficher="oui">
-            <Duree>6'50'</Duree>
+            <Duree>6'50</Duree>
             <Lien>https://crowdbunker.com/v/5Ttn5cKWWR</Lien>
             <Titre>Liberté vaccinale pour tous en Andorre</Titre>
             <Presentation>discours de Carine Montaner, membre du conseil général de la santé en Andorre, devant le parlement</Presentation>
@@ -35,6 +36,15 @@
             <Tag>local</Tag>
             <Ajout>2021-09-25</Ajout>
         </Video>
+        <Video Afficher="non">
+            <Duree>7'09</Duree>
+            <Lien>https://www.youtube.com/watch?v=JIZph9pa1Xc</Lien>
+            <Titre>Données sur les vaccins anticovid19 par un médecin généraliste</Titre>
+            <Presentation>Un médecin libéral en Vendée donne un aperçu des méthodes vaccinales en général et résume les données cliniques de début décembre concernant le vaccin de Pfizer et BioNTEch. À regarder avec le recul lié au temps.</Presentation>
+            <Tag>local</Tag>
+            <Ajout>2021-11-26</Ajout>
+            <Publication>2021-01-10</Publication>            
+        </Video>
         <Video Afficher="oui">
             <Duree>17'21</Duree>
             <Lien>https://m.facebook.com/story.php?story_fbid=4583691028331793&amp;id=100000728221300</Lien>
@@ -43,7 +53,7 @@
             <Tag>local</Tag>
             <Ajout>2021-09-16</Ajout>
         </Video>
-        <Video Afficher="oui">
+        <Video Afficher="1oui">
             <Duree>9'11</Duree>
             <Lien>https://odysee.com/@SilvanoTrotta:f/Danger-:a</Lien>
             <Titre>Le Danger des Vaccins Covid !</Titre>
@@ -109,8 +119,7 @@
             <Ajout>2021-09-05</Ajout>
         </Video>
         <Video Afficher="oui">
-            <Duree>15'48</Duree>
-            <Lien>https://association-victimes-coronavirus-france.org/voici-ce-quil-se-passe-quand-un-vaccin-arn-therapie-genique-contre-le-covid-19-est-injecte-dans-un-corps-humain/</Lien>
+            <Duree>15'48</Duree>            <Lien>https://association-victimes-coronavirus-france.org/voici-ce-quil-se-passe-quand-un-vaccin-arn-therapie-genique-contre-le-covid-19-est-injecte-dans-un-corps-humain/</Lien>
             <Titre>Que se passe-t-il dans un corps humain qui reçoit un vaccin contre le covid</Titre>
             <Presentation>video très bien illustrée, claire et sourcée sur les mécanismes délétères du virus et des vaccins à ARNm ou à ADN dans le corps humain, exemplaire publié sur le site de l'association des victimes du coronavirus, source originale inconnue. À voir absoluement avant de donner (ou pas) un consentement vraiment éclairé !</Presentation>
             <Tag>documentaire</Tag>
@@ -146,12 +155,20 @@
         </Video>
         <Video Afficher="oui">
             <Duree>11'45</Duree>
-            <Lien>https://www.youtube.com/watch?v=3oGjaQ0Nelw</Lien>
+            <Lien>https://youtu.be/3oGjaQ0Nelw</Lien>
             <Titre>Bayonne Un collectif de Soignants entre en Scène</Titre>
             <Presentation>théâtre de rue pour mobiliser</Presentation>
             <Tag>satire</Tag>
             <Ajout>2021-10-04</Ajout>
         </Video>
+        <Video Afficher="oui">
+            <Duree>6'30</Duree>
+            <Lien>https://youtu.be/MPUtm6jQmPE</Lien>
+            <Titre>Conseils d'un Berger pour Tondre le Peuple</Titre>
+            <Presentation>une métaphore éclairante sur le confinement</Presentation>
+            <Tag>satire</Tag>
+            <Ajout>2020-04-12</Ajout>
+        </Video>        
         <Video Afficher="oui">
             <Duree>15'51</Duree>
             <Lien>https://www.youtube.com/watch?v=WNFE3QKBXHc</Lien>
@@ -211,7 +228,8 @@
             <Lien>https://crowdbunker.com/v/aIJpNp94uV</Lien>
             <Titre>Les mécanismes des régimes totalitaires</Titre>
             <Presentation>Entretien mené par Reiner Fuellmich et son équipe avec Mattias Desmet qui enseigne la psychologie clinique à l'université de Gand en Belgique et est spécialisé dans la formation de masse qui est typique des régimes totalitaires. Le mécanisme qu'il explique semble étrangement coller à notre époque.</Presentation>
-            <Tag>interview</Tag>
+            <Tag>totalitarisme</Tag>
+            <Tag>psychologie</Tag>
             <Ajout>2021-11-07</Ajout>
             <Publication>2021-07-29</Publication>
         </Video>
@@ -273,6 +291,100 @@
             <Ajout>2021-11-08</Ajout>
             <Publication>2021-10-29</Publication>
             <Langue>angais</Langue>
-        </Video>                
+        </Video>
+        <Video Afficher="oui">
+            <Duree>21'18</Duree>
+            <Lien>https://youtu.be/-UnQdgGM0RM</Lien>
+            <Titre>Louis Fouché dénonce une « guerre secrète menée contre les peuples »</Titre>
+            <Presentation>Entretien avec le médecin anesthésiste-réanimateur Louis Fouché à l'occasion de la sortie de son livre  <a href="https://www.librairie-agora.com/livre/9782813225955-tous-resistants-dans-l-ame-eclairons-le-monde-de-demain-louis-fouche-stephane-chatry-benoit-flamec/">Tous résistants dans l'âme: éclairons le monde de demain!</a>, paru aux éditions Tredaniel La Maisnie.</Presentation>
+            <Tag>témoignage</Tag>
+            <Ajout>2021-11-14</Ajout>
+            <Publication>2021-10-26</Publication>
+            <Langue>anglais</Langue>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>1h04'48</Duree>
+            <Lien>https://www.youtube.com/watch?v=wNYRatFQL4k</Lien>
+            <Titre>Idriss Aberkane: la doxa sanitaire est-elle en train de se crasher?</Titre>
+            <Presentation>Entretien entre Idriss Aberkane et Nicolas Vidal dans l'émission Putsch Live. L'entretien riche et argumenté aborde de nombreuses zones d'ombre de la politique sanitaire et remet les faits en perspective. Proposition pour la création d'une encyclopédie des mensonges des politiques et des medias.</Presentation>
+            <Tag>interview</Tag>
+            <Ajout>2021-11-16</Ajout>
+            <Publication>2021-11-15</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Quantite>6</Quantite>
+            <Lien>https://cgt-ghpp.fr/fr/actualites/cash-investigations-sur-la-sante-merci-elise-lucet</Lien>
+            <Titre>Cash investigations sur la santé - Merci Elise Lucet !</Titre>
+            <Presentation>Rétrospective des émissions TV Cash Investigation ayant trait à la marchandisation des soins de ces dernières décénnies. Retour en arrière.</Presentation>
+            <Tag>documentaire</Tag>
+            <Ajout>2021-11-17</Ajout>
+            <Publication>2021-09-24</Publication>            
+        </Video>
+        <Video Afficher="oui">
+            <Duree>50'02'</Duree>
+            <Lien>https://www.youtube.com/watch?v=waEglmyG6Io</Lien>
+            <Titre>Great Reset : le "monde d'après" est un cauchemar - Politique &amp; Eco n°320 avec Marc-Gabriel Draghi</Titre>
+            <Presentation>Le juriste et auteur Marc-Gabriel Draghi dévoile son point de vue sur la domestication des masses et la soviétisation de l'économie en cours au profit d'une élite invisible. Il expose à quoi l'opération "<i>vous ne posséderez plus rien</i>" du gourou de Davos pourrait ressembler en ce qui concerne la propriété privée : par augmentation massive de la taxe foncière suite à la faillite des états, les propriétaires de maison ou d'appartement pourraient être poussés à devoir vendre leur bien (voir aussi dans notre dossier <a href="biblio.html#prospective">prospective</a> l'article sur la résorption des dettes publiques en zone euro).</Presentation>
+            <Tag>économie</Tag>
+            <Ajout>2021-11-21</Ajout>
+            <Publication>2021-11-15</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>1h22'47</Duree>
+            <Lien>https://www.youtube.com/watch?v=4YrRyArfcBk</Lien>
+            <Titre>Conférence de Philippe Bobola &amp; Jean-Dominique Michel sur la crise sanitaire</Titre>
+            <Presentation>Quand l'anthropologie sauve l'honneur de la Science! Débat passionnant entre deux chercheurs et intellectuels qui donnent des clefs de compréhension et des moyens de rester intègres fasse au déferlement de bêtise lié à la gestion de la crise.</Presentation>
+            <Tag>interview</Tag>
+            <Ajout>2021-11-21</Ajout>
+            <Publication>2021-11-15</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>22'54</Duree>
+            <Lien>https://www.francesoir.fr/videos-le-defi-de-la-verite/pr-luc-montagnier-vaccination-prions</Lien>
+            <Titre>Pr Luc Montagnier : des cas de Creutzfeldt-Jakob liés au vaccin contre le Covid ?</Titre>
+            <Presentation>Invité du défi de la vérité, le professeur appelle à cesser le vaccin après la détection formelle de cinq cas de maladies à prions chez des personnes jeunes et en bonne santé, quelques semaines après avoir reçu des injections Pfizer. Il conseille également d'utiliser le vaccin BCG.</Presentation>
+            <Tag>interview</Tag>
+            <Tag>medecine</Tag>
+            <Ajout>2021-11-21</Ajout>
+            <Publication>2021-11-19</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>27'12</Duree>
+            <Lien>https://www.youtube.com/watch?v=ICOLz6QRGcI</Lien>
+            <Titre>Capitaine Alexandre Juving-Brunet | Conférence de presse</Titre>
+            <Presentation>Appel à relancer la politique à travers des comités populaires pour opposer un contre-pouvoir aux politiciens et suivre la mise en oeuvre de leurs promesses par les élus. Le capitaine Juving-Brunet est un chef d'entreprise touché par la crise et qui a décidé de lancer un mouvement.</Presentation>
+            <Tag>politique</Tag>
+            <Ajout>2021-11-21</Ajout>
+            <Publication>2021-11-18</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>1h20'12</Duree>
+            <Lien>https://www.youtube.com/watch?v=9JU3OwX-4xU</Lien>
+            <Titre>Covid-19, la fin de l’Etat de droit ?</Titre>
+            <Presentation>Michael Esfeld, professeur de philosophie des sciences à l'université de Lausanne, donne son avis sur les mesures gouvernementales prises en Suisse et ailleurs. Une mise en perspective historique.</Presentation>
+            <Tag>interview</Tag>
+            <Ajout>2021-11-25</Ajout>
+            <Publication>2021-11-14</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>38'32</Duree>
+            <Lien>https://rumble.com/vpma0v-the-path-out-of-trauma-enfr-reiner-fuellmich-ariane-bilheran.html</Lien>
+            <Titre>Le chemin pour sortir du traumatisme</Titre>
+            <Presentation>Echange entre l'avocat international Reiner Fuellmich and Ariane Bilheran Dr en Psychopathologie pour comprendre la manière dont se met en place le totalitarisme. En anglais (sous-titré) et en Français. Ariane Bilheran définit la psychose paranoiaque de type hypochondriaque délirante qui a contaminé la société.</Presentation>
+            <Tag>totalitarisme</Tag>
+            <Tag>psychologie</Tag>
+            <Ajout>2021-11-25</Ajout>
+            <Publication>2021-11-22</Publication>
+        </Video>
+        <Video Afficher="oui">
+            <Duree>1h07'53</Duree>
+            <Lien>https://www.youtube.com/watch?v=Hefv35YfaBU&t=2s</Lien>
+            <Titre>L'entretien interdit de Louis Fouché interrogé par Planete 360</Titre>
+            <Presentation>Des explications claires et argumentées de Louis Fouché en réponse à des questions précises sur la Covid, le confinement, le pass sanitaire, le vaccin, l'origine du virus, etc, en forme de bilan. Il donne une vision paisible de ce que pourrait être la politique santé dans notre société.</Presentation>
+            <Tag>interview</Tag>
+            <Tag>medecine</Tag>
+            <Ajout>2021-11-26</Ajout>
+            <Publication>2021-11-17</Publication>
+        </Video>
     </Videos>
 </Ressources>

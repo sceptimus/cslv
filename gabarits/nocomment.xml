@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {{
           </div>
 
           <div class="block border">
+            <p class="nocomment"><span class="origin"><a href="https://t.me/LeGrandReveil">Le Grand Reveil (telegram)</a></span><br/><img src="nocomment/nocomment18.jpg" width="600px"/></p>
             <p class="nocomment"><span class="origin">par le dessinateur australien <a href="https://yetiblog.org/archives/33998">Michael Leuning</a></span><br/><img src="nocomment/nocomment17.jpg" style="margin-top:5px"/></p>
             <p class="nocomment"><a href="visuels/flyer-vaccin-12-17.jpeg"><img src="visuels/flyer-vaccin-12-17.jpeg" width="550px"/></a></p>            
             <p class="nocomment"><span class="origin">Campagne ARS à l'ICES de La Roche Sur Yon (oct. 2021)<br/>

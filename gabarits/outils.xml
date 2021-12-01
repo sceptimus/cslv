@@ -33,6 +33,30 @@ document.addEventListener('DOMContentLoaded', function () {{
           </div>
 
           <div class="block border">
+            <h3 id="10">Situation n° 10: aider la recherche sur les soins précoces</h3>
+            <p></p>
+            <p><span class="outil">Outil</span> participer à un essai clinique</p>
+            <p>L'étude <a href="http://hydrocovid.imag.fr">HydroCovid</a> recrute des patients symptomatiques volontaires pour valider un traitement précoce contre les complications du Sars Cov 2 <a href="https://www.cadoc.fr/cslv85/archives/2021/02/HYDROCOVID-AFF-A4-18-W.pdf"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a>.</p>
+            <p>L'équipe de chercheurs (Université Grenoble Alpes / CHU de Grenoble, <a href="https://www-timc.imag.fr/">Laboratoire TIMC</a>, CNRS, <a href="https://www.agiradom.com/">Agir à Dom</a>), lance aussi un <a href="https://www.cadoc.fr/cslv85/archives/2021/02/HYDROCOVID-appel-aux-dons.pdf">appel aux dons</a> <a href="https://www.cadoc.fr/cslv85/archives/2021/02/HYDROCOVID-appel-aux-dons.pdf"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> pour finaliser le volet international de l'étude qui nécessite de recruter des patients hors de France.</p>
+            <p>L'étude à pris du retard et nous relayons cet appel parce que :</p>
+            <ul>
+              <li>cette recherche a rencontré des difficultés avec l'ANSM qui pour une raison incompréhensible (et un prétexte ahurissant) a bloqué l'étude plus de 2 mois entre mars et avril obligeant à tout reprendre enfin en Mai et perdre ainsi un temps précieux alors même que tout était parfaitement en ordre sur le plan réglementaire et scientifique;</li>
+              <li>malgré les discours alarmistes sur le nombre de patients Covid il n'est pas si facile de trouver sur 4 départements français 600 patients symptomatiques qui répondent aux critères de l'étude et qui soient volontaires pour participer à cette recherche (il s'agit d'avaler un comprimé matin et soir pendant 21 j). Le recrutement en France est également rendu compliqué par le diagnostic centré sur les tests PCR souvent sans lien avec le médecin traitant (or pour inclure dans une recherche on ne peut pas se passer règlementairement d'un médecin).</li>
+            </ul>
+          </div>
+          
+          <div class="block border">
+            <h3 id="9">Situation n° 9: informer parents, éducateurs, adolescents sur la vaccination</h3>
+            <p></p>
+            <p><span class="outil">Outil</span> affichettes de prévention à envoyer et/ou imprimer (cliquez sur une image pour obtenir la version pleine page)</p>
+            <p>
+              <span style="float:left; margin: 20px"><a href="https://www.cadoc.fr/cslv85/archives/2021/affichettes/injection-ado-et-jeune.pdf"><img src="https://www.cadoc.fr/cslv85/archives/2021/affichettes/injection-ado-et-jeune.jpg" width="200px"/></a></span>
+              <span style="float:left; margin: 20px"><a href="https://www.cadoc.fr/cslv85/archives/2021/affichettes/sensibilisation-ado.pdf"><img src="https://www.cadoc.fr/cslv85/archives/2021/affichettes/sensibilisation-ado.jpg" width="200px"/></a></span>        
+              <span style="float:left; margin: 20px"><a href="https://injectionc19.substack.com/p/injection-des-enfants"><img src="https://www.cadoc.fr/cslv85/archives/2021/affichettes/vacccin-enfants-risques.jpg" width="200px"/></a></span>              
+            </p>
+          </div>
+          
+          <div class="block border">
             <h3 id="8">Situation n° 8: déclarer des effets indésirables suite à la vaccination</h3>
             <p>Le CTIAP (Centre Territorial d'Information Indépendante et d'Avis Pharmaceutiques du Centre Hospitalier de Cholet) a reçu une demande émanant de professionnels de santé dont des médecins, de juristes, de citoyens. Cette demande souhaite la mise en place d’une étude dans la région des Pays-de-la-Loire (départements 44, 49, 53, 72, 85) dont l’objectif vise à « avoir un aperçu des effets potentiels indésirables au décours de la vaccination contre la Covid-19, d’avoir aussi une idée des pathologies émergentes » notamment. Cette étude concerne « toutes les personnes de la région des Pays de Loire qui ont eu des effets indésirables plus ou moins marqués voire graves, suite aux vaccins contre la Covid-19 ». Cette demande précise : « En outre, nous observons un certain nombre de personnes qui décompensent une ou plusieurs de leurs maladies qu’ils ont eues ou en état dit « peu bruyant » au décours de la vaccination Covid-19. Cela pourrait être éventuellement des effets indésirables à considérer. C’est en signalant le maximum de ces situations que nous aurons (…) des réponses à cette hypothèse ».</p>
             <p><span class="outil">Outil</span> remplissez une déclaration à l'aide d'une <a href="http://ctiapchcholet.blogspot.com/2021/11/vaccins-contre-la-covid-19-lancement.html">fiche simplifiée et anonyme auprès du CTIAP de Cholet</a></p>
@@ -102,7 +126,11 @@ document.addEventListener('DOMContentLoaded', function () {{
               <li>parents avec enfants ayant des contre-indications à la vaccination</li>
               <li>parents dont l’enfant subit des pressions administratives, de la discrimination ou une mise en danger qui semblent condamnables parents ne souhaitant pas que leur enfant de 16-18 ans reçoive le vaccin covid</li>
             </ul>
-            <p><span class="outil">Outil</span> se porter requérant sur un des recours déposés par le collectif <a href="https://enfance-libertes.fr/action-juridique-el-inscriptions/">Enfance &amp; Libertés</a></p>
+            <p><span class="outil">Outils</span></p>
+            <ul>
+              <li>se porter requérant sur un des recours déposés par le collectif <a href="https://enfance-libertes.fr/action-juridique-el-inscriptions/">Enfance &amp; Libertés</a></li>
+              <li>prendre part à une < a href="https://docs.google.com/forms/d/e/1FAIpQLSdksBvYbCqNmzBCm_eZ4DvnKO-YLCIiBaD9vNor0lcVxbcf4g/viewform">action juridique</a> visant la prise en considération de l’impact de la mesure du port du masque pour les enfants en élémentaire.</li>
+            </ul>
           </div>
           
           <div class="block border">
