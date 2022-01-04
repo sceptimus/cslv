@@ -4,6 +4,9 @@
         <meta name="description" content="Comité Santé Liberté Vendée 85"/>
         <title>Comité Santé Liberté Vendée 85</title>
         <link href="index.css" rel="stylesheet" type="text/css"/>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js">//</script>
+        <script src="json/videos.js" type="text/javascript">//</script>
+        <script src="json/biblio.js" type="text/javascript">//</script>
         <script src="site.js" type="text/javascript">//</script>
         <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {
@@ -34,10 +37,6 @@
     n = document.getElementById('mailS');
     n.href = mto + 'Contact' + base + mS;
     n.textContent = 'Contact' + base + mS;
-    n = document.getElementById('conseil');
-    m1 = "conseil" + base + "comitesantelibertevendee.fr";
-    n.href = mto + m1;
-    n.textContent = m1;
   });
 </script>
     </head>
@@ -50,7 +49,12 @@
                     </div>
                     <div class="rubrique top">
                         <p>
-                            <a href="manifeste.html">Manifeste</a>
+                            <a href="actions.html">Actions</a>
+                        </p>
+                    </div>
+                    <div class="rubrique top">
+                        <p>
+                            <a href="evenements.html">Agenda</a>
                         </p>
                     </div>
                     <div class="rubrique top">
@@ -60,7 +64,7 @@
                     </div>
                     <div class="rubrique top">
                         <p>
-                            <a href="sfp-rentree-2021.html">Blog</a>
+                            <a href="theta.html">Blog</a>
                         </p>
                     </div>
                     <div class="rubrique top">
@@ -78,7 +82,7 @@
                     </div>
                     <div class="off rubrique rsce sub">
                         <p>
-                            <a href="evenements.html">Agenda</a>
+                            <a href="manifeste.html">Manifeste</a>
                         </p>
                     </div>
                     <div class="off rubrique rsce sub">
@@ -102,26 +106,25 @@
                 <div id="cri" class="border">
                     <h3 class="caps">Nouveautés</h3>
                     <ul id="nouveau">
+                        <li>Nouveau <span>Conte</span> dans la section blog :  <a href="theta.html">Le variant Théta</a>, ajouté le 03 janvier 2022</li>
+                        <li>
+                            <span>Nouvel Outil</span> disponible dans la <a href="outils.html#12">boite à outils</a> : attestation sur l'honneur d'autotest, ajouté le 14 décembre 2021</li>
+                        <li>Ne manquez pas <span>Marianne macrolysée par les QRCodes</span> dans notre rubrique <a href="nocomment.html#Marianne">Montages</a>,  ajouté le 7 décembre 2021</li>
+                        <li>
+                            <span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#democratie">Où en est la démocratie ?</a>,  ajouté le 1er décembre 2021</li>
                         <li>
                             <span>Nouvel Article</span> dans la section blog :  <a href="sfp-rentree-2021.html">SARS CoV2 est l'un des virus endémiques les moins pathogènes qui touche les enfants</a>, ajouté le 21 novembre 2021</li>
                         <li>
-                            <span>Nouvel Outil</span> disponible dans notre <a href="outils.html#10">boite à outils</a> : participer à un essai clinique pour valider un traitement précoce contre les complications du Sars Cov 2, ajouté le 19 novembre 2021</li>
+                            <span>Nouvel Outil</span> disponible dans la <a href="outils.html#10">boite à outils</a> : participer à un essai clinique pour valider un traitement précoce contre les complications du Sars Cov 2, ajouté le 19 novembre 2021</li>
                         <li>extrait du <a href="atih-2020.html">rapport de l'ATIH</a> où l'on apprend le nombre d'hospitalisations pour Covid en 2020 par rapport au nombre total d'hospitalisations en France en 2020,  ajouté le 18 novembre 2021</li>
                         <li>
                             <span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#securité">Sécurité des vaccins</a>,  ajouté le 17 novembre 2021</li>
                         <li>
-                            <span>Nouvel Outil</span> disponible dans notre <a href="outils.html#9">boite à outils</a> : affichettes d'information pour parents, éducateurs et adolescents, ajouté le 16 novembre 2021</li>
-                        <li>
-                            <a href="videos.html#interview">entretien essentiel</a> entre <b>Idriss Aberkane</b> et <b>Nicolas Vidal</b> dans l'émission Putsch Live, où ils reviennent sur les annonces de la semaine dernière (rapport de l’ATIH, Pfizergate, etc.), ajouté le 16 novembre 2021</li>
-                        <li>
-                            <span>Nouvelle section</span> sur les <a href="biblio.html#victimes">effets secondaires</a> dans notre bibliothèque, ajouté le 14 novembre 2021</li>
-                        <li>trois nouvelles <a href="biblio.html#lettres">lettres</a> dans la section Lecture, ajoutées le 9 novembre 2021</li>
+                            <span>Nouvel Outil</span> disponible dans notre <a href="outils.html#9">boite à outils</a> : affichettes d'information pour parents, éducateurs et adolescents, ajouté le 16 novembre 2021</li><!-- <li><a href="videos.html#interview">entretien essentiel</a> entre <b>Idriss Aberkane</b> et <b>Nicolas Vidal</b> dans l'émission Putsch Live, où ils reviennent sur les annonces de la semaine dernière (rapport de l’ATIH, Pfizergate, etc.), ajouté le 16 novembre 2021</li> --><!-- <li><span>Nouvelle section</span> sur les <a href="biblio.html#victimes">effets secondaires</a> dans notre bibliothèque, ajouté le 14 novembre 2021</li> --><!-- <li>trois nouvelles <a href="biblio.html#lettres">lettres</a> dans la section Lecture, ajoutées le 9 novembre 2021</li> -->
                         <li>
                             <a href="videos.html#medecine">vidéo</a> très intéressante du <b>Dr Peter McCullough</b> devant l'association américaine des praticiens hospitaliers, ajouté le 8 novembre 2021</li>
                         <li>
-                            <span>Nouvel Outil</span> disponible dans notre <a href="outils.html#8">boite à outils</a> : déclarer des effets indésirables suite à la vaccination (étude lancée par le CTIAP du Centre Hospitalier de Cholet), ajouté le 6 novembre 2021</li><!-- <li>nouvelle <a href="videos.html#politique">vidéo</a> du député <b>Joachim Son-Forget</b>, ajouté le 4 novembre 2021</li> -->
-                        <li>
-                            <span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 2021</li><!-- TODO: voir plus --><!-- <li>nouvelle lettre <b>aux évêques de France</b> dans la section <i>Lettres Ouvertes</i> de notre <a href="biblio.html">bibliothèque</a>, ajouté le 1er novembre 2021</li> --><!-- <li><a href="docs/lettre-ouverte-professeur-balique.pdf">Lettre ouverte du Professeur Balique aux parlementaires</a> qui présente une synthèse claire sur les risques et les échecs de la stratégie toute vaccinale (republiée en version PDF depuis <a href="https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/">ce blog</a>),  ajoutée le 11 octobre 2021</li> -->
+                            <span>Nouvel Outil</span> disponible dans notre <a href="outils.html#8">boite à outils</a> : déclarer des effets indésirables suite à la vaccination (étude lancée par le CTIAP du Centre Hospitalier de Cholet), ajouté le 6 novembre 2021</li><!-- <li>nouvelle <a href="videos.html#politique">vidéo</a> du député <b>Joachim Son-Forget</b>, ajouté le 4 novembre 2021</li> --><!-- <li><span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 2021</li> --><!-- TODO: voir plus --><!-- <li>nouvelle lettre <b>aux évêques de France</b> dans la section <i>Lettres Ouvertes</i> de notre <a href="biblio.html">bibliothèque</a>, ajouté le 1er novembre 2021</li> --><!-- <li><a href="docs/lettre-ouverte-professeur-balique.pdf">Lettre ouverte du Professeur Balique aux parlementaires</a> qui présente une synthèse claire sur les risques et les échecs de la stratégie toute vaccinale (republiée en version PDF depuis <a href="https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/">ce blog</a>),  ajoutée le 11 octobre 2021</li> -->
                         <li>
                             <a href="docs/lettre_ouverte_soignants_challans.pdf">Lettre ouverte de soignants de Challans</a> ajoutée le 7 octobre 2021</li>
                     </ul>
@@ -140,51 +143,147 @@
                     </p>
                 </div>
             </div>
-            <div id="charte" class="border">
-                <h3 class="caps">Comité Santé Liberté Vendée 85</h3>
-                <p>Comité de citoyens opposés à l’extension du pass sanitaire et aux nouvelles restrictions de libertés :</p>
-                <p class="caps">
-                    <b>COMPRENDRE - DÉBATTRE - RÉSISTER</b>
-                </p>
-                <p>Nous demandons la VÉRITÉ. Nous revendiquons notre LIBERTÉ. Nous assumons notre RESPONSABILITÉ</p>
-                <p class="caps">
-                    <b>NOS VALEURS</b>
-                </p>
-                <p>Non-violence (verbale et physique), Esprit de dialogue, Respect de la différence, Solidarité et Collaboration</p>
-                <p class="caps">
-                    <b>NOS OBJECTIFS</b>
-                </p>
-                <ul>
-                    <li>Défendre et restaurer nos libertés</li>
-                    <li>Éveiller les consciences</li>
-                    <li>Reprendre le contrôle de notre santé</li>
-                    <li>Anticiper un monde nouveau</li>
-                    <li>Unir nos forces</li>
-                    <li>Reprendre le contrôle de nos vies</li>
-                    <li>Protéger les plus faibles</li>
-                    <li>Agir pour le bien commun</li>
-                </ul>
-            </div>
-            <div id="avis" class="border">
-                <h3 class="caps">Avis Parents Masques Ecoles</h3>
-                <p>Action juridique dans les pays de la loire, vous pouvez vous y joindre à l'aide de ce <a href="https://docs.google.com/forms/d/e/1FAIpQLSdksBvYbCqNmzBCm_eZ4DvnKO-YLCIiBaD9vNor0lcVxbcf4g/viewform">formulaire</a>
-                </p>
-            </div>
-            <div id="presse">
-                <div class="border" style="margin-bottom:20px">
-                    <h3 class="caps">Vidéo du Moment</h3>
-                    <p>
-                        <center>
-                            <a href="https://www.youtube.com/watch?v=aLKa-Qvsp5E">Laurent Toubiana répond à nos questions</a>
-                        </center>
+            <div id="charte" style="width:100%">
+                <div class="border">
+                    <h3 class="caps">Comité Santé Liberté Vendée 85</h3>
+                    <p>Comité de citoyens opposés à l’extension du pass sanitaire et aux nouvelles restrictions de libertés :</p>
+                    <p class="caps">
+                        <b>COMPRENDRE - DÉBATTRE - RÉSISTER</b>
                     </p>
-                    <p>En 25 minutes l'épidémiologiste qui n'avait pas parlé depuis plusieurs mois revient sur les chiffres de l'épidémie qui ont servi de prétexte à l'état d'urgence sanitaire et à sa prolongation. Vous pouvez aussi lire sa <a href="https://www.francesoir.fr/opinions-tribunes/laurent-toubiana-la-cinquieme-vague-nouvel-episode-dun-feuilleton-qui-na-que-trop">Tribune</a>.</p>
+                    <p>Nous demandons la VÉRITÉ. Nous revendiquons notre LIBERTÉ. Nous assumons notre RESPONSABILITÉ</p>
+                    <p class="caps">
+                        <b>NOS VALEURS</b>
+                    </p>
+                    <p>Non-violence (verbale et physique), Esprit de dialogue, Respect de la différence, Solidarité et Collaboration</p>
+                    <p class="caps">
+                        <b>NOS OBJECTIFS</b>
+                    </p>
+                    <ul>
+                        <li>Défendre et restaurer nos libertés</li>
+                        <li>Éveiller les consciences</li>
+                        <li>Reprendre le contrôle de notre santé</li>
+                        <li>Anticiper un monde nouveau</li>
+                        <li>Unir nos forces</li>
+                        <li>Reprendre le contrôle de nos vies</li>
+                        <li>Protéger les plus faibles</li>
+                        <li>Agir pour le bien commun</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="avis">
+                <div class="border" style="margin-bottom:20px">
+                    <h3 class="caps">Actions en Cours</h3>
+                    <div class="info">
+                        <p>Participez à l'<a href="actions.html#llmp">action d'information aux professionnels de la santé, élus et responsables de la sécurité des citoyens</a> basée sur la publication du 1.12.2021 <a href="https://stopcovid19.today/wp-content/uploads/2021/12/llmp-informations_covid19-Fr-2021-12-01.pdf">
+                                <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
+                            </a> du collectif « Laissons Les Médecins Prescrire » - LLMP.
+            </p>
+                    </div>
+                    <div class="info">
+                        <p>Participez à la <a href="actions.html#sommation-interpellative-pdl-21">Sommation interpellative envers le recteur de la région académique des Pays de la Loire</a>.</p>
+                    </div>
+                    <div class="info">
+                        <p>Participez à un <a href="https://mamanslouves.com">sondage des Mamans Louves</a>
+                            <a href="https://www.cadoc.fr/cslv85/archives/2021/affichettes/sondage-mamans-louves.pdf">
+                                <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
+                            </a> pour aider à protéger les enfants en alertant les autorités.
+             </p>
+                    </div>
+                    <div class="info">
+                        <p>Participez à des <a href="actions.html#les-essentiels">témoignages photo</a> en soutien au personnel soignant ainsi qu'à toutes les personnes pénalisées par le pass sanitaire.</p>
+                    </div>
+                </div>
+                <div class="border" style="margin-bottom:20px">
+                    <h3 class="caps">Dernière minute - En rapport avec l'allocution de Castex du 17 décembre</h3>
+                    <p>« On aurait tort de penser que la transformation, annoncée par Castex, de passe sanitaire en passe-vaccinal, est une déclaration de guerre contre les seuls non-vaccinés. Ils ne pourront plus payer un test de confort ou de nécessité, pour obtenir un passe pour un événement obligatoire ou qui leur tient à coeur. Mais il condamne les gens vaccinés, qui se croient souvent des citoyens modèles, à accepter, les unes derrière les autres, <b>toutes les doses à venir</b>, quel qu’en soit le nombre, quels qu’en soient les effets sur leur corps, sur leur santé. Castex a induit hier soir une dimension digne de l’un des pires romans de sciences fiction, balayant d’un coup, état de droit, libertés individuelles, choix de destin. Il a privé les gens de soins, de travail, de loisirs, sauf à accepter de rentrer dans une matrice comprenant une piqûre d’on ne sait quoi, mais qui sera obligatoire, tous les trois ou quatre mois, pour garder le droit de vivre socialement et même, de vivre tout court, à moins que les injections à répétition ne viennent finalement à bout de vous. Peu de gens semblent prendre conscience de l’extrême gravité de ce qui nous arrive, il est temps de commencer à comprendre, tous ensemble, que tout <b>cela va beaucoup plus loin que la simple question sanitaire</b>. »</p>
+                    <p style="text-align:right;font-style:italic">Auteur Inconnu</p>
+                </div>
+                <div class="border" style="margin-bottom:20px">
+                    <h3 class="caps">Décoration du Sapin de Noël place Napoléon du 18 décembre</h3>
+                    <p>Présentation d'une action menée le 18 décembre place Napoléon pour faire connaître 31 scientifiques internationaux censurés qui alertent sur la politique sanitaire et les choix exclusifs des autorités. Retrouvez les présentations de ces scientifiques sur le site <a href="https://www.citoyens-informes.fr">citoyens informés</a>.</p>
+                    <div style="text-align:center">
+                        <video src="https://www.cadoc.fr/cslv85/archives/2021/videos/sapin-napoleon-18-12-21.mp4" height="480" poster="https://www.cadoc.fr/cslv85/archives/2021/videos/sapin-poster.jpg" controls="1">
+              Cette vidéo ne peut être affichée sur votre navigateur Internet.<br/>
+              Une version est disponible en téléchargement sous <a href="https://www.cadoc.fr/cslv85/archives/2021/videos/sapin-napoleon-18-12-21.mp4">adresse du lien </a>. 
+            </video>
+                    </div>
+                </div>
+            </div>
+            <div id="presse"><!-- Video Jukebox Widget -->
+                <div class="border" style="margin-bottom:20px" id="vtop">
+                    <div style="clear:both;min-height:64px">
+                        <button class="vtopaction joli des" style="float:right">
+                            <img src="img/des.png" width="30"/>
+                        </button>
+                        <h3 class="caps">
+                            <button class="vtopavant joli" style="font-size:1em">◀</button> Vidéos (<span class="vtopcur">1</span> / <span class="vtopmax">MAX</span>) <button class="vtopapres joli" style="font-size:1em">►</button>
+                        </h3>
+                    </div>
+                    <div class="vtophoro" style="clear:both">
+                        <div style="float:left;margin: 10px">Ajouté le <span class="vtopajout horloge">-</span>
+                        </div>
+                        <div style="float:left;margin: 10px">Publié le <span class="vtoppub horloge">-</span>
+                        </div>
+                        <div style="float:left;margin: 10px">Durée <span class="vtopduree horloge">-</span>
+                        </div>
+                        <span class="vtoptag" style="float:right;"/>
+                    </div>
+                    <div class="vtopanim">
+                        <p style="clear:both; padding:20px 0 0; font-size:1.25em">
+                            <a class="vtopurl" href="https://www.youtube.com/watch?v=aLKa-Qvsp5E">Laurent Toubiana répond à nos questions</a>
+                        </p>
+                        <div class="vtoppres">
+                            <p>En 25 minutes l'épidémiologiste qui n'avait pas parlé depuis plusieurs mois revient sur les chiffres de l'épidémie qui ont servi de prétexte à l'état d'urgence sanitaire et à sa prolongation. Vous pouvez aussi lire sa <a href="https://www.francesoir.fr/opinions-tribunes/laurent-toubiana-la-cinquieme-vague-nouvel-episode-dun-feuilleton-qui-na-que-trop">Tribune</a>.</p>
+                        </div>
+                    </div>
+                    <p style="text-align:right;font-size:0.8em;color: #aaa">Toutes <a href="videos.html">les vidéos</a> classées par dossiers</p>
+                </div><!-- Video Jukebox Widget -->
+                <div class="border" style="margin-bottom:20px" id="atop">
+                    <div style="clear:both;min-height:64px">
+                        <button class="vtopaction joli des" style="float:right">
+                            <img src="img/des.png" width="30"/>
+                        </button>
+                        <h3 class="caps">
+                            <button class="vtopavant joli" style="font-size:1em">◀</button> Articles (<span class="vtopcur">1</span> / <span class="vtopmax">MAX</span>) <button class="vtopapres joli" style="font-size:1em">►</button>
+                        </h3>
+                    </div>
+                    <div class="vtophoro" style="clear:both">
+                        <div style="float:left;margin: 10px">Ajouté le <span class="vtopajout horloge">-</span>
+                        </div>
+                        <div style="float:left;margin: 10px">Publié le <span class="vtoppub horloge">-</span>
+                        </div>
+                        <div style="float:left;margin: 10px">Durée <span class="vtopduree horloge">-</span>
+                        </div>
+                        <span class="vtoptag" style="float:right;"/>
+                    </div>
+                    <div class="vtopanim">
+                        <p style="clear:both; padding:20px 0 0; font-size:1.25em">
+                            <a class="vtopurl" href="https://www.youtube.com/watch?v=aLKa-Qvsp5E">Laurent Toubiana répond à nos questions</a>
+                            <span>
+                                <a class="vtoPDF" href="xxx">
+                                    <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
+                                </a>
+                            </span>
+                        </p>
+                        <div class="vtoppres">
+                            <p>En 25 minutes l'épidémiologiste qui n'avait pas parlé depuis plusieurs mois revient sur les chiffres de l'épidémie qui ont servi de prétexte à l'état d'urgence sanitaire et à sa prolongation. Vous pouvez aussi lire sa <a href="https://www.francesoir.fr/opinions-tribunes/laurent-toubiana-la-cinquieme-vague-nouvel-episode-dun-feuilleton-qui-na-que-trop">Tribune</a>.</p>
+                        </div>
+                    </div>
+                    <p style="text-align:right;font-size:0.8em;color: #aaa">Tous <a href="biblio.html">les articles</a> classées par dossiers</p>
                 </div>
                 <div class="border">
                     <h3 class="caps">Revue de presse</h3>
-                    <p>Y a-t-il une augmentation du nombre d'accidents cardio-vasculaires dans notre région ou alentours ? Doit-on risquer de mourir ou s'infliger de graves blessures pour un <i>pass sanitaire</i> ou pour conserver son travail ? C'est une question légitime à la lecture de la presse quotidienne <button id="activerPresse" onclick="javascript:basculerPresse()" style="margin-left:10px">Montrer</button>.</p>
+                    <p style="float:left; margin-right: 15px">
+                        <a href="nocomment/noel-masque-lrsy.jpg">
+                            <img src="nocomment/noel-masque-lrsy.jpg" width="200px" alt="La Roche Sur Yon en pointe"/>
+                        </a>
+                    </p>
+                    <p>Y a-t-il une augmentation du nombre d'accidents cardio-vasculaires dans notre région ou alentours ? Doit-on risquer de mourir ou s'infliger de graves blessures pour un <i>passe sanitaire</i> ou pour conserver son travail ? C'est une question légitime à la lecture de la presse quotidienne. Quand par ailleurs <b>Delfraissy</b> grand inquisiteur en chef du comité <i>scientifique</i> reconnait lui-même que <a href="https://odysee.com/@Stefano:9/Delfraissy-audition-Senat-decembre-2021:a">
+                            <b>le passe ne protège pas</b>
+                        </a>, le 8 décembre face à la Commission des Affaires sociales du Sénat, où est la légitimité pour des maires de restreindre l'accès à des installations publiques, comme ici à la Roche Sur Yon ? <button id="activerPresse" onclick="javascript:basculerPresse()" class="joli petit">Montrer</button>
+                    </p>
                     <p>NB: voir aussi cette liste limitée aux <a href="https://www.cadoc.fr/cslv85/archives/2021/02/Liste-sportifs-PROS-ET-AMATEURS.pdf">sportifs amateurs et professionnels <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
-                        </a> (version du 29/11, 360 cas) ou bien ce flux twitter <a href="https://twitter.com/debarjac1">sur les crises cardiaques chez les footballeur</a>.</p>
+                        </a> (version du 22/12, 623 lignes) ou bien ce flux twitter <a href="https://twitter.com/debarjac1">sur les crises cardiaques chez les footballeur</a>.</p>
                     <div id="contenuPresse" class="cache">
                         <html xmlns="http://www.w3.org/1999/xhtml" xmlns:site="http://oppidoc.com/oppidum/site">
                             <head>
@@ -223,6 +322,56 @@
                                         <th>Titre de l'article de presse</th>
                                         <th>Ville</th>
                                         <th>Age</th>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>31/12/2021</td>
+                                        <td>
+                                            <a href="https://actu17.fr/nantes-un-policier-decede-dun-malaise-cardiaque-durant-son-service/">Un policier décède d’un malaise cardiaque durant son service</a>
+                                        </td>
+                                        <td>Nantes (44)</td>
+                                        <td>? ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>29/12/2021</td>
+                                        <td>
+                                            <a href="https://www.ouest-france.fr/sport/handball/angers-sco/handball-ancien-capitaine-d-angers-sco-gillen-lusson-est-decede-aa969f88-6692-11ec-a7af-efdf3001c265">Handball. Ancien capitaine d’Angers Sco, Gillen Lusson est décédé</a>
+                                        </td>
+                                        <td>Saint-Gemmes-sur-Loire (49)</td>
+                                        <td>26 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>abandon</td>
+                                        <td>21/12/2021</td>
+                                        <td>
+                                            <a href="https://www.lequipe.fr/Rugby/Actualites/En-raison-d-un-probleme-cardiaque-kevin-gourdon-arrete-sa-carriere/1306488">En raison d'un problème cardiaque, Kévin Gourdon (La Rochelle) arrête sa carrière</a>
+                                        </td>
+                                        <td>La Rochelle (17)</td>
+                                        <td>31 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>14/12/2021</td>
+                                        <td>
+                                            <a href="https://www.sudouest.fr/charente-maritime/la-rochelle/la-rochelle-malaise-fatal-en-pleine-rue-pour-une-jeune-femme-7349583.php">La Rochelle : malaise fatal en pleine rue pour une jeune femme</a>
+                                        </td>
+                                        <td>La Rochelle (17)</td>
+                                        <td>22 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>hospitalisation</td>
+                                        <td>12/12/2021</td>
+                                        <td>
+                                            <a href="http://ctiapchcholet.blogspot.com/2021/12/alerte-pharmacovigilance-un-enfant.html">Un enfant devenu « presque aveugle » après l’administration d’un vaccin contre la Covid-19</a>
+                                        </td>
+                                        <td>CTIAP Cholet (49)</td>
+                                        <td>&lt; 18 ans
+  </td>
                                     </tr>
                                     <tr>
                                         <td>hospitalisation</td>
@@ -272,6 +421,26 @@
                                         </td>
                                         <td>Parcé-sur-Sarthe (72)</td>
                                         <td>50 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>malaise</td>
+                                        <td>14/11/2021</td>
+                                        <td>
+                                            <a href="https://www.ouest-france.fr/pays-de-la-loire/en-mayenne-le-joueur-fait-deux-arrets-cardiaques-a-l-issue-du-match-de-foot-137cf0bc-457b-11ec-8acd-08271a51a470">Malaise d’un footballeur en Mayenne. Des « pauses respiratoires » et pas de problème cardiaque</a>
+                                        </td>
+                                        <td>Renazé (53)</td>
+                                        <td>17 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>31/10/2021</td>
+                                        <td>
+                                            <a href="https://actu.fr/pays-de-la-loire/barbatre_85011/vendee-une-jeune-femme-retrouvee-morte-sur-une-plage-de-barbatre_37167003.html">Vendée : une jeune femme retrouvée morte sur une plage de Barbâtre</a>
+                                        </td>
+                                        <td>Barbâtre (85)</td>
+                                        <td>23 ans
   </td>
                                     </tr>
                                     <tr>
@@ -331,6 +500,36 @@
                                         </td>
                                         <td>La Roche Sur Yon (85)</td>
                                         <td>67 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>20/08/2021</td>
+                                        <td>
+                                            <a href="https://www.ouest-france.fr/pays-de-la-loire/vendee/vendee-un-homme-decede-apres-un-malaise-dans-l-eau-a-la-tranche-sur-mer-1e6c12fc-01c7-11ec-b682-8fa160af65a2">Vendée. Un homme décède après un malaise dans l’eau à La Tranche-sur-Mer</a>
+                                        </td>
+                                        <td>La Tranche Sur Mer (85)</td>
+                                        <td>36 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>hospitalisation</td>
+                                        <td>04/08/2021</td>
+                                        <td>
+                                            <a href="https://www.ouest-france.fr/pays-de-la-loire/vendee/vendee-en-arret-cardiaque-des-passants-la-reaniment-0f6a8cd0-f4fb-11eb-8b47-20d41891af7f">Vendée. Des passants réaniment une jeune femme en arrêt cardiaque en pleine rue</a>
+                                        </td>
+                                        <td>Saint Jean de Monts (85)</td>
+                                        <td>34 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>02/08/2021</td>
+                                        <td>
+                                            <a href="https://actu.fr/pays-de-la-loire/noirmoutier-en-l-ile_85163/vendee-un-plaisancier-decede-dune-crise-cardiaque_43861430.html">Vendée : un plaisancier décède d'une crise cardiaque</a>
+                                        </td>
+                                        <td>Noirmoutiers (85)</td>
+                                        <td>45 ans
   </td>
                                     </tr>
                                 </table>
