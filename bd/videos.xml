@@ -1,390 +1,761 @@
 <Ressources>
-    <Videos>
-        <Video Afficher="oui">
-            <Duree>9'10</Duree>
-            <Lien>https://nba.nbcsports.com/2021/09/28/magic-forward-jonathan-isaac-i-am-not-anti-vax-im-not-anti-medicine-im-not-anti-science/</Lien>
-            <Titre>Magic forward Jonathan Isaac: ‘I am not anti-vax. I’m not anti-medicine. I’m not anti-science’</Titre>
-            <Presentation>le basketteur Magic forward Jonathan Isaac (Orlando, NBA) explique sa position vis à vis de la vaccination</Presentation>
-            <Tag>témoignage</Tag>
-            <Ajout>2021-09-30</Ajout>
-            <Langue>anglais</Langue>
-            <SousTitre>activer</SousTitre>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>6'50</Duree>
-            <Lien>https://crowdbunker.com/v/5Ttn5cKWWR</Lien>
-            <Titre>Liberté vaccinale pour tous en Andorre</Titre>
-            <Presentation>discours de Carine Montaner, membre du conseil général de la santé en Andorre, devant le parlement</Presentation>
-            <Tag>politique</Tag>
-            <Ajout>2021-09-30</Ajout>
-            <Langue>espagnol</Langue>
-            <SousTitre>français</SousTitre>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>42'59</Duree>
-            <Lien>https://www.youtube.com/watch?v=sm4DJyZ_R7M</Lien>
-            <Titre>Trahison des institutions : la mort de l'Etat ?</Titre>
-            <Presentation>Politique &amp; Eco n°313 avec Valérie Bugault - TVL, Valérie Bugault très affûtée donne un regard économico-politique à la crise sanitaire et une vision possible des prochains mois</Presentation>
-            <Tag>interview</Tag>
-            <Ajout>2021-09-30</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>30'56</Duree>
-            <Lien>https://crowdbunker.com/v/XREaHE2rznI</Lien>
-            <Titre>Urgence vitale: appel à l'aide pour les soignants</Titre>
-            <Presentation>entretien entre Jeanne, aide-soignante des Sables, en grève de la faim depuis le 15 septembre devant la préfecture de Vendée à la Roche Sur Yon avec la généticienne Alexandra Henrion Caude (nb: video censurée sur YouTube retrouvée sur crowdbunker)</Presentation>
-            <Tag>local</Tag>
-            <Ajout>2021-09-25</Ajout>
-        </Video>
-        <Video Afficher="non">
-            <Duree>7'09</Duree>
-            <Lien>https://www.youtube.com/watch?v=JIZph9pa1Xc</Lien>
-            <Titre>Données sur les vaccins anticovid19 par un médecin généraliste</Titre>
-            <Presentation>Un médecin libéral en Vendée donne un aperçu des méthodes vaccinales en général et résume les données cliniques de début décembre concernant le vaccin de Pfizer et BioNTEch. À regarder avec le recul lié au temps.</Presentation>
-            <Tag>local</Tag>
-            <Ajout>2021-11-26</Ajout>
-            <Publication>2021-01-10</Publication>            
-        </Video>
-        <Video Afficher="oui">
-            <Duree>17'21</Duree>
-            <Lien>https://m.facebook.com/story.php?story_fbid=4583691028331793&amp;id=100000728221300</Lien>
-            <Titre>Témoignage d'un habitant des Sables sur la date butoire du 15 septembre</Titre>
-            <Presentation>réflexion sur les conséquences des décisions absurdes empêchant les soignants non vaccinés d'exercer et les enfants de faire du sport</Presentation>
-            <Tag>local</Tag>
-            <Ajout>2021-09-16</Ajout>
-        </Video>
-        <Video Afficher="1oui">
-            <Duree>9'11</Duree>
-            <Lien>https://odysee.com/@SilvanoTrotta:f/Danger-:a</Lien>
-            <Titre>Le Danger des Vaccins Covid !</Titre>
-            <Langue>anglais, allemand</Langue>
-            <SousTitre>français</SousTitre>
-            <Presentation>des médecins discutent de la mesure des D-dimères dans le sang après injection des vaccins COVID pour détecter la présence d'un caillot de sang ou thrombus, écoutez leur constatations</Presentation>
-            <Tag>interview</Tag>
-            <Tag>medecine</Tag>
-            <Ajout>2021-09-29</Ajout>
-        </Video>        
-        <Video Afficher="oui">
-            <Duree>10'55</Duree>
-            <Lien>https://www.youtube.com/watch?v=Vdg4vVmFy5g</Lien>
-            <Titre>Démission de l’ordre des médecins et de mon statut de praticien hospitalier</Titre>
-            <Presentation>lecture de sa lettre de démission par le Dr Denis Agret, résumé de la situation vécue par ce médecin intègre</Presentation>
-            <Tag>interview</Tag>
-            <Tag>medecine</Tag>
-            <Ajout>2021-09-28</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>39'16</Duree>
-            <Lien>https://odysee.com/@LugNassad:0/-COVID-1984---Un-Directeur-Des-Pompes-Funèbres-Témoigne-!:e</Lien>
-            <Titre>Témoignage d'un directeur d'une petite entreprise de pompes funèbres anglaise</Titre>
-            <Langue>anglais</Langue>
-            <SousTitre>français</SousTitre>
-            <Presentation>son récit débute en novembre 2019, il sort clairement du récit officiel, mais est-il crédible, c'est la difficulté de tous ces témoignages issus du terrain</Presentation>
-            <Tag>témoignage</Tag>
-            <Ajout>2021-09-22</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>15'33</Duree>
-            <Lien>https://www.youtube.com/watch?v=-ADM4mSW06w</Lien>
-            <Titre>Vaccin contre la COVID-19</Titre>
-            <Presentation>video du 14 septembre du Pr Didier Raoult, il parle des réservoirs animaux, des mutations et de l'auto-limitation des épidémies...</Presentation>
-            <Tag>interview</Tag>
-            <Tag>medecine</Tag>
-            <Ajout>2021-09-15</Ajout>
-        </Video>
-        <Video Afficher="non">
-            <Duree>28'20</Duree>
-            <Lien>https://www.youtube.com/watch?v=tAbs9gMaht8</Lien>
-            <Titre>L' IHU parle toujours !</Titre>
-            <Presentation>video du 7 septembre du Pr Didier Raoult qui commence par étriller le ministre de la santé...</Presentation>
-            <Tag>interview</Tag>
-            <Ajout>2021-09-09</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>34'56</Duree>
-            <Lien>https://www.francesoir.fr/videos-les-debriefings/debriefing-reiner-fuellmich-ce-nest-pas-un-accident</Lien>
-            <Titre>Interview de l'Avocat Reiner Fuellmich dans les Débriefings de France Soir</Titre>
-            <Presentation>exposé des tenants et aboutissants de la crise du covid-19 vus par le Comité Corona avec lequel il travaille depuis des mois</Presentation>
-            <Tag>interview</Tag>
-            <Tag>droit</Tag>
-            <Ajout>2021-09-05</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>38'06</Duree>
-            <Lien>https://www.francesoir.fr/videos-les-debriefings/roger-hodkinson</Lien>
-            <Titre>Interview du Professeur canadien Roger Hodkinson dans les Débriefings de France Soir</Titre>
-            <Presentation>alerte sur les vaccins et les manipulations des discours face au Covid-19</Presentation>
-            <Tag>interview</Tag>
-            <Tag>medecine</Tag>
-            <Ajout>2021-09-05</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>15'48</Duree>            <Lien>https://association-victimes-coronavirus-france.org/voici-ce-quil-se-passe-quand-un-vaccin-arn-therapie-genique-contre-le-covid-19-est-injecte-dans-un-corps-humain/</Lien>
-            <Titre>Que se passe-t-il dans un corps humain qui reçoit un vaccin contre le covid</Titre>
-            <Presentation>video très bien illustrée, claire et sourcée sur les mécanismes délétères du virus et des vaccins à ARNm ou à ADN dans le corps humain, exemplaire publié sur le site de l'association des victimes du coronavirus, source originale inconnue. À voir absoluement avant de donner (ou pas) un consentement vraiment éclairé !</Presentation>
-            <Tag>documentaire</Tag>
-            <Tag>psychologie</Tag>
-            <Ajout>2021-09-11</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>17'07</Duree>
-            <Lien>https://odysee.com/@JeanneTraduction:a/RyanColeAutopsies:f</Lien>
-            <Titre>Exposé du Docteur Ryan Cole</Titre>
-            <Presentation>ce pathologiste américain expose des images de tissus humains lésés par la protéine spike suite aux injections et décrit les dégats dans le corps, il déplore le peu d'autopsies effectuées</Presentation>
-            <Tag>documentaire</Tag>
-            <Ajout>2021-09-05</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Quantite>21</Quantite>
-            <Lien>https://crowdbunker.com/@CSI</Lien>
-            <Titre>Conseil Scientifique Indépendant</Titre>
-            <Presentation>les réunions publiques du CSI sont de véritables conférences scientifiques rassemblant 2 à 4 intervenants professionnels du sujet à chaque fois</Presentation>
-            <Tag>documentaire</Tag>
-            <Ajout>2021-09-06</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>10'14</Duree>
-            <Lien>https://www.youtube.com/watch?v=FU-cqTNQhMM</Lien>
-            <LienAlternatif Source="odysee">https://odysee.com/@SILVIEW.media:e/Moderna-boss-mRNA-jabs-rewriting-Genetic-Code:0</LienAlternatif>
-            <Titre>Tal Zaks, pirater le logiciel de la vie</Titre>
-            <Presentation>Tal Zaks, le patron de la recherche médicale de Moderna (chief medical officer), présente ainsi les espoirs misés sur les thérapies géniques à ARNm. Vous noterez qu'il utilise les ficelles classiques de ce type de conférence (les Ted Talk), annecdotes personnelles et appels à l'émotion avec le cas de l'enfant atteint de maladie rare, de quoi justifier une expérimentation sur toute l'humanité ?</Presentation>
-            <Langue>anglais</Langue>
-            <SousTitre>activer</SousTitre>
-            <Tag>histoire</Tag>
-            <Ajout>2021-09-22</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>11'45</Duree>
-            <Lien>https://youtu.be/3oGjaQ0Nelw</Lien>
-            <Titre>Bayonne Un collectif de Soignants entre en Scène</Titre>
-            <Presentation>théâtre de rue pour mobiliser</Presentation>
-            <Tag>satire</Tag>
-            <Ajout>2021-10-04</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>6'30</Duree>
-            <Lien>https://youtu.be/MPUtm6jQmPE</Lien>
-            <Titre>Conseils d'un Berger pour Tondre le Peuple</Titre>
-            <Presentation>une métaphore éclairante sur le confinement</Presentation>
-            <Tag>satire</Tag>
-            <Ajout>2020-04-12</Ajout>
-        </Video>        
-        <Video Afficher="oui">
-            <Duree>15'51</Duree>
-            <Lien>https://www.youtube.com/watch?v=WNFE3QKBXHc</Lien>
-            <Titre>Vaccination obligatoire : examen d’un amendement</Titre>
-            <Presentation>débat autour de la proposition de loi « instaurant la vaccination obligatoire contre le SARS-CoV-2 », au Sénat, ce 13 octobre, examen d'un amendement de suppression. À voir pour mesurer l'honnêteté intellectuelle des parlementaires, ils ne répondent pas sur le fond aux arguments des "anti-vax" et récitent leur mantra tels des perroquets : l'injection n'est pas expérimentale car il y a eu 7 milliards de doses (<i>cela n'en fait pas moins une expérience à 7 milliards de doses</i>), regardez ailleurs, aucune allusion aux effets secondaires, aux victimes, à la responsabilité des fabricants, aux traitements efficaces dans le reste du monde, aux échecs vaccinaux, aux effets réels sur la contagiosité, charge virale, à l'immunité naturelle, aux contrôles de qualité (juste une allusion), à l'existence d'autres types de vaccins (ex. Valneva),...</Presentation>
-            <Tag>politique</Tag>
-            <Ajout>2021-10-04</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Quantite>21</Quantite>
-            <Lien>https://www.educationpourlebiendesenfants.fr/rentree-2021/</Lien>
-            <Titre>Des enseignantes témoignent de leur rentrée 2021 sous protocole covid</Titre>
-            <Presentation>à consulter en même temps que le <a href="https://www.service-public.fr/particuliers/actualites/A15074">protocole sanitaire applicable dans les écoles, collèges et lycées</a> à 4 niveaux, mais où il n'y a pas de niveau pour le retour à la normale prévu !</Presentation>
-            <Tag>témoignage</Tag>
-            <Ajout>2021-10-19</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Lien>https://www.youtube.com/channel/UCiRiQGCHGjDLT9FQXFW0I3A</Lien>
-            <Langue>anglais</Langue>
-            <SousTitre>anglais</SousTitre>
-            <Titre>Academy of Ideas</Titre>
-            <Presentation>Chaine de vidéos courtes de 10' qui présentent les concepts centraux de grands philosophes ou auteurs en les mettant dans une perspective contemporaine (sous-titres en anglais)</Presentation>
-            <Tag>documentaire</Tag>
-            <Ajout>2021-10-31</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>19'20</Duree>
-            <Lien>https://odysee.com/@FlowerPower:b/Alexandra-Henrion-Caude-Oxyde-de-Graphène-infertilité:8</Lien>
-            <Titre>Alexandra Henrion Claude parle des injections covid lors d'une manifestation.</Titre>
-            <Presentation>Vaccin ARNm et rappels d'injection 'Malwares &amp; Ransomwares' : Inhibiteur d'immunité, réactivateurs de pathologies préexistantes, cancers fulgurants, Spike effet ADE auto-immune, Oxyde de Graphène, infertilité.</Presentation>
-            <Tag>interview</Tag>
-            <Tag>medecine</Tag>
-            <Ajout>2021-10-31</Ajout>
-        </Video>        
-        <Video Afficher="oui">
-            <Duree>1'37</Duree>
-            <Lien>https://www.youtube.com/watch?v=9psTUG1r9Os</Lien>
-            <Titre>Le député Joachim Son-Forget balance sur la collaboration avec la Chine</Titre>
-            <Presentation>si c'est un député qui le dit...</Presentation>
-            <Tag>politique</Tag>
-            <Ajout>2021-11-04</Ajout>
-            <Publication>2021-11-03</Publication>
-        </Video>
-        <Video Afficher="non">
-            <Duree>1h25'31</Duree>
-            <Lien>https://odysee.com/@FrontlineCovid19CriticalCareAlliance:c/FLCCC-WEBINAR-102021_FINAL:8</Lien>
-            <Titre>FLCCC Weekly Update October 20, 2021: Censorship of Science is a Horse Bleep</Titre>
-            <Presentation>Discussion avec Dr. Pierre Kory et d'autres invités sur la censure et la campagne de désinformation contre l'Ivermectine</Presentation>
-            <Tag>à trier</Tag>
-            <Ajout>2021-11-07</Ajout>
-            <Publication>2021-10-21</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>1h09'40</Duree>
-            <Langue>anglais</Langue>
-            <SousTitre>français</SousTitre>
-            <Lien>https://crowdbunker.com/v/aIJpNp94uV</Lien>
-            <Titre>Les mécanismes des régimes totalitaires</Titre>
-            <Presentation>Entretien mené par Reiner Fuellmich et son équipe avec Mattias Desmet qui enseigne la psychologie clinique à l'université de Gand en Belgique et est spécialisé dans la formation de masse qui est typique des régimes totalitaires. Le mécanisme qu'il explique semble étrangement coller à notre époque.</Presentation>
-            <Tag>totalitarisme</Tag>
-            <Tag>psychologie</Tag>
-            <Ajout>2021-11-07</Ajout>
-            <Publication>2021-07-29</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>59'21'</Duree>
-            <Lien>https://rumble.com/vo2zgl-le-samedi-politique-pass-sanitaire-vaccins-3me-dose-fabrice-di-vizio-dit-to.html</Lien>
-            <Titre>Le Samedi Politique - Pass-sanitaire, vaccins, 3ème dose : Fabrice Di Vizio dit tout !</Titre>
-            <Presentation>Di Vizio, suite au vote initial des députés sur la loi dite de "vigilance sanitaire", fait part de son ressenti et de son trouble sur les contradictions et les absurdités des décisions prises et sur l'impossibilité de dialoguer avec les interlocuteurs du pouvoir.</Presentation>
-            <Tag>interview</Tag>
-            <Tag>droit</Tag>
-            <Ajout>2021-11-07</Ajout>
-            <Publication>2021-10-22</Publication>
-        </Video>   
-        <Video Afficher="non">
-            <Duree>58'</Duree>
-            <Lien>https://crowdbunker.com/v/wGVWWSOIV_g</Lien>
-            <Titre>Le camp de concentration du covid</Titre>
-            <Presentation>Walter Baeyens, essayiste, développe une vision historique et systémique de l'épisode covidien, cela sans concession, avec un pessimisme assumé lui faisant comparer les événements à l'établissement d'un camp de concentration planétaire qui verra la disparition de l'Etat de droit, de la classe moyenne, de la monnaie fiduciaire, etc. Pour lui, il s'agit bien un coup d'Etat global, d'une "plandémie" voulue et orchestrée par l'oligarchie financière transnationale. L'information juste est une condition de l'action non suffisante, rappelle Alexandre Penasse, qui l'interviewe. Voyage au bout de l'enfer.</Presentation>
-            <Tag>à trier</Tag>
-            <Ajout>2021-11-07</Ajout>            
-        </Video>
-        <Video Afficher="oui">
-            <Duree>1h03'16</Duree>
-            <Langue>anglais</Langue>
-            <SousTitre>anglais</SousTitre>
-            <Lien>https://www.stopworldcontrol.com/monopoly/</Lien>
-            <Titre>Monopoly (qui possède le monde ?)</Titre>
-            <Presentation>Tim Gielen en partant d'informations disponibles sur le site boursier Yahoo Finance dévoile petit à petit la pyramide du pouvoir. Il revisite alors les événements actuels sur l'utilisation de la pandémie de Covid pour changer nos sociétés au regard d'événements précusrseurs pour montrer que rien n'est dû au hasard. Complète très bien le discours de <a href="ernst-wolff.html">Ernst Wolff</a> transcrit dans la section blog du site. Sous-tires en Anglais seulement.</Presentation>
-            <Tag>documentaire</Tag>
-            <Ajout>2021-11-07</Ajout>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>1h05'35</Duree>
-            <Langue>anglais</Langue>
-            <SousTitre>français</SousTitre> <Lien>https://odysee.com/@ivermectine-covid.ch:5/Le-Dr-Peter-McCullough-sur-la-vaccination,-le-traitement-précoce-et-le-rejet-du-nihilisme-thérapeutique-(AAPS,-octobre-2021)-wm.mp4:9</Lien>
-            <Titre>Le Dr Peter McCullough sur les limites et dangers de la vaccination, l'efficacité du traitement précoce et l'importance de rejeter le nihilisme thérapeutique (AAPS, 2 octobre 2021)</Titre>
-            <Presentation>Discours donné au congrès annuel de l'Association Américaine des Praticiens Hospitaliers et des Chirurgiens (AAPS). Très instructif.</Presentation>
-            <Tag>interview</Tag>
-            <Tag>medecine</Tag>
-            <Ajout>2021-11-08</Ajout>
-            <Publication>2021-10-02</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>29'12</Duree>
-            <Lien>https://odysee.com/@QuadrillageTraduction:1/trim.EA1D6D13-7D0C-46C1-8A0B-2B190002293C:7?&amp;sunset=lbrytv</Lien>
-            <Titre>Conférence de presse de députés européens</Titre>
-            <Presentation>Ce groupe de députés européens de plusieurs pays soutien le respect des droits fondamentaux des citoyens européens et dénonce l'oppression du peuple au nom du bien peuple. Vidéo doublée en Français.</Presentation>
-            <Tag>politique</Tag>
-            <Ajout>2021-11-08</Ajout>
-            <Publication>2021-10-29</Publication>
-            <Langue>angais</Langue>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>29'12</Duree>
-            <Lien>https://www.francesoir.fr/videos-les-debriefings/laurence-muller-bronn</Lien>
-            <Titre>Pass sanitaire : le Sénat, et après ? Laurence Muller-Bronn</Titre>
-            <Presentation>Debriefing sur  FranceSoir de la sénatrice du Bas-Rhin qui a clairement pris position contre le pass sanitaire.</Presentation>
-            <Tag>politique</Tag>
-            <Ajout>2021-11-08</Ajout>
-            <Publication>2021-10-29</Publication>
-            <Langue>angais</Langue>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>21'18</Duree>
-            <Lien>https://youtu.be/-UnQdgGM0RM</Lien>
-            <Titre>Louis Fouché dénonce une « guerre secrète menée contre les peuples »</Titre>
-            <Presentation>Entretien avec le médecin anesthésiste-réanimateur Louis Fouché à l'occasion de la sortie de son livre  <a href="https://www.librairie-agora.com/livre/9782813225955-tous-resistants-dans-l-ame-eclairons-le-monde-de-demain-louis-fouche-stephane-chatry-benoit-flamec/">Tous résistants dans l'âme: éclairons le monde de demain!</a>, paru aux éditions Tredaniel La Maisnie.</Presentation>
-            <Tag>témoignage</Tag>
-            <Ajout>2021-11-14</Ajout>
-            <Publication>2021-10-26</Publication>
-            <Langue>anglais</Langue>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>1h04'48</Duree>
-            <Lien>https://www.youtube.com/watch?v=wNYRatFQL4k</Lien>
-            <Titre>Idriss Aberkane: la doxa sanitaire est-elle en train de se crasher?</Titre>
-            <Presentation>Entretien entre Idriss Aberkane et Nicolas Vidal dans l'émission Putsch Live. L'entretien riche et argumenté aborde de nombreuses zones d'ombre de la politique sanitaire et remet les faits en perspective. Proposition pour la création d'une encyclopédie des mensonges des politiques et des medias.</Presentation>
-            <Tag>interview</Tag>
-            <Ajout>2021-11-16</Ajout>
-            <Publication>2021-11-15</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Quantite>6</Quantite>
-            <Lien>https://cgt-ghpp.fr/fr/actualites/cash-investigations-sur-la-sante-merci-elise-lucet</Lien>
-            <Titre>Cash investigations sur la santé - Merci Elise Lucet !</Titre>
-            <Presentation>Rétrospective des émissions TV Cash Investigation ayant trait à la marchandisation des soins de ces dernières décénnies. Retour en arrière.</Presentation>
-            <Tag>documentaire</Tag>
-            <Ajout>2021-11-17</Ajout>
-            <Publication>2021-09-24</Publication>            
-        </Video>
-        <Video Afficher="oui">
-            <Duree>50'02'</Duree>
-            <Lien>https://www.youtube.com/watch?v=waEglmyG6Io</Lien>
-            <Titre>Great Reset : le "monde d'après" est un cauchemar - Politique &amp; Eco n°320 avec Marc-Gabriel Draghi</Titre>
-            <Presentation>Le juriste et auteur Marc-Gabriel Draghi dévoile son point de vue sur la domestication des masses et la soviétisation de l'économie en cours au profit d'une élite invisible. Il expose à quoi l'opération "<i>vous ne posséderez plus rien</i>" du gourou de Davos pourrait ressembler en ce qui concerne la propriété privée : par augmentation massive de la taxe foncière suite à la faillite des états, les propriétaires de maison ou d'appartement pourraient être poussés à devoir vendre leur bien (voir aussi dans notre dossier <a href="biblio.html#prospective">prospective</a> l'article sur la résorption des dettes publiques en zone euro).</Presentation>
-            <Tag>économie</Tag>
-            <Ajout>2021-11-21</Ajout>
-            <Publication>2021-11-15</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>1h22'47</Duree>
-            <Lien>https://www.youtube.com/watch?v=4YrRyArfcBk</Lien>
-            <Titre>Conférence de Philippe Bobola &amp; Jean-Dominique Michel sur la crise sanitaire</Titre>
-            <Presentation>Quand l'anthropologie sauve l'honneur de la Science! Débat passionnant entre deux chercheurs et intellectuels qui donnent des clefs de compréhension et des moyens de rester intègres fasse au déferlement de bêtise lié à la gestion de la crise.</Presentation>
-            <Tag>interview</Tag>
-            <Ajout>2021-11-21</Ajout>
-            <Publication>2021-11-15</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>22'54</Duree>
-            <Lien>https://www.francesoir.fr/videos-le-defi-de-la-verite/pr-luc-montagnier-vaccination-prions</Lien>
-            <Titre>Pr Luc Montagnier : des cas de Creutzfeldt-Jakob liés au vaccin contre le Covid ?</Titre>
-            <Presentation>Invité du défi de la vérité, le professeur appelle à cesser le vaccin après la détection formelle de cinq cas de maladies à prions chez des personnes jeunes et en bonne santé, quelques semaines après avoir reçu des injections Pfizer. Il conseille également d'utiliser le vaccin BCG.</Presentation>
-            <Tag>interview</Tag>
-            <Tag>medecine</Tag>
-            <Ajout>2021-11-21</Ajout>
-            <Publication>2021-11-19</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>27'12</Duree>
-            <Lien>https://www.youtube.com/watch?v=ICOLz6QRGcI</Lien>
-            <Titre>Capitaine Alexandre Juving-Brunet | Conférence de presse</Titre>
-            <Presentation>Appel à relancer la politique à travers des comités populaires pour opposer un contre-pouvoir aux politiciens et suivre la mise en oeuvre de leurs promesses par les élus. Le capitaine Juving-Brunet est un chef d'entreprise touché par la crise et qui a décidé de lancer un mouvement.</Presentation>
-            <Tag>politique</Tag>
-            <Ajout>2021-11-21</Ajout>
-            <Publication>2021-11-18</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>1h20'12</Duree>
-            <Lien>https://www.youtube.com/watch?v=9JU3OwX-4xU</Lien>
-            <Titre>Covid-19, la fin de l’Etat de droit ?</Titre>
-            <Presentation>Michael Esfeld, professeur de philosophie des sciences à l'université de Lausanne, donne son avis sur les mesures gouvernementales prises en Suisse et ailleurs. Une mise en perspective historique.</Presentation>
-            <Tag>interview</Tag>
-            <Ajout>2021-11-25</Ajout>
-            <Publication>2021-11-14</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>38'32</Duree>
-            <Lien>https://rumble.com/vpma0v-the-path-out-of-trauma-enfr-reiner-fuellmich-ariane-bilheran.html</Lien>
-            <Titre>Le chemin pour sortir du traumatisme</Titre>
-            <Presentation>Echange entre l'avocat international Reiner Fuellmich and Ariane Bilheran Dr en Psychopathologie pour comprendre la manière dont se met en place le totalitarisme. En anglais (sous-titré) et en Français. Ariane Bilheran définit la psychose paranoiaque de type hypochondriaque délirante qui a contaminé la société.</Presentation>
-            <Tag>totalitarisme</Tag>
-            <Tag>psychologie</Tag>
-            <Ajout>2021-11-25</Ajout>
-            <Publication>2021-11-22</Publication>
-        </Video>
-        <Video Afficher="oui">
-            <Duree>1h07'53</Duree>
-            <Lien>https://www.youtube.com/watch?v=Hefv35YfaBU&t=2s</Lien>
-            <Titre>L'entretien interdit de Louis Fouché interrogé par Planete 360</Titre>
-            <Presentation>Des explications claires et argumentées de Louis Fouché en réponse à des questions précises sur la Covid, le confinement, le pass sanitaire, le vaccin, l'origine du virus, etc, en forme de bilan. Il donne une vision paisible de ce que pourrait être la politique santé dans notre société.</Presentation>
-            <Tag>interview</Tag>
-            <Tag>medecine</Tag>
-            <Ajout>2021-11-26</Ajout>
-            <Publication>2021-11-17</Publication>
-        </Video>
-    </Videos>
+  <Videos>
+
+    <Video Afficher="oui">
+        <Duree>9'10</Duree>
+        <Lien>
+          <Base>https://nba.nbcsports.com</Base>
+          <Chemin>/2021/09/28/magic-forward-jonathan-isaac-i-am-not-anti-vax-im-not-anti-medicine-im-not-anti-science/</Chemin>
+        </Lien>
+        <Titre>Magic forward Jonathan Isaac: ‘I am not anti-vax. I’m not anti-medicine. I’m not anti-science’</Titre>
+        <Presentation>le basketteur Magic forward Jonathan Isaac (Orlando, NBA) explique sa position vis à vis de la vaccination</Presentation>
+        <Tag>témoignage</Tag>
+        <Ajout>2021-09-30</Ajout>
+        <Langue>anglais</Langue>
+        <SousTitre>activer</SousTitre>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>6'50</Duree>
+        <Lien>
+          <Base>https://crowdbunker.com</Base>
+          <Chemin>/v/5Ttn5cKWWR</Chemin>
+        </Lien>
+        <Titre>Liberté vaccinale pour tous en Andorre</Titre>
+        <Presentation>discours de Carine Montaner, membre du conseil général de la santé en Andorre, devant le parlement</Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2021-09-30</Ajout>
+        <Langue>espagnol</Langue>
+        <SousTitre>français</SousTitre>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>42'59</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=sm4DJyZ_R7M</Chemin>
+        </Lien>
+        <Titre>Trahison des institutions : la mort de l'Etat ?</Titre>
+        <Presentation>Politique &amp; Eco n°313 avec Valérie Bugault - TVL, Valérie Bugault très affûtée donne un regard économico-politique à la crise sanitaire et une vision possible des prochains mois</Presentation>
+        <Tag>interview</Tag>
+        <Ajout>2021-09-30</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>30'56</Duree>
+        <Lien>
+          <Base>https://crowdbunker.com</Base>
+          <Chemin>/v/XREaHE2rznI</Chemin>
+        </Lien>
+        <Titre>Urgence vitale: appel à l'aide pour les soignants</Titre>
+        <Presentation>entretien entre Jeanne, aide-soignante des Sables, en grève de la faim depuis le 15 septembre devant la préfecture de Vendée à la Roche Sur Yon avec la généticienne Alexandra Henrion Caude (nb: video censurée sur YouTube retrouvée sur crowdbunker)</Presentation>
+        <Tag>local</Tag>
+        <Ajout>2021-09-25</Ajout>
+    </Video>
+
+    <Video Afficher="non">
+        <Duree>7'09</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=JIZph9pa1Xc</Chemin>
+        </Lien>
+        <Titre>Données sur les vaccins anticovid19 par un médecin généraliste</Titre>
+        <Presentation>Un médecin libéral en Vendée donne un aperçu des méthodes vaccinales en général et résume les données cliniques de début décembre concernant le vaccin de Pfizer et BioNTEch. À regarder avec le recul lié au temps.</Presentation>
+        <Tag>local</Tag>
+        <Ajout>2021-11-26</Ajout>
+        <Publication>2021-01-10</Publication>            
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>17'21</Duree>
+        <Lien>
+          <Base>https://m.facebook.com</Base>
+          <Chemin>/story.php?story_fbid=4583691028331793&amp;id=100000728221300</Chemin>
+        </Lien>
+        <Titre>Témoignage d'un habitant des Sables sur la date butoire du 15 septembre</Titre>
+        <Presentation>réflexion sur les conséquences des décisions absurdes empêchant les soignants non vaccinés d'exercer et les enfants de faire du sport</Presentation>
+        <Tag>local</Tag>
+        <Ajout>2021-09-16</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>9'11</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@SilvanoTrotta:f/Danger-:a</Chemin>
+        </Lien>
+        <Titre>Le Danger des Vaccins Covid !</Titre>
+        <Langue>anglais, allemand</Langue>
+        <SousTitre>français</SousTitre>
+        <Presentation>des médecins discutent de la mesure des D-dimères dans le sang après injection des vaccins COVID pour détecter la présence d'un caillot de sang ou thrombus, écoutez leur constatations. Vidéo assez virale rapidement dénoncée par les <i>vérificateurs de faits</i> de l'AFP <a href="https://factuel.afp.com/http%253A%252F%252Fdoc.afp.com%252F9LY3A7">ICI</a>, tout en reconnaissant que la mesure d'un taux de D-dimères élevé nécessite des examens complémentaire comme un sccanner pour lever la suspicion de thrombose... Notez que le même type de <i>polémique</i> s'est enclenchée fin 2021 à propos d'une <a href="https://www.ahajournals.org/doi/abs/10.1161/circ.144.suppl_1.10712">étude observationnelle</a> (en anglais) mettant en jeu d'autres marqueurs (le test cardiaque PULS) et les vaccins à ARNm, elle aussi promptement <a href="https://sciencebasedmedicine.org/the-puls-test-and-covid-19-vaccinations/">vérifiée</a> (en anglais). 
+        </Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-09-29</Ajout>
+    </Video>        
+
+    <Video Afficher="oui">
+        <Duree>10'55</Duree>
+        <Lien Censure="oui">
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=Vdg4vVmFy5g</Chemin>
+        </Lien>
+        <Titre>Démission de l’ordre des médecins et de mon statut de praticien hospitalier</Titre>
+        <Presentation>lecture de sa lettre de démission par le Dr Denis Agret, résumé de la situation vécue par ce médecin intègre</Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-09-28</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>39'16</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@LugNassad:0/-COVID-1984---Un-Directeur-Des-Pompes-Funèbres-Témoigne-!:e</Chemin>
+        </Lien>
+        <Titre>Témoignage d'un directeur d'une petite entreprise de pompes funèbres anglaise</Titre>
+        <Langue>anglais</Langue>
+        <SousTitre>français</SousTitre>
+        <Presentation>son récit débute en novembre 2019, il sort clairement du récit officiel, mais est-il crédible, c'est la difficulté de tous ces témoignages issus du terrain</Presentation>
+        <Tag>témoignage</Tag>
+        <Ajout>2021-09-22</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>15'33</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=-ADM4mSW06w</Chemin>
+        </Lien>
+        <Titre>Vaccin contre la COVID-19</Titre>
+        <Presentation>video du 14 septembre du Pr Didier Raoult, il parle des réservoirs animaux, des mutations et de l'auto-limitation des épidémies...</Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-09-15</Ajout>
+    </Video>
+
+    <Video Afficher="non">
+        <Duree>28'20</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=tAbs9gMaht8</Chemin>
+        </Lien>
+        <Titre>L' IHU parle toujours !</Titre>
+        <Presentation>video du 7 septembre du Pr Didier Raoult qui commence par étriller le ministre de la santé...</Presentation>
+        <Tag>interview</Tag>
+        <Ajout>2021-09-09</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>34'56</Duree>
+        <Lien>
+          <Base>https://www.francesoir.fr</Base>
+          <Chemin>/videos-les-debriefings/debriefing-reiner-fuellmich-ce-nest-pas-un-accident</Chemin>
+        </Lien>
+        <Titre>Interview de l'Avocat Reiner Fuellmich dans les Débriefings de France Soir</Titre>
+        <Presentation>exposé des tenants et aboutissants de la crise du covid-19 vus par le Comité Corona avec lequel il travaille depuis des mois</Presentation>
+        <Tag>interview</Tag>
+        <Tag>droit</Tag>
+        <Ajout>2021-09-05</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>38'06</Duree>
+        <Lien>
+          <Base>https://www.francesoir.fr</Base>
+          <Chemin>/videos-les-debriefings/roger-hodkinson</Chemin>
+        </Lien>
+        <Titre>Interview du Professeur canadien Roger Hodkinson dans les Débriefings de France Soir</Titre>
+        <Presentation>alerte sur les vaccins et les manipulations des discours face au Covid-19</Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-09-05</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>15'48</Duree>
+        <Lien>
+          <Base>https://association-victimes-coronavirus-france.org</Base>          <Chemin>/vaccins/voici-ce-quil-se-passe-quand-un-vaccin-arn-therapie-genique-contre-le-covid-19-est-injecte-dans-un-corps-humain/</Chemin>
+        </Lien>
+        <Titre>Que se passe-t-il dans un corps humain qui reçoit un vaccin contre le covid</Titre>
+        <Presentation>video très bien illustrée, claire et sourcée sur les mécanismes délétères du virus et des vaccins à ARNm ou à ADN dans le corps humain, exemplaire publié sur le site de l'association des victimes du coronavirus, source originale inconnue. À voir absoluement avant de donner (ou pas) un consentement vraiment éclairé !</Presentation>
+        <Tag>documentaire</Tag>
+        <Tag>psychologie</Tag>
+        <Ajout>2021-09-11</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>17'07</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@JeanneTraduction:a/RyanColeAutopsies:f</Chemin>
+        </Lien>
+        <Titre>Exposé du Docteur Ryan Cole</Titre>
+        <Presentation>ce pathologiste américain expose des images de tissus humains lésés par la protéine spike suite aux injections et décrit les dégats dans le corps, il déplore le peu d'autopsies effectuées</Presentation>
+        <Tag>documentaire</Tag>
+        <Ajout>2021-09-05</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Quantite>21</Quantite>
+        <Lien>
+          <Base>https://crowdbunker.com</Base>
+          <Chemin>/@CSI</Chemin>
+        </Lien>
+        <Titre>Conseil Scientifique Indépendant</Titre>
+        <Presentation>les réunions publiques du CSI sont de véritables conférences scientifiques rassemblant 2 à 4 intervenants professionnels du sujet à chaque fois</Presentation>
+        <Tag>documentaire</Tag>
+        <Ajout>2021-09-06</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>10'14</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=FU-cqTNQhMM</Chemin>
+        </Lien>
+        <LienAlternatif Source="odysee">https://odysee.com/@SILVIEW.media:e/Moderna-boss-mRNA-jabs-rewriting-Genetic-Code:0</LienAlternatif>
+        <Titre>Tal Zaks, pirater le logiciel de la vie</Titre>
+        <Presentation>Tal Zaks, le patron de la recherche médicale de Moderna (chief medical officer), présente ainsi les espoirs misés sur les thérapies géniques à ARNm. Vous noterez qu'il utilise les ficelles classiques de ce type de conférence (les Ted Talk), annecdotes personnelles et appels à l'émotion avec le cas de l'enfant atteint de maladie rare, de quoi justifier une expérimentation sur toute l'humanité ?</Presentation>
+        <Langue>anglais</Langue>
+        <SousTitre>activer</SousTitre>
+        <Tag>histoire</Tag>
+        <Ajout>2021-09-22</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>11'45</Duree>
+        <Lien>
+          <Base>https://youtu.be</Base>
+          <Chemin>/3oGjaQ0Nelw</Chemin>
+        </Lien>
+        <Titre>Bayonne Un collectif de Soignants entre en Scène</Titre>
+        <Presentation>théâtre de rue pour mobiliser</Presentation>
+        <Tag>satire</Tag>
+        <Ajout>2021-10-04</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>6'30</Duree>
+        <Lien>
+          <Base>https://youtu.be</Base>
+          <Chemin>/MPUtm6jQmPE</Chemin>
+        </Lien>
+        <Titre>Conseils d'un Berger pour Tondre le Peuple</Titre>
+        <Presentation>une métaphore éclairante sur le confinement</Presentation>
+        <Tag>satire</Tag>
+        <Ajout>2020-04-12</Ajout>
+    </Video>        
+
+    <Video Afficher="oui">
+        <Duree>15'51</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=WNFE3QKBXHc</Chemin>
+        </Lien>
+        <Titre>Vaccination obligatoire : examen d’un amendement</Titre>
+        <Presentation>débat autour de la proposition de loi « instaurant la vaccination obligatoire contre le SARS-CoV-2 », au Sénat, ce 13 octobre, examen d'un amendement de suppression. À voir pour mesurer l'honnêteté intellectuelle des parlementaires, ils ne répondent pas sur le fond aux arguments des "anti-vax" et récitent leur mantra tels des perroquets : l'injection n'est pas expérimentale car il y a eu 7 milliards de doses (<i>cela n'en fait pas moins une expérience à 7 milliards de doses</i>), regardez ailleurs, aucune allusion aux effets secondaires, aux victimes, à la responsabilité des fabricants, aux traitements efficaces dans le reste du monde, aux échecs vaccinaux, aux effets réels sur la contagiosité, charge virale, à l'immunité naturelle, aux contrôles de qualité (juste une allusion), à l'existence d'autres types de vaccins (ex. Valneva),...</Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2021-10-04</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Quantite>21</Quantite>
+        <Lien>
+          <Base>https://www.educationpourlebiendesenfants.fr</Base>
+          <Chemin>/rentree-2021/</Chemin>
+        </Lien>
+        <Titre>Des enseignantes témoignent de leur rentrée 2021 sous protocole covid</Titre>
+        <Presentation>à consulter en même temps que le <a href="https://www.service-public.fr/particuliers/actualites/A15074">protocole sanitaire applicable dans les écoles, collèges et lycées</a> à 4 niveaux, mais où il n'y a pas de niveau pour le retour à la normale prévu !</Presentation>
+        <Tag>témoignage</Tag>
+        <Ajout>2021-10-19</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/channel/UCiRiQGCHGjDLT9FQXFW0I3A</Chemin>
+        </Lien>
+        <Langue>anglais</Langue>
+        <SousTitre>anglais</SousTitre>
+        <Titre>Academy of Ideas</Titre>
+        <Presentation>Chaine de vidéos courtes de 10' qui présentent les concepts centraux de grands philosophes ou auteurs en les mettant dans une perspective contemporaine (sous-titres en anglais)</Presentation>
+        <Tag>documentaire</Tag>
+        <Ajout>2021-10-31</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>19'20</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@FlowerPower:b/Alexandra-Henrion-Caude-Oxyde-de-Graphène-infertilité:8</Chemin>
+        </Lien>
+        <Titre>Alexandra Henrion Claude parle des injections covid lors d'une manifestation.</Titre>
+        <Presentation>Vaccin ARNm et rappels d'injection quels sont les risques d'après <b>Alexandra Henrion Claude</b>. Si le but de Moderna est de <i>pirater le logiciel de la vie</i> ont-ils prévu l'antivirus contre les Malwares et les Rasomwares ? 
+        </Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-10-31</Ajout>
+    </Video>        
+
+    <Video Afficher="oui">
+        <Duree>1'37</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=9psTUG1r9Os</Chemin>
+        </Lien>
+        <Titre>Le député Joachim Son-Forget balance sur la collaboration avec la Chine</Titre>
+        <Presentation>si c'est un député qui le dit...</Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2021-11-04</Ajout>
+        <Publication>2021-11-03</Publication>
+    </Video>
+
+    <Video Afficher="non">
+        <Duree>1h25'31</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@FrontlineCovid19CriticalCareAlliance:c/FLCCC-WEBINAR-102021_FINAL:8</Chemin>
+        </Lien>
+        <Titre>FLCCC Weekly Update October 20, 2021: Censorship of Science is a Horse Bleep</Titre>
+        <Presentation>Discussion avec Dr. Pierre Kory et d'autres invités sur la censure et la campagne de désinformation contre l'Ivermectine</Presentation>
+        <Tag>à trier</Tag>
+        <Ajout>2021-11-07</Ajout>
+        <Publication>2021-10-21</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>1h09'40</Duree>
+        <Langue>anglais</Langue>
+        <SousTitre>français</SousTitre>
+        <Lien>
+          <Base>https://crowdbunker.com</Base>
+          <Chemin>/v/aIJpNp94uV</Chemin>
+        </Lien>
+        <Titre>Les mécanismes des régimes totalitaires</Titre>
+        <Presentation>Entretien mené par Reiner Fuellmich et son équipe avec Mattias Desmet qui enseigne la psychologie clinique à l'université de Gand en Belgique et est spécialisé dans la formation de masse qui est typique des régimes totalitaires. Le mécanisme qu'il explique semble étrangement coller à notre époque.</Presentation>
+        <Tag>totalitarisme</Tag>
+        <Tag>psychologie</Tag>
+        <Ajout>2021-11-07</Ajout>
+        <Publication>2021-07-29</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>59'21'</Duree>
+        <Lien>
+          <Base>https://rumble.com</Base>
+          <Chemin>/vo2zgl-le-samedi-politique-pass-sanitaire-vaccins-3me-dose-fabrice-di-vizio-dit-to.html</Chemin>
+        </Lien>
+        <Titre>Le Samedi Politique - Pass-sanitaire, vaccins, 3ème dose : Fabrice Di Vizio dit tout !</Titre>
+        <Presentation>Di Vizio, suite au vote initial des députés sur la loi dite de "vigilance sanitaire", fait part de son ressenti et de son trouble sur les contradictions et les absurdités des décisions prises et sur l'impossibilité de dialoguer avec les interlocuteurs du pouvoir.</Presentation>
+        <Tag>interview</Tag>
+        <Tag>droit</Tag>
+        <Ajout>2021-11-07</Ajout>
+        <Publication>2021-10-22</Publication>
+    </Video>   
+
+    <Video Afficher="non">
+        <Duree>58'</Duree>
+        <Lien>
+          <Base>https://crowdbunker.com</Base>
+          <Chemin>/v/wGVWWSOIV_g</Chemin>
+        </Lien>
+        <Titre>Le camp de concentration du covid</Titre>
+        <Presentation>Walter Baeyens, essayiste, développe une vision historique et systémique de l'épisode covidien, cela sans concession, avec un pessimisme assumé lui faisant comparer les événements à l'établissement d'un camp de concentration planétaire qui verra la disparition de l'Etat de droit, de la classe moyenne, de la monnaie fiduciaire, etc. Pour lui, il s'agit bien un coup d'Etat global, d'une "plandémie" voulue et orchestrée par l'oligarchie financière transnationale. L'information juste est une condition de l'action non suffisante, rappelle Alexandre Penasse, qui l'interviewe. Voyage au bout de l'enfer.</Presentation>
+        <Tag>à trier</Tag>
+        <Ajout>2021-11-07</Ajout>            
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>1h03'16</Duree>
+        <Langue>anglais</Langue>
+        <SousTitre>anglais</SousTitre>
+        <Lien>
+          <Base>https://www.stopworldcontrol.com</Base>
+          <Chemin>/monopoly/</Chemin>
+        </Lien>
+        <Titre>Monopoly (qui possède le monde ?)</Titre>
+        <Presentation>Tim Gielen en partant d'informations disponibles sur le site boursier Yahoo Finance dévoile petit à petit la pyramide du pouvoir. Il revisite alors les événements actuels sur l'utilisation de la pandémie de Covid pour changer nos sociétés au regard d'événements précusrseurs pour montrer que rien n'est dû au hasard. Complète très bien le discours de <a href="ernst-wolff.html">Ernst Wolff</a> transcrit dans la section blog du site. Sous-tires en Anglais seulement.</Presentation>
+        <Tag>documentaire</Tag>
+        <Ajout>2021-11-07</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>1h05'35</Duree>
+        <Langue>anglais</Langue>
+        <SousTitre>français</SousTitre>
+        <Lien>
+           <Base>https://odysee.com</Base>
+           <Chemin>/@ivermectine-covid.ch:5/Le-Dr-Peter-McCullough-sur-la-vaccination,-le-traitement-précoce-et-le-rejet-du-nihilisme-thérapeutique-(AAPS,-octobre-2021)-wm.mp4:9</Chemin>
+         </Lien>
+        <Titre>Le Dr Peter McCullough sur les limites et dangers de la vaccination, l'efficacité du traitement précoce et l'importance de rejeter le nihilisme thérapeutique (AAPS, 2 octobre 2021)</Titre>
+        <Presentation>Discours donné au congrès annuel de l'Association Américaine des Praticiens Hospitaliers et des Chirurgiens (AAPS). Très instructif.</Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-11-08</Ajout>
+        <Publication>2021-10-02</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>29'12</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@QuadrillageTraduction:1/trim.EA1D6D13-7D0C-46C1-8A0B-2B190002293C:7?&amp;sunset=lbrytv</Chemin>
+        </Lien>
+        <Titre>Conférence de presse de députés européens</Titre>
+        <Presentation>Ce groupe de députés européens de plusieurs pays soutien le respect des droits fondamentaux des citoyens européens et dénonce l'oppression du peuple au nom du bien peuple. Vidéo doublée en Français.</Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2021-11-08</Ajout>
+        <Publication>2021-10-29</Publication>
+        <Langue>angais</Langue>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>29'12</Duree>
+        <Lien>
+          <Base>https://www.francesoir.fr</Base>
+          <Chemin>/videos-les-debriefings/laurence-muller-bronn</Chemin>
+        </Lien>
+        <Titre>Pass sanitaire : le Sénat, et après ? Laurence Muller-Bronn</Titre>
+        <Presentation>Debriefing sur  FranceSoir de la sénatrice du Bas-Rhin qui a clairement pris position contre le pass sanitaire.</Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2021-11-08</Ajout>
+        <Publication>2021-10-29</Publication>
+        <Langue>angais</Langue>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>21'18</Duree>
+        <Lien>
+          <Base>https://youtu.be</Base>
+          <Chemin>/-UnQdgGM0RM</Chemin>
+        </Lien>
+        <Titre>Louis Fouché dénonce une « guerre secrète menée contre les peuples »</Titre>
+        <Presentation>Entretien avec le médecin anesthésiste-réanimateur <b>Louis Fouché</b> à l'occasion de la sortie de son livre  <a href="https://www.librairie-agora.com/livre/9782813225955-tous-resistants-dans-l-ame-eclairons-le-monde-de-demain-louis-fouche-stephane-chatry-benoit-flamec/">Tous résistants dans l'âme: éclairons le monde de demain!</a>, paru aux éditions Tredaniel La Maisnie.</Presentation>
+        <Tag>livre</Tag>
+        <Tag>auteur</Tag>
+        <Ajout>2021-11-14</Ajout>
+        <Publication>2021-10-26</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>1h04'48</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=wNYRatFQL4k</Chemin>
+        </Lien>
+        <Titre>Idriss Aberkane: la doxa sanitaire est-elle en train de se crasher?</Titre>
+        <Presentation>Entretien entre <b>Idriss Aberkane</b> et <b>Nicolas Vidal</b> dans l'émission Putsch Live. L'entretien riche et argumenté aborde de nombreuses zones d'ombre de la politique sanitaire et remet les faits en perspective. Proposition pour la création d'une encyclopédie des mensonges des politiques et des medias.</Presentation>
+        <Tag>interview</Tag>
+        <Ajout>2021-11-16</Ajout>
+        <Publication>2021-11-15</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Quantite>6</Quantite>
+        <Lien>
+          <Base>https://cgt-ghpp.fr</Base>
+          <Chemin>/fr/actualites/cash-investigations-sur-la-sante-merci-elise-lucet</Chemin>
+        </Lien>
+        <Titre>Cash investigations sur la santé - Merci Elise Lucet !</Titre>
+        <Presentation>Rétrospective des émissions TV Cash Investigation ayant trait à la marchandisation des soins de ces dernières décénnies. Retour en arrière.</Presentation>
+        <Tag>documentaire</Tag>
+        <Ajout>2021-11-17</Ajout>
+        <Publication>2021-09-24</Publication>            
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>50'02'</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=waEglmyG6Io</Chemin>
+        </Lien>
+        <Titre>Great Reset : le "monde d'après" est un cauchemar - Politique &amp; Eco n°320 avec Marc-Gabriel Draghi</Titre>
+        <Presentation>Le juriste et auteur Marc-Gabriel Draghi dévoile son point de vue sur la domestication des masses et la soviétisation de l'économie en cours au profit d'une élite invisible. Il expose à quoi l'opération "<i>vous ne posséderez plus rien</i>" du gourou de Davos pourrait ressembler en ce qui concerne la propriété privée : par augmentation massive de la taxe foncière suite à la faillite des états, les propriétaires de maison ou d'appartement pourraient être poussés à devoir vendre leur bien (voir aussi dans notre dossier <a href="biblio.html#prospective">prospective</a> l'article sur la résorption des dettes publiques en zone euro).</Presentation>
+        <Tag>économie</Tag>
+        <Ajout>2021-11-21</Ajout>
+        <Publication>2021-11-15</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>1h22'47</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=4YrRyArfcBk</Chemin>
+        </Lien>
+        <Titre>Conférence de Philippe Bobola &amp; Jean-Dominique Michel sur la crise sanitaire</Titre>
+        <Presentation>Quand l'anthropologie sauve l'honneur de la Science! Débat passionnant entre deux chercheurs et intellectuels qui donnent des clefs de compréhension et des moyens de rester intègres fasse au déferlement de bêtise lié à la gestion de la crise.</Presentation>
+        <Tag>interview</Tag>
+        <Ajout>2021-11-21</Ajout>
+        <Publication>2021-11-15</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>22'54</Duree>
+        <Lien>
+          <Base>https://www.francesoir.fr</Base>
+          <Chemin>/videos-le-defi-de-la-verite/pr-luc-montagnier-vaccination-prions</Chemin>
+        </Lien>
+        <Titre>Pr Luc Montagnier : des cas de Creutzfeldt-Jakob liés au vaccin contre le Covid ?</Titre>
+        <Presentation>Invité du défi de la vérité, le professeur appelle à cesser le vaccin après la détection formelle de cinq cas de maladies à prions chez des personnes jeunes et en bonne santé, quelques semaines après avoir reçu des injections Pfizer. Il conseille également d'utiliser le vaccin BCG.</Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-11-21</Ajout>
+        <Publication>2021-11-19</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>27'12</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=ICOLz6QRGcI</Chemin>
+        </Lien>
+        <Titre>Capitaine Alexandre Juving-Brunet | Conférence de presse</Titre>
+        <Presentation>Appel à relancer la politique à travers des comités populaires pour opposer un contre-pouvoir aux politiciens et suivre la mise en oeuvre de leurs promesses par les élus. Le capitaine Juving-Brunet est un chef d'entreprise touché par la crise et qui a décidé de lancer un mouvement.</Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2021-11-21</Ajout>
+        <Publication>2021-11-18</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>1h20'12</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=9JU3OwX-4xU</Chemin>
+        </Lien>
+        <Titre>Covid-19, la fin de l’Etat de droit ?</Titre>
+        <Presentation><b>Michael Esfeld</b>, professeur de philosophie des sciences à l'université de Lausanne, donne son avis sur les mesures gouvernementales prises en Suisse et ailleurs. Une mise en perspective historique.</Presentation>
+        <Tag>interview</Tag>
+        <Ajout>2021-11-25</Ajout>
+        <Publication>2021-11-14</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>38'32</Duree>
+        <Lien>
+          <Base>https://rumble.com</Base>
+          <Chemin>/vpma0v-the-path-out-of-trauma-enfr-reiner-fuellmich-ariane-bilheran.html</Chemin>
+        </Lien>
+        <Titre>Le chemin pour sortir du traumatisme</Titre>
+        <Presentation>Echange entre l'avocat international Reiner Fuellmich and Ariane Bilheran Dr en Psychopathologie pour comprendre la manière dont se met en place le totalitarisme. En anglais (sous-titré) et en Français. Ariane Bilheran définit la psychose paranoiaque de type hypochondriaque délirante qui a contaminé la société.</Presentation>
+        <Tag>totalitarisme</Tag>
+        <Tag>psychologie</Tag>
+        <Ajout>2021-11-25</Ajout>
+        <Publication>2021-11-22</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>1h07'53</Duree>
+        <Lien Censure="oui">
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=Hefv35YfaBU</Chemin>
+        </Lien>
+        <Titre>L'entretien interdit de Louis Fouché interrogé par Planete 360</Titre>
+        <Presentation>Des explications claires et argumentées de Louis Fouché en réponse à des questions précises sur la Covid, le confinement, le pass sanitaire, le vaccin, l'origine du virus, etc, en forme de bilan. Il donne une vision paisible de ce que pourrait être la politique santé dans notre société.</Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-11-26</Ajout>
+        <Publication>2021-11-17</Publication>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>26'01</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=aLKa-Qvsp5E</Chemin>
+        </Lien>
+        <Titre>Laurent Toubiana répond à nos questions</Titre>
+        <Presentation>L'épidémiologiste qui n'avait pas parlé depuis plusieurs mois revient sur les chiffres de l'épidémie qui ont servi de prétexte à l'état d'urgence sanitaire et à sa prolongation. Vous pouvez aussi lire sa <a href="https://www.francesoir.fr/opinions-tribunes/laurent-toubiana-la-cinquieme-vague-nouvel-episode-dun-feuilleton-qui-na-que-trop">Tribune</a>.</Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-12-04</Ajout>
+        <Publication>2021-11-25</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>24'07</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=M8W-9_40m98</Chemin>
+        </Lien>
+        <Titre>Pfizer, une entreprise qui vous veut du bien</Titre>
+        <Presentation><b>Idriss Aberkane</b> rappelle des antécédents historiques de l'unique fabriquant autorisé à écraser le marché européen dans la lutte anti-covid.</Presentation>
+        <Tag>politique</Tag>
+        <Tag>histoire</Tag>
+        <Ajout>2021-12-04</Ajout>
+        <Publication>2021-12-01</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Tag>politique</Tag>
+        <Duree>1'45</Duree>
+        <Lien>
+          <Base>https://www.publicsenat.fr</Base>
+          <Chemin>/article/politique/hydroxychloroquine-vitamine-d-arnaud-montebourg-demande-a-ouvrir-le-debat-sur-les</Chemin>
+        </Lien>
+        <Titre>Hydroxychloroquine, vitamine D : Arnaud Montebourg demande à « ouvrir le débat » sur les traitements ambulatoires précoces</Titre>
+        <Presentation>Passé les propos liminaires habituels consensuels sur la vaccination, <b>Arnaud Montebourg</b> s'interroge sur les résultats du gouvernement qui avait promis des traitements ambulatoires précoces et demande à ce que l'on ouvre le débat. Propos savoureux quand nous savons par ailleurs que les scientifiques eux-mêmes se heurtent aux lenteurs de l'ANSM dès lors qu'il s'agit de lancer des essais cliniques sur les traitements prophylactiques ou précoces... Voir à ce sujet la <a href="outils.html">Situation n°10</a> dans la boite à outils. Voir aussi à 10'42 le <a href="https://www.youtube.com/watch?v=KAAzcUUF4eA">SOS de Odile Duvaux</a>, directrice Générale de la Start-Up Nantaise Xenothera, qui a du mal à obtenir une ATU pour son  traitement XAV19.</Presentation>
+        <Ajout>2021-12-06</Ajout>
+        <Publication>2021-12-03</Publication>
+    </Video>
+
+    <Video Afficher="non">
+        <Tag>témoignage</Tag>
+        <Tag>victime</Tag>
+        <Duree>1h56'04</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@Vivresainement:f/effets-secondaires:74</Chemin>
+        </Lien>
+        <Titre>Vaccins Covid - Explosion d'effets secondaires</Titre>
+        <Presentation>Compilation vidéo de témoignages d'effets secondaires des injections contre le SARS-Cov2. Coïncidence ou causalité ? Il est plus difficile de soutenir la permière explication lorsque l'on est face à des victimes bien réelles et non pas des tableaux de chiffres.</Presentation>
+        <Ajout>2021-12-09</Ajout>
+        <Publication>2021-12-07</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>49'22</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=Rhdeb4nTZNs</Chemin>
+        </Lien>
+        <Titre>Totalitarisme sanitaire avant 3ème guerre mondiale ? - Politique &amp; Eco n°324 avec Valérie Bugault</Titre>
+        <Presentation><b>Valérie Bugault</b> magistrale nous ouvre les yeux sur le retournement du sens qui nous fait prendre la République pour ce qu'elle n'est plus (la chose publique) et expose les intérêts privés qui se la sont appropriée. Sa vision à plus long terme de la politique économique est inquiétante pour l'avenir de notre nation en Europe dont la France va prendre la présidence tournante en janvier (du conseil de l'Europe), néanmoins elle propose un antidote et des alliances qui pourraient infléchir les changements provoqués par le complexe digital financier si bien décrit par <a href="ernst-wolff.html">Ernst Wolff</a> dont nous avons transcrit un exposé précédemment.</Presentation>
+        <Tag>économie</Tag>
+        <Ajout>2021-12-17</Ajout>
+        <Publication>2021-12-13</Publication>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>2h 12'32</Duree>
+        <Lien>
+          <Base>https://www.tvlibertes.com</Base>
+          <Chemin>/le-samedi-politique-covid-2-heures-de-verite-apres-2-ans-de-mensonges</Chemin>
+        </Lien>
+        <Titre>Le Samedi Politique – Covid : 2 heures de vérité après 2 ans de mensonges !</Titre>
+        <Presentation>
+          <p>Emission récapitulative de 2 ans de crise par quatre scientifiques et médecins intègres que l'on aimerait voir sur les plateaux TV des chaines publiques. Après le <a href="https://www.doctothon.com">doctothon</a> de la semaine dernière et ses centaines de médecins qui ont témoigné pendant 24h d'affilée, la généticienne <b>Alexandra Henrion-Caude</b>, spécialiste de l’ARN, le professeur <b>Christian Perronne</b>, infectiologue et ancien conseiller des gouvernements en matière de santé publique, <b>Laurent Toubiana</b>, épidémiologiste et directeur de l’IRSAN, et <b>Laurent Montesino</b>, médecin réanimateur nous donnent d'autres pistes à mettre en oeuvre pour réellement s'en sortir. </p>
+          <p>À les écouter l'on comprend presque pourquoi le président du conseil scientifique <b>Jean-François Delfraissy</b>, ou le ministre de la santé <b>Olivier Veran</b> refusent le débat publique avec eux tant les mesures qu'ils nous imposent depuis 2 ans paraissent ridicules, voir nuisibles, en tenant compte des données de la science et des données du terrain.</p>
+        </Presentation>
+        <Tag>interview</Tag>
+        <Tag>medecine</Tag>
+        <Ajout>2021-12-18</Ajout>
+        <Publication>2021-12-18</Publication>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>48' 19</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=pVodZHnnvTQ</Chemin>
+        </Lien>
+        <Titre>Pass Vaccinal : jusqu'où iront-ils ?</Titre>
+        <Presentation>
+          <b>Marion Maréchal</b> ancienne députée du Vaucluse donne son avis sur la logique gouvernementale. Des propos modérés et critiques à la fois. Cet entretien résume bien avec des mots simples les observations qu'on peut faire avec un minimum de bon sens sur les choix de ces derniers mois.
+        </Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2021-12-29</Ajout>
+        <Publication>2021-12-22</Publication>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>1h 05' 13</Duree>
+        <Lien>
+          <Base>https://www.francesoir.fr</Base>
+          <Chemin>/videos-lentretien-essentiel/christian-velot-retour</Chemin>
+        </Lien>
+        <Titre>La vaccination généralisée est contre-productive</Titre>
+        <Presentation><b>Christian Velot</b> généticien moléculaire fait le point sur l'état du débat public autour de la vaccination. En particuliers il revient sur l'un des inconvénients des vaccins ARNm : leur capacité à favoriser l'apparition de nouveaux variants, qu'ils soient mutants ou recombinants, et prend le temps d'expliquer ce dont il s'agit.</Presentation>
+        <Tag>medecine</Tag>
+        <Tag>interview</Tag>
+        <Ajout>2021-12-29</Ajout>
+        <Publication>2021-12-11</Publication>
+    </Video>  
+        
+    <Video Afficher="oui">
+        <Duree>14'54</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=mwLlt3kob50</Chemin>
+        </Lien>
+        <Titre>Le pass sanitaire, c'est de l'apartheid</Titre>
+        <Presentation><b>Philippe de Villiers</b> dénonce le pass sanitaire, les mensonges répétés (sur le nombre de doses, sur le confinement, sur l'efficacité des vaccins, etc.) et le gouvernement par la peur pour faire avaler les mesures liberticides et faire accepter le choix du tout vaccinal. Il dénonce les liens d'intérêt entre la tête de la commission Européenne et Pfizer et la marche forcée vers une société de contrôle. Il confirme ainsi le scénario qu'il a décrit dans son livre <a href="https://www.librairie-agora.com/livre/9782226461995-le-jour-d-apres-philippe-de-villiers/">Le jour d'après</a> il y a 8 mois.</Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2021-12-28</Ajout>
+        <Publication>2021-12-20</Publication>        
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>3'02</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=nr-1W18i4gM</Chemin>
+        </Lien>
+        <Titre>Robert Malone, inventeur des vaccins à ARN : Omicron est un cadeau de Noël</Titre>
+        <Presentation>Une présentation pour le moins inhabituelle du variant Omicron qui fait si peur au gouvernement. Un sous-entendu même digne d'un thriller géo-politique ! À laquelle certains pourront peut-être trouver une prolongation dans cette <a href="https://pubmed.ncbi.nlm.nih.gov/34954396/">publication</a> curieuse.
+        </Presentation>
+        <Tag>medecine</Tag>
+        <Tag>interview</Tag>
+        <Ajout>2021-12-29</Ajout>
+        <Publication>2021-12-22</Publication>
+        <Langue>anglais</Langue>
+        <SousTitre>français</SousTitre>        
+    </Video>    
+
+    <Video Afficher="oui">
+        <Duree>6'44</Duree>
+        <Lien>
+          <Base>https://www.francetvinfo.fr</Base>
+          <Chemin>/sante/maladie/coronavirus/pass-sanitaire/video-pass-vaccinal-la-deputee-lfi-daniele-obono-veut-aller-dire-ca-suffit-devant-la-commission-des-lois_4897453.html</Chemin>
+        </Lien>
+        <Titre>Pass vaccinal : la députée LFI Danièle Obono veut aller dire "ça suffit" devant la commission des lois</Titre>
+        <Presentation><b>Danièle Obono</b> députée La France insoumise dénonce l'obligation déguisée derrière le passe sanitaire/vaccinal. Elle critique la stratégie de discorde du gouvernement et évoque la prévention et des mesures complémentaires.</Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2021-12-29</Ajout>
+        <Publication>2021-12-29</Publication>
+    </Video>    
+    
+    <Video Afficher="oui">
+        <Duree>36'07</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=nr-1W18i4gM</Chemin>
+        </Lien>
+        <Titre>Interview Geert Vanden Bossche</Titre>
+        <Presentation><b>Geert Vanden Bossche</b> virologue ayant travaillé pour la fondation GAVI et la fondation Bill et Melinda Gates donne une interview en Français dans laquelle il parle des vaccins, des enfants et de l'immunité. En particuliers à 16', à propos de la vaccination des enfants, il parle du remplacement de l'immunité innée forte des enfants, dirigée contre tous les virus, par une immunité ciblée sur un seul variant et des risques qui découlent de la mise hors jeu des anticorps innés... Il remet les points sur <i>i</i> concernant l'immunité de groupe.</Presentation>
+        <Tag>medecine</Tag>
+        <Tag>interview</Tag>
+        <Ajout>2021-12-29</Ajout>
+        <Publication>2021-12-23</Publication>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>1h13'22</Duree>
+        <Lien>
+          <Base>https://crowdbunker.com</Base>
+          <Chemin>/v/jePeltFW</Chemin>
+        </Lien>
+        <Titre>Entretien avec M. Izambert concernant l'ivermectine</Titre>
+        <Presentation>à propos de la sortie de son livre <a href="https://www.is-edition.com/actualites/parution-le-scandale-ivermectine-jean-loup-izambert/">Le scandale ivermectine : comment et pourquoi ils ont bloqué l'anti-covid-19</a>, paru aux éditions IS Edition en octobre 2021. Aussi disponible dans votre <a href="https://www.librairie-agora.com/livre/9782368452912-le-scandale-ivermectine-comment-et-pourquoi-ils-ont-bloque-l-anti-covid-19-jean-loup-izambert/">librairie</a>. Où l'on apprend que plus de 22 pays soignent les infections au SARS-Cov-2 avec l'Ivermectine (y compris le Japon), et où l'on comprend que l'ANSM et le ministère de la santé par l'entremise de M Véran et Salomon ont tout fait pour empêcher que l'on donne une RTU à l'Ivertmectine en dépit des recours de centaines de médecins.</Presentation>
+        <Tag>livre</Tag>
+        <Tag>auteur</Tag>
+        <Ajout>2022-01-03</Ajout>
+        <Publication>2021-12-31</Publication>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>2'34</Duree>
+        <Lien>
+          <Base>https://vimeo.com</Base>
+          <Chemin>/661997177/9d272fd6c5</Chemin>
+        </Lien>
+        <Titre>Martine Wonner - Assemblée Nationale - Vote du pass vaccinal</Titre>
+        <Presentation>
+          Intervention de <b>Martine Wonner</b> à l'Assemblée Nationale ce jour de vote du pass vaccinal. Ecoutez aussi la réponse méprisante de Véran <a href="https://www.dailymotion.com/video/x86r8g5">la chloroquine ça ne se fume pas</a>, ces propos insultants ont-ils vraiment leur place dans l'hémicycle, face à la gravité de cette loi les Français apprécieront... a
+        </Presentation>
+        <Tag>politique</Tag>
+        <Ajout>2022-01-03</Ajout>
+        <Publication>2022-01-03</Publication>
+    </Video>  
+  </Videos>
 </Ressources>

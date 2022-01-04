@@ -1,310 +1,770 @@
 <Ressources>
-    <Articles>
-        <Article Afficher="oui">
-            <Tag>faq</Tag>
-            <Ajout>2021-09-29</Ajout>
-            <Parution>2021-09-26</Parution>            <Lien>https://guyboulianne.com/2021/09/26/les-30-faits-vitaux-covid-que-vous-devez-savoir-pour-vous-aider-a-formuler-et-a-soutenir-vos-arguments-avec-des-amis-ou-des-etrangers/</Lien>
-            <Titre>Les 30 faits vitaux COVID que vous devez savoir pour vous aider à formuler et à soutenir vos arguments avec des amis ou des étrangers</Titre>
-            <Auteur>Guy Boulianne</Auteur>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>analyse</Tag>
-            <Ajout>2021-10-01</Ajout>
-            <Parution>2012-03-08</Parution>
-            <Lien>http://myreader.toile-libre.org/uploads/My_61549b0f4852d.pdf</Lien>
-            <Titre>"Contagion" : Comment les films catastrophe "éduquent" les masses</Titre>
-            <Auteur>Vigilant Citizen</Auteur>
-        </Article>
-        <Article Afficher="oui">
-          <Tag>sport</Tag>
-          <Sport>tennis</Sport>
-          <Parution>2021-09-23</Parution>
-          <Ajout>2021-10-01</Ajout>
-          <Commentaire>Jérémy Chardy est un brillant joueur de tennis (73e mondial)</Commentaire>
-          <Titre>Diminué depuis qu'il est vacciné, Jérémy Chardy suspend sa saison</Titre>
-          <Lien>https://www.lequipe.fr/Tennis/Actualites/Jeremy-chardy-suspend-sa-saison/1287521</Lien>
-          <Auteur>L'équipe</Auteur>
-        </Article>
-        <Article Afficher="oui">
-          <Tag>sport</Tag>
-          <Commentaire>Christophe Lemaitre n'a effectivement pas participé aux JO de Tokyo</Commentaire>
-          <Parution>2021-06-25</Parution>
-          <Ajout>2021-10-01</Ajout>
-          <Titre>Athlétisme: après une mauvaise réaction au vaccin anti-Covid, Christophe Lemaître s'inquiète pour les JO de Tokyo</Titre>           <Lien>https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/savoie/athletisme-apres-une-mauvaise-reaction-au-vaccin-anti-covid-christophe-lemaitre-s-inquiete-pour-les-jo-de-tokyo-2153956.amp</Lien>    
-          <Auteur>France 3 régions</Auteur>
-        </Article>
-        <Article Afficher="oui">
-          <Tag>sport</Tag>
-          <Parution>2021-09-29</Parution>
-          <Commentaire>Repris de la page Facebook de Antoine Méchin, lien vers l'interview pour Sud-Ouest en fin d'article</Commentaire>
-          <Ajout>2021-10-01</Ajout>
-          <Titre>Le triathlète saintais Antoine Méchin met un terme à sa saison et « ne se referait pas vacciner si c’était à refaire »</Titre> <Lien>https://resistance-mondiale.com/le-triathlete-saintais-antoine-mechin-met-un-terme-a-sa-saison-et-ne-se-referait-pas-vacciner-si-cetait-a-refaire</Lien>          <LienAlt>https://www.sudouest.fr/sport/course-pedestre/triathlon/le-triathlete-saintais-antoine-mechin-met-un-terme-a-sa-saison-et-ne-se-referait-pas-vacciner-si-c-etait-a-refaire-6234090.php</LienAlt>
-          <Auteur>Résistance (blog)</Auteur>
-        </Article>
-        <Article Afficher="oui">
-          <Tag>sport</Tag>
-          <Commentaire>Aucune mention de vaccination dans la presse, le doute est permis. N'hésitez pas à nous prévenir si vous avez cette information. Nous lui souhaitons un prompt rétablissement. Après le joueur danois Christian Eriksen encore un footbaleur victime d'un malaise cardiaque.</Commentaire>
-          <Auteur>Ouest-France</Auteur>
-          <Parution>2021-09-17</Parution>
-          <Ajout>2021-10-01</Ajout>
-          <Titre>FC Nantes. National 2 : un jeune plongé dans le coma après un malaise cardiaque</Titre>
-<Lien>https://www.ouest-france.fr/sport/football/fc-nantes/fc-nantes-national-2-un-jeune-plonge-dans-le-coma-apres-un-malaise-cardiaque-2e3cd5f8-178a-11ec-980f-18f5c72f36bc</Lien>
-<LienAlt>https://www.foot-national.com/national-2/nantes-un-joueur-actuellement-hospitalise-679931</LienAlt>
-        </Article>
-        <Article Afficher="oui">
-          <Tag>sport</Tag>
-          <Commentaire>Morte d'une hémorragie cérébrale. Aucun rapprochement avec une vaccination dans la presse; sur twitter certains évoquent sa dernière publication Facebook pro-vaccination la veille de sa mort. N'hésitez pas à nous prévenir si vous avez cette information.</Commentaire>
-          <Auteur>Voici</Auteur>
-          <Parution>2021-07-04</Parution>
-          <Ajout>2021-10-01</Ajout>
-          <Titre>Mort de Lise Vidal : la double championne d’Europe de planche à voile est décédée à l'âge de 43 ans</Titre> <Lien>https://www.voici.fr/news-people/actu-people/mort-de-lise-vidal-la-double-championne-deurope-de-planche-a-voile-est-decedee-a-lage-de-43-ans-707474</Lien> 
-        </Article>
-        <Article Afficher="oui">
-            <Tag>lettre</Tag>
-            <Ajout>2021-10-12</Ajout>
-            <Parution>2021-10-11</Parution>
-            <Lien>https://nouveau-monde.ca/lettre-ouverte-aux-presidents-des-conseils-de-lordre-et-a-tous-mes-confreres-cliniciens/</Lien>
-            <LienAlt>https://www.profession-gendarme.com/lettre-ouverte-aux-presidents-des-conseils-de-lordre-et-a-tous-mes-confreres-cliniciens/</LienAlt>
-            <LienPDF>docs/lettre-ouverte-jean-stevens.pdf</LienPDF>
-            <Titre>Lettre ouverte aux présidents des conseils de l’Ordre et à tous mes confrères cliniciens</Titre>
-            <Auteur>Jean Stevens</Auteur>
-            <Commentaire>Lettre d'un médecin vacciné ! Percutant. Faites circuler, à diffuser aux personnel de santé, à tous les médecins. Extrait : <i>depuis lors (seconde injection), je souffre de douleurs musculaires diffuses et de transpirations à l’effort qui me donnent le sentiment d’avoir vieilli de 10 ans. Ces effets secondaires invalidants ainsi que l’émergence évidente, dans mon entourage proche, d’autres effets secondaires nullement bénins et d’une défiance croissante vis-à-vis des contraintes imposées par ces « autorités » m’ont poussé à tenter d’éclairer au mieux ma lanterne. Et si j’écris cette lettre, c’est parce que je sors atterré de ce que j’ai découvert</i>.</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>lettre</Tag>
-            <Ajout>2021-10-11</Ajout>
-            <Parution>2021-10-02</Parution>
-            <Lien>https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/</Lien>
-            <LienPDF>docs/lettre-ouverte-professeur-balique.pdf</LienPDF>
-            <Titre>Lettre ouverte du Professeur Balique aux parlementaires</Titre>
-            <Auteur>Professeur Jean Gabriel BALIQUE</Auteur>
-            <Commentaire>Synthèse claire sur les risques et les échecs de la stratégie toute vaccinale</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>prospective</Tag>
-            <Ajout>2021-10-12</Ajout>
-            <Parution>2017-10-01</Parution>
-            <Lien>https://www.strategie.gouv.fr/publications/resorber-dettes-publiques-zone-euro</Lien>
-            <LienPDF>https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/note_danalyse_ndeg62_-_comment_assurer_la_resorption_des_dettes_publiques_en_zone_euro_-_web.pdf</LienPDF>
-            <Titre>Comment assurer la résorption des dettes publiques en zone euro ?</Titre>
-            <Auteur>Vincent Aussilloux, Christophe Gouardo, Fabrice Lenglart et Marie Cases (Note d'analyse France Stratégie)</Auteur>
-            <Commentaire>Après la crise sanitaire il faudra bien faire face à la crise de la dette causée par celle-ci. Dès 2017 cette note d'analyse donne des pistes. Celle-ci en particuliers : <i>"Concrètement, une façon de procéder consisterait en ce que l’État décrète qu’il devient copropriétaire de tous les terrains construits résidentiels, à hauteur d’une fraction fixée de leur valeur, et que ce nouveau droit de propriété est désormais incessible. En conséquence, l’État deviendrait créditeur d’une somme annuelle, correspondant à une part de la fraction de la rente immobilière associée à la copossession du terrain"</i> (p9, col. de gauche)</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>lettre</Tag>
-            <Ajout>2021-10-12</Ajout>
-            <Parution>2017-10-10</Parution>
-            <Lien>https://bonsens.info/lettre-aux-senatrices-et-senateurs/</Lien>              <LienPDF>https://bonsens.info/wp-content/uploads/2021/10/lettre-aux-senateurs-projet-vaccination-obligatoire.pdf</LienPDF>
-            <Titre>Lettre aux Sénatrices et Sénateurs</Titre>
-            <Auteur>Association Bonsens.org</Auteur>
-            <Commentaire>Encore une lettre richement argumentée contre l'obligation vaccinale</Commentaire>
-        </Article>
-        <Article Afficher="non">
-            <Tag>victime</Tag>
-            <Ajout>2021-10-13</Ajout>
-            <Parution>2021-10-13</Parution>
-            <Lien>https://bonsens.info/lettre-aux-senatrices-et-senateurs/</Lien>              <LienPDF>https://bonsens.info/wp-content/uploads/2021/10/lettre-aux-senateurs-projet-vaccination-obligatoire.pdf</LienPDF>
-            <Titre>Nay : un collégien d’Henri-IV décède à la suite d’un malaise</Titre>
-            <Auteur>Bernard Semerjian (La République des Pyrénées)</Auteur>
-            <Commentaire>Un élève de 4e est décédé ce mercredi après-midi, à l’hôpital de Pau. Plus tôt dans la journée, il avait fait un malaise lors d’un cours de sport, au collège Henri-IV. Il aurait été victime d’un malaise cardiaque.</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>sport</Tag>
-            <Ajout>2021-10-13</Ajout>
-            <Parution>2021-10-13</Parution>
-            <Lien>https://thecovidworld.com/brandon-goodwin-26-year-old-nba-player-suffers-blood-clots-shortly-after-receiving-the-covid-19-vaccine/</Lien>
-            <Titre>Brandon Goodwin: joueur de basket NBA de 26 ans souffrant de caillots sanguins peu après avoir reçu un vaccin COVID-19 pourrait arrêter sa carrière</Titre>
-            <Auteur>The Covid World</Auteur>            
-            <Commentaire>Il a mis fin à sa saison et n'a pas signé avec de nouveau club pour la prochaine : “<i>I was fine until then, I was fine up until I took the vaccine, I was fine. People trying to tell you, ‘No. It’s not the vaccine.’ How do you know?” Goodwin asked. “You don’t know. Yes, the vaccine ended my season. One thousand percent.</i>”</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>prospective</Tag>
-            <Ajout>2021-10-13</Ajout>
-            <Parution>2020-10-28</Parution>
-            <Lien>https://www.gouvernement.fr/et-si-le-covid-durait-le-haut-commissaire-au-plan-lance-le-debat</Lien>
-            <LienPDF>https://www.gouvernement.fr/sites/default/files/contenu/piece-jointe/2020/10/plan_et_si_la_covid_durait_28_octobre_2020.pdf</LienPDF>
-            <Titre>Et si la Covid durait ?</Titre>
-            <Auteur>Haut-Commissariat au Plan - Note d'ouverture</Auteur>
-            <Commentaire>Curieuse note d'accompagnement du <i>great reset</i> ou bien cri d'alerte sur sa légitimité ?</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>inexpliqué</Tag>
-            <Ajout>2021-10-19</Ajout>
-            <Parution>2020-10-18</Parution>              <Lien>https://www.ouest-france.fr/pays-de-la-loire/doix-les-fontaines-85200/covid-19-cluster-a-doix-les-fontaines-un-schema-vaccinal-complet-aa1701ce-3023-11ec-b653-4cec8da29c4d</Lien>
-            <Titre>Covid-19. Cluster à Doix-lès-Fontaines : « un schéma vaccinal complet »</Titre>
-            <Auteur>Magali SCHAAL - Ouest France</Auteur>
-            <Source>ouest-france</Source>
-            <Commentaire>24 cas Covid détectés dont une personne décéde sur 67 résidents ayant reçu une troisième dose « entre le 27 septembre et le 3 octobre » à la maison de retraite Saint-Luc en Vendée, le mystère est total et l'on se demande bien ce qui a pu se passer ? si ni le pass sanitaire ni l'injection n'ont rien pu faire, où allons nous ?</Commentaire>
-        </Article>   
-        <Article Afficher="oui">
-            <Tag>inexpliqué</Tag>
-            <Ajout>2021-10-31</Ajout>
-            <Parution>2020-10-31</Parution>              <Lien>https://www.lelibrepenseur.org/lexemple-de-la-vendee-demontre-lechec-de-la-politique-vaccinale/</Lien>
-            <Titre>L’exemple de la Vendée démontre l’échec de la politique vaccinale !</Titre>
-            <Auteur>lelibrepenseur.org</Auteur>
-            <Commentaire>Avec un taux de vaccination de près de 85 %, la Vendée est en train de vivre une augmentation des cas positifs au Covid-19 ainsi que des personnes hospitalisées. Les personnes qui augmentent le plus les chiffres des hospitalisations sont les plus âgées et donc les plus vaccinées.</Commentaire>
-        </Article> 
-        <Article Afficher="oui">
-            <Tag>inexpliqué</Tag>
-            <Ajout>2021-10-31</Ajout>
-            <Parution>2020-06-04</Parution>              <Lien>https://www.rtl.fr/actu/bien-etre/coronavirus-sept-pretres-de-la-meme-communaute-sont-morts-en-vendee-7900040538</Lien>
-            <Titre>Coronavirus : sept prêtres de la même communauté sont morts en Vendée</Titre>
-            <Auteur>Camille Guesdon</Auteur>
-            <Source>RTL</Source>
-            <Commentaire>Décès de 7 Fils de Marie Immaculée sur les 23 que compte la communauté, prêtres en retraite à Chavagnes-en- Paillers en Vendée, dans les 15 jours suivant la première injection au mois de juin 2021.</Commentaire>
-        </Article>                                
-        <Article Afficher="oui">
-            <Tag>analyse</Tag>
-            <Ajout>2021-10-31</Ajout>
-            <Parution>2012-10-22</Parution>            <Lien>https://fr.sott.net/article/38526-L-histoire-de-Moderna-Une-entreprise-en-quete-d-une-intervention-miraculeuse-de-la-Sainte-Vierge</Lien>
-            <Titre>L'histoire de Moderna — Une entreprise en quête d'une « intervention miraculeuse de la Sainte Vierge »</Titre>
-            <Auteur>Whitney Webb</Auteur>
-            <Source>SOTT.net</Source>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>lettre</Tag>
-            <Ajout>2021-11-01</Ajout>
-            <Parution>2021-10-26</Parution>
-            <LienPDF>https://www.cadoc.fr/cslv85/archives/2021/01/Lettre-EDF-26.10.21-Laurent-Aventin.pdf</LienPDF>
-            <Titre>COVID : Lettre ouverte aux évêques de France</Titre>
-            <Auteur>Laurent Aventin, PhD</Auteur>
-            <Commentaire>Une lettre rédigée en réaction, entre autre, à la phrase « la vaccination est la réponse médicale disponible pour faire face à cette épidémie » dans la <a href="https://eglise.catholique.fr/conference-des-eveques-de-france/textes-et-declarations/517467-pass-sanitaire-/">tribune des évêques de France</a>, publiée le 22 juillet 2021. L'auteur est consultant indépendant en santé publique depuis 25 ans, il réagit en tant que professionnel de la santé publique et en tant que catholique.</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>lettre</Tag>
-            <Tag>citoyen</Tag>
-            <Ajout>2021-11-09</Ajout>
-            <Parution>2021-11-03</Parution>
-            <Lien>https://www.apar.tv/societe/mehdi-belhaj-kacem-signe-la-lettre-ouverte-politique-la-plus-violente-du-21eme-siecle/</Lien>
-            <Titre>Lettre ouverte de Mehdi Belhaj Kacem</Titre>
-            <Auteur>Mehdi Belhaj Kacem</Auteur>
-            <Commentaire>Lettre d'un écrivain philosophe en réponse au "mot du maire" de Turenne (19500, Corrèze)</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>lettre</Tag>
-            <Tag>citoyen</Tag>
-            <Ajout>2021-11-09</Ajout>
-            <Parution>2021-11-08</Parution>
-            <Lien>https://www.francesoir.fr/opinions-tribunes/je-ne-peux-plus-me-taire</Lien>
-            <Titre>"Je ne peux plus me taire" : un journaliste allemand dénonce les mensonges médiatiques liés au Covid</Titre>
-            <Auteur>Ole Skambraks</Auteur>
-            <Commentaire>Lettre ouverte d'un journaliste Allemand dénonçant ce qui se passe depuis un an et demi chez son empoyeur radiodiffuseur du service public.</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>lettre</Tag>
-            <Tag>citoyen</Tag>
-            <Ajout>2021-11-09</Ajout>
-            <Parution>2021-11-01</Parution>                        
-            <LienPDF>https://www.cadoc.fr/cslv85/archives/2021/02/courrier-nos-enfants-sans-masque.pdf</LienPDF>
-            <Titre>Courrier du mois de Novembre du collectif "Nos Enfants Sans Masque"</Titre>
-            <Auteur>Collectif</Auteur>
-            <Commentaire>Point sur la rentrée de novembre et les menaces qui pèsent sur nos enfants. Contient un lien vers une <a href="https://docs.google.com/forms/d/e/1FAIpQLSdksBvYbCqNmzBCm_eZ4DvnKO-YLCIiBaD9vNor0lcVxbcf4g/viewform">action juridique</a> visant la prise en considération de l’impact de la mesure du port du masque pour les enfants en élémentaire.</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>victimes</Tag>
-            <Ajout>2021-11-12</Ajout>
-            <Parution>2021-09-21</Parution>                        
-            <Lien>https://basta-covid.fr/vaccins-arn-adn-des-effets-pas-si-secondaires/</Lien>
-            <Titre>Vaccins ARN – ADN : des effets (pas si) secondaires ?</Titre>
-            <Auteur>Basta Covid! (site web)</Auteur>
-            <Commentaire>Liste des effets secondaires potentiels à partir des données de l'ANSM.</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>victimes</Tag>
-            <Ajout>2021-11-12</Ajout>
-            <Lien>https://www.vaxtestimonies.org/en/</Lien>
-            <Titre>The testimonies project</Titre>
-            <Auteur>Site web</Auteur>
-            <Commentaire>Témoignages vidéos de victimes d'effet secondaires de la vaccination (en Israel, sous-titré en anglais).</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>victimes</Tag>
-            <Ajout>2021-11-12</Ajout>
-            <Lien>https://etincelles.be</Lien>
-            <Titre>Etincelles.be</Titre>
-            <Auteur>Site web</Auteur>
-            <Commentaire>Plus de 800 témoignages d'effets secondaires récoltés sur des réseaux sociaux tels que Facebook, Twitter, Instagram, Tik Tok.</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>insolite</Tag>
-            <Ajout>2021-11-14</Ajout>            <Lien>https://www.aubedigitale.com/lelite-mondiale-craint-quune-rebellion-ne-couve-declare-le-pdg-dun-grand-constructeur-de-bunkers-anti-apocalypse/</Lien>
-            <Titre>L’élite mondiale « craint qu’une rébellion ne couve », déclare le PDG d’un grand constructeur de bunkers anti-apocalypse</Titre>
-            <Auteur>Site web</Auteur>
-            <Commentaire>Ron Hubbard, le PDG d’Atlas Survival Shelters, déclare dans une interview que le marché de la construction de bunkers est en train d’exploser car les élites commencent à craindre le réveil des masses...</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-          <Tag>sport</Tag>
-          <Parution>2021-11-16</Parution>
-          <Ajout>2021-11-16</Ajout>
-          <Commentaire>Des dizaines voir des centaines de cas sont à présent recensés d'effondrements d'athlètes, en jouant, en 2021. Dans la plupart des cas la cause de l’effondrement est liée au cœur, la deuxième cause concerne les événements de coagulation.</Commentaire>
-          <Titre>Ces signaux de surmortalité qui devraient alerter... Creutfer Jacob , sportifs</Titre>
-          <Lien>https://pgibertie.com/2021/11/16/ces-signaux-de-surmortalite-qui-devraient-alerter-creutfer-jacob-sportifs</Lien>
-          <Auteur>Patrice Gibertie</Auteur>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>securite</Tag>
-            <Ajout>2021-11-17</Ajout>
-            <Parution>2021-31-10</Parution>
-            <Lien>https://www.covid-factuel.fr/2021/10/31/quand-pfizer-demontre-linefficacite-du-vaccin/</Lien>
-            <Titre>Quand Pfizer démontre l’inefficacité du vaccin</Titre>
-            <Auteur>Zola (Site Web)</Auteur>
-            <Commentaire>Les essais cliniques qui ont mené à l'autorisation conditionnelle pour Pfizer sont-ils aussi probants qu'annoncés par la presse ? Les mythes tombent les uns après les autres. Savez-vous par exemple que la seconde étude Pfizer à 6 mois (jusqu'en Juillet 2021) sur son essai clinique trouve 14 morts dans le groupe placebo et 15 morts dans le groupe des vaccinés... Quel médicament serait autorisé à la vente avec de tels résultats à 6 mois ? Aucun. Les traitements précoces ont été rejetés pour moins que cela.</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>securite</Tag>
-            <Ajout>2021-11-17</Ajout>
-            <Parution>2021-11-03</Parution>
-            <Lien>https://www.francesoir.fr/societe-sante/pfizer-gate-ventavia</Lien>
-            <Titre>"PfizerGate" ? Révélations sur des essais cliniques falsifiés par le triptyque Pfizer - Ventavia - FDA</Titre>
-            <Auteur>France Soir</Auteur>
-            <Commentaire>Fraude de grande ampleur dénoncée chez Ventavia, un des sous-traitants de Pfizer ayant participé à son essai clinique pour l'autorisation conditionnelle de son vaccin. Les pratiques frauduleuses ont été révélées par un employé, publiées dans le <a href="https://www.bmj.com/content/375/bmj.n2635">British Medical Journal</a>, entrainant des <a href="https://association-victimes-coronavirus-france.org/plainte-contre-pfizer-pour-mise-en-danger-deliberee-de-la-vie-dautrui-par-violation-dune-obligation-particuliere-de-prudence-pfizergate/">dépôts de plaintes</a>.</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Tag>securite</Tag>
-            <Ajout>2021-11-17</Ajout>
-            <Parution>2021-08-28</Parution>
-            <Lien>https://www.lefigaro.fr/flash-eco/lots-contamines-de-vaccins-moderna-le-japon-enquete-sur-deux-deces-20210828</Lien>
-            <Titre>Lots contaminés de vaccins Moderna: le Japon enquête sur deux décès</Titre>
-            <Auteur>Le Figaro</Auteur>
-            <Commentaire>1,63 million de doses du vaccin Moderna retirées au Japon. Des <a href="https://www.lefigaro.fr/flash-eco/covid-19-1-63-million-de-vaccins-moderna-suspendus-au-japon-a-cause-d-une-anomalie-20210826">impuretés</a> trouvées dans les fioles du serum. Comment de tels lots ont pu être libérés par la fabriquant ?</Commentaire>
-        </Article>
-        <Article Afficher="oui">
-            <Lien>https://www.francesoir.fr/politique-monde/lue-devoile-un-plan-pour-un-nouveau-portefeuille-didentite-numerique</Lien>
-            <Titre>L’UE dévoile un plan pour un nouveau portefeuille d'identité numérique</Titre>
-            <Commentaire>Nouvel outil proposé par l'Union Européenne, la <a href="https://digital-strategy.ec.europa.eu/en/library/trusted-and-secure-european-e-id-recommendation">recommendation</a> devra être approuvée par les législateurs du Parlement européen et des 27 gouvernements de l'UE. Progrès ou démultiplication des possibilité de contrôle et d'instauration de passes en tout genre dans le futur ?</Commentaire>
-            <Tag>identite</Tag>
-            <Auteur>France Soir</Auteur>
-            <Ajout>2021-11-17</Ajout>
-            <Parution>2021-06-04</Parution>            
-        </Article>        
-        <Article Afficher="oui">
-            <Duree>3'37</Duree>                      <Lien>https://twitter.com/v_joron/status/1455143787882323968?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1455143787882323968%7Ctwgr%5E%7Ctwcon%5Es1_&amp;ref_url=http%3A%2F%2Fwww.parolesdedieu.fr%2Fune-eurodeputee-alerte-on-est-a-deux-doigts-de-la-puce-electronique-sous-la-peau%2F</Lien>
-            <Titre>Identité numérique européenne : progrès ou flicage généralisé ? (vidéo)</Titre>
-            <Commentaire>Virginie Joron, députée européenne pour le Rassemblement National, se pose des questions sur les excès futurs de l'introduction d'un portefeuille d’identité numérique tel que l'a proposé l'Union Européenne en juin 2021.</Commentaire>
-            <Tag>identite</Tag>
-            <Auteur>Virginie Joron</Auteur>
-            <Ajout>2021-11-17</Ajout>
-            <Parution>2021-11-01</Parution>            
-        </Article>
+  <Articles>
 
-        <Article Afficher="oui">            <Lien>https://fr.sott.net/article/38737-Catherine-Austin-Fitts-balance-tout-Le-seul-choix-qui-nous-reste-c-est-l-esclavage-ou-la-liberte</Lien>
-            <Titre>Catherine Austin-Fitts balance tout : « Le seul choix qui nous reste c'est l'esclavage ou la liberté »</Titre>
-            <Commentaire>Catherine Austin Fitts conseillère financière US relie les points entre pass sanitaire, identité numérique, monnaie numérique de banques centrales et société de contrôle. Elle dénonce le passeport vaccinal comme un rouage essentiel vers la mise en place d'une plate-forme de transaction numérique. Celui-ci sera combiné par la suite avec le contrôle des transactions monétaires par une banque centrale.</Commentaire>
-            <Tag>identite</Tag>
-            <Auteur>Jean Bitterlin (pour la traduction)</Auteur>
-            <Ajout>2021-11-24</Ajout>
-            <Parution>2021-11-13</Parution>            
-            <Source>SOTT.net</Source>
-        </Article>        
+    <Article Afficher="oui">
+      <Tag>faq</Tag>
+      <Ajout>2021-09-29</Ajout>
+      <Publication>2021-09-26</Publication>
+      <Lien>
+        <Base>https://guyboulianne.com</Base>
+        <Chemin>/2021/09/26/les-30-faits-vitaux-covid-que-vous-devez-savoir-pour-vous-aider-a-formuler-et-a-soutenir-vos-arguments-avec-des-amis-ou-des-etrangers/</Chemin>
+      </Lien>
+      <Titre>Les 30 faits vitaux COVID que vous devez savoir pour vous aider à formuler et à soutenir vos arguments avec des amis ou des étrangers</Titre>
+      <Auteur>Guy Boulianne</Auteur>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>analyse</Tag>
+      <Ajout>2021-10-01</Ajout>
+      <Publication>2012-03-08</Publication>
+      <Lien>
+        <Base>http://myreader.toile-libre.org</Base>
+        <Chemin>/uploads/My_61549b0f4852d.pdf</Chemin>
+      </Lien>
+      <Titre>"Contagion" : Comment les films catastrophe "éduquent" les masses</Titre>
+      <Auteur>Vigilant Citizen</Auteur>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>sport</Tag>
+      <Sport>tennis</Sport>
+      <Publication>2021-09-23</Publication>
+      <Ajout>2021-10-01</Ajout>
+      <Presentation>Jérémy Chardy est un brillant joueur de tennis (73e mondial)</Presentation>
+      <Titre>Diminué depuis qu'il est vacciné, Jérémy Chardy suspend sa saison</Titre>
+      <Lien>
+        <Base>https://www.lequipe.fr</Base>
+        <Chemin>/Tennis/Actualites/Jeremy-chardy-suspend-sa-saison/1287521</Chemin>
+      </Lien>
+      <Auteur>L'équipe</Auteur>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>sport</Tag>
+      <Presentation>Christophe Lemaitre n'a effectivement pas participé aux JO de Tokyo</Presentation>
+      <Publication>2021-06-25</Publication>
+      <Ajout>2021-10-01</Ajout>
+      <Titre>Athlétisme: après une mauvaise réaction au vaccin anti-Covid, Christophe Lemaître s'inquiète pour les JO de Tokyo</Titre>
+      <Lien>
+        <Base>https://france3-regions.francetvinfo.fr</Base>
+        <Chemin>/auvergne-rhone-alpes/savoie/athletisme-apres-une-mauvaise-reaction-au-vaccin-anti-covid-christophe-lemaitre-s-inquiete-pour-les-jo-de-tokyo-2153956.amp</Chemin>
+      </Lien>    
+      <Auteur>France 3 régions</Auteur>
+    </Article>
         
-        <Article Afficher="oui">
-            <Tag>victimes</Tag>
-            <Ajout>2021-11-17</Ajout>
-            <Parution>2021-10-29</Parution>                        
-            <Lien>https://www.verity-france.org</Lien>
-            <Titre>Verity France</Titre>
-            <Auteur>Site Web</Auteur>
-            <Commentaire>Site créé par les parents de victimes des injections.</Commentaire>
-        </Article>                
-    </Articles>
+    <Article Afficher="oui">
+      <Tag>sport</Tag>
+      <Publication>2021-09-29</Publication>
+      <Presentation>Repris de la page Facebook de Antoine Méchin, lien vers l'interview pour Sud-Ouest en fin d'article</Presentation>
+      <Ajout>2021-10-01</Ajout>
+      <Titre>Le triathlète saintais Antoine Méchin met un terme à sa saison et « ne se referait pas vacciner si c’était à refaire »</Titre>
+      <Lien>
+        <Base>https://resistance-mondiale.com</Base>
+        <Chemin>/le-triathlete-saintais-antoine-mechin-met-un-terme-a-sa-saison-et-ne-se-referait-pas-vacciner-si-cetait-a-refaire</Chemin>
+      </Lien>
+      <Lien>
+        <Base>https://www.sudouest.fr</Base>
+        <Chemin>/sport/course-pedestre/triathlon/le-triathlete-saintais-antoine-mechin-met-un-terme-a-sa-saison-et-ne-se-referait-pas-vacciner-si-c-etait-a-refaire-6234090.php</Chemin>
+      </Lien>
+      <Auteur>Résistance (blog)</Auteur>
+    </Article>
+        
+    <Article Afficher="oui">
+      <Tag>sport</Tag>
+      <Presentation>Aucune mention de vaccination dans la presse, le doute est permis. N'hésitez pas à nous prévenir si vous avez cette information. Nous lui souhaitons un prompt rétablissement. Après le joueur danois Christian Eriksen encore un footbaleur victime d'un malaise cardiaque.</Presentation>
+      <Auteur>Ouest-France</Auteur>
+      <Publication>2021-09-17</Publication>
+      <Ajout>2021-10-01</Ajout>
+      <Titre>FC Nantes. National 2 : un jeune plongé dans le coma après un malaise cardiaque</Titre>
+      <Lien>
+        <Base>https://www.ouest-france.fr</Base>
+        <Chemin>/sport/football/fc-nantes/fc-nantes-national-2-un-jeune-plonge-dans-le-coma-apres-un-malaise-cardiaque-2e3cd5f8-178a-11ec-980f-18f5c72f36bc</Chemin>
+      </Lien>
+      <Lien>
+        <Base>https://www.foot-national.com</Base>
+        <Chemin>/national-2/nantes-un-joueur-actuellement-hospitalise-679931</Chemin>
+      </Lien>
+    </Article>
+        
+    <Article Afficher="oui">
+      <Tag>sport</Tag>
+      <Presentation>Morte d'une hémorragie cérébrale. Aucun rapprochement avec une vaccination dans la presse; sur twitter certains évoquent sa dernière publication Facebook pro-vaccination la veille de sa mort. N'hésitez pas à nous prévenir si vous avez cette information.</Presentation>
+      <Auteur>Voici</Auteur>
+      <Publication>2021-07-04</Publication>
+      <Ajout>2021-10-01</Ajout>
+      <Titre>Mort de Lise Vidal : la double championne d’Europe de planche à voile est décédée à l'âge de 43 ans</Titre>  
+      <Lien>
+        <Base>https://www.voici.fr</Base>
+        <Chemin>/news-people/actu-people/mort-de-lise-vidal-la-double-championne-deurope-de-planche-a-voile-est-decedee-a-lage-de-43-ans-707474</Chemin>
+      </Lien> 
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Ajout>2021-10-12</Ajout>
+      <Publication>2021-10-11</Publication>
+      <Lien>
+        <Base>https://nouveau-monde.ca</Base>
+        <Chemin>/lettre-ouverte-aux-presidents-des-conseils-de-lordre-et-a-tous-mes-confreres-cliniciens/</Chemin>
+      </Lien>
+      <Lien>
+        <Base>https://www.profession-gendarme.com</Base>
+        <Chemin>/lettre-ouverte-aux-presidents-des-conseils-de-lordre-et-a-tous-mes-confreres-cliniciens/</Chemin>
+      </Lien>
+      <LienPDF>docs/lettre-ouverte-jean-stevens.pdf</LienPDF>
+      <Titre>Lettre ouverte aux présidents des conseils de l’Ordre et à tous mes confrères cliniciens</Titre>
+      <Auteur>Jean Stevens</Auteur>
+      <Presentation>Lettre d'un médecin vacciné ! Percutant. Faites circuler, à diffuser aux personnel de santé, à tous les médecins. Extrait : <i>depuis lors (seconde injection), je souffre de douleurs musculaires diffuses et de transpirations à l’effort qui me donnent le sentiment d’avoir vieilli de 10 ans. Ces effets secondaires invalidants ainsi que l’émergence évidente, dans mon entourage proche, d’autres effets secondaires nullement bénins et d’une défiance croissante vis-à-vis des contraintes imposées par ces « autorités » m’ont poussé à tenter d’éclairer au mieux ma lanterne. Et si j’écris cette lettre, c’est parce que je sors atterré de ce que j’ai découvert</i>.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Ajout>2021-10-11</Ajout>
+      <Publication>2021-10-02</Publication>
+      <Lien>
+        <Base>https://une-vraie-politique-pour-notre-pays.net</Base>
+        <Chemin>/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/</Chemin>
+      </Lien>
+      <LienPDF>docs/lettre-ouverte-professeur-balique.pdf</LienPDF>
+      <Titre>Lettre ouverte du Professeur Balique aux parlementaires</Titre>
+      <Auteur>Professeur Jean Gabriel BALIQUE</Auteur>
+      <Presentation>Synthèse claire sur les risques et les échecs de la stratégie toute vaccinale</Presentation>
+  </Article>
+
+    <Article Afficher="oui">
+      <Tag>prospective</Tag>
+      <Ajout>2021-10-12</Ajout>
+      <Publication>2017-10-01</Publication>
+      <Lien>
+        <Base>https://www.strategie.gouv.fr</Base>
+        <Chemin>/publications/resorber-dettes-publiques-zone-euro</Chemin>
+      </Lien>
+      <LienPDF>https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/note_danalyse_ndeg62_-_comment_assurer_la_resorption_des_dettes_publiques_en_zone_euro_-_web.pdf</LienPDF>
+      <Titre>Comment assurer la résorption des dettes publiques en zone euro ?</Titre>
+      <Auteur>Vincent Aussilloux, Christophe Gouardo, Fabrice Lenglart et Marie Cases (Note d'analyse France Stratégie)</Auteur>
+      <Presentation>Après la crise sanitaire il faudra bien faire face à la crise de la dette causée par celle-ci. Dès 2017 cette note d'analyse donne des pistes. Celle-ci en particuliers : <i>"Concrètement, une façon de procéder consisterait en ce que l’État décrète qu’il devient copropriétaire de tous les terrains construits résidentiels, à hauteur d’une fraction fixée de leur valeur, et que ce nouveau droit de propriété est désormais incessible. En conséquence, l’État deviendrait créditeur d’une somme annuelle, correspondant à une part de la fraction de la rente immobilière associée à la copossession du terrain"</i> (p9, col. de gauche)</Presentation>
+    </Article>
+        
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Ajout>2021-10-12</Ajout>
+      <Publication>2017-10-10</Publication>
+      <Lien>
+        <Base>https://bonsens.info</Base>
+        <Chemin>/lettre-aux-senatrices-et-senateurs/</Chemin>
+      </Lien>
+      <LienPDF>https://bonsens.info/wp-content/uploads/2021/10/lettre-aux-senateurs-projet-vaccination-obligatoire.pdf</LienPDF>
+      <Titre>Lettre aux Sénatrices et Sénateurs</Titre>
+      <Auteur>Association Bonsens.org</Auteur>
+      <Presentation>Encore une lettre richement argumentée contre l'obligation vaccinale</Presentation>
+    </Article>
+
+    <Article Afficher="non">
+      <Tag>victime</Tag>
+      <Ajout>2021-10-13</Ajout>
+      <Publication>2021-10-13</Publication>
+      <Lien>
+        <Base>https://bonsens.info</Base>
+        <Chemin>/lettre-aux-senatrices-et-senateurs/</Chemin>
+      </Lien>
+      <LienPDF>https://bonsens.info/wp-content/uploads/2021/10/lettre-aux-senateurs-projet-vaccination-obligatoire.pdf</LienPDF>
+      <Titre>Nay : un collégien d’Henri-IV décède à la suite d’un malaise</Titre>
+      <Auteur>Bernard Semerjian (La République des Pyrénées)</Auteur>
+      <Presentation>Un élève de 4e est décédé ce mercredi après-midi, à l’hôpital de Pau. Plus tôt dans la journée, il avait fait un malaise lors d’un cours de sport, au collège Henri-IV. Il aurait été victime d’un malaise cardiaque.</Presentation>
+    </Article>
+        
+    <Article Afficher="oui">
+      <Tag>sport</Tag>
+      <Ajout>2021-10-13</Ajout>
+      <Publication>2021-10-13</Publication>
+      <Lien>
+        <Base>https://thecovidworld.com</Base>
+        <Chemin>/brandon-goodwin-26-year-old-nba-player-suffers-blood-clots-shortly-after-receiving-the-covid-19-vaccine/</Chemin>
+      </Lien>
+      <Titre>Brandon Goodwin: joueur de basket NBA de 26 ans souffrant de caillots sanguins peu après avoir reçu un vaccin COVID-19 pourrait arrêter sa carrière</Titre>
+      <Auteur>The Covid World</Auteur>            
+      <Presentation>Il a mis fin à sa saison et n'a pas signé avec de nouveau club pour la prochaine : “<i>I was fine until then, I was fine up until I took the vaccine, I was fine. People trying to tell you, ‘No. It’s not the vaccine.’ How do you know?” Goodwin asked. “You don’t know. Yes, the vaccine ended my season. One thousand percent.</i>”</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>prospective</Tag>
+      <Ajout>2021-10-13</Ajout>
+      <Publication>2020-10-28</Publication>
+      <Lien>
+        <Base>https://www.gouvernement.fr</Base>
+        <Chemin>/et-si-le-covid-durait-le-haut-commissaire-au-plan-lance-le-debat</Chemin>
+      </Lien>
+      <LienPDF>https://www.gouvernement.fr/sites/default/files/contenu/piece-jointe/2020/10/plan_et_si_la_covid_durait_28_octobre_2020.pdf</LienPDF>
+      <Titre>Et si la Covid durait ?</Titre>
+      <Auteur>Haut-Commissariat au Plan - Note d'ouverture</Auteur>
+      <Presentation>Curieuse note d'accompagnement du <i>great reset</i> ou bien cri d'alerte sur sa légitimité ?</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>inexpliqué</Tag>
+      <Ajout>2021-10-19</Ajout>
+      <Publication>2020-10-18</Publication>
+      <Lien>
+        <Base>https://www.ouest-france.fr</Base>
+        <Chemin>/pays-de-la-loire/doix-les-fontaines-85200/covid-19-cluster-a-doix-les-fontaines-un-schema-vaccinal-complet-aa1701ce-3023-11ec-b653-4cec8da29c4d</Chemin>
+      </Lien>
+      <Titre>Covid-19. Cluster à Doix-lès-Fontaines : « un schéma vaccinal complet »</Titre>
+      <Auteur>Magali SCHAAL - Ouest France</Auteur>
+      <Source>ouest-france</Source>
+      <Presentation>24 cas Covid détectés dont une personne décéde sur 67 résidents ayant reçu une troisième dose « entre le 27 septembre et le 3 octobre » à la maison de retraite Saint-Luc en Vendée, le mystère est total et l'on se demande bien ce qui a pu se passer ? si ni le pass sanitaire ni l'injection n'ont rien pu faire, où allons nous ?</Presentation>
+    </Article>   
+        
+    <Article Afficher="oui">
+      <Tag>inexpliqué</Tag>
+      <Ajout>2021-10-31</Ajout>
+      <Publication>2020-10-31</Publication>
+      <Lien>
+        <Base>https://www.lelibrepenseur.org</Base>
+        <Chemin>/lexemple-de-la-vendee-demontre-lechec-de-la-politique-vaccinale/</Chemin>
+      </Lien>
+      <Titre>L’exemple de la Vendée démontre l’échec de la politique vaccinale !</Titre>
+      <Auteur>lelibrepenseur.org</Auteur>
+      <Presentation>Avec un taux de vaccination de près de 85 %, la Vendée est en train de vivre une augmentation des cas positifs au Covid-19 ainsi que des personnes hospitalisées. Les personnes qui augmentent le plus les chiffres des hospitalisations sont les plus âgées et donc les plus vaccinées.</Presentation>
+    </Article> 
+
+    <Article Afficher="oui">
+      <Tag>inexpliqué</Tag>
+      <Ajout>2021-10-31</Ajout>
+      <Publication>2020-06-04</Publication>
+      <Lien>
+        <Base>https://www.rtl.fr</Base>
+        <Chemin>/actu/bien-etre/coronavirus-sept-pretres-de-la-meme-communaute-sont-morts-en-vendee-7900040538</Chemin>
+      </Lien>
+      <Titre>Coronavirus : sept prêtres de la même communauté sont morts en Vendée</Titre>
+      <Auteur>Camille Guesdon</Auteur>
+      <Source>RTL</Source>
+      <Presentation>Décès de 7 Fils de Marie Immaculée sur les 23 que compte la communauté, prêtres en retraite à Chavagnes-en- Paillers en Vendée, dans les 15 jours suivant la première injection au mois de juin 2021.</Presentation>
+    </Article>
+                                        
+    <Article Afficher="oui">
+      <Tag>analyse</Tag>
+      <Ajout>2021-10-31</Ajout>
+      <Publication>2012-10-22</Publication>
+      <Lien>
+        <Base>https://fr.sott.net</Base>
+        <Chemin>/article/38526-L-histoire-de-Moderna-Une-entreprise-en-quete-d-une-intervention-miraculeuse-de-la-Sainte-Vierge</Chemin>
+      </Lien>
+      <Titre>L'histoire de Moderna — Une entreprise en quête d'une « intervention miraculeuse de la Sainte Vierge »</Titre>
+      <Auteur>Whitney Webb</Auteur>
+      <Source>SOTT.net</Source>
+    </Article>
+        
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Ajout>2021-11-01</Ajout>
+      <Publication>2021-10-26</Publication>
+      <LienPDF>https://www.cadoc.fr/cslv85/archives/2021/01/Lettre-EDF-26.10.21-Laurent-Aventin.pdf</LienPDF>
+      <Titre>COVID : Lettre ouverte aux évêques de France</Titre>
+      <Auteur>Laurent Aventin, PhD</Auteur>
+      <Presentation>Une lettre rédigée en réaction, entre autre, à la phrase « la vaccination est la réponse médicale disponible pour faire face à cette épidémie » dans la <a href="https://eglise.catholique.fr/conference-des-eveques-de-france/textes-et-declarations/517467-pass-sanitaire-/">tribune des évêques de France</a>, publiée le 22 juillet 2021. L'auteur est consultant indépendant en santé publique depuis 25 ans, il réagit en tant que professionnel de la santé publique et en tant que catholique.</Presentation>
+    </Article>
+        
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Tag>citoyen</Tag>
+      <Ajout>2021-11-09</Ajout>
+      <Publication>2021-11-03</Publication>
+      <Lien>
+        <Base>https://www.apar.tv</Base>
+        <Chemin>/societe/mehdi-belhaj-kacem-signe-la-lettre-ouverte-politique-la-plus-violente-du-21eme-siecle/</Chemin>
+      </Lien>
+      <Titre>Lettre ouverte de Mehdi Belhaj Kacem</Titre>
+      <Auteur>Mehdi Belhaj Kacem</Auteur>
+      <Presentation>Lettre d'un écrivain philosophe en réponse au "mot du maire" de Turenne (19500, Corrèze)</Presentation>
+    </Article>
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Tag>citoyen</Tag>
+      <Ajout>2021-11-09</Ajout>
+      <Publication>2021-11-08</Publication>
+      <Lien>https://www.francesoir.fr/opinions-tribunes/je-ne-peux-plus-me-taire</Lien>
+      <Titre>"Je ne peux plus me taire" : un journaliste allemand dénonce les mensonges médiatiques liés au Covid</Titre>
+      <Auteur>Ole Skambraks</Auteur>
+      <Presentation>Lettre ouverte d'un journaliste Allemand dénonçant ce qui se passe depuis un an et demi chez son empoyeur radiodiffuseur du service public.</Presentation>
+    </Article>
+        
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Tag>citoyen</Tag>
+      <Ajout>2021-11-09</Ajout>
+      <Publication>2021-11-01</Publication>                        
+      <LienPDF>https://www.cadoc.fr/cslv85/archives/2021/02/courrier-nos-enfants-sans-masque.pdf</LienPDF>
+      <Titre>Courrier du mois de Novembre du collectif "Nos Enfants Sans Masque"</Titre>
+      <Auteur>Collectif</Auteur>
+      <Presentation>Point sur la rentrée de novembre et les menaces qui pèsent sur nos enfants. Contient un lien vers une <a href="https://docs.google.com/forms/d/e/1FAIpQLSdksBvYbCqNmzBCm_eZ4DvnKO-YLCIiBaD9vNor0lcVxbcf4g/viewform">action juridique</a> visant la prise en considération de l’impact de la mesure du port du masque pour les enfants en élémentaire.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>victimes</Tag>
+      <Ajout>2021-11-12</Ajout>
+      <Publication>2021-09-21</Publication>                        
+      <Lien>
+        <Base>https://basta-covid.fr</Base>
+        <Chemin>/vaccins-arn-adn-des-effets-pas-si-secondaires/</Chemin>
+      </Lien>
+      <Titre>Vaccins ARN – ADN : des effets (pas si) secondaires ?</Titre>
+      <Auteur>Basta Covid! (site web)</Auteur>
+      <Presentation>Liste des effets secondaires potentiels à partir des données de l'ANSM.</Presentation>
+    </Article>
+    <Article Afficher="oui">
+      <Tag>victimes</Tag>
+      <Ajout>2021-11-12</Ajout>
+      <Lien>https://www.vaxtestimonies.org/en/</Lien>
+      <Titre>The testimonies project</Titre>
+      <Auteur>Site web</Auteur>
+      <Presentation>Témoignages vidéos de victimes d'effet secondaires de la vaccination (en Israel, sous-titré en anglais).</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>victimes</Tag>
+      <Ajout>2021-11-12</Ajout>
+      <Lien>
+        <Base>https://etincelles.be</Base>
+      </Lien>
+      <Titre>Etincelles.be</Titre>
+      <Auteur>Site web</Auteur>
+      <Presentation>Plus de 800 témoignages d'effets secondaires récoltés sur des réseaux sociaux tels que Facebook, Twitter, Instagram, Tik Tok.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>insolite</Tag>
+      <Ajout>2021-11-14</Ajout>
+      <Lien>
+        <Base>https://www.aubedigitale.com</Base>
+        <Chemin>/lelite-mondiale-craint-quune-rebellion-ne-couve-declare-le-pdg-dun-grand-constructeur-de-bunkers-anti-apocalypse/</Chemin>
+      </Lien>
+      <Titre>L’élite mondiale « craint qu’une rébellion ne couve », déclare le PDG d’un grand constructeur de bunkers anti-apocalypse</Titre>
+      <Auteur>Site web</Auteur>
+      <Presentation>Ron Hubbard, le PDG d’Atlas Survival Shelters, déclare dans une interview que le marché de la construction de bunkers est en train d’exploser car les élites commencent à craindre le réveil des masses...</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>sport</Tag>
+      <Publication>2021-11-16</Publication>
+      <Ajout>2021-11-16</Ajout>
+      <Presentation>Des dizaines voir des centaines de cas sont à présent recensés d'effondrements d'athlètes, en jouant, en 2021. Dans la plupart des cas la cause de l’effondrement est liée au cœur, la deuxième cause concerne les événements de coagulation.</Presentation>
+      <Titre>Ces signaux de surmortalité qui devraient alerter... Creutfer Jacob , sportifs</Titre>
+      <Lien>
+        <Base>https://pgibertie.com</Base>
+        <Chemin>/2021/11/16/ces-signaux-de-surmortalite-qui-devraient-alerter-creutfer-jacob-sportifs</Chemin>
+      </Lien>
+      <Auteur>Patrice Gibertie</Auteur>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>securite</Tag>
+      <Ajout>2021-11-17</Ajout>
+      <Publication>2021-31-10</Publication>
+      <Lien>
+        <Base>https://www.covid-factuel.fr</Base>
+        <Chemin>/2021/10/31/quand-pfizer-demontre-linefficacite-du-vaccin/</Chemin>
+      </Lien>
+      <Titre>Quand Pfizer démontre l’inefficacité du vaccin</Titre>
+      <Auteur>Zola (Site Web)</Auteur>
+      <Presentation>Les essais cliniques qui ont mené à l'autorisation conditionnelle pour Pfizer sont-ils aussi probants qu'annoncés par la presse ? Les mythes tombent les uns après les autres. Savez-vous par exemple que la seconde étude Pfizer à 6 mois (jusqu'en Juillet 2021) sur son essai clinique trouve 14 morts dans le groupe placebo et 15 morts dans le groupe des vaccinés... Quel médicament serait autorisé à la vente avec de tels résultats à 6 mois ? Aucun. Les traitements précoces ont été rejetés pour moins que cela.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>securite</Tag>
+      <Ajout>2021-11-17</Ajout>
+      <Publication>2021-11-03</Publication>
+      <Lien>
+        <Base>https://www.francesoir.fr</Base>
+        <Chemin>/societe-sante/pfizer-gate-ventavia</Chemin>
+      </Lien>
+      <Titre>"PfizerGate" ? Révélations sur des essais cliniques falsifiés par le triptyque Pfizer - Ventavia - FDA</Titre>
+      <Auteur>France Soir</Auteur>
+      <Presentation>Fraude de grande ampleur dénoncée chez Ventavia, un des sous-traitants de Pfizer ayant participé à son essai clinique pour l'autorisation conditionnelle de son vaccin. Les pratiques frauduleuses ont été révélées par un employé, publiées dans le <a href="https://www.bmj.com/content/375/bmj.n2635">British Medical Journal</a>, entrainant des <a href="https://association-victimes-coronavirus-france.org/plainte-contre-pfizer-pour-mise-en-danger-deliberee-de-la-vie-dautrui-par-violation-dune-obligation-particuliere-de-prudence-pfizergate/">dépôts de plaintes</a>.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>securite</Tag>
+      <Ajout>2021-11-17</Ajout>
+      <Publication>2021-08-28</Publication>
+      <Lien>
+        <Base>https://www.lefigaro.fr</Base>
+        <Chemin>/flash-eco/lots-contamines-de-vaccins-moderna-le-japon-enquete-sur-deux-deces-20210828</Chemin>
+      </Lien>
+      <Titre>Lots contaminés de vaccins Moderna: le Japon enquête sur deux décès</Titre>
+      <Auteur>Le Figaro</Auteur>
+      <Presentation>1,63 million de doses du vaccin Moderna retirées au Japon. Des <a href="https://www.lefigaro.fr/flash-eco/covid-19-1-63-million-de-vaccins-moderna-suspendus-au-japon-a-cause-d-une-anomalie-20210826">impuretés</a> trouvées dans les fioles du serum. Comment de tels lots ont pu être libérés par la fabriquant ?</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Lien>
+          <Base>https://www.francesoir.fr</Base>
+          <Chemin>/politique-monde/lue-devoile-un-plan-pour-un-nouveau-portefeuille-didentite-numerique</Chemin>
+      </Lien>
+      <Titre>L’UE dévoile un plan pour un nouveau portefeuille d'identité numérique</Titre>
+      <Presentation>Nouvel outil proposé par l'Union Européenne, la <a href="https://digital-strategy.ec.europa.eu/en/library/trusted-and-secure-european-e-id-recommendation">recommendation</a> devra être approuvée par les législateurs du Parlement européen et des 27 gouvernements de l'UE. Progrès ou démultiplication des possibilité de contrôle et d'instauration de passes en tout genre dans le futur ?</Presentation>
+      <Tag>identite</Tag>
+      <Auteur>France Soir</Auteur>
+      <Ajout>2021-11-17</Ajout>
+      <Publication>2021-06-04</Publication>            
+    </Article>        
+
+    <Article Afficher="oui">
+      <Duree>3'37</Duree>
+      <Lien>          
+        <Base>https://twitter.com</Base>                            <Chemin>/v_joron/status/1455143787882323968?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1455143787882323968%7Ctwgr%5E%7Ctwcon%5Es1_&amp;ref_url=http%3A%2F%2Fwww.parolesdedieu.fr%2Fune-eurodeputee-alerte-on-est-a-deux-doigts-de-la-puce-electronique-sous-la-peau%2F</Chemin>
+      </Lien>
+      <Titre>Identité numérique européenne : progrès ou flicage généralisé ? (vidéo)</Titre>
+      <Presentation>Virginie Joron, députée européenne pour le Rassemblement National, se pose des questions sur les excès futurs de l'introduction d'un portefeuille d’identité numérique tel que l'a proposé l'Union Européenne en juin 2021.</Presentation>
+      <Tag>identite</Tag>
+      <Auteur>Virginie Joron</Auteur>
+      <Ajout>2021-11-17</Ajout>
+      <Publication>2021-11-01</Publication>            
+    </Article>
+
+    <Article Afficher="oui">            
+      <Lien>
+        <Base>https://fr.sott.net</Base>
+        <Chemin>/article/38737-Catherine-Austin-Fitts-balance-tout-Le-seul-choix-qui-nous-reste-c-est-l-esclavage-ou-la-liberte</Chemin>
+      </Lien>
+      <Titre>Catherine Austin-Fitts balance tout : « Le seul choix qui nous reste c'est l'esclavage ou la liberté »</Titre>
+      <Presentation>Catherine Austin Fitts conseillère financière US relie les points entre pass sanitaire, identité numérique, monnaie numérique de banques centrales et société de contrôle. Elle dénonce le passeport vaccinal comme un rouage essentiel vers la mise en place d'une plate-forme de transaction numérique. Celui-ci sera combiné par la suite avec le contrôle des transactions monétaires par une banque centrale.</Presentation>
+      <Tag>identite</Tag>
+      <Auteur>Jean Bitterlin (pour la traduction)</Auteur>
+      <Ajout>2021-11-24</Ajout>
+      <Publication>2021-11-13</Publication>            
+      <Source>SOTT.net</Source>
+    </Article>        
+
+    <Article Afficher="oui">
+      <Tag>victimes</Tag>
+      <Ajout>2021-11-17</Ajout>
+      <Publication>2021-10-29</Publication>                        
+      <Lien>
+        <Base>https://www.verity-france.org</Base>
+      </Lien>
+      <Titre>Verity France</Titre>
+      <Auteur>Site Web</Auteur>
+      <Presentation>Site créé par les parents de victimes des injections.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>victimes</Tag>
+      <Ajout>2021-12-03</Ajout>
+      <Lien>
+        <Base>https://nomoresilence.world</Base>
+      </Lien>
+      <Titre>No More Silence</Titre>
+      <Auteur>Site Web</Auteur>
+      <Presentation>Site (en anglais) de témoignages (texte ou video) de victimes du monde entier des injections.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>démocratie</Tag>
+      <Ajout>2021-12-01</Ajout>
+      <Publication>2021-11-30</Publication>          
+      <Lien>
+        <Base>https://www.bfmtv.com</Base>
+        <Chemin>/tech/la-cnil-interpelle-le-gouvernement-sur-le-manque-de-preuves-d-efficacite-du-pass-sanitaire_AN-202111300377.html</Chemin>
+      </Lien>
+      <Titre>La CNIL interpelle le gouvernement sur le manque de preuves d'efficacité du pass sanitaire</Titre>
+      <Auteur>Victoria Beurnez (BFM Business)</Auteur>
+      <Presentation>Même la CNIL le reconnait dans son <a href="https://www.cnil.fr/fr/la-cnil-publie-son-quatrieme-avis-adresse-au-parlement-covid-19">quatrième avis</a>, le gouvernement ne lui a toujours pas transmis les éléments permettant d'apprécier l'efficacité des traitements mis en oeuvre dont le pass sanitaire...</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>démocratie</Tag>
+      <Ajout>2021-12-01</Ajout>
+      <Publication>2021-11-11</Publication>          
+      <Lien>
+        <Base>https://www.vie-publique.fr</Base>
+        <Chemin>/loi/281904-loi-prolongation-pass-sanitaire-2022-vigilance-sanitaire</Chemin>
+      </Lien>
+      <Titre>Loi du 10 novembre 2021 portant diverses dispositions de vigilance sanitaire</Titre>
+      <Auteur>vie-publique.fr</Auteur>
+      <Presentation>La <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044315202/">LOI n° 2021-1465</a> (<a href="https://www.publicsenat.fr/article/parlementaire/passe-sanitaire-le-senat-adopte-un-texte-profondement-remanie-190989">adoptée par la Sénat</a> après un semblant de contestation), qui fait une pétition de principe sur l'efficacité du pass sanitaire démentie dans les faits depuis lors, encadre très peu le recours au pass sanitaire puisque sa seule limitation définie par <a href="https://www.assemblee-nationale.fr/dyn/15/amendements/4574/AN/344">amendement</a> est de pouvoir l'imposer <i>si la situation sanitaire le justifie au regard de la circulation virale ou de ses conséquences sur le système de santé, appréciées en tenant compte des indicateurs sanitaires tels que le taux de vaccination, le taux de positivité des tests de dépistage, le taux d’incidence ou le taux de saturation des lits de réanimation</i>, donc aucun seuil chiffré n'est défini pour aucun indicateur, l'on peut même librement y ajouter n'importe quel indicateur...</Presentation>
+    </Article>
+  
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Ajout>2021-12-07</Ajout>
+      <Publication>2021-12-02</Publication>
+      <Lien>
+        <Base>https://www.levif.be</Base>
+        <Chemin>/actualite/belgique/nous-accusons-les-gouvernements-d-etre-totalement-denues-des-capacites-necessaires-pour-gouverner-carte-blanche/article-opinion-1498093.html</Chemin>
+      </Lien>
+      <LienPDF>https://www.cadoc.fr/cslv85/archives/2021/01/carte-blanche-belgique.pdf</LienPDF>
+      <Titre>Nous accusons (les gouvernements d'être totalement dénués des capacités nécessaires pour gouverner)</Titre>
+      <Auteur>Catherine Fallon, Elisabeth Paul, Nicolas Thirion</Auteur>
+      <Presentation>Un texte puissant communiqué par voie de presse de 3 universitaires belges pour dénoncer les graves manquements politiques et de gouvernance qui caractérisent la riposte à la pandémie de Covid-19 en Belgique. À peu de chose près elle s'applique parfaitement à la France aussi, illustration troublante de la synchronisation des (mauvais ?) choix politiques et sanitaires partout en Europe, où en théorie chaque état est pourtant (encore ?) souverain sur sa politique de santé...</Presentation>
+    </Article>  
+
+    <Article Afficher="oui">
+      <Tag>victimes</Tag>
+      <Ajout>2021-12-09</Ajout>
+      <Lien>
+        <Base>https://effets-secondaires-vaccins-covid.org</Base>
+        <Chemin/>
+      </Lien>
+      <Titre>Effets secondaires vaccins covid-19</Titre>
+      <Auteur>Site Web</Auteur>
+      <Presentation>Plus de 800 témoignages écrits, à ce jour, d'effets secondaires (en Français)</Presentation>
+    </Article>
+
+    <Article Afficher="oui">            
+      <Lien>
+        <Base>https://reporterre.net</Base>
+        <Chemin>/Bientot-le-portefeuille-d-identite-numerique-un-cauchemar-totalitaire</Chemin>
+      </Lien>
+      <Titre>Bientôt le « portefeuille d’identité numérique », un cauchemar totalitaire</Titre>
+      <Presentation>Scénario dystopique de ce que pourrait devenir notre quotidien après déploiement du portefeuille d'identité numérique que Thierry Breton rêve de faire adopter par la commission européenne en sous-traitant sa mise en oeuvre à la nouvelle entité née de la fusion de Thalès et d'Atos. Texte très parlant y compris pour les plus jeunes qui n'auront peut-être pas le temps de connaître un autre monde s'ils n'en prennent pas conscience.</Presentation>
+      <Tag>identite</Tag>
+      <Auteur>Celia Izoard</Auteur>
+      <Ajout>2021-12-09</Ajout>
+      <Publication>2021-12-07</Publication>            
+      <Source>Reporterre - le quotidien de l'écologie</Source>
+    </Article>
+  
+    <Article Afficher="oui">            
+      <Lien>
+        <Base>https://www.polemia.com</Base>
+        <Chemin>/enfants-masques-a-lecole-lachete-generale/</Chemin>
+      </Lien>
+      <Titre>Enfants masqués à l’école : lâcheté générale !</Titre>
+      <Presentation>Pourquoi le corps enseignant si prompt à défendre l'école en temps normal à grand renfort de grèves et de manifestations s'élève-t-il si peu en apparence contre la maltraitance imposée aux enfants depuis des mois par l'éducation nationale ? Cet essai s'interroge sur le rôle historique des syndicats.</Presentation>
+      <Tag>enfance</Tag>
+      <Tag>politique</Tag>
+      <Tag>contrôle</Tag>
+      <Tag>opposition</Tag>
+      <Auteur>Claude Meunier-Berthelot</Auteur>
+      <Ajout>2021-12-10</Ajout>
+      <Publication>2021-12-02</Publication>            
+      <Source>Polemia</Source>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Lien>
+        <Base>https://qg.media</Base>
+        <Chemin>/2021/12/12/tribune-une-nouvelle-religion-vaccinale-est-nee-en-occident/</Chemin>
+      </Lien>
+      <Titre>Tribune: « Une nouvelle religion vaccinale est née en Occident »</Titre>
+      <Presentation>Un appel à la raison et un rappel du désastre intellectuel et moral qui se déchaine depuis plusieurs mois. Une tribune par plus de <b>1200</b> chercheurs, universitaires ou professionnels de santé. À lire absolument, puisque comme ils le précisent en parodiant le <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=593.html">Dr Knock</a>, <i>tout vacciné est un futur non-vacciné qui s’ignore</i> !</Presentation>
+      <Auteur>tribune collective</Auteur>
+      <Ajout>2021-12-14</Ajout>
+      <Publication>2021-12-12</Publication>            
+      <Source>Quartier Général</Source>
+    </Article>
+
+    <Article Afficher="oui">            
+      <Lien>
+        <Base>https://actu.fr/pays-de-la-loire/la-baule-escoublac_44055</Base>
+        <Chemin>/loire-atlantique-un-dentiste-alerte-leducation-nationale-sur-la-necessite-dinstaurer-des-pauses-sans-masque-pour-les-enfants_47003075.html</Chemin>
+      </Lien>
+      <Titre>Loire-Atlantique : un dentiste alerte l'Éducation nationale sur la nécessité d'instaurer des pauses sans masque pour les enfants</Titre>
+      <Presentation>
+        <p>Est-ce que le masque est vraiment inoffensif comme le prétendent les autorités ? Où sont les études pour le prouver ? En effet, ce n'est pas l'avis de tous les professionnels de la santé, bien au contraire. Témoignage de <b>François Thibault</b> ayant exercé comme <i>dentiste</i> à Saint-Nazaire jusqu'en début 2021...</p>
+        <p>Si vous appréciez cet article vous pourriez être intéressé par cette <a href="https://www.wesign.it/fr/sante/ecoles-retour-a-la-normale-le-3-janvier-2022">pétition</a> créée par Martin Blachier le 15 décembre 2021.</p>
+      </Presentation>
+      <Tag>enfance</Tag>
+      <Tag>masque</Tag>
+      <Tag>santé</Tag>
+      <Tag>hygiénisme</Tag>
+      <Auteur>Frédéric Prot</Auteur>
+      <Ajout>2021-12-17</Ajout>
+      <Publication>2021-12-06</Publication>
+      <Source>Polemia</Source>
+    </Article>
+    
+  
+    <Article Afficher="oui">
+      <Tag>prévention</Tag>
+      <Tag>alternative</Tag>
+      <Lien>
+        <Base>https://www.nateosante.com</Base>
+        <Chemin>/fr/nateosante/les-dossiers-thematiques/le-purificateur-dair-eolis-air-manager-efficace-a-996-contre-les-coronavirus/</Chemin>
+      </Lien>
+      <Titre>Le purificateur d’air EOLIS Air Manager efficace à 99,6 % contre les coronavirus</Titre>
+      <Presentation>Conçu et fabriqué par natéosanté dans notre région à Saint-Hilaire-de-Chaléons (44), ne pourrait-on pas équiper nos salles de classes avec ce purificateur plutôt que d'imposer le port du masque à rallonge pour nos enfants ?</Presentation>
+      <Ajout>2021-12-18</Ajout>
+      <Auteur>natéosanté</Auteur>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>traitement</Tag>
+      <Tag>alternative</Tag>
+      <Lien>
+        <Base>https://www.parismatch.com</Base>
+        <Chemin>/Actu/Sante/Essai-avorte-du-sang-de-ver-marin-nos-revelations-1685386</Chemin>
+      </Lien>
+      <Titre>Coronavirus : nos révélations sur l'essai avorté du sang de ver marin</Titre>
+      <Presentation>Que sont devenus le professeur <b>Laurent Lantieri</b> et l'entreprise de biotechnologie <b><a href="https://www.hemarina.com">Hemarina</a></b> avec son élevage installé sur l'île de Noirmoutiers, qui se sont vus refuser leur essai clinique en pleine crise épidémique ?</Presentation>
+      <Ajout>2021-12-18</Ajout>
+      <Publication>2020-05-23</Publication>
+      <Auteur>Anne Jouan</Auteur>
+      <Source>Paris Match</Source>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>prévention</Tag>
+      <Tag>alternative</Tag>
+      <Lien>
+        <Base>https://www.ouest-france.fr</Base>
+        <Chemin>/sante/vaccin/vaccin-contre-le-covid-19-l-entreprise-valneva-propose-une-alternative-a-l-arn-messager-64dd33ca-2b7e-11ec-bfa1-8289e5d95d8d</Chemin>
+      </Lien>
+      <Titre>Vaccin contre le Covid-19 : l’entreprise Valneva propose une alternative à l’ARN messager</Titre>
+      <Presentation>Saluons l'arrivée du vaccin à virus inactivé, tout comme les Chinois Sinopharm, Sinovac interdits en Europe, de la société franco-autrichienne Valneva, basée à Saint-Herblain. Mais pourquoi a-t-il fallu attendre que son premier client l'Angleterre annule sa commande de 100 millions de dose pour voir la Commission Européenne lancer enfin une pré-commande de 60 millions de dose, et encore en toute fin du processus d'essai clinique, lorsque l'on sait avec quel empressement la Commission a commandé  pour des milliards de dose à Pfizer avec une opacité et une absence de responsabilité totale. Pourquoi le vaccin Valneva n'est-il par proposé en priorité ?</Presentation>
+      <Ajout>2021-12-18</Ajout>
+      <Publication>2021-12-09</Publication>
+      <Auteur>Alexandre Blaise</Auteur>
+      <Source>Ouest France</Source>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>traitement</Tag>
+      <Tag>alternative</Tag>
+      <Lien>
+        <Base>https://www.mypharma-editions.com</Base>
+        <Chemin>/traitement-anti-covid-xenothera-recoit-lavis-scientifique-accelere-de-lagence-europeenne-des-medicaments</Chemin>
+      </Lien>
+      <Titre>Traitement anti-COVID : Xenothera reçoit l’avis scientifique accéléré de l’Agence européenne des médicaments</Titre>
+      <Presentation>Avec son traitement XAV-19 anticorps polyclonal, l'entreprise de biotech Nantaise <a href="https://www.xenothera.com">Xenothera</a>, qui a reçu une aide et des investissements du Conseil Européen de l'Innovation, a un traitement clinique qui a passé son <a href="https://clinicaltrials.gov/ct2/show/NCT04928430">essai de phase 3</a>. Ils semblent cependant toujours attendre leur autorisation d’accès précoce (AAP) par la Haute Autorité de Santé (HAS) à ce jour, d'après les propos de leur présidente Odile Duvaux sur cette <a href="https://www.youtube.com/watch?v=KAAzcUUF4eA">interview</a> à 10'42. Propos réitéré le 28 décembre 2021 dans <a href="https://francais.rt.com/france/94126-xenothera-officialise-efficacite-son-traitement-contre-omicron-interpelle-gouvernement-covid-19">Xenothera officialise l'efficacité de son traitement contre Omicron et interpelle le gouvernement</a>.</Presentation>
+      <Ajout>2021-12-18</Ajout>
+      <Publication>2021-07-08</Publication>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>prévention</Tag>
+      <Tag>alternative</Tag>
+      <Lien>
+        <Base>https://www.illustre.ch/magazine</Base>
+        <Chemin>/covid-19-le-test-vaudois-revolutionnaire-dont-la-suisse-ne-veut-pas</Chemin>
+      </Lien>
+      <Titre>Covid-19: Le test vaudois révolutionnaire dont la Suisse ne veut pas</Titre>
+      <Presentation>Et si l'on pouvait disposer d'un test salivaire en quelques minutes à coût réduit ? Il semble qu'il existe des machines de petites tailles capables d'effectuer ces tests. Par exemple pourquoi ne pas imaginer une sorte de testomaton ? Une entreprise Suisse semble sur la bonne voie, mais tout comme nos entreprises régionales et leur parcours d'obstacle comparé aux géant de BigPharma, ne semble pas davantage soutenue par son pays la Suisse. Comment les laboratoires pratiquant les millions de test PCR verraient-ils arriver un tel concurrent ?</Presentation>
+      <Ajout>2021-12-18</Ajout>
+      <Publication>2021-12-09</Publication>
+      <Source>L'illustré</Source>
+      <Auteur>Christian Rappaz</Auteur>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>traitement</Tag>
+      <Tag>favoritisme</Tag>      
+      <Tag>interdiction</Tag>
+      <Lien>
+        <Base>https://www.legifrance.gouv.fr</Base>
+        <Chemin>/jorf/id/JORFTEXT000041400024</Chemin>
+      </Lien>
+      <Titre>Jérôme Salomon directeur général de la santé classe l'hydroxychloroquine en substance vénéneuse</Titre>
+      <Presentation>Quelle coïncidence troublante quand justement un certain professeur Marseillais et de nombreuses études dans le monde lui trouveront quelques mois plus tard un intérêt en traitement précode de la Covid. Une seconde estocade sera menée en Juin 2020 avec une publication frauduleuse pour discalifier son usage connue sous le nom de <a href="https://www.lesechos.fr/industrie-services/pharmacie-sante/the-lancet-gate-saga-dune-etude-corrompue-1216931">LancetGate</a> qui servira malgré tout encore au gouvernement pour limiter davantage son utilisation.</Presentation>
+      <Ajout>2021-12-18</Ajout>
+      <Publication>2020-01-13</Publication>
+      <Source>JORF</Source>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>traitement</Tag>
+      <Tag>favoritisme</Tag>
+      <Tag>interdiction</Tag>
+      <Lien>
+        <Base>https://www.legifrance.gouv.fr</Base>
+        <Chemin>/jorf/id/JORFTEXT000044483134</Chemin>
+      </Lien>
+      <Titre>Olivier Véran met à l'index six principes actifs pour ne pas concurrencer le "vaccin"</Titre>
+      <Presentation>Après avoir interdit les antibiotiques pour soigner la surinfection bactérienne causée dans certains cas de Covid, Olivier Veran persiste et signe en rendant leurs prescriptions plus difficiles avec l'Arrêté du 13 décembre 2021 fixant la liste des médicaments pour lesquels il peut être recouru à une ordonnance de dispensation conditionnelle. Il ne sera donc plus possible de prescrire de l'azithromycine, en association avec l'Ivermectine comme de nombreuses régions du monde le font avec succès, à moins de réaliser au préalable un test oro-pharyngé d'orientation diagnostique (TROD) des angines à streptocoque beta-hémolytique du groupe A dont le résultat est positif! Encore une façon sournoise de limiter les possibilité de prise en charge précoce des patients Covid. Qui peut encore croire que le gouvernement se soucie de notre santé ?</Presentation>
+      <Ajout>2021-12-18</Ajout>
+      <Publication>2021-12-13</Publication>            
+      <Source>JORF</Source>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>traitement</Tag>
+      <Tag>alternative</Tag>
+      <Lien>
+        <Base>https://www.pasteur.fr</Base>
+        <Chemin>/fr/espace-presse/documents-presse/ivermectine-attenue-symptomes-covid-19-modele-animal</Chemin>
+      </Lien>
+      <Titre>L’Ivermectine atténue les symptômes de la covid-19 dans un modèle animal</Titre>
+      <Presentation>Même l'institut Pasteur a été obligé de reconnaître que l'Ivermectine est un <b>agent thérapeutique contre la Covid-19</b> ! Pourtant contrairement au reste du monde ils n'ont toujours par démarré d'essais cliniques sur l'humain alors que des états, des cités et des régions entières (en Inde, au Japon, au Mexique, etc.) se sont mises à l'Ivermectine pour limiter les hospitalisations suite à des infections par SARS-CoV-2...</Presentation>
+      <Ajout>2021-12-28</Ajout>
+      <Publication>2021-07-12</Publication>
+      <Auteur>Institut Pasteur</Auteur>
+      <Source>Communiqué de Presse</Source>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Ajout>2021-12-28</Ajout>
+      <Publication>2021-12-20</Publication>
+      <Lien>
+        <Base>http://ctiapchcholet.blogspot.com</Base>
+        <Chemin>/2021/12/lettre-ouverte-vaccins-contre-la-covid.html</Chemin>
+      </Lien>
+      <Titre>Vaccins contre la Covid-19 : Réponse circonstanciée du CTIAP du centre hospitalier de Cholet aux « 119 médecins [et quelques pharmaciens] choletais »</Titre>
+      <Auteur>Docteur Amine UMLIL</Auteur>
+      <Presentation>Une lettre très documentée en réponse à une tribune de 119 médecins choletais à propos du rapport bénéfice/risque des vaccins contre la Covid-19. Cette réponse rappelle la conditionnalité de l'autorisation de mise sur le marché des-dits vaccins et rappelle les principes de base de la pharmacovigilance qui devraient être appliqués et servir de base à l'information complète du public sur les risques prévisibles fréquents, ou graves et même exceptionnels des vaccins. Cette lettre contredit les affirmations des 119 médecins et met en évidence les <i>bidouillages publicitaires</i> pour embellir le rapport bénéfice/risque des vaccins.</Presentation>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Ajout>2021-12-28</Ajout>
+      <Publication>2021-12-22</Publication>
+      <Lien>
+        <Base>https://smg-pratiques.info</Base>
+        <Chemin>/continuer-a-accueillir-et-soigner-les-non-vaccine-e-s</Chemin>
+      </Lien>
+      <!-- <Lien>
+        <Base>https://francais.rt.com</Base>
+        <Chemin>/france/94093-pass-vaccinal-syndicat-medecine-generale-soppose-discrimination-non-vaccines</Chemin>
+      </Lien> -->
+      <LienPDF>https://smg-pratiques.info/IMG/pdf/communique_du_smg_continuer_de_soigner_les_non_vaccine.e.s.docx.pdf</LienPDF>      
+      <Titre>Continuer à accueillir et soigner les non vacciné·e·s</Titre>
+      <Auteur>Syndicat de la Médecine Générale (SMG)</Auteur>
+      <Presentation>Prise de position très claire d'un syndicat de médecins qui s'opposent à la mise en place du passe vaccinal à la place du passe sanitaire.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>démocratie</Tag>
+      <Ajout>2021-12-28</Ajout>
+      <Publication>2021-11-28</Publication>          
+      <Lien>
+        <Base>https://www.profession-gendarme.com</Base>
+        <Chemin>/appel-aux-policiers-et-gendarmes-de-france-2/</Chemin>
+      </Lien>
+      <LienPDF>https://www.cadoc.fr/cslv85/archives/2021/02/appel-gendarmes-policiers.pdf</LienPDF>
+      <Titre>Appel aux policiers et gendarmes de France</Titre>
+      <Auteur>Inconnu</Auteur>
+      <Presentation>Un appel aux policiers et gendarmes de France circule depuis fin novembre sur la toile. Il fait référence à la hiérarchie des normes (Droits de l'Homme de 1948, Code Civil, Code de déontologie, Code de la sécurité intérieure) pour contester le passe sanitaire.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">            
+      <Lien>
+        <Base>https://lecourrierdesstrateges.fr</Base>
+        <Chemin>/2021/12/02/temoignages-je-suis-un-soldat-et-mon-pays-ne-veut-plus-de-moi-car-je-refuse-le-vaccin/</Chemin>
+      </Lien>
+      <Titre>Témoignages: «Je suis un soldat et mon pays ne veut plus de moi car je refuse le vaccin »</Titre>
+      <Presentation>Fait rare, voici des témoignages de soldats qui montrent la pression mise sur les militaires y compris avant l'obligation vaccinale pour forcer les militaires à se plier aux injonctions vaccinales y compris contre leur raison et leur conscience. Ces récits interrogent sur l'état psychologique dans lequel sont laissées nos armées à l'heure actuelle et le danger qui en découle pour la France.</Presentation>
+      <Tag>politique</Tag>
+      <Tag>contrôle</Tag>
+      <Tag>opposition</Tag>
+      <Auteur>courrier-stratèges</Auteur>
+      <Ajout>2021-12-02</Ajout>
+      <Publication>2021-12-28</Publication>            
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>démocratie</Tag>
+      <Ajout>2022-01-03</Ajout>
+      <Publication>2021-12-29</Publication>          
+      <Lien>
+        <Base>https://www.francesoir.fr</Base>
+        <Chemin>/videos-le-defi-de-la-verite/lappel-solennel-du-collectif-des-maires-resistants</Chemin>
+      </Lien>
+      <LienPDF>https://www.cadoc.fr/cslv85/archives/2022/01/appel-maires-resistants.pdf</LienPDF>
+      <Titre>L'appel solennel du "Collectif des maires résistants"</Titre>
+      <Auteur>FranceSoir</Auteur>
+      <Presentation>L'appel du collectif des maires résistants est une lueur d'espoir dans la prise de conscience de la mise à mal des règles de notre démocratie entamée depuis 18 mois. Les maires qui lancent cet appel ont une légitimité naturelle car ils sont élus par leurs concitoyens au niveau local.</Presentation>
+    </Article>
+        
+  </Articles>
 </Ressources>

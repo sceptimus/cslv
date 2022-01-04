@@ -1,0 +1,11 @@
+<ComunauteCommunes>
+    {
+    for $tr in $table/tr
+    let $nom := $tr/td[1]/a
+    return
+        <ComunauteCommune>
+            <Nom>{concat(substring($nom, 1, 1), substring(lower-case($nom), 2, 100))}</Nom>
+            <President>{ normalize-space($tr/td[2]/text()) }</President>
+        </ComunauteCommune>
+    }
+</ComunauteCommunes>

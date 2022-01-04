@@ -1,13 +1,14 @@
 <Site>
   <Menu>
     <Page File="index">Accueil</Page>
-    <Page File="manifeste">Manifeste</Page>
+    <Page File="actions">Actions</Page>
+    <Page File="evenements">Agenda</Page>
     <Page File="annuaire">Annuaire</Page>
     <Page File="blog">Blog</Page>
     <Page File="outils">Outils</Page>
     <Groupe Tag="rsce">
       <Nom>&gt;&gt;</Nom>
-      <Page File="evenements">Agenda</Page>
+      <Page File="manifeste">Manifeste</Page>
       <Page File="videos">Videos</Page>
       <Page File="biblio">Lecture</Page>
       <Page File="nocomment">Montages</Page>
@@ -19,13 +20,17 @@
       <Rubriques>
           <Rubrique>
               <Tag>regional</Tag>
-              <Titre>Collectifs et comités locaux</Titre>
+              <Titre>Autres collectifs locaux Vendéens</Titre>
               <Rubrique>
                   <Departement>
                     <Inclus>85</Inclus>
                   </Departement>
                   <Titre>En Vendée</Titre>
               </Rubrique>
+          </Rubrique>
+          <Rubrique>
+              <Tag>regional</Tag>
+              <Titre>Collectifs locaux hors Vendée</Titre>
               <Rubrique>            
                   <Departement>
                     <Exclu>85</Exclu>
@@ -48,7 +53,7 @@
                 <Titre>Enfance et éducation</Titre>
               </Rubrique>
               <Rubrique>
-                <Tag>reinformation</Tag>
+                <Tag>réinformation</Tag>
                 <Tag>juridique</Tag>
                 <Tag>victime</Tag>
                 <Titre>Réinformation, juridique, victimes</Titre>
@@ -57,6 +62,12 @@
                 <Tag>santé</Tag>
                 <Titre>Professionnels de la santé</Titre>
               </Rubrique>
+              <Rubrique>
+                <Tag>action</Tag>
+              </Rubrique>              
+              <Rubrique>
+                <Tag>étudiants</Tag>
+              </Rubrique>              
           </Rubrique>
           <Rubrique>
               <Tag>etranger</Tag>
@@ -66,7 +77,7 @@
                 <Titre>Actions militantes</Titre>
               </Rubrique>
               <Rubrique>
-                <Tag>reinformation</Tag>
+                <Tag>réinformation</Tag>
                 <Titre>Réinformation</Titre>
               </Rubrique>              
           </Rubrique>
@@ -83,11 +94,6 @@
       <Rubriques>
         <!-- A FAIRE
 
-        <Rubrique Ancre="traitements">
-          <Tag>traitements</Tag>
-          <Titre>Suppression des traitements</Titre>
-          <Presentation>L'affaire de l'hyrdoxychloroquine. L'ivermectine dans le monde. L'ANSM fait-elle obstacle au repositionnement de molécules connues (Hexamarina, Clofoctol, HydroCovid) ?</Presentation>
-        </Rubrique> 
 
         <Rubrique Ancre="echecs">
           <Tag>echecs</Tag>
@@ -107,12 +113,44 @@
           <Presentation>Les Pays de Loire possèdent des resources et des industriels qui luttent contre le Covid. Ont-ils reçus le soutient nécessaire. Comment pourrait-on mieux mettre à contribution nos atouts locaux (Hemarina, Xenathera, Valneva, Mosquito XXX)</Presentation>
         </Rubrique>
         
-        -->         
+        -->
+
+        <Rubrique Ancre="alternatives">
+          <Tag>alternative</Tag>
+          <Tag>essais</Tag>
+          <Titre>Cherche-t-on des alternatives pour lutter contre le SARS-Cov2 ?</Titre>
+          <Presentation><p>Depuis le début de l'épidémie des laboratoires de recherche font état de difficultés à démarrer les essais cliniques pour repositionner d'ancienne molécules dans la lutte contre le SARS-Cov2. Par ailleurs notre région Pays de Loire dispose de plusieurs entreprises qui se sont lancées dans l'aventure ou qui produisent des moyens de lutte. Sont-elles suffisamment encouragées ?</p>
+          </Presentation>
+        </Rubrique>
+
+        <Rubrique Ancre="traitements">
+          <Tag>traitements</Tag>
+          <Tag>favoritisme</Tag>
+          <Titre>A-t-on éliminé les traitements précoce au profit de traitements plus coûteux et à l'innocuité non établie ?</Titre>
+          <Presentation><p>Qu'elles soient efficaces ou non, certaines molécules utilisées depuis des dizaines d'années ont été interdites par le ministre de la santé limitant en cela l'arsenal thérapeutique pour prendre en charge de manière précoce les patients Covid. Il est légitime dès lors de s'interroger sur les motivations réelles derrières ces interdictions défendues bec et ongles par le Conseil de l'Ordre des Médecins. Sachant qu'en face, l'on a mis en avant une politique toute vaccinale et de nouvelle molécules au coût exhorbitant et à l'innocuité non encore établie.</p>
+          </Presentation>
+        </Rubrique> 
+
+        <Rubrique Ancre="hygienisme">
+            <Tag>hygiénisme</Tag>
+            <Titre>A-t-on réellement cherché à être le plus efficace possible ?</Titre>
+            <Presentation>
+              <p>Les mesures préconisées et/ou imposées par les autorités depuis février 2020 sont sans précédent dans la restriction des libertés individuelles dans nos sociétés occidentales. Pour autant sont-elles efficaces et quelles sont leurs conséquences sur notre santé physique et mentale ? À la lecture des études et des avis des professionnels qui réussissent à percer le mur des médias, ne serait-il pas permis d'en douter ?</p>
+            </Presentation>
+        </Rubrique>
+        
         <Rubrique Ancre="securite">
             <Tag>securite</Tag>
             <Titre>Sécurité des vaccins</Titre>
             <Presentation>
               <p>Les informations qui remontent sur les essais cliniques et la distribution des vaccins Covid ne rassurent pas. Ces indices laissent penser que la sécurité n'est pas aussi forte qu'annoncée. Difficile pour le moment de comprendre si les essais cliniques qui ont mené aux demandes d'autorisation, les processus de fabrication, le contrôle lors de la libération des lots ou les chaines de distribution sont en cause. Aucun des vaccins n'étant fabriqué en France (voir par ex. le site de Moderna à <a href="https://www.s-ge.com/en/article/news/20204-coronavirus-lonza">Visp</a> en Suisse construit en 8 mois), chacun est en droit de s'interroger sur la capacité de l'ANSM à contrôler et garantir la qualité.</p>
+            </Presentation>
+        </Rubrique>               
+        <Rubrique Ancre="democratie">
+            <Tag>démocratie</Tag>
+            <Titre>Où en est la démocratie ?</Titre>
+            <Presentation>
+              <p>Censure du débat et lois liberticides ne font-elles pas craindre une dérive autoritaire ? Les contrôles et l'évaluation des mesures en vigeur paraissent bien faibles.</p>
             </Presentation>
         </Rubrique>        
         <Rubrique Ancre="victimes">
@@ -168,6 +206,14 @@
               <Tag>analyse</Tag>
               <Titre>Analyses</Titre>
           </Rubrique>
+          <Rubrique Ancre="prospective">
+              <Tag>contrôle</Tag>
+              <Tag>opposition</Tag>
+              <Titre>Opposition contrôlée ?</Titre>
+              <Presentation>
+                <p>Que penser du silence assourdissant des corps intermédiaires ?</p>
+              </Presentation>
+          </Rubrique>          
           <!-- <Rubrique>
               <Tag>faq</Tag>
               <Titre>Foire aux questions</Titre>
@@ -177,6 +223,11 @@
     <Page>
       <Id>videos</Id>
       <Rubriques>
+          <Rubrique>
+              <Tag>livre</Tag>
+              <Titre>Sorties de Livres</Titre>
+              <Presentation>Interviews d'auteurs d'ouvrages ayant trait à la crise sanitaire et ou à l'avenir de notre société.</Presentation>
+          </Rubrique>        
           <Rubrique>
               <Tag>témoignage</Tag>
               <Titre>Témoignages</Titre>
@@ -236,12 +287,14 @@
     </Page>
     <Page>
       <Id>blog</Id>
+      <Billet File="a-propos.xml"/>
       <Billet File="cri-du-coeur.xml"/>
       <Billet File="28-septembre-2021.xml"/>
       <Billet File="synthese-argumentaire-anti-passe.xml"/>
       <Billet File="ernst-wolff.xml"/>
       <Billet File="atih-2020.xml"/>
       <Billet File="sfp-rentree-2021.xml"/>
+      <Billet File="theta.xml"/>
     </Page>
   </Contenu>
 </Site>

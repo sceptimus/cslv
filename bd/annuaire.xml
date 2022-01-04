@@ -2,20 +2,323 @@
   <!--
    Schema de données
  
-   Tag => 'regional' | 'thematique' | 'enfance' | 'reinformation' | 'juridique' | 'victime' | 'santé' | 'etranger' | 'action' | 'media'
+   Tag => 'regional' | 'thematique' | 'enfance' | 'réinformation' | 'juridique' | 'victime' | 'santé' | 'etranger' | 'action' | 'media'
    Publication => date de parution de l'article
    -->  
   <Groupes>
     
-    <Groupe>
+    <!-- ********* Vendée ********** -->
+    
+    <Groupe Id="cslv-85">
+      <Partenaire>cslv-85</Partenaire>
       <Tag>regional</Tag>
       <Departement>85</Departement>
+      <Genre>liaison</Genre>      
       <Nom>Comité Santé Liberté Vendée 85</Nom>
       <Lien>http://www.comitesantelibertevendee.fr</Lien>
-      <Presentation>présenté dans le Manifeste (groupe telegram, organisation de Happy apero / pique nique)</Presentation>
+      <Presentation>Ce collectif (groupe telegram, groupe WhatsApp, organisation d'actions diverses)</Presentation>
+      <Contact>contact@comitesantelibertevendee.fr</Contact>
+      <Telegram>
+        <Contact>telegram@comitesantelibertevendee.fr</Contact>
+        <Commentaire>écrire un message avec vos coordonnées et téléphone</Commentaire>
+      </Telegram>
+    </Groupe>
+
+    <!-- Par Communauté de Communes -->
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Ile de Noirmoutier</span>
+            </Presentation>
+            <Contact>ile-de-noirmoutier@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Ile de Noirmoutier] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Ocean-marais-de-monts</span>
+            </Presentation>
+            <Contact>ocean-marais-de-monts@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Ocean-marais-de-monts] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Pays de Saint-gilles-croix-de-vie</span>
+            </Presentation>
+            <Contact>saint-gilles-croix-de-vie@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Pays de Saint-gilles-croix-de-vie] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Les Sables-d'olonne - agglomeration</span>
+            </Presentation>
+            <Contact>les-sables@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Les Sables-d'olonne - agglomeration] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Pays des Achards</span>
+            </Presentation>
+            <Contact>pays-des-achards@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Pays des Achards] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Vendée Grand Littoral Talmont-Moutiers</span>
+            </Presentation>
+            <Contact>talmont-moutiers@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Vendée Grand Littoral Talmont-Moutiers] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Sud Vendée littoral</span>
+            </Presentation>
+            <Contact>sud-vendee-littoral@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Sud Vendée littoral] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Challans-Gois</span>
+            </Presentation>
+            <Contact>challans-gois@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Challans-Gois] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Vie et Boulogne</span>
+            </Presentation>
+            <Contact>vie-et-boulogne@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Vie et Boulogne] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">La Roche-sur-yon agglomeration</span>
+            </Presentation>
+            <Contact>la-roche-sur-yon@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - La Roche-sur-yon agglomeration] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Terres de Montaigu, Montaigu-Rocheserviere</span>
+            </Presentation>
+            <Contact>montaigu-rocheserviere@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Terres de Montaigu, Montaigu-Rocheserviere] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Pays de Saint-fulgent-les Essarts</span>
+            </Presentation>
+            <Contact>saint-fulgent-les-essarts@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Pays de Saint-fulgent-les Essarts] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Chantonnay</span>
+            </Presentation>
+            <Contact>chantonnay@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Chantonnay] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Pays de Mortagne</span>
+            </Presentation>
+            <Contact>mortagne@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Pays de Mortagne] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Pays des Herbiers</span>
+            </Presentation>
+            <Contact>pays-des-herbiers@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Pays des Herbiers] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Pays de Pouzauges</span>
+            </Presentation>
+            <Contact>pouzauges@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Pays de Pouzauges] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Pays de la Chataigneraie</span>
+            </Presentation>
+            <Contact>la-chataigneraie@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Pays de la Chataigneraie] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Pays de Fontenay-Vendee</span>
+            </Presentation>
+            <Contact>fontenay-vendee@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Pays de Fontenay-Vendee] Contact</ContactSubject>
+        </Groupe>
+        <Groupe>
+            <Partenaire>cslv-85</Partenaire>
+            <Tag>regional</Tag>
+            <Tag>CSLV 85</Tag>
+            <Departement>85</Departement>
+            <Genre>territoire</Genre>
+            <Nom>CSLV 85</Nom>
+            <Presentation>Groupe local <span class="groupe-local">Vendée-Sèvre-Autise</span>
+            </Presentation>
+            <Contact>vendee-sevre-autise@comitesantelibertevendee.fr</Contact>
+            <ContactSubject>[CSLV 85 - Vendee-Sèvre-Autise] Contact</ContactSubject>
+        </Groupe>
+    
+    <!-- Thématiques -->
+
+    <Groupe>
+      <Partenaire>cslv-85</Partenaire>
+      <Tag>regional</Tag>
+      <Tag>CSLV 85</Tag>
+      <Departement>85</Departement>
+      <Genre>thématique</Genre>
+      <Nom>Collectif soignants résistants</Nom>
+      <Presentation>Groupe pour rassembler les soignants sur la Vendée pour mettre fin aux discriminations, améliorer la situation des soignants et améliorer la coopération entre citoyens et soignants</Presentation>
+      <Contact>Contact@soignantsresistants85.fr</Contact>
+    </Groupe>
+
+    <Groupe>
+      <Partenaire>cslv-85</Partenaire>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Genre>thématique</Genre>
+      <Nom>Collectif convivialité</Nom>
+      <Presentation>Groupe pour tous ceux souhaitant organiser des événements pour se retrouver dans la bonne humeur</Presentation>
+      <Contact>convivialite@comitesantelibertevendee.fr</Contact>
+    </Groupe>
+
+    <Groupe>
+      <Partenaire>cslv-85</Partenaire>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Genre>thématique</Genre>
+      <Nom>Collectif éveil des consciences</Nom>
+      <Presentation>Groupe pour créer les arguments et les outils pour lutter la discrimination, la soumission et la division</Presentation>
+      <Contact>eveil@comitesantelibertevendee.fr</Contact>
+    </Groupe>
+  
+    <Groupe>
+      <Partenaire>cslv-85</Partenaire>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Genre>thématique</Genre>
+      <Nom>Collectif stratégie et action de terrain</Nom>
+      <Presentation>Groupe pour Organiser des actions de sensibilisation et d'information sur le terrain; Rencontrer des acteurs de la société (restaurateurs, police, etc.); Imaginer des actions pour soutenir les usagers exclus par le passe sanitaire</Presentation>
+      <Contact>actions@comitesantelibertevendee.fr</Contact>
+    </Groupe>
+    
+    <Groupe>
+      <Partenaire>cslv-85</Partenaire>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Genre>thématique</Genre>
+      <Nom>Collectif jeunesse (famille)</Nom>
+      <Presentation>Groupe pour Sensibiliser et motiver les jeunes pour l’action; Organiser des temps de sport et de convivialité entre jeunes</Presentation>
+      <Contact>jeunesse@comitesantelibertevendee.fr</Contact>
+    </Groupe>    
+    
+    <Groupe>
+      <Partenaire>cslv-85</Partenaire>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Genre>thématique</Genre>
+      <Nom>Collectif parents (famille)</Nom>
+      <Presentation>Groupe pour S’investir dans les associations de parents d’élèves; Donner aux parents des arguments pour rencontrer les enseignants et les chefs d’établissements</Presentation>
+      <Contact>parents@comitesantelibertevendee.fr</Contact>
     </Groupe>
 
     <Groupe Afficher="non">
+      <Partenaire>cslv-85</Partenaire>
       <Tag>regional</Tag>
       <Departement>85</Departement>
       <Nom>Collectif Santé Liberté 85</Nom>
@@ -23,12 +326,22 @@
       <Presentation>collectif de citoyens (soignants, patients, parents) opposés à l'extension du passe sanitaire et aux injonctions et pressions sur les parents (groupe WhatsApp)</Presentation>
     </Groupe>
 
+    <!-- ********* Autres départements ********** -->
+
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>44</Departement>
+      <Nom>Collectif Santé Saint-Nazaire</Nom>
+      <Lien>https://www.facebook.com/groups/1207761203011098/about</Lien>
+      <Presentation>collectif de Saint-Nazaire hostile à l’obligation vaccinale et au pass sanitaire, actif, avec une page FB publique</Presentation>
+    </Groupe>
+
     <Groupe>
       <Tag>regional</Tag>
       <Departement>44</Departement>
       <Nom>ToutVaBien44</Nom>
       <Lien>https://www.toutvabien44.org/</Lien>
-      <Presentation>un collectif Nantais de collectifs locaux mobilisés pour se coordonner afin de préserver nos libertés fondamentales</Presentation>
+      <Presentation>collectif Nantais de collectifs locaux mobilisés pour se coordonner afin de préserver nos libertés fondamentales</Presentation>
     </Groupe>
 
     <Groupe>
@@ -108,14 +421,14 @@
 
     <Groupe>
       <Tag>thematique</Tag>
-      <Tag>reinformation</Tag>
+      <Tag>réinformation</Tag>
       <Nom>Association Reinfo Covid</Nom>
       <Lien>https://reinfocovid.fr/</Lien>
     </Groupe>
 
     <Groupe>
       <Tag>thematique</Tag>
-      <Tag>reinformation</Tag>
+      <Tag>réinformation</Tag>
       <Tag>juridique</Tag>      
       <Nom>Association BonSens</Nom>
       <Lien>https://bonsens.org/</Lien>
@@ -133,10 +446,19 @@
     <Groupe>
       <Tag>thematique</Tag>
       <Tag>victime</Tag>
-      <Nom>Association victimes coronavirus covid-19 France</Nom>
+      <Nom>AVCCF</Nom>      
+      <Presentation>Association victimes coronavirus covid-19 France pour soutenir aussi bien les victimes du Covid non traitées que les victimes des vaccins Covid-19 ou les personnes non-vaccinées.</Presentation>
       <Lien>https://association-victimes-coronavirus-france.org/</Lien>
     </Groupe>
 
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>victime</Tag>
+      <Nom>Verity-France</Nom>
+      <Presentation>Collectif créé par des parents de victimes des vaccins anti-Covid pour rechercher la vérité</Presentation>
+      <Lien>https://www.verity-france.org</Lien>
+    </Groupe>
+    
     <Groupe>
       <Tag>thematique</Tag>
       <Tag>juridique</Tag>
@@ -180,22 +502,41 @@
     <Groupe>
       <Tag>regional</Tag>
       <Departement>85</Departement>
+      <Genre>thématique</Genre>
+      <Nom>Mamans Louves</Nom>
+      <Lien>https://mamanslouves.com</Lien>
+      <Presentation>
+        <p>Mouvement destiné à créer des rassemblements nationaux et des actions efficaces entre « mamans-louves » pour reprendre nos droits de décision sur le bien-être et l’avenir de nos enfants.</p>
+        <p>Les actions de communication à grande échelle sont organisées par les Mamans Louves pour fédérer, rassembler et donner de l'espoir à tous les parents grands parents. Les papas sont bienvenus aussi même s'ils ne sont pas visibles médiatiquement !</p>
+        <p>Le mouvement possède une <b>référente départementale</b> pour la Vendée. N'hésitez pas à la contacter.</p>
+      </Presentation>
+      <Contact>fleurdevie8@gmail.com</Contact>      
+    </Groupe>
+    
+    <Groupe Afficher="oui">
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Genre>territoire</Genre>
       <Nom>Groupe RSA La Roche Sur Yon</Nom>
       <Lien>https://reseausolidarite.wixsite.com/rsafrance/post/la-déclaration-du-réseau-de-solidarité-active-rsa</Lien>
-      <Presentation>L'objectif du Réseau de Solidarité Active (RSA) est de renforcer la solidarité entre les gens au niveau local, et de favoriser la mise en place d'actions. Chaque groupe couvre un zone géographique d'un rayon de 25 km. Vous pouvez contacter le Groupe RSA la Roche Sur Yon sur son canal <a href="https://t.me/joinchat/LerguxzMNn2jFgz5K2za8Q">telegram</a>.</Presentation>
+      <Presentation>L'objectif du Réseau de Solidarité Active (RSA) est de renforcer la solidarité entre les gens au niveau local, et de favoriser la mise en place d'actions. Chaque groupe couvre un zone géographique d'un rayon de 25 km.</Presentation>
+      <Telegram>
+        <Lien>https://t.me/joinchat/LerguxzMNn2jFgz5K2za8Q</Lien>
+      </Telegram>
     </Groupe>
 
     <Groupe>
-      <Tag>reinformation</Tag>
+      <Tag>réinformation</Tag>
       <Tag>etranger</Tag>
       <Nom>Ivermectine Covid</Nom>
       <Lien>https://ivermectine-covid.ch</Lien>
       <Presentation>site Suisse avec de nombreuses resources sur les traitements à base d'Ivermectine. La section <a href="https://ivermectine-covid.ch/temoignages-de-medecins/">Témoignages de médecins</a> contient de nombreuses interviews de médecins reconnus du monde entier.</Presentation>
     </Groupe>
 
-    <Groupe>
+    <Groupe Afficher="non">
       <Tag>regional</Tag>
       <Departement>85</Departement>
+      <Genre>thématique</Genre>
       <Nom>Parents en colère Vendée</Nom>
       <Lien>https://www.facebook.com/ParentsenColere85/</Lien>
       <Presentation>Groupe facebook de parents du 85 mobilisés pour les enfants (la page ne semble plus très active).</Presentation>
@@ -203,12 +544,21 @@
 
     <Groupe>
       <Tag>thematique</Tag>      
-      <Tag>reinformation</Tag>
+      <Tag>réinformation</Tag>
       <Tag>juridique</Tag>
       <Nom>Rester libre</Nom>
       <Lien>http://resterlibre.org</Lien>
       <Presentation>Association créée par Éric Verhaeghe en novembre 2021, pour coordonner des actions. L'adhésion à 10 euros donne accès à un forum de discussion.</Presentation>
     </Groupe>
+    
+    <Groupe>
+      <Tag>thematique</Tag>      
+      <Tag>juridique</Tag>
+      <Tag>victime</Tag>
+      <Nom>Je ne suis pas un danger</Nom>
+      <Lien>https://jenesuispasundanger.com</Lien>
+      <Presentation>Association fondée par Me Di Vizio pour représenter les non vaccinés et les suspendus et garder l'espérance.</Presentation>
+    </Groupe>    
     
     <Groupe>
       <Tag>etranger</Tag>
@@ -217,6 +567,39 @@
       <Lien>https://www.discernaction.com</Lien>
       <Presentation>Sélection de contenus sur la pandémie de COVID-19 destinée à favoriser les décisions libres et éclairées. Site Canadien pour coordonner des actions.</Presentation>
     </Groupe>
+    
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>action</Tag>
+      <Nom>Citoyens informés</Nom>
+      <Lien>https://www.citoyens-informes.fr</Lien>
+      <Presentation>Site proposant des ressources pour militer et des liens vers d'autres collectifs. Créé initialement pour faire connaître les scientifiques censurés depuis le début de la crise sanitaire.</Presentation>
+    </Groupe>
+    
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>étudiants</Tag>
+      <Nom>Étudiants Militants Libres et Unis</Nom>
+      <Lien>https://emlu.org</Lien>
+      <Presentation>Collectif pour la protection des droits fondamentaux des étudiants. Les EMLU ont également des boucles telegram locales indiquées sur leur site.</Presentation>
+    </Groupe>
 
+    <Groupe>
+      <Tag>thematique</Tag>      
+      <Tag>photographes</Tag>
+      <Tag>action</Tag>
+      <Nom>Les Essentiels</Nom>
+      <Lien>https://lesessentiels.org</Lien>
+      <Presentation>Collectif d'artistes qui donne une voix à tous les essentiels, pompiers, soignants, personnel médical qui ont été suspendus.</Presentation>
+    </Groupe>
+        
+    <Groupe>
+      <Tag>etranger</Tag>
+      <Tag>réinformation</Tag>
+      <Nom>Réinfo Santé Suisse International</Nom>
+      <Lien>https://www.reinfosante.ch</Lien>
+      <Presentation>Collectif regroupant des professionnels de la santé de différents domaines d’activité, soucieux de partager des informations fiables, indépendantes et transparentes au sein des communautés médicales et paramédicales.</Presentation>
+    </Groupe>    
+    
   </Groupes>
 </Ressources>

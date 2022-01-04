@@ -44,3 +44,156 @@ function basculerPresse( ) {
     n.textContent = 'Montrer';    
   }
 };
+
+// JukeBox Wigdet
+
+class JukeBox {
+  
+  constructor(host, database) {
+    this.root = host;
+    this.BD = database;
+    this.CUR = 0;
+    $('.vtopmax', this.root).text(this.BD.length);
+    $('.vtopaction', this.root).on('click', this.changerVideo.bind(this));     
+    $('.vtopavant', this.root).on('click', this.videoPrecedente.bind(this));     
+    $('.vtopapres', this.root).on('click', this.videoSuivante.bind(this));     
+    this.installerVideo(this.BD.length - 1);
+  }
+
+  formatDate (s) {
+    if (s) {
+      var c = s.split('-');
+      return c[2] + '/' + c[1] + '/' + c[0];
+    } else {
+      return '-';
+    }
+  }
+
+  installerVideo(i) {
+    var v = this.BD[i];
+    $('.vtopurl', this.root).text(v.Titre.replace(/&amp;/g, '&'));
+    $('.vtopurl', this.root).attr('href', v.Lien.Base + v.Lien.Chemin);
+    if (v.hasOwnProperty('LienPDF')) {
+      $('.vtoPDF', this.root).attr('href', v.LienPDF).show();
+    } else {
+      $('.vtoPDF', this.root).hide();      
+    }
+    if (v.hasOwnProperty('Presentation')) {
+      $('.vtoppres', this.root).html(v.Presentation.replace(/&lt;/g, '<').replace(/&gt;/g, '>'));
+    } else {
+      $('.vtoppres', this.root).html('');
+    }
+    $('.vtopajout', this.root).html(this.formatDate(v.Ajout));
+    $('.vtoppub', this.root).html(this.formatDate(v.Publication));
+    $('.vtopduree', this.root).html(v.Duree || '-');
+    if (v.hasOwnProperty('Tag')) {
+      $('.vtoptag', this.root).html(
+        v.Tag.reduce( (a, cur) => a +  '<span class="tag">' + cur + '</span> ', '')
+      );
+    } else {
+      $('.vtoptag', this.root).html('');
+    }
+    this.CUR = i;
+    $('.vtopcur', this.root).text(this.CUR + 1);
+    if (this.CUR === 0) {
+      $('.vtopavant', this.root).hide();     
+    } else {
+      $('.vtopavant', this.root).show();
+    }
+    if (this.CUR === this.BD.length - 1) {
+      $('.vtopapres', this.root).hide();     
+    } else {
+      $('.vtopapres', this.root).show();
+    }    
+  }
+
+  terminerVideo() {
+    $('.vtopaction', this.root).prop( "disabled", false );
+  }
+
+  disparition() {
+    $('.vtopanim', this.root).removeClass('appearin');
+    $('.vtopanim', this.root).addClass('appearout');
+    $('.vtopaction', this.root).prop( "disabled", true );
+  }
+
+  apparition() {
+    $('.vtopanim', this.root).removeClass('appearout');    
+    $('.vtopanim', this.root).addClass('appearin');
+    $('.vtopanim', this.root).one('animationend', this.terminerVideo.bind(this));    
+  }
+
+  choisirVideoAuHasard() {
+    var i = Math.floor(Math.random() * this.BD.length);
+    if (this.BD.length > 1) {
+      while (i === this.CUR) { i = Math.floor(Math.random() * this.BD.length) };
+    }
+    this.installerVideo(i);
+    this.apparition();
+  }
+
+  choisirVideoPrecedente() {
+    this.installerVideo(this.CUR - 1);    
+    this.apparition();
+  }
+
+  choisirVideoSuivante() {
+    this.installerVideo(this.CUR + 1);
+    this.apparition();
+  }
+
+  changerVideo() {
+    this.disparition();
+    $('.vtopanim', this.root).one('animationend', this.choisirVideoAuHasard.bind(this));
+  }
+
+  videoPrecedente() {
+    if (this.CUR > 1) {
+      this.disparition();
+      $('.vtopanim', this.root).one('animationend', this.choisirVideoPrecedente.bind(this));
+    }
+  }
+
+  videoSuivante() {
+    if ((this.CUR + 1) < this.BD.length) {
+      this.disparition();      
+      $('.vtopanim', this.root).one('animationend', this.choisirVideoSuivante.bind(this));
+    }
+  }
+}
+
+
+(function () {
+    
+  function init () {
+    if ($('#vtop').length > 0) { 
+      new JukeBox($('#vtop').get(0), Videos.Video);
+    }
+    if ($('#atop').length > 0) {
+      new JukeBox($('#atop').get(0), Articles.Article);
+    }
+    // mail installation    
+    $('a[data-mail1]').each(
+      function() {
+        var n = $(this),
+            s1 = n.attr('data-mail1'),
+            s2 = n.attr('data-mail2'),
+            subject = n.attr('data-subject'),
+            contact = n.attr('data-contact');
+        if (subject) {
+          n.attr('href', 'mailto:' + s1 + '@' + s2 + '?subject=' + subject);        
+        } else {
+          n.text(s1 + '@' + s2);
+          if (contact) {
+            n.attr('href', 'mailto:' + s1 + '@' + s2 + '?subject=' + contact);
+          } else {
+            n.attr('href', 'mailto:' + s1 + '@' + s2);
+          }
+        }
+      }      
+    )
+  }
+
+  jQuery(function() { init(); });
+}());
+  

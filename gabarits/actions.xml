@@ -10,16 +10,16 @@
     <body>
       <div id="preview">
         
-        { local:menu('evenements') }
+        { local:menu('actions') }
         
         <div id="content">
 
           <div class="block border">
-            <h1>Agenda</h1>
-            <blockquote>Si vous souhaitez proposer un événement envoyez un courrier électronique à <a data-mail1="redaction" data-mail2="comitesantelibertevendee.fr" data-subject="[CSLV 85] Agenda">rédaction</a>.</blockquote>
+            <h1>Actions</h1>
+            <blockquote>Actions soutenues par le CSLV 85. Pour diffuser une action écrivez à la <a data-mail1="redaction" data-mail2="comitesantelibertevendee.fr" data-subject="[CSLV 85] Action">rédaction</a>.</blockquote>
           </div>
 
-          { local:agenda('agenda.xml') }
+          { local:actions('actions.xml') }
 
         </div>
         

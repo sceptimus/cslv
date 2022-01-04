@@ -1,0 +1,41 @@
+<Billet>
+  <Fichier>a-propos</Fichier>
+  <Date>2021-12-22</Date>
+  <Titre>À propos du site</Titre>
+  <Legende>Présentation du site Comité Santé Liberté Vendée 85 (CSLV 85)</Legende>
+  <Verbatim>
+    <p>Le site CSLV 85 a été créé au printemps 2021 pour diffuser des dépêches en rapport avec les objectifs du CSLV 85 que sont la préservation de notre santé et de notre liberté pour le bien de tous et suivant les principes énoncés dans son <a href="manifeste.html">manifeste</a>.</p>
+    <p>Le site est composé d'un ensemble de pages statiques, mises à jour périodiquement. Il n'enregistre donc AUCUNE information ni AUCUNE donnée sur ses visiteurs.</p>
+    <p>Vous trouverez sur le site des dépêches présentant différentes catégories d'objets :</p>
+    <ul>
+      <li>des <b>Actions</b> actuellement menées par différents collectifs y compris le CSLV 85</li>
+      <li>des <b>Événements</b> publiés dans un Agenda (tels que des ateliers, des conférences, etc.)</li>
+      <li>des <b>Vidéos</b> repérées dans les groupes WhatsApp ou sur telegram</li>
+      <li>des <b>Articles</b> repérés dans les groupes WhatsApp ou sur telegram</li>
+      <li>des <b>Outils</b> et des ressources répondant à des situations données, certaines <i>Actions</i> sont la mise en oeuvre d'outils</li>
+      <li>des <b>Montages</b> décalés, humoristique ou des curiosités suscitant la réflexion</li>
+      <li>un <b>Annuaire</b> des autres comités et collectifs</li>
+    </ul>
+    <p>Le site dispose aussi d'un blog pour publier des <b>Billets</b> de blog.</p>    
+    <p>Par ailleurs certaines <i>Vidéos</i> et certains <i>Articles</i> sont regroupés en <b>Dossiers</b> visant à poser des questions et/ou à donner des arguments construits sur la crise politique, économique et sanitaire que nous traversons afin d'alimenter le dialogue entre citoyens et avec nos élus.</p>
+    <p>Un des objectifs du site est la constitution d'une base de ressources pour se souvenir des contradictions et se rappeler des décisions prises pendant cette période historique exceptionnelle.</p>
+    <h2>Appel à contribution</h2>
+    <p>Nous recherchons des personnes enthousiastes et motivées pour nous aider à améliorer à la fois les contenus et la présentation du site CSLV 85.</p>
+    <p>Pour nous rejoindre envoyez un message à <a data-mail1="redaction" data-mail2="comitesantelibertevendee.fr">écrire</a></p>
+    <h3>Rédacteurs</h3>
+    <p>Nous recherchons des <b>Rédacteurs</b> pour créer des nouveaux contenus. Le travail d'un rédacteur consiste à :</p>
+    <ul>
+      <li>recevoir (ou aller chercher) des propositions de dépêches brutes</li>
+      <li>classer la dépêche dans l'un des types énumérés ci-dessus (Action, Événement, Vidéo, Article, Montage, Billet de blog)</li>
+      <li>ajouter des mots-clefs pour catégoriser les <i>Vidéos</i> et les <i>Articles</i></li>
+      <li>vérifier l'intérêt et la crédibilité de la proposition de dépêche</li>
+      <li>transformer la proposition en dépêche, rassembler les supports associés s'il y en a (ex. flyers)</li>
+      <li>transmettre à la rédaction le dossier de publication de la dépêche (par courrier électronique)</li>
+    </ul>
+    <p>Le rédacteur n'a pas besoin de maitriser de language informatique, il ne transmet que des textes à la rédaction et des éléments d'information (Date, Adresse Web, Nom d'auteur, etc.). C'est la rédaction qui fera l'intégration sur le site.</p>
+    <h3>Maquettiste Développeur Web</h3> 
+    <p>Nous recherchons un développeur web ou un graphiste pour refondre et proposer une nouvelle maquette pour le site (menus de navigation primaire et secondaires et template de pages pour les différentes rubriques).</p>
+    <p>Le maquettiste doit fournir les templates de page en HTML, CSS et Javascript, sur un site Git pour simplifier l'intégration.</p>
+    <p>NB: nous nous chargerons de l'intégration dans le générateur de site de la maquette. Le générateur actuel produit les pages statiques du site et les menus à partir de fichiers XML contenant les dépêches.</p>
+  </Verbatim>
+</Billet>

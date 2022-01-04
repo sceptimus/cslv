@@ -1,5 +1,127 @@
-<Ressources>
-    <Agenda/>
+<Evenements>
+
+  <Evenement Afficher="non">
+    <Ancre>challans-collectif-citoyen</Ancre>
+    <Titre>Rencontre devant la Mairie de Challans - Vendredi 31 décembre - de 14h à 18h</Titre>
+    <Presentation>
+        Proposition du collectif citoyen du secteur de Challans pour sortir de l'isolement et se retrouver à la veille de cette fin d'année.
+    </Presentation>
+    <Verbatim>
+      <p>Voir la présentation 
+        <a href="https://www.cadoc.fr/cslv85/archives/2021/affichettes/appel_collectif_citoyen_de_challans_grand_rassemblement_vendredi.pdf">
+          <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
+        </a>
+      </p>
+    </Verbatim>
+  </Evenement>
+
+  <Evenement Afficher="oui">
+    <Ancre>chansons-positives</Ancre>
+    <Titre>Chansons positives - La Roche Sur Yon - Dimanche 12 Décembre - 10h45</Titre>
+    <Presentation>
+      <p>Des membres du comité qui participent à un Cercle du bonheur nous informent qu'ils ont décidé de chanter sur la place Napoléon des chansons positives sur la liberté, l'amour, la joie, et des mantras, comme action joyeuse.</p>
+      <p>Après le succès du rendez-vous du Samedi 27 Novembre, prochain rendez-vous <b>Dimanche 12 décembre 2021 à 10h45</b> au pied du sapin - <b>place Napoléon</b> - La Roche Sur Yon.</p>
+      <p>Pas besoin de savoir chanter, musiciens bienvenus.</p>
+    </Presentation>
+    <Verbatim>
+      <center>
+      <p><b>Carnet de chants</b></p>
+      <ul class="blog">
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Danser%20encore.pdf">Danser encore</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Il%20est%20libre%20Max.pdf">Il est libre Max</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Imagine.pdf">Imagine</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/La%20Tendresse.pdf">La Tendresse</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/La%20Voix%20des%20Sages.pdf">La Voix des Sages</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/La%20ballade%20des%20gens%20heureux.pdf">La ballade des gens heureux</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Le%20lion%20est%20mort%20ce%20soir.pdf">Le lion est mort ce soir</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Ma%20Liberte%20de%20penser.pdf">Ma Liberte de penser</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Ma%20Liberte.pdf">Ma Liberte</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Nous%20serons%20des%20milliers.pdf">Nous serons des milliers</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Oh%20Happy%20Day.pdf">Oh Happy Day</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Santiano.pdf">Santiano</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Textes%20de%20Chansons.pdf">Textes de Chansons</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Toi%20plus%20moi.pdf">Toi plus moi</a></li>
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Tout%20le%20Bonheur%20du%20Monde.pdf">Tout le Bonheur du Monde</a></li>
+      </ul>
+      </center>              
+      <p><span style="text-decoration: underline">Avec les accords</span> : <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Danser encore.odt">Danser encore</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Il est libre Max.odt">Il est libre Max</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Imagine.odt">Imagine</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/La Ballade nord-irlandaise.odt">La Ballade nord-irlandaise</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/La Tendresse.doc">La Tendresse</a> [doc], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/La Voix des Sages.odt">La Voix des Sages</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/La ballade des gens heureux.odt">La ballade des gens heureux</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Le lion est mort ce soir.odt">Le lion est mort ce soir</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Ma Liberte de penser.odt">Ma Liberte de penser</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Ma Liberte.odt">Ma Liberte</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Nous serons des milliers.odt">Nous serons des milliers</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Oh Happy Day.odt">Oh Happy Day</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/On ecrit sur les Murs.odt">On ecrit sur les Murs</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Santiano.odt">Santiano</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Toi plus moi.docx">Toi plus moi</a> [docx], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Tout le Bonheur du Monde.odt">Tout le Bonheur du Monde</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Vent frais vent du matin.odt">Vent frais vent du matin</a> [odt]
+      </p>
+    </Verbatim>
+  </Evenement>
+  
+  <!-- <div class="block border" id="marche">
+      <h2>La Marche Du Réveil – L'UNION FAIT LA FORCE 88 !</h2>
+      <blockquote>
+        <a href="https://uflf88.fr/7-2/la-marche-du-reveil/">https://uflf88.fr/7-2/la-marche-du-reveil/</a>
+        <p>Ils marchent vers Paris : Marche du Réveil / UFLF 88 / Studios PM France – <a href="https://www.youtube.com/watch?v=CjN49uXiJus">YouTube</a></p>
+        <h3>À la Roche Sur Yon le 8 et le 9 novembre 2021</h3>
+        <p>La marche arrive lundi 8 novembre à partir de 15h11 !</p>
+        <p>Rejoignez les participants pour une Agora de 16h à 18h</p>
+      </blockquote>
+
+      <p>Evènement Terminé</p>
+
+      <pre>
+        Bonjour,
+
+        Du 30 octobre au 14 novembre, la « marche du réveil » s’organise.
+
+        La Marche Du Réveil – L'UNION FAIT LA FORCE 88 ! (uflf88.fr)
+        https://uflf88.fr/7-2/la-marche-du-reveil/
+
+        Ils marchent vers Paris : Marche du Réveil / UFLF 88 / Studios PM France –
+        YouTube https://www.youtube.com/watch?v=CjN49uXiJus
+
+        Un départ a été effectué d’Epinal le 30 octobre ; un départ de Lille est
+        prévu 5 novembre.
+
+        Le projet sous forme d’une caravane passera dans 6 viles-étapes sur une
+        semaine. Le départ aura lieu de la gare de Périgueux après la manifestation le
+        6 novembre avec dans l’équipée Adélaïde en grève de la faim depuis le 28
+        septembre (J40) contre l’obligation vaccinale et ses conséquences sanitaires,
+        sociales, sociétales et politiques.
+
+        Les véhicules présents pourront accueillir les voyageurs pour du
+        co-voiturage et les étapes prévues permettent aux voyageurs ferroviaires de
+        faire partie de l’équipée sans pass sanitaire (TER). La caravane officielle de
+        Nopass24 stationnera chaque soir chez des hébergeurs citoyens, les réseaux
+        locaux pouvant se signaler sur la page nopass24.
+
+        Nous pourrons nous rencontrer, échanger, discuter, construire et œuvrer à
+        ce grand trait d’union vers Le Mont Valérien et vers une société compatible
+        avec nos valeurs tous les jours aux abords des gares des villes-étapes.
+
+        Les étapes sont les suivantes :
+
+        ...
+
+        - 8 novembre : Gare de Poitiers (10h51) - Gare de La Roche sur Yon
+        (15h11),
+
+        Agora de 16h à 18h à la gare puis répartition vers les hébergements citoyens
+
+        11h : recherche d'un citoyens solidaires pour une visite motorisée de la ville
+        (1h) dans son histoire et son architecture
+
+        13h : proposition de rencontre avec les élus locaux à la caravanne stationnée
+        près de la gare
+
+        - 9 novembre : Gare de La Roche sur Yon (16h12) – Gare de Nantes (16h54),
+
+        ...
+
+        - 14 Novembre : Rassemblements convergeants au Mont Valérien à 7h30
+
+        Les infos relayées sur le site nopass24.fr seront actualisées en temps
+        réel avec des vidéos, des podcasts, des publications, etc,
+
+        Ce sera un espace de mise en relation également pour organiser la
+        solidarité (hébergements, douches, repas, carburant dons, etc.),
+        Signalez-vous, venez à notre rencontre, diffusez sur cette fronde citoyenne.
+        ...
+      </pre>
+  </div>-->  
+  
     <!-- <div id="bandeau">
       <div class="cri" style="margin-top:20px">
         <p><span>Cri du coeur</span> revoir notre <a href="cri-du-coeur.html">cri</a> publié en lien avec le <a href="http://collectifsanteliberte85.fr">Collectif Santé Liberté 85</a> pour le 15 septembre 2021</p>
@@ -33,6 +155,7 @@
         </ul>
         <p>Nous contacter à l'adresse ci-dessous pour les détails.</p>
       </div> -->
-    <!-- </div> -->    
-</Ressources>        
+    <!-- </div> -->
+    
+</Evenements>
         

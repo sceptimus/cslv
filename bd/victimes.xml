@@ -189,7 +189,174 @@
       <Age>15</Age>      
       <Ville>Nort-sur-Erdre</Ville>
       <Departement>44</Departement>
-    </Victime>    
-</Victimes> 
+    </Victime> 
+
+    <Victime>
+      <Article>
+        <Titre>Vendée : une jeune femme retrouvée morte sur une plage de Barbâtre</Titre>
+        <Lien>
+          <Base>https://actu.fr/pays-de-la-loire/barbatre_85011</Base>
+          <Chemin>/vendee-une-jeune-femme-retrouvee-morte-sur-une-plage-de-barbatre_37167003.html</Chemin>
+        </Lien>
+        <Publication>2021-10-31</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>23</Age>      
+      <Ville>Barbâtre</Ville>
+      <Departement>85</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Vendée. Des passants réaniment une jeune femme en arrêt cardiaque en pleine rue</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/vendee/vendee-en-arret-cardiaque-des-passants-la-reaniment-0f6a8cd0-f4fb-11eb-8b47-20d41891af7f</Chemin>
+        </Lien>
+        <Publication>2021-08-04</Publication>
+      </Article>
+      <Evolution>hospitalisation</Evolution>
+      <Age>34</Age>      
+      <Ville>Saint Jean de Monts</Ville>
+      <Departement>85</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Vendée : un plaisancier décède d'une crise cardiaque</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/pays-de-la-loire/noirmoutier-en-l-ile_85163/vendee-un-plaisancier-decede-dune-crise-cardiaque_43861430.html</Chemin>
+        </Lien>
+        <Publication>2021-08-02</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>45</Age>      
+      <Ville>Noirmoutiers</Ville>
+      <Departement>85</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Vendée. Un homme décède après un malaise dans l’eau à La Tranche-sur-Mer</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/vendee/vendee-un-homme-decede-apres-un-malaise-dans-l-eau-a-la-tranche-sur-mer-1e6c12fc-01c7-11ec-b682-8fa160af65a2</Chemin>
+        </Lien>
+        <Publication>2021-08-20</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>36</Age>      
+      <Ville>La Tranche Sur Mer</Ville>
+      <Departement>85</Departement>
+    </Victime>  
+
+    <Victime>
+      <Article>
+        <Titre>Malaise d’un footballeur en Mayenne. Des « pauses respiratoires » et pas de problème cardiaque</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/en-mayenne-le-joueur-fait-deux-arrets-cardiaques-a-l-issue-du-match-de-foot-137cf0bc-457b-11ec-8acd-08271a51a470</Chemin>
+        </Lien>
+        <Publication>2021-11-14</Publication>
+      </Article>
+      <Evolution>malaise</Evolution>
+      <Age>17</Age>
+      <Ville>Renazé</Ville>
+      <Departement>53</Departement>
+      <Commentaire>Article sans doute réécrit car sur un <a href="https://www.jeuxvideo.com/forums/42-51-68185856-1-0-1-0-alerte-un-jeune-footballeur-fait-deux-arrets-cardiaques-en-mayenne.htm">forum</a> l'on trouve une autre version : Samedi 13 novembre 2021, un jeune joueur de football de Renazé (Mayenne) a été victime de deux très graves malaises cardiaques à l’issue d’un match disputé à Saint-Ouën-des-Toits. Il n’a dû la vie sauve qu’à l’intervention très rapide du public et des secours. « J’entendais les secours dire : « Il n’a plus de pouls ! Il n’a plus de pouls ! » Ce jeune joueur de foot a fait deux arrêts cardiaques. Aujourd’hui il est dans un état stable. On a eu très peur, samedi. » Martin Jégu est le coach des footballeurs U18 (moins de 18 ans) de Saint-Ouën-des-Toits.
+      </Commentaire>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Un enfant devenu « presque aveugle » après l’administration d’un vaccin contre la Covid-19</Titre>
+        <Lien>
+          <Base>http://ctiapchcholet.blogspot.com</Base>
+          <Chemin>/2021/12/alerte-pharmacovigilance-un-enfant.html</Chemin>
+        </Lien>
+        <Publication>2021-12-12</Publication>
+      </Article>
+      <Evolution>hospitalisation</Evolution>
+      <Age>&lt; 18</Age>
+      <Departement>49</Departement>
+      <Ville>CTIAP Cholet</Ville>
+    </Victime> 
+
+    <Victime>
+      <Article>
+        <Titre>La Rochelle : malaise fatal en pleine rue pour une jeune femme</Titre>
+        <Lien>
+          <Base>https://www.sudouest.fr</Base>
+          <Chemin>/charente-maritime/la-rochelle/la-rochelle-malaise-fatal-en-pleine-rue-pour-une-jeune-femme-7349583.php</Chemin>
+        </Lien>
+        <Publication>2021-12-14</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>22</Age>
+      <Departement>17</Departement>
+      <Ville>La Rochelle</Ville>
+    </Victime>
+
+    <!-- <Victime>
+      <Article>
+        <Titre>Sarthe. Un homme fait un malaise et décède à la déchetterie d’Oizé</Titre>
+        <Lien>
+          <Base>https://lessablesdolonne.maville.com</Base>
+          <Chemin>/actu/actudet_-sarthe.-un-homme-fait-un-malaise-et-decede-a-la-dechetterie-d-oize-_54135-4969639_actu.Htm</Chemin>
+        </Lien>
+        <Publication>2021-12-06</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>67</Age>
+      <Departement>72</Departement>
+      <Ville>Cérans-Foulletourte</Ville>
+    </Victime>  -->
+    
+    <Victime>
+      <Article>
+        <Titre>En raison d'un problème cardiaque, Kévin Gourdon (La Rochelle) arrête sa carrière</Titre>
+        <Lien>
+          <Base>https://www.lequipe.fr</Base>
+          <Chemin>/Rugby/Actualites/En-raison-d-un-probleme-cardiaque-kevin-gourdon-arrete-sa-carriere/1306488</Chemin>
+        </Lien>
+        <Publication>2021-12-21</Publication>
+      </Article>
+      <Evolution>abandon</Evolution>
+      <Age>31</Age>
+      <Ville>La Rochelle</Ville>
+      <Departement>17</Departement>
+    </Victime>  
+
+    <Victime>
+      <Article>
+        <Titre>Handball. Ancien capitaine d’Angers Sco, Gillen Lusson est décédé</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/sport/handball/angers-sco/handball-ancien-capitaine-d-angers-sco-gillen-lusson-est-decede-aa969f88-6692-11ec-a7af-efdf3001c265</Chemin>
+        </Lien>
+        <Publication>2021-12-29</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>26</Age>
+      <Ville>Saint-Gemmes-sur-Loire</Ville>
+      <Departement>49</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un policier décède d’un malaise cardiaque durant son service</Titre>
+        <Lien>
+          <Base>https://actu17.fr</Base>
+          <Chemin>/nantes-un-policier-decede-dun-malaise-cardiaque-durant-son-service/</Chemin>
+        </Lien>
+        <Publication>2021-12-31</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>?</Age>
+      <Ville>Nantes</Ville>
+      <Departement>44</Departement>
+    </Victime>             
+</Victimes>
   
   

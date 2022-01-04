@@ -1,0 +1,141 @@
+<Territoire>
+  <Cantons>
+    <Nom>Aizenay</Nom>
+    <Nom>Challans</Nom>
+    <Nom>Chantonnay</Nom>
+    <Nom>La Châtaigneraie</Nom>
+    <Nom>Fontenay-le-Comte</Nom>
+    <Nom>Les Herbiers</Nom>
+    <Nom>L'Ile-d'Yeu</Nom>
+    <Nom>Luçon</Nom>
+    <Nom>Mareuil-sur-Lay-Dissais</Nom>
+    <Nom>Montaigu-Vendée</Nom>
+    <Nom>Mortagne-sur-Sèvre</Nom>
+    <Nom>La Roche-sur-Yon-1</Nom>
+    <Nom>La Roche-sur-Yon-2</Nom>
+    <Nom>Les Sables-d'Olonne</Nom>
+    <Nom>Saint-Hilaire-de-Riez</Nom>
+    <Nom>Saint-Jean-de-Monts</Nom>
+    <Nom>Talmont-Saint-Hilaire</Nom>
+  </Cantons>
+  <CommunauteCommunes>
+    <!-- Litoral -->
+    <CommunauteCommune Order="1">
+        <Nom>Communauté de communes de l'Ile de Noirmoutier</Nom>
+        <NomCourt>Ile de Noirmoutier</NomCourt>
+        <President>Dominique CHANTOIN</President>
+        <Email>ile-de-noirmoutier@comitesantelibertevendee.fr</Email>
+    </CommunauteCommune>
+    <CommunauteCommune Order="2">
+        <Nom>Communauté de communes Ocean-marais-de-monts</Nom>
+        <NomCourt>Ocean-marais-de-monts</NomCourt>
+        <President>Véronique LAUNAY</President>
+        <Email>ocean-marais-de-monts@comitesantelibertevendee.fr</Email>
+    </CommunauteCommune>
+    <CommunauteCommune Order="3">
+        <Nom>Communauté de communes du pays de Saint-gilles-croix-de-vie</Nom>
+        <NomCourt>Pays de Saint-gilles-croix-de-vie</NomCourt>
+        <President>François BLANCHET</President>
+        <Email>saint-gilles-croix-de-vie@comitesantelibertevendee.fr</Email>
+    </CommunauteCommune>
+    <CommunauteCommune Order="4">
+        <Nom>Sables-d'olonne - agglomeration</Nom>
+        <NomCourt>Les Sables-d'olonne - agglomeration</NomCourt>
+        <President>Yannick MOREAU</President>
+        <Email>les-sables@comitesantelibertevendee.fr</Email>
+    </CommunauteCommune>
+    <CommunauteCommune Order="5">
+        <Nom>Communauté de communes du pays des Achards</Nom>
+        <NomCourt>Pays des Achards</NomCourt>
+        <President>Patrice PAGEAUD</President>
+        <Email>pays-des-achards@comitesantelibertevendee.fr</Email>
+    </CommunauteCommune>    
+    <CommunauteCommune Order="6">
+        <Nom>Vendée grand littoral Talmont-Moutiers communaute</Nom>
+        <NomCourt>Vendée Grand Littoral Talmont-Moutiers</NomCourt>
+        <President>Maxence DE RUGY</President>
+        <Email>talmont-moutiers@comitesantelibertevendee.fr</Email>
+    </CommunauteCommune>    
+    <CommunauteCommune Order="7">
+        <Nom>Communauté de communes sud Vendée littoral</Nom>
+        <NomCourt>Sud Vendée littoral</NomCourt>
+        <President>Brigitte HYBERT</President>
+        <Email>sud-vendee-littoral@comitesantelibertevendee.fr</Email>
+    </CommunauteCommune>
+    <!-- Bande 1 -->
+      <CommunauteCommune Order="8">
+          <Nom>Challans-Gois communaute</Nom>
+          <NomCourt>Challans-Gois</NomCourt>          
+          <President>Alexandre HUVET</President>
+          <Email>challans-gois@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <CommunauteCommune Order="9">
+          <Nom>Communauté de communes Vie et Boulogne</Nom>
+          <NomCourt>Vie et Boulogne</NomCourt>                    
+          <President>Guy PLISSONNEAU</President>
+          <Email>vie-et-boulogne@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <CommunauteCommune Order="10">
+          <Nom>La Roche-sur-yon agglomeration</Nom>
+          <NomCourt>La Roche-sur-yon agglomeration</NomCourt>          
+          <President>Luc BOUARD</President>
+          <Email>la-roche-sur-yon@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <!-- Bande 3 -->
+      <CommunauteCommune Order="11">
+          <Nom>Terres de Montaigu, communaute de communes Montaigu-Rocheserviere</Nom>
+          <NomCourt>Terres de Montaigu, Montaigu-Rocheserviere</NomCourt>          
+          <President>Antoine CHEREAU</President>
+          <Email>montaigu-rocheserviere@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <CommunauteCommune Order="12">
+          <Nom>Communauté de communes du pays de Saint-fulgent-les essarts</Nom>
+          <NomCourt>Pays de Saint-fulgent-les Essarts</NomCourt>                    
+          <President>Jacky DALLET</President>
+          <Email>saint-fulgent-les-essarts@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <CommunauteCommune Order="13">
+          <Nom>Communauté de communes du pays de Chantonnay</Nom>
+          <NomCourt>Chantonnay</NomCourt>                    
+          <President>Isabelle MOINET</President>
+          <Email>chantonnay@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <!-- Bande 4 - Est -->
+      <CommunauteCommune Order="14">
+          <Nom>Communauté de communes du pays de Mortagne</Nom>
+          <NomCourt>Pays de Mortagne</NomCourt>                    
+          <President>Guillaume JEAN</President>
+          <Email>mortagne@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <CommunauteCommune Order="15">
+          <Nom>Communauté de communes du pays des Herbiers</Nom>
+          <NomCourt>Pays des Herbiers</NomCourt>                    
+          <President>Véronique BESSE</President>
+          <Email>pays-des-herbiers@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <CommunauteCommune Order="16">
+          <Nom>Communauté de communes du pays de Pouzauges</Nom>
+          <NomCourt>Pays de Pouzauges</NomCourt>                    
+          <President>Bérangère SOULARD</President>
+          <Email>pouzauges@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <CommunauteCommune Order="17">
+          <Nom>Communauté de communes du pays de la Chataigneraie</Nom>
+          <NomCourt>Pays de la Chataigneraie</NomCourt>                    
+          <President>Valentin JOSSE</President>
+          <Email>la-chataigneraie@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <CommunauteCommune Order="18">
+          <Nom>Communauté de communes pays de Fontenay-vendee</Nom>
+          <NomCourt>Pays de Fontenay-Vendee</NomCourt>                    
+          <President>Ludovic HOCBON</President>
+          <Email>fontenay-vendee@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+      <CommunauteCommune Order="19">
+          <Nom>Communauté de communes Vendée-sèvre-autise</Nom>
+          <NomCourt>Vendée-Sèvre-Autise</NomCourt>                    
+          <President>Michel BOSSARD</President>          
+          <Email>vendee-sevre-autise@comitesantelibertevendee.fr</Email>
+      </CommunauteCommune>
+  </CommunauteCommunes>
+</Territoire>
