@@ -11,6 +11,8 @@ declare variable $base := '/Users/stephane/Comptes/perso/virus/sites/comitesante
 
 declare variable $local:json-output := <output:serialization-parameters><output:method>json</output:method></output:serialization-parameters>;
 
+declare variable $local:site := util:eval(file:read($base || '/gabarits/' || 'site.xml'));
+
 declare function local:date( $date ) {
     let $year := substring(string(current-dateTime()), 1, 4)
     return 
@@ -44,7 +46,7 @@ declare function local:films ( $name, $genre ) {
             <a href="{$f/Lien/text()}">{$f/Titre/text()}</a>
             {
             if ($f/Commentaire)
-              then ': ' ||  $f/Commentaire/(*|text())
+              then (': ', $f/Commentaire/(*|text()))
               else ()
             }
           </li>
@@ -116,10 +118,11 @@ declare function local:menu( $name ) {
 declare function local:actions ( $file ) {
   let $actions := util:eval(file:read($base || '/bd/' || $file))
   return
-      for $action in $actions//Action[@Afficher eq 'oui']
+      for $action at $i in $actions//Action[@Afficher eq 'oui']
       return
         <div class="block border" id="{$action/Ancre}">
-          <h2>{$action/Titre/text()} {
+          <div class="up"><a href="#top" title="Haut de page">​ᐃ​</a>​</div>        
+          <h2>{$i}. {$action/Titre/text()} {
             if ($action/Limite) then <span class="outil" style="float:right">Avant le {$action/Limite/text()}</span> else (),
             if ($action/Drapeau) then <span class="outil" style="float:right">{$action/Drapeau/text()}</span> else ()
             }
@@ -150,22 +153,46 @@ declare function local:agenda ( $file ) {
 };
 
 (:~
+ :  Page Outils à partir de bd/outils.xml
+ : 
+ :)
+declare function local:outils ( $file ) {
+  let $items := util:eval(file:read($base || '/bd/' || $file))
+  return
+      for $item in $items//Outil[@Afficher eq 'oui']
+      return
+        <div class="block border" id="{$item/Numero}">
+          <div class="up"><a href="#top" title="Haut de page">​ᐃ​</a>​</div>        
+          <h3>Situation n° {$item/Numero/text()}: { $item/Situation/text() }</h3>
+          <p><span class="outil">Outil</span> { $item/Moyen/text() }</p>
+          {
+          for $n in $item/Verbatim/(*|text())
+          return
+            if (local-name($n) eq 'Eval')
+              then util:eval($n/text())
+              else $n
+          }
+        </div>
+};
+
+(:~
  : Conversion <Videotheque> vers HTML
  : 
  :)
 declare function local:videos ( $file ) {
-    let $rubriques := util:eval(file:read($base || '/gabarits/' || 'site.xml'))/Contenu/Page[Id eq replace($file, '.xml', '')]/Rubriques  
+    let $rubriques := $local:site/Contenu/Page[Id eq replace($file, '.xml', '')]/Rubriques
     let $input := util:eval(file:read($base || '/bd/' || $file))
     return
-        for $r in $rubriques/Rubrique
-        let $inclus := $r/Tag/Inclus
-        let $exclus := $r/Tag/Exclus
+        for $r at $i in $rubriques/Rubrique
+        let $inclus := $r/Inclus/Tag
+        let $exclus := $r/Exclus/Tag
         return
             <div class="block border" id="{ ($r/Ancre/text(), $r/Tag[1]/text())[1] }">
-                <h2>{ $r/Titre/text() }</h2>
+                <div class="up"><a href="#top" title="Haut de page">​ᐃ​</a>​</div>
+                <h2>{$i}. { $r/Titre/text() }</h2>
                 {
                 if ($r/Presentation) then
-                    <blockquote>{ $r/Presentation/text() }</blockquote>
+                    <blockquote>{ $r/Presentation/(*|text()) }</blockquote>
                 else
                     ()
                 }
@@ -178,6 +205,7 @@ declare function local:videos ( $file ) {
                           and (empty($exclus) or not($v/Tag = $exclus))
                     return
                         <li>
+                            { if ($v/Ancre) then attribute { 'id' } { $v/Ancre } else () }
                             <a href="{$v/Lien/Base}{$v/Lien/Chemin}">
                                 {
                                 if ($v/Lien/@Censure eq "oui") then
@@ -195,7 +223,7 @@ declare function local:videos ( $file ) {
                                     if ($v/SousTitre eq 'activer') then 
                                         'sous-titrable'
                                     else if ($v/SousTitre) then 
-                                        'sous-titrée'
+                                        'sous-titré'
                                     else
                                         (),
                                     concat('ajouté le ', $v/Ajout))
@@ -213,13 +241,14 @@ declare function local:videos ( $file ) {
  : Table annuaire collectifs locaux
  : 
  :)
+
+(:<blockquote>Les groupes présentés dans cette table sont des collectifs vendéens qui ont tissé des liens avec le comité santé liberté vendée 85 ou qui en sont issus. Les groupes de type <i>territoire</i> sont des groupes locaux liés à une communauté de communes et d'agglomération. Tous les groupes à ce jour n'ont pas encore de référent. Pour devenir référent ou pour participer à une action décentralisée écrivez à l'adresse du groupe correspondant à votre <a href="https://www.maisondescommunes85.fr/annuaire/com-com">communauté de commune</a>.</blockquote>
+<p style="margin-left:20px">Pour connaître votre communauté de commune vous pouvez consulter une carte <a href="https://france.comersis.com/map/epci/intercommunalites-de-la-Vendee.png">en ligne</a> (sur le site des <a href="https://france.comersis.com/carte-epci-communes.php?dpt=85">éditions Comersis</a>).
+</p>:)
 declare function local:annuaire-departement ( $database ) {
-  <div class="block border">
-    <h2>Collectifs locaux Vendéens liés au CSLV 85</h2>
-    <blockquote>Les groupes présentés dans cette table sont des collectifs vendéens qui ont tissé des liens avec le comité santé liberté vendée 85 ou qui en sont issus. Les groupes de type <i>territoire</i> sont des groupes locaux liés à une communauté de communes et d'agglomération. Tous les groupes à ce jour n'ont pas encore de référent. Pour devenir référent ou pour participer à une action décentralisée écrivez à l'adresse du groupe correspondant à votre <a href="https://www.maisondescommunes85.fr/annuaire/com-com">communauté de commune</a>.</blockquote>
-    <p style="margin-left:20px">Pour connaître votre communauté de commune vous pouvez consulter une carte <a href="https://france.comersis.com/map/epci/intercommunalites-de-la-Vendee.png">en ligne</a> (sur le site des <a href="https://france.comersis.com/carte-epci-communes.php?dpt=85">éditions Comersis</a>).
-    </p>
-        
+  <div class="block border" id="cslv85">
+    <div class="up"><a href="#top" title="Haut de page">​ᐃ​</a>​</div>
+    <h2>Collectifs Vendéens liés au CSLV 85</h2>        
     <table class="victimes">
       <tr>
         <th>Genre</th>
@@ -300,7 +329,8 @@ declare function local:annuaire ( $file ) {
             if ($r/Image) then (: image intercalaire :)
               local:image($r/Image)
             else
-              <div class="block border">
+              <div class="block border" id="{$r/Ancre/text()}">
+                <div class="up"><a href="#top" title="Haut de page">​ᐃ​</a>​</div>
                 <h2>{ $r/Titre/text() }</h2>
                 {
                 if ($r/Presentation) then
@@ -320,10 +350,10 @@ declare function local:annuaire ( $file ) {
                   else
                     (),
                   if ($r/Rubrique) then (: nested Rubrique :)
-                    for $sub in $r/Rubrique
-                    return local:rows($r/Tag, $sub, $input)
+                    for $sub in $r/Rubrique                    
+                    return local:rows($r/Tag, $sub/Inclus/Tag, $sub/Exclus/Tag, $sub, $input)
                   else
-                    local:rows((), $r, $input) (: a flat Rubrique :)
+                    local:rows((), (), (), $r, $input) (: a flat Rubrique :)
                   }
                 </table>                
               </div>
@@ -374,7 +404,7 @@ declare function local:rubrique ( $root-tag as element()*, $r, $database ) {
     )
 };
 
-declare function local:rows ( $root-tag as element()*, $r, $database ) {
+declare function local:rows ( $root-tag as element()*, $inclus, $exclus, $r, $database ) {
   let $entries := 
     for $entry in $database//Groupe[empty($root-tag) or Tag = $root-tag][empty(@Afficher) or @Afficher eq 'oui'][empty(Partenaire)]
     where (empty($r/Tag) or $entry/Tag = $r/Tag)
@@ -383,6 +413,14 @@ declare function local:rows ( $root-tag as element()*, $r, $database ) {
           empty($r/Departement)
           or (exists($r/Departement/Inclus) and $entry/Departement = $r/Departement/Inclus)
           or (exists($r/Departement/Exclu) and not($entry/Departement = $r/Departement/Exclu))
+          )
+          and          
+          (
+          empty($inclus) or $entry/Tag = $inclus
+          )
+          and 
+          (
+          empty($exclus) or not($entry/Tag = $exclus)
           )
     return
       $entry
@@ -397,7 +435,7 @@ declare function local:rows ( $root-tag as element()*, $r, $database ) {
           <tr>
             <td>
               {
-              if ($e/Tag = 'regional') then
+              if ($root-tag = 'regional' and $e/Tag = 'regional') then
                 string-join($e/Departement, ', ')
               else  
                 string-join($e/Tag[not(. = $root-tag)], ', ') 
@@ -415,7 +453,7 @@ declare function local:rows ( $root-tag as element()*, $r, $database ) {
             } 
             </td>
             {
-            if ($e/Contact or $e/Telegram) then
+            if ($root-tag = 'regional' or $e/Contact or $e/Telegram) then
               <td>
                 {
                 if ($e/Telegram/Lien)
@@ -435,15 +473,26 @@ declare function local:rows ( $root-tag as element()*, $r, $database ) {
     )
 };
 
+declare function local:gen-tags ( $item ) {
+  <span class="vtoptag" style="float:right;">
+    {
+    $item/Tag ! <span class="tag">{ ./text() }</span>
+    }    
+  </span>  
+};
+
 declare function local:biblio ( $file ) {
     let $rubriques := util:eval(file:read($base || '/gabarits/' || 'site.xml'))/Contenu/Page[Id eq replace($file, '.xml', '')]/Rubriques
     let $input := util:eval(file:read($base || '/bd/' || $file))
     return
-        for $r in $rubriques/Rubrique
+        for $r at $i in $rubriques/Rubrique
+        let $inclus := $r/Inclus/Tag
+        let $exclus := $r/Exclus/Tag
         return
             <div class="block border">
                 { if ($r/@Ancre) then attribute { 'id' } { string($r/@Ancre) } else () }
-                <h2>{ $r/Titre/text() }</h2>
+                <div class="up"><a href="#top" title="Haut de page">​ᐃ​</a>​</div>                
+                <h2>{$i}. { $r/Titre/text() }</h2>
                 {
                 if ($r/Presentation) then
                     <blockquote>{ $r/Presentation/* }</blockquote>
@@ -455,9 +504,12 @@ declare function local:biblio ( $file ) {
                     for $i in $input//Article[@Afficher eq 'oui'][Tag = $r/Tag]
                     let $date := ($i/Publication, $i/Ajout)[1]
                     order by $date descending
+                    where     (empty($inclus) or $i/Tag = $inclus)
+                          and (empty($exclus) or not($i/Tag = $exclus))                    
                     return
                         <li>
                             {
+                            if ($i/Ancre) then attribute { 'id' } { $i/Ancre } else (),
                             if ($i/Lien) then
                               <a href="{$i/Lien[1]/Base}{$i/Lien[1]/Chemin}">{ $i/Titre/text() }</a>
                             else if ($i/LienPDF) then
@@ -470,14 +522,14 @@ declare function local:biblio ( $file ) {
                               ()
                             }
                             <span> par { $i/Auteur/text() }</span>                            
-                            <sup>({if ($i/Publication) then ("publié le " || local:date($i/Publication) || ", ") else () }ajouté le { local:date($i/Ajout) })</sup>
+                            <sup>({if ($i/Publication) then ("publié le " || local:date($i/Publication) || ", ") else () }ajouté le { local:date($i/Ajout) })</sup>                            
                             <p>
                               {
                               if ($i/Presentation) then
                                 let $comment := $i/Presentation/(*|text())
                                 return (
                                   $comment,
-                                  if (ends-with(string($i/Presentation), '.') or ends-with(string($i/Presentation), '?'))
+                                  if (matches(string($i/Presentation), '\.\s*$') or matches(string($i/Presentation), '\?\s*$'))
                                     then ' '
                                     else '. '
                                   )
@@ -537,7 +589,7 @@ declare function local:blog ( $gabarit ) {
 declare function local:render( $gabarit, $in ) {
     if ($gabarit eq 'blog') then
       local:blog ($gabarit)
-    else
+    else      
       let $page := file:read($base || '/gabarits/' || $gabarit || '.xml')
       return
           file:serialize(util:eval($page), $base || '/' || $gabarit || '.html', ())
@@ -546,38 +598,107 @@ declare function local:render( $gabarit, $in ) {
 declare function local:victimes( ) {
   let $victimes := concat('file://', $base, '/bd/', 'victimes.xml') 
   let $stylesheet := concat('file://', $base, '/transform/', 'victimes.xsl')
+  let $FSPath := concat('file://', $base, '/victimes.html')
   let $params := <parameters>
                    <param name="exist:stop-on-warn" value="yes"/>
                    <param name="exist:stop-on-error" value="yes"/>
                  </parameters>  
-  return    
-    transform:transform(fn:doc($victimes), $stylesheet, $params)
+  let $victimes := transform:transform(fn:doc($victimes), $stylesheet, $params)
+  return (
+    file:serialize($victimes, $FSPath, ()),
+    $victimes
+    )[last()]  
+};
+
+
+
+declare function local:lister-rubriques ( $name ) {
+  let $rubriques := $local:site/Contenu/Page[Id eq $name]/Rubriques
+  return (
+    <p class="rubriques" style="text-align:center">Sommaire</p>,
+    <p style="text-align:center">
+    {
+    for $t at $i in $rubriques/Rubrique
+    let $ancre := $t/(@Ancre | Ancre)
+    where not($t/@Menu eq 'off')
+    return (
+      if ($ancre)
+        then <a href="#{string($ancre)}">{$i}. {$t/Titre/text()}</a>
+        else <span>{ $t/Titre/text() }</span>,
+      if ($i < count($rubriques/Rubrique))
+        then <br/>
+        else ()
+      )
+    }
+    </p>      
+    )
+};
+
+declare function local:lister-outils ( $filename ) {
+  let $outils := util:eval(file:read($base || '/bd/' || $filename))
+  return (
+    <p class="rubriques" style="text-align:center">Sommaire</p>,
+    <p style="text-align:center">
+    {
+    for $t at $i in $outils/Outil
+    let $ancre := $t/Numero
+    return (
+      <a href="#{string($ancre)}">#{string($ancre) || ' '} { upper-case(substring($t/Situation, 1, 1)) || substring($t/Situation, 2) }</a>,
+      if ($i < count($outils/Outil))
+        then <br/>
+        else ()
+      )
+    }
+    </p>
+    )
+};
+
+declare function local:lister-actions ( $filename ) {
+  let $items := util:eval(file:read($base || '/bd/' || $filename))
+  return (
+    <p class="rubriques" style="text-align:center">Sommaire</p>,
+    <p style="text-align:center">
+    {
+    for $t at $i in $items/Action[@Afficher eq 'oui']
+    let $ancre := $t/Ancre
+    return (
+      <a href="#{string($ancre)}">{$i}. { ($t/TitreCourt/text(), $t/Titre/text())[1] }</a>,
+      if ($i < count($items/Action))
+        then <br/>
+        else ()
+      )
+    }
+    </p>
+    )
 };
 
 declare function local:export-bd-to-json ( $nodes as item()* ) {
   for $node in $nodes
   return
-    typeswitch($node)
-      case text()
-        return $node
-      case attribute()
-        return $node
-      case element()
-        return
-          let $tag := local-name($node)
+    if ($node/@Afficher eq 'non') then
+      ()
+    else
+      typeswitch($node)
+        case text()
+          return $node
+        case attribute()
+          return $node
+        case element()
           return
-            if ($tag eq 'Presentation') then
-              element { $tag }
-                {
-                util:serialize($node/(text()|*),  "method=xml media-type=application/xml indent=yes")
-                }
-            else if ($tag eq 'Tag') then
-              <Tag json:array="true">{ $node/text() }</Tag>
-            else
-              element { $tag }
-                { local:export-bd-to-json($node/(attribute()|node())) }
-      default
-        return $node
+            let $tag := local-name($node)
+            return
+              if ($tag eq 'Presentation') then
+                element { $tag }
+                  {
+                  util:serialize($node/(text()|*),  "method=xml media-type=application/xml indent=yes")
+                  }
+              else if ($tag eq 'Tag') then
+                <Tag json:array="true">{ $node/text() }</Tag>
+              else
+                element { $tag }
+                  { local:export-bd-to-json($node/(attribute()|node())) }
+        default
+          return $node
 };
 
 declare function local:json ( $filename, $tag ) {
@@ -595,7 +716,7 @@ let $in := map {
 let $pages := ('index', 'manifeste', 'annuaire', 'evenements', 'videos', 'biblio', 'outils', 'nocomment', 'blog', 'json', 'actions')
 (:                1          2           3            4           5         6         7           8          9      10        11 :)
 return 
-  for $i in (6)
+  for $i in (1, 5, 6)
   return 
     (
     if ($i = (5, 10))

@@ -20,6 +20,18 @@ a.source {
  font-size: 75%;
  font-family: "Palatino", arial, helvetica, sans-serif;
 }
+div.up {
+  float:right;
+  position: relative;
+  right: -25px;
+  top: 20px;
+}
+.rubriques {
+  font-size: 1.4em;
+  font-variant: small-caps;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
 a {
   text-decoration: none;
   color: #ff0000;
@@ -235,6 +247,15 @@ ul.blog {
 ul.blog li {
   list-style-image : none;
   list-style-type: none;
+}
+span.tag {
+  display: inline-block;
+  margin: 2px 8px 2px 0px;
+  font-size: 0.8em;
+  background: #65439b;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 5px;
 }
 
 @media print {

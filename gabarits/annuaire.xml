@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {{
             <h1>Annuaire</h1>
             <blockquote>
               <p>Compilation de liens vers des collectifs ou des associations qui participent à la reconquête de notre santé et de nos libertés. Pour faire figurer un lien sur cette page ou signaler un lien inapproprié <a id="mail2" href="mail2">contactez nous</a>.</p>
+              { local:lister-rubriques('annuaire') }              
             </blockquote>
           </div>
           

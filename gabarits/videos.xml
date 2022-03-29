@@ -25,7 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {{
           <div class="block border">
             <span style="float:right; font-size:75%">Mis à jour le { $in?date }</span>
             <h1>Videos</h1>
-            <blockquote>Liens vers des videos postées sur le canal telegram du Comité Santé Liberté Vendée. Les videos sont sélectionnées pour leur pouvoir explicatif sur la situation actuelle. Les videos sont mises à jour régulièrement. Si vous souhaitez proposer une video ou si vous pouvez nous aider à retrouver ailleurs une video censurée (!), envoyez un courrier électronique à <a id="mail2" href="mail2">contactez nous</a>, ou bien postez la sur le canal telegram (cf. <a href="index.html">Manifeste</a>)</blockquote> 
+            <blockquote>Liens vers des videos postées sur le canal telegram ou le groupe WhatsApp liés au comités. Les videos sont sélectionnées pour leur pouvoir explicatif sur la situation actuelle. Si vous souhaitez proposer une video ou si vous pouvez nous aider à retrouver ailleurs une video censurée (!), envoyez un courrier électronique à <a id="mail2" href="mail2">contactez nous</a>, ou bien postez la sur le canal telegram (cf. <a href="index.html">Accueil</a>)</blockquote> 
+            { local:lister-rubriques('videos') }
           </div>
           
           { local:videos('videos.xml') }

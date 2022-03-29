@@ -1,0 +1,1013 @@
+<annuaire>
+    <!-- source  -->
+    <federation>
+        <acronyme>FFA</acronyme>
+        <addresse>
+            <rue>33, avenue Pierre de Coubertin</rue>
+            <code>75640</code>
+            <ville>PARIS cedex 13</ville>
+        </addresse>
+        <siteweb>http://www.athle.com</siteweb>
+        <email>ffa@athle.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFSA</acronyme>
+        <addresse>
+            <rue>17, boulevard de la Marne</rue>
+            <code>94736</code>
+            <ville>NOGENT SUR MARNE</ville>
+        </addresse>
+        <siteweb>http://www.avironfrance.asso.fr</siteweb>
+        <email>ffsa@avironfrance.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFBA</acronyme>
+        <addresse>
+            <rue>9-11, avenue Michelet</rue>
+            <code>93583</code>
+            <ville>SAINT-OUEN cedex</ville>
+        </addresse>
+        <siteweb>http://www.ffba.org</siteweb>
+        <email>ffba@ffba.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFBSC</acronyme>
+        <addresse>
+            <rue>41, rue F</rue>
+            <code>75012</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffbsc.org</siteweb>
+        <email>ffbsc@ffbsc.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFBB</acronyme>
+        <addresse>
+            <rue>117, rue du Ch</rue>
+            <code>75626</code>
+            <ville>PARIS cedex 13</ville>
+        </addresse>
+        <siteweb>http://www.basketfrance.com</siteweb>
+        <email>webmaster@basketfrance.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFB</acronyme>
+        <addresse>
+            <rue>14, rue Scandicci</rue>
+            <code>93508</code>
+            <ville>PANTIN cedex</ville>
+        </addresse>
+        <siteweb>http://www.ffboxe.asso.fr</siteweb>
+        <email>da@ffboxe.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFCK</acronyme>
+        <addresse>
+            <rue>87, quai de la MarneB.P. </rue>
+            <code>94344</code>
+            <ville>JOINVILLE-LE-PON</ville>
+        </addresse>
+        <siteweb>http://www.ffck.org</siteweb>
+        <email>ffck@ffcanoe.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFC</acronyme>
+        <addresse>
+            <rue>5, rue de RomeB</rue>
+            <code>93561</code>
+            <ville>ROSNY SOUS BOIS</ville>
+        </addresse>
+        <siteweb>http://www.ffc.fr</siteweb>
+        <email>info@ffc.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFE</acronyme>
+        <addresse>
+            <rue>81-83, avenue Edouard Vaillant</rue>
+            <code>92517</code>
+            <ville>BOULOGNE-BILLANC</ville>
+        </addresse>
+        <siteweb>http://www.ffe.com</siteweb>
+        <email>secretpresid1@equina.net</email>
+    </federation>
+    <federation>
+        <acronyme>FFES</acronyme>
+        <addresse>
+            <rue>14, rue Moncey</rue>
+            <code>75009</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.escrime-ffe.fr</siteweb>
+        <email>ffe@magic.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFF</acronyme>
+        <addresse>
+            <rue>60 bis, avenue d'I</rue>
+            <code>75783</code>
+            <ville>PARIS cedex 16</ville>
+        </addresse>
+        <siteweb>http://www.fff.fr</siteweb>
+        <email>webmaster@fff.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFGY</acronyme>
+        <addresse>
+            <rue>7 ter, cour des Petites Ecuries</rue>
+            <code>75010</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffgym.com</siteweb>
+        <email>info@ffgym.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFHMFAC</acronyme>
+        <addresse>
+            <rue>4, rue du Chemin Vert</rue>
+            <code>94500</code>
+            <ville>CHAMPIGNY</ville>
+        </addresse>
+        <siteweb>http://hmfac.free.fr/</siteweb>
+        <email>ffhmfac@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFH</acronyme>
+        <addresse>
+            <rue>62, rue Gabriel P</rue>
+            <code>94250</code>
+            <ville>GENTILLY</ville>
+        </addresse>
+        <siteweb>http://www.ff-handball.org/</siteweb>
+        <email>ffhb@ff-handball.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFHG</acronyme>
+        <addresse>
+            <rue>6, avenue Rachel</rue>
+            <code>75018</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffhockey.org</siteweb>
+        <email>ffh@ffhockey.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFJDA</acronyme>
+        <addresse>
+            <rue>21/25 Avenue de la porte de ch</rue>
+            <code>75014</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffjudo.com</siteweb>
+        <email>webmaster@ffjudo.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFL</acronyme>
+        <addresse>
+            <rue>11, rue de Meaux</rue>
+            <code>75019</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.fflutte.com</siteweb>
+        <email>demelin@aol.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFN</acronyme>
+        <addresse>
+            <rue>148, avenue Gambetta</rue>
+            <code>75020</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffnatation.org</siteweb>
+        <email>ffn@ffnatation.org</email>
+    </federation>
+    <federation>
+        <acronyme>CNPM</acronyme>
+        <addresse>
+            <rue>C.N.O.S.F.- Maison du Sport Fran</rue>
+            <code>75640</code>
+            <ville>PARIS cedex 13</ville>
+        </addresse>
+        <siteweb>http://pentathlon-france.com</siteweb>
+        <email>ffpentathlon@aol.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFS</acronyme>
+        <addresse>
+            <rue>50, rue des MarquisatsBP </rue>
+            <code>74011</code>
+            <ville>ANNECY cedex</ville>
+        </addresse>
+        <siteweb>http://www.ffs.fr</siteweb>
+        <email>ski@ffs.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFSG</acronyme>
+        <addresse>
+            <rue>35, rue F</rue>
+            <code>75016</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffsg.org/</siteweb>
+        <email>secretariat-pdt@ffsg.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFTDA</acronyme>
+        <addresse>
+            <rue>25, rue Saint-Antoine</rue>
+            <code>69003</code>
+            <ville>LYON</ville>
+        </addresse>
+        <siteweb>http://www.fftda.fr</siteweb>
+        <email>secretariat@fftda.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFT</acronyme>
+        <addresse>
+            <rue>Stade Roland Garros2, avenue </rue>
+            <code>75016</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.fft.fr</siteweb>
+        <email>fft@fft.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFTT</acronyme>
+        <addresse>
+            <rue>4, rue GuillotB.P. </rue>
+            <code>92123</code>
+            <ville>MONTROUGE cedex</ville>
+        </addresse>
+        <siteweb>http://www.fftt.com</siteweb>
+        <email>fftt@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFTIR</acronyme>
+        <addresse>
+            <rue>38, rue Brunel</rue>
+            <code>75017</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.fftir.asso.fr</siteweb>
+        <email>info@fftir.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFTA</acronyme>
+        <addresse>
+            <rue>268, rue de Br</rue>
+            <code>93561</code>
+            <ville>ROSNY SOUS BOIS</ville>
+        </addresse>
+        <siteweb>http://www.ffta.fr</siteweb>
+        <email>ffta@ffta.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFTRI</acronyme>
+        <addresse>
+            <rue>2, rue de la Justice</rue>
+            <code>93210</code>
+            <ville>SAINT-DENIS LA P</ville>
+        </addresse>
+        <siteweb>http://www.fftri.com</siteweb>
+        <email>fftri@fftri.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFV</acronyme>
+        <addresse>
+            <rue>17 rue Bocquillon</rue>
+            <code>75015</code>
+            <ville>Paris</ville>
+        </addresse>
+        <siteweb>http://www.ffvoile.org</siteweb>
+        <email>sophie.courty@ffv.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFVB</acronyme>
+        <addresse>
+            <rue>43 bis, rue d'Hautpoul</rue>
+            <code>75940</code>
+            <ville>PARIS cedex 19</ville>
+        </addresse>
+        <siteweb>http://www.volley.asso.fr</siteweb>
+        <email>ffvolley@volley.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFAM</acronyme>
+        <addresse>
+            <rue>108, rue Saint-Maur</rue>
+            <code>75011</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffam.asso.fr</siteweb>
+        <email>ffam@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FNA</acronyme>
+        <addresse>
+            <rue>155, avenue Wagram</rue>
+            <code>75017</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.fna.asso.fr</siteweb>
+        <email>fna@fna.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme/>
+        <addresse>
+            <rue>27 bis, Grande-Rue</rue>
+            <code>25610</code>
+            <ville>ARC-ET-SENANS</ville>
+        </addresse>
+        <siteweb>http://www.ffaerostation.org</siteweb>
+        <email>jcthoma@club-internet.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFBT</acronyme>
+        <addresse>
+            <rue>20, rue Thiers</rue>
+            <code>92100</code>
+            <ville>BOULOGNE-BILLANC</ville>
+        </addresse>
+        <email>ffbt.balltrap@wanadoo.fr</email>        
+    </federation>
+    <federation>
+        <acronyme>FFJBT</acronyme>
+        <addresse>
+            <rue>R</rue>
+            <code>34000</code>
+            <ville>MONTPELLIER</ville>
+        </addresse>
+        <siteweb>http://www.sport-tambourin-ffjbt.</siteweb>
+        <email>ffjbt@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFBP</acronyme>
+        <addresse>
+            <rue>22, rue Victor Hugo</rue>
+            <code>80000</code>
+            <ville>AMIENS</ville>
+        </addresse>
+    </federation>
+    <federation>
+        <acronyme>FFBI</acronyme>
+        <addresse>
+            <rue>19, avenue Aristide BriandBP 3202 VICHY cedex</rue>
+            <code>19, avenue Aristide BriandBP 3202 VICHY cedex</code>
+            <ville>19, avenue Aristide BriandBP 3202 VICHY cedex</ville>
+        </addresse>
+        <siteweb>http://www..ffbillard.org</siteweb>
+        <email>FFB.VICHY@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFBSQ</acronyme>
+        <addresse>
+            <rue>6, avenue des TuileriesVal Gr</rue>
+            <code>91351</code>
+            <ville>GRIGNY cedex</ville>
+        </addresse>
+        <siteweb>http://www.federationbowling.org</siteweb>
+        <email>cts@federationbowling.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFCV</acronyme>
+        <addresse>
+            <rue>19, rue des sables</rue>
+            <code>62600</code>
+            <ville>BERCK SUR MER</ville>
+        </addresse>
+        <siteweb>http://www.ffcv.org/</siteweb>
+        <email>contact@ffcv.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFCO</acronyme>
+        <addresse>
+            <rue>37, avenue GambettaB.P. </rue>
+            <code>75967</code>
+            <ville>PARIS cedex 20</ville>
+        </addresse>
+        <siteweb>http://www.ffco.asso.fr</siteweb>
+        <email>f.f.c.o@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFCT</acronyme>
+        <addresse>
+            <rue>12, rue Louis Bertrand</rue>
+            <code>94200</code>
+            <ville>IVRY SUR SEINE</ville>
+        </addresse>
+        <siteweb>http://www.ffct.org</siteweb>
+        <email>info@ffct.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFD</acronyme>
+        <addresse>
+            <rue>20, rue Saint-Lazare</rue>
+            <code>75009</code>
+            <ville>PARIS</ville>
+        </addresse>
+    </federation>
+    <federation>
+        <acronyme>FFESSM</acronyme>
+        <addresse>
+            <rue>24, quai de Rive-Neuve</rue>
+            <code>13284</code>
+            <ville>MARSEILLE cedex</ville>
+        </addresse>
+        <siteweb>http://www.ffessm.fr</siteweb>
+        <email>secretariat@ffessm.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFFA</acronyme>
+        <addresse>
+            <rue>79, rue R</rue>
+            <code>93120</code>
+            <ville>LA COURNEUVE</ville>
+        </addresse>
+        <siteweb>http://www.fffa.org</siteweb>
+        <email>fffa@fffa.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFGIRA</acronyme>
+        <addresse>
+            <rue>A</rue>
+            <code>77450</code>
+            <ville>ESBLY</ville>
+        </addresse>
+        <siteweb>http://www.helico.org</siteweb>
+        <email>ffgiraviation@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFG</acronyme>
+        <addresse>
+            <rue>68, rue Anatole France</rue>
+            <code>92309</code>
+            <ville>LEVALLOIS-PERRET</ville>
+        </addresse>
+        <siteweb>http://www.ffg.org</siteweb>
+        <email>ffg@ffg.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFKAMA</acronyme>
+        <addresse>
+            <rue>122, rue de la Tombe Issoire</rue>
+            <code>75014</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffkama.fr</siteweb>
+        <email>info@ffkama.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFLP</acronyme>
+        <addresse>
+            <rue>23, rue Chemin du Thil</rue>
+            <code>80000</code>
+            <ville>AMIENS</ville>
+        </addresse>
+    </federation>
+    <federation>
+        <acronyme>FFME</acronyme>
+        <addresse>
+            <rue>8-10, quai de la Marne</rue>
+            <code>75019</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffme.fr</siteweb>
+        <email>info@ffme.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFM</acronyme>
+        <addresse>
+            <rue>74, avenue Parmentier</rue>
+            <code>75011</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffmoto.org</siteweb>
+        <email>ffm@ffmoto.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFMO</acronyme>
+        <addresse>
+            <rue>49, rue de Boulainvilliers</rue>
+            <code>75016</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffm-asso.net</siteweb>
+        <email>ffm@ffm-asso.net</email>
+    </federation>
+    <federation>
+        <acronyme>FFP</acronyme>
+        <addresse>
+            <rue>62, rue de F</rue>
+            <code>75012</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffp.asso.fr</siteweb>
+        <email>ffp@ffp.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFPML</acronyme>
+        <addresse>
+            <rue>73, quai Auguste Deshaies</rue>
+            <code>94854</code>
+            <ville>IVRY Cedex</ville>
+        </addresse>
+        <siteweb>http://www.FFPML.com</siteweb>
+        <email>SIEGE.FFPSML.FR@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFPC</acronyme>
+        <addresse>
+            <rue>3, impasse Lorailler</rue>
+            <code>27600</code>
+            <ville>GAILLON</ville>
+        </addresse>
+        <siteweb>http://www.ffpc-sea-river.com</siteweb>
+        <email>jdupuis@ffpc-sea-river.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFPM</acronyme>
+        <addresse>
+            <rue>Quartier JorlisR</rue>
+            <code>64600</code>
+            <ville>ANGLET</ville>
+        </addresse>
+        <siteweb>http://www.FFPM.org</siteweb>
+        <email>feder.pecheurs.mer@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFPB</acronyme>
+        <addresse>
+            <rue>60, avenue Dubrocq - Trinquet Mod</rue>
+            <code>64108</code>
+            <ville>BAYONNE cedex</ville>
+        </addresse>
+        <siteweb>http://www.ffpb.net</siteweb>
+        <email>ffpb@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFPJP</acronyme>
+        <addresse>
+            <rue>13, rue Trigance</rue>
+            <code>13002</code>
+            <ville>MARSEILLE</ville>
+        </addresse>
+        <siteweb>http://www.ffpjp.fr</siteweb>
+        <email>ffpjp.siege@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFPLUM</acronyme>
+        <addresse>
+            <rue>96 bis, rue Marc SangnierBP </rue>
+            <code>94709</code>
+            <ville>MAISON ALFORT ce</ville>
+        </addresse>
+        <siteweb>http://www.ffplum.com</siteweb>
+        <email>ffplum@ffplum.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFRP</acronyme>
+        <addresse>
+            <rue>14, rue Riquet</rue>
+            <code>75019</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffrp.asso.fr</siteweb>
+        <email>info@ffrp.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFRS</acronyme>
+        <addresse>
+            <rue>6, boulevard Franklin Roosevelt</rue>
+            <code>33034</code>
+            <ville>BORDEAUX cedex</ville>
+        </addresse>
+        <siteweb>http://www.ffrs.asso.fr</siteweb>
+        <email>siege.ffrs@ffrs.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFR</acronyme>
+        <addresse>
+            <rue>9, rue de Li</rue>
+            <code>75009</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffr.fr</siteweb>
+        <email>fcasellato@ffr.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFRXIII</acronyme>
+        <addresse>
+            <rue>30, rue de l'Echiquier</rue>
+            <code>75010</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <email>ffrxiii@aol.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFSOS</acronyme>
+        <addresse>
+            <rue>28, rue Lacroix</rue>
+            <code>75017</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffss-asso.org</siteweb>
+        <email>pitet_r@club-internet.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFBSF</acronyme>
+        <addresse>
+            <rue>49, rue du Faubourg Poissonni</rue>
+            <code>75009</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffsavate.com</siteweb>
+        <email>claude.buffault@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFSN</acronyme>
+        <addresse>
+            <rue>27, rue d'Ath</rue>
+            <code>75009</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffsn.asso.fr</siteweb>
+        <email>ffsn@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFSPELEO</acronyme>
+        <addresse>
+            <rue>28, rue Delandine</rue>
+            <code>69002</code>
+            <ville>LYON</ville>
+        </addresse>
+        <siteweb>http://www.ffspeleo.fr</siteweb>
+        <email>secretariat@ffspeleo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFSAU</acronyme>
+        <addresse>
+            <rue>17-21, avenue du G</rue>
+            <code>75781</code>
+            <ville>PARIS cedex 16</ville>
+        </addresse>
+        <siteweb>http://www.ffsa.org</siteweb>
+        <email>hpichot@ffsa.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFSB</acronyme>
+        <addresse>
+            <rue>11, cours Lafayette</rue>
+            <code>69006</code>
+            <ville>LYON</ville>
+        </addresse>
+        <siteweb>http://www.ffsb.asso.fr</siteweb>
+        <email>daf@ffsb.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFST1</acronyme>
+        <addresse>
+            <rue>459, rue des MorainesVeraz1170 CHEVRY</rue>
+            <code>459, rue des MorainesVeraz1170 CHEVRY</code>
+            <ville>459, rue des MorainesVeraz1170 CHEVRY</ville>
+        </addresse>
+        <siteweb>http://www.ffstraineau.com</siteweb>
+        <email>ffst@free.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFSQ</acronyme>
+        <addresse>
+            <rue>2, rue de Paris</rue>
+            <code>94100</code>
+            <ville>SAINT-MAUR</ville>
+        </addresse>
+        <siteweb>http://www.ffsquash.org</siteweb>
+        <email>ffsquash@hotmail.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFSURF</acronyme>
+        <addresse>
+            <rue>30, impasse Digue NordBP </rue>
+            <code>40150</code>
+            <ville>HOSSEGOR</ville>
+        </addresse>
+        <siteweb>http://www.surfingfrance.com</siteweb>
+        <email>contact@surfingfrance.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFTB</acronyme>
+        <addresse>
+            <rue>BP </rue>
+            <code>54190</code>
+            <ville>VILLERUPT</ville>
+        </addresse>
+        <siteweb>http://www.fftb.com</siteweb>
+        <email>fftb@club-internet.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFVV</acronyme>
+        <addresse>
+            <rue>29, rue de S</rue>
+            <code>75006</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffvv.org</siteweb>
+        <email>info@ffvv.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFVL</acronyme>
+        <addresse>
+            <rue>4, rue de Suisse6000 NICE</rue>
+            <code>4, rue de Suisse6000 NICE</code>
+            <ville>4, rue de Suisse6000 NICE</ville>
+        </addresse>
+        <siteweb>http://www.ffvl.fr</siteweb>
+        <email>ffvl@ffvl.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FCSAD</acronyme>
+        <addresse>
+            <rue>BP </rue>
+            <code>92243</code>
+            <ville>MALAKOFF cedex</ville>
+        </addresse>
+    </federation>
+    <federation>
+        <acronyme>FFEPGV</acronyme>
+        <addresse>
+            <rue>41-43, rue de Reuilly</rue>
+            <code>75012</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffepgv.org/</siteweb>
+        <email>ffepgv@ffepgv.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>EPMM</acronyme>
+        <addresse>
+            <rue>153, rue Saint-Martin</rue>
+            <code>75003</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.sportspourtous.org</siteweb>
+        <email>info@sportspourtous.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFHA</acronyme>
+        <addresse>
+            <rue>42, rue Louis Lumi</rue>
+            <code>75020</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.handisport.org</siteweb>
+        <email>handisport@handisport.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFMNS</acronyme>
+        <addresse>
+            <rue>11, rue Henri Barbusse</rue>
+            <code>33110</code>
+            <ville>LE BOUSCAT</ville>
+        </addresse>
+        <email>fnms@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FSSF</acronyme>
+        <addresse>
+            <rue>84, rue de Turenne</rue>
+            <code>75003</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.f-s-s-f.org</siteweb>
+        <email>fssf@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FFSADAPTE</acronyme>
+        <addresse>
+            <rue>9, rue Jean Daudin</rue>
+            <code>75015</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ffsa.asso.fr</siteweb>
+        <email>ffsa@ffsportadapte.org</email>
+    </federation>
+    <federation>
+        <acronyme>UFSE</acronyme>
+        <addresse>
+            <rue>60 bis, avenue d'I</rue>
+            <code>75783</code>
+            <ville>PARIS cedex 16</ville>
+        </addresse>
+        <siteweb>http://ufse.org</siteweb>
+        <email>ufsefrance@aol.com</email>
+    </federation>
+    <federation>
+        <acronyme>FNSMR</acronyme>
+        <addresse>
+            <rue>1, rue Sainte-Lucie</rue>
+            <code>75015</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.fnsmr.org</siteweb>
+        <email>fnsmr@mouvement-rural.org</email>
+    </federation>
+    <federation>
+        <acronyme>FFST</acronyme>
+        <addresse>
+            <rue>51, boulevard de Valmy</rue>
+            <code>59650</code>
+            <ville>VILLENEUVE D'ASC</ville>
+        </addresse>
+        <siteweb>http://ffst.volleyball.free.fr</siteweb>
+        <email>ffst@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FSCF</acronyme>
+        <addresse>
+            <rue>22, rue Oberkampf</rue>
+            <code>75011</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.fscf.asso.fr</siteweb>
+        <email>fscf@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme>FSGT</acronyme>
+        <addresse>
+            <rue>14, rue Scandicci</rue>
+            <code>93508</code>
+            <ville>PANTIN cedex</ville>
+        </addresse>
+        <siteweb>http://www.fsgt.org</siteweb>
+        <email>info@fsgt.org</email>
+    </federation>
+    <federation>
+        <acronyme>UFOLEP</acronyme>
+        <addresse>
+            <rue>3, rue R</rue>
+            <code>75341</code>
+            <ville>PARIS cedex 7</ville>
+        </addresse>
+        <siteweb>http://www.ufolep.org</siteweb>
+        <email>idesousa@laligue.org</email>
+    </federation>
+    <federation>
+        <acronyme>UNSLL</acronyme>
+        <addresse>
+            <rue>153, avenue Jean Lolive</rue>
+            <code>93695</code>
+            <ville>PANTIN cedex</ville>
+        </addresse>
+        <siteweb>http://www.leolagrange-sport.org</siteweb>
+        <email>union.sportive@leolagrange.org</email>
+    </federation>
+    <federation>
+        <acronyme>FNSU</acronyme>
+        <addresse>
+            <rue>Centre Maine-Montparnasse11, </rue>
+            <code>75015</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.sport-u.com</siteweb>
+        <email>federation@sportu.com</email>
+    </federation>
+    <federation>
+        <acronyme>UGSEL</acronyme>
+        <addresse>
+            <rue>277, rue Saint-Jacques</rue>
+            <code>75005</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.ugsel.org</siteweb>
+        <email>courrier@ugsel.org</email>
+    </federation>
+    <federation>
+        <acronyme>UNCU</acronyme>
+        <addresse>
+            <rue>180, avenue Gaston Berger</rue>
+            <code>59000</code>
+            <ville>LILLE</ville>
+        </addresse>
+        <siteweb>http://www.univ-valenciennes.fr/u</siteweb>
+        <email>rd@luc.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>UNSS</acronyme>
+        <addresse>
+            <rue>Union Nationale du Sport Scolaire</rue>
+            <code>75009</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.unss.org</siteweb>
+        <email>dngall@sirtem.fr</email>
+    </federation>
+    <federation>
+        <acronyme>USEP</acronyme>
+        <addresse>
+            <rue>3, rue R</rue>
+            <code>75341</code>
+            <ville>PARIS cedex 07</ville>
+        </addresse>
+        <siteweb>http://www.usep.org</siteweb>
+        <email>idesousa@laligue.org</email>
+    </federation>
+    <federation>
+        <acronyme>AFCAM</acronyme>
+        <addresse>
+            <rue>1, avenue Pierre de Coubertin</rue>
+            <code>75640</code>
+            <ville>PARIS Cedex 13</ville>
+        </addresse>
+        <siteweb>http://www.arbitre-afcam.org</siteweb>
+        <email>michel-dailly@planetis.com</email>
+    </federation>
+    <federation>
+        <acronyme>AFCOS</acronyme>
+        <addresse>
+            <rue>Maison des Sports Fran</rue>
+            <code>75640</code>
+            <ville>PARIS cedex 13</ville>
+        </addresse>
+        <siteweb>http://www.i-france.com/afcos</siteweb>
+        <email>afcos@ifrance.com</email>
+    </federation>
+    <federation>
+        <acronyme/>
+        <addresse>
+            <rue>Maison des Sports Fran</rue>
+            <code>75640</code>
+            <ville>PARIS cedex 13</ville>
+        </addresse>
+    </federation>
+    <federation>
+        <acronyme>FCAF</acronyme>
+        <addresse>
+            <rue>24, avenue de Laumi</rue>
+            <code>75019</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.clubalpin.com</siteweb>
+        <email>editions.com@clubalpin.com</email>
+    </federation>
+    <federation>
+        <acronyme>FFCO_2</acronyme>
+        <addresse>
+            <rue>4, rue L</rue>
+            <code>92240</code>
+            <ville>MALAKOFF</ville>
+        </addresse>
+        <siteweb>http://www.ffco.org</siteweb>
+        <email>FFCO@wanadoo.fr</email>
+    </federation>
+    <federation>
+        <acronyme/>
+        <addresse>
+            <rue>38, avenue Marceau</rue>
+            <code>75008</code>
+            <ville>PARIS</ville>
+        </addresse>
+    </federation>
+    <federation>
+        <acronyme>FNJ</acronyme>
+        <addresse>
+            <rue>Maison des Sports Fran</rue>
+            <code>75640</code>
+            <ville>PARIS cedex 13</ville>
+        </addresse>
+        <email>bernardvere@free.fr</email>
+    </federation>
+    <federation>
+        <acronyme/>
+        <addresse>
+            <rue>78, rue Olivier de Serres</rue>
+            <code>75739</code>
+            <ville>PARIS cedex 15</ville>
+        </addresse>
+    </federation>
+    <federation>
+        <acronyme/>
+        <addresse>
+            <rue>75, rue Denis Papin</rue>
+            <code>93500</code>
+            <ville>PANTIN</ville>
+        </addresse>
+    </federation>
+    <federation>
+        <acronyme>UCPA</acronyme>
+        <addresse>
+            <rue>62, rue de la Glaci</rue>
+            <code>75640</code>
+            <ville>PARIS cedex 13</ville>
+        </addresse>
+        <siteweb>http://www.ucpa.com</siteweb>
+        <email>ataillefer@ucpa.asso.fr</email>
+    </federation>
+    <federation>
+        <acronyme>ASPTT</acronyme>
+        <addresse>
+            <rue>14, rue de l'Ing</rue>
+            <code>75015</code>
+            <ville>PARIS</ville>
+        </addresse>
+        <siteweb>http://www.asptt.com</siteweb>
+        <email>Union.des.Asptt@wanadoo.fr</email>
+    </federation>
+</annuaire>

@@ -23,7 +23,7 @@
 
     <Victime>
       <Article>
-        <Titre>Près de Bressuire. Un jeune de 22 ans, footballeur au FC Nueil-les-Aubiers, retrouvé mort chez lui</Titre>
+        <Titre>Un jeune de 22 ans, footballeur au FC Nueil-les-Aubiers, retrouvé mort chez lui</Titre>
         <Lien>
           <Base>https://www.ouest-france.fr</Base>
           <Chemin>/nouvelle-aquitaine/nueil-les-aubiers-79250/faits-divers-deces-d-un-jeune-homme-de-22-ans-il-jouait-au-fc-nueil-les-aubiers-122cc602-4af2-11ec-8a6b-582d17cbe42b</Chemin>
@@ -91,7 +91,7 @@
 
     <Victime>
       <Article>
-        <Titre>Sarthe. Victime d’un arrêt cardiaque en match de tennis de table, il est sauvé par ses adversaires</Titre>
+        <Titre>Victime d’un arrêt cardiaque en match de tennis de table, il est sauvé par ses adversaires</Titre>
         <Lien>
           <Base>https://www.ouest-france.fr</Base>
           <Chemin>/pays-de-la-loire/parce-sur-sarthe-72300/sarthe-victime-d-un-arret-cardiaque-en-match-de-tennis-de-table-il-est-sauve-par-ses-adversaires-b4ab443c-45f5-11ec-9739-9885b0d67a6a</Chemin>
@@ -129,7 +129,7 @@
 
     <Victime>
       <Article>
-        <Titre>Nay – Le rugby en deuil après le décès de Mathis, âgé de 13 ans</Titre>
+        <Titre>Le rugby en deuil après le décès de Mathis, âgé de 13 ans</Titre>
         <Lien>
           <Base>https://www.lasemainedespyrenees.fr</Base>
           <Chemin>/2021/10/13/nay-le-rugby-en-deuil-apres-le-deces-de-mathis-age-de-13-ans/</Chemin>
@@ -193,7 +193,7 @@
 
     <Victime>
       <Article>
-        <Titre>Vendée : une jeune femme retrouvée morte sur une plage de Barbâtre</Titre>
+        <Titre>Une jeune femme retrouvée morte sur une plage de Barbâtre</Titre>
         <Lien>
           <Base>https://actu.fr/pays-de-la-loire/barbatre_85011</Base>
           <Chemin>/vendee-une-jeune-femme-retrouvee-morte-sur-une-plage-de-barbatre_37167003.html</Chemin>
@@ -208,7 +208,7 @@
 
     <Victime>
       <Article>
-        <Titre>Vendée. Des passants réaniment une jeune femme en arrêt cardiaque en pleine rue</Titre>
+        <Titre>Des passants réaniment une jeune femme en arrêt cardiaque en pleine rue</Titre>
         <Lien>
           <Base>https://www.ouest-france.fr</Base>
           <Chemin>/pays-de-la-loire/vendee/vendee-en-arret-cardiaque-des-passants-la-reaniment-0f6a8cd0-f4fb-11eb-8b47-20d41891af7f</Chemin>
@@ -223,7 +223,7 @@
 
     <Victime>
       <Article>
-        <Titre>Vendée : un plaisancier décède d'une crise cardiaque</Titre>
+        <Titre>Un plaisancier décède d'une crise cardiaque</Titre>
         <Lien>
           <Base>https://actu.fr</Base>
           <Chemin>/pays-de-la-loire/noirmoutier-en-l-ile_85163/vendee-un-plaisancier-decede-dune-crise-cardiaque_43861430.html</Chemin>
@@ -238,7 +238,7 @@
 
     <Victime>
       <Article>
-        <Titre>Vendée. Un homme décède après un malaise dans l’eau à La Tranche-sur-Mer</Titre>
+        <Titre>Un homme décède après un malaise dans l’eau à La Tranche-sur-Mer</Titre>
         <Lien>
           <Base>https://www.ouest-france.fr</Base>
           <Chemin>/pays-de-la-loire/vendee/vendee-un-homme-decede-apres-un-malaise-dans-l-eau-a-la-tranche-sur-mer-1e6c12fc-01c7-11ec-b682-8fa160af65a2</Chemin>
@@ -352,11 +352,902 @@
         </Lien>
         <Publication>2021-12-31</Publication>
       </Article>
+      <Article>
+        <Titre>Un hommage rendu au policier mort en service, en présence de Marlène Schiappa</Titre>
+        <Lien>
+          <Base>https://nantes.maville.com</Base>
+          <Chemin>/actu/actudet_-nantes.-un-hommage-rendu-au-policier-mort-en-service-en-presence-de-marlene-schiappa-_8-5020099_actu.Htm</Chemin>
+        </Lien>
+        <Publication>2022-01-07</Publication>
+      </Article>      
+      <Age>39</Age>  
       <Evolution>décès</Evolution>
-      <Age>?</Age>
       <Ville>Nantes</Ville>
       <Departement>44</Departement>
+    </Victime>
+  
+    <Victime>
+      <Article>
+        <Titre>Loire-Atlantique : Les proches d’une victime d’un infarctus accablent un défibrillateur défaillant</Titre>
+        <Lien>
+          <Base>https://www.20minutes.fr</Base>
+          <Chemin>/nantes/3203495-20211222-loire-atlantique-proches-victime-infarctus-accablent-defibrillateur-defaillant</Chemin>
+        </Lien>
+        <Publication>2021-12-22</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>57</Age>
+      <Ville>Corcoué-sur-Logne</Ville>
+      <Departement>44</Departement>
+    </Victime>                 
+
+    <Victime>
+      <Article>
+        <Titre>À Lannion, une femme sauvée in extremis de la noyade par la police</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/bretagne/lannion-22300/a-lannion-une-femme-sauvee-in-extremis-de-la-noyade-par-la-police-20699c78-6fd6-11ec-8178-27380463a9a2</Chemin>
+        </Lien>
+        <Publication>2022-01-07</Publication>
+      </Article>
+      <Evolution>malaise</Evolution>
+      <Age>43</Age>
+      <Ville>Lannion</Ville>
+      <Departement>22</Departement>
+    </Victime> 
+
+    <Victime>
+      <Article>
+        <Titre>Un automobiliste décède après un malaise au volant sur la rocade de Rennes</Titre>
+        <Lien>
+          <Base>https://rennes.maville.com</Base>
+          <Chemin>/actu/actudet_-rocade-de-rennes.-un-automobiliste-decede-dans-un-accident-de-la-circulation-_7-4974635_actu.Htm</Chemin>
+        </Lien>
+        <!-- <Lien>
+          <Base>https://www.letelegramme.fr</Base>          <Chemin>/ille-et-vilaine/rennes/un-quinquagenaire-decede-dans-un-accident-sur-la-rocade-de-rennes-09-12-2021-12884716.php</Chemin>
+        </Lien> -->
+        <Publication>2021-12-09</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>50</Age>
+      <Ville>Rennes</Ville>
+      <Departement>35</Departement>
+    </Victime>     
+
+    <Victime>
+      <Article>
+        <Titre>Un homme fait un malaise et décède à la déchetterie d’Oizé</Titre>
+        <Lien>
+          <Base>https://lemans.maville.com</Base>
+          <Chemin>/actu/actudet_-sarthe.-un-homme-fait-un-malaise-et-decede-a-la-dechetterie-d-oize-_dep-4969639_actu.Htm</Chemin>
+        </Lien>
+        <Publication>2021-12-06</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>67</Age>
+      <Ville>Oizé</Ville>
+      <Departement>72</Departement>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Toulouse : un garçon de 16 ans fait un malaise cardiaque après le vaccin contre le Covid-19</Titre>
+        <Lien>
+          <Base>https://lopinion.com</Base>
+          <Chemin>/articles/actualite/10480_toulouse-un-garcon-de-16-ans-fait-un-malaise-cardiaque-apres-le-vaccin-contre-le-covid-19</Chemin>
+        </Lien>
+        <Publication>2021-11-05</Publication>
+      </Article>
+      <Evolution>malaise</Evolution>
+      <Age>16</Age>
+      <Ville>Toulouse</Ville>
+      <Departement>31</Departement>
+      <Commentaire>Le 7 septembre circulait sur telegram une copie d'un carnet de santé d'un enfant examiné à la clinique Saint-Charles de la Roche Sur Yon pour Myo-pericardite post-vaccinale Pfizer</Commentaire>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Covid : un jeune de 16 ans hospitalisé à Montpellier pour une myocardite après sa dose de rappel du vaccin</Titre>
+        <Lien>
+          <Base>https://www.midilibre.fr</Base>
+          <Chemin>/2022/01/14/covid-un-adolescent-hospitalise-a-montpellier-pour-une-myocardite-apres-sa-dose-de-rappel-du-vaccin-10044712.php</Chemin>
+        </Lien>
+        <Publication>2022-01-14</Publication>
+      </Article>
+      <Article>
+        <Titre>Covid-19 : après sa dose de rappel, un jeune homme de 16 ans est hospitalisé pour une myocardite</Titre>
+        <Lien>
+          <Base>https://www.ladepeche.fr</Base>
+          <Chemin>/2022/01/14/covid-19-apres-sa-dose-de-rappel-un-jeune-homme-de-16-ans-est-hospitalise-pour-une-myocardite-10045982.php</Chemin>
+        </Lien>
+        <Publication>2022-01-14</Publication>
+      </Article>      
+      <Evolution>hospitalisation</Evolution>
+      <Age>16</Age>
+      <Ville>Montpellier</Ville>
+      <Departement>34</Departement>
+    </Victime>    
+
+    <Victime>
+      <Article>
+        <Titre>Un homme décède en pratiquant du longe-côte</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/laiguillon-sur-mer-85460/vendee-un-homme-decede-en-pratiquant-du-longe-cote-8ccb8d64-755c-11ec-bf95-2d0bee5037ae</Chemin>
+        </Lien>
+        <Publication>2022-01-14</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>60</Age>
+      <Ville>L’Aiguillon-la-Presqu’île</Ville>
+      <Departement>85</Departement>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>La conductrice fait un malaise, Jean-Pierre sauve le bus</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/hauts-de-france/beauvais_60057/beauvais-la-conductrice-fait-un-malaise-jean-pierre-sauve-le-bus_47820879.html</Chemin>
+        </Lien>
+        <Publication>2022-01-10</Publication>
+      </Article>
+      <Article>
+        <Titre>Cet employé municipal stoppe un bus incontrôlable et devient un héros à Beauvais</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/societe/faits-divers/temoignage-cet-employe-municipal-stoppe-un-bus-incontrolable-et-devient-un-heros-a-beauvais-7591414</Chemin>
+        </Lien>
+        <Publication>2022-01-14</Publication>
+      </Article>       
+      <Evolution>malaise</Evolution>
+      <Ville>Beauvais</Ville>
+      <Departement>60</Departement>
+    </Victime>      
+
+    <Victime>
+      <Article>
+        <Titre>Un cycliste fait un malaise sur la route Guémené-Lignol</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/bretagne/lignol_56110/morbihan-un-cycliste-fait-un-malaise-sur-la-route-guemene-lignol_46827255.html</Chemin>
+        </Lien>
+        <Publication>2021-11-29</Publication>
+      </Article>
+      <Age>66</Age>
+      <Evolution>hospitalisation</Evolution>
+      <Ville>Lorient</Ville>
+      <Departement>56</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Des ambulanciers sauvent un homme en arrêt cardiaque au bord de la route à Angers</Titre>
+        <Lien>
+          <Base>https://larochesuryon.maville.com</Base>
+          <Chemin>/actu/actudet_-des-ambulanciers-sauvent-un-homme-en-arret-cardiaque-au-bord-de-la-route-a-angers-_fil-5026362_actu.Htm</Chemin>
+        </Lien>
+        <Publication>2022-01-11</Publication>
+      </Article>      
+      <Article>
+        <Titre>Cycliste en arrêt cardiaque à Angers, « à plusieurs, on a redonné vie à cette personne »</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/angers-49000/angers-a-plusieurs-on-a-redonne-vie-a-cette-personne-c213db58-73b7-11ec-adb3-e05a5ebfa4f4</Chemin>
+        </Lien>
+        <Publication>2022-01-12</Publication>
+      </Article>
+      <Age>50</Age>
+      <Evolution>hospitalisation</Evolution>
+      <Ville>Angers</Ville>
+      <Departement>49</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Mort d'un jeune élève de l'école nationale de police lors d'une séance de sport</Titre>
+        <Lien>
+          <Base>https://france3-regions.francetvinfo.fr</Base>
+          <Chemin>/occitanie/gard/nimes/nimes-mort-d-un-jeune-eleve-de-l-ecole-de-police-lors-d-une-seance-de-sport-2369722.html</Chemin>
+        </Lien>
+        <Publication>2021-12-07</Publication>
+      </Article>
+      <Article>
+        <Titre>Un élève gardien de la paix s’effondre durant un footing et décède à l’hôpital</Titre>
+        <Lien>
+          <Base>https://actu17.fr</Base>
+          <Chemin>/nimes-un-eleve-gardien-de-la-paix-seffondre-durant-un-footing-et-decede-a-lhopital/</Chemin>
+        </Lien>
+        <Publication>2021-12-07</Publication>
+      </Article>      
+      <Article>
+        <Titre>Un ancien policier adjoint de Lyon de 21 ans meurt d'un malaise cardiaque lors de sa séance de sport</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/occitanie/nimes_30189/un-ancien-policier-adjoint-de-lyon-de-21-ans-meurt-d-un-malaise-cardiaque-lors-de-sa-seance-de-sport_47046619.html</Chemin>
+        </Lien>
+        <Publication>2021-12-07</Publication>
+      </Article>    
+      <Age>21</Age>
+      <Evolution>décès</Evolution>
+      <Ville>Nîmes</Ville>
+      <Departement>30</Departement>
+      <Commentaire>Pablo S. s’est effondré durant un footing dans la matinée selon nos informations. Le jeune homme aurait été victime d’un arrêt cardiaque.</Commentaire>       </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Un élève-officier de 24 ans issu du 1er RHP de Tarbes retrouvé mort à Saint-Cyr</Titre>
+        <Lien>
+          <Base>https://www.ladepeche.fr</Base>
+          <Chemin>/2021/11/02/tarbes-un-eleve-officier-issu-du-1er-rhp-retrouve-mort-a-saint-cyr-9904464.php</Chemin>
+        </Lien>
+        <Publication>2021-11-02</Publication>
+      </Article>
+      <Age>24</Age>
+      <Evolution>décès</Evolution>
+      <Ville>Saint-Cyr</Ville>
+      <Departement>78</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Décès d’une jeune gendarme de 21 ans</Titre>
+        <Lien>
+          <Base>https://www.lasemainedespyrenees.fr</Base>
+          <Chemin>/2021/10/14/region-deces-dune-jeune-gendarme-de-21-ans/</Chemin>
+        </Lien>
+        <Publication>2021-10-14</Publication>
+      </Article>
+      <Age>21</Age>
+      <Evolution>décès</Evolution>
+      <Ville>Ariège</Ville>
+      <Departement>09</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un ado de 13 ans fait un malaise cardiaque en cours de sport, les secours le réaniment en plein collège</Titre>
+        <Lien>
+          <Base>https://www.ladepeche.fr</Base>
+          <Chemin>/2022/01/20/montauban-lado-reanime-par-les-secours-en-plein-college-10058647.php</Chemin>
+        </Lien>
+        <Publication>2022-01-20</Publication>
+      </Article>
+      <Age>13</Age>
+      <Evolution>hospitalisation</Evolution>
+      <Ville>Montauban</Ville>
+      <Departement>82</Departement>
+    </Victime>
+      
+    <Victime Afficher="non">
+      <Article>
+        <Titre>À Concarneau, après un infarctus, il reprend la mer avec un cardiologue</Titre>
+        <Lien>
+          <Base>https://www.letelegramme.fr</Base>
+          <Chemin>/finistere/concarneau/a-concarneau-apres-un-infarctus-il-reprend-la-mer-avec-un-cardiologue-23-01-2022-12909430.php</Chemin>
+        </Lien>
+        <Publication>2022-01-23</Publication>
+      </Article>
+      <Age>43</Age>
+      <Evolution>hospitalisation</Evolution>
+      <Ville>Concarneau</Ville>
+      <Departement>29</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un chauffeur de poids lourd retrouvé mort dans sa cabine</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/nouvelle-aquitaine/saint-selve_33474/gironde-un-chauffeur-de-poids-lourd-retrouve-mort-dans-sa-cabine_47919543.html</Chemin>
+        </Lien>
+        <Publication>2022-01-13</Publication>
+      </Article>
+      <Age>61</Age>
+      <Evolution>décès</Evolution>
+      <Ville>Saint-Selve</Ville>
+      <Departement>33</Departement>
+    </Victime>    
+
+    <Victime>
+      <Article>
+        <Titre>Corps découvert à Messanges (40) : aucune trace suspecte</Titre>
+        <Lien>
+          <Base>https://www.sudouest.fr</Base>
+          <Chemin>/landes/messanges/corps-decouvert-a-messanges-40-aucune-trace-suspecte-7567238.php</Chemin>
+        </Lien>
+        <Publication>2022-01-06</Publication>
+      </Article>
+      <Age>57</Age>
+      <Evolution>décès</Evolution>
+      <Ville>Messanges</Ville>
+      <Departement>40</Departement>
+    </Victime>   
+
+    <Victime>
+      <Article>
+        <Titre>Le corps d’un homme retrouvé sur une plage</Titre>
+        <Lien>
+          <Base>https://www.20minutes.fr</Base>
+          <Chemin>/faits_divers/3222323-20220124-vendee-corps-homme-retrouve-plage</Chemin>
+        </Lien>
+        <Publication>2022-01-24</Publication>
+      </Article>
+      <Age>41</Age>
+      <Evolution>décès</Evolution>
+      <Ville>Sables d'Olonne</Ville>
+      <Departement>85</Departement>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <!-- « C’est tellement brutal » : en Bretagne,  -->
+        <Titre>L’institutrice décède après un AVC en classe</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/bretagne/treguier-22220/treguier-l-institutrice-sophie-barroux-decede-apres-un-avc-en-classe-dab3f884-7c61-11ec-8c83-efcc5d1018b8</Chemin>
+        </Lien>
+        <Publication>2022-01-18</Publication>
+      </Article>
+      <Article>
+        <Titre>Une institutrice décède après un AVC en classe en Bretagne</Titre>
+        <Lien>
+          <Base>https://www.lelibrepenseur.org/une-institutrice-decede-apres-un-avc-en-classe-en-bretagne/</Base>
+          <Chemin>/une-institutrice-decede-apres-un-avc-en-classe-en-bretagne/</Chemin>
+        </Lien>
+        <Publication>2022-01-28</Publication>
+      </Article>      
+      <Evolution>décès</Evolution>
+      <Age>53</Age>
+      <Ville>Lannion</Ville>
+      <Departement>22</Departement>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Football. Vague d’émotion à l’ES Pleyber-Christ après la mort d’un jeune joueur à l’entraînement</Titre>
+        <Lien>
+          <Base>https://www.letelegramme.fr</Base>
+          <Chemin>/finistere/pleyber-christ/vague-d-emotion-a-l-es-pleyber-christ-apres-la-mort-d-un-jeune-joueur-a-l-entrainement-27-01-2022-12912642.php</Chemin>
+        </Lien>
+        <Publication>2022-01-27</Publication>
+      </Article>
+      <Age>26</Age>
+      <Evolution>décès</Evolution>
+      <Ville>Pleyber-Christ</Ville>
+      <Departement>29</Departement>
+    </Victime>    
+
+    <Victime>
+      <Article>
+        <Titre>Un garçon de 14 ans décède lors d’un cours de natation</Titre>
+        <Lien>
+          <Base>https://www.letelegramme.fr</Base>
+          <Chemin>/finistere/chateaulin/a-crozon-un-garcon-de-14-ans-decede-lors-d-un-cours-de-natation-30-01-2022-12914219.php</Chemin>
+        </Lien>
+        <Publication>2022-01-30</Publication>
+      </Article>
+      <Age>14</Age>
+      <Evolution>décès</Evolution>
+      <Ville>Crozon</Ville>
+      <Departement>29</Departement>
+    </Victime> 
+    
+    <Victime>
+      <!-- étudiant prépa WE ski -->
+      <Article>
+        <Titre>Un jeune de 20 ans meurt d’un malaise cardiaque pendant un week-end entre étudiants</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/auvergne-rhone-alpes/annecy-74000/haute-savoie-un-jeune-de-20-ans-meurt-d-un-malaise-cardiaque-pendant-un-week-end-entre-etudiants-7567521</Chemin>
+        </Lien>
+        <Publication>2021-12-21</Publication>
+      </Article>
+      <Age>20</Age>
+      <Evolution>décès</Evolution>
+      <Ville>Contamines-Montjoie</Ville>
+      <Departement>74</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>En arrêt cardiorespiratoire, un collégien secouru par un sapeur-pompier volontaire</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/angers-49000/pres-d-angers-en-arret-cardiorespiratoire-un-collegien-secouru-par-un-sapeur-pompier-volontaire-c734f744-82bb-11ec-9ba3-2e77758d00f9</Chemin>
+        </Lien>
+        <Publication>2022-01-31</Publication>
+      </Article>
+      <Evolution>hospitalisation</Evolution>
+      <Age>14</Age>
+      <Departement>49</Departement>
+      <Ville>Angers</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un joueur de football de l'U.S. Trévières a fait un malaise cardiaque</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/normandie/trevieres_14711/un-joueur-de-football-de-l-u-s-trevieres-a-fait-un-malaise-cardiaque_48498130.html</Chemin>
+        </Lien>
+        <Publication>2022-02-07</Publication>
+      </Article>
+      <Article>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/normandie/trevieres-14710/un-jeune-footballeur-dans-le-coma-apres-un-arret-cardiaque-pres-de-bayeux-6608fc36-88f1-11ec-90b5-0123a7afe87e</Chemin>
+        </Lien>
+        <Publication>2022-02-06</Publication>        
+      </Article>        
+      <Evolution>hospitalisation</Evolution>
+      <Age>29</Age>
+      <Departement>14</Departement>
+      <Ville>Caen</Ville>
+    </Victime> 
+
+    <Victime>
+      <Article>
+        <Titre>Décès d’une skieuse de 48 ans victime d’une crise cardiaque sur les pistes</Titre>
+        <Lien>
+          <Base>https://www.lasemainedespyrenees.fr</Base>
+          <Chemin>/2022/02/07/bigorre-deces-dune-skieuse-de-48-ans-victime-dune-crise-cardiaque-sur-les-pistes/</Chemin>
+        </Lien>
+        <Publication>2022-02-07</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>48</Age>
+      <Departement>65</Departement>
+      <Ville>Bigorre (originaire du Finistère)</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Victime d’un malaise au volant, un chauffeur poids lourd perd la vie sur la route</Titre>
+        <Lien>
+          <Base>https://www.sudouest.fr</Base>
+          <Chemin>/charente-maritime/rochefort-victime-d-un-malaise-au-volant-un-chauffeur-poids-lourd-perd-la-vie-sur-la-route-8228988.php</Chemin>
+        </Lien>
+        <Publication>2022-02-02</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>58</Age>
+      <Departement>17</Departement>
+      <Ville>Rochefort</Ville>
+    </Victime>     
+
+    <Victime>
+      <Article>
+        <Titre>Ils sauvent une femme victime d'un malaise cardiaque</Titre>
+        <Lien>
+          <Base>https://www.francebleu.fr</Base>
+          <Chemin>/infos/sante-sciences/ils-sauvent-une-femme-victime-d-un-malaise-cardiaque-il-faut-apprendre-les-gestes-de-premiers-1642008312</Chemin>
+        </Lien>
+        <Publication>2022-01-13</Publication>
+      </Article>
+      <Evolution>hospitalisation</Evolution>
+      <Departement>87</Departement>
+      <Ville>Limoges</Ville>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Un homme décède dans un accident sur l’autoroute A11</Titre>
+        <Lien>
+          <Base>https://saint-nazaire.maville.com</Base>
+          <Chemin>/actu/actudet_-vair-sur-loire.-un-homme-decede-dans-un-accident-sur-l-autoroute-a11-_fil-5072354_actu.Htm</Chemin>
+        </Lien>
+        <Publication>2022-02-08</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Departement>44</Departement>
+      <Ville>Vair-sur-Loire</Ville>
+    </Victime>    
+
+    <Victime>
+      <Article>
+        <Titre>Un trentenaire décède après s’être fait vacciner contre le Covid, sa famille porte plainte</Titre>
+        <Lien>
+          <Base>https://www.sudouest.fr</Base>
+          <Chemin>/landes/dax/landes-un-trentenaire-decede-apres-s-etre-fait-vacciner-contre-le-covid-sa-famille-porte-plainte-4345424.php</Chemin>
+        </Lien>
+        <Publication>2021-07-29</Publication>
+      </Article>
+      <Age>39</Age>
+      <Evolution>décès</Evolution>
+      <Departement>40</Departement>
+      <Ville>Dax</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un élève de l’École des mousses retrouvé mort dans son lit</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/bretagne/brest-29200/brest-un-eleve-de-l-ecole-des-mousses-retrouve-mort-dans-son-lit-0aba5678-8a80-11ec-b1a4-b42f8ae3c7af</Chemin>
+        </Lien>
+        <Publication>2022-02-10</Publication>
+      </Article>
+      <Article>
+        <Titre>Un jeune élève de 16 ans retrouvé mort à l'École des mousses à Brest</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/bretagne/brest_29019/un-jeune-eleve-de-16-ans-retrouve-mort-a-lecole-des-mousses-a-brest_48608260.html</Chemin>
+        </Lien>
+        <Publication>2022-02-10</Publication>
+      </Article>      
+      <Age>16</Age>
+      <Evolution>décès</Evolution>
+      <Departement>29</Departement>
+      <Ville>Brest (originaire de Loire-Atlantique)</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Enquête ouverte après la mort à Nantes d'un étudiant de 24 ans vacciné à l'AstraZeneca</Titre>
+        <Lien>
+          <Base>https://www.tf1info.fr</Base>
+          <Chemin>/justice-faits-divers/coronavirus-covid-19-vaccin-pandemie-nantes-une-enquete-ouverte-apres-la-mort-d-un-etudiant-vaccine-a-l-astrazeneca-2181482.html</Chemin>
+        </Lien>
+        <Publication>2021-03-23</Publication>
+      </Article>
+      <Article>
+        <Titre>Décès d'un étudiant vacciné à l'AstraZeneca : l'avocat de la famille reste prudent</Titre>
+        <Lien>
+          <Base>https://www.tf1info.fr</Base>
+          <Chemin>/justice-faits-divers/etudiant-decede-a-nantes-apres-avoir-ete-vaccine-a-l-astrazeneca-l-avocat-de-la-famille-reste-prudent-2181594.html</Chemin>
+        </Lien>
+        <Publication>2021-03-24</Publication>
+      </Article>
+      <Age>24</Age>
+      <Evolution>décès</Evolution>
+      <Departement>44</Departement>
+      <Ville>Nantes</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un joueur de football vétéran meurt à la suite d’un malaise</Titre>
+        <Lien>
+          <Base>https://www.sudouest.fr</Base>          <Chemin>/charente-maritime/fontcouverte/charente-maritime-un-joueur-de-football-veteran-meurt-a-la-suite-d-un-malaise-8631053.php</Chemin>
+        </Lien>
+        <Publication>2022-02-12</Publication>
+      </Article>
+      <Article>
+        <Titre>Malaise mortel sur un terrain de football</Titre>
+        <Lien>
+          <Base>https://france3-regions.francetvinfo.fr</Base>
+          <Chemin>/nouvelle-aquitaine/charente-maritime/la-rochelle/charente-maritime-malaise-mortel-sur-un-terrain-de-football-2459551.html</Chemin>
+        </Lien>
+        <Publication>2022-02-12</Publication>
+      </Article>
+      <Age>47</Age>
+      <Evolution>décès</Evolution>
+      <Departement>17</Departement>
+      <Ville>Saintes</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un joueur pris d’un malaise lors d’un match de football, à Kerlaz</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/bretagne/saint-nic-29550/finistere-un-joueur-pris-d-un-malaise-lors-d-un-match-de-football-a-kerlaz-c5b29390-8cfc-11ec-ac71-cec47c67e5fe</Chemin>
+        </Lien>
+        <Publication>2022-02-13</Publication>
+      </Article>
+      <Age>23</Age>
+      <Evolution>hospitalisation</Evolution>
+      <Departement>29</Departement>
+      <Ville>Kerlaz</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un cycliste de 60 ans décède d’un malaise cardiaque</Titre>
+        <Lien>
+          <Base>https://www.sudouest.fr</Base>
+          <Chemin>/charente-maritime/rochefort/charente-maritime-un-cycliste-de-60-ans-decede-d-un-malaise-cardiaque-9197941.php</Chemin>
+        </Lien>
+        <Publication>2022-02-20</Publication>
+      </Article>
+      <Age>60</Age>
+      <Evolution>décès</Evolution>
+      <Departement>17</Departement>
+      <Ville>Surgères</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un cycliste décède, victime d'un arrêt cardiaque</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/pays-de-la-loire/les-sables-d-olonne_85194/les-sables-dolonne-cycliste-decede-victime-dun-arret-cardiaque_23225668.html</Chemin>
+        </Lien>
+        <Publication>2021-04-19</Publication>
+      </Article>
+      <Age>54</Age>
+      <Evolution>décès</Evolution>
+      <Departement>85</Departement>
+      <Ville>Les Sables</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Le cycliste décède, victime d'un arrêt cardiaque</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/pays-de-la-loire/saint-martin-des-noyers_85246/vendee-cycliste-decede-victime-dun-arret-cardiaque_23098386.html</Chemin>
+        </Lien>
+        <Publication>2021-04-18</Publication>
+      </Article>
+      <Age>66</Age>
+      <Evolution>décès</Evolution>
+      <Departement>85</Departement>
+      <Ville>Saint-Martin-des-Noyers</Ville>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Un automobiliste victime d’un arrêt cardiaque au volant</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/bretagne/limerzel-56220/limerzel-un-automobiliste-victime-d-un-arret-cardiaque-au-volant-ec2c9662-8a93-11ec-878d-eac97e3f97e3</Chemin>
+        </Lien>
+        <Publication>2022-02-10</Publication>
+      </Article>
+      <Age>72</Age>
+      <Evolution>décès</Evolution>
+      <Departement>56</Departement>
+      <Ville>Limerzel</Ville>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Un homme retrouvé mort sur la voie publique à La Varenne : une enquête est ouverte</Titre>
+        <Lien>
+          <Base>https://cholet.maville.com</Base>
+          <Chemin>/actu/actudet_-mauges.-un-homme-retrouve-mort-sur-la-voie-publique-a-la-varenne-une-enquete-est-ouverte-_loc-5100082_actu.Htm</Chemin>
+        </Lien>
+        <Publication>2022-02-27</Publication>
+      </Article>      
+      <Article>
+        <Titre>Le corps d’un homme découvert à La Varenne ce dimanche matin</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/la-varenne-49270/le-corps-d-un-homme-decouvert-a-la-varenne-ce-dimanche-matin-db4fa1d8-97f2-11ec-bf4e-2e0a9047a170</Chemin>
+        </Lien>
+        <Publication>2022-02-27</Publication>
+      </Article>
+      <Age>56</Age>
+      <Evolution>décès</Evolution>
+      <Departement>49</Departement>
+      <Ville>La Varenne</Ville>
+    </Victime> 
+
+    <Victime>
+      <Article>
+        <Titre>Il fait un arrêt cardiaque à l’entraînement de basket : ses copains lui sauvent la vie</Titre>
+        <Lien>
+          <Base>https://www.ouest-france.fr</Base>
+          <Chemin>/pays-de-la-loire/savigne-leveque-72460/sarthe-il-fait-un-arret-cardiaque-a-l-entrainement-de-basket-ses-copains-lui-sauvent-la-vie-a972f946-9584-11ec-bb8b-5d9f4f2ab8fe</Chemin>
+        </Lien>
+        <Publication>2022-02-25</Publication>
+      </Article>
+      <Evolution>malaise</Evolution>
+      <Age>53</Age>
+      <Ville>Savigné-l’Évêque</Ville>
+      <Departement>72</Departement>
+    </Victime>  
+    
+    <Victime>
+      <Article>
+        <Titre>James Theodore est mort à l'entraînement</Titre>
+        <Lien>
+          <Base>https://www.lequipe.fr</Base>
+          <Chemin>/Rugby/Actualites/James-theodore-chartres-est-mort-a-l-entrainement/1319823</Chemin>
+        </Lien>
+        <Publication>2022-03-01</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>22</Age>
+      <Ville>Chartres</Ville>
+      <Departement>28</Departement>
+    </Victime>
+
+    <Victime>
+      <Article>
+        <Titre>Décès d'une fillette de 9 ans dans la cour de son école, après un malaise cardiaque</Titre>
+        <Lien>
+          <Base>https://www.francebleu.fr</Base>
+          <Chemin>/infos/faits-divers-justice/nice-deces-d-une-fillette-de-9-ans-dans-la-cour-de-son-ecole-apres-un-malaise-cardiaque-1646393276</Chemin>
+        </Lien>
+        <Publication>2022-03-04</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>9</Age>
+      <Ville>Nice</Ville>
+      <Departement>06</Departement>
+    </Victime>   
+              
+    <Victime>
+      <Article>
+        <Titre>Victime d'un malaise dans les vestiaires, Jérôme Garens décède après un match de rugby</Titre>
+        <Lien>
+          <Base>https://www.ladepeche.fr</Base>
+          <Chemin>/2022/03/06/lot-et-garonne-un-joueur-decede-apres-un-match-de-rugby-10152599.php</Chemin>
+        </Lien>
+        <Publication>2022-03-06</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>39</Age>
+      <Ville>Saint-Aubin</Ville>
+      <Departement>47</Departement>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Un employé de la station décède</Titre>
+        <Lien>
+          <Base>https://www.ladepeche.fr</Base>
+          <Chemin>/2022/03/07/hautacam-un-employe-de-la-station-decede-10154353.php</Chemin>
+        </Lien>
+        <Publication>2022-03-07</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>53</Age>
+      <Ville>Hautacam</Ville>
+      <Departement>65</Departement>
+    </Victime> 
+    
+    <Victime>
+      <Article>
+        <Titre>Fanny, âgée de 14 ans, victime d'un malaise cardiaque en sortant du collège, est décédée</Titre>
+        <Lien>
+          <Base>https://www.midilibre.fr</Base>
+          <Chemin>/2022/03/15/herault-fanny-agee-de-14-ans-victime-dun-malaise-cardiaque-en-sortant-du-college-est-decedee-10171414.php</Chemin>
+        </Lien>
+        <Publication>2022-03-15</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>14</Age>
+      <Ville>Clermont-l'Hérault</Ville>
+      <Departement>34</Departement>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Ancienne gloire de l'US Marmande, Fabrice Mijoint est décédé</Titre>
+        <Lien>
+          <Base>https://actu.fr</Base>
+          <Chemin>/nouvelle-aquitaine/marmande_47157/lot-et-garonne-ancienne-gloire-de-l-us-marmande-fabrice-mijoint-est-decede-a-l-age-de-54-ans_49370178.html</Chemin>
+        </Lien>
+        <Publication>2022-03-12</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>54</Age>
+      <Ville>Marmande</Ville>
+      <Departement>47</Departement>      
+    </Victime>  
+
+    <Victime>
+      <Article>
+        <Titre>Le président de Century 21 est décédé d’une crise cardiaque</Titre>
+        <Lien>
+          <Base>https://immobilier.lefigaro.fr</Base>
+          <Chemin>/article/le-president-de-century-21-est-decede-d-une-crise-cardiaque_bc0851ba-a15e-11ec-a3fc-5bcd320a036b/</Chemin>
+        </Lien>
+        <Publication>2022-03-12</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>61</Age>
+      <Departement>-</Departement>            
+    </Victime>   
+
+    <Victime>
+      <Article>
+        <Titre>Une femme retrouvée morte à côté de sa trottinette</Titre>
+        <Lien>
+          <Base>https://www.francebleu.fr</Base>
+          <Chemin>/infos/faits-divers-justice/une-femme-retrouvee-morte-a-cote-de-sa-trottinette-au-passage-en-isere-1646890556</Chemin>
+        </Lien>
+        <Publication>2022-03-10</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>42</Age>
+      <Ville>Passage</Ville>
+      <Departement>38</Departement>      
     </Victime>             
+    
+    <Victime>
+      <Article>
+        <Titre>Très mauvaise nouvelle pour Beauvue, l'attaquant en arrêt maladie pour plusieurs mois</Titre>
+        <Lien>
+          <Base>https://www.msn.com</Base>
+          <Chemin>/fr-fr/sport/football/boulogne-très-mauvaise-nouvelle-pour-beauvue-l-attaquant-en-arrêt-maladie-pour-plusieurs-mois/ar-AAUTupe</Chemin>
+        </Lien>
+        <Publication>2022-03-10</Publication>
+      </Article>
+      <Evolution>abandon</Evolution>
+      <Age>33</Age>
+      <Ville>Boulogne-sur-Mer</Ville>
+      <Departement>62</Departement>
+    </Victime>
+    
+    <Victime>
+      <Article>
+        <Titre>Le cycliste belge Cédric Baekeland meurt des suites d’une crise cardiaque</Titre>
+        <Lien>
+          <Base>https://www.lesoir.be</Base>
+          <Chemin>/430150/article/2022-03-15/le-cycliste-belge-cedric-baekeland-meurt-des-suites-dune-crise-cardiaque</Chemin>
+        </Lien>
+        <Publication>2022-03-15</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>28</Age>
+      <Departement>Majorque</Departement>            
+    </Victime> 
+
+    <Victime>
+      <Article>
+        <Titre>La gendarmerie du Morbihan pleure le chef Thony Gendry, décédé d’un arrêt cardiaque</Titre>
+        <Lien>
+          <Base>https://www.lelibrepenseur.org</Base>
+          <Chemin>/la-gendarmerie-du-morbihan-pleure-le-chef-thony-gendry-decede-dun-arret-cardiaque-rip/</Chemin>
+        </Lien>
+        <Publication>2022-03-17</Publication>
+      </Article>
+      <Evolution>décès</Evolution>
+      <Age>42</Age>
+      <Ville>Grand-Champ</Ville>
+      <Departement>56</Departement>
+    </Victime> 
+
+    <Victime>
+      <Article>
+        <Titre>Tennis : une douleur «comme une aiguille qu'on appuie», décrit Nadal terrassé en finale</Titre>
+        <Lien>
+          <Base>https://www.lefigaro.fr</Base>
+          <Chemin>/sports/tennis/tennis-une-douleur-comme-une-aiguille-qu-on-appuie-decrit-nadal-terrasse-en-finale-a-indian-wells-20220321</Chemin>
+        </Lien>
+        <Publication>2022-03-21</Publication>
+      </Article>
+      <Evolution>malaise</Evolution>
+      <Age>35</Age>
+      <Ville>Indian Wells</Ville>
+      <Departement>USA, CA</Departement>
+      <!-- https://www.lequipe.fr/Tennis/Actualites/-je-suis-desole-pour-lui-mais-il-connaissait-les-conditions-dit-rafael-nadal-a-propos-de-novak-djokovic/1308736 -->
+    </Victime> 
+
+    <Victime>
+      <Article>
+        <Titre>Sonny Colbrelli victime d'un grave malaise après l'arrivée de la première étape du Tour de Catalogne</Titre>
+        <Lien>
+          <Base>https://www.lequipe.fr</Base>
+          <Chemin>/Cyclisme-sur-route/Actualites/Sonny-colbrelli-victime-d-un-grave-malaise-apres-l-arrivee-de-la-1re-etape-du-tour-de-catalogne/1323633</Chemin>
+        </Lien>
+        <Publication>2022-03-21</Publication>
+      </Article>
+      <Evolution>hospitalisation</Evolution>
+      <Age>31</Age>
+      <Ville>Catalogne</Ville>
+      <Departement>ES</Departement>
+    </Victime> 
+
+    <Victime>
+      <Article>
+        <Titre>« Aujourd’hui pour moi, ma vie est presque finie » témoignage d'un jeune homme de 23 ans (sportif de haut niveau)</Titre>
+        <Lien>
+          <Base>http://ctiapchcholet.blogspot.com</Base>
+          <Chemin>/2022/03/aujourdhui-pour-moi-ma-vie-est-presque.html</Chemin>
+        </Lien>
+        <Publication>2022-03-21</Publication>
+      </Article>
+      <Evolution>abandon</Evolution>
+      <Age>23</Age>
+      <Ville>Cholet</Ville>
+      <Departement>49</Departement>
+    </Victime>                      
 </Victimes>
   
   

@@ -16,7 +16,7 @@
       <Genre>liaison</Genre>      
       <Nom>Comité Santé Liberté Vendée 85</Nom>
       <Lien>http://www.comitesantelibertevendee.fr</Lien>
-      <Presentation>Ce collectif (groupe telegram, groupe WhatsApp, organisation d'actions diverses)</Presentation>
+      <Presentation>Ce collectif (groupe telegram CSLV 85, groupe WhatsApp CSL 85, organisation d'actions diverses)</Presentation>
       <Contact>contact@comitesantelibertevendee.fr</Contact>
       <Telegram>
         <Contact>telegram@comitesantelibertevendee.fr</Contact>
@@ -24,8 +24,8 @@
       </Telegram>
     </Groupe>
 
-    <!-- Par Communauté de Communes -->
-        <Groupe>
+        <!-- Par Communauté de Communes -->
+        <!-- <Groupe>
             <Partenaire>cslv-85</Partenaire>
             <Tag>regional</Tag>
             <Tag>CSLV 85</Tag>
@@ -252,7 +252,7 @@
             </Presentation>
             <Contact>vendee-sevre-autise@comitesantelibertevendee.fr</Contact>
             <ContactSubject>[CSLV 85 - Vendee-Sèvre-Autise] Contact</ContactSubject>
-        </Groupe>
+        </Groupe> -->
     
     <!-- Thématiques -->
 
@@ -363,11 +363,27 @@
     <Groupe>
       <Tag>regional</Tag>
       <Departement>24</Departement>      
+      <Nom>Collectif NoPass24</Nom>
+      <Lien>https://nopass24.fr/a-propos/</Lien>
+      <Presentation>Collectif citoyen luttant pour le respect des libertés.</Presentation>
+    </Groupe>
+
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>24</Departement>      
       <Departement>47</Departement>      
       <Departement>33</Departement>      
       <Nom>Collectif Oxygene Aquitaine</Nom>
       <Lien>https://oxygene.collectifaquitaine.fr/blog/</Lien>
       <Presentation>un groupe d’adultes, concernés par la santé et le bien-être des enfants (parents, enseignants, soignants, grands-parents, ...)</Presentation>
+    </Groupe>
+
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>35</Departement>
+      <Nom>BPAV</Nom>
+      <Lien>https://bretagnepiqueeauvif.sitew.fr</Lien>
+      <Presentation>association Bretonne ayant démarré en 2020 dans le cadre de la gestion de la crise sanitaire</Presentation>
     </Groupe>
 
     <Groupe>
@@ -386,6 +402,24 @@
       <Presentation>collectif de pompiers de Haute-Savoie</Presentation>
     </Groupe>
 
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>santé</Tag>
+      <Tag>traitement</Tag>
+      <Nom>Coordination Santé Libre</Nom>
+      <Lien>https://stopcovid19.today</Lien>
+      <Presentation>collectif Covid-19 laissons les médecins prescrire qui regroupe des médecins, libéraux mais aussi hospitaliers répartis sur l’ensemble du territoire. Aussi connus pour leur <b>proposition de traitement</b> en prévention ou ambulatoire précoce Covid-19 (voir la rubrique "<a href="https://stopcovid19.today/coordination-sante-libre/">Coordination Santé Libre</a>" sur le site).</Presentation>
+    </Groupe>
+
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>santé</Tag>
+      <Tag>traitement</Tag>
+      <Nom>Covisoins</Nom>
+      <Lien>https://covisoins.fr</Lien>
+      <Presentation>Réseau de soins ambulatoires multidisciplinaire (médecins, infirmiers, sages-femmes, kinésithérapeutes, aides à domicile, etc…) pour la prise en charge du Covid. En cours de constitution.</Presentation>
+    </Groupe>
+    
     <Groupe>
       <Tag>thematique</Tag>
       <Tag>enfance</Tag>
@@ -443,13 +477,16 @@
       <Presentation>association mettant en œuvre de moyens juridiques et judiciaires pour des actions individuelles et collectives, ayant un lien avec les mesures prises pour lutter contre la « pandémie » de la COVID19</Presentation>
     </Groupe>
 
+    <!-- 
+    Certains parlent de cagnotes bidon...  
     <Groupe>
       <Tag>thematique</Tag>
       <Tag>victime</Tag>
-      <Nom>AVCCF</Nom>      
+      <Nom>AVCCF</Nom>
       <Presentation>Association victimes coronavirus covid-19 France pour soutenir aussi bien les victimes du Covid non traitées que les victimes des vaccins Covid-19 ou les personnes non-vaccinées.</Presentation>
       <Lien>https://association-victimes-coronavirus-france.org/</Lien>
     </Groupe>
+    -->
 
     <Groupe>
       <Tag>thematique</Tag>
@@ -479,9 +516,10 @@
     <Groupe>
       <Tag>thematique</Tag>
       <Tag>santé</Tag>
+      <Tag>syndicat</Tag>
       <Nom>Syndicat Liberté Santé</Nom>
       <Lien>https://www.syndicat-liberte-sante.com/</Lien>
-      <Presentation>créé pour la défense de l’ensemble des professionnels de santé et professions connexes contre la défiguration du secret médical, du libre consentement au soin et de l’indépendance professionnelle</Presentation>
+      <Presentation>Syndicat créé pour la défense de l’ensemble des professionnels de santé et professions connexes contre la défiguration du secret médical, du libre consentement au soin et de l’indépendance professionnelle</Presentation>
     </Groupe>
 
     <Groupe>
@@ -517,6 +555,15 @@
       <Tag>regional</Tag>
       <Departement>85</Departement>
       <Genre>territoire</Genre>
+      <Nom>Le jardin d'échange Mortagnais</Nom>
+      <Lien>https://seljeu.levillage.org</Lien>
+      <Presentation>Plateforme d'entraide et de mise en réseau basée sur les compétences et les projets de chacun</Presentation>
+    </Groupe>
+
+    <Groupe>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Genre>thématique</Genre>
       <Nom>Groupe RSA La Roche Sur Yon</Nom>
       <Lien>https://reseausolidarite.wixsite.com/rsafrance/post/la-déclaration-du-réseau-de-solidarité-active-rsa</Lien>
       <Presentation>L'objectif du Réseau de Solidarité Active (RSA) est de renforcer la solidarité entre les gens au niveau local, et de favoriser la mise en place d'actions. Chaque groupe couvre un zone géographique d'un rayon de 25 km.</Presentation>
@@ -524,7 +571,7 @@
         <Lien>https://t.me/joinchat/LerguxzMNn2jFgz5K2za8Q</Lien>
       </Telegram>
     </Groupe>
-
+    
     <Groupe>
       <Tag>réinformation</Tag>
       <Tag>etranger</Tag>
@@ -548,7 +595,7 @@
       <Tag>juridique</Tag>
       <Nom>Rester libre</Nom>
       <Lien>http://resterlibre.org</Lien>
-      <Presentation>Association créée par Éric Verhaeghe en novembre 2021, pour coordonner des actions. L'adhésion à 10 euros donne accès à un forum de discussion.</Presentation>
+      <Presentation>Association créée par <b>Éric Verhaeghe</b> en novembre 2021, pour coordonner des actions. L'adhésion à 10 euros donne accès à un forum de discussion.</Presentation>
     </Groupe>
     
     <Groupe>
@@ -557,7 +604,7 @@
       <Tag>victime</Tag>
       <Nom>Je ne suis pas un danger</Nom>
       <Lien>https://jenesuispasundanger.com</Lien>
-      <Presentation>Association fondée par Me Di Vizio pour représenter les non vaccinés et les suspendus et garder l'espérance.</Presentation>
+      <Presentation>Association fondée par Me <b>Di Vizio</b> pour représenter les non vaccinés et les suspendus et garder l'espérance.</Presentation>
     </Groupe>    
     
     <Groupe>
@@ -600,6 +647,140 @@
       <Lien>https://www.reinfosante.ch</Lien>
       <Presentation>Collectif regroupant des professionnels de la santé de différents domaines d’activité, soucieux de partager des informations fiables, indépendantes et transparentes au sein des communautés médicales et paramédicales.</Presentation>
     </Groupe>    
+
+    <Groupe>
+      <Tag>blog</Tag>
+      <Nom>Changer, pour de vrai</Nom>
+      <Lien>https://une-vraie-politique-pour-notre-pays.net</Lien>
+      <Presentation>Blog d'analyse politique et de proposition</Presentation>
+    </Groupe>
+
+    <Groupe>
+      <Tag>blog</Tag>
+      <Nom>Sceptique</Nom>
+      <Lien>http://www.sceptique.fr</Lien>
+      <Presentation>Blog tenu durant la première année de la crise du Covid, initialement sur Mediapart par un abonné mais sorti lorsque le journal que soi-disant seuls ses lecteurs peuvent acheter s'est mis à censurer à tout va tous les commentaires sur le vermifuge pour chevaux le plus connu du monde !</Presentation>
+    </Groupe>
+        
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>juridique</Tag>
+      <Tag>professionnel</Tag>
+      <Nom>Navigants libres</Nom>
+      <Lien>https://navigantslibres.fr</Lien>
+      <Presentation>Collectif pour les pilotes, hôtesses et stewards, personnels navigants de contrat français oppposés aux passes.</Presentation>
+    </Groupe>
     
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>juridique</Tag>      
+      <Tag>droit</Tag>
+      <Nom>Révoludroit</Nom>
+      <Lien>https://revoludroit.fr</Lien>
+      <Presentation>Site pour expliquer la Réforme des Institutions modélisée par <b>Valérie Bugault</b> depuis plus de 20 ans et s'orienter vers des groupements ou collectifs locaux pour la mettre en oeuvre.</Presentation>
+    </Groupe>    
+    
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>résilience</Tag>
+      <Tag>solidarité</Tag>      
+      <Nom>Réseau Solaris</Nom>
+      <Lien>https://solaris-france.org</Lien>
+      <Presentation>"Internet Humain" pour constituer des groupes locaux prêts à s'entraider reliés en réseau. Chaque groupe est basé sur 2 ou 3 référents qui disposent d'un annuaire des compétences des membres du groupe et qui vous aiguilleront pour trouver des réponses à vos demandes d'assistance. Basé sur la bienveillance et le bénévolat.</Presentation>
+    </Groupe>
+    
+    <Groupe>
+      <Tag>thematique</Tag>      
+      <Tag>entraide</Tag>
+      <Nom>YakaSaider</Nom>
+      <Lien>http://www.yakasaider.fr</Lien>
+      <Presentation>Echange de services entre particuliers.</Presentation>
+    </Groupe>
+
+    <Groupe>
+      <Tag>thematique</Tag>      
+      <Tag>entraide</Tag>
+      <Tag>regional</Tag>
+      <Departement>85</Departement>
+      <Nom>Les ateliers d'un notre monde</Nom>
+      <Lien>https://lesateliersdunnotremonde.com</Lien>
+      <Presentation>Organisation et gestion des inscriptions à des ateliers pour partager, apprendre ensemble et se rencontrer pour former des noyaux de citoyens autonomes, solidaires, responsables, et coopératifs. Présents sur la Vendée.</Presentation>
+    </Groupe>
+
+    <Groupe>
+      <Tag>thematique</Tag>      
+      <Tag>syndicat</Tag>      
+      <Nom>#SGJ</Nom>
+      <Lien>https://syndicatgj.fr</Lien>
+      <Presentation>Le Syndicat des Gilets Jaunes</Presentation>
+    </Groupe>    
+    
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>professionnel</Tag>
+      <Tag>élus</Tag>
+      <Nom>Le collectif des maires Résistants</Nom>
+      <Lien>https://lcdmr.fr/</Lien>
+      <Presentation>Regroupement des élus de France pour le retour aux principes démocratiques et constitutionnels que nos gouvernants ont piétinés.</Presentation>
+    </Groupe>
+
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>élus</Tag>
+      <Nom>Elus Locaux pour la Défense des Libertés Fondamentales</Nom>
+      <Lien>https://eluslocaux.wixsite.com</Lien>
+      <Presentation>Prolongement de la tribune publiée le 19 octobre sur le site du Figaro et cosignée alors par 120 élus de Haute-Savoie le 19 octobre 2021. Aujourd'hui cette tribune est à plus de 260 signatures.</Presentation>
+    </Groupe>
+    
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>professionnel</Tag>
+      <Tag>élus</Tag>
+      <Tag>citoyens</Tag>
+      <Nom>S.O.S. Maires</Nom>
+      <Lien>https://sosmaires.org</Lien>
+      <Presentation>Groupe de citoyens engagés pour aider et inciter les maires et tous les acteurs de la société civile à organiser la résilience face aux crises actuelles.</Presentation>
+    </Groupe>
+    
+    <Groupe>
+      <Tag>thematique</Tag>
+      <Tag>professionnel</Tag>
+      <Tag>fdo</Tag>
+      <Nom>Police pour la Vérité</Nom>
+      <Lien>https://www.police-pour-la-verite.org</Lien>
+      <Presentation>Association créée par des membres des forces de l'ordre pour "Rassurer les résistants et rallier les hésitants" et "Unir et Soutenir tous nos camarades des forces de sécurité".</Presentation>
+    </Groupe>    
+    
+    <Groupe>
+      <Tag>etranger</Tag>
+      <Tag>action</Tag>
+      <Nom>NBD</Nom>
+      <Lien>https://notrebondroit.be</Lien>
+      <Presentation>NBD (Notre Bon Droit) est un site Belge initié par un juriste, une infirmière, un parent qui veulent lancer une alliance de citoyens européens pour la défense de notre état de droit. Informations et actions. Dossier sur la <a href="https://notrebondroit.be/action-certificat-numerique-europeen">Consultation publique européenne sur la prolongation du certificat numérique européen jusqu'au 30 juin 2023.</a>.</Presentation>
+    </Groupe>
+    
+    <Groupe Afficher="oui">
+      <Tag>regional</Tag>
+      <Tag>monnaie locale</Tag>
+      <Departement>85</Departement>
+      <Genre>territoire</Genre>
+      <Nom>Le VendéO ? Une monnaie locale à adopter...</Nom>
+      <Lien>https://demain-vendee.fr/le-vendeo-une-monnaie-locale-adopter/</Lien>
+      <Presentation>Le VendéO, est la première monnaie locale complémentaire créée en Vendée en 2017, comme de multiples autres exemples <a href="http://monnaie-locale-complementaire-citoyenne.net/france/">partout en France</a>.</Presentation>
+    </Groupe>
+
+    <Groupe Afficher="oui">
+      <Tag>regional</Tag>
+      <Tag>producteurs</Tag>
+      <Departement>85</Departement>
+      <Genre>territoire</Genre>
+      <Nom>Bon Plan Bio</Nom>
+      <Lien>https://bonplanbio.fr</Lien>
+      <Presentation>Site répertoriant des producteurs Bio en Vendée (et sur toute la France). Site et carte développée par différents Groupements Régionaux d’agriculteurs bio.</Presentation>
+    </Groupe>
+    
+    
+    <!-- covisoins -->
+        
   </Groupes>
 </Ressources>

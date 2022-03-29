@@ -18,9 +18,14 @@
     <Page>
       <Id>annuaire</Id>
       <Rubriques>
+          <Rubrique Afficher="non">
+              <Ancre>cslv85</Ancre>
+              <Titre>Collectifs locaux Vendéens liés au CSLV 85</Titre>
+          </Rubrique>
           <Rubrique>
+              <Ancre>autres</Ancre>
               <Tag>regional</Tag>
-              <Titre>Autres collectifs locaux Vendéens</Titre>
+              <Titre>Collectifs ou associations représentées en Vendée</Titre>
               <Rubrique>
                   <Departement>
                     <Inclus>85</Inclus>
@@ -29,24 +34,26 @@
               </Rubrique>
           </Rubrique>
           <Rubrique>
+              <Ancre>regions</Ancre>                     
               <Tag>regional</Tag>
               <Titre>Collectifs locaux hors Vendée</Titre>
-              <Rubrique>            
+              <Rubrique>       
                   <Departement>
                     <Exclu>85</Exclu>
                   </Departement>
                   <Titre>Autres départements</Titre>
               </Rubrique>          
           </Rubrique>
-          <Rubrique>
+          <Rubrique Menu="off">
             <Image>
               <Source>img/qi-pas-qr.png</Source>
               <Largeur>400px</Largeur>
             </Image>
           </Rubrique>
           <Rubrique>
+              <Ancre>france</Ancre>
               <Tag>thematique</Tag>
-              <Titre>Autres collectifs et associations</Titre>
+              <Titre>Collectifs nationaux et associations diverses</Titre>
               <Rubrique>
                 <Tag>enfance</Tag>
                 <Tag>education</Tag>
@@ -60,6 +67,7 @@
               </Rubrique>
               <Rubrique>
                 <Tag>santé</Tag>
+                <Exclus><Tag>syndicat</Tag></Exclus>                
                 <Titre>Professionnels de la santé</Titre>
               </Rubrique>
               <Rubrique>
@@ -67,9 +75,19 @@
               </Rubrique>              
               <Rubrique>
                 <Tag>étudiants</Tag>
+              </Rubrique>
+              <Rubrique>
+                <Tag>entraide</Tag>
+              </Rubrique>
+              <Rubrique>
+                <Tag>syndicat</Tag>
+              </Rubrique>
+              <Rubrique>
+                <Tag>professionnel</Tag>
               </Rubrique>              
           </Rubrique>
           <Rubrique>
+              <Ancre>etranger</Ancre>                        
               <Tag>etranger</Tag>
               <Titre>Etranger</Titre>
               <Rubrique>
@@ -82,11 +100,18 @@
               </Rubrique>              
           </Rubrique>
           <Rubrique>
+              <Ancre>medias</Ancre>                        
               <Tag>media</Tag>
               <Titre>Nouveaux medias</Titre>
               <Presentation>Qui ne sont pas des thuriféraires de la <a href="https://www.monde-diplomatique.fr/cartes/PPA">pensée unique</a>... Quelques suggestions, n'hésitez pas à compléter.
               </Presentation>
           </Rubrique>
+          <Rubrique>
+              <Ancre>blogs</Ancre>
+              <Tag>blog</Tag>
+              <Titre>Blogs</Titre>
+              <Presentation>Des blogs d'analyse ou de proposition alimentés par des personnes plus ou moins proches du CSLV 85</Presentation>
+          </Rubrique>          
       </Rubriques>
     </Page>
     <Page>
@@ -115,27 +140,43 @@
         
         -->
 
+        <Rubrique Ancre="poursuites">
+          <Tag>poursuites</Tag>
+          <Titre>Poursuites et Recours judiciaires</Titre>
+          <Presentation><p>Les poursuites et recours judiciaires vont-ils se multiplier dans les semaines et les mois qui viennent ? Il est plausible qu'au fur et à mesure où les citoyens et les groupes professionnels réalisent la nature des décisions prises et les choix alternatifs écartés ils demandent des comptes.</p> 
+          </Presentation>
+        </Rubrique>
+
+        <Rubrique Ancre="evaluation">
+          <Tag>politique</Tag>
+          <Inclus><Tag>évaluation</Tag></Inclus>
+          <Titre>Evaluation des politiques de santé publique</Titre>
+          <Presentation><p>Depuis 2 ans nous devrions disposer d'études et de preuves scientifiques justifiant la politique conduite par le ministère de la santé. Qu'en est-il en pratique ? Combien de temps encore va-t-on devoir se contenter de la parole unique du gouvernement qui se laisse guider uniquement par des structures provisoires montées par lui-même en catimini pour justifier ses choix (Conseil de défense, Conseil scientifique, Conseil d’orientation de la stratégie vaccinale, Comité scientifique sur les vaccins Covid-19, Conseil des citoyens pour la vaccination, Task force vaccination du ministère de la Santé, CAPNET, REACTing, Comité de Pilotage Recherche COVID-19 APHP ... BVA Nudge Unit, McKinsey and company...)</p> 
+          </Presentation>
+        </Rubrique>
+                
         <Rubrique Ancre="alternatives">
           <Tag>alternative</Tag>
           <Tag>essais</Tag>
           <Titre>Cherche-t-on des alternatives pour lutter contre le SARS-Cov2 ?</Titre>
-          <Presentation><p>Depuis le début de l'épidémie des laboratoires de recherche font état de difficultés à démarrer les essais cliniques pour repositionner d'ancienne molécules dans la lutte contre le SARS-Cov2. Par ailleurs notre région Pays de Loire dispose de plusieurs entreprises qui se sont lancées dans l'aventure ou qui produisent des moyens de lutte. Sont-elles suffisamment encouragées ?</p>
+          <Presentation><p>Depuis le début de l'épidémie des laboratoires de recherche font état de difficultés à démarrer les essais cliniques pour repositionner d'ancienne molécules dans la lutte contre le SARS-Cov2. Par ailleurs notre région Pays de Loire dispose de plusieurs entreprises qui se sont lancées dans l'aventure ou qui produisent des moyens de lutte. Sont-elles suffisamment encouragées ? Voir aussi dans les <a href="videos.html#alternatives">vidéos</a>.</p>
           </Presentation>
         </Rubrique>
 
         <Rubrique Ancre="traitements">
           <Tag>traitements</Tag>
           <Tag>favoritisme</Tag>
-          <Titre>A-t-on éliminé les traitements précoce au profit de traitements plus coûteux et à l'innocuité non établie ?</Titre>
+          <Titre>A-t-on éliminé les traitements précoce pour des traitements plus coûteux à l'innocuité non établie ?</Titre>
           <Presentation><p>Qu'elles soient efficaces ou non, certaines molécules utilisées depuis des dizaines d'années ont été interdites par le ministre de la santé limitant en cela l'arsenal thérapeutique pour prendre en charge de manière précoce les patients Covid. Il est légitime dès lors de s'interroger sur les motivations réelles derrières ces interdictions défendues bec et ongles par le Conseil de l'Ordre des Médecins. Sachant qu'en face, l'on a mis en avant une politique toute vaccinale et de nouvelle molécules au coût exhorbitant et à l'innocuité non encore établie.</p>
           </Presentation>
         </Rubrique> 
 
         <Rubrique Ancre="hygienisme">
             <Tag>hygiénisme</Tag>
-            <Titre>A-t-on réellement cherché à être le plus efficace possible ?</Titre>
+            <Tag>masque</Tag>
+            <Titre>Masque et Conséquences</Titre>
             <Presentation>
-              <p>Les mesures préconisées et/ou imposées par les autorités depuis février 2020 sont sans précédent dans la restriction des libertés individuelles dans nos sociétés occidentales. Pour autant sont-elles efficaces et quelles sont leurs conséquences sur notre santé physique et mentale ? À la lecture des études et des avis des professionnels qui réussissent à percer le mur des médias, ne serait-il pas permis d'en douter ?</p>
+              <p>Les mesures préconisées et/ou imposées par les autorités depuis février 2020 sont sans précédent dans les contraintes imposées sur les corps (Masques) et les mouvements (couvre-feux, confinements, passes limitant fortement les activités physiques et sportives). Pour autant sont-elles efficaces et quelles sont leurs conséquences sur notre santé physique et mentale ? À la lecture des études et des avis des professionnels qui réussissent à percer le mur des médias, ne serait-il pas permis d'en douter ?</p>
             </Presentation>
         </Rubrique>
         
@@ -150,7 +191,7 @@
             <Tag>démocratie</Tag>
             <Titre>Où en est la démocratie ?</Titre>
             <Presentation>
-              <p>Censure du débat et lois liberticides ne font-elles pas craindre une dérive autoritaire ? Les contrôles et l'évaluation des mesures en vigeur paraissent bien faibles.</p>
+              <p>Censure du débat et lois liberticides ne font-elles pas craindre une dérive autoritaire ? Les contrôles et l'évaluation des mesures en vigeur paraissent bien faibles. D'autant plus que depuis l'arrivée au pouvoir de Macron l'on observe une dérive de la <a href="https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/role-et-pouvoirs-de-l-assemblee-nationale/les-fonctions-de-l-assemblee-nationale/les-fonctions-legislatives/la-procedure-legislative">procédure législative</a> qui recourt de plus en plus souvent à la  <a href="https://blog.juspoliticum.com/2017/07/05/la-procedure-acceleree-ou-la-regrettable-normalisation-dune-procedure-derogatoire-par-elina-lemaire/">procédure accélérée</a> au détriment d'un examen approfondi.</p>
             </Presentation>
         </Rubrique>        
         <Rubrique Ancre="victimes">
@@ -158,6 +199,14 @@
             <Titre>Effet secondaires</Titre>
             <Presentation>
               <p>Les témoignages d'effets secondaires de la vaccination Covid se multiplient sur les réseaux sociaux ou les outils de communication instantanée. Pour ceux qui n'y vont pas, des sites Web se apparaissent pour les diffuser.</p>
+            </Presentation>
+        </Rubrique>
+        <Rubrique Ancre="echecs">
+            <Tag>vaccin</Tag>
+            <Inclus><Tag>échec</Tag></Inclus>
+            <Titre>Echec Vaccinal</Titre>
+            <Presentation>
+              <p>En plus des effets secondaires quels sont les effets réels des injections à ARNm: a) sur la propagation et le contrôle ou non de l'épidémie et b) sur le système immunitaire. Au regard des chiffres qui sont disponibles et analysés après plus d'1 année et un taux d'injection de plus de 90% de la population adulte peut-on parler d'échec vaccinal ?</p>
             </Presentation>
         </Rubrique>
         <Rubrique Ancre="identite">
@@ -181,20 +230,28 @@
                 <p>De plus en plus de voix s'expriment sur la crise, y compris parmi les professionnels de la santé, pour briser l'omerta et faire jaillir la vérité, pour que le bon sens reprenne le contrôle de nos vies</p>
               </Presentation>
           </Rubrique>
-          <Rubrique Ancre="inexplique">
+          <!-- <Rubrique Ancre="inexplique">
               <Tag>inexpliqué</Tag>
               <Titre>Inexpliqué</Titre>
               <Presentation>
                 <p>quand les faits sont têtus</p>
               </Presentation>
-          </Rubrique>
+          </Rubrique> -->
           <Rubrique Ancre="sport">
               <Tag>sport</Tag>
               <Titre>Dossier sport</Titre>
               <Presentation>
                 <p>Dès le mois d'août 2021, peu après les annonces de Macron du 12 juillet 2021, les fédérations sportives nationales ont été les premières à afficher sur leurs sites web l'obligation du passe sanitaire, et ceci dès le premier participant pour les activités en club, que ce soit en extérieur ou en intérieur, avec ou sans public ! Ils font donc partie du système de coercition mis en place par le gouvernement pour faire pression sur les enfants, et ceci bien avant la rentrée scolaire.</p>
               </Presentation>
-          </Rubrique>      
+          </Rubrique>
+          <Rubrique Ancre="retrospective">
+              <Tag>retrospective</Tag>
+              <Titre>Rétrospectives</Titre>
+              <Presentation>
+                <p>Retours en arrière et explications sur ce que nous avons vécu.</p>
+              </Presentation>
+          </Rubrique>          
+          
           <Rubrique Ancre="prospective">
               <Tag>prospective</Tag>
               <Titre>Prospectives</Titre>
@@ -206,9 +263,9 @@
               <Tag>analyse</Tag>
               <Titre>Analyses</Titre>
           </Rubrique>
-          <Rubrique Ancre="prospective">
+          <Rubrique Ancre="opposition">
               <Tag>contrôle</Tag>
-              <Tag>opposition</Tag>
+              <Inclus><Tag>opposition</Tag></Inclus>
               <Titre>Opposition contrôlée ?</Titre>
               <Presentation>
                 <p>Que penser du silence assourdissant des corps intermédiaires ?</p>
@@ -224,32 +281,70 @@
       <Id>videos</Id>
       <Rubriques>
           <Rubrique>
-              <Tag>livre</Tag>
-              <Titre>Sorties de Livres</Titre>
-              <Presentation>Interviews d'auteurs d'ouvrages ayant trait à la crise sanitaire et ou à l'avenir de notre société.</Presentation>
+              <Ancre>proces</Ancre>            
+              <Tag>procès</Tag>
+              <Titre>Procès</Titre>
+              <Presentation>Comme pour les autres affaires pharmaco-financères qui ont secoué notre pays ou l'humanité depuis quelques années (sang contaminé, mediator, opiacés, etc.), y-aura-t-il un temps pour la justice et la raison dans le pandémie Covid 19 ?</Presentation>
           </Rubrique>        
           <Rubrique>
-              <Tag>témoignage</Tag>
-              <Titre>Témoignages</Titre>
-              <Presentation>Des individus de toute la société s'expriment en dehors de la pensée unique.</Presentation> 
-          </Rubrique>      
+              <Ancre>actualites</Ancre>            
+              <Tag>actualites</Tag>
+              <Titre>Actualités</Titre>
+              <Presentation>Si vous cherchez un programme pour remplacer le journal de 20h</Presentation>
+          </Rubrique>
           <Rubrique>
+              <Ancre>action</Ancre>            
+              <Tag>action</Tag>
+              <Titre>Actions</Titre>
+              <Presentation>Quelles sont les meilleurs tactiques pour provoquer la prise de conscience et le changement ?</Presentation>
+          </Rubrique>
+          <Rubrique>
+              <Ancre>sorties-de-livres</Ancre>            
+              <Tag>livre</Tag>
+              <Titre>Sorties de Livres</Titre>
+              <Presentation>Interviews d'auteurs d'ouvrages récents.</Presentation>
+          </Rubrique>          
+          <Rubrique>
+            <Ancre>pass</Ancre>
+            <Tag>pass</Tag>
+            <Titre>Tours de Passe-Pass</Titre>
+            <Presentation>Passe sanitaire, passe vaccinal, qu'en pensent des personnalités politiques ?</Presentation>
+          </Rubrique>
+          <Rubrique>
+              <Ancre>refondation</Ancre>            
+              <Tag>refondation</Tag>
+              <Titre>Refondation</Titre>
+              <Presentation>Sur quelles bases refonder une nouvelle société ? Comment éviter de retomber dans l'erreur et éviter les errements de l'obscurantisme politico-hygiéniste ? Comment décontaminer la pensée infectée par les medias de masse ?</Presentation> 
+          </Rubrique>          
+          <Rubrique>
+              <Ancre>politique</Ancre>            
+              <Tag>politique</Tag>
+              <Exclus><Tag>pass</Tag><Tag>totalitarisme</Tag></Exclus>
+              <Titre>Politique</Titre>
+              <Presentation>Comment nos représentants élus ou non présentent ou justifient les décisions politiques ? Quelles alternatives proposent-ils ?</Presentation> 
+          </Rubrique>
+          <Rubrique>
+              <Ancre>local</Ancre>
               <Tag>local</Tag>
               <Titre>Videos Locales (85, Vendée)</Titre>
           </Rubrique>
           <Rubrique>
-              <Ancre>politique</Ancre>            
-              <Tag>politique</Tag>
-              <Titre>Politique</Titre>
-              <Presentation>Comment nos représentants élus ou non présentent les faits et s'expriment en leur nom propre ou en notre nom. Comment des personnalités nouvelles émergentes de la société civile veulent relancer l'agenda politique ?</Presentation> 
+              <Ancre>temoignages</Ancre>
+              <Tag>témoignage</Tag>
+              <Titre>Témoignages</Titre>
+              <Presentation>Des témoignages vécus en dehors des idées reçues.</Presentation> 
           </Rubrique>
           <Rubrique>
               <Ancre>medecine</Ancre>
               <Tag>interview</Tag>
+              <Inclus><Tag>médecine</Tag></Inclus>
               <Titre>Médecine (Interviews, Entretiens &amp; Conférences)</Titre>
-              <Tag>
-                <Inclus>medecine</Inclus>
-              </Tag>
+          </Rubrique>
+          <Rubrique>
+              <Ancre>alternatives</Ancre>
+              <Tag>alternatives</Tag>
+              <Titre>Voies complémentaires</Titre>
+              <Presentation>Existe-t-il des alternatives ou des voies complémentaires pour se soigner ? Voir aussi dans les <a href="biblio.html#alternatives">lectures</a>.</Presentation> 
           </Rubrique>
           <Rubrique>
               <Ancre>economie</Ancre>
@@ -258,11 +353,10 @@
               <Presentation>Derrière la crise sanitaire des forces plus ou moins bien identifiées poussent pour un changement de société. À quels bouleversements s'attendre et vers quel type de système économique s'achemine-t-on ?</Presentation>               
           </Rubrique>
           <Rubrique>
+              <Ancre>autres-interviews</Ancre>            
               <Tag>interview</Tag>
-              <Titre>Interviews &amp; Entretiens (autres sujets)</Titre>
-              <Tag>
-                <Exclus>medecine</Exclus>
-              </Tag>
+              <Exclus><Tag>médecine</Tag></Exclus>
+              <Titre>Interviews &amp; Entretiens (autres sujets)</Titre>              
           </Rubrique>
           <Rubrique>
               <Ancre>totalitarisme</Ancre>            
@@ -271,15 +365,18 @@
               <Presentation>Est-ce qu'une tyrannie est en train de se mettre en place ? Que nous apprennent les experts, psychologues ou historiens sur le totalitarisme ?</Presentation> 
           </Rubrique>          
           <Rubrique>
+              <Ancre>documentaire</Ancre>
               <Tag>documentaire</Tag>
-              <Titre>Videos Documentaires</Titre>
+              <Titre>Videos Documentaires, Cours</Titre>
           </Rubrique>
           <Rubrique>
+              <Ancre>precurseurs</Ancre>            
               <Tag>histoire</Tag>
               <Titre>Les précurseurs</Titre>
               <Presentation>Comment le passé peut-il nous aider à comprendre le présent. Ces videos interrogent sur les critères de décisions qui prévalent actuellement parmi les "décideurs"</Presentation>
-          </Rubrique>
+          </Rubrique>          
           <Rubrique>
+              <Ancre>satire</Ancre>            
               <Tag>satire</Tag>
               <Titre>Satires</Titre>
           </Rubrique>
@@ -295,6 +392,10 @@
       <Billet File="atih-2020.xml"/>
       <Billet File="sfp-rentree-2021.xml"/>
       <Billet File="theta.xml"/>
+      <Billet File="homo-mimeticus.xml"/>
+      <Billet File="ils-ont-vote.xml"/>
+      <Billet File="lettre-ouverte-omicron.xml"/>
+      <Billet File="desinformation.xml"/>
     </Page>
   </Contenu>
 </Site>

@@ -43,9 +43,65 @@ span.important {
   display: none;
 }
 
+span.outil {
+  display: inline-block;
+  margin: 2px 8px 2px 0px;
+  font-size: 0.8em;
+  background: #65439b;
+  color: white;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
 /******************/
 /* style spécique */
 /******************/
+
+span.doc {
+ white-space: nowrap;
+}
+.blink1 {
+  -webkit-animation: 0.8s linear infinite condemed_blink_effect; // pour Safari 4.0-8.0
+  animation: 0.8s linear infinite condemed_blink_effect;
+}
+.blink2 {
+  -webkit-animation: 1s linear infinite condemed_blink_effect; // pour Safari 4.0-8.0
+  animation: 1s linear infinite condemed_blink_effect;
+}
+.blink3 {
+  -webkit-animation: 2.5s linear infinite condemed_blink_effect; // pour Safari 4.0-8.0
+  animation: 2.5s linear infinite condemed_blink_effect;
+}
+.blink4 {
+  -webkit-animation: 2s linear infinite condemed_blink_effect; // pour Safari 4.0-8.0
+  animation: 2s linear infinite condemed_blink_effect;
+}
+.blink5 {
+  -webkit-animation: 3s linear infinite condemed_blink_effect; // pour Safari 4.0-8.0
+  animation: 3s linear infinite condemed_blink_effect;
+}
+@-webkit-keyframes condemed_blink_effect { // pour Safari 4.0-8.0
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes condemed_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
 
 div.info {
   border-bottom: dotted 1px;

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:site="http://oppidoc.com/oppidum/site" xmlns="http://www.w3.org/1999/xhtml">
+  xmlns="http://www.w3.org/1999/xhtml">
 
   <xsl:output method="xml" media-type="text/html" omit-xml-declaration="yes" indent="yes"/>
 
   <xsl:template match="/">
     <html>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="description" content="Comité Santé Liberté Vendée 85 liste de victimes dans la presse"/>
+      <title>Articles de presse, quelle est la cause ?</title>
       <head>
 <style type="text/css">
   body {

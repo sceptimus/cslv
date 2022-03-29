@@ -172,6 +172,15 @@ class JukeBox {
     if ($('#atop').length > 0) {
       new JukeBox($('#atop').get(0), Articles.Article);
     }
+    // icon installation    
+    $('*[data-cadoc]').each(
+      function() {
+        var n = $(this),
+            h = n.attr('href');
+        $(' <a href="' + 'https://www.cadoc.fr/cslv85/archives' + h + '"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom;margin-left:10px"/></a>')
+            .insertAfter(n);
+      }
+    );    
     // mail installation    
     $('a[data-mail1]').each(
       function() {
@@ -179,7 +188,8 @@ class JukeBox {
             s1 = n.attr('data-mail1'),
             s2 = n.attr('data-mail2'),
             subject = n.attr('data-subject'),
-            contact = n.attr('data-contact');
+            contact = n.attr('data-contact'),
+            text = n.attr('data-text');
         if (subject) {
           n.attr('href', 'mailto:' + s1 + '@' + s2 + '?subject=' + subject);        
         } else {
@@ -189,6 +199,9 @@ class JukeBox {
           } else {
             n.attr('href', 'mailto:' + s1 + '@' + s2);
           }
+        }
+        if (text && text === 'copy') {
+          n.text(s1 + '@' + s2);
         }
       }      
     )

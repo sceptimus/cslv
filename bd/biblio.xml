@@ -201,6 +201,8 @@
     </Article>
 
     <Article Afficher="oui">
+      <Tag>vaccin</Tag>
+      <Tag>échec</Tag>
       <Tag>inexpliqué</Tag>
       <Ajout>2021-10-19</Ajout>
       <Publication>2020-10-18</Publication>
@@ -215,6 +217,8 @@
     </Article>   
         
     <Article Afficher="oui">
+      <Tag>vaccin</Tag>      
+      <Tag>échec</Tag>
       <Tag>inexpliqué</Tag>
       <Ajout>2021-10-31</Ajout>
       <Publication>2020-10-31</Publication>
@@ -228,7 +232,7 @@
     </Article> 
 
     <Article Afficher="oui">
-      <Tag>inexpliqué</Tag>
+      <Tag>victimes</Tag>
       <Ajout>2021-10-31</Ajout>
       <Publication>2020-06-04</Publication>
       <Lien>
@@ -282,7 +286,10 @@
       <Tag>citoyen</Tag>
       <Ajout>2021-11-09</Ajout>
       <Publication>2021-11-08</Publication>
-      <Lien>https://www.francesoir.fr/opinions-tribunes/je-ne-peux-plus-me-taire</Lien>
+      <Lien>
+        <Base>https://www.francesoir.fr</Base>
+        <Chemin>/opinions-tribunes/je-ne-peux-plus-me-taire</Chemin>
+      </Lien>
       <Titre>"Je ne peux plus me taire" : un journaliste allemand dénonce les mensonges médiatiques liés au Covid</Titre>
       <Auteur>Ole Skambraks</Auteur>
       <Presentation>Lettre ouverte d'un journaliste Allemand dénonçant ce qui se passe depuis un an et demi chez son empoyeur radiodiffuseur du service public.</Presentation>
@@ -445,6 +452,17 @@
       <Titre>Verity France</Titre>
       <Auteur>Site Web</Auteur>
       <Presentation>Site créé par les parents de victimes des injections.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>victimes</Tag>
+      <Ajout>2022-03-28</Ajout>
+      <Lien>
+        <Base>https://mortsapresvaccination.wordpress.com</Base>
+      </Lien>
+      <Titre>Morts après vaccination</Titre>
+      <Auteur>Site Web</Auteur>
+      <Presentation>blog répertoriant des victimes dans le monde entier, coupures de presse ou copies d'écran à l'appui.</Presentation>
     </Article>
 
     <Article Afficher="oui">
@@ -765,6 +783,402 @@
       <Auteur>FranceSoir</Auteur>
       <Presentation>L'appel du collectif des maires résistants est une lueur d'espoir dans la prise de conscience de la mise à mal des règles de notre démocratie entamée depuis 18 mois. Les maires qui lancent cet appel ont une légitimité naturelle car ils sont élus par leurs concitoyens au niveau local.</Presentation>
     </Article>
+
+    <Article Afficher="oui">
+      <Tag>hygiénisme</Tag>
+      <Tag>masque</Tag>
+      <Tag>enfance</Tag>
+      <Ajout>2022-01-15</Ajout>
+      <Lien>
+        <Base>https://www.cadoc.fr</Base>
+        <Chemin>/cslv85/archives/2022/01/Orthophonistes-pour-des-enfants-demasques.pdf</Chemin>
+      </Lien>      
+      <LienPDF>https://www.cadoc.fr/cslv85/archives/2022/01/Orthophonistes-pour-des-enfants-demasques.pdf</LienPDF>
+      <Titre>Mise au cachot d’une parole en construction : Orthophonistes pour des enfants démasqués</Titre>
+      <Auteur>Collectif Orthophonistes</Auteur>
+      <Presentation><p>Un dossier thématique de <a href="https://reinfocovid.fr">Reinfo Covid</a> qui rappelle la contradiction entre l'intérêt supérieur de l'enfant et la mesure de port du masque à l'école.</p></Presentation>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>poursuites</Tag>
+      <Ajout>2022-01-15</Ajout>
+      <Publication>2021-12-08</Publication>          
+      <Lien>
+        <Base>https://ns2017.wordpress.com</Base>
+        <Chemin>/2021/12/08/masque-a-lecole-400-parents-attaquent-letat-devant-la-cour-europeenne-des-droits-de-lhomme/#main</Chemin>
+      </Lien>
+      <Titre>Masque à l’école : 400 parents attaquent l’État devant la Cour européenne des droits de l’homme</Titre>
+      <Auteur>Blog</Auteur>
+      <Presentation>Les "Parents attérrés" ont déposé un recours devant la Cour européenne des droits de l'homme (CEDH) contre l'état français pour contester le port du masque en école élémentaire.</Presentation>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>analyse</Tag>
+      <Ajout>2022-01-18</Ajout>
+      <Publication>2022-01-16</Publication>
+      <Lien>
+        <Base>https://www.anguillesousroche.com</Base>
+        <Chemin>/sante/moderna-a-brevete-la-sequence-du-gene-du-sras-cov2-fabrique-par-lhomme-en-2018/</Chemin>
+      </Lien>
+      <Titre>Moderna a breveté la séquence du gène du SRAS-CoV2 « fabriqué par l’homme » en 2018</Titre>
+      <Presentation>Où l'on apprend en explorant le dépôt de séquences génomiques BLAST du NCBI/NIH (alias le gouvernement américain) qu'une séquence inhabituelle de 19 nucléotides que l’on ne trouve nulle part ailleurs dans la nature hormis dans le génome du SRAS-CoV-2 a été brevetée par Moderna deux ans avant que n'éclate la pandémie. Sur le même sujet voir aussi cet <a href="https://www.frontiersin.org/articles/10.3389/fviro.2022.834808/full">article</a> du 21 février 2022.</Presentation>
+      <Auteur>Dr Syed (article original)</Auteur>
+      <Source>anguillesousroche.com</Source>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Ajout>2022-01-18</Ajout>
+      <Publication>2022-01-12</Publication>
+      <Lien>
+        <Base>https://telegra.ph</Base>
+        <Chemin>/LE-MAÎTRE-ET-SES-PERROQUETS-01-12</Chemin>
+      </Lien>
+      <LienPDF>https://www.cadoc.fr/cslv85/archives/2022/01/akhenaton.pdf</LienPDF>      
+      <Titre>Le maître et ses perroquets</Titre>
+      <Auteur>Akhenaton</Auteur>
+      <Presentation>Tribune libre d'<b>Akhenaton</b>, le rappeur emblématique du groupe IAM (<i>je danse le MIA</i>), qui défend des positions lucides et courageuses sur la pandémie de Covid. Cette lettre parvient même à surprendre et à ravir tant l'on a été habitué jusqu'ici au conformisme et à l'absence d'esprit critique du milieu artistique...</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>insolite</Tag>
+      <Ajout>2022-01-19</Ajout>
+      <Publication>2022-01-18</Publication>      
+      <Lien>
+        <Base>https://www.lematin.ch</Base>
+        <Chemin>/story/un-cabinet-medical-suisse-refuse-de-vacciner-contre-le-coronavirus-581389563544</Chemin>
+      </Lien>
+      <Titre>Un cabinet médical suisse refuse de vacciner contre le coronavirus</Titre>
+      <Auteur>Renaud Michiels</Auteur>
+      <Presentation>Exemple à suivre ?</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>insolite</Tag>
+      <Ajout>2022-01-24</Ajout>
+      <Publication>2021-11-11</Publication>      
+      <Lien>
+        <Base>https://www.lematin.ch</Base>
+        <Chemin>/story/des-milliardaires-ont-collecte-1-3-million-contre-la-loi-covid-144161091793</Chemin>
+      </Lien>
+      <Titre>Des milliardaires ont collecté 1,3 million contre la loi Covid</Titre>
+      <Auteur>Lematin.ch</Auteur>
+      <Presentation>Si vous voulez faire de même avec le CSLV 85, n'hésitez pas, il y a même une <a href="http://www.leetchi.com/c/action-dinformation-aux-professionnels-de-la-sante-elus-et-responsables-de-la-securite-des-citoyens">cagnotte en ligne</a> pour une action en ce moment !</Presentation>
+    </Article>    
+
+    <Article Afficher="oui">
+      <Tag>analyse</Tag>
+      <Ajout>2022-01-26</Ajout>
+      <Publication>2022-01-24</Publication>
+      <Lien>
+        <Base>https://www.lefigaro.fr</Base>
+        <Chemin>/vox/societe/passe-vaccinal-pourquoi-une-mesure-si-deraisonnable-est-elle-ainsi-largement-soutenue-20220124</Chemin>
+      </Lien>
+      <Titre>Passe vaccinal: «Pourquoi une mesure si déraisonnable est-elle ainsi largement soutenue ?»</Titre>
+      <Presentation><b>Samuel Fitoussi</b> s'appui sur la théorie de l'inoculation du psychologue William McGuire, pour expliquer pourquoi il est si difficile de faire changer d'opinion les convaincus du bien fondé de la vaccination contre le Covid et des passes sanitaires ou vaccinaux. Où comment transformer des mensonges en croyance... Cette tribune pose la question des possibilités de retrouver un débat rationnel. Attention au choix des arguments si l'on veut éviter de renforcer son interlocuteur dans ses croyances (ce que McGuire appelle <i>immuniser</i> son interlocuteur contre la vérité) !</Presentation>
+      <Auteur>Samuel Fitoussi</Auteur>
+      <Source>FigaroVox</Source>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>hygiénisme</Tag>
+      <Tag>masque</Tag>
+      <Tag>enfance</Tag>
+      <Ajout>2022-01-29</Ajout>
+      <Lien>
+        <Base>https://www.covidhub.ch</Base>
+        <Chemin>/plus-de-150-etudes-comparatives-et-articles-montrent-linefficacite-et-les-effets-nefastes-du-masque/</Chemin>
+      </Lien>      
+      <LienPDF>https://www.cadoc.fr/cslv85/archives/2022/01/Compilation-etudes-et-articles-masque.pdf</LienPDF>
+      <Titre>Le masque est inefficace et même néfaste, indiquent 167 études et articles scientifiques</Titre>
+      <Auteur>Covidhub.ch</Auteur>
+      <Presentation>Les masques sont inefficaces mais en plus ils sont néfastes, particulièrement pour les enfants. Cet article présente une liste et une traduction des résumés de 167 articles internationaux (suivre le lien vers le PDF) rassemblés par Le Dr Alexander titulaire d’un doctorat en médecine, avec une expérience en épidémiologie et en enseignement de l’épidémiologie clinique.
+      </Presentation>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>retrospective</Tag>
+      <Ajout>2022-02-01</Ajout>
+      <Publication>2022-01-28</Publication>
+      <Lien>
+        <Base>https://lecourrierdesstrateges.fr</Base>
+        <Chemin>/2022/01/28/entretien-avec-le-professeur-christian-perronne-par-nelly-fouks/</Chemin>
+      </Lien>
+      <Titre>Entretien avec le Professeur Christian Perronne par Nelly Fouks</Titre>
+      <Auteur>Courrier des Stratèges</Auteur>
+      <Presentation>Pourquoi cherche-t-on à injecter de force à toute la population, enfants compris, un pseudo vaccin inefficace contre une maladie relativement bénigne dont on interdit les traitements. Le professeur <b>Christian Perrone</b> revient sur les décisions et les mesures prises ainsi que sur les traitements que l'on a écartés.</Presentation>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>prospective</Tag>
+      <Ajout>2022-02-08</Ajout>
+      <Publication>2022-02-06</Publication>
+      <Lien>
+        <Base>https://lecourrierdesstrateges.fr</Base>
+        <Chemin>/2022/02/06/pourquoi-le-great-reset-est-lagenda-du-chaos/</Chemin>
+      </Lien>
+      <Titre>Pourquoi le Great Reset est l’Agenda du Chaos...</Titre>
+      <Auteur>Éric Verhaeghe</Auteur>
+      <Presentation>Cette introduction d'un livre en cours d'écriture dévoile l’Agenda du Chaos qui a pris forme il y a une quinzaine d’années avec l’apparition des Young Global Leaders, et dont l’achèvement se mesure maintenant. Si l'histoire suit les étapes prévues par le <i>Great Reset</i>, elle accouchera d'un univers dystopique dans lequel subsisteront deux castes : les “intouchables” vivant de l’<i>helicopter money</i> versé par la caste, et les mondialisés, qui seront les seuls à accéder aux profits... Dans quel camp êtes-vous ?
+      </Presentation>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>lettre</Tag>
+      <Ajout>2022-10-02</Ajout>
+      <Publication>2022-10-02</Publication>
+      <Lien>
+        <Base>https://www.francesoir.fr</Base>
+        <Chemin>/opinions-tribunes/mehdi-belhaj-kacem-lettre-ouverte-lacademie-nationale-de-medecine</Chemin>
+      </Lien>
+      <Titre>La plaidoirie de la déficience intellectuelle aggravée est la seule à pouvoir vous tirer d’affaire</Titre>
+      <Auteur>Mehdi Belhaj Kacem</Auteur>
+      <Presentation>Une lettre de <b>Mehdi Belhaj Kacem</b> aux membres de l’Académie Nationale de Médecine. C'est un résumé éloquent à ne pas oublier avant la rentrée des classes prochaine si jamais ils osent encore parler de la vaccination des 5-11 ans comme Véran semble encore tenter. Un bijou d’analyse, d’ironie et de style littéraire ! Pour lire autre chose que du prêt-à-penser.</Presentation>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>victimes</Tag>
+      <Ajout>2022-02-12</Ajout>
+      <Publication>2022-02-12</Publication>                        
+      <Lien>
+        <Base>https://france3-regions.francetvinfo.fr</Base>
+        <Chemin>/bourgogne-franche-comte/bourgogne/vaccination-les-acouphenes-un-effet-secondaire-du-vaccin-qui-peut-rendre-la-vie-impossible-2426647.html</Chemin>
+      </Lien>
+      <Titre>Vaccination contre le Covid : les acouphènes, un effet secondaire du vaccin qui peut rendre la vie impossible</Titre>
+      <Auteur>Franceinfo</Auteur>
+      <Presentation>Victime d'acouphènes après sa seconde dose de vaccin anti-Covid il crée un <a href="https://vaccin-covid-acouphenes.blogspot.com">blog</a> pour regrouper des témoignages...</Presentation>
+    </Article>
+    
+    <Article Afficher="oui">            
+      <Lien>
+        <Base>https://www.legifrance.gouv.fr</Base>
+        <Chemin>/jorf/id/JORFTEXT000043099878</Chemin>
+      </Lien>
+      <Titre>Arrêté du 5 février 2021 modifiant l'arrêté du 10 juillet 2020 prescrivant les mesures d'organisation et de fonctionnement du système de santé nécessaires pour faire face à l'épidémie de covid-19 dans le cadre de l'état d'urgence sanitaire</Titre>
+      <Presentation>
+        <p>Si au cours d'une discussion familiale ou amicale vous trouvez des interlocuteurs qui croient encore que les médecins généralistes vaccinaient gratuitement y compris lorsqu’ils se rendaient en renfort dans les vacinodromes, il convient de leur faire lire cet arrêté publié au Journal officiel électronique le 06/02/2021.</p> 
+        <p>Cet arrêté fixe les rémunérations, avec entre autre : </p>
+        <ul>
+          <li>pour les infirmiers diplômés d'Etat libéraux : 220 euros par demi-journée d’activité d’une durée minimale de quatre heures et 240 euros par demi-journée d’activité effectuée le samedi après-midi</li>
+          <li>pour les médecins libéraux : 420 euros par demi-journée d’activité d’une durée minimale de quatre heures et 460 euros par demi-journée d’activité effectuée le samedi après-midi, le dimanche et les jours fériés</li>
+        </ul>
+        <p>Ces rémunération semblent s'additionner dans les coûts avec le forfait versé à l'établissement organisant le fonctionnement du centre de vaccination et qui lui aussi dépend de l'équipe mobilisée, avec par exemple 340 euros par 1/2 journée (ou 550 euros le WE) si le dit centre organise une ligne vaccinale avec un médecin libéral.</p>  
+        <p>À cette lecture n'est-on pas en droit de se poser la question du prix du silence ? Cette tarification avantageuse, ne pourrait-elle pas expliquer le rassurisme des médecins et du personnel médical et n'a-t-elle pas aidée à lever leurs doutes et balayer les questions sur le caractère expérimental du geste médical pratiqué ?</p>
+      </Presentation>
+      <Tag>santé</Tag>
+      <Tag>contrôle</Tag>
+      <Tag>opposition</Tag>
+      <Ajout>2022-02-14</Ajout>
+      <Publication>2021-02-06</Publication>            
+    </Article>    
+    
+    <Article Afficher="non">
+      <Tag>prospective</Tag>
+      <Ajout>2022-02-14</Ajout>
+      <Publication>2022-02-13</Publication>
+      <Lien>
+        <Base>https://profidecatholica.com</Base>
+        <Chemin>/2022/02/13/les-libertes-ne-soctroient-pas-elles-se-prennent-charles-maurras/</Chemin>
+      </Lien>
+      <Titre>Les libertés ne s’octroient pas, elles se prennent (Charles Maurras)</Titre>
+      <Auteur>Brianajane</Auteur>
+      <Presentation>
+        Cet article de blog propose un résumé de la crise du Covid en scénario de film dystopique. Il dénonce un énième coup d’état de la finance mondiale contre les Peuples. Plusieurs vidéos sont ajoutées dans le fil de l'article en appui pour vous faire votre opinion. Certaines videos sont prises des événements liés aux actions des CRS en marge du Convoi de la liberté à Paris. À prendre au sérieux ou comme une n-ième tentative d'explication farfelue, mais à lire pour le résumé dystopique.
+      </Presentation>
+    </Article>
+
+    <Article Afficher="oui">   
+      <Tag>santé publique</Tag>
+      <Tag>évaluation</Tag>
+      <Tag>politique</Tag>
+      <Lien>
+        <Base>https://lecourrierdesstrateges.fr</Base>
+        <Chemin>/2022/02/10/passe-vaccinal-la-medecin-de-sante-publique-qui-fait-tomber-les-senateurs-de-leurs-fauteuils/</Chemin>
+      </Lien>
+      <Titre>Passe vaccinal : la femme médecin de santé publique qui fait tomber les sénateurs de leurs fauteuils</Titre>
+      <Presentation>
+        Une commission des affaires sociales s’est réunie au sénat mardi 8 février 2022 pour entendre le <b>Docteur Alice Desbiolles</b> sous la présidence du sénateur <b>Alain Milon</b>. Cette audition d'un médecin de santé publique et épidémiologiste remet totalement en cause l'utilité du passe vaccinal et pointe les biais et manque d'études scientifiques à l'appui de la politique menée par le ministère de la santé.
+      </Presentation>
+      <Ajout>2022-02-14</Ajout>
+      <Publication>2021-02-10</Publication>            
+      <Source>Le Courrier des Stratèges</Source>
+      <Auteur>LaurianeB</Auteur>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>retrospective</Tag>
+      <Ajout>2022-02-15</Ajout>
+      <Publication>2021-07-17</Publication>
+      <Lien>
+        <Base>https://www.lejdd.fr</Base>
+        <Chemin>/Politique/exclusif-plus-de-300-elus-locaux-de-tous-bords-saluent-le-courage-des-decisions-prises-par-emmanuel-macron-4058384</Chemin>
+      </Lien>
+      <Titre>Plus de 300 élus de droite et du PS saluent "le courage des décisions prises par Emmanuel Macron"</Titre>
+      <Auteur>JDD</Auteur>
+      <Presentation>
+        Rappelons-nous ce mois d'été 2021. Quel point commun y-a-t-il entre <b>Philippe Barre</b>, <b>Luc Bouard</b> et <b>Christian Henriet</b> ? Ne sont-ils pas tous les 3 maires de communes de Vendée (Sainte-Hermine, La Roche Sur Yon, Saint-Pierre-Le-Vieux) ? Et bien même si c'est vrai, ils ont un autre point commun qui devient pathétique dans le contexte actuel. En effet, ils ont tous signé cette tribune en faveur des décisions hygiénistes et liberticides de Macron suite à son allocution du 12 juillet 2022. Croyaient-ils vraiment que <b><i>en atteignant un taux de couverture vaccinale supérieur à 90% de la population nous pourrons tourner durablement la page</i></b> (taux quasiment atteint dès octobre 2021, voir cet <a href="https://www.lelibrepenseur.org/lexemple-de-la-vendee-demontre-lechec-de-la-politique-vaccinale/">article</a>), <b><i>retrouver une vie normale dans nos villes et dans nos villages</i></b> ? Eux-seuls pourraient nous le dire après l'automne et l'hiver <i>normaux</i> que nous sommes en train de passer. Ils pourraient aussi demander aux enfants ce qu'ils en pensent, eux aussi toujours forcés de porter le masque dans les écoles après des mois au détriment de leur santé. Souhaitons leur de faire un tour du côté du <a href="https://lcdmr.fr">collectif des maires résistants</a> pour oublier la liste qui s'allonge des <a href="victimes.html">victimes potentielles d'effets secondaires</a>.
+      </Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>poursuites</Tag>
+      <Ajout>2022-01-27</Ajout>
+      <Publication>2022-02-20</Publication>          
+      <Lien>
+        <Base>https://bonsens.info</Base>
+        <Chemin>/ouverture-pour-les-soignants-dune-deuxieme-vague-de-plaintes-a-la-cedh-contre-la-france/</Chemin>
+      </Lien>
+      <Titre>Plaintes à la CEDH contre la France</Titre>
+      <Auteur>BonSens.org</Auteur>
+      <Presentation>Ouverture pour les soignants d’une deuxième vague de plaintes a la cedh contre la France pour avoir conditionné le maintien de l’emploi des soignants à la participation forcée à des essais cliniques d’injection de substances géniques anti-covid19.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>prospective</Tag>
+      <Ajout>2022-02-23</Ajout>
+      <Publication>2019-03-01</Publication>
+      <Lien>
+        <Base>https://www.nexus.fr</Base>
+        <Chemin>/actualite/vaccin/plan-mondial-121/</Chemin>
+      </Lien>
+      <Titre>Vaccins : un plan mondial</Titre>
+      <Auteur>Senta Depuydt</Auteur>
+      <Presentation>Un article prophétique de la revue Nexus en accès libre qui présente en Mars 2019 un enquête sur les manoeuvres pour installer l’idéologie vaccinale mondiale et créer un marché global mondial. Toute ressemblance avec la suite serait-elle fortuite ?</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>insolite</Tag>
+      <Tag>bioéthique</Tag>      
+      <Ajout>2022-02-28</Ajout>
+      <Lien>
+        <Base>https://nospensees.fr</Base>
+        <Chemin>/letude-de-tuskegee-et-les-bases-de-la-bioethique/</Chemin>
+      </Lien>
+      <Titre>L'étude de Tuskegee et les bases de la bioéthique</Titre>
+      <Auteur>Site web</Auteur>
+      <Presentation>Une expérimentation médicale dont les sujets ne sont pas informés ni du caractère ni des méthodes de la recherche. De faux espoirs de traitements pour effectuer des prélèvements en douce sur les sujets en vue d'étudier l'évolution de leur état. Cela ne vous rappelle rien ?</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>prospective</Tag>
+      <Ajout>2022-03-02</Ajout>
+      <Publication>2022-03-01</Publication>
+      <Lien>
+        <Base>https://jeminformetv.com</Base>
+        <Chemin>/2022/03/01/lagenda-2030-lhorreur/</Chemin>
+      </Lien>
+      <Titre>L’agenda 2030 – l’horreur !</Titre>
+      <Auteur>Jeminformetv</Auteur>
+      <Presentation>
+        <p>Ce texte tiré d'un discours du premier ministre hongrois Viktor Orbán du 19 février 2022 ouvre la porte sur le future dystopique en marche avec le forum économique mondial (WEF). Le texte contient des liens vers les "scénarios" de votre vie future concoctés par le WEF et l'ONU sous le nom Agenda 2030 (les scénarios sont en anglais).</p>
+        <p>Par exemple le <a href="https://www.forbes.com/sites/worldeconomicforum/2016/11/10/shopping-i-cant-really-remember-what-that-is-or-how-differently-well-live-in-2030">premier scénario</a> écrit par la Young Leader Ida Auken ex-membre du parlement Danois et ex-ministre de l'environnement se termine de façon stupéfiante : "De temps en temps, je suis agacé par le fait que je n'ai pas de véritable vie privée. Nulle part je ne peux aller et ne pas être inscrit. Je sais que, quelque part, tout ce que je fais, pense et rêve est enregistré. J'espère juste que personne ne l'utilisera contre moi".
+        </p>
+      </Presentation>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>traitement</Tag>
+      <Tag>favoritisme</Tag>      
+      <Tag>interdiction</Tag>
+      <Lien>
+        <Base>https://www.francesoir.fr</Base>
+        <Chemin>/opinions-tribunes/covid-19-les-francais-savent-ils-des-2020-possible-soigner</Chemin>
+      </Lien>
+      <Titre>Dès 2020, il était possible de "sauver énormément de malades"… en suivant les conseils du ministre !</Titre>
+      <Presentation>Même si l'on exclu l'hydroxychloroquine et l'ivermectine, il existe des traitements utilisables à domicile contre le Covid présentés dès le 18 mars 2021 et qui ne sont toujours pas appliqués près d’un an plus tard...</Presentation>
+      <Ajout>2022-03-09</Ajout>
+      <Publication>2022-03-09</Publication>
+      <Auteur>Le Collectif citoyen, pour France Soir</Auteur>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>poursuites</Tag>
+      <Ajout>2022-03-09</Ajout>
+      <Publication>2022-03-08</Publication>          
+      <Lien>
+        <Base>https://jenesuispasundanger.com</Base>
+        <Chemin>/2022/03/08/fabrice-di-vizio-porte-plainte-contre-le-cabinet-mckinsey/</Chemin>
+      </Lien>
+      <Titre>Fabrice DI VIZIO porte plainte contre le cabinet McKinsey</Titre>
+      <Auteur>Je ne suis pas un danger (association)</Auteur>
+      <Presentation>Plainte pour faux témoignage devant le procureur de la République déposée par l'avocat <b>Fabrice Divizio</b> dans laquelle il fait apparaître les probables contreparties en terme de missions publiques externalisées par les ministères obtenus par le cabinet de conseil pour son soutien à la campagne présidentielle de 2017 ainsi que son rôle majeur dans la conception et dans la rédaction de projets de loi et sur son influence dans la lutte contre la pandémie de la Covid-19. Chargez la plainte en <a href="https://jenesuispasundanger.com/wp-content/uploads/2022/03/MC-KINSEY-PLAINTE.pdf">PDF</a>.</Presentation>
+    </Article>
+
+    <Article Afficher="oui">
+      <Tag>securite</Tag>
+      <Ajout>2022-03-09</Ajout>
+      <Publication>2021-04-06</Publication>
+      <Lien>
+        <Base>https://leblogalupus.com</Base>
+        <Chemin>/2021/04/06/entretien-avec-le-dr-vanessa-schmidt-kruger-le-blog-de-skidmark/</Chemin>
+      </Lien>
+      <Titre>Entretien avec le Dr Vanessa Schmidt-Kruger</Titre>
+      <Auteur>Le blog a Lupus</Auteur>
+      <Presentation>Traduction de l'Audition n° 37 de la Commission d’Enquête Extra parlementaire Allemande Corona du 30 janvier 2021. Cette audience parle du processus de fabrication des vaccins et des impuretés résiduelles que l'on retrouve dans les flacons ainsi que de leurs effets potentiels. S'y retrouvent pêle-mêle de l'ARNm dégradé ou raccourcis ainsi que des résidus de l'ADN qui sert de substrat pour produire l'ARN dans une réaction de transcription in vitro (avant le conditionnement en flacons)... C'est probablement cet ADN que le professeur Raoult mentionne dans sa vidéo du 1er mars 2022 à 17'09 (<i>en réalité dans le vaccin Pfizer il y a aussi de l'ADN</i>) : <a href="https://www.youtube.com/watch?v=bZs6eHfH0do">COVID : échange de gènes entre virus et avec l'homme</a>.
+      </Presentation>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>traitement</Tag>
+      <Tag>favoritisme</Tag>      
+      <Tag>interdiction</Tag>
+      <Lien>
+        <Base>https://www.covidhub.ch</Base>
+        <Chemin>/qui-a-modifie-les-conclusions-scientifiques-dun-article-qui-aurait-pu-sauver-des-millions-de-personnes/</Chemin>
+      </Lien>
+      <Titre>Qui a modifié les conclusions scientifiques d’un article qui aurait pu sauver des millions de personnes ?</Titre>
+      <Presentation>Le collectif de médecins et chercheurs états-uniens FLCCC a retracé toute l'histoire de la disqualification de l'ivermectine en tant que traitement précoce du Covid, malgré une somme écrasante de données probantes. Regardez la vidéo poignante de la Drs Tess Lawrie à <a href="https://odysee.com/-Lettre-à-Andrew-Hill---ce-chercheur-a-t--volontairement-saboté-les-données-sur-l'ivermectine-pour-empêcher-son-approbation--Les-Drs-Tess-Lawrie,-Pierre-Kory-et-Paul-Marik-s'adressent-à-lui-(février-2022):5c0258d5e741d72de92e5c39b4e3697367fb9201">Andrew Hill</a>, le chercheur qui a semble-t-il été <i>influencé</i> en janvier 2021 pour retarder la reconnaissance de l'efficacité de l'ivermectine et laisser la place aux injections (sous-titrée en Français).</Presentation>
+      <Ajout>2022-03-09</Ajout>
+      <Publication>2022-03-09</Publication>
+      <Auteur>Covidhub.ch</Auteur>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>insolite</Tag>
+      <Tag>élus</Tag>
+      <Tag>hôpital</Tag>      
+      <Ajout>2022-03-11</Ajout>
+      <Lien>
+        <Base>https://www.ouest-france.fr</Base>
+        <Chemin>/pays-de-la-loire/les-sables-dolonne-85100/les-sables-d-olonne-le-maire-boycotte-la-venue-du-ministre-de-la-sante-002820dc-a092-11ec-b494-7a5e63fed517</Chemin>
+      </Lien>
+      <Titre>Le maire boycotte la venue du ministre de la Santé</Titre>
+      <Auteur>Ouest France</Auteur>
+      <Presentation>Le vent serait-il en train de tourner ? Les multiples actions d'information menées envers les élus porteraient-elles leurs fruits ? En tout cas saluons le courage politique de M. <b>Yannick Moreau</b>, maire des Sables, pensons aussi encore à tous les soignants suspendus qui seraient bien plus utiles à l'hôpital que mille visites de M. <b>Véran</b>.</Presentation>
+      <Publication>2022-03-10</Publication>
+    </Article>
+    
+    <Article Afficher="oui">
+      <Tag>vaccin</Tag>
+      <Tag>échec</Tag>
+      <Ajout>2022-03-22</Ajout>
+      <Lien>
+        <Base>https://dailyexpose.uk</Base>
+        <Chemin>/2022/03/13/gov-report-proves-triple-vaccinated-have-ade/</Chemin>
+      </Lien>
+      <LienPDF>https://www.cadoc.fr/cslv85/archives/2022/03/rapport-immunite-UK-the-expose.pdf</LienPDF>
+      <Titre>Syndrome d’immunodéficience acquise et vaccination Covid</Titre>
+      <Auteur>The exposé</Auteur>
+      <Presentation>Cet article se base sur les chiffres publiés par l'Agence britannique de sécurité sanitaire pour les 3 derniers mois de janvier à mars 2022, qui sont détaillés par tranche d'age et par statut vaccinal) pour calculer l'efficacité du vaccin Covid-19 chez les triples vaccinés. Il conclu à une diminution de l'efficacité vaccinale (avec la formule de Pfizer dixit les auteurs) ainsi qu'à une dégradation de la performance du système immunitaire. Cliquez sur le lien PDF pour la version française.</Presentation>
+      <Publication>2022-03-13</Publication>
+    </Article>    
+        
+    <!-- A INSERER ? -->
+    
+    <!-- 
+
+      https://le10sport.com/basket/nba/basket-nba-kyrie-irving-pret-a-prendre-une-decision-fracassante-571229
+      
+      VAIDS
+      https://childrenshealthdefense.org/defender/covid-vaccines-aids-destroying-immune-function/ 
+     
+      Vaccin alternative https://www.ladepeche.fr/2022/02/18/covid-19-on-vous-explique-comment-fonctionne-le-vaccin-aux-plantes-elabore-par-lentreprise-quebecoise-medicago-10119898.php
+  
+      Impuretés dans les vaccins
+      https://leblogalupus.com/2021/04/06/entretien-avec-le-dr-vanessa-schmidt-kruger-le-blog-de-skidmark/
+  
+    -->
+
         
   </Articles>
 </Ressources>

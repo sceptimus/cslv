@@ -1,5 +1,179 @@
 <Evenements>
+  <Evenement Afficher="non">
+     <Ancre>jem</Ancre>
+     <Titre>Lundi 21 février 2022 à 20h<br/>Mortagne sur sèvre<br/>Réunion d'information sur le JEM (JEU/SEL)</Titre>
+     <Presentation>
+       Si l'entraide et les échanges locaux vous intéressent, rejoignez-nous pour cette soirée d'information.
+     </Presentation>
+     <Verbatim>
+       <p>Un collectif d'habitants vous présente son nouveau projet, le <b>JEM</b> - <b><span style="color:blue">Jardin d'échange Mortagnais</span></b> - et le site créé à cet effet.</p>
+       <p>Il s'agit d'une plateforme d'entraide et de mise en réseau basée sur les compétences et les projets de chacun.</p>
+       <p>Réunion d'information :</p>
+       <p>
+Lundi 21 février 2022 à 20h<br/>
+1 rue du puits de la forge<br/>
+Mortagne sur sèvre (85290)
+       </p>
+       <p>
+         <center>
+         <a href="https://www.cadoc.fr/cslv85/archives/2022/02/logo-JEM.jpg">
+           <img src="https://www.cadoc.fr/cslv85/archives/2022/02/logo-JEM.jpg" width="500px"/>
+         </a>
+         </center>
+       </p>
+     </Verbatim>
+   </Evenement>
 
+   <Evenement Afficher="non">
+      <Ancre>petosse</Ancre>
+      <Titre>Conférence/débat, spectacle et soirée festive masquée<br/>
+Le samedi 26 février 2022 dans la salle communale de Petosse (85570)</Titre>
+      <Presentation>
+        Nous vous proposons de venir nous rejoindre pour une journée de rencontres et de partages qui se terminera par une soirée festive, suivant le programme ci-dessous.
+      </Presentation>
+      <Verbatim>
+        <p><b>Programme du 26 février 2022</b></p>
+        <p>14H30 - un débat / conférence, en accès libre, avec Paul Fournier, Créateur de l’association Les Citrons Givrés (<a href="https://www.cadoc.fr/cslv85/archives/2022/02/petosse-themes.pdf">Groupement d’achats solidaire ESS, économie sociale et solidaire</a>)<br/>
+        18H : spectacle théâtre et poésie : <a href="https://www.cadoc.fr/cslv85/archives/2022/02/petosse-theatre.pdf">Vlad</a>, par la <a href="http://www.theatreincognita.fr">compagnie Théâtre Incognita</a><br/>
+        20H : dîner pour ceux qui le souhaitent
+        </p>
+        <p>Dans la salle communale de Petosse (85570)</p>
+        <p>
+          Voir le <a href="https://www.cadoc.fr/cslv85/archives/2022/02/petosse-programme.pdf">prospectus</a> pour l'<b>inscription préalable</b> et les autre détails
+        </p>
+      </Verbatim>
+    </Evenement>
+       
+  <Evenement Afficher="non">
+     <Ancre>convoi</Ancre>
+     <Titre>Du 12 février au 14 février 2022<br/>Convoi de la Liberté Paris<br/>et Convergence Européenne à Bruxelles</Titre>
+     <Presentation>
+       Camionneurs, citoyens (avec leurs véhicules : voitures, camionnettes, etc...), vous pouvez tous participer au <i>CONVOY</i> sur une partie ou l'ensemble du trajet, en encourageant aux points de passage, en préparant des repas.... Restez pacifiques indépendamment des obstacles rencontrés. Maintenez une attitude joyeuse, d'espoir et d'unité.
+     </Presentation>
+     <Verbatim>
+       <p><b>Vendredi 11 février 20h</b>: arrivée à Paris pour une soirée de partage et de convivialité avec la solidarité citoyenne.</p>
+       <p><b>Samedi 12 février</b>, vous êtes invités à rejoindre le rassemblement de votre choix.</p>
+       <p><b>Dimanche 13 février</b>: départ de Paris pour rejoindre nos amis Européens à BRUXELLES</p> 
+       <p><b>Lundi 14 février BRUXELLES</b>: EUROPEAN FREEDOM CONVOY - <a href="https://t.me/convoyFrance/61">https://t.me/convoyFrance/61</a></p>
+      
+       <p>
+         <center>
+         <a href="https://www.cadoc.fr/cslv85/archives/2022/02/convoi.jpg">
+           <img src="https://www.cadoc.fr/cslv85/archives/2022/02/convoi.jpg" width="700px"/>
+         </a>
+         </center>
+       </p>
+
+       <h3>LOGOS</h3>
+       <p><a href="https://t.me/leconvoidelaliberte/77">https://t.me/leconvoidelaliberte/77</a></p>
+       <p><a href="https://www.facebook.com/photo/?fbid=2116410208535511&amp;set=g.1361647004300199"> https://www.facebook.com/photo/?fbid=2116410208535511&amp;set=g.1361647004300199</a></p>
+
+       <h3>Liens</h3>
+       <!-- <p>Le Convoi: <a href="https://www.facebook.com/groups/13616">https://www.facebook.com/groups/13616</a></p>    -->       
+       <p>Telegram: <a href="https://t.me/leconvoidelaliberte">https://t.me/leconvoidelaliberte</a></p>
+       <p>Entraide et couchage en Ile-de-France : <a href="https://t.me/entraideiledefrance">https://t.me/entraideiledefrance</a></p>
+       
+       <p>Dans les medias : <a href="https://actu.fr/pays-de-la-loire/nantes_44109/convoi-de-la-liberte-contre-le-pass-vaccinal-voici-ce-qui-se-prepare-a-nantes_48513549.html">"Convoi de la liberté" contre le pass vaccinal : voici ce qui se prépare à Nantes</a>
+       </p>
+     </Verbatim>
+     <!-- <h3>Déclaration du collectif Convoi de la liberté (PDF)</h3>
+
+     <p><a href="https://t.me/c/1449138525/2855">https://t.me/c/1449138525/2855</a></p> -->
+    
+     <!-- <h3>Modalités et organisation par région</h3> -->
+
+     <!-- <p>Carte et communiqué Convoi France : <a href="https://www.facebook.com/photo?fbid=983245028948056&amp;set=pcb.1367377887060444">https://www.facebook.com/photo?fbid=983245028948056&amp;set=pcb.1367377887060444</a></p> -->
+    
+     <!-- <p>Carte des points de rendez-vous et heures pour la Vendée: <a href="https://t.me/c/1449138525/2185">https://t.me/c/1449138525/2185</a></p>
+
+     <p>Trajet du convoi pour les vendéens : <a href="https://t.me/c/1449138525/2557">https://t.me/c/1449138525/2557</a></p>
+
+     <p>Entraide et couchage en Ile-de-France: <a href="https://t.me/entraideiledefrance">https://t.me/entraideiledefrance</a></p> -->     
+   </Evenement>
+  
+  <Evenement Afficher="non">
+    <Ancre>debat</Ancre>
+    <Titre>Dimanche 23 janvier 2022 - 15h00<br/>Rencontre débat - Saint Hilaire de Riez</Titre>
+    <Presentation>
+      A la demande de parents d'élèves et à destination des parents, du personnel enseignant et ouvert à tous, nous vous proposons une réunion sur <b>la politique sanitaire au regard de nos enfants et les problématiques liées à la vaccination</b>.
+    </Presentation>
+    <Verbatim>
+      <p>Voir l'annonce sur le site <a href="https://inovee.fr">inovee</a>. Venez débattre :</p>
+      <p><b>Ferme de La Chevalerie</b> à 15h<br/>
+         21, chemin de Bellevue (face au camping L'Orée des Pins)<br/>
+         Saint-Hilaire-de-Riez
+       </p>
+       <p><b>Dossier</b></p>
+       <ul>
+         <li><span href="/2022/01/debat/courrier-parents.pdf" data-cadoc="pdf">
+           lettre aux parents</span></li>
+         <li><span href="/2022/01/debat/questions-pour-mineur.pdf" data-cadoc="pdf">
+           questions en vue du consentement éclairé pour un mineur</span></li>
+         <li><span
+            href="/2022/01/debat/arguments-injection.pdf" data-cadoc="pdf">
+            argumentaire</span></li>
+         <li><span href="/2022/01/debat/Flyer-Jeunes-Vax-V3-2UP.pdf" data-cadoc="pdf">
+           flyer vaccination des enfants</span></li>
+         <li><span href="/2022/01/debat/avenant-vax-enfant.pdf" data-cadoc="pdf">
+           avenant dérogatoire à la fiche infirmerie enfants</span></li>           
+        </ul>
+        <p>Voir aussi la boite à outil <a href="outils.html#13">consentement libre et éclairé à la vaccination anti-Covid des enfants et adolescents</a>.</p>
+    </Verbatim>
+  </Evenement>
+
+  <Evenement Afficher="non">
+    <Ancre>Choblet</Ancre>
+    <Titre>Lundi 24 janvier 2022 - 18h30<br/>Rencontre débat - Saint Hilaire de Riez</Titre>
+    <Presentation>
+      <b>Inovee</b> reçoit <b>Guy Choblet</b>, l'un des membres fondateurs d'un collectif citoyen pour le développement des énergies renouvelables sur le littoral vendéen. Les objectifs de ce collectif: " Acquérir et installer à coût modéré des équipements photovoltaïques chez soi, permettant d'autoproduire une partie de son électricité.»
+    </Presentation>
+    <Verbatim>
+      <p>Voir l'annonce sur le site <a href="https://inovee.fr">inovee</a>.</p>
+      <p>Guy Choblet, vous présentera le collectif et répondra à vos questions.</p>
+      <p>Ouvert à tous.</p>
+      <p><b>Ferme de La Chevalerie</b> à 18h30<br/>
+         21, chemin de Bellevue (face au camping L'Orée des Pins)<br/>
+         Saint-Hilaire-de-Riez
+       </p>
+    </Verbatim>
+  </Evenement>
+  
+  <Evenement Afficher="non">
+    <Ancre>marche</Ancre>
+    <Titre>Samedi 29 janvier 2022 - 10h à 12H<br/>Marche pour nos libertés<br/>La Roche Sur Yon</Titre>
+    <Presentation>
+      Venez marcher pour nos libertés, moment que vous pourrez prolonger avec le meeting populaire qui aura lieu l'après-midi à Chaillé Sous les Ormeaux l'après-midi (voir ci-dessous).
+    </Presentation>
+    <Verbatim>
+      <p>
+        <center>
+        Cliquez sur la présentation pour agrandir<br/> 
+        <a href="https://www.cadoc.fr/cslv85/archives/2022/01/marche-pour-nos-libertes.jpeg">
+          <img src="https://www.cadoc.fr/cslv85/archives/2022/01/marche-pour-nos-libertes.jpeg" width="600px"/>
+        </a>
+        </center>
+      </p>
+    </Verbatim>
+  </Evenement>  
+      
+  <Evenement Afficher="non">
+    <Ancre>convergence</Ancre>
+    <Titre>Samedi 29 janvier 2022 - 14h<br/>Salle polyvalente de Chaillé Sous les Ormeaux<br/>Convergence politique et groupes citoyens santé et résilients</Titre>
+    <Presentation>
+      Meeting populaire avec de nombreux intervenants, des débats et des stands d'associations et collectifs départementaux.
+    </Presentation>
+    <Verbatim>
+      <p>
+        <center>
+        Cliquez sur la présentation pour agrandir<br/> 
+        <a href="https://www.cadoc.fr/cslv85/archives/2022/01/meeting-populaire.pdf">
+          <img src="https://www.cadoc.fr/cslv85/archives/2022/01/meeting-populaire.jpeg" width="800px"/>
+        </a>
+      </center>
+      </p>
+    </Verbatim>
+  </Evenement>
+  
   <Evenement Afficher="non">
     <Ancre>challans-collectif-citoyen</Ancre>
     <Titre>Rencontre devant la Mairie de Challans - Vendredi 31 décembre - de 14h à 18h</Titre>
@@ -17,16 +191,17 @@
 
   <Evenement Afficher="oui">
     <Ancre>chansons-positives</Ancre>
-    <Titre>Chansons positives - La Roche Sur Yon - Dimanche 12 Décembre - 10h45</Titre>
+    <Titre>Chansons positives - La Roche Sur Yon - Chaque dernier samedi du mois à 15h</Titre>
     <Presentation>
-      <p>Des membres du comité qui participent à un Cercle du bonheur nous informent qu'ils ont décidé de chanter sur la place Napoléon des chansons positives sur la liberté, l'amour, la joie, et des mantras, comme action joyeuse.</p>
-      <p>Après le succès du rendez-vous du Samedi 27 Novembre, prochain rendez-vous <b>Dimanche 12 décembre 2021 à 10h45</b> au pied du sapin - <b>place Napoléon</b> - La Roche Sur Yon.</p>
+      <p>Des membres du comité qui participent à un Cercle du bonheur nous informent qu'ils ont décidé de renouveler périodiquement l'action de chanter sur la place Napoléon des chansons positives sur la liberté, l'amour, la joie, et des mantras, comme action joyeuse.</p>
+      <p>Après le succès des rendez-vous du Samedi 29 Janvier 2022, du Samedi 27 Novembre 2021 et du dimanche 12 décembre 2021 à l'emplacement du sapin de Noël - <b>place Napoléon</b> - La Roche Sur Yon.</p>
       <p>Pas besoin de savoir chanter, musiciens bienvenus.</p>
     </Presentation>
     <Verbatim>
       <center>
-      <p><b>Carnet de chants</b></p>
+      <p><b>Carnet de chants</b> (exemple)</p>
       <ul class="blog">
+        <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Et%20pourtant%20dans%20le%20monde.pdf">Et pourtant dans le monde</a></li>        
         <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Danser%20encore.pdf">Danser encore</a></li>
         <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Il%20est%20libre%20Max.pdf">Il est libre Max</a></li>
         <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Imagine.pdf">Imagine</a></li>

@@ -90,7 +90,7 @@
         <Presentation>des médecins discutent de la mesure des D-dimères dans le sang après injection des vaccins COVID pour détecter la présence d'un caillot de sang ou thrombus, écoutez leur constatations. Vidéo assez virale rapidement dénoncée par les <i>vérificateurs de faits</i> de l'AFP <a href="https://factuel.afp.com/http%253A%252F%252Fdoc.afp.com%252F9LY3A7">ICI</a>, tout en reconnaissant que la mesure d'un taux de D-dimères élevé nécessite des examens complémentaire comme un sccanner pour lever la suspicion de thrombose... Notez que le même type de <i>polémique</i> s'est enclenchée fin 2021 à propos d'une <a href="https://www.ahajournals.org/doi/abs/10.1161/circ.144.suppl_1.10712">étude observationnelle</a> (en anglais) mettant en jeu d'autres marqueurs (le test cardiaque PULS) et les vaccins à ARNm, elle aussi promptement <a href="https://sciencebasedmedicine.org/the-puls-test-and-covid-19-vaccinations/">vérifiée</a> (en anglais). 
         </Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-09-29</Ajout>
     </Video>        
 
@@ -103,7 +103,7 @@
         <Titre>Démission de l’ordre des médecins et de mon statut de praticien hospitalier</Titre>
         <Presentation>lecture de sa lettre de démission par le Dr Denis Agret, résumé de la situation vécue par ce médecin intègre</Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-09-28</Ajout>
     </Video>
 
@@ -130,7 +130,7 @@
         <Titre>Vaccin contre la COVID-19</Titre>
         <Presentation>video du 14 septembre du Pr Didier Raoult, il parle des réservoirs animaux, des mutations et de l'auto-limitation des épidémies...</Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-09-15</Ajout>
     </Video>
 
@@ -168,7 +168,7 @@
         <Titre>Interview du Professeur canadien Roger Hodkinson dans les Débriefings de France Soir</Titre>
         <Presentation>alerte sur les vaccins et les manipulations des discours face au Covid-19</Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-09-05</Ajout>
     </Video>
 
@@ -294,7 +294,7 @@
         <Presentation>Vaccin ARNm et rappels d'injection quels sont les risques d'après <b>Alexandra Henrion Claude</b>. Si le but de Moderna est de <i>pirater le logiciel de la vie</i> ont-ils prévu l'antivirus contre les Malwares et les Rasomwares ? 
         </Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-10-31</Ajout>
     </Video>        
 
@@ -391,7 +391,7 @@
         <Titre>Le Dr Peter McCullough sur les limites et dangers de la vaccination, l'efficacité du traitement précoce et l'importance de rejeter le nihilisme thérapeutique (AAPS, 2 octobre 2021)</Titre>
         <Presentation>Discours donné au congrès annuel de l'Association Américaine des Praticiens Hospitaliers et des Chirurgiens (AAPS). Très instructif.</Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-11-08</Ajout>
         <Publication>2021-10-02</Publication>
     </Video>
@@ -419,6 +419,7 @@
         <Titre>Pass sanitaire : le Sénat, et après ? Laurence Muller-Bronn</Titre>
         <Presentation>Debriefing sur  FranceSoir de la sénatrice du Bas-Rhin qui a clairement pris position contre le pass sanitaire.</Presentation>
         <Tag>politique</Tag>
+        <Tag>pass</Tag>
         <Ajout>2021-11-08</Ajout>
         <Publication>2021-10-29</Publication>
         <Langue>angais</Langue>
@@ -440,7 +441,7 @@
 
     <Video Afficher="oui">
         <Duree>1h04'48</Duree>
-        <Lien>
+        <Lien Censure="oui">
           <Base>https://www.youtube.com</Base>
           <Chemin>/watch?v=wNYRatFQL4k</Chemin>
         </Lien>
@@ -499,7 +500,7 @@
         <Titre>Pr Luc Montagnier : des cas de Creutzfeldt-Jakob liés au vaccin contre le Covid ?</Titre>
         <Presentation>Invité du défi de la vérité, le professeur appelle à cesser le vaccin après la détection formelle de cinq cas de maladies à prions chez des personnes jeunes et en bonne santé, quelques semaines après avoir reçu des injections Pfizer. Il conseille également d'utiliser le vaccin BCG.</Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-11-21</Ajout>
         <Publication>2021-11-19</Publication>
     </Video>
@@ -512,7 +513,7 @@
         </Lien>
         <Titre>Capitaine Alexandre Juving-Brunet | Conférence de presse</Titre>
         <Presentation>Appel à relancer la politique à travers des comités populaires pour opposer un contre-pouvoir aux politiciens et suivre la mise en oeuvre de leurs promesses par les élus. Le capitaine Juving-Brunet est un chef d'entreprise touché par la crise et qui a décidé de lancer un mouvement.</Presentation>
-        <Tag>politique</Tag>
+        <Tag>refondation</Tag>
         <Ajout>2021-11-21</Ajout>
         <Publication>2021-11-18</Publication>
     </Video>
@@ -553,7 +554,7 @@
         <Titre>L'entretien interdit de Louis Fouché interrogé par Planete 360</Titre>
         <Presentation>Des explications claires et argumentées de Louis Fouché en réponse à des questions précises sur la Covid, le confinement, le pass sanitaire, le vaccin, l'origine du virus, etc, en forme de bilan. Il donne une vision paisible de ce que pourrait être la politique santé dans notre société.</Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-11-26</Ajout>
         <Publication>2021-11-17</Publication>
     </Video>
@@ -567,7 +568,7 @@
         <Titre>Laurent Toubiana répond à nos questions</Titre>
         <Presentation>L'épidémiologiste qui n'avait pas parlé depuis plusieurs mois revient sur les chiffres de l'épidémie qui ont servi de prétexte à l'état d'urgence sanitaire et à sa prolongation. Vous pouvez aussi lire sa <a href="https://www.francesoir.fr/opinions-tribunes/laurent-toubiana-la-cinquieme-vague-nouvel-episode-dun-feuilleton-qui-na-que-trop">Tribune</a>.</Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-12-04</Ajout>
         <Publication>2021-11-25</Publication>
     </Video>
@@ -580,7 +581,6 @@
         </Lien>
         <Titre>Pfizer, une entreprise qui vous veut du bien</Titre>
         <Presentation><b>Idriss Aberkane</b> rappelle des antécédents historiques de l'unique fabriquant autorisé à écraser le marché européen dans la lutte anti-covid.</Presentation>
-        <Tag>politique</Tag>
         <Tag>histoire</Tag>
         <Ajout>2021-12-04</Ajout>
         <Publication>2021-12-01</Publication>
@@ -638,7 +638,7 @@
           <p>À les écouter l'on comprend presque pourquoi le président du conseil scientifique <b>Jean-François Delfraissy</b>, ou le ministre de la santé <b>Olivier Veran</b> refusent le débat publique avec eux tant les mesures qu'ils nous imposent depuis 2 ans paraissent ridicules, voir nuisibles, en tenant compte des données de la science et des données du terrain.</p>
         </Presentation>
         <Tag>interview</Tag>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Ajout>2021-12-18</Ajout>
         <Publication>2021-12-18</Publication>
     </Video>
@@ -654,6 +654,7 @@
           <b>Marion Maréchal</b> ancienne députée du Vaucluse donne son avis sur la logique gouvernementale. Des propos modérés et critiques à la fois. Cet entretien résume bien avec des mots simples les observations qu'on peut faire avec un minimum de bon sens sur les choix de ces derniers mois.
         </Presentation>
         <Tag>politique</Tag>
+        <Tag>pass</Tag>
         <Ajout>2021-12-29</Ajout>
         <Publication>2021-12-22</Publication>
     </Video>
@@ -666,7 +667,7 @@
         </Lien>
         <Titre>La vaccination généralisée est contre-productive</Titre>
         <Presentation><b>Christian Velot</b> généticien moléculaire fait le point sur l'état du débat public autour de la vaccination. En particuliers il revient sur l'un des inconvénients des vaccins ARNm : leur capacité à favoriser l'apparition de nouveaux variants, qu'ils soient mutants ou recombinants, et prend le temps d'expliquer ce dont il s'agit.</Presentation>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Tag>interview</Tag>
         <Ajout>2021-12-29</Ajout>
         <Publication>2021-12-11</Publication>
@@ -681,6 +682,7 @@
         <Titre>Le pass sanitaire, c'est de l'apartheid</Titre>
         <Presentation><b>Philippe de Villiers</b> dénonce le pass sanitaire, les mensonges répétés (sur le nombre de doses, sur le confinement, sur l'efficacité des vaccins, etc.) et le gouvernement par la peur pour faire avaler les mesures liberticides et faire accepter le choix du tout vaccinal. Il dénonce les liens d'intérêt entre la tête de la commission Européenne et Pfizer et la marche forcée vers une société de contrôle. Il confirme ainsi le scénario qu'il a décrit dans son livre <a href="https://www.librairie-agora.com/livre/9782226461995-le-jour-d-apres-philippe-de-villiers/">Le jour d'après</a> il y a 8 mois.</Presentation>
         <Tag>politique</Tag>
+        <Tag>pass</Tag>
         <Ajout>2021-12-28</Ajout>
         <Publication>2021-12-20</Publication>        
     </Video>
@@ -694,7 +696,7 @@
         <Titre>Robert Malone, inventeur des vaccins à ARN : Omicron est un cadeau de Noël</Titre>
         <Presentation>Une présentation pour le moins inhabituelle du variant Omicron qui fait si peur au gouvernement. Un sous-entendu même digne d'un thriller géo-politique ! À laquelle certains pourront peut-être trouver une prolongation dans cette <a href="https://pubmed.ncbi.nlm.nih.gov/34954396/">publication</a> curieuse.
         </Presentation>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Tag>interview</Tag>
         <Ajout>2021-12-29</Ajout>
         <Publication>2021-12-22</Publication>
@@ -711,6 +713,7 @@
         <Titre>Pass vaccinal : la députée LFI Danièle Obono veut aller dire "ça suffit" devant la commission des lois</Titre>
         <Presentation><b>Danièle Obono</b> députée La France insoumise dénonce l'obligation déguisée derrière le passe sanitaire/vaccinal. Elle critique la stratégie de discorde du gouvernement et évoque la prévention et des mesures complémentaires.</Presentation>
         <Tag>politique</Tag>
+        <Tag>pass</Tag>
         <Ajout>2021-12-29</Ajout>
         <Publication>2021-12-29</Publication>
     </Video>    
@@ -723,7 +726,7 @@
         </Lien>
         <Titre>Interview Geert Vanden Bossche</Titre>
         <Presentation><b>Geert Vanden Bossche</b> virologue ayant travaillé pour la fondation GAVI et la fondation Bill et Melinda Gates donne une interview en Français dans laquelle il parle des vaccins, des enfants et de l'immunité. En particuliers à 16', à propos de la vaccination des enfants, il parle du remplacement de l'immunité innée forte des enfants, dirigée contre tous les virus, par une immunité ciblée sur un seul variant et des risques qui découlent de la mise hors jeu des anticorps innés... Il remet les points sur <i>i</i> concernant l'immunité de groupe.</Presentation>
-        <Tag>medecine</Tag>
+        <Tag>médecine</Tag>
         <Tag>interview</Tag>
         <Ajout>2021-12-29</Ajout>
         <Publication>2021-12-23</Publication>
@@ -751,11 +754,375 @@
         </Lien>
         <Titre>Martine Wonner - Assemblée Nationale - Vote du pass vaccinal</Titre>
         <Presentation>
-          Intervention de <b>Martine Wonner</b> à l'Assemblée Nationale ce jour de vote du pass vaccinal. Ecoutez aussi la réponse méprisante de Véran <a href="https://www.dailymotion.com/video/x86r8g5">la chloroquine ça ne se fume pas</a>, ces propos insultants ont-ils vraiment leur place dans l'hémicycle, face à la gravité de cette loi les Français apprécieront... a
+          Intervention de <b>Martine Wonner</b> à l'Assemblée Nationale ce jour de vote du pass vaccinal. Ecoutez aussi la réponse méprisante de Véran <a href="https://www.dailymotion.com/video/x86r8g5">la chloroquine ça ne se fume pas</a>, ces propos insultants ont-ils vraiment leur place dans l'hémicycle, face à la gravité de cette loi les Français apprécieront...
         </Presentation>
         <Tag>politique</Tag>
+        <Tag>pass</Tag>
         <Ajout>2022-01-03</Ajout>
         <Publication>2022-01-03</Publication>
-    </Video>  
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>38'52</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=_x-eozrCCNM</Chemin>
+        </Lien>
+        <Titre>Effets de la vaccination sur l'épidémie</Titre>
+        <Presentation>Le professeur <b>Didier Raoult</b> parle des anti-corps facilitants, de l'augmentation des cas dans les 15 jours post-vaccination, du cycle de vie et emergence des variants. Il s'appuie comme toujours sur les données de l'IHU et de l'université John Hopkins pour le reste du monde. Sans filtre il explique en quoi la vaccination a favorisé l'augmentation du nombre de Covid, cette augmentation concernant les cas survenant dans les 15 premiers jours post-injection ils n'ont pas été pris en compte par Pfizer dans ses études. Pour les pressés regarder à partir de la minute 16 !</Presentation>
+        <Tag>interview</Tag>
+        <Tag>médecine</Tag>
+        <Ajout>2022-01-12</Ajout>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>2h23'27</Duree>
+        <Lien>
+          <Base>https://franceliberte.tv</Base>
+          <Chemin>/appel-dun-corps-delite-pour-sauver-lhumanite/</Chemin>
+        </Lien>
+        <Titre>Appel d’un corps d’élite pour sauver l’humanité de la secte</Titre>
+        <Presentation>Entretien avec Arnaud Upinsky, auteur de l'extraordinaire essai <a href="https://www.babelio.com/livres/Upinsky-La-tete-coupee-ou-La-parole-coupee--le-calcul-et-/642476">La tête coupée</a>, sur la parole et son détournement par le pouvoir (1991). Il remet le langage utilisé par le gouvernement et les medias à l'endroit pour comprendre la nature de la pièce qui s'est jouée ces derniers mois. Il donne des outils pour reconquérir notre capacité de penser. Avec lui tout devient limpide, de la gestion de <i>crime</i> au ministère de l'<i>assassinat</i>, et la scène se dévoile comme dans un roman policier. D'autres vidéos sont à voir sur la chaine <a href="https://franceliberte.tv">France Liberté TV</a>.
+        </Presentation>
+        <Tag>refondation</Tag>
+        <Ajout>2022-01-20</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>21'56</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@Chloe_F:b/Rapport_Flexner_Rockefeller_Carnegie:8</Chemin>
+        </Lien>
+        <Titre>Le Rapport Flexner ou les débuts de la médecine "moderne" - Rockefeller &amp; Carnegie</Titre>
+        <Presentation>D'où vient la médecine moderne centrée sur la technique et l'industrie pharmaceutique ? Cette présentation de Chloé nous apprend qu'elle est issue du rapport d'un certain Flexner au début du XXe siècle. Ce rapport a lancé la standardisation des études médicales aux Etats-Unis puis plus tard en Europe. Les documents utilisés pour faire cette video sont disponibles en liens dans la page. En filigrane cet exposé nous interroge sur toutes les voies qui ont été mises de côté pour faire place au concept de santé qui sert aujourd'hui à paralyser la société.</Presentation>
+        <Tag>histoire</Tag>
+        <Ajout>2022-01-26</Ajout>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>7'16</Duree>
+        <Lien>
+          <Base>https://www.cadoc.fr</Base>
+          <Chemin>/cslv85/archives/2021/videos/sapin-napoleon-18-12-21.mp4</Chemin>
+        </Lien>
+        <Titre>Décoration du Sapin de Noël place Napoléon du 18 décembre 2021</Titre>
+        <Presentation>
+          <p>Présentation d'une action menée le 18 décembre 2021 place Napoléon pour faire connaître 31 scientifiques internationaux censurés qui alertent sur la politique sanitaire et les choix exclusifs des autorités. Retrouvez les présentations de ces scientifiques sur le site <a href="https://www.citoyens-informes.fr">citoyens informés</a>.</p>
+          <div style="text-align:center">
+            <video src="https://www.cadoc.fr/cslv85/archives/2021/videos/sapin-napoleon-18-12-21.mp4" height="480" poster="https://www.cadoc.fr/cslv85/archives/2021/videos/sapin-poster.jpg" controls="1">
+              Cette vidéo ne peut être affichée sur votre navigateur Internet.<br/>
+              Une version est disponible en téléchargement sous <a href="https://www.cadoc.fr/cslv85/archives/2021/videos/sapin-napoleon-18-12-21.mp4">adresse du lien </a>. 
+            </video>
+          </div>
+        </Presentation>
+        <Tag>local</Tag>
+        <Ajout>2022-01-29</Ajout>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>14'33</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@Fakkelprotest-Groningen:7/fakkelprotest-groningen-interview-1-quin-the-darkness-is-here:d</Chemin>
+        </Lien>
+        <Titre>Interview (sous-titrée en Anglais) de Quin "The darkness is here" à Groningen (Danemark)</Titre>
+        <Presentation>Interview d'un ex-étudiant Chinois qui vit au Danemark depuis plus de 10 ans. Il nous alerte sur le trouble jeu du Parti Communiste Chinois et des élites mondialistes (à rapprocher de la petite phrase du député <a href="https://www.youtube.com/watch?v=9psTUG1r9Os">Joachim Son-Forget</a>). À écouter avec beaucoup de modestie car il nous fait prendre conscience que nous pourrions bien perdre ce qui faisait l'attractivé de l'Europe et qu'ont perdu les Chinois depuis 70 ans : la liberté de choix.</Presentation>
+        <Tag>totalitarisme</Tag>,
+        <Tag>vécu</Tag>        
+        <Ajout>2022-01-29</Ajout>
+        <Publication>2022-01-07</Publication>
+        <Langue>anglais</Langue>
+        <SousTitre>anglais</SousTitre>
+    </Video>
+    
+    <Video Afficher="oui">
+      <Duree>2h10'06'</Duree>
+        <Lien>
+          <Base>https://crowdbunker.com</Base>
+          <Chemin>/v/FmnBbsIO</Chemin>
+        </Lien>
+        <Titre>Réunion publique n°39 du Conseil Scientifique Indépendant du 20/01/2022</Titre>
+        <Presentation>Deux conférences passionnantes. La première intitulée "De quoi le Covid est-il le nom" de <b>Laurent Mucchielli</b>, propose un éclairage synthétique et une explication de ce qui s'est passé depuis presque 2 ans (commence à 12'45). La seconde sur la "fabrication du consentement" de <b>Louis Foucher</b>, est un exposé complet sur l'hypnose dont on reconnait certaines des techniques mises en oeuvre à grande échelle depuis le début de l'épidémie (commence à 1h11'35). Notons que l'hypnose est également utilisée en réanimation, point de départ du savoir faire de Louis Foucher.</Presentation>
+        <Tag>documentaire</Tag>
+        <Ajout>2022-01-29</Ajout>
+        <Publication>2022-01-29</Publication>            
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>4'54</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=r95phGEPA3I</Chemin>
+        </Lien>
+        <Titre>J'ai vécu dans votre futur et ça n'a pas marché</Titre>
+        <Presentation><b>Valdimir Konstantinovitch Boukovsky</b> ancien dissident de l'Union soviétique dresse un parallèle glaçant avec l'Union européenne. Sommes nous en train d'entrer en <i>Union Coviétique</i> ?</Presentation>
+        <Tag>totalitarisme</Tag>
+        <Tag>vécu</Tag>
+        <Tag>politique</Tag>
+        <Ajout>2022-02-01</Ajout>
+        <Publication>2018-08-03</Publication>
+        <Langue>anglais</Langue>
+        <SousTitre>français</SousTitre>
+    </Video>
+
+    <Video Afficher="oui">
+      <Duree>1h22'50</Duree>
+      <Tag>documentaire</Tag>
+      <Tag>philosophie</Tag>
+      <Ajout>2022-02-02</Ajout>
+      <Publication>2022-01-31</Publication>
+      <Lien>
+        <Base>https://www.kairospresse.be</Base>
+        <Chemin>/conference-de-medhi-belhaj-kacem/</Chemin>
+      </Lien>
+        <Titre>Conférence de Medhi Belhaj Kacem</Titre>
+        <Presentation>Introduction à la Pléonectique, le système philosophique posé par <b>Medhi Belhaj Kacem</b> dont nous attendons avec impatience l'ouvrage à paraître en avril <a href="https://www.librairie-agora.com/livre/9782491031473-colaricocovirus-d-un-genocide-non-conventionnel-medhi-belhaj-kacem/">Colaricocovirus : d'un génocide non conventionnel</a>. Cet auteur est aussi connu pour sa <a href="https://www.apar.tv/societe/mehdi-belhaj-kacem-signe-la-lettre-ouverte-politique-la-plus-violente-du-21eme-siecle/">lettre ouverte au maire de son village</a> du 3 novembre 2021 ou il introduit la notion de <i>guerre civile mondiale</i> à propos de la crise.. La pléonectique décrit entre autre les systèmes par l'appropriation et l'expropriation.</Presentation>
+    </Video>
+
+    <Video Afficher="oui">
+      <Duree>1h08</Duree>
+      <Tag>actualites</Tag>
+      <Ajout>2022-02-02</Ajout>
+      <Publication>2022-02-01</Publication>
+      <Lien>
+        <Base>https://odysee.com</Base>
+        <Chemin>/@Vivresainement:f/la-verite-ecrase-la-pandemie:0</Chemin>
+      </Lien>
+        <Titre>Covid - la vérité écrase la pandémie</Titre>
+        <Presentation>
+          Si vous avez raté ces deux dernières années et débarquez en février 2022, voici un résumé de la situation actuelle. S'il ne s'agit pas de mystification, la séquence sur les découvertes des thanatopracteurs dans les veines des cadavres depuis le début de la vaccination est très inquiétante. L'extrait de l'interview de l'avocat américain Kennedy Junior donne aussi une explication à la précipitation à vacciner les enfants, mais aussi le mouvement des camionneurs qui a démarré au Canada, et bien d'autres sujets...
+        </Presentation>
+    </Video>
+
+    <Video Afficher="oui">
+      <Duree>11'16</Duree>
+      <Tag>action</Tag>
+      <Ajout>2022-02-02</Ajout>
+      <Publication>2022-02-02</Publication>
+      <Lien>
+        <Base>https://www.youtube.com</Base>
+        <Chemin>/watch?v=bbmumlWeGyg</Chemin>
+      </Lien>
+        <Titre>Le tactique vs l'émotion</Titre>
+        <Presentation>
+          Manifester est-il le mode de lutte le plus efficace ? Les conseils d'<b>Alexandre Boisson</b> ancien policier et garde du corps. Il insiste sur le rappel à la loi qui est du côté des citoyens et propose d'aller à la rencontre des maires. Peut-être un message caché aussi quand il dit qu’ils ont du soucis à se faire ceux qui font de l’intelligence avec l’ennemi, <a href="https://fr.wikipedia.org/wiki/Intelligence_avec_l%27ennemi">article 411.4</a> du code pénal ?
+        </Presentation>
+    </Video>
+            
+    <Video Afficher="oui">
+      <Duree>20'12</Duree>
+      <Tag>totalitarisme</Tag>
+      <Tag>santé</Tag>
+      <Ajout>2022-02-02</Ajout>
+      <Publication>2022-02-01</Publication>
+      <Lien>
+        <Base>https://www.youtube.com</Base>
+        <Chemin>/watch?v=eiwiH40AAjE</Chemin>
+      </Lien>
+      <Titre>Vaccin, Croyances &amp; Réalité</Titre>
+      <Auteur>Didier Raoult</Auteur>
+      <Presentation>La video du 1er février 2022 du <b>Professeur Raoult</b> est sans équivoque...  pour expliquer l'illusion encore en vigueur il reprend les thèmes classiques de psychologie sur la manipulation (pression de conformité : expérience de Ash, soumission à l'autorité: Milgram); ensuite enterrement de première classe pour le vaccin avec tous les faits contraires aux promesses (il s'appuie sur les chiffres de John Hopkins) : Contrôler l'épidémie, ça marche pas, Contrôler l'infection, ça marche pas, Contrôler les formes graves, oui mais c'est chez les gens qui font des formes graves (!), pas la peine de diviser et rendre fou tout le monde pour cela...</Presentation>
+    </Video>
+
+    <Video Afficher="oui">
+        <Ancre>grand-jury</Ancre>
+        <Duree>10'00</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@AgoraTVNEWS:5/Reiner-Fuellmich-au-Grand-Jury:8</Chemin>
+        </Lien>
+        <!-- <Lien>
+          <Base>https://rumble.com</Base>
+          <Chemin>/vu6hlc-reiner-fuellmich-sadresse-au-grand-jour..html</Chemin>
+        </Lien> -->
+        <Titre>Reiner Fuellmich s'adresse au Grand Jury</Titre>
+        <Presentation>
+          <p>Après des mois de préparation l'avocat <b>Reiner Fuellmich</b> lance une enquête devant un <a href="https://spiegato.com/fr/quest-ce-quune-enquete-du-grand-jury">grand Jury</a> pour crime contre l'humanité, haute trahison et vol commis sous couvert de la pandémie Covid 19. Cette vidéo est un extrait de la première journée du grand Jury où Reiner Fuellmich présente les 4 points majeurs qui seront abordés devant le Jury:</p>
+          <ol>
+            <li>"Il n y a pas de pandémie de Corona, mais seulement une pandémie de tests PCR alimentée par une opération psychologique élaborée."</li>
+            <li>"Le virus lui-même peut être traité efficacement et en toute sécurité avec des vitamines C,D, zinc etc...ainsi qu'avec l'utilisation hors AMM de l'Ivermectine, l'Hydroxychloroquine".</li>
+            <li>"Les mêmes personnes qui ont fait de la grippe porcine...une pandémie...en changeant pour la 1ere fois la définition de ce qu'est un pandémie...ont créé la pandémie du Corona."</li>
+            <li>"Nous allons prouver à vous le Jury, que le but principal de l'autre camp, est d'obtenir un contrôle total et complet sur nous tous."</li>
+          </ol>
+          <p>Se pourrait-il que toutes les preuves et tous les éléments amenés devant le Grand Jury servent à lancer des procédures devant des tribunaux nationaux ou des cours internationles ? L'avenir nous le dira...</p>
+          <p>Suivez l'intégralité de l'enquête sur <a href="https://www.grand-jury.net">grand-jury.net</a> (anglais, allemand). Les traductions en Français sont disponibles grâce à <a href="https://odysee.com/@JeanneTraduction:a">Jeanne traduction</a> sur Odysee : <a href="https://odysee.com/@JeanneTraduction:a/Grand-Jury-Session-2:7">traduction du jour 2</a> (5h47), <a href="https://odysee.com/@JeanneTraduction:a/03-Grand-Jury-VF:6">traduction du jour 3</a> (5h00), <a href="https://odysee.com/@JeanneTraduction:a/04-Grand-Jury-FR:9">traduction du jour 4</a> (5h44)
+          </p>
+          <p>Pour ceux qui préfèrent le format écrit, les transcriptions de Jeanne Traduction: <a href="https://www.cadoc.fr/cslv85/archives/2022/02/Jeanne-Traduction-Grand-Jury-Session-1.pdf">jour 1</a>, <a href="https://www.cadoc.fr/cslv85/archives/2022/02/Jeanne-Traduction-Grand-Jury-Session-2.pdf">jour 2</a>, <a href="https://www.cadoc.fr/cslv85/archives/2022/02/Jeanne-Traduction-Grand-Jury-Session-3.pdf">jour 3</a> et <a href="https://www.cadoc.fr/cslv85/archives/2022/02/Jeanne-Traduction-Grand-Jury-Session-4.pdf">jour 4</a>
+          </p>          
+        </Presentation>
+        <Tag>procès</Tag>
+        <Ajout>2022-02-08</Ajout>
+        <Publication>2022-02-06</Publication>
+        <Langue>anglais</Langue>
+        <SousTitre>français</SousTitre>
+    </Video>
+    
+    <Video Afficher="non">
+        <Duree>2'27</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=5xKiEmlEdsg</Chemin>
+        </Lien>
+        <Titre>Vous n'en croirez pas vos oreilles !</Titre>
+        <Presentation>
+          Pour ceux qui ont grandi dans les années 80, le message final de la série <i>Il était une fois l'espace</i> de 1981 de Albert Barillé sonne étrangement dans le contexte actuel.
+        </Presentation>
+        <Tag>satire</Tag>
+        <Ajout>2022-02-14</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>1'07</Duree>
+        <Lien>
+          <Base>https://www.youtube.com</Base>
+          <Chemin>/watch?v=ctPViK3LK-o</Chemin>
+        </Lien>
+        <Titre>Heather McDonald s'effondre sur scène</Titre>
+        <Presentation>
+          Une humoriste Canadienne (51 ans), vaccinée, boostée en pleine tirade sarcastique pro-vaccinale fait un malaise et s'effondre sur scène avant d'être emmenée à l'hôpital (d'où elle s'en remettra avec une fracture).
+        </Presentation>
+        <Tag>satire</Tag>
+        <Ajout>2022-02-14</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+        <Duree>2'34</Duree>
+        <Lien>
+          <Base>https://www.cadoc.fr</Base>
+          <Chemin>/cslv85/archives/2022/02/joron-pass-commission.mp4</Chemin>
+        </Lien>
+        <Titre>Virginie Joron - prolongation du certificat COVID européen</Titre>
+        <Presentation>
+          <p>La Commission Européenne a décidé sans fondement sanitaire ou scientifique que le certificat COVID européen sera prorogé jusqu'en juin 2023 (décision le 8 Avril 2022). Cela correspond à la fin de la phase 3 des essais clinique de Pfizer. Donc à cette date ces injections auront une AMM définitive. Donc ces injections pourront à cette date devenir obligatoires. Le paSS vaccinal sera intégré dans le paSS Identitaire qui contrôlera toute votre vie... Vous aurez un Permis de Vivre à Points...</p>
+          <div style="text-align:center">
+            <video src="https://www.cadoc.fr/cslv85/archives/2022/02/joron-pass-commission.mp4" height="480" controls="1">
+              Cette vidéo ne peut être affichée sur votre navigateur Internet.<br/>
+              Une version est disponible en téléchargement sous <a href="https://www.cadoc.fr/cslv85/archives/2022/02/joron-pass-commission.mp4">adresse du lien </a>. 
+            </video>
+          </div>          
+          <p>Vous pouvez encore exprimer votre avis sur la prolongation envisagée, avant le 8 avril, <a href="https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13375-Extension-of-EU-Digital-COVID-Certificate-Regulation_fr">ICI</a>.</p>
+          <p>Voir aussi l'article <a href="https://www.francesoir.fr/opinions-tribunes/le-passe-vaccinal-bientot-integre-au-passeport-numerique-europeen">Le passe vaccinal bientôt intégré au passeport numérique européen</a>.</p>
+        </Presentation>
+        <Tag>politique</Tag>
+        <Tag>pass</Tag>
+        <Ajout>2022-02-23</Ajout>
+    </Video>
+
+    <Video Afficher="oui">
+      <Duree>1h24</Duree>
+      <Tag>actualites</Tag>
+      <Ajout>2022-03-02</Ajout>
+      <Publication>2022-02-27</Publication>
+      <Lien>
+        <Base>https://rumble.com</Base>
+        <Chemin>/vw118b-ukraine-le-passage-ncessaire.html</Chemin>
+      </Lien>
+        <Titre>Ukraine: le passage nécessaire</Titre>
+        <Presentation>
+          Emission du québécois <b>Alexis Cossette</b> à propos des événements en Ukraine, réflexions et éléments historiques sur le nouvel ordre mondial et l'imposition d'un nouveau système de contrôle social. Avec sa chaine RadioQuebec Alexis Cossette s'est fait accuser de propager de fausses informations dès le début de la crise Covid, c'est pour cela sans doute qu'il est toujours intéressant de l'écouter.
+        </Presentation>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>33'13</Duree>
+        <Publication>2022-02-26</Publication>
+        <Lien>
+          <Base>https://lemediaen442.fr</Base>
+          <Chemin>/interview-en-4-4-2-avec-marie-estelle-dupont-on-ne-touche-pas-aux-enfants/</Chemin>
+        </Lien>
+        <Titre>Interview en 4-4-2 avec Marie-Estelle Dupont : « On ne touche pas aux enfants ! »</Titre>
+        <Presentation><b>Marie-Estelle Dupont</b>, psychologue clinicienne, psychothérapeute et auteur nous alerte sur la banalisation de la maltraitance des enfants avec les mesures prises à l'école et dans la société. Enseignants, ne vous laissez pas manipuler par les syndicats d'enseignants <i>covido-flippés</i>, les enfants sont notre avenir, il est urgent de mettre fin au port du masque à l'école !</Presentation>
+        <Tag>interview</Tag>
+        <Tag>médecine</Tag>
+        <Tag>psychologie</Tag>
+        <Ajout>2022-03-02</Ajout>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>41'56</Duree>
+        <Lien>
+          <Base>https://crowdbunker.com</Base>
+          <Chemin>/v/RGve7G1rJL</Chemin>
+        </Lien>
+        <!-- <Lien>
+          <Base>https://www.medias-presse.info</Base>
+          <Chemin>/le-professeur-perronne-conseille-la-lecture-du-livre-explosif-de-robert-f-kennedy-jr-sur-bill-gates-et-big-pharma/153327/</Chemin>
+        </Lien> -->
+        <Titre>Comment Big Pharma et Bill Gates luttent contre la démocratie et la santé publique</Titre>
+        <Presentation>Le professeur <b>Perronne</b> présente le livre de <b>Robert F. Kennedy</b> <a href="https://www.librairie-agora.com/livre/9782874341953-anthony-fauci-bill-gates-et-big-pharma-leur-guerre-mondiale-contre-la-democratie-et-la-sante-publique-robert-f-kennedy-jr/">Anthony Fauci, Bill Gates et Big Pharma : leur guerre mondiale contre la démocratie et la santé publique</a> dont il a écrit la préface, paru le 9 mars pour la tradution français.</Presentation>
+        <Tag>livre</Tag>
+        <Tag>auteur</Tag>
+        <Ajout>2022-03-09</Ajout>
+        <Publication>2022-02-21</Publication>
+    </Video>
+    
+    <Video Afficher="oui">
+        <Duree>1h 49</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/@LaPiluleRouge:d/Planet-Lockdown-Film_French_1:1</Chemin>
+        </Lien>
+        <Titre>Planet Lockdown</Titre>
+        <Presentation>Le nouveau film "Planet Lockdown" (sous-titré, accès libre) est pertinent, en particuliers pour entretenir la combativité en cette période de relative accalmie propice à la reflexion. La première partie est un rappel des mensonges utilisés pour imposer la nouvelle normalité pandémique (dont nous ne sommes pas sortis), avec une dénonciation claire du rôle de l'OMS. Dénonciation à diffuser surtout maintenant que les états sont en passe de signer des traités plus contraignants avec l'OMS. La seconde partie est plus philosophique, elle parle de notre attitude et du choix individuel à accepter ou refuser la mise en esclavage de la société pour le profit de quelques uns. Les propos de l'ancien président Tchèque sont particulièrement saillants lorsqu'il compare les mesures de distanciation sociale avec ce qu'ils ont connu dans le régime soviétique pour empêcher le regroupement des individus et la constitution d'une opposition.</Presentation>
+        <Tag>documentaire</Tag>
+        <Tag>psychologie</Tag>
+        <Ajout>2022-03-17</Ajout>
+        <Publication>2022-01-17</Publication>
+        <Langue>anglais</Langue>
+        <SousTitre>français</SousTitre>        
+    </Video>
+
+    <Video Afficher="oui">
+        <Ancre>CDS</Ancre>
+        <Duree>14'58</Duree>
+        <Lien>
+          <Base>https://odysee.com</Base>
+          <Chemin>/Astrid-Stuckelberger-Andreas-Kalcker-dioxyde-de-chlore-2021-00000:09282209d379e7a6ff27117fe7693196cc41732f</Chemin>
+        </Lien>
+        <Titre>Dr. Astrid Stuckelberger, Andreas Kalcker, dioxyde de chlore</Titre>
+        <Presentation>
+          Présentation du dioxyde de chlore (CDS) et de ses applications pour la santé étudiées depuis des années par <b>Andreas Kalcker</b> en Suisse. Les propos en anglais sont repris en Français par le Dr. <b>Astrid Stuckelberger</b>. À voir pour se faire une opinion et comprendre de quoi il s'agit si vous en avez entendu parler quelque part. Le CDS serait utilisé dans certains pays d'Amérique du Sud.
+        </Presentation>
+        <Tag>alternatives</Tag>
+        <Tag>traitements</Tag>        
+        <Ajout>2022-03-28</Ajout>
+        <Publication>2022-02-03</Publication>
+        <Langue>anglais</Langue>        
+    </Video>
+
+    <Video Afficher="oui">
+        <Ancre>rideau</Ancre>
+        <Duree>1h 25</Duree>
+        <Lien>
+          <Base>https://rumble.com</Base>
+          <Chemin>/vx7klh-le-rideau-se-ferme-sur-le-thtre-covid.html</Chemin>
+        </Lien>
+        <Titre>Le rideau se ferme sur le théâtre Covid</Titre>
+        <Presentation>
+          <p>À regarder cette table ronde réunissant les témoignages de centaines de médecins et scientifiques rassemblés par le gouverneur de Floride <b>DeSantis</b>, l'on se prend à rêver qu'un homme politique Français d'envergure se mettrait lui aussi à organiser un colloque avec les scientifiques du <a href="https://crowdbunker.com/@CSI">Conseil Scientifique Indépendant</a> ou bien les médecins et chercheurs Français qui ont été harcelés parce qu'ils ont refusé de promouvoir les mesures politico-sanitaires dont on sait à présent qu'elles ont été dictées par les cabinets de conseil internationaux.</p>
+          <p>Cette table ronde pourrait aisément se transformer en procès. Elle dénonce le non-sens scientifique des mesures de confinement, de couvre-feu, de masquage, de chantage, l'occultation et la guerre contre les traitements existants contre le Covid ainsi que le Maccarthysme sanitaire qui a déferlé aux Etats-unis. Tous ces faits constituent une atteinte à la santé globale des gens. Regarder ce qui s'est passé à l'étranger éclaire aussi sur ce qui s'est passé en France.</p>
+        </Presentation>
+        <Tag>procès</Tag>
+        <Tag>table ronde</Tag>        
+        <Ajout>2022-03-28</Ajout>
+        <Publication>2022-03-12</Publication>
+        <Langue>anglais</Langue>
+        <SousTitre>français</SousTitre>
+    </Video>
+        
+
+        
+    <!-- ajouter chaine France Libertés : 
+    
+    https://www.sudradio.fr/emission/bercoff-dans-tous-ses-etats-649
+    
+    https://www.youtube.com/channel/UCsjhflMqZui06dWBjrMMPmg/videos 
+    
+    Raoult ADN (17')
+    https://www.youtube.com/watch?v=bZs6eHfH0do
+    
+    -->
+
   </Videos>
 </Ressources>
