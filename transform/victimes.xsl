@@ -46,8 +46,8 @@
             <th>Ville</th>
             <th>Age</th>
           </tr>
-          <xsl:apply-templates select="Victimes/Victime[empty(@Afficher) or @Afficher eq 'oui']">
-            <xsl:sort select="Article/Publication[1]" order="descending"/>
+          <xsl:apply-templates select="Bibliotheque/Ressources/Victime[empty(@Afficher) or @Afficher eq 'oui']">
+            <xsl:sort select="Publication" order="descending"/>
           </xsl:apply-templates>
         </table>
       </body>
@@ -57,24 +57,37 @@
   <xsl:template match="Victime">
     <tr>
       <td><xsl:value-of select="Evolution/text()"/></td>      
-      <xsl:apply-templates select="Article[1]"/>
-      <td><xsl:value-of select="Ville/text()"/> (<xsl:value-of select="Departement/text()"/>)</td>
+      <td>
+        <a href="{Page/Lien[1]}"><xsl:value-of select="Titre/text()"/></a>
+        <xsl:if test="count(Page/Lien) > 1 or Serie/Article/Page/Lien">
+          (voir aussi <xsl:apply-templates select="Page/Lien[position() > 1]" mode="extra"/><xsl:apply-templates select="Serie/Article" mode="extra"/>)
+        </xsl:if>
+      </td>
+      <td><xsl:value-of select="concat(substring(Publication, 9, 2), '/', substring(Publication, 6, 2), '/', substring(Publication, 1, 4))"/></td>
+      <td><xsl:value-of select="Localisation/Ville/text()"/> (<xsl:value-of select="Localisation/Departement/text()"/>)</td>
       <td><xsl:apply-templates select="Age"/></td>
     </tr>
   </xsl:template>
   
-  <xsl:template match="Article">
-    <td><xsl:value-of select="concat(substring(Publication, 9, 2), '/', substring(Publication, 6, 2), '/', substring(Publication, 1, 4))"/></td>
-    <td>
-      <a href="{Lien/Base}{Lien/Chemin}"><xsl:value-of select="Titre/text()"/></a>
-      <xsl:apply-templates select="./following-sibling::Article" mode="extra"/>
-    </td>
+  <xsl:template match="Lien[count(preceding-sibling::Lien) = 1]" mode="extra">
+    <a href="{.}">ici</a>
+  </xsl:template>
+  
+  <xsl:template match="Lien[count(preceding-sibling::Lien) > 1]" mode="extra">
+    <xsl:text> ou bien </xsl:text><a href="{.}">là</a>
+  </xsl:template>
+
+  <xsl:template match="Article[count(ancestor::Victime/Page/Lien = 1) and count(preceding-sibling::Article) = 0]" mode="extra">
+    <a href="{Page/Lien[1]}">ici</a>
   </xsl:template>
   
   <xsl:template match="Article" mode="extra">
-    <xsl:text> </xsl:text>(voir aussi <a href="{Lien/Base}{Lien/Chemin}">ici</a>)
+    <xsl:text> ou bien </xsl:text><a href="{Page/Lien[1]}">là</a>
   </xsl:template>
   
+  <xsl:template match="Age[. eq 'enfant']"><xsl:value-of select="."/>
+  </xsl:template>
+
   <xsl:template match="Age"><xsl:value-of select="."/> ans
   </xsl:template>
 

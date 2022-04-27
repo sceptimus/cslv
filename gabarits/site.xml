@@ -14,6 +14,101 @@
       <Page File="nocomment">Montages</Page>
     </Groupe>
   </Menu>
+  <Catalogue>
+    <!-- les rubriques sont à aligner avec celles utilisées dans les fichiers source *-bib.xml -->
+    <Rubrique>
+        <Nom>Actualités</Nom>
+        <Titre>Actualités</Titre>
+        <Presentation>
+          <p>Quelques exemples de chroniqueurs web pour changer du journal de 20h</p>
+        </Presentation>          
+    </Rubrique>
+    <Rubrique>
+        <Nom>Décalé</Nom>
+        <Titre>Décalé</Titre>
+        <Presentation>
+          <p>Nouvelles en vrac et inclassables. Signaux faibles sur l'évolution du monde ? Egalement parodie et humour...</p>
+        </Presentation>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Education</Nom>
+        <Titre>Education &amp; Enfance</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Histoire</Nom>
+        <Titre>Histoire &amp; Rétrospectives</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique Ancre="juridique">
+      <Nom>Juridique</Nom>
+      <Titre>Juridique</Titre>
+      <Presentation><p>Les poursuites et recours judiciaires vont-ils se multiplier dans les semaines et les mois qui viennent ? Il est plausible qu'au fur et à mesure où les citoyens et les groupes professionnels réalisent la nature des décisions prises et les choix alternatifs écartés ils demandent des comptes.</p> 
+      </Presentation>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Littérature</Nom>
+        <Titre>Sorties de livres</Titre>
+        <Presentation>
+          <p>Présentations d'ouvrages récents.</p>
+        </Presentation>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Lutte</Nom>
+        <Titre>Lutte &amp; Argumentaires</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Décrets</Nom>
+        <Titre>Décrets, Lois et Décisions politiques</Titre>
+        <Presentation/>
+    </Rubrique>    
+    <Rubrique>
+        <Nom>Traitement</Nom>
+        <Titre>Traitements &amp; Alternatives</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Organisme</Nom>
+        <Titre>Séries documentaires</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Philosophie</Nom>
+        <Titre>Psychologie &amp; Philosophie</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Prospective</Nom>
+        <Titre>Prospective</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Santé</Nom>
+        <Titre>Santé</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Société</Nom>
+        <Titre>Société</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Sport</Nom>
+        <Titre>Sport</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Vaccin</Nom>
+        <Titre>Vaccin</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Témoignages</Nom>
+        <Titre>Témoignages de victimes</Titre>
+        <Presentation/>
+    </Rubrique>
+  </Catalogue>
   <Contenu>
     <Page>
       <Id>annuaire</Id>
@@ -337,8 +432,11 @@
           <Rubrique>
               <Ancre>medecine</Ancre>
               <Tag>interview</Tag>
-              <Inclus><Tag>médecine</Tag></Inclus>
-              <Titre>Médecine (Interviews, Entretiens &amp; Conférences)</Titre>
+              <Inclus>
+                <Tag>médecine</Tag>
+                <Tag>symposium</Tag>                
+              </Inclus>
+              <Titre>Médecine (Interviews, Entretiens)</Titre>
           </Rubrique>
           <Rubrique>
               <Ancre>alternatives</Ancre>

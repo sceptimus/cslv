@@ -25,11 +25,11 @@ document.addEventListener('DOMContentLoaded', function () {{
           <div class="block border">
             <span style="float:right; font-size:75%">Mis à jour le { $in?date }</span>
             <h1>Bibliothèque</h1>
-            <blockquote>Liens vers des articles ou des livres postés sur le canal telegram du Comité Santé Liberté Vendée. Les liens sont sélectionnés pour leur pouvoir explicatif sur la situation actuelle. Si vous souhaitez proposer un article ou un livre, envoyez un courrier électronique à <a id="mail2" href="mail2">contactez nous</a>, ou bien postez la sur le canal telegram (cf. <a href="index.html">Manifeste</a>)</blockquote> 
-            { local:lister-rubriques('biblio') }
+            <blockquote>Liens vers des articles ou des livres postés sur le canal telegram du Comité Santé Liberté Vendée. Les liens sont sélectionnés pour leur pouvoir explicatif sur la situation actuelle. Si vous souhaitez proposer un article ou un livre, envoyez un courrier électronique à <a id="mail2" href="mail2">contactez nous</a>.</blockquote> 
+            { local:lister-rubriques-bib('biblio', 'articles-bib.xml') }
           </div>
           
-          { local:biblio('biblio.xml') }
+          { local:biblio-bib('articles-bib.xml') }
 
         </div>
         
