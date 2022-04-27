@@ -1,0 +1,590 @@
+<!DOCTYPE html [
+
+<!ENTITY rubriques "Actualités Collectif Décrets Décalé Economie Education Effets\ secondaires Histoire Juridique Littérature Lutte Organisme Philosophie Prospective Santé Société Sport Traitement Vaccin Vendée">
+
+]>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:xt="http://ns.inria.org/xtiger" xml:lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="This XTiger XML template defines the structure of an article for publication in the Proceedings of an ACM conference. The resulting XHTML document can be formatted by the ACM-Proc-Article.css style sheet, both for display and print. It can also be transformed into a LaTeX file (style sig-alternate.cls) with ACM-Proc-Article2latex.xsl"/>
+    <meta name="keywords" content="template, XTiger" />
+
+    <title>Bibliotheque Ouverte</title>
+    
+    <!-- SELF-TRANSFORMED template -->
+    <link href="src/axel/axel.css" rel="stylesheet" type="text/css"></link>
+    <script src="src/3rd-part/jquery/js/jquery-1.7.1.min.js">//</script>
+    <script src="src/axel/axel.js">//</script>
+    <script data-bundles-path="src/axel/bundles" src="src/axel/axel-forms.js">//</script>
+
+    <!-- 3rd party dependencies -->
+    <link rel="stylesheet" type="text/css"
+          href="src/3rd-part/jquery/css/ui-lightness/jquery-ui-1.10.4.custom.min.css"  charset="utf-8" />
+    <script type="text/javascript" src="src/3rd-part/jquery/js/jquery-ui-1.10.4.custom.min.js"></script>    
+
+<script type="text/javascript"> 
+  var INIT = false;
+  var ED; 
+  var DUMP;
+  
+  // met de côté une copie non transformée de l'éditeur
+  function initialiser () {
+    var logger, n;
+    if (!INIT) {
+      window.console.log('init');
+      result = new xtiger.util.Logger();
+      xtDoc = xtiger.cross.loadDocument('editor.xhtml', logger);
+      //n = document.getElementById('editor');
+      ED = xtDoc.getElementById('editor'); // n.cloneNode(true);
+      INIT = true;
+    }    
+  }
+  function suivreLien () {
+    var lien = $axel(event.target.parentElement).text();
+    lien = lien.replace(' /', '/');
+    $(event.target).attr('href', lien);
+  }
+  function chargerEditeur ( nomFichier ) {
+    viderEditeur();
+    $axel('#editor').load(nomFichier);
+  }
+  function viderEditeur () {
+    var n, result;
+    initialiser();
+    $('#editor').remove();
+    //$('#editors').append(ED);
+    n = document.getElementById('editors');
+    result = document.importNode(ED, true);
+    $('#editors').append(result);
+    $axel('#editor').transform(
+      {
+      bundlesPath : "src/axel/bundles",
+      enableTabGroupNavigation : true,
+      }      
+      );
+  }
+  function enregistrer () {
+    if (!DUMP || DUMP.closed) {
+      DUMP = window.open('src/dump.html', 'enregistrer', "width=600,height=400,status=yes,resizable=yes,toolbar=no,location=no");
+      $(DUMP).one('load', dumpDocument);
+    } else {
+      dumpDocument();
+    }
+  }
+  function dumpDocument () {
+    var text = $axel('#editor').xml();
+    $('#input', DUMP.document).val(text);
+    DUMP.focus();
+  }
+</script>
+
+    <xt:head version="1.1" templateVersion="1.0" label="Bibliotheque" stylesheet="Bibliotheque.xsl">
+    
+      <xt:component name="rubrique">
+        <!-- <xt:use types="text" param="type=input">rubrique</xt:use> -->
+        <xt:use types='choice' values="&rubriques;">Vaccin</xt:use>
+      </xt:component>    
+
+    <!--///////////////////////
+        Begin Rich Text block
+      ///////////////////////-->
+
+      <xt:component name="p">
+        <div class="content">
+          <xt:use types="text" handle="p" param="shape=parent;type=textarea;filter=wiki;wiki_lang=html">Click to edit a paragraph</xt:use>
+        </div>
+      </xt:component>
+
+      <xt:component name="ul">
+        <ul class="main-list-block"><xt:repeat minOccurs="1" pseudoLabel="li"><xt:use types="li"/></xt:repeat>
+        </ul>
+      </xt:component>
+
+      <xt:component name="li" i18n="Item">
+        <div class="list-item">
+          <xt:use types="text" label="li" param="shape=parent;type=textarea;layout=float;filter=wiki;wiki_lang=html"></xt:use><xt:menu-marker/>
+        </div>
+      </xt:component>
+
+    <!--///////////////////////
+         End Rich Text block
+       ///////////////////////-->
+
+      <xt:component name="duree">
+        durée <xt:use types="text" label="H" param="type=input">-</xt:use> : <xt:use types="text" label="M" param="type=input">-</xt:use> : <xt:use types="text" label="S" param="type=input">-</xt:use>
+      </xt:component>
+
+      <xt:component name="langue">
+        <xt:use types="text" param="type=input" option="set">langue</xt:use>
+      </xt:component>
+
+      <xt:component name="soustitre">
+        <xt:use types="text" param="type=input" option="unset">sous titrable</xt:use>
+      </xt:component>
+      
+      <xt:component name="tags">
+        <xt:repeat minOccurs="0" pseudoLabel="Tag">
+          <xt:use types="text" label="Tag" param="type=input">mot-clef</xt:use>
+        </xt:repeat>
+      </xt:component>
+
+      <xt:component name="duree">
+        durée <xt:use types="text" label="H" param="type=input">-</xt:use> : <xt:use types="text" label="M" param="type=input">-</xt:use> : <xt:use types="text" label="S" param="type=input">-</xt:use>
+      </xt:component>
+
+      <xt:component name="person">
+        <span class="bibauthor"><xt:use types="text" label="Nom" param="type=input">Author</xt:use></span>,
+      </xt:component>
+      
+      <xt:component name="Lien">
+        <span class="menu" style="float:left; margin-right: 5px"><xt:menu-marker/>Lien</span>
+        <p class="video biblio-entry-no-space"> <xt:use types="text" label="Base">base</xt:use> <xt:use types="text" label="Chemin">chemin</xt:use> <a href="#" onclick="javascript:suivreLien()" target="_blank" class="voir">&#8734;</a></p>
+      </xt:component>
+      
+      <!-- étendre pour liste de Lien alternatifs -->
+      <xt:component name="Page">
+        <span class="menu" style="float:left; margin-right: 5px"><xt:menu-marker/>Lien</span>
+        <p class="video biblio-entry-no-space"> 
+          <xt:repeat minOccurs="1" maxOccurs="*" pseudoLabel="Lien">
+            <span><xt:use types="text" label="Lien">lien</xt:use> <a href="#" onclick="javascript:suivreLien()" target="_blank" class="voir">&#8734;</a></span> 
+          </xt:repeat>
+        </p>
+      </xt:component>      
+
+      <xt:component name="Lien_Archive">
+         (<xt:attribute types="text" name="Archive" option="unset" default="archive"/>) <xt:use types="text">lien</xt:use> <a href="#" onclick="javascript:suivreLien()" target="_blank" class="voir">&#8734;</a>
+      </xt:component>
+
+      <xt:component name="PDF">
+          <span class="menu" style="float:left; margin-right: 5px"><xt:menu-marker/>PDF</span>
+          <p class="video biblio-entry-no-space">  
+            <xt:use types="Lien_Archive" label="Lien"/>
+          </p>
+      </xt:component>
+
+      <xt:component name="Fichier">
+          <span class="menu" style="float:left; margin-right: 5px"><xt:menu-marker/>Fichier</span>
+          <p class="video biblio-entry-no-space">  
+            <xt:use types="Lien_Archive" label="Lien"/>
+          </p>
+      </xt:component>
+
+      <xt:component name="Transcription">
+          <span class="menu" style="float:left; margin-right: 5px"><xt:menu-marker/>Transcription</span>
+          <p class="video biblio-entry-no-space">  
+            <xt:use types="Lien_Archive" label="Lien"/>
+          </p>
+      </xt:component>
+
+      <xt:component name="Telegram">
+        <span><xt:menu-marker/>Telegram : (<xt:use types="text" label="Contact" option="unset">contact</xt:use>) <xt:use types="text" label="Lien" option="unset">lien</xt:use></span>
+      </xt:component>
+
+      <xt:component name="Publication">
+        Publié le <xt:use types="input" label="Publication" param="type=date" option="unset"></xt:use>
+      </xt:component>
+
+      <xt:component name="Ajout">
+        Ajouté le <xt:use types="input" label="Ajout" param="type=date" option="unset"></xt:use>
+      </xt:component>
+      
+      <xt:component name="Source">
+         pour <xt:use types="text" param="type=input" option="unset">source</xt:use>
+      </xt:component>
+
+      <xt:component name="Article_en_Serie">
+        <p class="victime biblio-entry">
+          <span class="title"><xt:use types="text" label="Titre" param="type=input">Titre de l'article</xt:use></span>
+          <span style="float:right"><xt:menu-marker/></span>
+          <br/>
+          <xt:repeat minOccurs="0" maxOccurs="1" label="Page">
+            <xt:use types="Page"/>
+          </xt:repeat>
+          <xt:repeat minOccurs="0" maxOccurs="1" label="PDF">
+            <xt:use types="PDF"/>
+          </xt:repeat>
+          <xt:use types="text" label="Commentaire" option="unset">Commentaire</xt:use><br/>
+          <xt:use types="Publication"/>          
+        </p>
+      </xt:component>
+
+      <xt:component name="Serie_Articles">
+        <div style="min-height:1em">
+          <xt:repeat minOccurs="0" maxOccurs="1" label="Serie">
+            <span class="menu" style="float:left; margin-right: 5px"><xt:menu-marker/><b>Serie</b></span>
+            <div class="axel-hide-if-unselect">
+              <xt:repeat minOccurs="0" maxOccurs="*" pseudoLabel="Article">
+                <xt:use types="Article_en_Serie" label="Article"/>
+              </xt:repeat>
+            </div>
+          </xt:repeat>
+        </div>
+      </xt:component>
+      
+      <xt:component name="Video_en_Serie">
+        <p class="victime biblio-entry">
+          <span class="title"><xt:use types="text" label="Titre" param="type=input">Titre de la video</xt:use></span>
+          <span style="float:right"><xt:menu-marker/></span>
+          <br/>
+          <xt:repeat minOccurs="0" maxOccurs="1" label="Page">
+            <xt:use types="Page"/>
+          </xt:repeat>
+          <xt:repeat minOccurs="0" maxOccurs="1" label="Transcription">
+            <xt:use types="Transcription"/>
+          </xt:repeat>
+          <xt:use types="text" label="Commentaire" option="unset">Commentaire</xt:use><br/>
+          <xt:use types="Publication"/>
+        </p>
+      </xt:component>
+
+      <xt:component name="Serie_Videos">
+        <xt:repeat minOccurs="0" maxOccurs="1" label="Serie">
+          <div style="min-height:1em">
+            <span class="menu" style="float:left; margin-right: 5px"><xt:menu-marker/><b>Série</b></span>
+            <div class="axel-hide-if-unselect">
+              <xt:repeat minOccurs="0" maxOccurs="*" pseudoLabel="Video">
+                <xt:use types="Video_en_Serie" label="Video"/>
+              </xt:repeat>
+            </div>
+          </div>
+        </xt:repeat>      
+      </xt:component>
+
+      <xt:component name="Video">
+        <p class="video biblio-entry">
+          <span class="title"><xt:use types="text" label="Titre" param="type=input">Titre de la vidéo</xt:use></span>
+          (
+          <span class="pub"><xt:use types="duree" label="Duree"/></span>,
+          <span class="pub"><xt:use types="langue" label="Langue"/></span>,
+          <span class="pub"><xt:use types="soustitre" label="SousTitre"/></span>
+          )
+          avec
+          <xt:repeat minOccurs="0" label="Intervenants">
+            <xt:use types="person"/>
+          </xt:repeat><br/>
+          <xt:use types="rubrique" label="Rubrique"/>, 
+          <xt:use types="tags"/>
+        </p>
+        <xt:repeat minOccurs="0" maxOccurs="1" label="Page">
+          <xt:use types="Page"/>
+        </xt:repeat>
+        <xt:repeat minOccurs="0" maxOccurs="1" pseudoLabel="Fichier">
+          <xt:use types="Fichier" label="Fichier"/>
+        </xt:repeat>
+        <xt:repeat minOccurs="0" maxOccurs="1" pseudoLabel="Transcription">
+          <xt:use types="Transcription" label="Transcription"/>
+        </xt:repeat>        
+        <xt:use types="presentation" label="Presentation" />
+        <p>
+          <center>
+            <xt:use types="Ajout"/> / 
+            <xt:use types="Publication"/>
+          </center>
+        </p>
+        <xt:use types="Serie_Videos"/>
+      </xt:component>
+
+      <xt:component name="Article">
+        <p class="article biblio-entry">
+          <span class="title"><xt:use types="text" label="Titre" param="type=input">Titre de l'article</xt:use></span>
+          par
+          <xt:repeat minOccurs="0" label="Auteurs">
+            <xt:use types="person"/>
+          </xt:repeat>
+          <xt:use types="Source" label="Source" />
+          <br/>
+          <xt:use types="rubrique" label="Rubrique"/>, 
+          <xt:use types="tags"/>
+        </p>
+        <xt:repeat minOccurs="0" maxOccurs="1" label="Page">
+          <xt:use types="Page"/>
+        </xt:repeat>
+        <xt:repeat minOccurs="0" maxOccurs="1" label="PDF">
+          <xt:use types="PDF"/>
+        </xt:repeat>
+        <xt:use types="presentation" label="Presentation" />
+        <p>
+          <center>
+            <xt:use types="Ajout"/> / 
+            <xt:use types="Publication"/>
+          </center>
+        </p>
+        <xt:use types="Serie_Articles"/>
+      </xt:component>
+
+      <xt:component name="Site">
+        <p class="site biblio-entry">
+          <span class="title"><xt:use types="text" label="Titre" param="type=input">Nom du site</xt:use></span><br/>
+          <xt:use types="rubrique" label="Rubrique"/>, 
+          <xt:use types="tags"/>
+        </p>
+        <p class="site biblio-entry">
+          <span><xt:use types="text" label="Lien" option="unset">Lien</xt:use></span> <a href="#" onclick="javascript:suivreLien()" target="_blank" class="voir">&#8734;</a><br/>
+          <span><xt:use types="text" label="Contact" option="unset">Contact par courrier électronique</xt:use></span><br/>
+          <xt:repeat minOccurs="0" maxOccurs="1" label="Telegram">
+            <xt:use types="Telegram"/>
+          </xt:repeat>
+        </p>
+        <xt:repeat minOccurs="0" maxOccurs="1" label="Localisation">
+          <p class="site biblio-entry">
+            <xt:menu-marker/>
+            <span><xt:use types="text" label="Pays">Pays</xt:use></span> (<xt:repeat minOccurs="0" maxOccurs="*" pseudoLabel="Departement">
+            <xt:use types="text" label="Departement">département</xt:use><xt:menu-marker/>
+          </xt:repeat>)
+          </p>
+        </xt:repeat>
+        <xt:use types="presentation" label="Presentation" />
+      </xt:component>
+
+      <xt:component name="Victime">
+        <p class="victime biblio-entry">
+          <span class="title"><xt:use types="text" label="Titre" param="type=input">Titre de l'article</xt:use></span>, <xt:use types="text" label="Age" param="type=input">age</xt:use> ans, <xt:use types="text" label="Evolution" param="type=input">évolution</xt:use><br/>
+          <xt:use types="rubrique" label="Rubrique"/>, 
+          <xt:use types="tags"/>
+        </p>
+        <xt:repeat minOccurs="0" maxOccurs="1" label="Localisation">
+          <p class="site biblio-entry">
+            <xt:menu-marker/>
+            <span><xt:use types="text" label="Ville">Ville</xt:use></span> (
+            <xt:use types="text" label="Departement" option="unset">département</xt:use>)
+            <span><xt:use types="text" label="Pays" option="unset">Pays</xt:use></span>
+          </p>
+        </xt:repeat>
+        <xt:repeat minOccurs="0" maxOccurs="1" label="Page">
+          <xt:use types="Page"/>
+        </xt:repeat>
+        <p>
+          <center>
+            <xt:use types="Publication"/>
+          </center>
+        </p>        
+        <p class="biblio-entry">
+          <xt:use types="text" label="Commentaire" param="shape=parent;type=textarea;filter=wiki;wiki_lang=html" option="unset">Commentaire</xt:use>
+        </p>
+        <xt:use types="Serie_Articles"/>
+      </xt:component>
+
+      <xt:union name="bibref" include="Video Article Site Victime"></xt:union>
+
+      <xt:component name="author">
+        <p class="vcard">
+        <xt:menu-marker size="20"/><br />
+        <xt:repeat minOccurs="1" pseudoLabel="name">
+            <span class="fn">
+              <xt:use types="text" label="name">Author name</xt:use>
+            </span>
+            <xt:menu-marker/>
+            <br />
+        </xt:repeat>
+            <span class="orgname">
+                <xt:use types="text" label="orgname" option="unset">Organisation</xt:use>
+            </span>
+            <br/>
+        <xt:repeat minOccurs="0" label="address">
+            <span class="addr"><xt:use types="text" label="line">Address line</xt:use></span><xt:menu-marker/>
+            <br />
+        </xt:repeat>
+        <span class="email">
+            <xt:use types="text" label="email"  param="type=input">email</xt:use>
+        </span>
+        </p>
+      </xt:component>
+
+      <xt:component name="subsubcategory">
+         &#x2014;
+         <span class="catlevel4"><xt:use types="text" label="names"  param="type=input">name, name</xt:use></span>
+      </xt:component>
+
+      <xt:component name="subcategory">
+        <span class="catlevel3"><xt:use types="text" label="name" param="type=input">name</xt:use></span>
+        <xt:use types="subsubcategory" label="sub_sub_category" option="set" />
+      </xt:component>
+
+      <xt:component name="category">
+        <p class="category">
+          <xt:menu-marker size="20"/>
+          <span class="catnumlevel1and2"><xt:use types="text" label="NUM" param="type=input">X</xt:use>.<xt:use types="text" label="num"  param="type=input">n</xt:use></span>
+          [<span class="catnamelevel1and2"><xt:use types="text" label="name"  param="type=input">Name</xt:use></span>]:
+          <xt:repeat minOccurs="1" label="list">
+            <xt:use types="subcategory" label="sub_category" />
+          </xt:repeat>
+        </p>
+      </xt:component>
+
+      <xt:component name="presentation">
+        <div class="section">
+          <xt:repeat pseudoLabel="p ul" minOccurs="0">
+            <div class="row">
+                <span class="left-repeater">
+                <xt:menu-marker/>
+              </span>
+              <xt:use types="p ul"/>
+            </div>
+          </xt:repeat>
+        </div>
+      </xt:component>
+
+      <xt:component name="aDay">
+        <xt:use types="text" label="month" param="type=input">Month</xt:use>,
+        <xt:use types="text" label="day" param="type=input">day</xt:use>
+      </xt:component>
+
+      <xt:component name="date">
+        from <xt:use types="aDay" label="begin"/> to <xt:use types="aDay" label="end"/>
+      </xt:component>
+
+      <xt:component name="loc">
+        <xt:use types="text" label="city" param="type=input">city</xt:use>,
+        <xt:use types="text" label="country" param="type=input">country</xt:use>
+      </xt:component>
+      
+      <xt:component name="Illustration">
+        <div class="photo content">
+          <div class="photo-spacer">
+            <xt:use types="photo" label="Photo" param="photo_URL=./images;trigger=click;class=article"/>
+            <br/>
+            Ratio : <xt:attribute types="text" name="Ratio" default="100"/> %
+          </div>
+          <p class="photo caption">
+            <xt:use types="text" label="Caption" param="shape=parent-20px;type=textarea" option="unset">Cliquez pour saisir la légende</xt:use>
+          </p>
+        </div>
+      </xt:component>
+
+    </xt:head>
+
+    <link rel="stylesheet" type="text/css" href="src/biblio.css" ></link>
+
+    <style type="text/css">
+
+    /***************** Left Margin *****************/
+    ul.main-list-block, div.list-item, ul.sub-list-item, div.content, p.list-header, div.biblio-entry, p.biblio-entry, p.biblio-entry-no-space {
+      margin-left: 150px;
+    }
+
+    div.example, div.figure {
+      margin-left: 200px;
+    }
+    /***************** End Left Margin *****************/
+
+    div.image, input.image { /* div around the img element created by the image filter */
+      border: 1px solid gray;
+      padding: 5px;
+      text-align: center;
+      vertical-align: middle;
+      min-width: 40px;
+      min-height: 40px;
+    }
+    div.descr {
+      margin-left: 30px;
+      padding-left: 20px;
+      border-left: 2px dashed gray;
+    }
+    div.example, div.figure {
+      margin-right: 1.2em;
+    }
+    .row > select {
+      float: left;
+      margin-right: 5px;
+    }
+    .left-repeater {
+      float: left;
+      clear: left;
+      width: 40px;
+      height: 10px;
+    }
+    p.left-repeater {
+      margin-top: 5px;
+      padding-top: 0;
+    }
+    .left-repeater > img {
+      margin: 0;
+      padding: 0;
+    }
+    div.list-menu {
+      clear: left;
+    }
+    div.list-menu, div.list-menu + select {
+      float: left;
+    }
+    div.list-item {
+      display: list-item;
+      list-style-type: disc;
+    }
+    p.list-header {
+      margin-bottom: 6px;
+    }
+    ul.main-list-block {
+      padding-left: 20px;
+      margin-left: 0;
+      margin-top: 0;
+    }
+    textarea {
+      background-color: white ! important;
+      outline: 1px dashed grey;
+      border: none;
+    }
+
+    /***************** Preview Mode *****************/
+
+    body.preview ul.main-list-block, body.preview ul.sub-list-item, body.preview div.content, body.preview p.list-header, body.preview p.biblio-entry, body.preview p.biblio-entry-no-space, body.preview div.biblio-entry {
+      margin-left: 0;
+    }
+
+    body.preview div.example, body.preview div.figure {
+      margin-left: 2em;
+    }
+
+    body.preview div.image {
+      border: 0 none;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 5px;
+    }
+
+    body.preview div.list-item {
+      margin-left: 20px;
+    }
+
+    body.preview div.list-menu {
+      display: none !important;
+    }
+
+    body.preview .left-repeater {
+      display: none;
+    }
+    
+    a.voir {
+      text-decoration: none;
+    }
+    </style>
+
+    <!-- Place here optional AXEL code for making the template auto-editable -->
+
+  </head>
+  <body>
+    <h1>Bibliotheque Ouverte</h1>
+      <div>
+        <button onclick="javascript:chargerEditeur('articles-bib.xml')">Articles</button> 
+        <button onclick="javascript:chargerEditeur('videos-bib.xml')">Videos</button>
+        <button onclick="javascript:chargerEditeur('sites-bib.xml')">Sites</button>
+        <button onclick="javascript:chargerEditeur('victimes-bib.xml')">Victimes</button>
+        <button onclick="javascript:viderEditeur()">Nouveau</button>
+        <span style="float:right"><button onclick="javascript:enregistrer()">Enregistrer</button></span>
+      </div>
+      <div id="editors">
+        <div id="editor" class="bibliography">
+          <div class="references">
+            <xt:repeat minOccurs="0" maxOccurs="*" label="Ressources">
+              <div class="row">
+                <p><b>Resource</b> <xt:menu-marker/></p>
+                <xt:use types="bibref"/>
+                <hr/>
+              </div>
+            </xt:repeat>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

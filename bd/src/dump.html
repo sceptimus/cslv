@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>AXEL Editor Document Content as XML</title>
+  <style>
+    body {
+      padding: 0.5em 2em;
+    }
+    .center {
+      text-align: center;
+    }
+    #content {
+      position: absolute;
+      top: 4em;
+      left: 2em;
+      right: 2em;
+      bottom: 4em;
+    }
+    #input {
+      width: 100%;
+      height: 100%;
+    }
+    #footer {
+      position: absolute;
+      left: 2em;
+      right: 2em;
+      bottom: 0em;
+    }
+  </style>
+
+  <script type="text/javascript">
+    function storeDump() {
+      var t = document.getElementById ('input');
+      t.select();
+      document.execCommand("copy");
+    }
+  </script>
+</head>
+
+<body>
+  <p class="center">Cliquez sur "Copier" pour enregistrer le document dans le presse-papier</p>
+  <div id="content">
+    <textarea id="input" rows="40" cols="20">Appuez encore sur Enregistrer dans l'editeur si vous ne voyez pas votre texte !</textarea>
+  </div>
+  <div id="footer">
+    <p class="center"><input type='button' value="Copier" onclick="storeDump();"/> <input type='button' value="Fermer" onclick="javascript:window.close();"/></p>
+  </div>
+</body>
+</html>
