@@ -69,23 +69,42 @@ class JukeBox {
     }
   }
 
+  formatDuree (d) {
+    var d = 
+      (d.hasOwnProperty('H') ? d.H : '--') 
+        + ':' +
+      (d.hasOwnProperty('M') ? d.M : '--') 
+        + ':' +
+      (d.hasOwnProperty('S') ? d.S : '00');
+    return d
+  }
+  
   installerVideo(i) {
     var v = this.BD[i];
     $('.vtopurl', this.root).text(v.Titre.replace(/&amp;/g, '&'));
-    $('.vtopurl', this.root).attr('href', v.Lien.Base + v.Lien.Chemin);
-    if (v.hasOwnProperty('LienPDF')) {
-      $('.vtoPDF', this.root).attr('href', v.LienPDF).show();
+    if (v.hasOwnProperty('Page') && v.Page.hasOwnProperty('Lien')) {
+      $('.vtopurl', this.root).attr('href', v.Page.Lien);
+    }
+    if (v.hasOwnProperty('PDF')) {
+      $('.vtoPDF', this.root).attr('href', v.PDF.Lien).show();
     } else {
       $('.vtoPDF', this.root).hide();      
     }
-    if (v.hasOwnProperty('Presentation')) {
+    // TODO
+    // gérere Fichier avec embedding à la volée
+    if (v.hasOwnProperty('Presentation') && v.Presentation !== null) {
       $('.vtoppres', this.root).html(v.Presentation.replace(/&lt;/g, '<').replace(/&gt;/g, '>'));
     } else {
       $('.vtoppres', this.root).html('');
     }
     $('.vtopajout', this.root).html(this.formatDate(v.Ajout));
     $('.vtoppub', this.root).html(this.formatDate(v.Publication));
-    $('.vtopduree', this.root).html(v.Duree || '-');
+    if (v.hasOwnProperty('Duree')) {
+      $('.vtopduree', this.root).html(this.formatDuree(v.Duree));
+      $('.vtopduree', this.root).parent().show();
+    } else {
+      $('.vtopduree', this.root).parent().hide(); 
+    }
     if (v.hasOwnProperty('Tag')) {
       $('.vtoptag', this.root).html(
         v.Tag.reduce( (a, cur) => a +  '<span class="tag">' + cur + '</span> ', '')
@@ -167,10 +186,10 @@ class JukeBox {
     
   function init () {
     if ($('#vtop').length > 0) { 
-      new JukeBox($('#vtop').get(0), Videos.Video);
+      new JukeBox($('#vtop').get(0), Videos);
     }
     if ($('#atop').length > 0) {
-      new JukeBox($('#atop').get(0), Articles.Article);
+      new JukeBox($('#atop').get(0), Articles);
     }
     // icon installation    
     $('*[data-cadoc]').each(

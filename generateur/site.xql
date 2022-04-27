@@ -15,14 +15,33 @@ declare variable $local:site := util:eval(file:read($base || '/gabarits/' || 'si
 
 declare function local:date( $date ) {
     let $year := substring(string(current-dateTime()), 1, 4)
+    let $month := substring($date, 6, 2)
+    let $sep := if (starts-with($date, $year)) then ' ' else '/'
     return 
         string-join(
             (
             substring($date, 9, 2),
-            substring($date, 6, 2),
-            if (starts-with($date, $year)) then () else substring($date, 1, 4)
+            if (starts-with($date, $year)) then
+              switch ($month)
+                case '01' return 'Janvier'
+                case '02' return 'Février'
+                case '03' return 'Mars'
+                case '04' return 'Avril'
+                case '05' return 'Mai'
+                case '06' return 'Juin'
+                case '07' return 'Juillet'
+                case '08' return 'Août'
+                case '09' return 'Septembre'
+                case '10' return 'Octobre'
+                case '11' return 'Novembre'
+                case '12' return 'Décembre'
+                default return $month              
+            else (
+              $month,
+              substring($date, 1, 4)
+              )
             ), 
-            '/'
+            $sep
         )
 };
 
@@ -34,6 +53,12 @@ declare function local:image ( $image ) {
   </div>  
 };
 
+declare function local:tags ( $tags ) {
+  if ($tags) then
+    <div class="tags">{ for $t in $tags order by $t return <span class="tag">{ $t }</span> }</div>
+  else
+    ()
+};
 
 declare function local:films ( $name, $genre ) {
   <ul>
@@ -176,7 +201,7 @@ declare function local:outils ( $file ) {
 };
 
 (:~
- : Conversion <Videotheque> vers HTML
+ : Conversion <Videotheque> vers HTML - DEPRECATED
  : 
  :)
 declare function local:videos ( $file ) {
@@ -231,6 +256,90 @@ declare function local:videos ( $file ) {
                                 }
                             </sup>: 
                             { $v/Presentation/(*|text())}
+                        </li>
+                    }
+                </ul>
+            </div>
+};
+
+declare function local:gen-duree( $duree ) {
+  string-join(
+    (
+    if ($duree/H and $duree/H ne '-')
+      then ($duree/H || 'h')
+      else (),
+    if ($duree/M and $duree/M ne '-')
+      then ($duree/M || 'm')
+      else (),
+    if ($duree/S and $duree/S ne '-')
+      then ($duree/S || 's')
+      else ()
+    ),
+    ' '  
+    )
+};
+
+declare function local:videos-bib ( $file ) {
+    let $rubriques := $local:site/Catalogue/Rubrique
+    let $input := util:eval(file:read($base || '/bd/' || $file))
+    let $list := for $i in distinct-values($input//Rubrique) order by $i return $i    
+    return
+        for $nom at $i in $list
+        let $r := $rubriques[Nom eq $nom]
+        return
+            <div class="block border" id="{ $nom }">
+                <div class="up"><a href="#top" title="Haut de page">​ᐃ​</a>​</div>
+                <h2>{$i}. { if ($r) then $r/Titre/text() else $nom }</h2>
+                {
+                if ($r/Presentation[. ne '']) then
+                    <blockquote>{ $r/Presentation/(*|text()) }</blockquote>
+                else
+                    ()
+                }
+                <ul>    
+                    {
+                    for $v in $input//Video[Rubrique eq $nom]
+                    let $date := ($v/Ajout, $v/Publication)[1]
+                    let $lien := $v/Page/Lien[1] (: seulement le 1er pour le moment :)
+                    (: let $fichier :)
+                    order by $date descending
+                    return
+                        <li>
+                            { if ($v/Ancre) then attribute { 'id' } { $v/Ancre } else () }
+                            <a href="{$lien}">
+                                {
+                                if ($lien/@Censure eq "oui") then
+                                    (<del>{ $v/Titre/text() }</del>, ' (censurée)')
+                                else
+                                    $v/Titre/text()
+                                }
+                            </a>
+                            <sup>
+                                {
+                                '(' ||
+                                string-join((
+                                    local:gen-duree($v/Duree),
+                                    $v/Langue,
+                                    if ($v/SousTitre eq 'activer') then 
+                                        'sous-titrable'
+                                    else if ($v/SousTitre) then 
+                                        'sous-titré'
+                                    else
+                                        (),
+                                    local:datation2($v)                                    
+                                    )
+                                    , ', ') || ')'
+                                }
+                            </sup>
+                            {
+                            local:noms($v/Intervenants, ' avec '),
+                            local:source($v/Source),
+                            ':',
+                            local:tags($v/Tag)                            
+                            }                              
+                            <div class="presentation">
+                              { $v/Presentation/(*|text())[. ne ''] }                              
+                            </div>
                         </li>
                     }
                 </ul>
@@ -481,6 +590,9 @@ declare function local:gen-tags ( $item ) {
   </span>  
 };
 
+(:~
+ : DEPRECATED
+ :)
 declare function local:biblio ( $file ) {
     let $rubriques := util:eval(file:read($base || '/gabarits/' || 'site.xml'))/Contenu/Page[Id eq replace($file, '.xml', '')]/Rubriques
     let $input := util:eval(file:read($base || '/bd/' || $file))
@@ -543,6 +655,124 @@ declare function local:biblio ( $file ) {
             </div>            
 };
 
+declare function local:noms ( $auteurs, $liaison ) {
+  if ($auteurs/Nom) then
+    <span>{ $liaison }{
+      if (count($auteurs/Nom) eq 1)
+        then $auteurs/Nom/text()
+        else if (count($auteurs/Nom) eq 2)
+          then string-join($auteurs/Nom, ' et ')
+          else 
+            concat(
+              string-join($auteurs/Nom[position() < count($auteurs/Nom)], ', '),
+              ' et ',
+              $auteurs/Nom[last()]
+              )
+      }
+    </span>
+  else
+    ()
+};
+
+declare function local:source ( $source as xs:string? ) {
+  if ($source)
+    then <span> pour {$source} </span>
+    else ()
+};
+
+declare function local:datation1( $i ) {  
+  if ($i/Publication and $i/Ajout and $i/Publication ne $i/Ajout) then
+    <sup>({
+      if ($i/Publication)
+        then ("publié le " || local:date($i/Publication) || ", ") 
+        else () 
+      }ajouté le { local:date($i/Ajout)})
+    </sup>
+  else if ($i/Publication) then
+    <sup>(publié le { local:date($i/Ajout)})</sup>
+  else if ($i/Ajout) then
+    <sup>(ajouté le { local:date($i/Ajout)})</sup>
+  else
+    ()    
+};
+
+declare function local:datation2( $i ) {  
+  if ($i/Publication and $i/Ajout and $i/Publication ne $i/Ajout) then
+    concat(
+      if ($i/Publication)
+        then ("publié le " || local:date($i/Publication) || ", ") 
+        else (),
+      'ajouté le ',
+      local:date($i/Ajout)
+      )
+  else if ($i/Publication) then
+    concat('publié le ', local:date($i/Ajout))
+  else if ($i/Ajout) then
+    concat('ajouté le ', local:date($i/Ajout))
+  else
+    ()    
+};
+
+declare function local:biblio-bib ( $file ) {
+    let $rubriques := $local:site/Catalogue/Rubrique
+    let $input := util:eval(file:read($base || '/bd/' || $file))
+    let $list := for $i in distinct-values($input//Rubrique) order by $i return $i
+    return
+        for $nom at $i in $list
+        let $r := $rubriques[Nom eq $nom]
+        return
+            <div class="block border" id="{ $nom }">
+                <div class="up"><a href="#top" title="Haut de page">​ᐃ​</a>​</div>                
+                <h2>{$i}. { if ($r) then $r/Titre/text() else $nom }</h2>
+                {
+                if ($r/Presentation[. ne '']) then
+                    <blockquote>{ $r/Presentation/(*|text()) }</blockquote>
+                else
+                    ()
+                }
+                <ul>    
+                    {
+                    for $i in $input//Article[Rubrique eq $nom]
+                    let $date := ($i/Publication, $i/Ajout)[1]
+                    let $lien := $i/Page/Lien[1] (: seulement le 1er pour le moment :)
+                    let $pdf := $i/PDF/Lien[1] (: seulement le 1er pour le moment :)
+                    order by $date descending
+                    return
+                        <li>
+                            {
+                            if ($i/Ancre) then attribute { 'id' } { $i/Ancre } else (),
+                            if ($lien) then
+                              <a href="{$lien}">{ $i/Titre/text() }</a>
+                            else if ($pdf) then
+                              <a href="{$pdf}">{ $i/Titre/text() }</a>
+                            else
+                              <b>{ $i/Titre/text() }</b>,
+                            if ($pdf) then
+                              <a href="{$pdf}"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a>
+                            else
+                              (),
+                            local:noms($i/Auteurs, ' par '),
+                            local:source($i/Source),
+                            local:datation1($i),
+                            local:tags($i/Tag)                            
+                            }
+                            <div class="presentation">
+                              {
+                              if ($i/Presentation) then
+                                let $comment := $i/Presentation/(*|text())[. ne '']
+                                return (
+                                  $comment
+                                  )
+                              else
+                                ()
+                              }                              
+                            </div>
+                        </li>
+                    }
+                </ul>
+            </div>            
+};
+
 (:~
  : Génère l'index du blog
  : 
@@ -596,7 +826,7 @@ declare function local:render( $gabarit, $in ) {
 };
 
 declare function local:victimes( ) {
-  let $victimes := concat('file://', $base, '/bd/', 'victimes.xml') 
+  let $victimes := concat('file://', $base, '/bd/', 'victimes-bib.xml') 
   let $stylesheet := concat('file://', $base, '/transform/', 'victimes.xsl')
   let $FSPath := concat('file://', $base, '/victimes.html')
   let $params := <parameters>
@@ -626,6 +856,28 @@ declare function local:lister-rubriques ( $name ) {
         then <a href="#{string($ancre)}">{$i}. {$t/Titre/text()}</a>
         else <span>{ $t/Titre/text() }</span>,
       if ($i < count($rubriques/Rubrique))
+        then <br/>
+        else ()
+      )
+    }
+    </p>      
+    )
+};
+
+declare function local:lister-rubriques-bib ( $name, $file ) {
+  let $rubriques := $local:site/Catalogue/Rubrique
+  let $input := util:eval(file:read($base || '/bd/' || $file))  
+  let $list := for $i in distinct-values($input//Rubrique) order by $i return $i
+  let $total := count($list)
+  return (
+    <p class="rubriques" style="text-align:center">Rubriques</p>,
+    <p style="text-align:center">
+    {
+    for $name at $i in $list
+    let $t := $rubriques[Nom eq $name]
+    return (
+      <a href="#{$name}">{$i}. { if ($t) then $t/Titre/text() else $name }</a>,
+      if ($i < $total)
         then <br/>
         else ()
       )
@@ -672,6 +924,56 @@ declare function local:lister-actions ( $filename ) {
     )
 };
 
+(:
+Convertir au format JSON les Auteurs, etc. pour le widget actuel 
+:)
+declare function local:export-bib-to-json ( $nodes as item()* ) {
+  for $node in $nodes
+  return
+    if ($node/@Afficher eq 'non') then
+      ()
+    else
+      typeswitch($node)
+        case text()
+          return $node
+        case attribute()
+          return $node
+        case element()
+          return
+            let $tag := local-name($node)
+            return
+              if ($tag eq 'Page') then
+                (: simplification : always singleton :)
+                <Page>{ local:export-bib-to-json($node/Lien[1]) }</Page>
+              else if ($tag eq 'PDF') then
+                (: simplification : always singleton :)
+                <PDF>{ local:export-bib-to-json($node/Lien[1]) }</PDF>
+              else if ($tag eq 'Presentation') then
+                element { $tag }
+                  {
+                  util:serialize($node/(text()|*),  "method=xml media-type=application/xml indent=yes")
+                  }
+              else if ($tag eq 'Serie') then
+                ()
+                (: 
+                BUG in JSON serialization that adds an extra {
+                NOT needed for this widget
+                <Serie>
+                  {
+                  for $article in $node/Article
+                  return
+                    <Article json:array="true">{ local:export-bib-to-json($node/*) }</Article>
+                  }
+                </Serie>:)
+              else if ($tag eq 'Tag') then
+                <Tag json:array="true">{ $node/text() }</Tag>
+              else
+                element { $tag }
+                  { local:export-bib-to-json($node/(attribute()|node())) }
+        default
+          return $node
+};
+  
 declare function local:export-bd-to-json ( $nodes as item()* ) {
   for $node in $nodes
   return
@@ -702,8 +1004,11 @@ declare function local:export-bd-to-json ( $nodes as item()* ) {
 };
 
 declare function local:json ( $filename, $tag ) {
-  let $source := local:export-bd-to-json(util:eval(file:read($base || '/bd/' || $filename || '.xml'))//*[local-name() eq $tag])
-  let $data := <data>{'var ' || $tag || ' = ' || serialize($source, $local:json-output) || ';'}</data>
+  let $source := element { $tag || 's' } 
+                   {
+                   local:export-bib-to-json(util:eval(file:read($base || '/bd/' || $filename || '.xml'))//*[local-name() eq $tag])
+                   }
+  let $data := <data>{'var ' || $tag || 's' || ' = ' || replace(replace(serialize($source, $local:json-output), '\{"' || $tag || '":', ''), '\}$', '') || ';'}</data>
   return 
     file:serialize($data/text(), $base || '/json/' || $filename || '.js', ())
 };
@@ -716,15 +1021,15 @@ let $in := map {
 let $pages := ('index', 'manifeste', 'annuaire', 'evenements', 'videos', 'biblio', 'outils', 'nocomment', 'blog', 'json', 'actions')
 (:                1          2           3            4           5         6         7           8          9      10        11 :)
 return 
-  for $i in (1, 5, 6)
+  for $i in (5, 6)
   return 
     (
     if ($i = (5, 10))
-      then local:json('videos', 'Videos')
+      then local:json('videos-bib', 'Video')
       else (),
     if ($i = (6, 10))
-      then local:json('biblio', 'Articles')
-      else (),    
+      then local:json('articles-bib', 'Article')
+      else (),
     if (not($pages[$i] eq 'json'))
       then <page name="{$pages[$i]}">{ local:render($pages[$i], $in) }</page>
       else ()
