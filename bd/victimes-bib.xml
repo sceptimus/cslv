@@ -1362,7 +1362,7 @@
       </Localisation>
       <Page>
         <Lien>https://www.nicematin.com/belle-histoire/jai-reagi-comme-un-robot-par-instinct-il-raconte-comment-il-a-sauve-une-enfant-victime-dun-arret-cardiaque-dans-le-train-nice-tende-762785</Lien>
-      </Page>      
+      </Page>
       <Publication>2022-04-25</Publication>
     </Victime>
     <Victime>
@@ -1378,6 +1378,48 @@
         <Lien>https://dfsm.fff.fr/simple/disparition-dun-jeune-du-sc-frileuse/</Lien>
       </Page>
       <Publication>2022-04-22</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Une victime de plus</Titre>
+      <Age>42</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>?</Ville>
+        <Pays>Belgique</Pays>
+      </Localisation>
+      <Page>
+        <Lien>https://www.kairospresse.be/une-victime-de-plus/</Lien>
+      </Page>
+      <Publication>2022-04-29</Publication>
+    </Victime>
+    <Victime>
+      <Titre>un adolescent de 15 ans décède après un malaise cardiaque lors d’un entraînement de foot</Titre>
+      <Age>15</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Contrexéville</Ville>
+        <Departement>88</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.vosgesmatin.fr/faits-divers-justice/2022/04/30/contrexeville-un-adolescent-de-15-ans-decede-des-suites-d-un-malaise-cardiaque-lors-d-un-entrainement-de-foot</Lien>
+      </Page>
+      <Publication>2022-04-29</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Malaise cardiaque au lycée Boisjoly Potier : le lycéen est décédé</Titre>
+      <Age>17</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Le Tampon</Ville>
+        <Departement>97</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.clicanoo.re/rubriques/faits-divers/2022/05/04/malaise-cardiaque-au-lycee-boisjoly-potier-le-lyceen-est-decede</Lien>
+      </Page>
+      <Publication>2022-05-04</Publication>
     </Victime>
   </Ressources>
 </Bibliotheque>

@@ -1,731 +1,872 @@
 <Bibliotheque>
-   <Ressources>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>liaison</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Comité Santé Liberté Vendée 85</Titre>
-         <Contact>contact@comitesantelibertevendee.fr</Contact>
-         <Telegram>
-            <Contact>telegram@comitesantelibertevendee.fr</Contact>
-         </Telegram>
-         <Lien>http://www.comitesantelibertevendee.fr</Lien>
-         <Presentation>
-            <p>Ce collectif (groupe telegram CSLV 85, groupe WhatsApp CSL 85, organisation d'actions diverses)</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thématique</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Tag>CSLV 85</Tag>
-         <Titre>Collectif soignants résistants</Titre>
-         <Contact>Contact@soignantsresistants85.fr</Contact>
-         <Presentation>
-            <p>Groupe pour rassembler les soignants sur la Vendée pour mettre fin aux discriminations, améliorer la situation des soignants et améliorer la coopération entre citoyens et soignants</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thématique</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Collectif convivialité</Titre>
-         <Contact>convivialite@comitesantelibertevendee.fr</Contact>
-         <Presentation>
-            <p>Groupe pour tous ceux souhaitant organiser des événements pour se retrouver dans la bonne humeur</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thématique</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Collectif éveil des consciences</Titre>
-         <Contact>eveil@comitesantelibertevendee.fr</Contact>
-         <Presentation>
-            <p>Groupe pour créer les arguments et les outils pour lutter la discrimination, la soumission et la division</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thématique</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Collectif stratégie et action de terrain</Titre>
-         <Contact>actions@comitesantelibertevendee.fr</Contact>
-         <Presentation>
-            <p>Groupe pour Organiser des actions de sensibilisation et d'information sur le terrain; Rencontrer des acteurs de la société (restaurateurs, police, etc.); Imaginer des actions pour soutenir les usagers exclus par le passe sanitaire</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thématique</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Collectif jeunesse (famille)</Titre>
-         <Contact>jeunesse@comitesantelibertevendee.fr</Contact>
-         <Presentation>
-            <p>Groupe pour Sensibiliser et motiver les jeunes pour l’action; Organiser des temps de sport et de convivialité entre jeunes</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thématique</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Collectif parents (famille)</Titre>
-         <Contact>parents@comitesantelibertevendee.fr</Contact>
-         <Presentation>
-            <p>Groupe pour S’investir dans les associations de parents d’élèves; Donner aux parents des arguments pour rencontrer les enseignants et les chefs d’établissements</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Collectif Santé Liberté 85</Titre>
-         <Lien>http://collectifsanteliberte85.fr/</Lien>
-         <Presentation>
-            <p>collectif de citoyens (soignants, patients, parents) opposés à l'extension du passe sanitaire et aux injonctions et pressions sur les parents (groupe WhatsApp)</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>Collectif Santé Saint-Nazaire</Titre>
-         <Lien>https://www.facebook.com/groups/1207761203011098/about</Lien>
-         <Presentation>
-            <p>collectif de Saint-Nazaire hostile à l’obligation vaccinale et au pass sanitaire, actif, avec une page FB publique</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>44</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>ToutVaBien44</Titre>
-         <Lien>https://www.toutvabien44.org/</Lien>
-         <Presentation>
-            <p>collectif Nantais de collectifs locaux mobilisés pour se coordonner afin de préserver nos libertés fondamentales</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>44</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>Forum Parents Attentifs (44)</Titre>
-         <Lien>https://parents-attentifs-44.forumactif.com/</Lien>
-         <Presentation>
-            <p>lieu d'écoute, d'échange et d'entraide du réseau parents attentifs 44</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>44</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>Collectif Santé Mauges</Titre>
-         <Lien>https://www.collectifsantemauges.fr/</Lien>
-         <Presentation>
-            <p>autour de Cholet</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>49</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>Collectif NoPass24</Titre>
-         <Lien>https://nopass24.fr/a-propos/</Lien>
-         <Presentation>
-            <p>Collectif citoyen luttant pour le respect des libertés.</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>24</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>Collectif Oxygene Aquitaine</Titre>
-         <Lien>https://oxygene.collectifaquitaine.fr/blog/</Lien>
-         <Presentation>
-            <p>un groupe d’adultes, concernés par la santé et le bien-être des enfants (parents, enseignants, soignants, grands-parents, ...)</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>24</Departement>
-            <Departement>47</Departement>
-            <Departement>33</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>BPAV</Titre>
-         <Lien>https://bretagnepiqueeauvif.sitew.fr</Lien>
-         <Presentation>
-            <p>association Bretonne ayant démarré en 2020 dans le cadre de la gestion de la crise sanitaire</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>35</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>Comité de défense des droits civiques</Titre>
-         <Lien>https://comitededefensedesdroitsciviques56.wordpress.com/</Lien>
-         <Presentation>
-            <p>diffusion d'un travail documentaire « Par le bout du nez » L’histoire du covid 19 ~tout n’est que théâtre~ (et souffrance) formant un memento d'environ 200 liens qui dévoile l'opération en cours dixit les auteurs</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>56</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>Collectifreedom Pompier 74</Titre>
-         <Lien>https://www.facebook.com/Collectifreedom-Pompier-74-104141155323355</Lien>
-         <Presentation>
-            <p>collectif de pompiers de Haute-Savoie</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>74</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>regional</Tag>
-         <Titre>Bibliothèque Liberté 77</Titre>
-         <Lien>https://liberte77.fr/bibliotheque/</Lien>
-         <Presentation>
-            <p>Bibliothèque d'information de Seine-et-Marne pour l'expansion de la liberté</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>77</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>santé</Tag>
-         <Tag>traitement</Tag>
-         <Titre>Coordination Santé Libre</Titre>
-         <Lien>https://stopcovid19.today</Lien>
-         <Presentation>
-            <p>collectif Covid-19 laissons les médecins prescrire qui regroupe des médecins, libéraux mais aussi hospitaliers répartis sur l’ensemble du territoire. Aussi connus pour leur <b>proposition de traitement</b> en prévention ou ambulatoire précoce Covid-19 (voir la rubrique "<a href="https://stopcovid19.today/coordination-sante-libre/">Coordination Santé Libre</a>" sur le site).</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>santé</Tag>
-         <Tag>traitement</Tag>
-         <Titre>Covisoins</Titre>
-         <Lien>https://covisoins.fr</Lien>
-         <Presentation>
-            <p>Réseau de soins ambulatoires multidisciplinaire (médecins, infirmiers, sages-femmes, kinésithérapeutes, aides à domicile, etc…) pour la prise en charge du Covid. En cours de constitution.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>enfance</Tag>
-         <Titre>Education pour le bien des enfants</Titre>
-         <Lien>https://www.educationpourlebiendesenfants.fr/</Lien>
-         <Presentation>
-            <p>collectif des professionnels de l’éducation</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>enfance</Tag>
-         <Titre>Enfance &amp; Liberté</Titre>
-         <Lien>https://enfance-libertes.fr/</Lien>
-         <Presentation>
-            <p>parents, professionnels de l’Education et professionnels de Santé, modèles de courrier</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>enfance</Tag>
-         <Titre>Parents 21 France</Titre>
-         <Lien>https://www.parents21.fr/rentree-scolaire-2021</Lien>
-         <Presentation>
-            <p>aux côtés d'Enfance &amp; Libertés - Union des Collectifs, lien vers leur page spécial Rentrée Scolaire 2021</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>enfance</Tag>
-         <Titre>Childrens Health Defense</Titre>
-         <Lien>https://childrenshealthdefense.eu/?lang=fr</Lien>
-         <Presentation>
-            <p>protection de l'enfance (international)</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>réinformation</Tag>
-         <Titre>Association Reinfo Covid</Titre>
-         <Lien>https://reinfocovid.fr/</Lien>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>réinformation</Tag>
-         <Tag>juridique</Tag>
-         <Titre>Association BonSens</Titre>
-         <Lien>https://bonsens.org/</Lien>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>juridique</Tag>
-         <Tag>victime</Tag>
-         <Titre>Reaction19</Titre>
-         <Lien>https://reaction19.fr/</Lien>
-         <Presentation>
-            <p>association mettant en œuvre de moyens juridiques et judiciaires pour des actions individuelles et collectives, ayant un lien avec les mesures prises pour lutter contre la « pandémie » de la COVID19</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>victime</Tag>
-         <Titre>Verity-France</Titre>
-         <Lien>https://www.verity-france.org</Lien>
-         <Presentation>
-            <p>Collectif créé par des parents de victimes des vaccins anti-Covid pour rechercher la vérité</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>juridique</Tag>
-         <Tag>victime</Tag>
-         <Titre>Ligue Nationale pour la Liberté des Vaccinations</Titre>
-         <Lien>https://www.infovaccin.fr/06-08-2021-guide-juridique.html</Lien>
-         <Presentation>
-            <p>Guide juridique pour la liberté vaccinale, modèles de courrier pour contrer l'obligation vaccinale</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>santé</Tag>
-         <Titre>Le réseau de Santé Libre et Citoyen</Titre>
-         <Lien>https://sante-libre.org</Lien>
-         <Presentation>
-            <p>Le mouvement Santé Libre, ce sont des milliers de praticiens de santé qui souhaitent conseiller et accompagner librement. Ces praticiens sont sortis d’un système en déperdition pour redonner du sens à leur passion : mettre l’humain au centre des attentions</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>santé</Tag>
-         <Tag>syndicat</Tag>
-         <Titre>Syndicat Liberté Santé</Titre>
-         <Lien>https://www.syndicat-liberte-sante.com/</Lien>
-         <Presentation>
-            <p>Syndicat créé pour la défense de l’ensemble des professionnels de santé et professions connexes contre la défiguration du secret médical, du libre consentement au soin et de l’indépendance professionnelle</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>etranger</Tag>
-         <Tag>action</Tag>
-         <Titre>sifflons.ch</Titre>
-         <Lien>https://sifflons.ch/raison/</Lien>
-         <Presentation>
-            <p>initiative Suisse d'organiser une manifestation visuelle permanente autour d'un logo pour faire prendre consience des mesures disproportionnées et abusives du gouvernement. Initiative assez proche de <a href="https://t.me/laroseblancheFR">La Rose Blanche</a> pour la France.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>media</Tag>
-         <Titre>La chaîne humaine</Titre>
-         <Lien>https://www.lachainehumaine.com/</Lien>
-         <Presentation>
-            <p>association qui s'engage à respecter la charte de déontologie de Munich (le premier devoir du journaliste est le respect de la vérité, le journaliste ne doit jamais confondre le métier de journaliste avec celui du publicitaire ou du propagandiste, ...)</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thématique</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Mamans Louves</Titre>
-         <Contact>fleurdevie8@gmail.com</Contact>
-         <Lien>https://mamanslouves.com</Lien>
-         <Presentation>
-            <p>Mouvement destiné à créer des rassemblements nationaux et des actions efficaces entre « mamans-louves » pour reprendre nos droits de décision sur le bien-être et l’avenir de nos enfants.</p>
-            <p>Les actions de communication à grande échelle sont organisées par les Mamans Louves pour fédérer, rassembler et donner de l'espoir à tous les parents grands parents. Les papas sont bienvenus aussi même s'ils ne sont pas visibles médiatiquement !</p>
-            <p>Le mouvement possède une <b>référente départementale</b> pour la Vendée. N'hésitez pas à la contacter.</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>territoire</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Le jardin d'échange Mortagnais</Titre>
-         <Lien>https://seljeu.levillage.org</Lien>
-         <Presentation>
-            <p>Plateforme d'entraide et de mise en réseau basée sur les compétences et les projets de chacun</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thématique</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Groupe RSA La Roche Sur Yon</Titre>
-         <Telegram>
-            <Lien>https://t.me/joinchat/LerguxzMNn2jFgz5K2za8Q</Lien>
-         </Telegram>
-         <Lien>https://reseausolidarite.wixsite.com/rsafrance/post/la-déclaration-du-réseau-de-solidarité-active-rsa</Lien>
-         <Presentation>
-            <p>L'objectif du Réseau de Solidarité Active (RSA) est de renforcer la solidarité entre les gens au niveau local, et de favoriser la mise en place d'actions. Chaque groupe couvre un zone géographique d'un rayon de 25 km.</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>réinformation</Tag>
-         <Tag>etranger</Tag>
-         <Titre>Ivermectine Covid</Titre>
-         <Lien>https://ivermectine-covid.ch</Lien>
-         <Presentation>
-            <p>site Suisse avec de nombreuses resources sur les traitements à base d'Ivermectine. La section <a href="https://ivermectine-covid.ch/temoignages-de-medecins/">Témoignages de médecins</a> contient de nombreuses interviews de médecins reconnus du monde entier.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thématique</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Titre>Parents en colère Vendée</Titre>
-         <Lien>https://www.facebook.com/ParentsenColere85/</Lien>
-         <Presentation>
-            <p>Groupe facebook de parents du 85 mobilisés pour les enfants (la page ne semble plus très active).</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>réinformation</Tag>
-         <Tag>juridique</Tag>
-         <Titre>Rester libre</Titre>
-         <Lien>http://resterlibre.org</Lien>
-         <Presentation>
-            <p>Association créée par <b>Éric Verhaeghe</b> en novembre 2021, pour coordonner des actions. L'adhésion à 10 euros donne accès à un forum de discussion.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>juridique</Tag>
-         <Tag>victime</Tag>
-         <Titre>Je ne suis pas un danger</Titre>
-         <Lien>https://jenesuispasundanger.com</Lien>
-         <Presentation>
-            <p>Association fondée par Me <b>Di Vizio</b> pour représenter les non vaccinés et les suspendus et garder l'espérance.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>etranger</Tag>
-         <Tag>action</Tag>
-         <Titre>DISCERNACTION</Titre>
-         <Lien>https://www.discernaction.com</Lien>
-         <Presentation>
-            <p>Sélection de contenus sur la pandémie de COVID-19 destinée à favoriser les décisions libres et éclairées. Site Canadien pour coordonner des actions.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>action</Tag>
-         <Titre>Citoyens informés</Titre>
-         <Lien>https://www.citoyens-informes.fr</Lien>
-         <Presentation>
-            <p>Site proposant des ressources pour militer et des liens vers d'autres collectifs. Créé initialement pour faire connaître les scientifiques censurés depuis le début de la crise sanitaire.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>étudiants</Tag>
-         <Titre>Étudiants Militants Libres et Unis</Titre>
-         <Lien>https://emlu.org</Lien>
-         <Presentation>
-            <p>Collectif pour la protection des droits fondamentaux des étudiants. Les EMLU ont également des boucles telegram locales indiquées sur leur site.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>photographes</Tag>
-         <Tag>action</Tag>
-         <Titre>Les Essentiels</Titre>
-         <Lien>https://lesessentiels.org</Lien>
-         <Presentation>
-            <p>Collectif d'artistes qui donne une voix à tous les essentiels, pompiers, soignants, personnel médical qui ont été suspendus.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>etranger</Tag>
-         <Tag>réinformation</Tag>
-         <Titre>Réinfo Santé Suisse International</Titre>
-         <Lien>https://www.reinfosante.ch</Lien>
-         <Presentation>
-            <p>Collectif regroupant des professionnels de la santé de différents domaines d’activité, soucieux de partager des informations fiables, indépendantes et transparentes au sein des communautés médicales et paramédicales.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>blog</Tag>
-         <Titre>Changer, pour de vrai</Titre>
-         <Lien>https://une-vraie-politique-pour-notre-pays.net</Lien>
-         <Presentation>
-            <p>Blog d'analyse politique et de proposition</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>blog</Tag>
-         <Titre>Sceptique</Titre>
-         <Lien>http://www.sceptique.fr</Lien>
-         <Presentation>
-            <p>Blog tenu durant la première année de la crise du Covid, initialement sur Mediapart par un abonné mais sorti lorsque le journal que soi-disant seuls ses lecteurs peuvent acheter s'est mis à censurer à tout va tous les commentaires sur le vermifuge pour chevaux le plus connu du monde !</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>juridique</Tag>
-         <Tag>professionnel</Tag>
-         <Titre>Navigants libres</Titre>
-         <Lien>https://navigantslibres.fr</Lien>
-         <Presentation>
-            <p>Collectif pour les pilotes, hôtesses et stewards, personnels navigants de contrat français oppposés aux passes.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>juridique</Tag>
-         <Tag>droit</Tag>
-         <Titre>Révoludroit</Titre>
-         <Lien>https://revoludroit.fr</Lien>
-         <Presentation>
-            <p>Site pour expliquer la Réforme des Institutions modélisée par <b>Valérie Bugault</b> depuis plus de 20 ans et s'orienter vers des groupements ou collectifs locaux pour la mettre en oeuvre.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>résilience</Tag>
-         <Tag>solidarité</Tag>
-         <Titre>Réseau Solaris</Titre>
-         <Lien>https://solaris-france.org</Lien>
-         <Presentation>
-            <p>"Internet Humain" pour constituer des groupes locaux prêts à s'entraider reliés en réseau. Chaque groupe est basé sur 2 ou 3 référents qui disposent d'un annuaire des compétences des membres du groupe et qui vous aiguilleront pour trouver des réponses à vos demandes d'assistance. Basé sur la bienveillance et le bénévolat.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>entraide</Tag>
-         <Titre>YakaSaider</Titre>
-         <Lien>http://www.yakasaider.fr</Lien>
-         <Presentation>
-            <p>Echange de services entre particuliers.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>Vendée</Tag>
-         <Tag>thematique</Tag>
-         <Tag>entraide</Tag>
-         <Tag>regional</Tag>
-         <Titre>Les ateliers d'un notre monde</Titre>
-         <Lien>https://lesateliersdunnotremonde.com</Lien>
-         <Presentation>
-            <p>Organisation et gestion des inscriptions à des ateliers pour partager, apprendre ensemble et se rencontrer pour former des noyaux de citoyens autonomes, solidaires, responsables, et coopératifs. Présents sur la Vendée.</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>syndicat</Tag>
-         <Titre>#SGJ</Titre>
-         <Lien>https://syndicatgj.fr</Lien>
-         <Presentation>
-            <p>Le Syndicat des Gilets Jaunes</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>professionnel</Tag>
-         <Tag>élus</Tag>
-         <Titre>Le collectif des maires Résistants</Titre>
-         <Lien>https://lcdmr.fr/</Lien>
-         <Presentation>
-            <p>Regroupement des élus de France pour le retour aux principes démocratiques et constitutionnels que nos gouvernants ont piétinés.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>élus</Tag>
-         <Titre>Elus Locaux pour la Défense des Libertés Fondamentales</Titre>
-         <Lien>https://eluslocaux.wixsite.com</Lien>
-         <Presentation>
-            <p>Prolongement de la tribune publiée le 19 octobre sur le site du Figaro et cosignée alors par 120 élus de Haute-Savoie le 19 octobre 2021. Aujourd'hui cette tribune est à plus de 260 signatures.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>professionnel</Tag>
-         <Tag>élus</Tag>
-         <Tag>citoyens</Tag>
-         <Titre>S.O.S. Maires</Titre>
-         <Lien>https://sosmaires.org</Lien>
-         <Presentation>
-            <p>Groupe de citoyens engagés pour aider et inciter les maires et tous les acteurs de la société civile à organiser la résilience face aux crises actuelles.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>thematique</Tag>
-         <Tag>professionnel</Tag>
-         <Tag>fdo</Tag>
-         <Titre>Police pour la Vérité</Titre>
-         <Lien>https://www.police-pour-la-verite.org</Lien>
-         <Presentation>
-            <p>Association créée par des membres des forces de l'ordre pour "Rassurer les résistants et rallier les hésitants" et "Unir et Soutenir tous nos camarades des forces de sécurité".</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>etranger</Tag>
-         <Tag>action</Tag>
-         <Titre>NBD</Titre>
-         <Lien>https://notrebondroit.be</Lien>
-         <Presentation>
-            <p>NBD (Notre Bon Droit) est un site Belge initié par un juriste, une infirmière, un parent qui veulent lancer une alliance de citoyens européens pour la défense de notre état de droit. Informations et actions. Dossier sur la <a href="https://notrebondroit.be/action-certificat-numerique-europeen">Consultation publique européenne sur la prolongation du certificat numérique européen jusqu'au 30 juin 2023.</a>.</p>
-         </Presentation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>territoire</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Tag>monnaie locale</Tag>
-         <Titre>Le VendéO ? Une monnaie locale à adopter...</Titre>
-         <Lien>https://demain-vendee.fr/le-vendeo-une-monnaie-locale-adopter/</Lien>
-         <Presentation>
-            <p>Le VendéO, est la première monnaie locale complémentaire créée en Vendée en 2017, comme de multiples autres exemples <a href="http://monnaie-locale-complementaire-citoyenne.net/france/">partout en France</a>.</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-      <Site>
-         <Rubrique>Collectif</Rubrique>
-         <Tag>territoire</Tag>
-         <Tag>Vendée</Tag>
-         <Tag>regional</Tag>
-         <Tag>producteurs</Tag>
-         <Titre>Bon Plan Bio</Titre>
-         <Lien>https://bonplanbio.fr</Lien>
-         <Presentation>
-            <p>Site répertoriant des producteurs Bio en Vendée (et sur toute la France). Site et carte développée par différents Groupements Régionaux d’agriculteurs bio.</p>
-         </Presentation>
-         <Localisation>
-            <Pays>France</Pays>
-            <Departement>85</Departement>
-         </Localisation>
-      </Site>
-   </Ressources>
+  <Ressources>
+    <Site>
+      <Titre>Comité Santé Liberté Vendée 85</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>cslv 85</Groupe>
+      <Tag>Vendée</Tag>
+      <Tag>liaison</Tag>
+      <Lien>http://www.comitesantelibertevendee.fr</Lien>
+      <Contact>contact@comitesantelibertevendee.fr</Contact>
+      <Telegram>
+        <Contact>telegram@comitesantelibertevendee.fr</Contact>
+      </Telegram>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Ce collectif (groupe telegram CSLV 85, groupe WhatsApp CSL 85, organisation d'actions diverses)</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif soignants résistants</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>cslv 85</Groupe>
+      <Tag>soignants</Tag>
+      <Tag>Vendée</Tag>
+      <Contact>Contact@soignantsresistants85.fr</Contact>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Groupe pour rassembler les soignants sur la Vendée pour mettre fin aux discriminations, améliorer la situation des soignants et améliorer la coopération entre citoyens et soignants</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif convivialité</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>cslv 85</Groupe>
+      <Tag>action</Tag>
+      <Tag>Vendée</Tag>
+      <Contact>convivialite@comitesantelibertevendee.fr</Contact>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Groupe pour tous ceux souhaitant organiser des événements pour se retrouver dans la bonne humeur</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif éveil des consciences</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>cslv 85</Groupe>
+      <Tag>réinformation</Tag>
+      <Tag>Vendée</Tag>
+      <Contact>eveil@comitesantelibertevendee.fr</Contact>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Groupe pour créer les arguments et les outils pour lutter la discrimination, la soumission et la division</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif stratégie et action de terrain</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>cslv 85</Groupe>
+      <Tag>action</Tag>
+      <Tag>Vendée</Tag>
+      <Contact>actions@comitesantelibertevendee.fr</Contact>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Groupe pour Organiser des actions de sensibilisation et d'information sur le terrain; Rencontrer des acteurs de la société (restaurateurs, police, etc.); Imaginer des actions pour soutenir les usagers exclus par le passe sanitaire</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif jeunesse et famille</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>cslv 85</Groupe>
+      <Tag>jeunes</Tag>
+      <Tag>Vendée</Tag>
+      <Contact>jeunesse@comitesantelibertevendee.fr</Contact>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Groupe pour Sensibiliser et motiver les jeunes pour l’action; Organiser des temps de sport et de convivialité entre jeunes</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif parents (famille)</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>cslv 85</Groupe>
+      <Tag>parents</Tag>
+      <Tag>Vendée</Tag>
+      <Contact>parents@comitesantelibertevendee.fr</Contact>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Groupe pour S’investir dans les associations de parents d’élèves; Donner aux parents des arguments pour rencontrer les enseignants et les chefs d’établissements</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif Santé Saint-Nazaire</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>régional</Groupe>
+      <Lien>https://www.facebook.com/groups/1207761203011098/about</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>44</Departement>
+      </Localisation>
+      <Presentation>
+        <p>collectif de Saint-Nazaire hostile à l’obligation vaccinale et au pass sanitaire, actif, avec une page FB publique</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>ToutVaBien44</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>régional</Groupe>
+      <Lien>https://www.toutvabien44.org/</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>44</Departement>
+      </Localisation>
+      <Presentation>
+        <p>collectif Nantais de collectifs locaux mobilisés pour se coordonner afin de préserver nos libertés fondamentales</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Forum Parents Attentifs (44)</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>régional</Groupe>
+      <Lien>https://parents-attentifs-44.forumactif.com/</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>44</Departement>
+      </Localisation>
+      <Presentation>
+        <p>lieu d'écoute, d'échange et d'entraide du réseau parents attentifs 44</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif Santé Mauges</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>régional</Groupe>
+      <Lien>https://www.collectifsantemauges.fr/</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>49</Departement>
+      </Localisation>
+      <Presentation>
+        <p>autour de Cholet</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif NoPass24</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>régional</Groupe>
+      <Lien>https://nopass24.fr/a-propos/</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>24</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Collectif citoyen luttant pour le respect des libertés.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectif Oxygene Aquitaine</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>régional</Groupe>
+      <Lien>https://oxygene.collectifaquitaine.fr/blog/</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>24</Departement>
+        <Departement>47</Departement>
+        <Departement>33</Departement>
+      </Localisation>
+      <Presentation>
+        <p>un groupe d’adultes, concernés par la santé et le bien-être des enfants (parents, enseignants, soignants, grands-parents, ...)</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>BPAV</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>régional</Groupe>
+      <Lien>https://bretagnepiqueeauvif.sitew.fr</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>35</Departement>
+      </Localisation>
+      <Presentation>
+        <p>association Bretonne ayant démarré en 2020 dans le cadre de la gestion de la crise sanitaire</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Comité de défense des droits civiques</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>régional</Groupe>
+      <Lien>https://comitededefensedesdroitsciviques56.wordpress.com/</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>56</Departement>
+      </Localisation>
+      <Presentation>
+        <p>diffusion d'un travail documentaire « Par le bout du nez » L’histoire du covid 19 ~tout n’est que théâtre~ (et souffrance) formant un memento d'environ 200 liens qui dévoile l'opération en cours dixit les auteurs</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Collectifreedom Pompier 74</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>régional</Groupe>
+      <Tag>régional</Tag>
+      <Lien>https://www.facebook.com/Collectifreedom-Pompier-74-104141155323355</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>74</Departement>
+      </Localisation>
+      <Presentation>
+        <p>collectif de pompiers de Haute-Savoie</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Bibliothèque Liberté 77</Titre>
+      <Rubrique>Annuaire</Rubrique>
+      <Tag>liens</Tag>
+      <Lien>https://liberte77.fr/bibliotheque/</Lien>
+      <Presentation>
+        <p>Bibliothèque d'information de Seine-et-Marne pour l'expansion de la liberté</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Coordination Santé Libre</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>santé</Groupe>
+      <Tag>traitement</Tag>
+      <Lien>https://stopcovid19.today</Lien>
+      <Presentation>
+        <p>Collectif Covid-19 laissons les médecins prescrire qui regroupe des médecins, libéraux mais aussi hospitaliers répartis sur l’ensemble du territoire. Aussi connus pour leur proposition de traitement en prévention ou ambulatoire précoce Covid-19 (voir la rubrique "<a href="https://stopcovid19.today/coordination-sante-libre/">Coordination Santé Libre</a>" sur le site).</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Covisoins</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>santé</Groupe>
+      <Tag>traitement</Tag>
+      <Lien>https://covisoins.fr</Lien>
+      <Presentation>
+        <p>Réseau de soins ambulatoires multidisciplinaire (médecins, infirmiers, sages-femmes, kinésithérapeutes, aides à domicile, etc…) pour la prise en charge du Covid. En cours de constitution.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Soignants Militants,  Libres &amp; Unis</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>santé</Groupe>
+      <Tag>professionnel</Tag>
+      <Tag>soignants</Tag>
+      <Lien>https://www.smlu.org</Lien>
+      <Contact>collectif@smlu.org</Contact>
+      <Presentation>
+        <p>Groupe pour l'échange sur des retours d'expérience terrain entre personnel médical.</p>
+      </Presentation>
+      <Ajout>2022-05-05</Ajout>
+    </Site>
+    <Site>
+      <Titre>Education pour le bien des enfants</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>professionnel</Groupe>
+      <Tag>enfance</Tag>
+      <Tag>enseignants</Tag>
+      <Lien>https://www.educationpourlebiendesenfants.fr/</Lien>
+      <Presentation>
+        <p>Collectif des professionnels de l’éducation</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Enfance &amp; Liberté</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>enfance</Tag>
+      <Tag>enseignants</Tag>
+      <Tag>parents</Tag>
+      <Lien>https://enfance-libertes.fr/</Lien>
+      <Presentation>
+        <p>Parents, professionnels de l’Education et professionnels de Santé, modèles de courrier</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Parents 21 France</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>enfance</Tag>
+      <Tag>parents</Tag>
+      <Lien>https://www.parents21.fr/rentree-scolaire-2021</Lien>
+      <Presentation>
+        <p>Aux côtés d'Enfance &amp; Libertés - Union des Collectifs, lien vers leur page spécial Rentrée Scolaire 2021</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Childrens Health Defense</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>international</Groupe>
+      <Tag>enfance</Tag>
+      <Lien>https://childrenshealthdefense.eu/?lang=fr</Lien>
+      <Presentation>
+        <p>Protection de l'enfance</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Association Reinfo Covid</Titre>
+      <Rubrique>Association</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>réinformation</Tag>
+      <Tag>santé</Tag>
+      <Lien>https://reinfocovid.fr/</Lien>
+      <Presentation/>
+    </Site>
+    <Site>
+      <Titre>Association BonSens</Titre>
+      <Rubrique>Association</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>réinformation</Tag>
+      <Tag>juridique</Tag>
+      <Tag>lutte</Tag>
+      <Lien>https://bonsens.org/</Lien>
+      <Presentation/>
+    </Site>
+    <Site>
+      <Titre>Reaction19</Titre>
+      <Rubrique>Association</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>juridique</Tag>
+      <Tag>lutte</Tag>
+      <Lien>https://reaction19.fr/</Lien>
+      <Presentation>
+        <p>association mettant en œuvre de moyens juridiques et judiciaires pour des actions individuelles et collectives, ayant un lien avec les mesures prises pour lutter contre la « pandémie » de la COVID19</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Ligue Nationale pour la Liberté des Vaccinations</Titre>
+      <Rubrique>Association</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>juridique</Tag>
+      <Tag>lutte</Tag>
+      <Lien>https://www.infovaccin.fr/06-08-2021-guide-juridique.html</Lien>
+      <Presentation>
+        <p>Guide juridique pour la liberté vaccinale, modèles de courrier pour contrer l'obligation vaccinale</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Le réseau de Santé Libre et Citoyen</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>santé</Groupe>
+      <Tag>traitement</Tag>
+      <Lien>https://sante-libre.org</Lien>
+      <Presentation>
+        <p>Le mouvement Santé Libre, ce sont des milliers de praticiens de santé qui souhaitent conseiller et accompagner librement. Ces praticiens sont sortis d’un système en déperdition pour redonner du sens à leur passion : mettre l’humain au centre des attentions</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Syndicat Liberté Santé</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>santé</Groupe>
+      <Tag>syndicat</Tag>
+      <Lien>https://www.syndicat-liberte-sante.com/</Lien>
+      <Presentation>
+        <p>Syndicat créé pour la défense de l’ensemble des professionnels de santé et professions connexes contre la défiguration du secret médical, du libre consentement au soin et de l’indépendance professionnelle</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>sifflons.ch</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>international</Groupe>
+      <Tag>action</Tag>
+      <Lien>https://sifflons.ch/raison/</Lien>
+      <Presentation>
+        <p>initiative Suisse d'organiser une manifestation visuelle permanente autour d'un logo pour faire prendre consience des mesures disproportionnées et abusives du gouvernement. Initiative assez proche de <a href="https://t.me/laroseblancheFR">La Rose Blanche</a> pour la France.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>La chaîne humaine</Titre>
+      <Rubrique>Média</Rubrique>
+      <Tag>media</Tag>
+      <Lien>https://www.lachainehumaine.com/</Lien>
+      <Presentation>
+        <p>association qui s'engage à respecter la charte de déontologie de Munich (le premier devoir du journaliste est le respect de la vérité, le journaliste ne doit jamais confondre le métier de journaliste avec celui du publicitaire ou du propagandiste, ...)</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Mamans Louves</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>Vendée</Groupe>
+      <Tag>enfance</Tag>
+      <Lien>https://mamanslouves.com</Lien>
+      <Contact>fleurdevie8@gmail.com</Contact>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Mouvement destiné à créer des rassemblements nationaux et des actions efficaces entre « mamans-louves » pour reprendre nos droits de décision sur le bien-être et l’avenir de nos enfants.</p>
+        <p>Les actions de communication à grande échelle sont organisées par les Mamans Louves pour fédérer, rassembler et donner de l'espoir à tous les parents grands parents. Les papas sont bienvenus aussi même s'ils ne sont pas visibles médiatiquement !</p>
+        <p>Le mouvement possède une <b>référente départementale</b> pour la Vendée. N'hésitez pas à la contacter.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Le jardin d'échange Mortagnais</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>Vendée</Groupe>
+      <Tag>entraide</Tag>
+      <Lien>https://seljeu.levillage.org</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Plateforme d'entraide et de mise en réseau basée sur les compétences et les projets de chacun</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Groupe RSA La Roche Sur Yon</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>Vendée</Groupe>
+      <Tag>entraide</Tag>
+      <Lien>https://reseausolidarite.wixsite.com/rsafrance/post/la-déclaration-du-réseau-de-solidarité-active-rsa</Lien>
+      <Telegram>
+        <Lien>https://t.me/joinchat/LerguxzMNn2jFgz5K2za8Q</Lien>
+      </Telegram>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>L'objectif du Réseau de Solidarité Active (RSA) est de renforcer la solidarité entre les gens au niveau local, et de favoriser la mise en place d'actions. Chaque groupe couvre un zone géographique d'un rayon de 25 km.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Ivermectine Covid</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>international</Groupe>
+      <Tag>réinformation</Tag>
+      <Tag>traitement</Tag>
+      <Lien>https://ivermectine-covid.ch</Lien>
+      <Presentation>
+        <p>site Suisse avec de nombreuses resources sur les traitements à base d'Ivermectine. La section <a href="https://ivermectine-covid.ch/temoignages-de-medecins/">Témoignages de médecins</a> contient de nombreuses interviews de médecins reconnus du monde entier.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Rester libre</Titre>
+      <Rubrique>Association</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>réinformation</Tag>
+      <Tag>juridique</Tag>
+      <Tag>lutte</Tag>
+      <Lien>http://resterlibre.org</Lien>
+      <Presentation>
+        <p>Association créée par <b>Éric Verhaeghe</b> en novembre 2021, pour coordonner des actions. L'adhésion à 10 euros donne accès à un forum de discussion.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Je ne suis pas un danger</Titre>
+      <Rubrique>Association</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>juridique</Tag>
+      <Tag>lutte</Tag>
+      <Lien>https://jenesuispasundanger.com</Lien>
+      <Presentation>
+        <p>Association fondée par Me <b>Di Vizio</b> pour représenter les non vaccinés et les suspendus et garder l'espérance.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>DISCERNACTION</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>international</Groupe>
+      <Tag>action</Tag>
+      <Tag>réinformation</Tag>
+      <Lien>https://www.discernaction.com</Lien>
+      <Presentation>
+        <p>Sélection de contenus sur la pandémie de COVID-19 destinée à favoriser les décisions libres et éclairées. Site Canadien pour coordonner des actions.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Citoyens informés</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>action</Tag>
+      <Tag>resources</Tag>
+      <Lien>https://www.citoyens-informes.fr</Lien>
+      <Presentation>
+        <p>Site proposant des ressources pour militer et des liens vers d'autres collectifs. Créé initialement pour faire connaître les scientifiques censurés depuis le début de la crise sanitaire.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Étudiants Militants Libres et Unis</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>étudiants</Tag>
+      <Tag>jeunes</Tag>
+      <Tag>lutte</Tag>
+      <Lien>https://emlu.org</Lien>
+      <Presentation>
+        <p>Collectif pour la protection des droits fondamentaux des étudiants. Les EMLU ont également des boucles telegram locales indiquées sur leur site.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Les Essentiels</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>photographes</Tag>
+      <Tag>action</Tag>
+      <Tag>lutte</Tag>
+      <Tag>soignants</Tag>
+      <Lien>https://lesessentiels.org</Lien>
+      <Presentation>
+        <p>Collectif d'artistes qui donne une voix à tous les essentiels, pompiers, soignants, personnel médical qui ont été suspendus.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Réinfo Santé Suisse International</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>international</Groupe>
+      <Tag>réinformation</Tag>
+      <Tag>santé</Tag>
+      <Lien>https://www.reinfosante.ch</Lien>
+      <Presentation>
+        <p>Collectif regroupant des professionnels de la santé de différents domaines d’activité, soucieux de partager des informations fiables, indépendantes et transparentes au sein des communautés médicales et paramédicales.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Changer, pour de vrai</Titre>
+      <Rubrique>Blog</Rubrique>
+      <Tag>membre cslv</Tag>
+      <Lien>https://une-vraie-politique-pour-notre-pays.net</Lien>
+      <Presentation>
+        <p>Blog d'analyse politique et de proposition.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Sceptique</Titre>
+      <Rubrique>Blog</Rubrique>
+      <Tag>membre cslv</Tag>
+      <Lien>http://www.sceptique.fr</Lien>
+      <Presentation>
+        <p>Blog tenu durant la première année de la crise du Covid, initialement sur Mediapart par un abonné mais sorti lorsque le journal que soi-disant seuls ses lecteurs peuvent acheter s'est mis à censurer à tout va les commentaires sur les traitements covid</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Navigants libres</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>professionnel</Groupe>
+      <Tag>juridique</Tag>
+      <Tag>naviguants</Tag>
+      <Lien>https://navigantslibres.fr</Lien>
+      <Presentation>
+        <p>Collectif pour les pilotes, hôtesses et stewards, personnels navigants de contrat français oppposés aux passes.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Révoludroit</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>juridique</Tag>
+      <Tag>droit</Tag>
+      <Lien>https://revoludroit.fr</Lien>
+      <Presentation>
+        <p>Site pour expliquer la Réforme des Institutions modélisée par <b>Valérie Bugault</b> depuis plus de 20 ans et s'orienter vers des groupements ou collectifs locaux pour la mettre en oeuvre.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Réseau Solaris</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>Vendée</Groupe>
+      <Tag>résilience</Tag>
+      <Tag>entraide</Tag>
+      <Tag>réseau</Tag>
+      <Lien>https://solaris-france.org</Lien>
+      <Presentation>
+        <p>"Internet Humain" pour constituer des groupes locaux prêts à s'entraider reliés en réseau. Chaque groupe est basé sur 2 ou 3 référents qui disposent d'un annuaire des compétences des membres du groupe et qui vous aiguilleront pour trouver des réponses à vos demandes d'assistance. Basé sur la bienveillance et le bénévolat.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>YakaSaider</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>entraide</Tag>
+      <Lien>http://www.yakasaider.fr</Lien>
+      <Presentation>
+        <p>Echange de services entre particuliers.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Les ateliers d'un notre monde</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>Vendée</Groupe>
+      <Tag>entraide</Tag>
+      <Tag>réseau</Tag>
+      <Tag>ateliers</Tag>
+      <Lien>https://lesateliersdunnotremonde.com</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Organisation et gestion des inscriptions à des ateliers pour partager, apprendre ensemble et se rencontrer pour former des noyaux de citoyens autonomes, solidaires, responsables, et coopératifs. Présents sur la Vendée.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>#SGJ</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>national</Groupe>
+      <Tag>syndicat</Tag>
+      <Lien>https://syndicatgj.fr</Lien>
+      <Presentation>
+        <p>Le Syndicat des Gilets Jaunes</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Le collectif des maires Résistants</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>professionnel</Groupe>
+      <Tag>élus</Tag>
+      <Lien>https://lcdmr.fr/</Lien>
+      <Presentation>
+        <p>Regroupement des élus de France pour le retour aux principes démocratiques et constitutionnels que nos gouvernants ont piétinés.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Elus Locaux pour la Défense des Libertés Fondamentales</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>professionnel</Groupe>
+      <Tag>élus</Tag>
+      <Lien>https://eluslocaux.wixsite.com</Lien>
+      <Presentation>
+        <p>Prolongement de la tribune publiée le 19 octobre sur le site du Figaro et cosignée alors par 120 élus de Haute-Savoie le 19 octobre 2021. Aujourd'hui cette tribune est à plus de 260 signatures.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>S.O.S. Maires</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>professionnel</Groupe>
+      <Tag>élus</Tag>
+      <Lien>https://sosmaires.org</Lien>
+      <Presentation>
+        <p>Groupe de citoyens engagés pour aider et inciter les maires et tous les acteurs de la société civile à organiser la résilience face aux crises actuelles.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Police pour la Vérité</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>professionnel</Groupe>
+      <Tag>fdo</Tag>
+      <Lien>https://www.police-pour-la-verite.org</Lien>
+      <Presentation>
+        <p>Association créée par des membres des forces de l'ordre pour "Rassurer les résistants et rallier les hésitants" et "Unir et Soutenir tous nos camarades des forces de sécurité".</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>NBD</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>international</Groupe>
+      <Tag>action</Tag>
+      <Tag>juridique</Tag>
+      <Tag>resources</Tag>
+      <Lien>https://notrebondroit.be</Lien>
+      <Presentation>
+        <p>NBD (Notre Bon Droit) est un site Belge initié par un juriste, une infirmière, un parent qui veulent lancer une alliance de citoyens européens pour la défense de notre état de droit. Informations et actions. Dossier sur la <a href="https://notrebondroit.be/action-certificat-numerique-europeen">Consultation publique européenne sur la prolongation du certificat numérique européen jusqu'au 30 juin 2023.</a>.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Association pour une Monnaie Locale Complémentaire Citoyenne en Vendée</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>Vendée</Groupe>
+      <Tag>monnaie</Tag>
+      <Lien>https://www.mlcc85.org</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Le <a href="https://demain-vendee.fr/le-vendeo-une-monnaie-locale-adopter/">VendéO</a>, est la première monnaie locale complémentaire créée en Vendée en 2017, comme de multiples autres exemples <a href="http://monnaie-locale-complementaire-citoyenne.net/france/">partout en France</a>.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Bon Plan Bio</Titre>
+      <Rubrique>Autonomie</Rubrique>
+      <Groupe>producteur</Groupe>
+      <Tag>Vendée</Tag>
+      <Tag>maraîchage</Tag>
+      <Lien>https://bonplanbio.fr</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Site répertoriant des producteurs Bio en Vendée (et sur toute la France). Site et carte développée par différents Groupements Régionaux d’agriculteurs bio.</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Ferme pédagogique Permabocage</Titre>
+      <Rubrique>Autonomie</Rubrique>
+      <Groupe>permaculture</Groupe>
+      <Tag>ateliers</Tag>
+      <Lien>https://www.permabocage.fr</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>44</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Partage, agroforesterie et vie sauvage</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>Maitre Virginie de Araujo Recchia</Titre>
+      <Rubrique>Blog</Rubrique>
+      <Tag>juridique</Tag>
+      <Tag>droit</Tag>
+      <Lien>https://dar-avocats.com/</Lien>
+      <Presentation>
+        <p>Le blog de l'avocate du même nom avec des liens vers les traductions du Grand-Jury, une description des plaintes en cours, et des liens vers les  « Capsules de Maître X » sur l'actualité juridique Covid...</p>
+      </Presentation>
+    </Site>
+    <Site>
+      <Titre>The testimonies project</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>victimes</Tag>
+      <Lien>https://www.vaxtestimonies.org/en/</Lien>
+      <Presentation>
+        <p>Témoignages vidéos de victimes d'effet secondaires de la vaccination (en Israel, sous-titré en anglais).</p>
+      </Presentation>
+      <Ajout>2021-11-12</Ajout>
+    </Site>
+    <Site>
+      <Titre>Etincelles.be</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>victimes</Tag>
+      <Lien>https://etincelles.be</Lien>
+      <Presentation>
+        <p>Plus de 800 témoignages d'effets secondaires récoltés sur des réseaux sociaux tels que Facebook, Twitter, Instagram, Tik Tok.</p>
+      </Presentation>
+      <Ajout>2021-11-12</Ajout>
+    </Site>
+    <Site>
+      <Titre>Verity-France</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>victimes</Tag>
+      <Lien>https://www.verity-france.org</Lien>
+      <Presentation>
+        <p>Collectif créé par des parents de victimes des vaccins anti-Covid pour rechercher la vérité</p>
+      </Presentation>
+      <Ajout>2021-11-17</Ajout>
+    </Site>
+    <Site>
+      <Titre>Morts après vaccination</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>victimes</Tag>
+      <Lien>https://mortsapresvaccination.wordpress.com</Lien>
+      <Presentation>
+        <p>blog répertoriant des victimes dans le monde entier, coupures de presse ou copies d'écran à l'appui.</p>
+      </Presentation>
+      <Ajout>2022-03-28</Ajout>
+    </Site>
+    <Site>
+      <Titre>No More Silence</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>victimes</Tag>
+      <Lien>https://nomoresilence.world</Lien>
+      <Presentation>
+        <p>Site (en anglais) de témoignages (texte ou video) de victimes du monde entier des injections.</p>
+      </Presentation>
+      <Ajout>2021-12-03</Ajout>
+    </Site>
+    <Site>
+      <Titre>Effets secondaires vaccins covid-19</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>victimes</Tag>
+      <Lien>https://effets-secondaires-vaccins-covid.org</Lien>
+      <Presentation>
+        <p>Plus de 800 témoignages écrits, à ce jour, d'effets secondaires (en Français)</p>
+      </Presentation>
+      <Ajout>2021-12-09</Ajout>
+    </Site>
+    <Site>
+      <Titre>Liste d'articles de presse</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>presse</Tag>
+      <Lien>https://www.comitesantelibertevendee.fr/victimes.html</Lien>
+      <Presentation>
+        <p>Une liste d'articles parus dans la presse locale ou nationale relatant des faits divers inquiétants.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+    </Site>
+    <Site>
+      <Titre>Sportifs en danger</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>document</Tag>
+      <Lien>https://sportifs-en-danger.fr/Liste.pdf</Lien>
+      <Presentation>
+        <p>Sportifs décédés ou gravement blessés au point d’arrêter ou suspendre leur carrière après vaccination -
+professionnels et olympiques.Amateurs décédés pendant la pratique d’une activité physique.</p>
+        <p>Liste collectée par des volontaires sur un canal telegram et mise à jour régulièrement.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+    </Site>
+    <Site>
+      <Titre>Initiative Nord Ouest Vendée Environnement Ecologie (Inoveé)</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>Vendée</Groupe>
+      <Tag>écologie</Tag>
+      <Tag>rencontres</Tag>
+      <Lien>https://inovee.fr</Lien>
+      <Localisation>
+        <Pays>Pays</Pays>
+        <Departement>85</Departement>
+      </Localisation>
+      <Presentation>
+        <p>Inoveé, est une association motivée par l'engagement citoyen, environnemental et écologiste. Nous organisons des cafés citoyens, des débats, des rencontres, ouverts à tous et toutes, dans le respect des expressions de chacun et chacune, de nos convictions.  Nos sujets de prédilection sont toujours en rapport au monde, au vivre ensemble ici, localement, avec le désir de protéger les générations futures. Nous agissons, en organisant, en défilant, en dénonçant, en communiquant. Et nous travaillons sur les enquêtes publiques, en déposant des courriers argumentés!</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+    </Site>
+    <Site>
+      <Titre>Université Francophone de l'Autonomie Alimentaire</Titre>
+      <Rubrique>Autonomie</Rubrique>
+      <Groupe>permaculture</Groupe>
+      <Tag>alimentation</Tag>
+      <Tag>conférences</Tag>
+      <Lien>http://www.autonomiealimentaire.info</Lien>
+      <Presentation>
+        <p>Blog sur l'autonomie alimentaire, les auteurs donnent aussi des conférences sur le sujet.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+    </Site>
+    <Site>
+      <Titre>Crise Covid – Les professionnels de santé intègres</Titre>
+      <Rubrique>Annuaire</Rubrique>
+      <Tag>santé</Tag>
+      <Tag>liens</Tag>
+      <Lien>https://destyneo.com/les-professionnels-de-sante-integres/</Lien>
+      <Presentation>
+        <p>Liste de liens vers les professionnels de santé qui sont restés intègres et ont respecté le <a href="https://www.conseil-national.medecin.fr/medecin/devoirs-droits/serment-dhippocrate">serment d’Hippocrate</a>, ainsi que tous les collectifs de professionnels de la santé, les associations, etc.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+    </Site>
+    <Site>
+      <Titre>Victimodrome</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>victimes</Tag>
+      <Lien>https://victimodrome.com</Lien>
+      <Presentation>
+        <p>Articles et témoignages de France et d'ailleurs.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+    </Site>
+  </Ressources>
 </Bibliotheque>

@@ -1557,5 +1557,42 @@
       <Ajout>2022-04-27</Ajout>
       <Publication>2022-04-19</Publication>
     </Video>
+    <Video>
+      <Titre>Revues Citoyennes</Titre>
+      <Duree>
+        <H>-</H>
+        <M>-</M>
+        <S>-</S>
+      </Duree>
+      <Rubrique>Chaîne</Rubrique>
+      <Page>
+        <Lien>https://odysee.com/@RevuesCitoyennes:b</Lien>
+      </Page>
+      <Presentation>
+        <p>Des synthèses en vidéo sur des lanceurs d’alerte et des journalistes d’investigation.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+    </Video>
+    <Video>
+      <Titre>La sécession...contre l’obéissance...</Titre>
+      <Duree>
+        <H>1</H>
+        <M>15</M>
+        <S>-</S>
+      </Duree>
+      <Intervenants>
+        <Nom>Éric Verhaeghe</Nom>
+      </Intervenants>
+      <Rubrique>Lutte</Rubrique>
+      <Tag>conférence</Tag>
+      <Page>
+        <Lien>https://www.youtube.com/watch?v=fck13QyvDGc</Lien>
+      </Page>
+      <Presentation>
+        <p>Conférence débat qui développe l'idée de la sécession psychique contre l’obéissance psychique à partir de comparaisons historiques.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+      <Publication>2022-03-16</Publication>
+    </Video>
   </Ressources>
 </Bibliotheque>

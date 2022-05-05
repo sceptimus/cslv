@@ -405,36 +405,6 @@
       <Publication>2021-09-21</Publication>
     </Article>
     <Article>
-      <Titre>The testimonies project</Titre>
-      <Auteurs>
-        <Nom>Site web</Nom>
-      </Auteurs>
-      <Rubrique>Témoignages</Rubrique>
-      <Tag>victimes</Tag>
-      <Page>
-        <Lien>lien</Lien>
-      </Page>
-      <Presentation>
-        <p>Témoignages vidéos de victimes d'effet secondaires de la vaccination (en Israel, sous-titré en anglais).</p>
-      </Presentation>
-      <Ajout>2021-11-12</Ajout>
-    </Article>
-    <Article>
-      <Titre>Etincelles.be</Titre>
-      <Auteurs>
-        <Nom>Site web</Nom>
-      </Auteurs>
-      <Rubrique>Témoignages</Rubrique>
-      <Tag>victimes</Tag>
-      <Page>
-        <Lien>https://etincelles.be</Lien>
-      </Page>
-      <Presentation>
-        <p>Plus de 800 témoignages d'effets secondaires récoltés sur des réseaux sociaux tels que Facebook, Twitter, Instagram, Tik Tok.</p>
-      </Presentation>
-      <Ajout>2021-11-12</Ajout>
-    </Article>
-    <Article>
       <Titre>L’élite mondiale « craint qu’une rébellion ne couve », déclare le PDG d’un grand constructeur de bunkers anti-apocalypse</Titre>
       <Auteurs>
         <Nom>Site web</Nom>
@@ -562,52 +532,6 @@
       <Publication>2021-11-13</Publication>
     </Article>
     <Article>
-      <Titre>Verity France</Titre>
-      <Auteurs>
-        <Nom>Site Web</Nom>
-      </Auteurs>
-      <Rubrique>Témoignages</Rubrique>
-      <Tag>victimes</Tag>
-      <Page>
-        <Lien>https://www.verity-france.org</Lien>
-      </Page>
-      <Presentation>
-        <p>Site créé par les parents de victimes des injections.</p>
-      </Presentation>
-      <Ajout>2021-11-17</Ajout>
-      <Publication>2021-10-29</Publication>
-    </Article>
-    <Article>
-      <Titre>Morts après vaccination</Titre>
-      <Auteurs>
-        <Nom>Site Web</Nom>
-      </Auteurs>
-      <Rubrique>Témoignages</Rubrique>
-      <Tag>victimes</Tag>
-      <Page>
-        <Lien>https://mortsapresvaccination.wordpress.com</Lien>
-      </Page>
-      <Presentation>
-        <p>blog répertoriant des victimes dans le monde entier, coupures de presse ou copies d'écran à l'appui.</p>
-      </Presentation>
-      <Ajout>2022-03-28</Ajout>
-    </Article>
-    <Article>
-      <Titre>No More Silence</Titre>
-      <Auteurs>
-        <Nom>Site Web</Nom>
-      </Auteurs>
-      <Rubrique>Témoignages</Rubrique>
-      <Tag>victimes</Tag>
-      <Page>
-        <Lien>https://nomoresilence.world</Lien>
-      </Page>
-      <Presentation>
-        <p>Site (en anglais) de témoignages (texte ou video) de victimes du monde entier des injections.</p>
-      </Presentation>
-      <Ajout>2021-12-03</Ajout>
-    </Article>
-    <Article>
       <Titre>La CNIL interpelle le gouvernement sur le manque de preuves d'efficacité du pass sanitaire</Titre>
       <Auteurs>
         <Nom>Victoria Beurnez (BFM Business)</Nom>
@@ -658,21 +582,6 @@
       </Presentation>
       <Ajout>2021-12-07</Ajout>
       <Publication>2021-12-02</Publication>
-    </Article>
-    <Article>
-      <Titre>Effets secondaires vaccins covid-19</Titre>
-      <Auteurs>
-        <Nom>Site Web</Nom>
-      </Auteurs>
-      <Rubrique>Témoignages</Rubrique>
-      <Tag>victimes</Tag>
-      <Page>
-        <Lien>https://effets-secondaires-vaccins-covid.org</Lien>
-      </Page>
-      <Presentation>
-        <p>Plus de 800 témoignages écrits, à ce jour, d'effets secondaires (en Français)</p>
-      </Presentation>
-      <Ajout>2021-12-09</Ajout>
     </Article>
     <Article>
       <Titre>Bientôt le « portefeuille d’identité numérique », un cauchemar totalitaire</Titre>
@@ -1484,6 +1393,70 @@
       </Presentation>
       <Ajout>2022-04-27</Ajout>
       <Publication>2022-04-13</Publication>
+    </Article>
+    <Article>
+      <Titre>Pourquoi la Pologne ne veut plus recevoir de doses du vaccin Pfizer</Titre>
+      <Source>Ouest France</Source>
+      <Rubrique>Actualités</Rubrique>
+      <Tag>Pfizer</Tag>
+      <Page>
+        <Lien>https://www.ouest-france.fr/sante/virus/coronavirus/covid-19-la-pologne-ne-veut-plus-recevoir-de-doses-du-vaccin-pfizer-958180c0-c53a-11ec-bf64-3c5ed6d40b76</Lien>
+      </Page>
+      <Presentation>
+        <p>Quand la machine se grippe...</p>
+      </Presentation>
+      <Ajout>2022-04-29</Ajout>
+      <Publication>2022-04-26</Publication>
+      <Serie>
+        <Article>
+          <Titre>Poland declines to take or pay for more COVID-19 vaccines for now</Titre>
+          <Page>
+            <Lien>https://www.reuters.com/world/europe/poland-says-it-wont-take-or-pay-more-covid-19-vaccines-now-2022-04-19/</Lien>
+          </Page>
+          <Publication>2022-04-19</Publication>
+        </Article>
+      </Serie>
+    </Article>
+    <Article>
+      <Titre>Marc Doyer annonce la mort de sa femme Mauricette atteinte de la maladie de la vache folle, le vaccin en cause ?</Titre>
+      <Rubrique>Actualités</Rubrique>
+      <Tag>Pfizer</Tag>
+      <Page>
+        <Lien>https://www.public.fr/News/Marc-Doyer-annonce-la-mort-de-sa-femme-Mauricette-atteinte-de-la-maladie-de-la-vache-folle-le-vaccin-en-cause-1707976</Lien>
+      </Page>
+      <Presentation>
+        <p>Ce fut l'un des premiers cas de  médiatisés de Creutzfeldt Jakob à la suite d’une vaccination anti-covid, toutes nos condoléances à cet homme courageux.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+      <Publication>2022-05-04</Publication>
+    </Article>
+    <Article>
+      <Titre>Plainte pour empoisonnement par les vaccins en cours</Titre>
+      <Rubrique>Juridique</Rubrique>
+      <Tag>document</Tag>
+      <Tag>poursuites</Tag>
+      <Page>
+        <Lien>https://drive.google.com/file/d/1TRDXccRry_PuNVG1XzuL_geZJ8KJh63R/view</Lien>
+      </Page>
+      <Presentation>
+        <p>Plainte déposée le 8 avril 2022 par Maître Joseph, avocat au barreau de Grenoble auprès du Doyen des juges d’instruction, Tribunal Judiciaire de Paris.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+      <Publication>2022-04-08</Publication>
+    </Article>
+    <Article>
+      <Titre>Jurisprudence : la vaccination obligatoire contre le COVID et la suspension des soignants jugées illégales</Titre>
+      <Source>Le Point Critique</Source>
+      <Rubrique>Juridique</Rubrique>
+      <Tag>jugement</Tag>
+      <Page>
+        <Lien>https://lepointcritique.fr/2022/03/14/decision-justice-vaccination-obligatoire-covid-illegale/</Lien>
+      </Page>
+      <Presentation>
+        <p>Analyse de la décision du conseil des prud’hommes d’Alençon du 1er mars 2022 en faveur d’une infirmière salariée d’un Ephad qui refusait de se faire vacciner pour raison médicale. Le conseil rappelle que la vaccination contre le COVID est un essai clinique et ne peut être imposée contre le consentement du participant.</p>
+      </Presentation>
+      <Ajout>2022-05-04</Ajout>
+      <Publication>2022-03-14</Publication>
     </Article>
   </Ressources>
 </Bibliotheque>
