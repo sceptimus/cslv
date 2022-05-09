@@ -5,7 +5,7 @@ declare variable $base := '/Users/stephane/Comptes/perso/virus/sites/comitesante
 
 declare function local:sport( ) {
   let $sport := concat('file://', $base, '/bd/', 'sport.xml') 
-  let $stylesheet := concat('file://', $base, '/transform/', 'annuaire.xsl')
+  let $stylesheet := concat('file://', $base, '/transfos/', 'annuaire.xsl')
   let $FSPath := concat('file://', $base, '/sport.html')
   let $params := <parameters>
                    <param name="exist:stop-on-warn" value="yes"/>

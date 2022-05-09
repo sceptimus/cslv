@@ -935,7 +935,7 @@ declare function local:render( $gabarit, $in ) {
 
 declare function local:victimes( ) {
   let $victimes := concat('file://', $base, '/bd/', 'victimes-bib.xml') 
-  let $stylesheet := concat('file://', $base, '/transform/', 'victimes.xsl')
+  let $stylesheet := concat('file://', $base, '/transfos/', 'victimes.xsl')
   let $FSPath := concat('file://', $output, '/victimes.html')
   let $params := <parameters>
                    <param name="exist:stop-on-warn" value="yes"/>
