@@ -9,6 +9,8 @@ declare option exist:serialize "method=xml media-type=application/xml indent=yes
 
 declare variable $base := '/Users/stephane/Comptes/perso/virus/sites/comitesantelibertevendee.fr/www';
 
+declare variable $output := $base || '/pub';
+
 declare variable $local:json-output := <output:serialization-parameters><output:method>json</output:method></output:serialization-parameters>;
 
 declare variable $local:site := util:eval(file:read($base || '/gabarits/' || 'site.xml'));
@@ -242,7 +244,10 @@ declare function local:videos ( $file ) {
                             <sup>
                                 {
                                 '(' ||
-                                string-join((
+                                (
+                                if (not($v/Rubrique eq 'Chaîne')) then 
+                                  string-join(
+                                    (
                                     $v/Duree/text(),
                                     $v/Langue,
                                     if ($v/SousTitre eq 'activer') then 
@@ -250,11 +255,17 @@ declare function local:videos ( $file ) {
                                     else if ($v/SousTitre) then 
                                         'sous-titré'
                                     else
-                                        (),
-                                    concat('ajouté le ', $v/Ajout))
-                                    , ', ') || ')'
+                                      (),
+                                    'ajouté le ' || $v/Ajout
+                                    ),
+                                    '| '
+                                    )
+                                else
+                                  'ajouté le ' || $v/Ajout
+                                )
+                                || ')'
                                 }
-                            </sup>: 
+                            </sup>:
                             { $v/Presentation/(*|text())}
                         </li>
                     }
@@ -318,6 +329,8 @@ declare function local:videos-bib ( $file ) {
                                 {
                                 '(' ||
                                 string-join((
+                                  if ($v/Rubrique ne 'Chaîne') then 
+                                    (
                                     local:gen-duree($v/Duree),
                                     $v/Langue,
                                     if ($v/SousTitre eq 'activer') then 
@@ -325,10 +338,13 @@ declare function local:videos-bib ( $file ) {
                                     else if ($v/SousTitre) then 
                                         'sous-titré'
                                     else
-                                        (),
-                                    local:datation2($v)                                    
+                                        ()
                                     )
-                                    , ', ') || ')'
+                                  else
+                                    (),
+                                  local:datation2($v)
+                                  )
+                                  , ', ') || ')'
                                 }
                             </sup>
                             {
@@ -345,6 +361,98 @@ declare function local:videos-bib ( $file ) {
                 </ul>
             </div>
 };
+
+
+declare function local:sites-bib ( $file ) {
+  let $rubriques := $local:site/Catalogue/Rubrique
+  let $input := util:eval(file:read($base || '/bd/' || $file))  
+  return 
+    for $site in $input//Site
+    let $rubrique := $site/Rubrique
+    let $site-groupe := $site/Groupe
+    let $rubrique-config := $rubriques[Nom eq $rubrique]
+    let $groupe-config := if ($site-groupe) then $rubrique-config/Groupe[Nom eq $site-groupe] else ()
+    let $groupe := if ($groupe-config) then $site-groupe else ()
+    let $priority := ($groupe-config/Priorite, $rubrique-config/Priorite, '100')[1]
+    group by $rubrique, $groupe
+    (:order by $rubrique, $groupe:)
+    order by number(head($priority))
+    return 
+      let $titre := ($groupe-config/Titre, $rubrique-config/Titre, string-join(($rubrique, $groupe), ' '))[1]
+      return    
+        <div class="block border" id="{string-join(($rubrique, $groupe), '-')}">
+          <div class="up"><a href="#top" title="Haut de page">​ᐃ​</a>​</div>
+          <h2>{ $titre }</h2>
+          {
+          if ($rubrique/Presentation) then
+              <blockquote>{ $rubrique/Presentation/(*|text()) }</blockquote>
+          else
+              ()
+          }
+          <table class="victimes">
+            {   
+            let $contact := exists($site/Contact) or exists($site/Telegram)          
+            let $departement := exists($site/Localisation/Departement[. ne '85'])
+            return (
+              <tr>
+                {
+                if ($departement)
+                  then <th>Département</th>
+                  else ()
+                }
+                <th>Tags</th>
+                <th>Site</th>
+                <th>Description</th>
+                {
+                if ($contact)
+                  then <th>Contact</th>
+                  else ()
+                }
+              </tr>,
+              for $s in $site
+              return
+                <tr>
+                  {
+                  if ($departement)
+                    then <td>{ string-join($s/Localisation/Departement, ', ')  }</td>
+                    else ()
+                  }
+                  <td>{ string-join($s/Tag, ', ')  }</td>
+                  <td>
+                    <a href="{$s/Lien}">{ $s/Titre/text() }</a>
+                  </td>
+                  <td>
+                  {
+                  (: should be a <p> or simple text() :)
+                  if ($s/Presentation)
+                    then $s/Presentation/(*|text())
+                    else ()
+                  } 
+                  </td>
+                  {
+                  if ($contact) then
+                    <td>
+                      {
+                      if ($s/Contact)
+                        then <p><a href="mailto:{$s/Contact}">{$s/Contact/text()}</a></p>
+                        else (),
+                      if ($s/Telegram/Contact)
+                        then <p>accès telegram sur <a href="mailto:{$s/Telegram/Contact}">demande</a></p>
+                        else (),
+                      if ($s/Telegram/Lien)
+                        then <p><a href="{$s/Telegram/Lien}">telegram</a></p>
+                        else ()
+                      }
+                    </td>
+                  else
+                    ()
+                  }
+                </tr>
+              )
+            }
+          </table>                
+        </div>  
+  };
 
 (:~
  : Table annuaire collectifs locaux
@@ -689,7 +797,7 @@ declare function local:datation1( $i ) {
       }ajouté le { local:date($i/Ajout)})
     </sup>
   else if ($i/Publication) then
-    <sup>(publié le { local:date($i/Ajout)})</sup>
+    <sup>(publié le { local:date($i/Publication)})</sup>
   else if ($i/Ajout) then
     <sup>(ajouté le { local:date($i/Ajout)})</sup>
   else
@@ -813,7 +921,7 @@ declare function local:blog ( $gabarit ) {
     let $file := $b/@File
     let $billet := util:eval(file:read($base || '/blog/' || $file))
     return
-      <page name="{$file}">{ file:serialize(util:eval($page), $base || '/' || replace($file, '.xml', '.html'), ()) }</page>
+      <page name="{$file}">{ file:serialize(util:eval($page), $output || '/' || replace($file, '.xml', '.html'), ()) }</page>
 };
 
 declare function local:render( $gabarit, $in ) {
@@ -822,13 +930,13 @@ declare function local:render( $gabarit, $in ) {
     else      
       let $page := file:read($base || '/gabarits/' || $gabarit || '.xml')
       return
-          file:serialize(util:eval($page), $base || '/' || $gabarit || '.html', ())
+          file:serialize(util:eval($page), $output || '/' || $gabarit || '.html', ())
 };
 
 declare function local:victimes( ) {
   let $victimes := concat('file://', $base, '/bd/', 'victimes-bib.xml') 
   let $stylesheet := concat('file://', $base, '/transform/', 'victimes.xsl')
-  let $FSPath := concat('file://', $base, '/victimes.html')
+  let $FSPath := concat('file://', $output, '/victimes.html')
   let $params := <parameters>
                    <param name="exist:stop-on-warn" value="yes"/>
                    <param name="exist:stop-on-error" value="yes"/>
@@ -881,6 +989,39 @@ declare function local:lister-rubriques-bib ( $name, $file ) {
         then <br/>
         else ()
       )
+    }
+    </p>      
+    )
+};
+
+
+declare function local:lister-sites-bib ( $name, $file ) {
+  let $rubriques := $local:site/Catalogue/Rubrique
+  let $input := util:eval(file:read($base || '/bd/' || $file))  
+  let $list := for $i in distinct-values($input//Rubrique) order by $i return $i
+  let $total := count($list)
+  return (
+    <p class="rubriques" style="text-align:center">Rubriques</p>,
+    <p style="text-align:center">
+    {
+    for $site in $input//Site
+    let $rubrique := $site/Rubrique
+    let $site-groupe := $site/Groupe
+    let $rubrique-config := $rubriques[Nom eq $rubrique]
+    let $groupe-config := if ($site-groupe) then $rubrique-config/Groupe[Nom eq $site-groupe] else ()
+    let $groupe := if ($groupe-config) then $site-groupe else ()
+    let $priority := ($groupe-config/Priorite, $rubrique-config/Priorite, '100')[1]
+    group by $rubrique, $groupe
+    (:order by $rubrique, $groupe:)
+    order by number(head($priority))
+    return
+        let $titre := ($groupe-config/Titre, $rubrique-config/Titre, string-join(($rubrique, $groupe), ' '))[1]
+        return
+        (
+        <a href="#{string-join(($rubrique, $groupe), '-')}">{ $titre }</a>,
+        <span>({count($site)})</span>,
+        <br/>
+        )
     }
     </p>      
     )
@@ -1006,11 +1147,11 @@ declare function local:export-bd-to-json ( $nodes as item()* ) {
 declare function local:json ( $filename, $tag ) {
   let $source := element { $tag || 's' } 
                    {
-                   local:export-bib-to-json(util:eval(file:read($base || '/bd/' || $filename || '.xml'))//*[local-name() eq $tag])
+                   local:export-bib-to-json(util:eval(file:read($base || '/bd/' || $filename || '.xml'))//Ressources/*[local-name() eq $tag])
                    }
   let $data := <data>{'var ' || $tag || 's' || ' = ' || replace(replace(serialize($source, $local:json-output), '\{"' || $tag || '":', ''), '\}$', '') || ';'}</data>
   return 
-    file:serialize($data/text(), $base || '/json/' || $filename || '.js', ())
+    file:serialize($data/text(), $output || '/json/' || $filename || '.js', ())
 };
 
 let $ts := current-dateTime()
@@ -1021,7 +1162,7 @@ let $in := map {
 let $pages := ('index', 'manifeste', 'annuaire', 'evenements', 'videos', 'biblio', 'outils', 'nocomment', 'blog', 'json', 'actions')
 (:                1          2           3            4           5         6         7           8          9      10        11 :)
 return 
-  for $i in (5, 6)
+  for $i in (1, 6)
   return 
     (
     if ($i = (5, 10))

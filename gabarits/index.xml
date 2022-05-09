@@ -5,8 +5,8 @@
         <title>Comité Santé Liberté Vendée 85</title>
         <link href="index.css" rel="stylesheet" type="text/css"/>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js">//</script>
-        <script src="json/videos.js" type="text/javascript">//</script>
-        <script src="json/biblio.js" type="text/javascript">//</script>
+        <script src="json/videos-bib.js" type="text/javascript">//</script>
+        <script src="json/articles-bib.js" type="text/javascript">//</script>
         <script src="site.js" type="text/javascript">//</script>
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {{
@@ -167,8 +167,9 @@
                <center>
                  <p>
                    <span class="outil">Documents</span><i>à télécharger</i><br/>
-                   <span class="doc" href="/2022/03/tribune-petition-senat-enquete-surmortalite.pdf" data-cadoc="pdf">refus enquête surmortalité par le sénat</span> |                   
-                   <span class="doc" href="/2022/03/stop-oms.pdf" data-cadoc="pdf">lettre d'alerte sur le traité de l'OMS sur les pandémies</span> |
+                   <span class="doc" href="/2022/04/consultation-passeport-covid.pdf" data-cadoc="pdf">réponse donnée à la consultation sur la prolongation du certificat COVID numérique de l'UE</span> |
+                   <span class="doc" href="/2022/03/remarques_sur_la_desorientation_dalain_badiou_et_des_intellectuels.pdf" data-cadoc="pdf">remarques du philosophe Mehdi Belhaj Kacem à Alain Badiou</span> |
+                   <span class="doc" href="/2022/03/tribune-petition-senat-enquete-surmortalite.pdf" data-cadoc="pdf">refus enquête surmortalité par le sénat</span> |                         <span class="doc" href="/2022/03/stop-oms.pdf" data-cadoc="pdf">lettre d'alerte sur le traité de l'OMS sur les pandémies</span> |
                    <span class="doc" href="/2022/02/lettre-assurance-maladie-DE-trad.pdf" data-cadoc="pdf">sous-déclaration effets secondaires Allemagne</span> |                   
                    <span class="doc" href="/2022/01/debat/courrier-parents.pdf" data-cadoc="pdf">vaccination enfants</span> |
                    <span class="doc" href="/2022/01/lettre-omicron/lettre-omicron.pdf" data-cadoc="pdf">voies alternatives</span> |

@@ -1421,5 +1421,47 @@
       </Page>
       <Publication>2022-05-04</Publication>
     </Victime>
+    <Victime>
+      <Titre>Un professeur d'eps succombe à un malaise cardiaque devant ses élèves</Titre>
+      <Age>37</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Bevons</Ville>
+        <Departement>04</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.bfmtv.com/bfm-dici/alpes-de-haute-provence-un-professeur-d-eps-succombe-a-un-malaise-cardiaque-devant-ses-eleves_AN-202205050286.html</Lien>
+      </Page>
+      <Publication>2022-05-05</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Un étudiant meurt brutalement durant le cours de sport</Titre>
+      <Age>17</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Autun</Ville>
+        <Departement>71</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.dna.fr/faits-divers-justice/2021/10/09/un-lyceen-meurt-brutalement-durant-le-cours-de-sport</Lien>
+      </Page>
+      <Publication>2021-10-09</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Maïssa, élève de secondaire, fait un malaise à l’école et décède quelques heures plus tard</Titre>
+      <Age>?</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Vilvorde</Ville>
+        <Pays>Belgique</Pays>
+      </Localisation>
+      <Page>
+        <Lien>https://www.lavenir.net/regions/bruxelles/2021/09/28/maissa-eleve-de-secondaire-fait-un-malaise-a-lecole-et-decede-quelques-heures-plus-tard-56APC5SLOVBBVFMX5N4GS57INU/</Lien>
+      </Page>
+      <Publication>2021-09-28</Publication>
+    </Victime>
   </Ressources>
 </Bibliotheque>

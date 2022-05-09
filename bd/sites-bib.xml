@@ -868,5 +868,17 @@ professionnels et olympiques.Amateurs décédés pendant la pratique d’une act
       </Presentation>
       <Ajout>2022-05-04</Ajout>
     </Site>
+    <Site>
+      <Titre>Effets indésirables.fr</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>victimes</Tag>
+      <Tag>plainte</Tag>
+      <Lien>https://effets-indesirables-vax.fr/index.php</Lien>
+      <Presentation>
+        <p>Témoignages et informations pour <a href="https://www.service-public.fr/particuliers/vosdroits/R14404">déclarer des effets indésirables</a></p>
+      </Presentation>
+      <Ajout>2022-05-05</Ajout>
+    </Site>
   </Ressources>
 </Bibliotheque>

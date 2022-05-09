@@ -1445,6 +1445,62 @@
       <Publication>2022-04-08</Publication>
     </Article>
     <Article>
+      <Titre>Use of face masks did not impact COVID-19 incidence among 10–12-year-olds in Finland</Titre>
+      <Auteurs>
+        <Nom>Aapo Juutinen</Nom>
+        <Nom>Emmi Sarvikivi</Nom>
+        <Nom>Päivi Laukkanen-Nevala</Nom>
+        <Nom>Otto Helve</Nom>
+      </Auteurs>
+      <Rubrique>Science</Rubrique>
+      <Tag>étude</Tag>
+      <Tag>masque</Tag>
+      <Page>
+        <Lien>https://www.medrxiv.org/content/10.1101/2022.04.04.22272833v1</Lien>
+      </Page>
+      <Presentation>
+        <p>L'utilisation de masques n'a pas d'impact sur l'incidence du COVID-19 chez les 10-12 ans en Finlande. Aucun effet ne semble en résulter, sur la base des comparaisons entre les villes et entre les groupes d'âge des enfants non vaccinés.</p>
+      </Presentation>
+      <Ajout>2022-05-05</Ajout>
+      <Publication>2022-04-04</Publication>
+    </Article>
+    <Article>
+      <Titre>Unravelling the Role of the Mandatory Use of Face Covering Masks for the Control of SARS-CoV-2 in Schools: A Quasi-Experimental Study Nested in a Population-Based Cohort in Catalonia (Spain)</Titre>
+      <Auteurs>
+        <Nom>Ermengol Coma</Nom>
+        <Nom>&amp; al.</Nom>
+      </Auteurs>
+      <Rubrique>Science</Rubrique>
+      <Tag>étude</Tag>
+      <Tag>masque</Tag>
+      <Page>
+        <Lien>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4046809</Lien>
+      </Page>
+      <Presentation>
+        <p>Comparaison de l'incidence des infection Covid entre des enfants de 5 ans sans masque et des enfants de 6 ans avec masque dans les écoles primaires en Catalogue qui conclut à l'absence d'impact des masques.</p>
+      </Presentation>
+      <Ajout>2022-05-05</Ajout>
+      <Publication>2022-04-07</Publication>
+    </Article>
+    <Article>
+      <Titre>Innate immune suppression by SARS-CoV-2 mRNA vaccinations: The role of G-quadruplexes, exosomes, and MicroRNAs</Titre>
+      <Auteurs>
+        <Nom>Stephanie Seneff</Nom>
+        <Nom>&amp; al.</Nom>
+      </Auteurs>
+      <Rubrique>Science</Rubrique>
+      <Tag>vaccin</Tag>
+      <Page>
+        <Lien>https://www.sciencedirect.com/science/article/pii/S027869152200206X</Lien>
+      </Page>
+      <Presentation>
+        <p>L'utilisation de vaccins à ARNm dans le contexte des maladies infectieuses n'a pas de précédent. Les nombreuses altérations de l'ARNm du vaccin cachent l'ARNm des défenses cellulaires et favorisent une demi-vie biologique plus longue et une production élevée de protéines de pointe. Cependant, la réponse immunitaire au vaccin est très différente de celle d'une infection par le SRAS-CoV-2.</p>
+        <p>Dans cet article, nous présentons des preuves que la vaccination induit une altération profonde de la signalisation de l'interféron de type I, ce qui a diverses conséquences néfastes pour la santé humaine. Les cellules immunitaires qui ont absorbé les nanoparticules du vaccin libèrent en circulation un grand nombre d'exosomes contenant des protéines de pointe ainsi que des microARN critiques qui induisent une réponse de signalisation dans les cellules réceptrices à des sites éloignés. Nous identifions également des perturbations profondes potentielles dans le contrôle régulateur de la synthèse des protéines et la surveillance du cancer. Ces perturbations ont potentiellement un lien de causalité avec la maladie neurodégénérative, la myocardite, la thrombocytopénie immunitaire, la paralysie de Bell, la maladie du foie, l'immunité adaptative altérée, la réponse altérée aux dommages à l'ADN et la tumorigenèse.</p>
+        <p>Nous montrons des preuves provenant de la base de données VAERS à l'appui de notre hypothèse. Nous croyons qu'une évaluation complète des risques et des avantages des vaccins à ARNm les remet en question en tant que contributeurs positifs à la santé publique.</p>
+      </Presentation>
+      <Ajout>2022-05-05</Ajout>
+    </Article>
+    <Article>
       <Titre>Jurisprudence : la vaccination obligatoire contre le COVID et la suspension des soignants jugées illégales</Titre>
       <Source>Le Point Critique</Source>
       <Rubrique>Juridique</Rubrique>
@@ -1457,6 +1513,42 @@
       </Presentation>
       <Ajout>2022-05-04</Ajout>
       <Publication>2022-03-14</Publication>
+    </Article>
+    <Article>
+      <Titre>Covid : effets d’annonce de la reprise épidémique dans les médias</Titre>
+      <Auteurs>
+        <Nom>Rodolphe Bacquet</Nom>
+      </Auteurs>
+      <Rubrique>Actualités</Rubrique>
+      <Tag>Covid</Tag>
+      <Page>
+        <Lien>https://alternatif-bien-etre.com/coronavirus/covid-effets-dannonce-de-la-reprise-epidemique-dans-les-medias/#sources01</Lien>
+      </Page>
+      <Presentation>
+        <p>Sommes nous en ce printemps 2022 à la veille d'une nouvelle offensive de la peur ?</p>
+      </Presentation>
+      <Ajout>2022-05-05</Ajout>
+      <Publication>2022-05-05</Publication>
+    </Article>
+    <Article>
+      <Titre>L’Ukraine, déclencheur d’une « transition énergétique durable » ?</Titre>
+      <Auteurs>
+        <Nom>Jacob Nordangård</Nom>
+      </Auteurs>
+      <Source>Pharos</Source>
+      <Rubrique>Histoire</Rubrique>
+      <Tag>technocratie</Tag>
+      <Page>        <Lien>http://www.translatetheweb.com/?from=&amp;to=fr&amp;dl=fr&amp;rr=DC&amp;a=http%3a%2f%2fpharos.stiftelsen-pharos.org%2fukraina-triggern-till-en-hallbar-energiomstallning%2f</Lien>      
+      </Page>
+      <PDF>
+        <Lien>https://www.cadoc.fr/cslv85/archives/2022/05/analyse-geopolitique-vue-de-suede.pdf</Lien>
+      </PDF>      
+      <Presentation>
+        <p>Analyse Géopolitique venant de Suède qui replace le conflit Ukrainien dans la course pour le grand reset et la 4e révolution industrielle avec l'Europe comme laboratoire pour l'institution de la technocratie sanitaire mondiale...</p>
+        <p>Où l'on voit que les 2 piliers du futur contrôle des populations (Nouvel Ordre Mondial - NOM) par-dessus les états sont bien 1) la santé (agenda <i>1 seule santé mondiale</i> avec le bouton atomique des pandémies pour contrôler des régions entières) et 2) l'énergie/alimentation (avec contrôle de l'accès à l'énergie et à l'alimentation pour faire pression), l'ensemble avec l'identité numérique en poutre faîtière.</p>
+      </Presentation>
+      <Ajout>2022-05-06</Ajout>
+      <Publication>2022-03-04</Publication>
     </Article>
   </Ressources>
 </Bibliotheque>

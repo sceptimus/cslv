@@ -64,7 +64,13 @@
         </xsl:if>
       </td>
       <td><xsl:value-of select="concat(substring(Publication, 9, 2), '/', substring(Publication, 6, 2), '/', substring(Publication, 1, 4))"/></td>
-      <td><xsl:value-of select="Localisation/Ville/text()"/> (<xsl:value-of select="Localisation/Departement/text()"/>)</td>
+      <td><xsl:value-of select="Localisation/Ville/text()"/>
+        <xsl:text> </xsl:text>
+        <xsl:choose>
+          <xsl:when test="Localisation/Departement">(<xsl:value-of select="Localisation/Departement/text()"/>)</xsl:when>
+          <xsl:when test="Localisation/Pays">(<xsl:value-of select="Localisation/Pays/text()"/>)</xsl:when>
+        </xsl:choose>
+      </td>
       <td><xsl:apply-templates select="Age"/></td>
     </tr>
   </xsl:template>

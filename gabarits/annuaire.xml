@@ -26,12 +26,12 @@ document.addEventListener('DOMContentLoaded', function () {{
           <div class="block border">
             <h1>Annuaire</h1>
             <blockquote>
-              <p>Compilation de liens vers des collectifs ou des associations qui participent à la reconquête de notre santé et de nos libertés. Pour faire figurer un lien sur cette page ou signaler un lien inapproprié <a id="mail2" href="mail2">contactez nous</a>.</p>
-              { local:lister-rubriques('annuaire') }              
+              <p>Compilation de liens vers des collectifs ou associations qui participent à la reconquête de notre santé et de nos libertés, ainsi que vers des producteurs locaux ou des ressources utiles. Pour faire figurer un lien sur cette page ou signaler un lien inapproprié <a id="mail2" href="mail2">contactez nous</a>.</p>
+              { local:lister-sites-bib('sites', 'sites-bib.xml') }              
             </blockquote>
           </div>
           
-          { local:annuaire('annuaire.xml') }
+          { local:sites-bib('sites-bib.xml') }
 
         </div>
 

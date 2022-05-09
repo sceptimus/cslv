@@ -4,13 +4,13 @@
     <Page File="actions">Actions</Page>
     <Page File="evenements">Agenda</Page>
     <Page File="annuaire">Annuaire</Page>
-    <Page File="blog">Blog</Page>
+    <Page File="biblio">Articles</Page>
     <Page File="outils">Outils</Page>
     <Groupe Tag="rsce">
       <Nom>&gt;&gt;</Nom>
-      <Page File="manifeste">Manifeste</Page>
+      <Page File="blog">Blog</Page>
       <Page File="videos">Videos</Page>
-      <Page File="biblio">Lecture</Page>
+      <Page File="manifeste">Manifeste</Page>
       <Page File="nocomment">Montages</Page>
     </Groupe>
   </Menu>
@@ -23,6 +23,79 @@
           <p>Quelques exemples de chroniqueurs web pour changer du journal de 20h</p>
         </Presentation>          
     </Rubrique>
+    <Rubrique>
+        <Nom>Annuaire</Nom>
+        <Titre>Autres annuaires</Titre>
+        <Priorite>13</Priorite>
+    </Rubrique>    
+    <Rubrique>
+        <Nom>Association</Nom>
+        <Titre>Association</Titre>
+        <Groupe>
+          <Nom>national</Nom>
+          <Titre>Associations nationales</Titre>
+          <Priorite>5</Priorite>
+        </Groupe>
+    </Rubrique>
+    <Rubrique>
+        <Nom>Collectif</Nom>
+        <Titre>Collectif</Titre>
+        <Groupe>
+          <Nom>Vendée</Nom>
+          <Titre>Collectifs et associations représentés en Vendée</Titre>
+          <Priorite>1</Priorite>
+        </Groupe>
+        <Groupe>
+          <Nom>cslv 85</Nom>
+          <Titre>Collectifs liés au CSLV 85</Titre>
+          <Priorite>2</Priorite>
+        </Groupe>
+        <Groupe>
+          <Nom>régional</Nom>
+          <Titre>Collectifs régionaux hors Vendée</Titre>
+          <Priorite>3</Priorite>
+        </Groupe>                
+        <Groupe>
+          <Nom>régional</Nom>
+          <Titre>Collectifs régionaux hors Vendée</Titre>
+          <Priorite>4</Priorite>
+        </Groupe>
+        <Groupe>
+          <Nom>national</Nom>
+          <Titre>Collectifs nationaux</Titre>
+          <Priorite>6</Priorite>
+        </Groupe>
+        <Groupe>
+          <Nom>santé</Nom>
+          <Titre>Collectifs santé</Titre>
+          <Priorite>7</Priorite>
+        </Groupe>
+        <Groupe>
+          <Nom>professionnel</Nom>
+          <Titre>Autres collectifs professionnels</Titre>
+          <Priorite>8</Priorite>
+        </Groupe>        
+        <Groupe>
+          <Nom>international</Nom>
+          <Titre>Collectifs internationaux</Titre>
+          <Priorite>9</Priorite>
+        </Groupe>
+    </Rubrique>
+    <Rubrique>
+      <Nom>Autonomie</Nom>
+      <Titre>Autonomie et production locale</Titre>
+      <Priorite>14</Priorite>
+    </Rubrique>
+    <Rubrique>
+      <Nom>Média</Nom>
+      <Titre>Média</Titre>
+      <Priorite>11</Priorite>
+    </Rubrique>        
+    <Rubrique>
+      <Nom>Blog</Nom>
+      <Titre>Blogs</Titre>
+      <Priorite>12</Priorite>
+    </Rubrique>    
     <Rubrique>
         <Nom>Décalé</Nom>
         <Titre>Décalé</Titre>
@@ -89,6 +162,11 @@
         <Presentation/>
     </Rubrique>
     <Rubrique>
+        <Nom>Science</Nom>
+        <Titre>Publications scientifiques</Titre>
+        <Presentation/>
+    </Rubrique>
+    <Rubrique>
         <Nom>Société</Nom>
         <Titre>Société</Titre>
         <Presentation/>
@@ -105,110 +183,12 @@
     </Rubrique>
     <Rubrique>
         <Nom>Témoignages</Nom>
-        <Titre>Témoignages de victimes</Titre>
-        <Presentation/>
+        <Titre>Témoignages de victimes ou Associations de victimes</Titre>
+        <Priorite>10</Priorite>
+        <Presentation/>        
     </Rubrique>
   </Catalogue>
   <Contenu>
-    <Page>
-      <Id>annuaire</Id>
-      <Rubriques>
-          <Rubrique Afficher="non">
-              <Ancre>cslv85</Ancre>
-              <Titre>Collectifs locaux Vendéens liés au CSLV 85</Titre>
-          </Rubrique>
-          <Rubrique>
-              <Ancre>autres</Ancre>
-              <Tag>regional</Tag>
-              <Titre>Collectifs ou associations représentées en Vendée</Titre>
-              <Rubrique>
-                  <Departement>
-                    <Inclus>85</Inclus>
-                  </Departement>
-                  <Titre>En Vendée</Titre>
-              </Rubrique>
-          </Rubrique>
-          <Rubrique>
-              <Ancre>regions</Ancre>                     
-              <Tag>regional</Tag>
-              <Titre>Collectifs locaux hors Vendée</Titre>
-              <Rubrique>       
-                  <Departement>
-                    <Exclu>85</Exclu>
-                  </Departement>
-                  <Titre>Autres départements</Titre>
-              </Rubrique>          
-          </Rubrique>
-          <Rubrique Menu="off">
-            <Image>
-              <Source>img/qi-pas-qr.png</Source>
-              <Largeur>400px</Largeur>
-            </Image>
-          </Rubrique>
-          <Rubrique>
-              <Ancre>france</Ancre>
-              <Tag>thematique</Tag>
-              <Titre>Collectifs nationaux et associations diverses</Titre>
-              <Rubrique>
-                <Tag>enfance</Tag>
-                <Tag>education</Tag>
-                <Titre>Enfance et éducation</Titre>
-              </Rubrique>
-              <Rubrique>
-                <Tag>réinformation</Tag>
-                <Tag>juridique</Tag>
-                <Tag>victime</Tag>
-                <Titre>Réinformation, juridique, victimes</Titre>
-              </Rubrique>
-              <Rubrique>
-                <Tag>santé</Tag>
-                <Exclus><Tag>syndicat</Tag></Exclus>                
-                <Titre>Professionnels de la santé</Titre>
-              </Rubrique>
-              <Rubrique>
-                <Tag>action</Tag>
-              </Rubrique>              
-              <Rubrique>
-                <Tag>étudiants</Tag>
-              </Rubrique>
-              <Rubrique>
-                <Tag>entraide</Tag>
-              </Rubrique>
-              <Rubrique>
-                <Tag>syndicat</Tag>
-              </Rubrique>
-              <Rubrique>
-                <Tag>professionnel</Tag>
-              </Rubrique>              
-          </Rubrique>
-          <Rubrique>
-              <Ancre>etranger</Ancre>                        
-              <Tag>etranger</Tag>
-              <Titre>Etranger</Titre>
-              <Rubrique>
-                <Tag>action</Tag>
-                <Titre>Actions militantes</Titre>
-              </Rubrique>
-              <Rubrique>
-                <Tag>réinformation</Tag>
-                <Titre>Réinformation</Titre>
-              </Rubrique>              
-          </Rubrique>
-          <Rubrique>
-              <Ancre>medias</Ancre>                        
-              <Tag>media</Tag>
-              <Titre>Nouveaux medias</Titre>
-              <Presentation>Qui ne sont pas des thuriféraires de la <a href="https://www.monde-diplomatique.fr/cartes/PPA">pensée unique</a>... Quelques suggestions, n'hésitez pas à compléter.
-              </Presentation>
-          </Rubrique>
-          <Rubrique>
-              <Ancre>blogs</Ancre>
-              <Tag>blog</Tag>
-              <Titre>Blogs</Titre>
-              <Presentation>Des blogs d'analyse ou de proposition alimentés par des personnes plus ou moins proches du CSLV 85</Presentation>
-          </Rubrique>          
-      </Rubriques>
-    </Page>
     <Page>
       <Id>biblio</Id>
       <Rubriques>
