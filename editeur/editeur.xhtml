@@ -7,10 +7,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="This XTiger XML template defines the structure of an article for publication in the Proceedings of an ACM conference. The resulting XHTML document can be formatted by the ACM-Proc-Article.css style sheet, both for display and print. It can also be transformed into a LaTeX file (style sig-alternate.cls) with ACM-Proc-Article2latex.xsl"/>
+    <meta name="description" content="Bibliotheque ouverte du CSLV 85 (éditeur)"/>
     <meta name="keywords" content="template, XTiger" />
 
-    <title>Bibliotheque Ouverte</title>
+    <title>Bibliotheque Ouverte du CSLV 85 (éditeur)</title>
     
     <!-- SELF-TRANSFORMED template -->
     <link href="src/axel/axel.css" rel="stylesheet" type="text/css"></link>
@@ -568,13 +568,14 @@
 
   </head>
   <body>
-    <h1>Bibliotheque Ouverte</h1>
+    <h1>Bibliotheque Ouverte du CSLV 85</h1>
       <div>
         <button onclick="javascript:chargerEditeur('../bd/articles-bib.xml')">Articles</button> 
         <button onclick="javascript:chargerEditeur('../bd/videos-bib.xml')">Videos</button>
         <button onclick="javascript:chargerEditeur('../bd/sites-bib.xml')">Sites</button>
         <button onclick="javascript:chargerEditeur('../bd/victimes-bib.xml')">Victimes</button>
         <button onclick="javascript:viderEditeur()">Nouveau</button>
+        <a href="../index.html">Page d'accueil</a>
         <span style="float:right"><button onclick="javascript:enregistrer()">Enregistrer</button></span>
       </div>
       <div id="editors">

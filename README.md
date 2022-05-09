@@ -1,11 +1,13 @@
 Site CSLV 85
 ============
 
-Générateur et contenu du site [www.comitesantelibertevendee.fr](http://www.comitesantelibertevendee.fr) du Comité Santé Liberté Vendée 85 (CSLV 85)
+Générateur et contenu 
 
-Le site est un site statique généré à partir de fichiers XML.
+1. du site [www.comitesantelibertevendee.fr](http://www.comitesantelibertevendee.fr) du Comité Santé Liberté Vendée 85 (CSLV 85)
 
-Vous pouvez utiliser cette approche et le générateur de site pour générer n'importe quel autre type de site statique.
+1. de la [bibliothèque ouverte du CSLV 85](https://sceptimus.github.io/cslv/) 
+
+Pages statiques générées à partir de fichiers XML.
 
 ## Organisation
 
