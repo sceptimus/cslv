@@ -1,6 +1,6 @@
 <!DOCTYPE html [
 
-<!ENTITY rubriques "Actualités Collectif Décrets Décalé Economie Education Effets\ secondaires Histoire Juridique Littérature Lutte Organisme Philosophie Prospective Santé Société Sport Traitement Vaccin Vendée">
+<!ENTITY rubriques "Actualités Annuaire Association Autonomie Blog Collectif Chaîne Décrets Décalé Economie Education Effets\ secondaires Histoire Juridique Littérature Lutte Média Organisme Philosophie Prospective Santé Science Société Sport Traitement Vaccin Vendée Témoignages">
 
 ]>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:xt="http://ns.inria.org/xtiger" xml:lang="en">
@@ -32,9 +32,8 @@
   function initialiser () {
     var logger, n;
     if (!INIT) {
-      window.console.log('init');
       result = new xtiger.util.Logger();
-      xtDoc = xtiger.cross.loadDocument('editor.xhtml', logger);
+      xtDoc = xtiger.cross.loadDocument('editeur.xhtml', logger);
       //n = document.getElementById('editor');
       ED = xtDoc.getElementById('editor'); // n.cloneNode(true);
       INIT = true;
@@ -316,7 +315,7 @@
       <xt:component name="Site">
         <p class="site biblio-entry">
           <span class="title"><xt:use types="text" label="Titre" param="type=input">Nom du site</xt:use></span><br/>
-          <xt:use types="rubrique" label="Rubrique"/>, 
+          <xt:use types="rubrique" label="Rubrique"/>, <xt:use types="text" label="Groupe" option="unset"/>, 
           <xt:use types="tags"/>
         </p>
         <p class="site biblio-entry">
@@ -335,6 +334,11 @@
           </p>
         </xt:repeat>
         <xt:use types="presentation" label="Presentation" />
+        <p>
+          <center>
+            <xt:use types="Ajout"/>
+          </center>
+        </p>        
       </xt:component>
 
       <xt:component name="Victime">
@@ -566,10 +570,10 @@
   <body>
     <h1>Bibliotheque Ouverte</h1>
       <div>
-        <button onclick="javascript:chargerEditeur('articles-bib.xml')">Articles</button> 
-        <button onclick="javascript:chargerEditeur('videos-bib.xml')">Videos</button>
-        <button onclick="javascript:chargerEditeur('sites-bib.xml')">Sites</button>
-        <button onclick="javascript:chargerEditeur('victimes-bib.xml')">Victimes</button>
+        <button onclick="javascript:chargerEditeur('../bd/articles-bib.xml')">Articles</button> 
+        <button onclick="javascript:chargerEditeur('../bd/videos-bib.xml')">Videos</button>
+        <button onclick="javascript:chargerEditeur('../bd/sites-bib.xml')">Sites</button>
+        <button onclick="javascript:chargerEditeur('../bd/victimes-bib.xml')">Victimes</button>
         <button onclick="javascript:viderEditeur()">Nouveau</button>
         <span style="float:right"><button onclick="javascript:enregistrer()">Enregistrer</button></span>
       </div>
