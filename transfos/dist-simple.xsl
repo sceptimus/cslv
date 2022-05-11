@@ -2,6 +2,7 @@
   
 <!--
   saxon -s:bd/articles-bib.xml -xsl:transfos/dist-simple.xsl -o:dist/articles.html
+  saxon -s:bd/science-bib.xml -xsl:transfos/dist-simple.xsl -o:dist/science.html
    -->
 
   <xsl:output method="xml" media-type="text/html" omit-xml-declaration="yes" indent="yes"/>

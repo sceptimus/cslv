@@ -1,0 +1,116 @@
+<Bibliotheque>
+  <Ressources>
+    <Article>
+      <Titre>Use of face masks did not impact COVID-19 incidence among 10–12-year-olds in Finland</Titre>
+      <Auteurs>
+        <Nom>Aapo Juutinen</Nom>
+        <Nom>Emmi Sarvikivi</Nom>
+        <Nom>Päivi Laukkanen-Nevala</Nom>
+        <Nom>Otto Helve</Nom>
+      </Auteurs>
+      <Rubrique>Science</Rubrique>
+      <Tag>étude</Tag>
+      <Tag>masque</Tag>
+      <Page>
+        <Lien>https://www.medrxiv.org/content/10.1101/2022.04.04.22272833v1</Lien>
+      </Page>
+      <Presentation>
+        <p>L'utilisation de masques n'a pas d'impact sur l'incidence du COVID-19 chez les 10-12 ans en Finlande. Aucun effet ne semble en résulter, sur la base des comparaisons entre les villes et entre les groupes d'âge des enfants non vaccinés.</p>
+      </Presentation>
+      <Ajout>2022-05-05</Ajout>
+      <Publication>2022-04-04</Publication>
+    </Article>
+    <Article>
+      <Titre>Unravelling the Role of the Mandatory Use of Face Covering Masks for the Control of SARS-CoV-2 in Schools: A Quasi-Experimental Study Nested in a Population-Based Cohort in Catalonia (Spain)</Titre>
+      <Auteurs>
+        <Nom>Ermengol Coma</Nom>
+        <Nom>&amp; al.</Nom>
+      </Auteurs>
+      <Rubrique>Science</Rubrique>
+      <Tag>étude</Tag>
+      <Tag>masque</Tag>
+      <Page>
+        <Lien>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4046809</Lien>
+      </Page>
+      <Presentation>
+        <p>Comparaison de l'incidence des infection Covid entre des enfants de 5 ans sans masque et des enfants de 6 ans avec masque dans les écoles primaires en Catalogue qui conclut à l'absence d'impact des masques.</p>
+      </Presentation>
+      <Ajout>2022-05-05</Ajout>
+      <Publication>2022-04-07</Publication>
+    </Article>
+    <Article>
+      <Titre>Innate immune suppression by SARS-CoV-2 mRNA vaccinations: The role of G-quadruplexes, exosomes, and MicroRNAs</Titre>
+      <Auteurs>
+        <Nom>Stephanie Seneff</Nom>
+        <Nom>&amp; al.</Nom>
+      </Auteurs>
+      <Rubrique>Science</Rubrique>
+      <Tag>vaccin</Tag>
+      <Page>
+        <Lien>https://www.sciencedirect.com/science/article/pii/S027869152200206X</Lien>
+      </Page>
+      <Presentation>
+        <p>L'utilisation de vaccins à ARNm dans le contexte des maladies infectieuses n'a pas de précédent. Les nombreuses altérations de l'ARNm du vaccin cachent l'ARNm des défenses cellulaires et favorisent une demi-vie biologique plus longue et une production élevée de protéines de pointe. Cependant, la réponse immunitaire au vaccin est très différente de celle d'une infection par le SRAS-CoV-2.</p>
+        <p>Dans cet article, nous présentons des preuves que la vaccination induit une altération profonde de la signalisation de l'interféron de type I, ce qui a diverses conséquences néfastes pour la santé humaine. Les cellules immunitaires qui ont absorbé les nanoparticules du vaccin libèrent en circulation un grand nombre d'exosomes contenant des protéines de pointe ainsi que des microARN critiques qui induisent une réponse de signalisation dans les cellules réceptrices à des sites éloignés. Nous identifions également des perturbations profondes potentielles dans le contrôle régulateur de la synthèse des protéines et la surveillance du cancer. Ces perturbations ont potentiellement un lien de causalité avec la maladie neurodégénérative, la myocardite, la thrombocytopénie immunitaire, la paralysie de Bell, la maladie du foie, l'immunité adaptative altérée, la réponse altérée aux dommages à l'ADN et la tumorigenèse.</p>
+        <p>Nous montrons des preuves provenant de la base de données VAERS à l'appui de notre hypothèse. Nous croyons qu'une évaluation complète des risques et des avantages des vaccins à ARNm les remet en question en tant que contributeurs positifs à la santé publique.</p>
+      </Presentation>
+      <Ajout>2022-05-05</Ajout>
+    </Article>
+    <Article>
+      <Titre>SARS-CoV-2 Naturally Acquired Immunity vs. Vaccine-induced Immunity, Reinfections versus Breakthrough Infections: a Retrospective Cohort Study</Titre>
+      <TitreFR>L'immunité naturelle après une infection covid19 est plus forte que le vaccin covid19</TitreFR>
+      <Auteurs>
+        <Nom>Sivan Gazit</Nom>
+        <Nom>al.</Nom>
+      </Auteurs>
+      <Source>Clinical Infectious Diseases</Source>
+      <Rubrique>Science</Rubrique>
+      <Tag>étude rétrospective observationnelle</Tag>
+      <Page>
+        <Lien>https://pubmed.ncbi.nlm.nih.gov/35380632/</Lien>
+      </Page>
+      <Presentation>
+        <p>D'après cette étude israélienne l’immunité naturelle est jusqu’à 10 fois supérieure après récupération qu’après le vaccin.</p>
+      </Presentation>
+      <Ajout>2022-05-08</Ajout>
+      <Publication>2022-04-05</Publication>
+    </Article>
+    <Article>
+      <Titre>A Case of Antineutrophil Cytoplasmic Antibodies (ANCA)-Associated Vasculitis Post COVID-19 Vaccination</Titre>
+      <TitreFR>Un cas de vascularite associée aux anticorps cytoplasmiques antineutrophiles (ANCA) post vaccin</TitreFR>
+      <Auteurs>
+        <Nom>Al-Yafeai Z</Nom>
+        <Nom>al.</Nom>
+      </Auteurs>
+      <Source>Cureus 14(3)</Source>
+      <Rubrique>Science</Rubrique>
+      <Tag>rapport</Tag>
+      <Tag>Pfizer</Tag>
+      <Page>
+        <Lien>https://www.cureus.com/articles/86872-a-case-of-antineutrophil-cytoplasmic-antibodies-anca-associated-vasculitis-post-covid-19-vaccination</Lien>
+      </Page>
+      <Presentation>
+        <p>Une femme de 62 ans qui a reçu la première dose de Pfizer en juillet 2021 présenter quelques semaines plus tard une polyarthralgie migrante et une hémoptysie. Alors la polyarthralgie se définit par une douleur présente dans au moins 5 articulations du corps. Et L'hémoptysie est définie comme une expectoration de sang provenant des voies respiratoires inférieures.</p>
+      </Presentation>
+      <Ajout>2022-05-09</Ajout>
+      <Publication>2022-03-14</Publication>
+    </Article>
+    <Article>
+      <Titre>Efficacy and Safety of Vitamin D Supplementation to Prevent COVID-19 in Frontline Healthcare Workers. A Randomized Clinical Trial</Titre>
+      <TitreFR>4 fois moins d'infections covid en prenant un supplément vitamine D3 à la bonne dose en traitement préventif</TitreFR>
+      <Auteurs>
+        <Nom>Miguel AVillasis-Keever</Nom>
+        <Nom>al.</Nom>
+      </Auteurs>
+      <Source>Archives of Medical Research</Source>
+      <Rubrique>Science</Rubrique>
+      <Tag>essai clinique contrôlé et randomisé</Tag>
+      <Page>
+        <Lien>https://www.sciencedirect.com/science/article/pii/S0188440922000455</Lien>
+      </Page>
+      <Presentation/>
+      <Ajout>2022-04-19</Ajout>
+      <Publication>2022-04-18</Publication>
+    </Article>    
+  </Ressources>
+</Bibliotheque>
