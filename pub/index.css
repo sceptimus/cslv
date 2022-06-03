@@ -33,12 +33,16 @@ li:before {
  content: url(img/puce.gif);
  vertical-align: bottom;
 }
- 
+ul.telechargement li:before {
+  content: '';  
+}
+ul.telechargement li {
+  list-style-type: none;  
+} 
 span.important {
   color: #ff0000 !important;
   font-variant: normal !important;  
 }
-
 .cache {
   display: none;
 }
@@ -442,7 +446,8 @@ div.rubrique.off {
   }  
   div#preview {
     display: grid;    
-    grid-template-columns: auto;
+    /*grid-template-columns: 1fr;*/
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:     
        "grid-menu"

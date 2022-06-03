@@ -111,6 +111,45 @@
       <Presentation/>
       <Ajout>2022-04-19</Ajout>
       <Publication>2022-04-18</Publication>
-    </Article>    
+    </Article>
+    <Article>
+      <Titre>Generalized erythema multiforme‐like skin rash following the first dose of COVID‐19 vaccine (Pfizer‐BioNTech)</Titre>
+      <TitreFR>Eruption cutanée généralisée de type érythème polymorphe après la première dose du vaccin COVID‐19 (Pfizer‐BioNTech)</TitreFR>
+      <Auteurs>
+        <Nom>M.J. Kim</Nom>
+        <Nom>al.</Nom>
+      </Auteurs>
+      <Source>Wiley Public Health Emergency Collection</Source>
+      <Rubrique>Science</Rubrique>
+      <Tag>effets secondaire des vaccins covid19</Tag>
+      <Tag>dermatologie</Tag>
+      <Page>
+        <Lien>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8656619/</Lien>
+      </Page>
+      <PDF>
+        <Lien>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8656619/pdf/JDV-9999-0.pdf</Lien>
+      </PDF>
+      <Presentation/>
+      <Ajout>2022-05-13</Ajout>
+      <Publication>2021-11-03</Publication>
+    </Article>
+    <Article>
+      <Titre>Immunocompromised children and young people are at no increased risk of severe COVID-19</Titre>
+      <TitreFR>Il n'y a pas d'augmentation de décès ou de forme grave. M^me chez les enfants immunodeprimés</TitreFR>
+      <Auteurs>
+        <Nom>H. Chappell</Nom>
+        <Nom>al.</Nom>
+      </Auteurs>
+      <Source>Journal of Infection</Source>
+      <Rubrique>Science</Rubrique>
+      <Tag>covid19</Tag>
+      <Tag>enfants</Tag>
+      <Page>
+        <Lien>https://www.sciencedirect.com/science/article/pii/S016344532100548X</Lien>
+      </Page>
+      <Presentation/>
+      <Ajout>2022-05-13</Ajout>
+      <Publication>2021-11-12</Publication>
+    </Article>
   </Ressources>
 </Bibliotheque>

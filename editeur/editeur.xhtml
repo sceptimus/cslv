@@ -196,6 +196,7 @@
         <p class="victime biblio-entry">
           <span class="title"><xt:use types="text" label="Titre" param="type=input">Titre de l'article</xt:use></span>
           <span style="float:right"><xt:menu-marker/></span>
+          <span class="title"><xt:use types="text" label="TitreFR" param="type=input" option="unset">Titre en Français</xt:use></span>          
           <br/>
           <xt:repeat minOccurs="0" maxOccurs="1" label="Page">
             <xt:use types="Page"/>
@@ -287,6 +288,7 @@
       <xt:component name="Article">
         <p class="article biblio-entry">
           <span class="title"><xt:use types="text" label="Titre" param="type=input">Titre de l'article</xt:use></span>
+          <span class="title"><xt:use types="text" label="TitreFR" param="type=input" option="unset">Titre en Français</xt:use></span>
           par
           <xt:repeat minOccurs="0" label="Auteurs">
             <xt:use types="person"/>

@@ -1463,5 +1463,272 @@
       </Page>
       <Publication>2021-09-28</Publication>
     </Victime>
+    <Victime>
+      <Titre>Un joggeur de 64 ans décède après un malaise</Titre>
+      <Age>64</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Belle Île en Mer</Ville>
+        <Departement>56</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.ouest-france.fr/bretagne/le-palais-56360/dans-le-morbihan-un-joggeur-de-64-ans-decede-apres-un-malaise-eab08e08-d13b-11ec-b11f-c11576a0bdfe</Lien>
+      </Page>
+      <Publication>2022-05-11</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Michel Soirat nous a quitté…</Titre>
+      <Age>67</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>La Jonchère</Ville>
+        <Departement>87</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://athlelana.com/michel-soirat-nous-a-quitte/</Lien>
+      </Page>
+      <Publication>2022-05-10</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Malaise cardiaque d’un randonneur au lac des Perches</Titre>
+      <Age>45</Age>
+      <Evolution>malaise cardiaque</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Rimbach-près-Masevaux</Ville>
+        <Departement>68</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.lalsace.fr/faits-divers-justice/2022/05/11/malaise-cardiaque-d-un-randonneur-au-lac-des-perches</Lien>
+      </Page>
+      <Publication>2022-05-11</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Un membre de la BRI décède tragiquement en service</Titre>
+      <Age>?</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Toulouse</Ville>
+        <Departement>31</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://actupenit.com/2022/05/16/toulouse-un-membre-de-la-bri-decede-tragiquement-en-service/</Lien>
+      </Page>
+      <Publication>2022-05-15</Publication>
+      <Serie>
+        <Article>
+          <Titre>Emotion après le décès d'un policier de la BRI</Titre>
+          <Page>
+            <Lien>https://www.ladepeche.fr/2022/05/15/toulouse-emotion-apres-le-deces-dun-policier-de-la-bri-10296869.php</Lien>
+          </Page>
+          <Publication>2022-05-15</Publication>
+        </Article>
+      </Serie>
+    </Victime>
+    <Victime>
+      <Titre>Vaccinated boy aged 6 died in Portugal following a heart attack</Titre>
+      <Age>6</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Lisbonne</Ville>
+        <Pays>Portugal</Pays>
+      </Localisation>
+      <Page>
+        <Lien>https://euroweeklynews.com/2022/01/18/vaccinated-boy-died-aged-6-heart-attack/</Lien>
+      </Page>
+      <Publication>2022-01-18</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Un footballeur de 44 ans victime d'un grave malaise durant une rencontre</Titre>
+      <Age>44</Age>
+      <Evolution>hospitalisation</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Audeux</Ville>
+        <Departement>25</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://pleinair.net/actualites/item/4430-audeux-un-footballeur-de-44-ans-victime-d-un-grave-malaise-durant-une-rencontre</Lien>
+      </Page>
+      <Publication>2022-05-27</Publication>
+      <Serie>
+        <Article>
+          <Titre>Un footballeur « entre la vie et la mort » après un malaise en plein match</Titre>
+          <Page>
+            <Lien>https://www.estrepublicain.fr/sport/2022/05/27/un-footballeur-entre-la-vie-et-la-mort-apres-un-malaise-en-plein-match</Lien>
+          </Page>
+          <Publication>2022-05-27</Publication>
+        </Article>
+      </Serie>
+    </Victime>
+    <Victime>
+      <Titre>Parti faire un jogging sur la Grande plage de Carnac, un homme décède après un malaise</Titre>
+      <Age>65</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Carnac</Ville>
+        <Departement>56</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.ouest-france.fr/bretagne/carnac-56340/morbihan-parti-faire-un-jogging-sur-la-grande-plage-de-carnac-un-homme-decede-apres-un-malaise-da3dfe22-ddc3-11ec-8402-b465269db5a0</Lien>
+      </Page>
+      <Publication>2022-05-27</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Un plongeur est décédé en se noyant non loin du Diben, à Plougasnou</Titre>
+      <Age>46</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Plougasnou</Ville>
+        <Departement>29</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.ouest-france.fr/bretagne/plougasnou-29630/finistere-un-plongeur-est-decede-en-se-noyant-non-loin-du-diben-a-plougasnou-82414f64-ddc6-11ec-8402-b465269db5a0</Lien>
+      </Page>
+      <Publication>2022-05-27</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Un cycliste de 62 ans victime d'un accident mortel</Titre>
+      <Age>62</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Pouliguen</Ville>
+        <Departement>44</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://actu.fr/pays-de-la-loire/le-pouliguen_44135/region-de-la-baule-un-cycliste-de-62-ans-victime-dun-accident-mortel_51259308.html</Lien>
+      </Page>
+      <Publication>2022-05-27</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Un cycliste d’une cinquantaine d’années est décédé après un malaise sur un parcours de santé</Titre>
+      <Age>50</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Sainte-Suzanne</Ville>
+        <Departement>974</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.linfo.re/la-reunion/faits-divers/sainte-suzanne-un-cycliste-d-une-cinquantaine-d-annees-est-decede-apres-un-malaise-sur-un-parcours-de-sante</Lien>
+      </Page>
+      <Publication>2022-05-27</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Un homme décède dans un accident de paddle</Titre>
+      <Age>37</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Martigny</Ville>
+        <Pays>Suisse</Pays>
+      </Localisation>
+      <Page>
+        <Lien>https://www.lematin.ch/story/un-homme-decede-dans-un-accident-de-paddle-211426384241</Lien>
+      </Page>
+      <Publication>2022-05-27</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Willy Baldé, éducateur de football, est décédé</Titre>
+      <Age>51</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Villeparisis</Ville>
+        <Departement>77</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://actu.fr/ile-de-france/villeparisis_77514/villeparisis-willy-balde-educateur-de-football-u14-est-decede_51272243.html</Lien>
+      </Page>
+      <Publication>2022-05-27</Publication>
+    </Victime>
+    <Victime>
+      <Titre>L'adolescente fait un malaise lors d’une randonnée</Titre>
+      <Age>16</Age>
+      <Evolution>hospitalisation</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Digne-les-Bains</Ville>
+        <Departement>04</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.ledauphine.com/faits-divers-justice/2022/05/29/l-adolescente-fait-un-malaise-lors-d-une-randonnee</Lien>
+      </Page>
+      <Publication>2022-05-29</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Une cycliste en urgence absolue évacuée par hélicoptère</Titre>
+      <Age>31</Age>
+      <Evolution>malaise</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Andouillé</Ville>
+        <Departement>53</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://laval.maville.com/actu/actudet_-en-mayenne-une-cycliste-en-urgence-absolue-evacuee-par-helicoptere-_loc-4785078_actu.Htm</Lien>
+      </Page>
+      <Publication>2021-08-21</Publication>
+    </Victime>
+    <Victime>
+      <Titre>L’homme qui avait fait un malaise dans l’eau est finalement décédé</Titre>
+      <Age>42</Age>
+      <Evolution>décès</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Condac</Ville>
+        <Departement>16</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.charentelibre.fr/condac-l-homme-qui-avait-fait-un-malaise-dans-l-eau-est-finalement-decede-11141797.php</Lien>
+      </Page>
+      <Publication>2022-06-01</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Une collégienne de 12 ans dans un état grave après un malaise cardiaque à la piscine d'Arthez-de-Béarn</Titre>
+      <Age>12</Age>
+      <Evolution>hospitalisation</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Arthez-de-Béarn</Ville>
+        <Departement>64</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.francebleu.fr/infos/faits-divers-justice/arthez-de-bearn-une-collegienne-de-12-ans-dans-un-etat-grave-apres-un-malaise-cardiaque-a-la-piscine-1654184880</Lien>
+      </Page>
+      <Publication>2022-06-02</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Deux soignantes sauvent un nourrisson dans le TGV entre Paris et Brest</Titre>
+      <Age>0</Age>
+      <Evolution>malaise</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Le Mans</Ville>
+        <Departement>72</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://www.letelegramme.fr/bretagne/deux-soignantes-sauvent-un-nourrisson-dans-le-tgv-entre-paris-et-brest-15-05-2022-13028256.php</Lien>
+      </Page>
+      <Publication>2022-05-15</Publication>
+    </Victime>
+    <Victime>
+      <Titre>Un adolescent fait un arrêt cardiaque sur un court de tennis, son père lui sauve la vie</Titre>
+      <Age>14</Age>
+      <Evolution>arrêt cardiaque</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Localisation>
+        <Ville>Saint-Gaudens</Ville>
+        <Departement>31</Departement>
+      </Localisation>
+      <Publication>2022-05-28</Publication>
+    </Victime>
   </Ressources>
 </Bibliotheque>

@@ -1,4 +1,57 @@
 <Evenements>
+  
+  <Evenement Afficher="oui">
+     <Ancre>potager-sauvage</Ancre>
+     <Titre>Samedi 11 juin 2022 - 10h - 17h<br/>Chateauneuf<br/>Venez découvrir le potager sauvage</Titre>
+     <Presentation>
+       Le potager sauvage vous accueille !
+     </Presentation>
+     <Verbatim>
+       <p>
+         <center>
+         <a href="https://www.cadoc.fr/cslv85/archives/2022/06/potager_sauvage.jpg">
+           <img src="https://www.cadoc.fr/cslv85/archives/2022/06/potager_sauvage.jpg" width="400px"/>
+         </a>
+         </center>
+       </p>
+     </Verbatim>
+   </Evenement>
+     
+   <Evenement Afficher="oui">
+      <Ancre>idriss-aberkane</Ancre>
+      <Titre>Dimanche 12 juin 2022 - de 15h à 19h<br/>LudyLab<br/>Idriss Aberkane en Vendée</Titre>
+      <Presentation>
+        Conférence sur les Pouvoirs et mystères de notre cerveau
+      </Presentation>
+      <Verbatim>
+        <p>Voir l'annonce sur le site du <a href="https://www.ludylab.fr/news/idriss_aberkane/">LudyLab</a></p>
+        <p>
+          <center>
+          <a href="https://www.cadoc.fr/cslv85/archives/2022/06/idriss-aberkane-ludylab.jpg">
+            <img src="https://www.cadoc.fr/cslv85/archives/2022/06/idriss-aberkane-ludylab.jpg" width="400px"/>
+          </a>
+          </center>
+        </p>
+      </Verbatim>
+    </Evenement>
+         
+    <Evenement Afficher="oui">
+       <Ancre>laurent-mucchielli</Ancre>
+       <Titre>Lundi 13 juin 2022 à 20h30<br/>Cholet<br/>Condérence débat avec Laurent Mucchilelli</Titre>
+       <Presentation>
+         Par l'auteur de <a href="https://www.librairie-agora.com/livre/9782376720393-la-doxa-du-covid-laurent-mucchielli/">La Doxa du Covid</a>
+       </Presentation>
+       <Verbatim>
+         <p>
+           <center>
+           <a href="https://www.cadoc.fr/cslv85/archives/2022/06/conference_Laurent_Mucchielli.pdf">
+             <img src="https://www.cadoc.fr/cslv85/archives/2022/06/conference_Laurent_Mucchielli.png" width="600px"/>
+           </a>
+           </center>
+         </p>
+       </Verbatim>
+     </Evenement>
+              
   <Evenement Afficher="non">
      <Ancre>jem</Ancre>
      <Titre>Lundi 21 février 2022 à 20h<br/>Mortagne sur sèvre<br/>Réunion d'information sur le JEM (JEU/SEL)</Titre>

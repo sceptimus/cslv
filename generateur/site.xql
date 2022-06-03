@@ -87,7 +87,7 @@ declare function local:films ( $name, $genre ) {
  :)  
 declare function local:lien-pour-menu ( $page, $sitemap ) {
   if ($page/@File eq 'blog') then
-    replace($sitemap/Contenu/Page[Id eq 'blog']/Billet[last()]/@File, '.xml', '.html')
+    replace($sitemap//Page[Id eq 'blog']/Billet[last()]/@File, '.xml', '.html')
   else
     $page/@File || '.html'
 };
@@ -113,7 +113,7 @@ declare function local:menu( $name ) {
                   return
                     if ($sub/@File eq $name)
                       then <div class="rubrique on {$p/@Tag} sub"><p>{$sub/text()}</p></div>
-                      else <div class="rubrique {$p/@Tag} sub"><p><a href="{$sub/@File}.html">{$sub/text()}</a></p></div>
+                      else <div class="rubrique {$p/@Tag} sub"><p><a href="{local:lien-pour-menu($sub, $sitemap)}">{$sub/text()}</a></p></div>
                   )
               else if ($p/@File eq $name)
                   then <div class="off rubrique on top"><p>{$p/text()}</p></div>
@@ -128,7 +128,7 @@ declare function local:menu( $name ) {
                   return
                     if ($sub/@File eq $name)
                       then <div class="off rubrique on {$p/@Tag} sub"><p>{$sub/text()}</p></div>
-                      else <div class="off rubrique {$p/@Tag} sub"><p><a href="{$sub/@File}.html">{$sub/text()}</a></p></div>
+                      else <div class="off rubrique {$p/@Tag} sub"><p><a href="{local:lien-pour-menu($sub, $sitemap)}">{$sub/text()}</a></p></div>
                   )
               else if ($p/@File eq $name)
                   then <div class="rubrique on top"><p>{$p/text()}</p></div>
@@ -1162,7 +1162,7 @@ let $in := map {
 let $pages := ('index', 'manifeste', 'annuaire', 'evenements', 'videos', 'biblio', 'outils', 'nocomment', 'blog', 'json', 'actions')
 (:                1          2           3            4           5         6         7           8          9      10        11 :)
 return 
-  for $i in (1, 6)
+  for $i in (1)
   return 
     (
     if ($i = (5, 10))

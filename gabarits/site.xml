@@ -194,7 +194,6 @@
       <Rubriques>
         <!-- A FAIRE
 
-
         <Rubrique Ancre="echecs">
           <Tag>echecs</Tag>
           <Titre>Echecs vaccinaux</Titre>
@@ -214,7 +213,6 @@
         </Rubrique>
         
         -->
-
         <Rubrique Ancre="poursuites">
           <Tag>poursuites</Tag>
           <Titre>Poursuites et Recours judiciaires</Titre>
@@ -305,13 +303,6 @@
                 <p>De plus en plus de voix s'expriment sur la crise, y compris parmi les professionnels de la santé, pour briser l'omerta et faire jaillir la vérité, pour que le bon sens reprenne le contrôle de nos vies</p>
               </Presentation>
           </Rubrique>
-          <!-- <Rubrique Ancre="inexplique">
-              <Tag>inexpliqué</Tag>
-              <Titre>Inexpliqué</Titre>
-              <Presentation>
-                <p>quand les faits sont têtus</p>
-              </Presentation>
-          </Rubrique> -->
           <Rubrique Ancre="sport">
               <Tag>sport</Tag>
               <Titre>Dossier sport</Titre>
@@ -326,7 +317,6 @@
                 <p>Retours en arrière et explications sur ce que nous avons vécu.</p>
               </Presentation>
           </Rubrique>          
-          
           <Rubrique Ancre="prospective">
               <Tag>prospective</Tag>
               <Titre>Prospectives</Titre>
@@ -346,10 +336,6 @@
                 <p>Que penser du silence assourdissant des corps intermédiaires ?</p>
               </Presentation>
           </Rubrique>          
-          <!-- <Rubrique>
-              <Tag>faq</Tag>
-              <Titre>Foire aux questions</Titre>
-          </Rubrique> -->
       </Rubriques>
     </Page>
     <Page>

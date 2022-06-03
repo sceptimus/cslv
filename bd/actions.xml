@@ -22,7 +22,7 @@
     </Verbatim>
   </Action>
   
-  <Action Afficher="oui">
+  <Action Afficher="non">
     <Ancre>temoignage</Ancre>
     <TitreCourt>Constitution d'un livret de témoignages pour la Vendée</TitreCourt>
     <Titre>Action de recueil de témoignages sur les effets secondaires des vaccins ou les traitements contre la Covid en Vendée</Titre>
