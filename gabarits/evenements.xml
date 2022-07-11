@@ -16,7 +16,7 @@
 
           <div class="block border">
             <h1>Agenda</h1>
-            <blockquote>Si vous souhaitez proposer un événement envoyez un courrier électronique à <a data-mail1="redaction" data-mail2="comitesantelibertevendee.fr" data-subject="[CSLV 85] Agenda">rédaction</a>.</blockquote>
+            <blockquote>Si vous souhaitez proposer un événement envoyez un courrier électronique à <a data-mail1="redaction" data-mail2="cslv.fr" data-subject="[CSLV 85] Agenda">rédaction</a>.</blockquote>
           </div>
 
           { local:agenda('agenda.xml') }

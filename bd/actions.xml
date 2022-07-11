@@ -1,6 +1,6 @@
 <Actions>
   
-  <Action Afficher="oui">
+  <Action Afficher="non">
     <Ancre>coeur</Ancre>
     <TitreCourt>Coeur Liberté</TitreCourt>
     <Titre>Coeur Liberté : mobilisation pour les élections</Titre>
@@ -36,7 +36,7 @@
         <li>premièrement l'existence d'effets secondaires liés à la vaccination contre le Covid</li>
         <li>deuxièmement l'existence d'autres voies pour faire face à la contamination par le SARS-Cov2</li>
       </ul>
-      <p>Pour ce faire, que vous ayez vécu des effets secondaires, que vous ayez eu le Covid, ou les deux, écrivez à <a data-mail1="temoignage" data-mail2="comitesantelibertevendee.fr" data-subject="Témoignage" data-text="copy">témoignage</a>. Nous utiliserons vos témoignages pour créer un livret.</p>
+      <p>Pour ce faire, que vous ayez vécu des effets secondaires, que vous ayez eu le Covid, ou les deux, écrivez à <a data-mail1="temoignage" data-mail2="cslv.fr" data-subject="Témoignage" data-text="copy">témoignage</a>. Nous utiliserons vos témoignages pour créer un livret.</p>
       <p>Pour faire figurer votre témoignage dans le livret indiquez nous un prénom, un nom de ville (ou de communauté de commune), une date (mois et année) et éventuellement une tranche d'age. Ensuite décrivez les effets secondaires ou le traitement (ou l'absence de traitement) suivi pour guérir du Covid et toute information qui vous semble utile. Nous recherchons des témoignages directs à la première personne qui vous concernent (ou votre enfant).</p>
       <p>Le but de cette action est de rassembler dans un livret un ensemble de témoignages représentatifs localisés sur le territoire de la Vendée.</p>
       <p>Cette action n'a pas pour but de se constituer en groupe de victimes. Elle cherche juste à percer le mur du silence entretenu par les medias et la peur en fabriquant et en diffusant un livret. Elle ne se substitue pas à un signalement auprès des autorités sanitaires (voir à ce sujet la boite à outils <a href="outils.html#8">déclarer des effets indésirables suite à la vaccination</a>).</p>

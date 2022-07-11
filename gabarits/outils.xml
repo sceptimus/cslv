@@ -17,7 +17,7 @@
         <div id="top" class="block border">
           <span style="float:right; font-size:75%">Mis à jour le { $in?date }</span>
           <h1>Boite à outils</h1>
-          <blockquote>Exemples de démarches entreprises partout en France pour réagir face à la pression mise sur les parents et le citoyens avec des liens vers les resources utilisées (courriers, formulaires pour participer à des recours collectifs, etc.). Cette page rassemble des contributions de membres du comité postées sur le canal telegram ou envoyées sur <a data-mail1="redaction" data-mail2="comitesantelibertevendee.fr" data-subject="Boite à outils">boite à outil</a>.              </blockquote>
+          <blockquote>Exemples de démarches entreprises partout en France pour réagir face à la pression mise sur les parents et le citoyens avec des liens vers les resources utilisées (courriers, formulaires pour participer à des recours collectifs, etc.). Cette page rassemble des contributions de membres du comité postées sur le canal telegram ou envoyées sur <a data-mail1="redaction" data-mail2="cslv.fr" data-subject="Boite à outils">boite à outil</a>.              </blockquote>
           
           { local:lister-outils('outils.xml') }
         </div>        

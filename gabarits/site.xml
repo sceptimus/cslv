@@ -12,6 +12,7 @@
       <Page File="videos">Videos</Page>
       <Page File="manifeste">Manifeste</Page>
       <Page File="nocomment">Montages</Page>
+      <Page File="victimes">Victimes</Page>
     </Groupe>
   </Menu>
   <Catalogue>

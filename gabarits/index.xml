@@ -13,11 +13,11 @@
     var s = window.location.href.toString(),
         n, mto = 'mailto:', base = '@',
         mS = "soignantsresistants85.fr",
-        m1 = "contact" + base + "comitesantelibertevendee.fr",
-        m2 = "telegram" + base + "comitesantelibertevendee.fr",
-        m3 = "redaction" + base + "comitesantelibertevendee.fr",
+        m1 = "contact" + base + "cslv.fr",
+        m2 = "telegram" + base + "cslv.fr",
+        m3 = "redaction" + base + "cslv.fr",
         m = ["eveil", "jeunesse", "parents", "convivialite", "actions", "redaction"],
-        suffix =  base + "comitesantelibertevendee.fr",
+        suffix =  base + "cslv.fr",
         run = true;
         
     n = document.getElementById('mail1');
@@ -26,17 +26,17 @@
     n = document.getElementById('mail2');
     n.href = mto + m2 + '?subject=Inscription%20telegram%20CSLV';
     n.textContent = m2;        
-    n = document.getElementById('mail3');
-    n.href = mto + m3;
-    for (var i = 0; run; i++) {{
+    // n = document.getElementById('mail3');
+    // n.href = mto + m3;
+    for (var i = 5; run; i++) {{
       n = document.getElementById('mail' + (i + 4));
       n.href = mto + m[i] + suffix;
       n.textContent = m[i] + suffix;
       if (i === 5) {{ run = false }};
     }};
     n = document.getElementById('mailS');
-    n.href = mto + 'Contact' + base + mS;
-    n.textContent = 'Contact' + base + mS;
+    n.href = mto + 'contact' + base + mS;
+    n.textContent = 'contact' + base + mS;
   }});
 </script>
     </head> 
@@ -85,7 +85,7 @@
 
               <!-- <li>nouvelle <a href="videos.html#politique">vidéo</a> du député <b>Joachim Son-Forget</b>, ajouté le 4 novembre 2021</li> -->
 
-              <!-- <li><span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 2021</li> -->
+              <!-- <li><span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 92021</li> -->
 
               <!-- TODO: voir plus -->
 
@@ -99,7 +99,7 @@
           </div>
 
           <div id="contact" class="border">
-            <h3 class="caps">Adhésion</h3>
+            <h3 class="caps">Inscription</h3>
             <p>Contactez-nous ou Adhérez gratuitement à notre manifeste et inscrivez-vous sur notre liste de contacts en envoyant un message avec vos coordonnées à:</p>
             <p class="media">
               <img src="img/ecrire.gif" alt="contact" style="max-width: 24px"/>
@@ -140,9 +140,15 @@
           <div class="border" style="margin-bottom:20px">
           <h3 class="caps">Actions en Cours</h3>
           <div class="info">
-            <p>Action <a href="actions.html#coeur">Coeur Liberté</a> pour mobiliser pour les élections.</p>            
-          </div>                    
-          <!-- <div class="info">
+            <p><center><span style="font-variant:small-caps"><a href="evenements.html#pique-nique">Pique-Nique</a></span> à la Roche Sur Yon Samedi 9 Juillet à partir de midi.</center>
+            </p>          
+            <p><center>Et aussi à <a href="evenements.html#aizenay">Aizenay</a>, Vendredi 8 juillet à partir de 18H30.</center></p>
+           </div>          
+          <!-- 
+            <div class="info">
+              <p>Action <a href="actions.html#coeur">Coeur Liberté</a> pour mobiliser pour les élections.</p>            
+            </div>
+            <div class="info">
             <p>Participez à l'<a href="actions.html#llmp">action d'information aux professionnels de la santé, élus et responsables de la sécurité des citoyens</a> basée sur la publication du 1.12.2021 <a href="https://stopcovid19.today/wp-content/uploads/2021/12/llmp-informations_covid19-Fr-2021-12-01.pdf">
                                 <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
                             </a> du collectif « Laissons Les Médecins Prescrire » - LLMP.
@@ -154,17 +160,36 @@
            <div class="info">
              <p>Participez à un <a href="https://mamanslouves.com">sondage des Mamans Louves</a> <a href="https://www.cadoc.fr/cslv85/archives/2021/affichettes/sondage-mamans-louves.pdf">
                                  <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> pour aider à protéger les enfants en alertant les autorités. Lisez aussi le <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">communiqué de presse</a> <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">
-                                 <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> en réponse à la grève de l'éducation nationale du 13 janvier 2022.
+                                 <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> en réponse à la grève de l'éducation nationale du 13 janvier 2022. Voir aussi leur mise en garde de Juin 2022 sur la <a href="https://mamanslouves.com/vaccination/">vaccination des enfants</a>.
              </p>
             </div>
             <div class="info">
               <p>Participez à des <a href="actions.html#les-essentiels">témoignages photo</a> en soutien au personnel soignant ainsi qu'à toutes les personnes pénalisées par le pass sanitaire.</p>
-             </div>            
+             </div>
+             <div class="info">
+               <p>Recensement d'<a href="victimes.html">articles de presse régionale</a> sur des morts subites ou des malaises non expliqués.</p>
+              </div>                         
              <div class="info">
                  <h3>Documents en téléchargement</h3>
                  <ul class="telechargement">
 {
 let $docs := <docs>
+    <doc>
+        <source>/2022/affichettes/signalement.pdf</source>
+        <titre>Déclarez vos effets secondaires sur <a href="https://signalement.social-sante.gouv.fr">signalement.social-sante.gouv.fr</a></titre>
+    </doc>
+    <doc>
+        <source>/2022/06/retrait-vaccins.pdf</source>
+        <titre>Vaccins retirés, extrait (à 16') de <a href="https://odysee.com/@LeLibrePenseur.org:2/conf-marseille-effets-indesirables-covid19:a">Alexandra Henrion Claude</a>, Marseille, 25/06/2022</titre>
+    </doc>
+    <doc>
+        <source>/2022/affichettes/je-dis-non.pdf</source>
+        <titre>Affichette Je dis Non pour les Enfants</titre>
+    </doc>
+    <doc>
+        <source>/2022/06/article-girardot-traduction.pdf</source>
+        <titre>Pourquoi il vaut mieux éviter de répéter les injections de vaccins anti-Covid (traduction)</titre>
+    </doc>
     <doc>
         <source>/2022/affichettes/25-raisons.pdf</source>
         <titre>Affichette 25 raisons de refuser les injections contre le covid-19</titre>
@@ -172,6 +197,7 @@ let $docs := <docs>
     <doc>
         <source>/2022/affichettes/rentree-2022-mamns-louves.pdf</source>
         <titre>Tract des mamans louves pour la rentrée 2022</titre>
+        <lien>https://mamanslouves.com/vaccination/</lien>
     </doc>
     <doc>
         <source>/2022/05/Les_Principaux_Scandales_Sanitaires_avec_Condamnations_des_Laboratoires.pdf</source>
@@ -233,7 +259,17 @@ return
      <li><span class="doc" href="{$d/source}" data-cadoc="pdf">{ $d/titre/(text()|*) }</span></li>
 }
                  </ul>
-             </div>              
+             </div>   
+             <h3 class="caps">Nous ne sommes plus seuls à le penser !</h3>
+             <p>Instant vérité sur LCI avec M. Bruno Retailleau dans l'<a href="https://www.tf1info.fr/replay-lci/video-bruno-retailleau-l-interview-politique-du-mercredi-22-juin-2223954.html">interview politique</a> du 22 juin 2022  
+                : <i>le passe vaccinal dans les faits je pense qu'il n'a pas servi à grand chose...</i></p>
+             <div style="text-align:center">
+                <video src="https://www.cadoc.fr/cslv85/archives/2022/06/lci-je-l-ai-vote.mp4"
+                       controls="1">
+                     Cette vidéo ne peut être affichée sur votre navigateur Internet.<br/>
+                     Une version est disponible en téléchargement sous <a href="https://www.cadoc.fr/cslv85/archives/2022/06/lci-je-l-ai-vote.mp4">adresse du lien </a>. 
+                   </video>
+             </div>
           </div>
 
           <div class="border" style="margin-bottom:20px">
@@ -246,6 +282,9 @@ return
             <h3 class="caps">Effets Secondaires</h3>
             <p>Suite à une pétition, la commission des Affaires sociales du Sénat a saisi l’Office parlementaire d’évaluation des choix scientifiques et technologiques (OPECST) le 9 février 2022 afin de réaliser <a href="https://www.senat.fr/presse/cp20220325a.html">une étude sur les effets secondaires des vaccins contre la Covid-19</a>.</p>
             <p>La biostatisticienne Christine Cotton y a présenté une <a href="https://christine-cotton.1ere-page.fr/evaluation-essais-pfizer/">Evaluation des pratiques méthodologiques mises en oeuvre dans les essais Pfizer dans le développement de son vaccin ARN-messager contre la COVID-19 en regard des Bonnes Pratiques Cliniques</a> que tout décideur politique se devrait de connaître pour comprendre la fragilité des bases sur lesquelles ont été mis en oeuvre les passes sanitaires puis vaccinaux.</p>
+            <blockquote>
+              <p><i>Pour ceux qui lisent le journal Liberation voici <a href="https://christine-cotton.1ere-page.fr/wp-content/uploads/2022/06/Reponse-de-CC-a-Libe-2022-06-02.pdf">la réponse de Christine Cotton</a> concernant leur article sur les auditions du Sénat concernant les effets secondaires des vaccins covid19.</i></p>
+            </blockquote>            
             <p>Pendant ce temps la recherche médicale suis son cours et des milliers d'articles (!) relatent et étudient les effets secondaires des vaccins ARN-messager, que plus personne ne peut nier à présent, même s'il n'a pas été directement frappé dans son entourage.</p>
             <p>Ainsi voici une <a href="https://community.covidvaccineinjuries.com/compilation-peer-reviewed-medical-papers-of-covid-vaccine-injuries/">liste de 1000 Articles médicaux examinés par des pairs soumis à diverses revues médicales, mettant en évidence une multitude d'événements indésirables chez les receveurs du vaccin Covid-19</a>. Parmi ceux-ci :</p>
             <ul>
@@ -336,7 +375,7 @@ return
               { local:victimes() }
               <p>N'hésitez pas à envoyer vos liens pour compléter cette liste. Vous pouvez aussi consulter les <a href="https://ansm.sante.fr/actualites/point-de-situation-sur-la-surveillance-des-vaccins-contre-la-covid-19-periode-du-01-10-2021-au-14-10-2021">points de situation</a> de l'ANSM ou le dossier <a href ="biblio.html#victimes">Effet secondaires</a>.</p>
             </div>
-          </div>          
+          </div>
         </div>
         
         <!-- <div id="avis" class="border">
@@ -350,9 +389,9 @@ return
         </div> -->
                 
         <div id="collectifs">
-          <h3 class="caps">Nos Collectifs pour ne pas rester inactif et passif</h3>
+          <h3 class="caps">Autres contacts</h3>
           
-          <blockquote>Nous vous invitons à participer directement à un ou plusieurs de nos collectifs thématiques, en joignant son responsable à l'adresse de contact. <a id="mail3">Contactez-nous</a> si vous souhaitez créer et animer votre propre collectif.</blockquote>
+          <!-- <blockquote>Nous vous invitons à participer directement à un ou plusieurs de nos collectifs thématiques, en joignant son responsable à l'adresse de contact. <a id="mail3">Contactez-nous</a> si vous souhaitez créer et animer votre propre collectif.</blockquote> -->
         </div>
           
         <div id="gauche">
@@ -365,13 +404,13 @@ Mettre fin aux discriminations
 &#8213; Accroître la coopération entre citoyens et soignants</p>
             <p class="media"><img src="img/ecrire.gif" alt="contact"/> <a id="mailS">mailS</a></p>
           </div>          
-          <div class="collectif">
+          <!-- <div class="collectif">
             <h4>Collectif éveiller les consciences</h4>
             <p class="moto">Éteignons les télés, rallumons les cerveaux</p>
             <p><span class="but">But</span>
 Créer les arguments et les outils pour lutter la discrimination, la soumission et la division</p>
             <p class="media"><img src="img/ecrire.gif" alt="contact"/> <a id="mail4">mail4</a></p>
-          </div>
+          </div> -->
           <!-- <div class="collectif">
             <h4>Collectif des soignants</h4>
             <p class="moto">Soigner les soignants</p>
@@ -379,7 +418,7 @@ Créer les arguments et les outils pour lutter la discrimination, la soumission 
             <p>Réfléchir à des actions solidaire – Aider à se reconvertir</p>
             <p>Contact: <a href="soignants@comitesantelibertevendee.fr">soignants@comitesantelibertevendee.fr</a></p>
           </div> -->
-          <div class="collectif">
+          <!-- <div class="collectif">
             <h4>Collectif jeunesse (famille)</h4>
             <p class="moto">Aujourd’hui, l’avenir c’est eux - Jeunesse sans risque, jeunesse sans passe</p>
             <p><span class="but">But</span>
@@ -394,11 +433,11 @@ Sensibiliser et motiver les jeunes pour l’action
 S’investir dans les associations de parents d’élèves
 &#8213; Donner aux parents des arguments pour rencontrer les enseignants et les chefs d’établissements</p>
             <p class="media"><img src="img/ecrire.gif" alt="contact"/> <a id="mail6">mail6</a></p>
-          </div>
+          </div> -->
         </div>
         
         <div id="droite">
-          <div class="collectif">
+          <!-- <div class="collectif">
             <h4>Collectif convivialité</h4>
             <p class="moto">J’ai décidé d’être heureux, c’est bon pour la santé</p>
             <p><span class="but">But</span>
@@ -413,9 +452,9 @@ Organiser des actions de sensibilisation et d'information sur le terrain
 &#8213; Rencontrer des acteurs de la société (restaurateurs, police, etc.)
 &#8213; Imaginer des actions pour soutenir les usagers exclus par le passe sanitaire</p>
             <p class="media"><img src="img/ecrire.gif" alt="contact"/> <a id="mail8">mail8</a></p>
-          </div>
+          </div> -->
           <div class="collectif">
-            <h4>Collectif information</h4>
+            <h4>Rédaction</h4>
             <p class="moto">Faire circuler l’information positive</p>
             <p><span class="but">But</span>
 Gérer le site internet

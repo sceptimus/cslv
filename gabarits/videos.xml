@@ -9,7 +9,7 @@
 document.addEventListener('DOMContentLoaded', function () {{
   var s = window.location.href.toString(),
       n, mto = 'mailto:', base = '@',
-  m2 = "redaction" + base + "comitesantelibertevendee.fr";
+  m2 = "redaction" + base + "cslv.fr";
   n = document.getElementById('mail2');
   n.href = mto + m2;
 }});

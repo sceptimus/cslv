@@ -16,7 +16,7 @@
 
           <div id="top" class="block border">
             <h1>Actions</h1>
-            <blockquote>Actions soutenues par le CSLV 85. Pour diffuser une action écrivez à la <a data-mail1="redaction" data-mail2="comitesantelibertevendee.fr" data-subject="[CSLV 85] Action">rédaction</a>.</blockquote>
+            <blockquote>Actions soutenues par le CSLV 85. Pour diffuser une action écrivez à la <a data-mail1="redaction" data-mail2="cslv.fr" data-subject="[CSLV 85] Action">rédaction</a>.</blockquote>
 
             { local:lister-actions('actions.xml') }            
           </div>

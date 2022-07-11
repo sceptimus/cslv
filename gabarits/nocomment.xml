@@ -9,7 +9,7 @@
 document.addEventListener('DOMContentLoaded', function () {{
   var s = window.location.href.toString(),
       n, mto = 'mailto:', base = '@',
-  m2 = "redaction" + base + "comitesantelibertevendee.fr";
+  m2 = "redaction" + base + "cslv.fr";
   n = document.getElementById('mail2');
   n.href = mto + m2 + '?subject=No%20comment';
 }});
@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {{
 
           <div class="block border">
 
+            <p class="nocomment" id="ils"><span class="origin">Nous savons qu'ils mentent, ils savent qu'ils mentent. Ils savent que nous savons qu'ils mentent. Nous savons qu'ils savent que nous savons qu'ils mentent. Et pourtant ils persistent à mentir. <i>Alexandre Soljenitsyne</i></span><br/>
+            <a href="https://www.cadoc.fr/cslv85/archives/2022/images/soljenitsyne-ils.png"><img src="https://www.cadoc.fr/cslv85/archives/2022/images/soljenitsyne-ils.png" width="400px"/></a></p>
             <p class="nocomment"><img src="https://www.cadoc.fr/cslv85/archives/2022/nocomment/exercice-ecole.jpg" width="600px"/></p>
             <p class="nocomment"><img src="https://www.cadoc.fr/cslv85/archives/2022/nocomment/passeport.jpg" width="600px"/></p>
             <p class="nocomment" style="margin: 40px 40px;padding: 20px 40px;border: solid 1px gray;text-align: justify">

@@ -7,7 +7,7 @@
       <Tag>Vendée</Tag>
       <Tag>liaison</Tag>
       <Lien>http://www.comitesantelibertevendee.fr</Lien>
-      <Contact>contact@comitesantelibertevendee.fr</Contact>
+      <Contact>contact@cslv.fr</Contact>
       <Telegram>
         <Contact>telegram@comitesantelibertevendee.fr</Contact>
       </Telegram>
@@ -890,6 +890,35 @@ professionnels et olympiques.Amateurs décédés pendant la pratique d’une act
         <p>Le blog de Guy de La Fortelle</p>
       </Presentation>
       <Ajout>2022-05-15</Ajout>
+    </Site>
+    <Site>
+      <Titre>Idée d'en faire</Titre>
+      <Rubrique>Autonomie</Rubrique>
+      <Groupe>Indépendance énergétique</Groupe>
+      <Tag>animations</Tag>
+      <Tag>construction</Tag>
+      <Tag>cuisine alternative</Tag>
+      <Lien>https://www.ideedenfaire.fr/four-bois-terre-crue</Lien>
+      <Presentation>
+        <p>Animations cuisine alternative. Stages et formations, four à bois en terre crue, four solaire, séchoir solaire, marmite norvégienne, cuiseur à bois économe.</p>
+      </Presentation>
+      <Ajout>2022-06-07</Ajout>
+    </Site>
+    <Site>
+      <Titre>Collectif Court-Circuit Nord Ouest Vendée</Titre>
+      <Rubrique>Autonomie</Rubrique>
+      <Groupe>producteur</Groupe>
+      <Tag>Vendée</Tag>
+      <Tag>maraîchage</Tag>
+      <Lien>http://www.collectifcourtcircuit.org/p/le-collectif-cest-quoi-le-collectif.html</Lien>
+      <Localisation>
+        <Pays>France</Pays>
+        <Departement>85</Departement>
+      </Localisation>      
+      <Presentation>
+        <p>Le Collectif Court-Circuit est une association dont le but est de favoriser les circuits courts de distribution de produits alimentaires et le lien social dans le territoire du Marais breton et de ses marges. Distribution hebdomadaire de paniers (légumes, pain, crèmerie) et commandes groupées (viande, fruits, épicerie), organisation d'événements en rapport avec l'agriculture, chantiers collectifs, des visites de ferme...</p>
+      </Presentation>
+      <Ajout>2022-06-07</Ajout>
     </Site>
   </Ressources>
 </Bibliotheque>

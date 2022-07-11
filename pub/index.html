@@ -13,11 +13,11 @@
     var s = window.location.href.toString(),
         n, mto = 'mailto:', base = '@',
         mS = "soignantsresistants85.fr",
-        m1 = "contact" + base + "comitesantelibertevendee.fr",
-        m2 = "telegram" + base + "comitesantelibertevendee.fr",
-        m3 = "redaction" + base + "comitesantelibertevendee.fr",
+        m1 = "contact" + base + "cslv.fr",
+        m2 = "telegram" + base + "cslv.fr",
+        m3 = "redaction" + base + "cslv.fr",
         m = ["eveil", "jeunesse", "parents", "convivialite", "actions", "redaction"],
-        suffix =  base + "comitesantelibertevendee.fr",
+        suffix =  base + "cslv.fr",
         run = true;
         
     n = document.getElementById('mail1');
@@ -26,17 +26,17 @@
     n = document.getElementById('mail2');
     n.href = mto + m2 + '?subject=Inscription%20telegram%20CSLV';
     n.textContent = m2;        
-    n = document.getElementById('mail3');
-    n.href = mto + m3;
-    for (var i = 0; run; i++) {
+    // n = document.getElementById('mail3');
+    // n.href = mto + m3;
+    for (var i = 5; run; i++) {
       n = document.getElementById('mail' + (i + 4));
       n.href = mto + m[i] + suffix;
       n.textContent = m[i] + suffix;
       if (i === 5) { run = false };
     };
     n = document.getElementById('mailS');
-    n.href = mto + 'Contact' + base + mS;
-    n.textContent = 'Contact' + base + mS;
+    n.href = mto + 'contact' + base + mS;
+    n.textContent = 'contact' + base + mS;
   });
 </script>
     </head>
@@ -100,6 +100,11 @@
                             <a href="nocomment.html">Montages</a>
                         </p>
                     </div>
+                    <div class="off rubrique rsce sub">
+                        <p>
+                            <a href="victimes.html">Victimes</a>
+                        </p>
+                    </div>
                 </div>
             </div>
             <div id="bandeau">
@@ -121,13 +126,13 @@
                         <li>
                             <span>Nouvel Outil</span> disponible dans notre <a href="outils.html#9">boite à outils</a> : affichettes d'information pour parents, éducateurs et adolescents, ajouté le 16 novembre 2021</li><!-- <li><a href="videos.html#interview">entretien essentiel</a> entre <b>Idriss Aberkane</b> et <b>Nicolas Vidal</b> dans l'émission Putsch Live, où ils reviennent sur les annonces de la semaine dernière (rapport de l’ATIH, Pfizergate, etc.), ajouté le 16 novembre 2021</li> --><!-- <li><span>Nouvelle section</span> sur les <a href="biblio.html#victimes">effets secondaires</a> dans notre bibliothèque, ajouté le 14 novembre 2021</li> --><!-- <li>trois nouvelles <a href="biblio.html#lettres">lettres</a> dans la section Lecture, ajoutées le 9 novembre 2021</li> --><!-- <li><a href="videos.html#medecine">vidéo</a> très intéressante du <b>Dr Peter McCullough</b> devant l'association américaine des praticiens hospitaliers, ajouté le 8 novembre 2021</li> -->
                         <li>
-                            <span>Nouvel Outil</span> disponible dans notre <a href="outils.html#8">boite à outils</a> : déclarer des effets indésirables suite à la vaccination (étude lancée par le CTIAP du Centre Hospitalier de Cholet), ajouté le 6 novembre 2021</li><!-- <li>nouvelle <a href="videos.html#politique">vidéo</a> du député <b>Joachim Son-Forget</b>, ajouté le 4 novembre 2021</li> --><!-- <li><span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 2021</li> --><!-- TODO: voir plus --><!-- <li>nouvelle lettre <b>aux évêques de France</b> dans la section <i>Lettres Ouvertes</i> de notre <a href="biblio.html">bibliothèque</a>, ajouté le 1er novembre 2021</li> --><!-- <li><a href="docs/lettre-ouverte-professeur-balique.pdf">Lettre ouverte du Professeur Balique aux parlementaires</a> qui présente une synthèse claire sur les risques et les échecs de la stratégie toute vaccinale (republiée en version PDF depuis <a href="https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/">ce blog</a>),  ajoutée le 11 octobre 2021</li> -->
+                            <span>Nouvel Outil</span> disponible dans notre <a href="outils.html#8">boite à outils</a> : déclarer des effets indésirables suite à la vaccination (étude lancée par le CTIAP du Centre Hospitalier de Cholet), ajouté le 6 novembre 2021</li><!-- <li>nouvelle <a href="videos.html#politique">vidéo</a> du député <b>Joachim Son-Forget</b>, ajouté le 4 novembre 2021</li> --><!-- <li><span>Nouvelle rubrique</span> disponible dans notre bibliothèque: <a href="biblio.html#inexplique">Inexpliqué</a>,  ajouté le 19 octobre 92021</li> --><!-- TODO: voir plus --><!-- <li>nouvelle lettre <b>aux évêques de France</b> dans la section <i>Lettres Ouvertes</i> de notre <a href="biblio.html">bibliothèque</a>, ajouté le 1er novembre 2021</li> --><!-- <li><a href="docs/lettre-ouverte-professeur-balique.pdf">Lettre ouverte du Professeur Balique aux parlementaires</a> qui présente une synthèse claire sur les risques et les échecs de la stratégie toute vaccinale (republiée en version PDF depuis <a href="https://une-vraie-politique-pour-notre-pays.net/2021/10/08/lettre-ouverte-du-professeur-balique-aux-parlementaires/">ce blog</a>),  ajoutée le 11 octobre 2021</li> -->
                         <li>
                             <a href="docs/lettre_ouverte_soignants_challans.pdf">Lettre ouverte de soignants de Challans</a> ajoutée le 7 octobre 2021</li>
                     </ul>
                 </div>
                 <div id="contact" class="border">
-                    <h3 class="caps">Adhésion</h3>
+                    <h3 class="caps">Inscription</h3>
                     <p>Contactez-nous ou Adhérez gratuitement à notre manifeste et inscrivez-vous sur notre liste de contacts en envoyant un message avec vos coordonnées à:</p>
                     <p class="media">
                         <img src="img/ecrire.gif" alt="contact" style="max-width: 24px"/>
@@ -172,8 +177,20 @@
                 <div class="border" style="margin-bottom:20px">
                     <h3 class="caps">Actions en Cours</h3>
                     <div class="info">
-                        <p>Action <a href="actions.html#coeur">Coeur Liberté</a> pour mobiliser pour les élections.</p>
-                    </div><!-- <div class="info">
+                        <p>
+                            <center>
+                                <span style="font-variant:small-caps">
+                                    <a href="evenements.html#pique-nique">Pique-Nique</a>
+                                </span> à la Roche Sur Yon Samedi 9 Juillet à partir de midi.</center>
+                        </p>
+                        <p>
+                            <center>Et aussi à <a href="evenements.html#aizenay">Aizenay</a>, Vendredi 8 juillet à partir de 18H30.</center>
+                        </p>
+                    </div><!-- 
+            <div class="info">
+              <p>Action <a href="actions.html#coeur">Coeur Liberté</a> pour mobiliser pour les élections.</p>            
+            </div>
+            <div class="info">
             <p>Participez à l'<a href="actions.html#llmp">action d'information aux professionnels de la santé, élus et responsables de la sécurité des citoyens</a> basée sur la publication du 1.12.2021 <a href="https://stopcovid19.today/wp-content/uploads/2021/12/llmp-informations_covid19-Fr-2021-12-01.pdf">
                                 <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
                             </a> du collectif « Laissons Les Médecins Prescrire » - LLMP.
@@ -188,15 +205,31 @@
                             </a> pour aider à protéger les enfants en alertant les autorités. Lisez aussi le <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">communiqué de presse</a>
                             <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">
                                 <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
-                            </a> en réponse à la grève de l'éducation nationale du 13 janvier 2022.
+                            </a> en réponse à la grève de l'éducation nationale du 13 janvier 2022. Voir aussi leur mise en garde de Juin 2022 sur la <a href="https://mamanslouves.com/vaccination/">vaccination des enfants</a>.
              </p>
                     </div>
                     <div class="info">
                         <p>Participez à des <a href="actions.html#les-essentiels">témoignages photo</a> en soutien au personnel soignant ainsi qu'à toutes les personnes pénalisées par le pass sanitaire.</p>
                     </div>
                     <div class="info">
+                        <p>Recensement d'<a href="victimes.html">articles de presse régionale</a> sur des morts subites ou des malaises non expliqués.</p>
+                    </div>
+                    <div class="info">
                         <h3>Documents en téléchargement</h3>
                         <ul class="telechargement">
+                            <li>
+                                <span class="doc" href="/2022/affichettes/signalement.pdf" data-cadoc="pdf">Déclarez vos effets secondaires sur <a href="https://signalement.social-sante.gouv.fr">signalement.social-sante.gouv.fr</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="doc" href="/2022/06/retrait-vaccins.pdf" data-cadoc="pdf">Vaccins retirés, extrait (à 16') de <a href="https://odysee.com/@LeLibrePenseur.org:2/conf-marseille-effets-indesirables-covid19:a">Alexandra Henrion Claude</a>, Marseille, 25/06/2022</span>
+                            </li>
+                            <li>
+                                <span class="doc" href="/2022/affichettes/je-dis-non.pdf" data-cadoc="pdf">Affichette Je dis Non pour les Enfants</span>
+                            </li>
+                            <li>
+                                <span class="doc" href="/2022/06/article-girardot-traduction.pdf" data-cadoc="pdf">Pourquoi il vaut mieux éviter de répéter les injections de vaccins anti-Covid (traduction)</span>
+                            </li>
                             <li>
                                 <span class="doc" href="/2022/affichettes/25-raisons.pdf" data-cadoc="pdf">Affichette 25 raisons de refuser les injections contre le covid-19</span>
                             </li>
@@ -245,6 +278,16 @@
                             </li>
                         </ul>
                     </div>
+                    <h3 class="caps">Nous ne sommes plus seuls à le penser !</h3>
+                    <p>Instant vérité sur LCI avec M. Bruno Retailleau dans l'<a href="https://www.tf1info.fr/replay-lci/video-bruno-retailleau-l-interview-politique-du-mercredi-22-juin-2223954.html">interview politique</a> du 22 juin 2022  
+                : <i>le passe vaccinal dans les faits je pense qu'il n'a pas servi à grand chose...</i>
+                    </p>
+                    <div style="text-align:center">
+                        <video src="https://www.cadoc.fr/cslv85/archives/2022/06/lci-je-l-ai-vote.mp4" controls="1">
+                     Cette vidéo ne peut être affichée sur votre navigateur Internet.<br/>
+                     Une version est disponible en téléchargement sous <a href="https://www.cadoc.fr/cslv85/archives/2022/06/lci-je-l-ai-vote.mp4">adresse du lien </a>. 
+                   </video>
+                    </div>
                 </div>
                 <div class="border" style="margin-bottom:20px">
                     <h3 class="caps">Brève</h3>
@@ -258,6 +301,11 @@
                     <h3 class="caps">Effets Secondaires</h3>
                     <p>Suite à une pétition, la commission des Affaires sociales du Sénat a saisi l’Office parlementaire d’évaluation des choix scientifiques et technologiques (OPECST) le 9 février 2022 afin de réaliser <a href="https://www.senat.fr/presse/cp20220325a.html">une étude sur les effets secondaires des vaccins contre la Covid-19</a>.</p>
                     <p>La biostatisticienne Christine Cotton y a présenté une <a href="https://christine-cotton.1ere-page.fr/evaluation-essais-pfizer/">Evaluation des pratiques méthodologiques mises en oeuvre dans les essais Pfizer dans le développement de son vaccin ARN-messager contre la COVID-19 en regard des Bonnes Pratiques Cliniques</a> que tout décideur politique se devrait de connaître pour comprendre la fragilité des bases sur lesquelles ont été mis en oeuvre les passes sanitaires puis vaccinaux.</p>
+                    <blockquote>
+                        <p>
+                            <i>Pour ceux qui lisent le journal Liberation voici <a href="https://christine-cotton.1ere-page.fr/wp-content/uploads/2022/06/Reponse-de-CC-a-Libe-2022-06-02.pdf">la réponse de Christine Cotton</a> concernant leur article sur les auditions du Sénat concernant les effets secondaires des vaccins covid19.</i>
+                        </p>
+                    </blockquote>
                     <p>Pendant ce temps la recherche médicale suis son cours et des milliers d'articles (!) relatent et étudient les effets secondaires des vaccins ARN-messager, que plus personne ne peut nier à présent, même s'il n'a pas été directement frappé dans son entourage.</p>
                     <p>Ainsi voici une <a href="https://community.covidvaccineinjuries.com/compilation-peer-reviewed-medical-papers-of-covid-vaccine-injuries/">liste de 1000 Articles médicaux examinés par des pairs soumis à diverses revues médicales, mettant en évidence une multitude d'événements indésirables chez les receveurs du vaccin Covid-19</a>. Parmi ceux-ci :</p>
                     <ul>
@@ -388,6 +436,138 @@
                                         <th>Titre de l'article de presse</th>
                                         <th>Ville</th>
                                         <th>Age</th>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.ladepeche.fr/2022/06/23/toulouse-malaise-fatal-place-esquirol-10391519.php">Un joggeur décède après un malaise place Esquirol</a>
+                                        </td>
+                                        <td>23/06/2022</td>
+                                        <td>Toulouse (31)</td>
+                                        <td>60 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.leprogres.fr/faits-divers-justice/2022/06/21/tristesse-et-solidarite-apres-la-noyade-d-un-joueur-d-ain-sud-foot">Un joueur d’Ain Sud foot se noie: «On a tous pris un coup derrière la tête»</a>
+          (voir aussi <a href="https://www.leprogres.fr/faits-divers-justice/2022/06/18/un-adolescent-de-14-ans-se-noie-dans-la-riviere-d-ain">ici</a>)
+        </td>
+                                        <td>21/06/2022</td>
+                                        <td>Saint-Maurice-de-Beynost (01)</td>
+                                        <td>14 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.lejsl.com/faits-divers-justice/2022/06/21/un-cycliste-de-48-ans-decede-apres-la-2e-etape-de-la-route-de-saone-et-loire">Un cycliste de 48 ans décède après la 2e étape de la Route de Saône-et-Loire, le président de l'épreuve réagit</a>
+                                        </td>
+                                        <td>21/06/2022</td>
+                                        <td>Dijon (21)</td>
+                                        <td>48 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.estrepublicain.fr/faits-divers-justice/2022/06/18/deces-par-arret-cardiaque-aux-championnats-de-france-de-peche">Un homme meurt d'un arrêt cardiaque aux championnats de France de pêche à Gray</a>
+                                        </td>
+                                        <td>18/06/2022</td>
+                                        <td>Gray (70)</td>
+                                        <td>? ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.ouest-france.fr/bretagne/le-bono-56400/un-jeune-de-24-ans-decede-dans-la-riviere-du-bono-c74224d0-ed4d-11ec-b46f-021c1e9ecf74">Un jeune de 24 ans décède dans une rivière du Morbihan</a>
+          (voir aussi <a href="https://www.ouest-france.fr/sport/rugby/rugby-le-club-d-auray-pleure-alan-gruiec-l-un-de-ses-joueurs-decede-tragiquement-a-24-ans-ea29de82-f15f-11ec-87d0-35a1f71d923f">ici</a>)
+        </td>
+                                        <td>16/06/2022</td>
+                                        <td>Auray (56)</td>
+                                        <td>24 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.lindependant.fr/2022/06/10/collioure-un-touriste-de-60-ans-decede-sur-la-plage-apres-un-malaise-dans-leau-10351510.php">Un touriste de 60 ans décède sur la plage après un malaise dans l’eau</a>
+                                        </td>
+                                        <td>10/06/2022</td>
+                                        <td>Collioure (66)</td>
+                                        <td>60 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.francebleu.fr/infos/faits-divers-justice/un-pecheur-de-24-ans-meurt-noye-dans-un-etang-de-dordogne-1654835001">Un pêcheur de 24 ans meurt noyé dans un étang de Dordogne</a>
+                                        </td>
+                                        <td>10/06/2022</td>
+                                        <td>Lacropte (24)</td>
+                                        <td>24 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.scottishdailyexpress.co.uk/news/scottish-news/university-st-andrews-physics-student-27200495">University of St Andrews Physics student 'dies in sleep' during French canoeing holiday</a>
+                                        </td>
+                                        <td>10/06/2022</td>
+                                        <td>Alpes (France)</td>
+                                        <td>20 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.larepubliquedespyrenees.fr/societe/accident/accidents-en-montagne/un-palois-succombe-a-un-malaise-cardiaque-lors-d-une-sortie-au-pibeste-11235292.php">Un Palois succombe à un malaise cardiaque lors d’une sortie au Pibeste</a>
+                                        </td>
+                                        <td>09/06/2022</td>
+                                        <td>Ouzous (65)</td>
+                                        <td>44 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.linfo.re/la-reunion/faits-divers/deces-de-jean-pierre-lessort-les-drapeaux-en-berne-dans-les-differents-etablissements-du-sdis">Décès de Jean-Pierre Lessort : "C’était un sapeur-pompier exceptionnel", affirme le SDIS</a>
+                                        </td>
+                                        <td>09/06/2022</td>
+                                        <td>Plage de l’Hermitage (974)</td>
+                                        <td>60 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.ouest-france.fr/normandie/varaville-14390/normandie-un-kitesurfeur-decede-au-large-de-varaville-14e584fa-e73d-11ec-a5fe-786c78cdd689">Un kitesurfeur de la Sarthe décède au large de Varaville</a>
+                                        </td>
+                                        <td>08/06/2022</td>
+                                        <td>Varaville (14)</td>
+                                        <td>53 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.letelegramme.fr/finistere/landerneau/un-pompier-de-landerneau-decede-au-marathon-de-caen-05-06-2022-13056518.php">Un pompier de Landerneau décède au marathon de Caen</a>
+                                        </td>
+                                        <td>05/06/2022</td>
+                                        <td>Caen (14)</td>
+                                        <td>41 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>décès</td>
+                                        <td>
+                                            <a href="https://www.ouest-france.fr/bretagne/plouescat-29430/plouescat-un-ressortissant-allemand-decede-d-un-malaise-cardiaque-durant-une-promenade-5d9d8b52-e3d7-11ec-a695-df7df0a2b6df">Un ressortissant allemand décède d’un malaise cardiaque durant une promenade</a>
+                                        </td>
+                                        <td>04/06/2022</td>
+                                        <td>Plouescat (29)</td>
+                                        <td>57 ans
+  </td>
                                     </tr>
                                     <tr>
                                         <td>hospitalisation</td>
@@ -860,6 +1040,16 @@
                                         <td>12/02/2022</td>
                                         <td>Saintes (17)</td>
                                         <td>47 ans
+  </td>
+                                    </tr>
+                                    <tr>
+                                        <td>suicide</td>
+                                        <td>
+                                            <a href="https://nantes.maville.com/actu/actudet_-mort-du-maire-de-reze-les-elus-sous-le-choc-apres-la-decouverte-du-corps-d-herve-neau-en-mairie-_8-5077126_actu.Htm">Mort du maire de Rezé : les élus sous le choc après la découverte du corps d’Hervé Neau en mairie</a>
+                                        </td>
+                                        <td>11/02/2022</td>
+                                        <td>Rezé (44)</td>
+                                        <td>58 ans
   </td>
                                     </tr>
                                     <tr>
@@ -1490,8 +1680,7 @@
           <p>Voir aussi la <a href="outils.html#7">Situation n° 7</a> dans notre boite à outils.</p>
         </div> -->
             <div id="collectifs">
-                <h3 class="caps">Nos Collectifs pour ne pas rester inactif et passif</h3>
-                <blockquote>Nous vous invitons à participer directement à un ou plusieurs de nos collectifs thématiques, en joignant son responsable à l'adresse de contact. <a id="mail3">Contactez-nous</a> si vous souhaitez créer et animer votre propre collectif.</blockquote>
+                <h3 class="caps">Autres contacts</h3><!-- <blockquote>Nous vous invitons à participer directement à un ou plusieurs de nos collectifs thématiques, en joignant son responsable à l'adresse de contact. <a id="mail3">Contactez-nous</a> si vous souhaitez créer et animer votre propre collectif.</blockquote> -->
             </div>
             <div id="gauche">
                 <div class="collectif">
@@ -1506,76 +1695,53 @@ Mettre fin aux discriminations
                         <img src="img/ecrire.gif" alt="contact"/>
                         <a id="mailS">mailS</a>
                     </p>
-                </div>
-                <div class="collectif">
-                    <h4>Collectif éveiller les consciences</h4>
-                    <p class="moto">Éteignons les télés, rallumons les cerveaux</p>
-                    <p>
-                        <span class="but">But</span>
-Créer les arguments et les outils pour lutter la discrimination, la soumission et la division</p>
-                    <p class="media">
-                        <img src="img/ecrire.gif" alt="contact"/>
-                        <a id="mail4">mail4</a>
-                    </p>
                 </div><!-- <div class="collectif">
+            <h4>Collectif éveiller les consciences</h4>
+            <p class="moto">Éteignons les télés, rallumons les cerveaux</p>
+            <p><span class="but">But</span>
+Créer les arguments et les outils pour lutter la discrimination, la soumission et la division</p>
+            <p class="media"><img src="img/ecrire.gif" alt="contact"/> <a id="mail4">mail4</a></p>
+          </div> --><!-- <div class="collectif">
             <h4>Collectif des soignants</h4>
             <p class="moto">Soigner les soignants</p>
             <p><span class="but">But</span>Monter des dossiers et des actions juridiques</p>
             <p>Réfléchir à des actions solidaire – Aider à se reconvertir</p>
             <p>Contact: <a href="soignants@comitesantelibertevendee.fr">soignants@comitesantelibertevendee.fr</a></p>
+          </div> --><!-- <div class="collectif">
+            <h4>Collectif jeunesse (famille)</h4>
+            <p class="moto">Aujourd’hui, l’avenir c’est eux - Jeunesse sans risque, jeunesse sans passe</p>
+            <p><span class="but">But</span>
+Sensibiliser et motiver les jeunes pour l’action
+&#8213; Organiser des temps de sport et de convivialité entre jeunes</p>
+            <p class="media"><img src="img/ecrire.gif" alt="contact"/> <a id="mail5">mail5</a></p>
+          </div>
+          <div class="collectif">
+            <h4>Collectif parents (famille)</h4>
+            <p class="moto">Armer les parents pour défendre les enfants</p>
+            <p><span class="but">But</span>
+S’investir dans les associations de parents d’élèves
+&#8213; Donner aux parents des arguments pour rencontrer les enseignants et les chefs d’établissements</p>
+            <p class="media"><img src="img/ecrire.gif" alt="contact"/> <a id="mail6">mail6</a></p>
+          </div> -->
+            </div>
+            <div id="droite"><!-- <div class="collectif">
+            <h4>Collectif convivialité</h4>
+            <p class="moto">J’ai décidé d’être heureux, c’est bon pour la santé</p>
+            <p><span class="but">But</span>
+Organiser les pique niques et les ateliers pour se retrouver</p>
+            <p class="media"><img src="img/ecrire.gif" alt="contact"/> <a id="mail7">mail7</a></p>
+          </div>
+          <div class="collectif">
+            <h4>Collectif stratégie et action de terrain</h4>
+            <p class="moto">Renoncer au courage, c’est devenir esclave</p>
+            <p><span class="but">But</span>
+Organiser des actions de sensibilisation et d'information sur le terrain
+&#8213; Rencontrer des acteurs de la société (restaurateurs, police, etc.)
+&#8213; Imaginer des actions pour soutenir les usagers exclus par le passe sanitaire</p>
+            <p class="media"><img src="img/ecrire.gif" alt="contact"/> <a id="mail8">mail8</a></p>
           </div> -->
                 <div class="collectif">
-                    <h4>Collectif jeunesse (famille)</h4>
-                    <p class="moto">Aujourd’hui, l’avenir c’est eux - Jeunesse sans risque, jeunesse sans passe</p>
-                    <p>
-                        <span class="but">But</span>
-Sensibiliser et motiver les jeunes pour l’action
-― Organiser des temps de sport et de convivialité entre jeunes</p>
-                    <p class="media">
-                        <img src="img/ecrire.gif" alt="contact"/>
-                        <a id="mail5">mail5</a>
-                    </p>
-                </div>
-                <div class="collectif">
-                    <h4>Collectif parents (famille)</h4>
-                    <p class="moto">Armer les parents pour défendre les enfants</p>
-                    <p>
-                        <span class="but">But</span>
-S’investir dans les associations de parents d’élèves
-― Donner aux parents des arguments pour rencontrer les enseignants et les chefs d’établissements</p>
-                    <p class="media">
-                        <img src="img/ecrire.gif" alt="contact"/>
-                        <a id="mail6">mail6</a>
-                    </p>
-                </div>
-            </div>
-            <div id="droite">
-                <div class="collectif">
-                    <h4>Collectif convivialité</h4>
-                    <p class="moto">J’ai décidé d’être heureux, c’est bon pour la santé</p>
-                    <p>
-                        <span class="but">But</span>
-Organiser les pique niques et les ateliers pour se retrouver</p>
-                    <p class="media">
-                        <img src="img/ecrire.gif" alt="contact"/>
-                        <a id="mail7">mail7</a>
-                    </p>
-                </div>
-                <div class="collectif">
-                    <h4>Collectif stratégie et action de terrain</h4>
-                    <p class="moto">Renoncer au courage, c’est devenir esclave</p>
-                    <p>
-                        <span class="but">But</span>
-Organiser des actions de sensibilisation et d'information sur le terrain
-― Rencontrer des acteurs de la société (restaurateurs, police, etc.)
-― Imaginer des actions pour soutenir les usagers exclus par le passe sanitaire</p>
-                    <p class="media">
-                        <img src="img/ecrire.gif" alt="contact"/>
-                        <a id="mail8">mail8</a>
-                    </p>
-                </div>
-                <div class="collectif">
-                    <h4>Collectif information</h4>
+                    <h4>Rédaction</h4>
                     <p class="moto">Faire circuler l’information positive</p>
                     <p>
                         <span class="but">But</span>

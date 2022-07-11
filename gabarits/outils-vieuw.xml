@@ -9,14 +9,14 @@
 document.addEventListener('DOMContentLoaded', function () {{
   var s = window.location.href.toString(),
       n, mto = 'mailto:', base = '@',
-      m2 = "redaction" + base + "comitesantelibertevendee.fr";
+      m2 = "redaction" + base + "cslv.fr";
 
   n = document.getElementById('mail2');
   n.href = mto + m2 + '?subject=Boite%20à%20outils';
-  m2 = "conseil" + base + "comitesantelibertevendee.fr";
+  m2 = "conseil" + base + "cslv.fr";
   n = document.getElementById('mail3');
   n.href = mto + m2 + '?subject=Demande%20de%20détails%20sur%20le%20jugement%20en%20référé%20de%20St%20Brieuc';
-  m2 = "sommation.interpellative.vendee" + base + "comitesantelibertevendee.fr";
+  m2 = "sommation.interpellative.vendee" + base + "cslv.fr";
   n = document.getElementById('sommation');
   n.href = mto + m2 + '?subject=Renseignement%20sommation%20interpellative';
 }});
