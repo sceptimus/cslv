@@ -1946,5 +1946,20 @@
       </Page>
       <Publication>2022-06-18</Publication>
     </Victime>
+    <Victime>
+      <Titre>Un jeune homme héliporté après un malaise dans une piscine à O'Gliss Park</Titre>
+      <Age>13</Age>
+      <Evolution>hospitalisation</Evolution>
+      <Rubrique>Vaccin</Rubrique>
+      <Tag>épilepsie</Tag>
+      <Localisation>
+        <Ville>Le Bernard</Ville>
+        <Departement>85</Departement>
+      </Localisation>
+      <Page>
+        <Lien>https://actu.fr/pays-de-la-loire/moutiers-les-mauxfaits_85156/vendee-un-jeune-homme-heliporte-apres-un-malaise-dans-une-piscine-a-ogliss-park_52611668.html</Lien>
+      </Page>
+      <Publication>2022-07-21</Publication>
+    </Victime>
   </Ressources>
 </Bibliotheque>

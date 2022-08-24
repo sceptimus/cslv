@@ -239,6 +239,15 @@
       </Presentation>
     </Site>
     <Site>
+      <Titre>Rizom</Titre>
+      <Rubrique>Annuaire</Rubrique>
+      <Tag>liens</Tag>
+      <Lien>https://rizom.info</Lien>
+      <Presentation>
+        <p>Site collectif pour regrouper et partager des informations alternatives pour le monde de demain. Site porté par le collectif santé Mauges.</p>
+      </Presentation>
+    </Site>
+    <Site>
       <Titre>Coordination Santé Libre</Titre>
       <Rubrique>Collectif</Rubrique>
       <Groupe>santé</Groupe>
@@ -588,6 +597,21 @@
       </Presentation>
     </Site>
     <Site>
+      <Titre>Souverains &amp; Unis</Titre>
+      <Rubrique>Collectif</Rubrique>
+      <Groupe>Vendée</Groupe>
+      <Tag>réseau</Tag>
+      <Tag>entraide</Tag>
+      <Tag>communautés locales</Tag>
+      <Lien>https://www.souverainsetunis.org</Lien>
+      <Telegram>
+        <Lien>https://t.me/souverains_et_unis</Lien>
+      </Telegram>
+      <Presentation>
+        <p>Le collectif Souverains &amp; unis travaille à la mise en place de communautés locales et au développement de leur gouvernance partagée. Il est possible de rejoindre un groupe proche de chez soi, de créer son propre groupe, ou de rejoindre un cercle de réflexion.</p>
+      </Presentation>
+    </Site>
+    <Site>
       <Titre>YakaSaider</Titre>
       <Rubrique>Collectif</Rubrique>
       <Groupe>national</Groupe>
@@ -869,6 +893,16 @@ professionnels et olympiques.Amateurs décédés pendant la pratique d’une act
       <Ajout>2022-05-04</Ajout>
     </Site>
     <Site>
+      <Titre>Où est mon cycle ?</Titre>
+      <Rubrique>Témoignages</Rubrique>
+      <Groupe>vaccin</Groupe>
+      <Tag>victimes</Tag>
+      <Lien>https://www.ouestmoncycle.com</Lien>
+      <Presentation>
+        <p>Collectif avec adhésion en ligne créé suite à la réception de milliers de témoignages sur le compte instagram vaccin_menstruel ouvert en Janvier 2022.</p>
+      </Presentation>
+    </Site>
+    <Site>
       <Titre>Effets indésirables.fr</Titre>
       <Rubrique>Témoignages</Rubrique>
       <Groupe>vaccin</Groupe>
@@ -914,7 +948,7 @@ professionnels et olympiques.Amateurs décédés pendant la pratique d’une act
       <Localisation>
         <Pays>France</Pays>
         <Departement>85</Departement>
-      </Localisation>      
+      </Localisation>
       <Presentation>
         <p>Le Collectif Court-Circuit est une association dont le but est de favoriser les circuits courts de distribution de produits alimentaires et le lien social dans le territoire du Marais breton et de ses marges. Distribution hebdomadaire de paniers (légumes, pain, crèmerie) et commandes groupées (viande, fruits, épicerie), organisation d'événements en rapport avec l'agriculture, chantiers collectifs, des visites de ferme...</p>
       </Presentation>

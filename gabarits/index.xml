@@ -140,10 +140,11 @@
           <div class="border" style="margin-bottom:20px">
           <h3 class="caps">Actions en Cours</h3>
           <div class="info">
-            <p><center><span style="font-variant:small-caps"><a href="evenements.html#pique-nique">Pique-Nique</a></span> à la Roche Sur Yon Samedi 9 Juillet à partir de midi.</center>
-            </p>          
-            <p><center>Et aussi à <a href="evenements.html#aizenay">Aizenay</a>, Vendredi 8 juillet à partir de 18H30.</center></p>
-           </div>          
+			<p>Happy apéro/ pique nique, <a href="evenements.html#les-sables">Les Sables</a>, vendredi 5 août à partir de 18h30, Plage de la Paracou.</p>
+			<p>Happy apéro/ pique nique, <a href="evenements.html#sainte-hermine">Château de Ste Hermine</a>, samedi 6 août à partir de 12h.</p>
+            <p><center><span style="font-variant:small-caps"><a href="evenements.html#venansault">Réunion et Pique-Nique</a></span> au Parc de Venansault, Dimanche 7 août à partir de 10h en présence du créateur du site <a href="https://www.souverainsetunis.org">Souverains &amp; Unis</a></center>
+            </p>
+           </div>
           <!-- 
             <div class="info">
               <p>Action <a href="actions.html#coeur">Coeur Liberté</a> pour mobiliser pour les élections.</p>            
@@ -157,6 +158,9 @@
           <!-- <div class="info">
              <p>Participez à la <a href="actions.html#sommation-interpellative-pdl-21">Sommation interpellative envers le recteur de la région académique des Pays de la Loire</a>. Si vous souhaitez contester des abus sur le port du masque à l'école, vous pouvez également être intéressé par cette <a href="outils.html#2">boite à outils</a>.</p>
            </div> -->
+          <div class="info">
+            <p><a href="actions.html#caravane">La caravane passe !</a> initiative itinérante en Juillet/Août en Vendée pour sensibiliser la population sur différents risques, mais surtout sur l’anticipation de ceux-ci.</p>
+           </div>
            <div class="info">
              <p>Participez à un <a href="https://mamanslouves.com">sondage des Mamans Louves</a> <a href="https://www.cadoc.fr/cslv85/archives/2021/affichettes/sondage-mamans-louves.pdf">
                                  <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> pour aider à protéger les enfants en alertant les autorités. Lisez aussi le <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">communiqué de presse</a> <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">
@@ -174,6 +178,10 @@
                  <ul class="telechargement">
 {
 let $docs := <docs>
+    <doc>
+        <source>/2022/07/GrandJury2Fr-resume.pdf</source>
+        <titre>Résumé en français de 85 pages du Grand Jury mené par R. Fuellmich</titre>
+    </doc>
     <doc>
         <source>/2022/affichettes/signalement.pdf</source>
         <titre>Déclarez vos effets secondaires sur <a href="https://signalement.social-sante.gouv.fr">signalement.social-sante.gouv.fr</a></titre>

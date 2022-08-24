@@ -1,6 +1,183 @@
 <Evenements>
 
-  <Evenement Afficher="oui">
+   <Evenement Afficher="oui">
+      <Ancre>les-sables</Ancre>
+      <Titre>Vendredi 5 août 2022 - 18h30<br/>les Sables<br/>Happy apéro/ pique nique</Titre>
+      <Presentation>
+        Happy apéro/ pique nique, vendredi 5 août à partir de 18h30, Plage de la Paracou, proposé par la Ronde étoilée
+      </Presentation>
+      <Verbatim>
+        <p>Plage de la Paracou, au bout du parking, à coté des toilettes, passez devant la cabane à jus.</p>
+		<p>Pour le pique-nique nous pourrons nous installer soit sur la plage, ou sur la dune face aux toilettes.</p>
+       <p>
+         <center><a href="https://www.google.com/maps/place/Plage+de+La+Paracou,+85100+Les+Sables-d'Olonne/@46.5047068,-1.8166291,497m/data=!3m1!1e3!4m5!3m4!1s0x48045d85a29d6f6f:0xca246355eeac6cf7!8m2!3d46.5081466!4d-1.8172826">plan</a><br/>
+       </center>
+       </p>
+      </Verbatim>
+    </Evenement>     
+
+    <Evenement Afficher="oui">
+       <Ancre>sainte-hermine</Ancre>
+       <Titre>Samedi 6 août 2022 - 12h<br/>Sainte Hermine<br/>Happy apéro/ pique nique</Titre>
+       <Presentation>
+         Happy apéro/ pique nique, samedi 6 août à partir de 12h, à coté du château de Ste Hermine avant de rejoindre la fête, près de la Smagne, proposé par la Ronde étoilée
+       </Presentation>
+       <Verbatim>
+		 <p>À 12H devant le château de Ste Hermine, entrée par la rue de l’Église. De là, nous choisirons un lieu de pique-nique, avant de déambuler suivant nos envies, si vous souhaitez également y passer la soirée, il y a un <a href="https://www.festivaldelhistoiredefrance.fr/comedies-nocturnes/">spectacle payant</a>.
+		 </p>
+       </Verbatim>
+     </Evenement>      
+	    
+   <Evenement Afficher="oui">
+      <Ancre>venansault</Ancre>
+      <Titre>Dimanche 7 août 2022 - 10h<br/>Parc de Venansault<br/>Réunion / pique-nique</Titre>
+      <Presentation>
+        Réunion et pique-nique proposé par le Collectif d'Intervention pour la Défense des Intérêts du Peuple (CIDIP)
+      </Presentation>
+      <Verbatim>
+        <p>Le Collectif d'Intervention pour la Défense des Intérêts du Peuple (CIDIP) organise une réunion le Dimanche 7 août 2022 à 10 heures au parc de Venansault avec la présence de <b>Daniel Jaunas</b>, le créateur du site <a href="https://www.souverainsetunis.org">Souverains &amp; Unis</a>.</p>
+        <p>Cette réunion sera suivie d'un pique-nique (chacun amènera ses provisions et partagera convivialement, comme d'habitude).</p>		
+		<p><b>Rendez-vous</b>:  au parking qui se situe à l’entrée du panneau ci-dessous indiquant l’îlot des Arts. Deux routes y amènent : route des Sables et route d’Aizenay.</p>
+		<p><center><img src="https://www.cadoc.fr/cslv85/archives/2022/07/access-venansault.jpeg" width="400px"/></center></p>
+        <p>Les thèmes seront :</p>
+        <ol>
+          <li>objection de conscience vaccinale</li>
+          <li>souveraineté</li>
+          <li>organisation communautaire de la vie en ville en période d'assèchement des approvisionnements</li>
+        </ol>
+        <p>Cette réunion est ouverte à tous les collectifs afin de mettre en place concrètement le 3ème thème.</p>
+        <p>Venez nombreux pour passer une journée pleine d'idées, d'échanges et d'amitié.</p>
+      </Verbatim>
+    </Evenement>
+    
+    <Evenement Afficher="oui">
+       <Ancre>Montaigu</Ancre>
+       <Titre>Vendredi 19 août 2022 - 18h30<br/>Montaigu, Parc du Val d’Asson<br/>Happy apéro/ pique nique</Titre>
+       <Presentation>
+         Happy apéro/ pique nique, vendredi 19 août à partir de 18h30, Montaigu, Parc du Val d’Asson, proposé par la Ronde étoilée
+       </Presentation>
+       <Verbatim>
+         <p>Détails à venir</p>
+       </Verbatim>
+     </Evenement>     
+
+     <Evenement Afficher="oui">
+        <Ancre>Lucon</Ancre>
+        <Titre>Vendredi 26 août 2022 - 18h30<br/>Luçon, Parc du Val d’Asson<br/>Happy apéro/ pique nique</Titre>
+        <Presentation>
+          Happy apéro/ pique nique, vendredi 26 août à partir de 18h30, Luçon, proposé par la Ronde étoilée
+        </Presentation>
+        <Verbatim>
+          <p>Détails à venir</p>
+        </Verbatim>
+      </Evenement>     
+
+      <Evenement Afficher="oui">
+         <Ancre>la-roche</Ancre>
+         <Titre>Vendredi 2 septembre 2022 - 18h30<br/>La Roche Sur Yon, parc de l’Ornay<br/>Happy apéro/ pique nique</Titre>
+         <Presentation>
+           Happy apéro/ pique nique, vendredi 2 septembre à partir de 18h30, La Roche Sur Yon, parc de l’Ornay, proposé par la Ronde étoilée
+         </Presentation>
+         <Verbatim>
+           <p>Détails à venir</p>
+         </Verbatim>
+       </Evenement>        
+	   
+
+       <Evenement Afficher="oui">
+         <Ancre>chansons-positives</Ancre>
+         <Titre>Chansons positives - La Roche Sur Yon - Samedi 30 juillet 2022 à 15h<br/>Chaque dernier samedi du mois à 15h</Titre>
+         <Presentation>
+           <p>Des membres du comité qui participent à un Cercle du bonheur nous informent qu'ils ont décidé de renouveler périodiquement l'action de chanter sur la place Napoléon des chansons positives sur la liberté, l'amour, la joie, et des mantras, comme action joyeuse.</p>
+           <p>Ces rendez-vous se répètent tous les mois depuis Février 2022 (et les rendez-vous précédents du Samedi 29 Janvier 2022, du Samedi 27 Novembre 2021 et du dimanche 12 décembre 2021) à l'emplacement du sapin de Noël - <b>place Napoléon</b> - La Roche Sur Yon, chaque <b>dernier</b> samedi du mois.</p>
+           <p>Pas besoin de savoir chanter, musiciens bienvenus.</p>
+         </Presentation>
+         <Verbatim>
+           <center>
+           <p><b>Carnet de chants</b> (exemple)</p>
+           <ul class="blog">
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Dis-leur%20que%20l-on%20s-aime.pdf">Dis-leur que l'on s'aime</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Et%20pourtant%20dans%20le%20monde.pdf">Et pourtant dans le monde</a></li>        
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Danser%20encore.pdf">Danser encore</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Il%20est%20libre%20Max.pdf">Il est libre Max</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Imagine.pdf">Imagine</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/La%20Tendresse.pdf">La Tendresse</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/La%20Voix%20des%20Sages.pdf">La Voix des Sages</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/La%20ballade%20des%20gens%20heureux.pdf">La ballade des gens heureux</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Le%20lion%20est%20mort%20ce%20soir.pdf">Le lion est mort ce soir</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Ma%20Liberte%20de%20penser.pdf">Ma Liberte de penser</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Ma%20Liberte.pdf">Ma Liberte</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Nous%20serons%20des%20milliers.pdf">Nous serons des milliers</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Oh%20Happy%20Day.pdf">Oh Happy Day</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Santiano.pdf">Santiano</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Textes%20de%20Chansons.pdf">Textes de Chansons</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Toi%20plus%20moi.pdf">Toi plus moi</a></li>
+             <li><a href="https://www.cadoc.fr/cslv85/archives/2021/chants/Tout%20le%20Bonheur%20du%20Monde.pdf">Tout le Bonheur du Monde</a></li>
+           </ul>
+           </center>              
+           <p><span style="text-decoration: underline">Avec les accords</span> : <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Dis-leur%20que%20l-on%20s-aime.odt">Dis-leur que l'on s'aime</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Danser encore.odt">Danser encore</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Il est libre Max.odt">Il est libre Max</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Imagine.odt">Imagine</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/La Ballade nord-irlandaise.odt">La Ballade nord-irlandaise</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/La Tendresse.doc">La Tendresse</a> [doc], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/La Voix des Sages.odt">La Voix des Sages</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/La ballade des gens heureux.odt">La ballade des gens heureux</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Le lion est mort ce soir.odt">Le lion est mort ce soir</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Ma Liberte de penser.odt">Ma Liberte de penser</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Ma Liberte.odt">Ma Liberte</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Nous serons des milliers.odt">Nous serons des milliers</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Oh Happy Day.odt">Oh Happy Day</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/On ecrit sur les Murs.odt">On ecrit sur les Murs</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Santiano.odt">Santiano</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Toi plus moi.docx">Toi plus moi</a> [docx], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Tout le Bonheur du Monde.odt">Tout le Bonheur du Monde</a> [odt], <a href="https://www.cadoc.fr/cslv85/archives/2021/chants/accords/Vent frais vent du matin.odt">Vent frais vent du matin</a> [odt]
+           </p>
+         </Verbatim>
+       </Evenement>  	   
+
+	   <Evenement Afficher="non">
+	     <Ancre>gaubretiere</Ancre>
+	     <Titre>Vendredi 22 Juillet 2022 - 18h30<br/>aire de jeux du Château de la Landebaudière à La Gaubretière<br/>Happy apéro/pique nique</Titre>
+	     <Presentation>
+	       Happy apéro/ pique nique, vendredi 22 juillet à partir de 18H30, aire de jeux du Château de la Landebaudière à La Gaubretière proposé par Un Nôtre Monde 85 / La ronde étoilée.
+	     </Presentation>
+	     <Verbatim>
+	       <p>Accès, soit par le parking du château, ou quelques places par la rue des Bois (accès par un petit chemin piétonnier).</p>
+	       <p>Pour le pique-nique nous nous installerons à coté de l’aire de jeux ou il y a quelques tables.</p>
+	       <p>Présentation du projet de l’<b>association Eve lève-toi</b> et de la <b>Caravane Passe</b>.</p>
+	       <p>
+	         <center><a href="https://www.google.com/maps/search/CHATEAU+LA+GAUBRETIERE/@46.9452269,-1.0805109,1040m/data=!3m1!1e3">plan</a><br/>
+	       </center>
+	       </p>
+	     </Verbatim>
+	   </Evenement>
+     
+	  <Evenement Afficher="non">
+	     <Ancre>la-garnache</Ancre>
+	     <Titre>Vendredi 29 juillet 2022 - 18h30<br/>parc des loisirs de l'Equaizière à la garnache, près de l’étang<br/>Happy apéro/ pique nique</Titre>
+	     <Presentation>
+	       Happy apéro/ pique nique, vendredi 29 juillet à partir de 18H30, au parc des loisirs de l'Equaizière à la garnache, près de l’étang, proposé par la Ronde étoilée
+	     </Presentation>
+	     <Verbatim>
+	       <p>Pour se garer il y a un parking (il n'y en a qu'un) et nous seront juste à côté, au bord de l'étang. Il y a même des jeux pour les enfants juste à côté.</p>
+       
+	       <p>Accès : si vous arrivez par la 4 voies Challans - Nantes prenez la sortie «Chateauneuf, La Garnache, Parc d’activités», puis vers La Garnache, puis sur la gauche il y a le garage AD, tournez à gauche, continuez jusqu’au passage à niveau, faites 200m, sur la gauche vous avez le parking du parc de loisirs.</p>
+
+	       <p>Nous comptons sur vous, venez partager avec nous une belle soirée pour maintenir et tisser des liens dans le monde réel.</p>
+	     </Verbatim>
+	   </Evenement>  
+	     
+  <Evenement Afficher="non">
+     <Ancre>sion</Ancre>
+     <Titre>Vendredi 15 juillet 2022 - 18h30<br/>Plage de Sion à Saint Hilaire de Riez<br/>Happy apéro/ pique nique</Titre>
+     <Presentation>
+       Happy apéro/ pique nique, vendredi 15 juillet à partir de 18H30, plage de Sion à Saint Hilaire de Riez, proposé par la Ronde étoilée   
+     </Presentation>
+     <Verbatim>
+       <p>Une baignade sur la plage de Sion est tout à fait propice à un bon rafraîchissement en cette période de chaleur.</p>
+       <p>Pour le pique-nique nous nous installerons près de la forêt, au choix sous les pins ou au soleil. La mer est en face, au delà de la dune et le soleil nous fera le plaisir de montrer son coucher et sa lente immersion marine.</p>
+       <p>Quelques boissons fraîches à base de plante attendront d'être dégustées ...</p>
+       <p>Pour le lieu :</p>
+       <p>L'accès se fait depuis l'avenue de la forêt (St Hilaire de Riez). Possibilité de parking de chaque côté de l'avenue.</p>
+       <p>Prendre le chemin dans la forêt qui se trouve en face du passage piéton en face de l'hôtel bar tabac de la forêt.</p>
+       <p>Suivre sur environ 60m le chemin qui monte légèrement.</p>
+       <p>Arrivée sur un autre plus grand chemin. Le suivre à droite pendant environ 60m.</p>
+       <p>
+         <center><a href="https://www.google.com/maps/@46.7159274,-1.9760627,251m/data=!3m1!1e3">plan</a><br/>
+         <a href="https://www.cadoc.fr/cslv85/archives/2022/07/pique-nique-saint-hilaire.jpg">
+           <img src="https://www.cadoc.fr/cslv85/archives/2022/07/pique-nique-saint-hilaire.jpg" width="640px"/>
+         </a>
+         </center>
+       </p>
+     </Verbatim>
+   </Evenement>
+    
+  <Evenement Afficher="non">
      <Ancre>aizenay</Ancre>
      <Titre>Happy apéro/ pique-nique<br/>Vendredi 8 juillet 2022 à partir de 18H30<br/>Aizenay</Titre>
      <Presentation>
@@ -12,7 +189,7 @@
      </Verbatim>
    </Evenement>  
      
-  <Evenement Afficher="oui">
+  <Evenement Afficher="non">
      <Ancre>pique-nique</Ancre>
      <Titre>Samedi 9 Juillet 2022 - 12h<br/>La Roche sur Yon<br/>Pique-nique</Titre>
      <Presentation>
@@ -47,7 +224,7 @@
      </Verbatim>
    </Evenement>  
 
-   <Evenement Afficher="oui">
+   <Evenement Afficher="non">
       <Ancre>niort</Ancre>
       <Titre>Samedi 9 juillet 2022 - 14h30<br/>Niort<br/>Conférence sur les effets indésirables post-vaccination covid19</Titre>
       <Presentation>
@@ -333,7 +510,7 @@ Le samedi 26 février 2022 dans la salle communale de Petosse (85570)</Titre>
     </Verbatim>
   </Evenement>
 
-  <Evenement Afficher="oui">
+  <Evenement Afficher="non">
     <Ancre>chansons-positives</Ancre>
     <Titre>Chansons positives - La Roche Sur Yon - Chaque dernier samedi du mois à 15h</Titre>
     <Presentation>

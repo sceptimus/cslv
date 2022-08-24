@@ -368,6 +368,27 @@
       <Ajout>2020-04-12</Ajout>
     </Video>
     <Video>
+      <Titre>Faut s'réveiller</Titre>
+      <Duree>
+        <H>-</H>
+        <M>3</M>
+        <S>35</S>
+      </Duree>
+      <Langue>langue</Langue>
+      <Intervenants>
+        <Nom>Xavier Dominguez</Nom>
+      </Intervenants>
+      <Rubrique>Décalé</Rubrique>
+      <Page>
+        <Lien>https://www.youtube.com/watch?v=w1E3F2aT_V8&amp;feature=youtu.be</Lien>
+      </Page>
+      <Presentation>
+        <p>«Faut s'réveiller»: une chanson de Xavier Dominguez sur la crise covid, la manipulation par la propagande médiatique, le contrôle numérique etc.</p>
+        <p>Bravo à ces artistes très peu relayés mais pas complices.</p>
+      </Presentation>
+      <Ajout>2022-08-05</Ajout>
+    </Video>
+    <Video>
       <Titre>Vaccination obligatoire : examen d’un amendement</Titre>
       <Duree>
         <H>-</H>
@@ -1659,6 +1680,52 @@
       </Presentation>
       <Ajout>2022-05-30</Ajout>
       <Publication>2022-05-26</Publication>
+    </Video>
+    <Video>
+      <Titre>CSI n°62: Dr Erik Loridan, les masques - Quels fondements scientifiques ?</Titre>
+      <Duree>
+        <H>1</H>
+        <M>35</M>
+        <S>31</S>
+      </Duree>
+      <Langue>langue</Langue>
+      <Intervenants>
+        <Nom>Erik Loridan</Nom>
+      </Intervenants>
+      <Rubrique>Santé</Rubrique>
+      <Tag>masque</Tag>
+      <Page>
+        <Lien>https://crowdbunker.com/v/PB9hobdK</Lien>
+      </Page>
+      <Presentation>
+        <p>À quoi sert-il d'imposer le masque à des gens en bonne santé, peut-être pas à ce que vous croyez... (l'exposé du Dr Erik Loridan, chirurgien, commence à 13' 15''). À compléter avec ces <a href="https://www.covidhub.ch/plus-de-150-etudes-comparatives-et-articles-montrent-linefficacite-et-les-effets-nefastes-du-masque/">167 études et articles scientifiques</a>.</p>
+      </Presentation>
+      <Ajout>2022-07-16</Ajout>
+      <Publication>2022-07-10</Publication>
+    </Video>
+    <Video>
+      <Titre>Le Dr Grégory Pamart, suspendu, convoqué par l'Ordre pour avoir porté secours à un patient</Titre>
+      <Duree>
+        <H>-</H>
+        <M>14</M>
+        <S>26</S>
+      </Duree>
+      <Langue>langue</Langue>
+      <Intervenants>
+        <Nom>Grégory Pamart</Nom>
+        <Nom>André Bercoff</Nom>
+      </Intervenants>
+      <Rubrique>Santé</Rubrique>
+      <Tag>conseil de l'ordre</Tag>
+      <Tag>intimidation</Tag>
+      <Page>
+        <Lien>https://www.youtube.com/watch?v=2f6YZ-gikkw</Lien>
+      </Page>
+      <Presentation>
+        <p>Les conseils départementaux du conseil de l'ordre sont semble-t-il lancés cet été 2022 dans une chasse aux sorcières ayant pour but d'intimider les médecins qui ont cru agir pour le bien de leurs patients en leur proposant des traitements ou des prises en charge contre la covid dans le respect du serment d'Hippocrate. L'histoire du Dr Gregory Pamart, suspendu, et qui est venu au secours d'un patient, est édifiante. Au vu des événements l'on a bien du mal à comprendre ce qui peut lui être reproché.</p>
+        <p>C'est à se demander si le conseil de l'ordre trouve qu'il y a trop de médecins en exercice. Dans d'autres convocations ou menaces de convocation concernant l'association de traitements tels que Ivermectine et Azithromycine, l'on aimerait bien savoir sur quelles bases scientifiques le conseil de l'ordre pourrait se justifier...</p>
+      </Presentation>
+      <Ajout>2022-08-06</Ajout>
     </Video>
   </Ressources>
 </Bibliotheque>
