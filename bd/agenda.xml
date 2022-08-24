@@ -1,6 +1,6 @@
 <Evenements>
 
-   <Evenement Afficher="oui">
+   <Evenement Afficher="non">
       <Ancre>les-sables</Ancre>
       <Titre>Vendredi 5 août 2022 - 18h30<br/>les Sables<br/>Happy apéro/ pique nique</Titre>
       <Presentation>
@@ -16,7 +16,7 @@
       </Verbatim>
     </Evenement>     
 
-    <Evenement Afficher="oui">
+    <Evenement Afficher="non">
        <Ancre>sainte-hermine</Ancre>
        <Titre>Samedi 6 août 2022 - 12h<br/>Sainte Hermine<br/>Happy apéro/ pique nique</Titre>
        <Presentation>
@@ -28,7 +28,7 @@
        </Verbatim>
      </Evenement>      
 	    
-   <Evenement Afficher="oui">
+   <Evenement Afficher="non">
       <Ancre>venansault</Ancre>
       <Titre>Dimanche 7 août 2022 - 10h<br/>Parc de Venansault<br/>Réunion / pique-nique</Titre>
       <Presentation>
@@ -50,7 +50,7 @@
       </Verbatim>
     </Evenement>
     
-    <Evenement Afficher="oui">
+    <Evenement Afficher="non">
        <Ancre>Montaigu</Ancre>
        <Titre>Vendredi 19 août 2022 - 18h30<br/>Montaigu, Parc du Val d’Asson<br/>Happy apéro/ pique nique</Titre>
        <Presentation>
@@ -63,12 +63,19 @@
 
      <Evenement Afficher="oui">
         <Ancre>Lucon</Ancre>
-        <Titre>Vendredi 26 août 2022 - 18h30<br/>Luçon, Parc du Val d’Asson<br/>Happy apéro/ pique nique</Titre>
+        <Titre>Vendredi 26 août 2022 - 18h30<br/>Domaine des Guifettes, Rue de la Clairaye, Luçon<br/>Happy apéro/ pique nique</Titre>
         <Presentation>
-          Happy apéro/ pique nique, vendredi 26 août à partir de 18h30, Luçon, proposé par la Ronde étoilée
+          Happy apéro/ pique nique, vendredi 26 août à partir de 18h30, Domaine des Guifettes, Rue de la Clairaye, Luçon, proposé par la Ronde étoilée
         </Presentation>
         <Verbatim>
-          <p>Détails à venir</p>
+           <p>En rentrant dans le village vacances, passer le rond point et prenez en face la rue avec la pancarte ULM, puis filer environ 1 km en passant devant les mobils home saisonniers puis camping, puis devant les bases modélisme et ULM. vous arrivez devant le lac, il y a une rambarde en bois a gauche où je mettrai un drapeau jaune et vert pour passer par la attention au fond petit fossé de 20 cm, sur le parking, qui peut accueillir environ 100 véhicules. Merci de respecter la limitation de vitesse de 10 km à l'aller comme au retour car il y a des enfants, et pas mal d'animaux sur le site. Pour ceux qui voudraient laisser leur véhicules sur les deux parkings avant L'entrée du village vacances, c'est possible mais vous aurez à marcher 1.5 km après. les barrières ferment à 23h30. Il y a seulement trois tables de pique nique.</p>			
+          <p>
+            <center>			
+            <a href="https://www.cadoc.fr/cslv85/archives/2022/08/pique-nique-lucon.png">
+              <img src="https://www.cadoc.fr/cslv85/archives/2022/08/pique-nique-lucon.png" width="640px"/>
+            </a>			
+          </center>
+          </p>
         </Verbatim>
       </Evenement>     
 
