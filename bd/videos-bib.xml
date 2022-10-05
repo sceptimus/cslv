@@ -100,23 +100,6 @@
       <Publication>2021-01-10</Publication>
     </Video>
     <Video>
-      <Titre>Témoignage d'un habitant des Sables sur la date butoire du 15 septembre</Titre>
-      <Duree>
-        <H>-</H>
-        <M>17</M>
-        <S>21</S>
-      </Duree>
-      <Rubrique>Vendée</Rubrique>
-      <Tag>témoignage</Tag>
-      <Page>
-        <Lien>https://m.facebook.com/story.php?story_fbid=4583691028331793&amp;id=100000728221300</Lien>
-      </Page>
-      <Presentation>
-        <p>Réflexion sur les conséquences des décisions absurdes empêchant les soignants non vaccinés d'exercer et les enfants de faire du sport</p>
-      </Presentation>
-      <Ajout>2021-09-16</Ajout>
-    </Video>
-    <Video>
       <Titre>Le Danger des Vaccins Covid !</Titre>
       <Duree>
         <H>-</H>
@@ -1751,6 +1734,74 @@
       </Presentation>
       <Ajout>2022-08-24</Ajout>
       <Publication>2022-05-25</Publication>
-    </Video>	
+    </Video>
+    <Video>
+      <Titre>11 technologies alternatives pour vivre en totale autonomie</Titre>
+      <Duree>
+        <H>-</H>
+        <M>44</M>
+        <S>56</S>
+      </Duree>
+      <Rubrique>Autonomie</Rubrique>
+      <Tag>écologie</Tag>
+      <Tag>auto-construction</Tag>
+      <Page>
+        <Lien>https://youtu.be/edYQAHTF0Mk</Lien>
+      </Page>
+      <Presentation>
+        <p>Connaissez-vous le bio digesteur ? La douche à recyclage ? Le chauffage à air solaire ? Les conserves lactofermentées ? La phytoépuration des eaux usées ? Le poelito ? La culture de spyruline ? Le Bokashi ? Alors regardez ces démonstrations instructives et retrouvez les tutoriels pour les réaliser sur le wiki du <a href="https://wiki.lowtechlab.org/wiki/Group:Low-tech_Lab">Low-tech Lab</a>. Vidéo réalisée lors d'une expo à Paris en 2018 qui n'a pas perdu de son actualité.</p>
+      </Presentation>
+      <Ajout>2022-10-05</Ajout>
+      <Publication>2018-10-19</Publication>
+    </Video>
+    <Video>
+      <Titre>L'optogénétique : contrôler le vivant par la lumière</Titre>
+      <Duree>
+        <H>-</H>
+        <M>18</M>
+        <S>13</S>
+      </Duree>
+      <Intervenants>
+        <Nom>Cercle Cobalt</Nom>
+      </Intervenants>
+      <Rubrique>Science</Rubrique>
+      <Tag>optogénétique</Tag>
+      <Tag>expérimentation</Tag>
+      <Tag>neurosciences</Tag>
+      <Tag>biologie cellulaire</Tag>
+      <Page>
+        <Lien>https://youtu.be/3NX-4jnLKGI</Lien>
+      </Page>
+      <Presentation>
+        <p>Association de l'optique et de la génétique pour contrôler des processus intra-cellulaire par la lumière, y compris contrôler l'activation de neurones. Le mode de mise en place des dispositifs opto-génétiques dans les cellules du corps par l'utilisation d'adénovirus inactivés et d'ARN messager n'est pas sans rappeler certains procédés présentés comme l'unique solution par certains pour nous sortir du Covid19....</p>
+      </Presentation>
+      <Ajout>2022-10-05</Ajout>
+      <Publication>2021-04-12</Publication>
+    </Video>
+    <Video>
+      <Titre>Il faut manipuler 2 émotions pour obtenir une soumission psychique</Titre>
+      <Duree>
+        <H>-</H>
+        <M>58</M>
+        <S>55</S>
+      </Duree>
+      <Intervenants>
+        <Nom>Ariane Bilheran</Nom>
+        <Nom>Vincent Pavan</Nom>
+      </Intervenants>
+      <Rubrique>Philosophie</Rubrique>
+      <Tag>totalitarisme</Tag>
+      <Tag>entretien</Tag>
+      <Tag>transhumanisme</Tag>
+      <Page>
+        <Lien>https://youtu.be/pip2cSV1lMw</Lien>
+      </Page>
+      <Presentation>
+        <p>Retour sur les méthodes mises en oeuvre pour déclencher la psychose de masse Covid en particuliers à travers la corruption de la science et l'inversion du langage. Mise en lumière des ambitions sombres du transhumanisme à la sauce Davos dont on peut se demander s'il ne flirte pas avec le projet nazi via sa proposition de création d'un surhomme.</p>
+        <p>Entretien à compléter par la lecture du livre <a href="https://www.librairie-agora.com/livre/9782813226587-le-debat-interdit-langage-covid-et-totalitarisme-ariane-bilheran-vincent-pavan/">Le débat interdit : langage, Covid et totalitarisme</a> publié en Mars 2022.</p>
+      </Presentation>
+      <Ajout>2022-10-05</Ajout>
+      <Publication>2022-08-01</Publication>
+    </Video>    
   </Ressources>
 </Bibliotheque>

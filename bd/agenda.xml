@@ -1,4 +1,41 @@
 <Evenements>
+  
+  <Evenement Afficher="oui">
+     <Ancre>la-roche</Ancre>
+     <Titre>Vendredi 2 septembre 2022 - 18h30<br/>La Roche Sur Yon, Maison de quartier du Val D’Ornay<br/>Happy apéro/ pique nique</Titre>
+     <Presentation>
+       Dernier Happy apéro/ pique nique pour cette saison estivale, proposé par le CSLV 85, Un Nôtre Monde 85 et la Ronde étoilée.
+     </Presentation>
+     <Verbatim>
+       <p>C’est avec un peu de tristesse que nous vous invitons sur le dernier Happy apéro/ pique nique, pour cette saison estivale, le vendredi 2 septembre à partir de 18H30, Maison de quartier du Val D’Ornay, La Roche S/Yon.</p>
+       <p>9 Rue Charles Péguy, vous pouvez vous stationner après le parking, derrière la maison de quartier, après le kiosque, nous nous installerons, suivant la météo, sous les arbres où il y a quelques tables ou à coté au soleil</p>
+       <p>Un grand merci à vous tous, pour ces merveilleux moments de convivialités et de partage.</p>
+       <p>
+         <center>			
+         <a href="https://www.cadoc.fr/cslv85/archives/2022/09/pique-nique-val-ornay.jpg">
+           <img src="https://www.cadoc.fr/cslv85/archives/2022/09/pique-nique-val-ornay.jpg"/>
+         </a>			
+       </center>
+       </p>       
+     </Verbatim>
+   </Evenement>        
+  
+   <Evenement Afficher="oui">
+      <Ancre>franc-libre</Ancre>
+      <Titre>Samedi 10 septembre 2022 - 10h<br/>Moulins (canton de Mauléon 79)<br/>Réunion d'information</Titre>
+      <Presentation>
+        Des membres du CSLV 85 nous informent d'une réunion d'information sur « Le Franc Libre » organisé par les CSP (comité de Salut du Peuple) à Moulins (79), le samedi 10 septembre 2022 à 10h.
+      </Presentation>
+      <Verbatim>
+        <p>Consultez la 
+        <a href="https://www.cadoc.fr/cslv85/archives/2022/09/note-reunion-franc-libre.pdf">note d'information
+          <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
+        </a>
+        </p>
+        <p>Consultez le livre blanc sur « Le Franc Libre » depuis la page des <a href="https://www.comitedesalutpublic.fr/actions13f0db9e">rencontres régionales</a> (lien "Télécharger le projet de Livre Blanc" en haut de la page) du <a href="https://www.comitedesalutpublic.fr">CSP</a>.</p>
+        <p>PS: l'horaire a été avancé à 10h pour permettre à ceux qui le souhaitent de se rendre ensuite à Cholet pour la reprise des rassemblements.</p>        
+      </Verbatim>
+    </Evenement>       
 
    <Evenement Afficher="non">
       <Ancre>les-sables</Ancre>
@@ -61,7 +98,7 @@
        </Verbatim>
      </Evenement>     
 
-     <Evenement Afficher="oui">
+     <Evenement Afficher="non">
         <Ancre>Lucon</Ancre>
         <Titre>Vendredi 26 août 2022 - 18h30<br/>Domaine des Guifettes, Rue de la Clairaye, Luçon<br/>Happy apéro/ pique nique</Titre>
         <Presentation>
@@ -79,21 +116,9 @@
         </Verbatim>
       </Evenement>     
 
-      <Evenement Afficher="oui">
-         <Ancre>la-roche</Ancre>
-         <Titre>Vendredi 2 septembre 2022 - 18h30<br/>La Roche Sur Yon, parc de l’Ornay<br/>Happy apéro/ pique nique</Titre>
-         <Presentation>
-           Happy apéro/ pique nique, vendredi 2 septembre à partir de 18h30, La Roche Sur Yon, parc de l’Ornay, proposé par la Ronde étoilée
-         </Presentation>
-         <Verbatim>
-           <p>Détails à venir</p>
-         </Verbatim>
-       </Evenement>        
-	   
-
        <Evenement Afficher="oui">
          <Ancre>chansons-positives</Ancre>
-         <Titre>Chansons positives - La Roche Sur Yon - Samedi 30 juillet 2022 à 15h<br/>Chaque dernier samedi du mois à 15h</Titre>
+         <Titre>Chansons positives - La Roche Sur Yon<br/>Chaque dernier samedi du mois à 15h</Titre>
          <Presentation>
            <p>Des membres du comité qui participent à un Cercle du bonheur nous informent qu'ils ont décidé de renouveler périodiquement l'action de chanter sur la place Napoléon des chansons positives sur la liberté, l'amour, la joie, et des mantras, comme action joyeuse.</p>
            <p>Ces rendez-vous se répètent tous les mois depuis Février 2022 (et les rendez-vous précédents du Samedi 29 Janvier 2022, du Samedi 27 Novembre 2021 et du dimanche 12 décembre 2021) à l'emplacement du sapin de Noël - <b>place Napoléon</b> - La Roche Sur Yon, chaque <b>dernier</b> samedi du mois.</p>

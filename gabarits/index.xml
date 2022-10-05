@@ -139,25 +139,16 @@
         <div id="avis">
           <div class="border" style="margin-bottom:20px">
           <h3 class="caps">Actions en Cours</h3>
-          <div class="info">
-			<p>Happy apéro/ pique nique, <a href="evenements.html#lucon">Domaine des Guifettes, Rue de la Clairaye, Luçon</a>, vendredi 26 août à partir de 18h30.</p>
-           </div>
+          <!-- <div class="info">
+            <p>Réunion d'information sur le Franc Libre, <a href="evenements.html#franc-libre">Moulins (canton de Mauléon 79)</a>, samedi 10 septembre à partir de 10h. <i>Réunion initialement annoncée à Ambillou-Château (49), le samedi 3 septembre à partir de 14h, puis reportée.</i></p>
+           </div> -->
           <!-- 
-            <div class="info">
-              <p>Action <a href="actions.html#coeur">Coeur Liberté</a> pour mobiliser pour les élections.</p>            
-            </div>
             <div class="info">
             <p>Participez à l'<a href="actions.html#llmp">action d'information aux professionnels de la santé, élus et responsables de la sécurité des citoyens</a> basée sur la publication du 1.12.2021 <a href="https://stopcovid19.today/wp-content/uploads/2021/12/llmp-informations_covid19-Fr-2021-12-01.pdf">
                                 <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/>
                             </a> du collectif « Laissons Les Médecins Prescrire » - LLMP.
             </p>
           </div> -->
-          <!-- <div class="info">
-             <p>Participez à la <a href="actions.html#sommation-interpellative-pdl-21">Sommation interpellative envers le recteur de la région académique des Pays de la Loire</a>. Si vous souhaitez contester des abus sur le port du masque à l'école, vous pouvez également être intéressé par cette <a href="outils.html#2">boite à outils</a>.</p>
-           </div> -->
-          <div class="info">
-            <p><a href="actions.html#caravane">La caravane passe !</a> initiative itinérante en Juillet/Août en Vendée pour sensibiliser la population sur différents risques, mais surtout sur l’anticipation de ceux-ci.</p>
-           </div>
            <div class="info">
              <p>Participez à un <a href="https://mamanslouves.com">sondage des Mamans Louves</a> <a href="https://www.cadoc.fr/cslv85/archives/2021/affichettes/sondage-mamans-louves.pdf">
                                  <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> pour aider à protéger les enfants en alertant les autorités. Lisez aussi le <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">communiqué de presse</a> <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">
@@ -168,8 +159,8 @@
               <p>Participez à des <a href="actions.html#les-essentiels">témoignages photo</a> en soutien au personnel soignant ainsi qu'à toutes les personnes pénalisées par le pass sanitaire.</p>
              </div>
              <div class="info">
-               <p>Recensement d'<a href="victimes.html">articles de presse régionale</a> sur des morts subites ou des malaises non expliqués.</p>
-              </div>                         
+               <p>Recensement d'<a href="victimes.html">articles de presse régionale</a> sur des morts subites ou des malaises non expliqués (recension arrêtée fin Juin 2022).</p>
+              </div>
              <div class="info">
                  <h3>Documents en téléchargement</h3>
                  <ul class="telechargement">

@@ -1786,5 +1786,50 @@
       <Ajout>2022-08-06</Ajout>
       <Publication>2022-08-06</Publication>
     </Article>
+    <Article>
+      <Titre>Vaccins : la mise en garde du Royaume-Uni pour les femmes enceintes</Titre>
+      <Auteurs>
+        <Nom>Jean-Marc Sabatier</Nom>
+      </Auteurs>
+      <Source>contre-pouvoir.info</Source>
+      <Rubrique>Effets secondaires</Rubrique>
+      <Tag>femmes enceintes</Tag>
+      <Page>
+        <Lien>https://contre-pouvoir.info/2022/08/vaccins-la-mise-en-garde-du-royaume-uni-pour-les-femmes-enceintes/</Lien>
+      </Page>
+      <Presentation>
+        <p>À la mi-août 2022, la presse prétendait que les vaccins à ARNm étaient ‘’sans danger pour les femmes enceintes’’. Or, dans un rapport officiel, le Royaume-Uni affirme le contraire.</p>
+      </Presentation>
+      <Ajout>2022-09-02</Ajout>
+      <Publication>2022-08-30</Publication>
+    </Article>
+    <Article>
+      <Titre>CHU de Bordeaux : une ex-cheffe de pôle condamnée pour prise illégale d’intérêts</Titre>
+      <Auteurs>
+        <Nom>Yann Saint-Sernin</Nom>
+      </Auteurs>
+      <Source>SudOuest</Source>
+      <Rubrique>Juridique</Rubrique>
+      <Tag>condamnation</Tag>
+      <Tag>conflits d'intérêt</Tag>
+      <Page>
+        <Lien>https://www.sudouest.fr/gironde/bordeaux/chu-de-bordeaux-une-ex-cheffe-de-pole-condamnee-pour-prise-illegale-d-interets-12399506.php</Lien>
+        <Lien>lien</Lien>
+      </Page>
+      <Presentation>
+        <p>Les faits sont antérieurs à 2018 mais ils mettent en évidence les conflits d'intérêts non déclarés entre le personnel médical et l'industrie pharmaceutique. Voir aussi l'article de FranceSoir pour les <a href="https://www.francesoir.fr/societe/chu-de-bordeaux-l-ex-presidente-de-la-commission-des-produits-de-sante-condamnee-pour-prise">détails</a>.</p>
+      </Presentation>
+      <Ajout>2022-10-05</Ajout>
+      <Publication>2022-10-03</Publication>
+      <Serie>
+        <Article>
+          <Titre>CHU de Bordeaux: l’ex-présidente de la Commission des produits de santé condamnée pour prise illégale d’intérêts</Titre>
+          <Page>
+            <Lien>https://www.francesoir.fr/societe/chu-de-bordeaux-l-ex-presidente-de-la-commission-des-produits-de-sante-condamnee-pour-prise</Lien>
+          </Page>
+          <Publication>2022-10-05</Publication>
+        </Article>
+      </Serie>
+    </Article>
   </Ressources>
 </Bibliotheque>
