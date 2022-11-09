@@ -196,7 +196,7 @@ class JukeBox {
       function() {
         var n = $(this),
             h = n.attr('href');
-        $(' <a href="' + 'https://www.cadoc.fr/cslv85/archives' + h + '"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom;margin-left:10px"/></a>')
+        $(' <a href="' + 'https://www.cslv.fr/site/archives' + h + '"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom;margin-left:10px"/></a>')
             .insertAfter(n);
       }
     );    

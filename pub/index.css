@@ -61,9 +61,9 @@ span.outil {
 /* style spécique */
 /******************/
 
-span.doc {
+/*span.doc {
  white-space: nowrap;
-}
+}*/
 .blink1 {
   -webkit-animation: 0.8s linear infinite condemed_blink_effect; // pour Safari 4.0-8.0
   animation: 0.8s linear infinite condemed_blink_effect;

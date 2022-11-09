@@ -150,8 +150,8 @@
             </p>
           </div> -->
            <div class="info">
-             <p>Participez à un <a href="https://mamanslouves.com">sondage des Mamans Louves</a> <a href="https://www.cadoc.fr/cslv85/archives/2021/affichettes/sondage-mamans-louves.pdf">
-                                 <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> pour aider à protéger les enfants en alertant les autorités. Lisez aussi le <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">communiqué de presse</a> <a href="https://www.cadoc.fr/cslv85/archives/2022/01/communique-mamans-louves.pdf">
+             <p>Participez à un <a href="https://mamanslouves.com">sondage des Mamans Louves</a> <a href="https://www.cslv.fr/site/archives/2021/affichettes/sondage-mamans-louves.pdf">
+                                 <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> pour aider à protéger les enfants en alertant les autorités. Lisez aussi le <a href="https://www.cslv.fr/site/archives/2022/01/communique-mamans-louves.pdf">communiqué de presse</a> <a href="https://www.cslv.fr/site/archives/2022/01/communique-mamans-louves.pdf">
                                  <img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a> en réponse à la grève de l'éducation nationale du 13 janvier 2022. Voir aussi leur mise en garde de Juin 2022 sur la <a href="https://mamanslouves.com/vaccination/">vaccination des enfants</a>.
              </p>
             </div>
@@ -166,6 +166,10 @@
                  <ul class="telechargement">
 {
 let $docs := <docs>
+    <doc>
+        <source>/2022/09/dgs-urgent-n2022-69-evolution-esms-fin-eus.pdf</source>
+        <titre>Fin de l'exigence du passe sanitaire pour l’accès aux établissements et services de santé et médico-sociaux depuis le 1er août 2022</titre>
+    </doc>
     <doc>
         <source>/2022/07/GrandJury2Fr-resume.pdf</source>
         <titre>Résumé en français de 85 pages du Grand Jury mené par R. Fuellmich</titre>
@@ -260,10 +264,10 @@ return
              <p>Instant vérité sur LCI avec M. Bruno Retailleau dans l'<a href="https://www.tf1info.fr/replay-lci/video-bruno-retailleau-l-interview-politique-du-mercredi-22-juin-2223954.html">interview politique</a> du 22 juin 2022  
                 : <i>le passe vaccinal dans les faits je pense qu'il n'a pas servi à grand chose...</i></p>
              <div style="text-align:center">
-                <video src="https://www.cadoc.fr/cslv85/archives/2022/06/lci-je-l-ai-vote.mp4"
+                <video src="https://www.cslv.fr/site/archives/2022/06/lci-je-l-ai-vote.mp4"
                        controls="1">
                      Cette vidéo ne peut être affichée sur votre navigateur Internet.<br/>
-                     Une version est disponible en téléchargement sous <a href="https://www.cadoc.fr/cslv85/archives/2022/06/lci-je-l-ai-vote.mp4">adresse du lien </a>. 
+                     Une version est disponible en téléchargement sous <a href="https://www.cslv.fr/site/archives/2022/06/lci-je-l-ai-vote.mp4">adresse du lien </a>. 
                    </video>
              </div>
           </div>
@@ -366,7 +370,7 @@ return
             <p>Y a-t-il une augmentation du nombre d'accidents cardio-vasculaires dans notre région ou alentours ? Doit-on risquer de mourir ou s'infliger de graves blessures pour un <i>passe sanitaire / vaccinal</i> ou pour conserver son travail ? C'est une question légitime à la lecture de la presse quotidienne. Quand par ailleurs <b>Delfraissy</b> grand inquisiteur en chef du comité <i>scientifique</i> reconnait lui-même que <a href="https://odysee.com/@Stefano:9/Delfraissy-audition-Senat-decembre-2021:a"><b>le passe ne protège pas</b></a>, le 8 décembre face à la Commission des Affaires sociales du Sénat, où est la légitimité pour des maires de restreindre l'accès à des installations publiques, comme ici à la Roche Sur Yon ?</p>
             <p><button id="activerPresse" onclick="javascript:basculerPresse()" class="joli petit">Montrer</button> une liste d'<a href="victimes.html" target="_blank">articles de presse sur des accidents cardiaques ou respiratoires</a> troublants dans le contexte de vaccination massive en pleine épidémie actuel</p>
             <p>Voir aussi cette <a href="https://sportifs-en-danger.fr/liste.pdf">liste limitée aux sportifs amateurs et professionnels</a> (mise à jour quasi quotidienne) ou bien ce flux twitter sur les <a href="https://twitter.com/debarjac1">crises cardiaques chez les footballeur</a> (arrêté au 14 décembre 2021).</p>
-            <!-- (version archivée du 09/01, 796 lignes : <a href="https://www.cadoc.fr/cslv85/archives/2021/02/Liste-sportifs-PROS-ET-AMATEURS.pdf"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a>)  -->
+            <!-- (version archivée du 09/01, 796 lignes : <a href="https://www.cslv.fr/site/archives/2021/02/Liste-sportifs-PROS-ET-AMATEURS.pdf"><img src="img/pdf.png" width="32px" alt="PDF" style="vertical-align:text-bottom"/></a>)  -->
             <div id="contenuPresse" class="cache">
               { local:victimes() }
               <p>N'hésitez pas à envoyer vos liens pour compléter cette liste. Vous pouvez aussi consulter les <a href="https://ansm.sante.fr/actualites/point-de-situation-sur-la-surveillance-des-vaccins-contre-la-covid-19-periode-du-01-10-2021-au-14-10-2021">points de situation</a> de l'ANSM ou le dossier <a href ="biblio.html#victimes">Effet secondaires</a>.</p>

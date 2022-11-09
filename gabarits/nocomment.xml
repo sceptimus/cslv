@@ -32,9 +32,9 @@ document.addEventListener('DOMContentLoaded', function () {{
           <div class="block border">
 
             <p class="nocomment" id="ils"><span class="origin">Nous savons qu'ils mentent, ils savent qu'ils mentent. Ils savent que nous savons qu'ils mentent. Nous savons qu'ils savent que nous savons qu'ils mentent. Et pourtant ils persistent à mentir. <i>Alexandre Soljenitsyne</i></span><br/>
-            <a href="https://www.cadoc.fr/cslv85/archives/2022/images/soljenitsyne-ils.png"><img src="https://www.cadoc.fr/cslv85/archives/2022/images/soljenitsyne-ils.png" width="400px"/></a></p>
-            <p class="nocomment"><img src="https://www.cadoc.fr/cslv85/archives/2022/nocomment/exercice-ecole.jpg" width="600px"/></p>
-            <p class="nocomment"><img src="https://www.cadoc.fr/cslv85/archives/2022/nocomment/passeport.jpg" width="600px"/></p>
+            <a href="https://www.cslv.fr/site/archives/2022/images/soljenitsyne-ils.png"><img src="https://www.cslv.fr/site/archives/2022/images/soljenitsyne-ils.png" width="400px"/></a></p>
+            <p class="nocomment"><img src="https://www.cslv.fr/site/archives/2022/nocomment/exercice-ecole.jpg" width="600px"/></p>
+            <p class="nocomment"><img src="https://www.cslv.fr/site/archives/2022/nocomment/passeport.jpg" width="600px"/></p>
             <p class="nocomment" style="margin: 40px 40px;padding: 20px 40px;border: solid 1px gray;text-align: justify">
               <img src="nocomment/humour.jpg" width="80px" style="padding-right:20px; float:left"/>
               <span style="font-size:105%">              
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {{
             <p class="nocomment" style="margin: 40px 40px;padding: 20px 40px;border: solid 1px gray;text-align: justify"><img src="nocomment/humour.jpg" width="80px" style="padding-right:20px; float:left"/><span style="font-size:105%">Suite au conseil de défense du 15 février 2024, le gouvernement a fait passer en procédure accélérée la loi imposant le déambulateur pour toute personne de plus de 35 ans. Saluons son bilan après 3 mois d'application: baisse de 20% des admissions aux urgences pour fracture des plus de 70 ans. Nos hôpitaux sont soulagés, les directeurs pourront même fermer 10 services d'urgence grâce à cette mesure et renvoyer une centaine d'infirmiers. Par contre le taux de suicide dans la tranche d'âge 35-50 ans a bondi de 80% sur la même période.</span></p>
             <p class="nocomment" style="margin: 40px 40px;padding: 20px 40px;border: solid 1px gray;text-align: justify"><img src="nocomment/humour.jpg" width="80px" style="padding-right:20px; float:left"/><span style="font-size:105%">"L'état de bonne santé est un état précaire qui ne présage rien de bon"</span><b><a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=593.html">Dr Knock</a></b></p>
             <p class="nocomment" id="Marianne"><span class="origin">Marianne macrolysée par les QRCodes</span><br/><i>réalisé par Corine Saint-Blancat (IconoClash)</i> <span style="font-size:50%">cliquez sur l'image pour agrandir</span><br/>
-            <a href="https://www.cadoc.fr/cslv85/archives/2021/galerie/Marianne.jpg"><img src="https://www.cadoc.fr/cslv85/archives/2021/galerie/Marianne.jpg" width="600px"/></a></p>
+            <a href="https://www.cslv.fr/site/archives/2021/galerie/Marianne.jpg"><img src="https://www.cslv.fr/site/archives/2021/galerie/Marianne.jpg" width="600px"/></a></p>
             <p class="nocomment"><span class="origin"><a href="https://t.me/LeGrandReveil">Le Grand Reveil (telegram)</a></span><br/><img src="nocomment/nocomment18.jpg" width="600px"/></p>
             <p class="nocomment"><span class="origin">par le dessinateur australien <a href="https://yetiblog.org/archives/33998">Michael Leuning</a></span><br/><img src="nocomment/nocomment17.jpg" style="margin-top:5px"/></p>
             <p class="nocomment"><a href="visuels/flyer-vaccin-12-17.jpeg"><img src="visuels/flyer-vaccin-12-17.jpeg" width="550px"/></a></p>            
